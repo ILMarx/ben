@@ -465,3 +465,97 @@ tr:last-child td {
     animation: none !important;
   }
 }
+
+.site-shell {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.sidebar {
+  position: sticky;
+  top: 1.5rem;
+}
+
+.side-nav {
+  background: rgba(255, 253, 249, 0.88);
+  border: 1px solid rgba(217, 210, 199, 0.72);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem 1rem;
+}
+
+.side-nav .menu,
+.side-nav .submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-nav .menu > li + li {
+  margin-top: 0.8rem;
+}
+
+.side-nav .menu > li > a {
+  display: block;
+  font-weight: 700;
+  color: var(--heading);
+  text-decoration: none;
+  padding: 0.15rem 0;
+}
+
+.side-nav .menu > li > a:hover,
+.side-nav .menu > li > a:focus {
+  color: var(--accent);
+}
+
+.side-nav .submenu {
+  margin-top: 0.45rem;
+  margin-left: 0.6rem;
+  padding-left: 0.8rem;
+  border-left: 1px solid var(--border);
+}
+
+.side-nav .submenu li + li {
+  margin-top: 0.35rem;
+}
+
+.side-nav .submenu a {
+  display: block;
+  color: var(--text-soft);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.96rem;
+}
+
+.side-nav .submenu a:hover,
+.side-nav .submenu a:focus {
+  color: var(--primary);
+}
+
+.main-content {
+  min-width: 0;
+}
+
+@media (max-width: 900px) {
+  .site-shell {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .sidebar {
+    position: static;
+  }
+
+  .side-nav {
+    padding: 0.9rem 1rem;
+  }
+
+  .side-nav .menu > li + li {
+    margin-top: 0.65rem;
+  }
+}
