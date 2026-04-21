@@ -6,6 +6,30 @@
   <title>Borderland Education Network</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+
+  fetch('https://api.github.com/repos/ILMarx/ben/commits?sha=main&per_page=1')
+    .then(response => response.json())
+    .then(data => {
+      if (Array.isArray(data) && data.length > 0) {
+        const commitDate = data[0].commit.committer.date;
+        const formattedDate = new Intl.DateTimeFormat('en-GB', {
+          day: '2-digit',
+          month: 'long',
+          year: 'numeric'
+        }).format(new Date(commitDate));
+        document.getElementById('last-updated').textContent = formattedDate;
+      } else {
+        document.getElementById('last-updated').textContent = 'Unavailable';
+      }
+    })
+    .catch(() => {
+      document.getElementById('last-updated').textContent = 'Unavailable';
+    });
+</script>
+
 <body>
   <header>
     <div class="hero-panel">
