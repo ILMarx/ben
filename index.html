@@ -6,30 +6,6 @@
   <title>Borderland Education Network</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
-<script>
-  document.getElementById('current-year').textContent = new Date().getFullYear();
-
-  fetch('https://api.github.com/repos/ILMarx/ben/commits?sha=main&per_page=1')
-    .then(response => response.json())
-    .then(data => {
-      if (Array.isArray(data) && data.length > 0) {
-        const commitDate = data[0].commit.committer.date;
-        const formattedDate = new Intl.DateTimeFormat('en-GB', {
-          day: '2-digit',
-          month: 'long',
-          year: 'numeric'
-        }).format(new Date(commitDate));
-        document.getElementById('last-updated').textContent = formattedDate;
-      } else {
-        document.getElementById('last-updated').textContent = 'Unavailable';
-      }
-    })
-    .catch(() => {
-      document.getElementById('last-updated').textContent = 'Unavailable';
-    });
-</script>
-
 <body>
   <header>
     <div class="hero-panel">
@@ -122,8 +98,40 @@
   </div>
 
   <footer>
-  <p>© <span id="current-year"></span> Borderland Education Network. All rights reserved.</p>
-  <p class="footer-meta">Last updated: <span id="last-updated">Loading...</span></p>
-</footer>
+    <p>© 2026 Borderland Education Network. All rights reserved.</p>
+    <p class="footer-meta">Last updated: <span id="last-updated">Loading...</span></p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      fetch('https://api.github.com/repos/ILMarx/ben/commits?per_page=1')
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error('GitHub API error');
+          }
+          return response.json();
+        })
+        .then(function (data) {
+          var target = document.getElementById('last-updated');
+          if (target && Array.isArray(data) && data.length > 0) {
+            var commitDate = data[0].commit.committer.date;
+            var formattedDate = new Intl.DateTimeFormat('en-GB', {
+              day: '2-digit',
+              month: 'long',
+              year: 'numeric'
+            }).format(new Date(commitDate));
+            target.textContent = formattedDate;
+          } else if (target) {
+            target.textContent = 'Unavailable';
+          }
+        })
+        .catch(function () {
+          var target = document.getElementById('last-updated');
+          if (target) {
+            target.textContent = 'Unavailable';
+          }
+        });
+    });
+  </script>
 </body>
 </html>
