@@ -1,0 +1,890 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16038",
+  "scraped_at_utc": "2026-04-21T21:33:22Z",
+  "fetched_at_utc": "2026-04-21T21:33:22Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "d52884b606d613ccb6b52a37403a1075a1bcba4256d7e4bb9b425a0561726fb9",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Lorenza Da Re",
+        "nameType": "Personal",
+        "givenName": "Lorenza Da",
+        "familyName": "Re",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Roberta Bonelli",
+        "nameType": "Personal",
+        "givenName": "Roberta",
+        "familyName": "Bonelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Angelica Bonin",
+        "nameType": "Personal",
+        "givenName": "Angelica",
+        "familyName": "Bonin",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/16038",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-06-20",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-20",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-20",
+      "Issued": "2023-06-20"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This contribution deepens the topic of university tutor training, a fundamental aspect that guarantees an adequate preparation of the figures working in the tutoring services and an effective development of the activities. After an in-depth study of the literature, we present the University of Padua’s tutor training proposal, also reporting some research data. In particular, we explored the expectations and training needs of a.y. 2022-23 tutors before starting the training and their satisfaction and experience at the end of the training. The research involved a “pre-post” administration and the feedback from 98 tutors was analysed. The results confirm the importance of the training to develop knowledge and skills that are fundamental for performing the tutoring role to the best of one’s ability, also demonstrating a high level of satisfaction of the participants with the proposed training activities. Moreover, the data collected represent a fundamental basis for assessing what was offered and for adequately redesigning training actions.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il presente contributo approfondisce il tema della formazione dei tutor universitari[1], aspetto fondamentale per garantire un’adeguata preparazione delle figure che operano nei diversi servizi tutoriali e un efficace sviluppo dell’attività. Dopo aver approfondito la letteratura del settore, si prosegue presentando la proposta di formazione dei tutor dell’Università di Padova, riportando anche alcuni dati di ricerca. In particolare, sono state esplorate le aspettative e i bisogni formativi dei tutor in servizio nell’a.a. 2022-23 prima di iniziare la formazione e la loro soddisfazione ed esperienza a fine percorso formativo. La ricerca ha previsto una somministrazione “pre-post” ed è stato possibile analizzare i riscontri di 98 tutor. I risultati confermano l'importanza della formazione per sviluppare conoscenze e competenze fondamentali per svolgere al meglio il ruolo tutoriale, dimostrando anche un'alta soddisfazione dei partecipanti verso le attività formative proposte. Inoltre, i dati raccolti rappresentano una base fondamentale per valutare quanto offerto e per poter riprogettare opportunamente le azioni formative. [1] Per motivi espositivi e per maggiore scorrevolezza, in questo contributo sarà utilizzato il maschile “i/il tutor”, ma si intende includere tutti i generi. Lo stesso vale per altre parole come “gli studenti”, “i docenti”, “i partecipanti” o simili.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2023oa16038",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "8",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "peer tutoring",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "tutor",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "tutorato universitario",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "formazione degli insegnanti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "università multiculturali",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16038/2294",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "8",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Da Re, L., Bonelli, R., & Bonin, A. (2023). La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova. Excellence and Innovation in Learning and Teaching - Open Access , 8 (1). https://doi.org/10.3280/exioa1-2023oa16038",
+      "articleTitleEcho": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Berta, L., Lorenzini, V., & Torquati, B. (eds.) (2009). Una ricerca-azione sul tutorato nell’Ateneo di Perugia. Milano: FrancoAngeli.",
+        "Biasin, C. (2019). Tutoring accademico: Limiti e possibilità del tutorato all’Università. Formazione, lavoro, persona, 25, 149-157.",
+        "Bonelli, R., Bonin, A., & Da Re, L. (2022). Lo sviluppo delle soft skills dei tutor all’università: bisogni e pratiche formative. In A. La Marca & A. Marzano (eds), Ricerca didattica e formazione insegnanti per lo sviluppo delle Soft Skills. Atti del Convegno Nazionale SIRD. Palermo, 30 giugno, 1 e 2 luglio 2022 (p. 922-937). Collana SIRD. Studi e ricerche sui processi di apprendimento‐insegnamento. Pensa Multimedia.",
+        "Croce, M. (2003). Peer education: un nuovo paradigma per la prevenzione? In M. Croce, La peer education. Lavorare con gli adolescenti nella società del rischio (pp. 5-11), Quaderni di Animazione e Formazione, Torino: EGA.",
+        "Colvin, J. W. (2007). Peer tutoring and social dynamics in higher education. Mentoring & Tutoring: Partnership in Learning, 15(2), 165-181. DOI. 10.1080/13611260601086345.",
+        "Da Re, L. (2012). “Tutor junior” e qualità della didattica. L’esperienza della Facoltà di Scienze della Formazione dell’Università di Padova. ITALIAN JOURNAL OF EDUCATIONAL RESEARCH, 9(5), 120-133.",
+        "Da Re, L. (2013). Selecting and training Junior Tutor: A fruitful programme at the University of Padova, in EDULEARN13 Proceedings CD, Barcelona, Iated, pp. 4397-4408.",
+        "Da Re, L. (2017). Il tutor all’Università: Strategie educative per contrastare il drop-out e favorire il rendimento degli studenti. PensaMultimedia.",
+        "Di Vita, A. (2021). Tutoraggio didattico tra pari a distanza: Una ricerca-intervento svolta con gli studenti universitari. Excellence and Innovation in Learning and Teaching, 2, 74-87. DOI: 10.3280/exioa2-2021oa13020.",
+        "Fabbri, L., & Rossi, B. (eds) (2008). Cultura del lavoro e formazione universitaria. Milano: FrancoAngeli.",
+        "Fabbris, L. (2009) (Eds). I servizi a supporto degli studenti universitari. CLEUP.",
+        "Gemma, C. (2011). La pratica tutoriale: l’esperienza barese. In L. Galliani (eds), Il Docente Universitario. Una professione tra ricerca, didattica e governance degli atenei (pp. 3-9). Atti della VIII Biennale Internazionale sulla Didattica Universi-taria, Padova, 2 e 3 dicembre 2010. Lecce: Pensa MultiMedia.",
+        "Guerra-Martín, M. D., Lima-Serrano, M., & Lima-Rodríguez, J. S. (2017). Effective-ness of Tutoring to Improve Academic Performance in Nursing Students at the University of Seville. Journal of New Approaches in Educational Research, 6(2), 93-102. DOI: 10.7821/naer.2017.7.201.",
+        "Lave, J. & Wenger E. (1991). Situated Learning: Legitimate Peripheral Participa-tion, Cambridge: Cambridge University Press.",
+        "Lucangeli, D., Mirandola, A., De Gasperi, M., Rota, G., Vanin, C., & Zago, P. (2009). Il bisogno di orientamento prima, durante e dopo gli studi. In L. Fabbris (Eds), I servizi a supporto degli studenti universitari (pp. 107-138). Cleup.",
+        "Mazzeschi, C., Bonucci, S., Santi, C., Fallarino, F., Fiorio, C., Mesina, U., & Torquati, B. (2008). Attività di tutorato nell’Ateneo di Perugia. Cap. 3. In L. Berta, V. Lorenzini, & B. Torquati (eds), Una ricerca azione sul tutorato nell’ateneo di Perugia. Milano: FrancoAngeli.",
+        "Mortari, L. (2006). La pratica dell'aver cura. Milano: Mondadori.",
+        "Passalacqua, F., & Zuccoli, F. (2021). Il tutorato delle matricole nel contesto dell’università a distanza. Formazione, lavoro, persona, 33, 187-215.",
+        "Roidi, M. M. (2015). Tutor Training Procedures in Higher Education: Creating a Community of Lifelong Learners. Synergy: The online Journal for the Association for the Tutoring Profession, 7, 1-17.",
+        "Rossi, A. A., & Bonfà, A. (2020). I servizi UNIGE di tutorato matricole: Un intervento di sistema. Lifelong Lifewide Learning, 16(35), 174-186. DOI: 10.19241/lll.v16i35.508.",
+        "Saburovna, S. M., & Rajabboevna, A. N. (2022). The role of tutoring in higher educa-tion and improving the student’s academic success. Ta’lim fidoyilari, 13-10, 219-221.",
+        "Scandella, O. (2007). Interpretare la tutorship. Nuovi significati e pratiche nella scuola dell’autonomia. Milano: FrancoAngeli.",
+        "Semeraro, R. (2011). L’analisi qualitativa dei dati di ricerca in educazione. Italian Journal of Educational Research, 4(7), 97-106. Retrieved from https://ojs.pensamultimedia.it/index.php/sird/article/view/267.",
+        "Spadola, M., Cortini, C., Bertozzi, L., Tani, C., Santucci, G., Genovese, V., Campolat-tano, A., Cremonini, V., Villa, M., Sebastiani, G., Tonelli, R., & Ceccarelli, C. (2020). Il tutor di tirocinio per le professioni sanitarie: Un progetto di formazione continua nell’Azienda Usl della Romagna. Tutor, 20(1), 29-46.",
+        "Sitografia (ultimo accesso 15 maggio 2023)",
+        "Avviso di selezione 2022-23 progetti sperimentali e di supporto UNIPD: https://www.unipd.it/sites/unipd.it/files/2022/2.%20Bando_TutorProgetti_2022.docx.pdf.",
+        "Avviso di selezione 2022/23 Tutor Inclusione UNIPD: https://www.unipd.it/sites/unipd.it/files/2022/3.%20Bando_TutorInclusione_2022.docx.pdf.",
+        "Avviso di selezione 2022/23 Tutorato Informativo e Didattico UNIPD: https://www.unipd.it/sites/unipd.it/files/2021/1.%20Bando_TutorCorsi_2022.docx.pdf.",
+        "SCUP unipd: https://scup.unipd.it/."
+      ],
+      "count": 29,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_16038",
+    "article_ID": "16038",
+    "slug": "16038",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "16038",
+      "url_slug": "16038"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Practices and results of a proposal for university tutor training at the University of Padua",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-06-12",
+      "accepted": null,
+      "created": "2023-06-20",
+      "modified": "2023-06-20",
+      "issued": "2023-06-20",
+      "available": "2023-06-20",
+      "submitted_page": "2023-06-12",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+        "pdf_value": null,
+        "chosen_value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-06-12",
+        "pdf_value": null,
+        "chosen_value": "2023-06-12",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16038/2294",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16038/2294",
+      "local_relative_path": "2499-507X_16038.pdf",
+      "saved": true,
+      "sha256": "6e7e8e7c370e2ac9882c6a653c8c407c00e4c1be1636c4d85130cafe2f492faf",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1150552,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Lorenza Da Re",
+        "Roberta Bonelli",
+        "Angelica Bonin"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/06/20"
+      ],
+      "citation_volume": [
+        "8"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2023oa16038"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16038"
+      ],
+      "citation_keywords": [
+        "peer tutoring",
+        "tutor",
+        "tutorato universitario",
+        "formazione degli insegnanti",
+        "università multiculturali"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/16038/2294"
+      ],
+      "citation_reference_count": 29,
+      "DC.Date.created": [
+        "2023-06-20"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-06-12"
+      ],
+      "DC.Date.issued": [
+        "2023-06-20"
+      ],
+      "DC.Date.modified": [
+        "2023-06-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "16038"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2023oa16038"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16038"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "8"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova"
+      ],
+      "DC.Title.Alternative": [
+        "Practices and results of a proposal for university tutor training at the University of Padua"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Lorenza Da Re",
+        "Roberta Bonelli",
+        "Angelica Bonin"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Lorenza Da Re",
+        "Roberta Bonelli",
+        "Angelica Bonin"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This contribution deepens the topic of university tutor training, a fundamental aspect that guarantees an adequate preparation of the figures working in the tutoring services and an effective development of the activities. After an in-depth study of the literature, we present the University of Padua’s tutor training proposal, also reporting some research data. In particular, we explored the expectations and training needs of a.y. 2022-23 tutors before starting the training and their satisfaction and experience at the end of the training. The research involved a “pre-post” administration and the feedback from 98 tutors was analysed. The results confirm the importance of the training to develop knowledge and skills that are fundamental for performing the tutoring role to the best of one’s ability, also demonstrating a high level of satisfaction of the participants with the proposed training activities. Moreover, the data collected represent a fundamental basis for assessing what was offered and for adequately redesigning training actions.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This contribution deepens the topic of university tutor training, a fundamental aspect that guarantees an adequate preparation of the figures working in the tutoring services and an effective development of the activities. After an in-depth study of the literature, we present the University of Padua’s tutor training proposal, also reporting some research data. In particular, we explored the expectations and training needs of a.y. 2022-23 tutors before starting the training and their satisfaction and experience at the end of the training. The research involved a “pre-post” administration and the feedback from 98 tutors was analysed. The results confirm the importance of the training to develop knowledge and skills that are fundamental for performing the tutoring role to the best of one’s ability, also demonstrating a high level of satisfaction of the participants with the proposed training activities. Moreover, the data collected represent a fundamental basis for assessing what was offered and for adequately redesigning training actions."
+          }
+        },
+        {
+          "content": "Il presente contributo approfondisce il tema della formazione dei tutor universitari[1], aspetto fondamentale per garantire un’adeguata preparazione delle figure che operano nei diversi servizi tutoriali e un efficace sviluppo dell’attività. Dopo aver approfondito la letteratura del settore, si prosegue presentando la proposta di formazione dei tutor dell’Università di Padova, riportando anche alcuni dati di ricerca. In particolare, sono state esplorate le aspettative e i bisogni formativi dei tutor in servizio nell’a.a. 2022-23 prima di iniziare la formazione e la loro soddisfazione ed esperienza a fine percorso formativo. La ricerca ha previsto una somministrazione “pre-post” ed è stato possibile analizzare i riscontri di 98 tutor. I risultati confermano l'importanza della formazione per sviluppare conoscenze e competenze fondamentali per svolgere al meglio il ruolo tutoriale, dimostrando anche un'alta soddisfazione dei partecipanti verso le attività formative proposte. Inoltre, i dati raccolti rappresentano una base fondamentale per valutare quanto offerto e per poter riprogettare opportunamente le azioni formative. [1] Per motivi espositivi e per maggiore scorrevolezza, in questo contributo sarà utilizzato il maschile “i/il tutor”, ma si intende includere tutti i generi. Lo stesso vale per altre parole come “gli studenti”, “i docenti”, “i partecipanti” o simili.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il presente contributo approfondisce il tema della formazione dei tutor universitari[1], aspetto fondamentale per garantire un’adeguata preparazione delle figure che operano nei diversi servizi tutoriali e un efficace sviluppo dell’attività. Dopo aver approfondito la letteratura del settore, si prosegue presentando la proposta di formazione dei tutor dell’Università di Padova, riportando anche alcuni dati di ricerca. In particolare, sono state esplorate le aspettative e i bisogni formativi dei tutor in servizio nell’a.a. 2022-23 prima di iniziare la formazione e la loro soddisfazione ed esperienza a fine percorso formativo. La ricerca ha previsto una somministrazione “pre-post” ed è stato possibile analizzare i riscontri di 98 tutor. I risultati confermano l'importanza della formazione per sviluppare conoscenze e competenze fondamentali per svolgere al meglio il ruolo tutoriale, dimostrando anche un'alta soddisfazione dei partecipanti verso le attività formative proposte. Inoltre, i dati raccolti rappresentano una base fondamentale per valutare quanto offerto e per poter riprogettare opportunamente le azioni formative.\n[1] Per motivi espositivi e per maggiore scorrevolezza, in questo contributo sarà utilizzato il maschile “i/il tutor”, ma si intende includere tutti i generi. Lo stesso vale per altre parole come “gli studenti”, “i docenti”, “i partecipanti” o simili."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "peer tutoring",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "peer tutoring"
+          }
+        },
+        {
+          "content": "tutor",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "tutor"
+          }
+        },
+        {
+          "content": "tutorato universitario",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "tutorato universitario"
+          }
+        },
+        {
+          "content": "formazione degli insegnanti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": " formazione degli insegnanti"
+          }
+        },
+        {
+          "content": "università multiculturali",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "università multiculturali"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16038/2294",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16038/2294",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16038/2294",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16038/2294",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16038/2294",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2023-06-19",
+        "mod_date": "2023-06-19"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 1 Doi: 10.3280/exioa1-2023oa16038 La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova Practices and results of a proposal for university tutor training at the University of Padua Lorenza Da Re, Roberta Bonelli, Angelica Bonin* Riassunto Il presente contributo approfondisce il tema della formazione d ei tutor univer- sitari1, aspetto fondamentale per garantire un’adeguata preparazione d elle fi- gure che operano nei diversi servizi tutoriali e un efficace sviluppo dell’attività. Dopo aver approfondito la letteratura del settore, si prosegue presentando la proposta di formazione dei tutor dell’Università di Padova, rip ortando anche alcuni dati di ricerca. In particolare, sono state esplorate le aspettative e i biso- gni formativi dei tutor in servizio nell’a.a. 2022-23 prima di iniziare la forma- zione e la loro soddisfazione ed esperienza a fine percorso formativo. La ricerca ha previsto una somministrazione “pre-post” ed è stato possibile analizzare i riscontri di 98 tutor. I risultati confermano l'importanza dell a formazione per sviluppare conoscenze e competenze fondamentali per svolgere al m e g l i o i l ruolo tutoriale, dimostrando anche un'alta soddisfazione dei pa rtecipanti verso le attività formative proposte. Inoltre, i dati raccolti rappresentano una base fon- damentale per valutare quanto offerto e per poter riprogettare opportunamente le azioni formative. Parole chiave: peer tutoring, tutor, tutorato universitario, formazione, univer- sità. * Università degli Studi di Padova. L’articolo è frutto del lavoro congiunto di tutte le Autrici. Tuttavia, è possibile attribuire il par.1 a Da Re e Bonelli, il par. 3 a Da Re e Bonin, i par. 2 e 5.5 ad Angelica Bonin; il par. 4 e 6 a Lorenza Da Re, i par. 5.1, 5.2, 5.3 a Roberta Bonelli; il par. 5.4 a Bonin e Bonelli. 1 Per motivi espositivi e per maggiore scorrevolezza, in questo contributo sarà utilizzato il maschile “i/il tutor”, ma si intende includere tutti i gener i. Lo stesso vale per altre parole come “gli studenti”, “i docenti”, “i partecipanti” o simili. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\2499-507X_16038.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+        "pdf_value": null,
+        "chosen_value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-06-12",
+        "pdf_value": null,
+        "chosen_value": "2023-06-12",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16038",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16038",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:33:22Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\temp\\2499-507X_16038.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:25Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\2499-507X_16038.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+        "submitted_date": "2023-06-12",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Lorenza Da Re",
+          "Roberta Bonelli",
+          "Angelica Bonin"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\2499-507X_16038.pdf",
+        "generated_at_utc": "2026-04-21T21:33:25Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2023-06-19",
+          "mod_date": "2023-06-19"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 1 Doi: 10.3280/exioa1-2023oa16038 La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova Practices and results of a proposal for university tutor training at the University of Padua Lorenza Da Re, Roberta Bonelli, Angelica Bonin* Riassunto Il presente contributo approfondisce il tema della formazione d ei tutor univer- sitari1, aspetto fondamentale per garantire un’adeguata preparazione d elle fi- gure che operano nei diversi servizi tutoriali e un efficace sviluppo dell’attività. Dopo aver approfondito la letteratura del settore, si prosegue presentando la proposta di formazione dei tutor dell’Università di Padova, rip ortando anche alcuni dati di ricerca. In particolare, sono state esplorate le aspettative e i biso- gni formativi dei tutor in servizio nell’a.a. 2022-23 prima di iniziare la forma- zione e la loro soddisfazione ed esperienza a fine percorso formativo. La ricerca ha previsto una somministrazione “pre-post” ed è stato possibile analizzare i riscontri di 98 tutor. I risultati confermano l'importanza dell a formazione per sviluppare conoscenze e competenze fondamentali per svolgere al m e g l i o i l ruolo tutoriale, dimostrando anche un'alta soddisfazione dei pa rtecipanti verso le attività formative proposte. Inoltre, i dati raccolti rappresentano una base fon- damentale per valutare quanto offerto e per poter riprogettare opportunamente le azioni formative. Parole chiave: peer tutoring, tutor, tutorato universitario, formazione, univer- sità. * Università degli Studi di Padova. L’articolo è frutto del lavoro congiunto di tutte le Autrici. Tuttavia, è possibile attribuire il par.1 a Da Re e Bonelli, il par. 3 a Da Re e Bonin, i par. 2 e 5.5 ad Angelica Bonin; il par. 4 e 6 a Lorenza Da Re, i par. 5.1, 5.2, 5.3 a Roberta Bonelli; il par. 5.4 a Bonin e Bonelli. 1 Per motivi espositivi e per maggiore scorrevolezza, in questo contributo sarà utilizzato il maschile “i/il tutor”, ma si intende includere tutti i gener i. Lo stesso vale per altre parole come “gli studenti”, “i docenti”, “i partecipanti” o simili. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-06-12",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-06-12",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:27Z"
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:29Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\temp\\2499-507X_16038.conflicts.json"
+  }
+}

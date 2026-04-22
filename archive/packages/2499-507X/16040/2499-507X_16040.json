@@ -1,0 +1,883 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16040",
+  "scraped_at_utc": "2026-04-21T21:33:38Z",
+  "fetched_at_utc": "2026-04-21T21:33:38Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "93dd8fd4b700b41df24caef466f566ba3952b9d71b92e163a09614291c6462e8",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Francesca Bracci",
+        "nameType": "Personal",
+        "givenName": "Francesca",
+        "familyName": "Bracci",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Firenze"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Monica Fedeli",
+        "nameType": "Personal",
+        "givenName": "Monica",
+        "familyName": "Fedeli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/16040",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-06-20",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-20",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-20",
+      "Issued": "2023-06-20"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This article proposes a reflection on the theme of development of creative and critical thinking skills in Higher Education, with reference to university students in the field of Education and Training.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il contributo propone una riflessione sul tema dello sviluppo di competenze di pensiero critico e creativo in Higher Education, con particolare riferimento a studenti e studentesse nell’ambito dell’educazione e della formazione.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2023oa16040",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "8",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Creatività Operativa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Pensiero Critico",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Professioni a Larga Banda",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Active Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16040/2296",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "8",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Bracci, F., & Fedeli, M. (2023). Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale. Excellence and Innovation in Learning and Teaching - Open Access , 8 (1). https://doi.org/10.3280/exioa1-2023oa16040",
+      "articleTitleEcho": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Barron, F. (1995). No Rootless Flower: An Ecology of Creativity. Cresskill: Hampton Press.",
+        "Bennett, N., Lemoine, J. (2014). What VUCA really means for you. Harvard Business Review, 92(1/2).",
+        "Bell, H. (2023). Insegnare il pensiero critico. Saggezza pratica, tr. it. Milano: Meltemi.",
+        "Bonwell, C. C., & Eison, J. A. (1991). Active learning: Creating excitement in the classroom. ASHE-ERIC Higher Education Report, 1. Washington, DC: Georgetown University Press.",
+        "Bosio, A. C. (2017), Neoprofessionalismo, transdisciplinarità: come riconfigurare l’orientamento alla professione?. In La scienza come vocazione, Studium, 544-554.",
+        "Bracci, F., Romano, A., & Marsick, V. (2022). A practice-based view of transformative learning. The case of a craft organisation. In: E. Kostara, A. Gavrielatos, & D. Loads. Transformative Learning Theory and Praxis. New Perspectives and Pos-sibilities (pp. 201-231). New York: Routledge.",
+        "Bruni, A., & Parolin, L. L. (2014). Dalla produzione automatizzata agli ambienti tecnologicamente densi: la dimensione sociomateriale dell’agire organizzativo. Studi Organizzativi, 7-26.",
+        "Bruni, A., Pinch, T., Schubert, C. (2013). Technologically Dense Environments: What For? What Next?. Tecnoscienza. Italian Journal of Science & Technology Studies, 4: 51-72.",
+        "Butera, F. (2020a). Organizzazione e società. Innovare le organizzazioni dell’Italia che vogliamo. Venezia: Marsilio.",
+        "Butera F. (2020b). Le condizioni organizzative e professionali dello smart working dopo l’emergenza: progettare il lavoro ubiquo fatto di ruoli aperti e di professioni a larga banda. Studi organizzativi, 1: 142-166.",
+        "Chickering, A.W., Gamson, Z. (fall 1987). Seven principles for good practices in undergraduate education. Washington Center News, 1-7.",
+        "Colombo, E., & Rebughini, P. (2016). Intersectionality and beyond. Rassegna Italiana di Sociologia, 57(3): 439-460.",
+        "Cook-Sather, A., Bovill, C., & Felten, P. (2014). Engaging students as partners in learning and teaching: A guide for faculty. San Francisco: John Wiley & Sons.",
+        "Davidson, C. N. (2011). Now you see it. New York: Penguin Group.",
+        "Fabbri, L., & Giampaolo, M. (2021). Educatori designer e maker. Trasformazioni in atto per una professione del fare. NUOVA SECONDARIA, 5-20.",
+        "Fabbri, L., & Romano, A. (2021) Intersezionalità e pratiche professionali. PROFES-SIONI DELL’EDUCAZIONE E DELLA FORMAZIONE, 197-210.",
+        "Fedeli, M. (2016). Coinvolgere gli studenti nelle pratiche didattiche: potere, dialogo e partecipazione. In M. Fedeli, V. Grion, & D. Frison (Eds.). Coinvolgere per apprendere. Metodi e tecniche partecipative per la formazione (pp.113-142). Lec-ce: Pensa Multimedia.",
+        "Fedeli, M., & Taylor, E.W. (2016). Exploring the impact of a teacher study group in an Italian university. Formazione & Insegnamento, XIV(3): 2279-7505.",
+        "Fedeli, M., Mapelli, D., & Mariconda, C. (2020). Teaching4Learning@ Unipd. L’innovazione didattica all’Università di Padova. Teorie, ricerche e pratiche (Vol. 1). Padova University Press.",
+        "Felder, R.M., & Brent, R. (2016). Teaching and learning STEM. A practical guide. San Francisco (CA): Jossey Bass.",
+        "Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H. & Wenderoth, M. P. (2014). Active learning increases student performance in science, engineering, and mathematics. PNAS Proceedings of the National Academy of Sciences of the United States of America, 111: 8410-8415.",
+        "Gherardi, S., & Perrotta, M. (2014), Between the hand and the head: How things get done, and how in doing the ways of doing are discovered. Qualitative Research in Organizations and Management: An International Journal, 9(2): 134-150.",
+        "Gherardi, S., & Perrotta, M. (2013), Doing by inventing the way of doing: Formative-ness as the linkage of meaning and matter. Organization Studies, 227-259.",
+        "Gherardi S. (2012). How to conduct a practice-based study. Cheltenham: Edward Elgar Publishing.",
+        "Glăveanu, V. P. (2014). Distributed creativity: Thinking outside the box of the crea-tive individual. Cham/Heidelberger: Springer International Publishing.",
+        "Glăveanu, V. P. (2011). Creativity as cultural participation. Journal for the Theory of Social Behaviour, 41(1): 48-67.",
+        "Glăveanu, V. P. (2010). Paradigms in the study of creativity: Introducing the perspective of cultural psychology. New ideas in psychology, 28(1): 79-93.",
+        "Grion, V., & Cook-Sather, A. (Eds.) (2013). Student Voice. Prospettive internazionali e pratiche emergenti in Italia. Milano: Guerini Editore.",
+        "Hattie, J., & Yates, G. C. (2013). Visible learning and the science of how we learn. New York: Routledge.",
+        "Hirschhorn, L. (1990). The workplace within: Psychodynamics of organizational life. MIT press.",
+        "Lave J., Wenger E. (1991). Situated learning: Legitimate peripheral participation. Cambridge: Cambridge University Press. Tr. it. 2006. L’apprendimento situato. Dall’osservazione alla partecipazione attiva nei contesti sociali. Trento: Erickson.",
+        "Mezirow J. (2006), An overview of transformative learning. In Sutherland P., Crowther J. (ed.). Lifelong learning: Concepts and contexts (24-38). New York: Routledge.",
+        "Michael, J. (2006). Where’s the evidence that active learning works?. Advances in Physiology Education, 30: 159-167. doi: 10.1152/advan.00053.2006.",
+        "Noordegraaf M. (2007). From “pure” to “hybrid” professionalism present-day profes-sionalism in ambiguous public domains. Administration & Society, 39(6): 761-785.",
+        "Nicol, D. (2013). Resituating feedback from the reactive to the proactive. In D. Boud and L. Molloy (Eds.). Feedback in Higher and Professional Education: understanding it and doing it well (pp. 34-49). Oxon: Routledge.",
+        "Kember, D. (2009). Promoting student-centered forms of learning across an entire university. Higher Education, 58(1): 1-13.",
+        "Papert, S. (1980). Mindstorm. Children, computers, ad powerful ideas. New York: Basic Books. Tr. it. Mindstorm. Bambini, computer e creatività. Milano: Emme, 1984.",
+        "Paulus, P. & Nijstad, B. (2003). Group creativity: An Introduction. In Paulus P., & Nijstad B. (eds.). Group Creativity: Innovation Through Collaboration (pp. 3-11). New York: Oxford University Press.",
+        "Poell, R., Yorks, L., & Marsick, V. J. (2009). Organizational project-based learning in work contexts. A cross-cultural analysis of data from two projects. Adult Education Quarterly, 60(1): 77-93.",
+        "Prince, M. (2004). Does active learning work? A review of the research. Journal of Engineering Education, 93: 223-231.",
+        "Resnick, M. (2018). Come i bambini: immagina, crea, gioca e condividi. Coltivare la creatività con il Lifelong Kindergarten del MIT. Trento: Erickson.",
+        "Sennett, R. (2008). The craftsman. London: Yale University Press.",
+        "Shani, A. B., Guerci, M., & Cirella, S. (eds.) (2014). Collaborative management research. Teoria, metodi, esperienze. Milano: Raffaello Cortina Editore.",
+        "St. Pierre, E. A. (2015). Practices for the “new” in the new empiricisms, the new mate-rialisms, and post qualitative inquiry. In N. Denzin & M. Giardina M. (eds.). Qualitative inquiry and the politics of research (pp. 75-95). Walnut Grove, CA: Left Coast Press.",
+        "Taylor, E. W. (2007). An update of transformative learning theory: A critical review of the empirical research (1999-2005). International Journal of Lifelong Education, 26(2): 173-191.",
+        "Tino, C., & Fedeli, M. (2022). Career planning, proactivity, self-employability, and labour market: undergraduates’ perceptions. Form@ re-Open Journal per la formazione in rete, 22(1): 262-278.",
+        "Tore, R., Tino, C., & Fedeli, M. (2021). Podcast team-based project in Higher Educa-tion: percezione di studenti e studentesse. RICERCA e DIDATTICA, 9, 122.",
+        "Watkins C., Eileen C., Lodge C. (2007). Effective learning in classroom. London: Paul Chapman Publishing.",
+        "Weimer, M. (2013). Learner-centered teaching: Five key changes to practice. San Francisco (CA): Jossey-Bass.",
+        "Wenger, E., McDermott, R. A., & Snyder, W. (2002). Cultivating communities of practice: A guide to managing knowledge. Cambridge: Harvard business press.",
+        "Wenger E. (1998). Communities of practice: learning, meaning and identity. Cambridge: Cambridge University Press. Tr. it. 2006. Comunità di pratica. Apprendimento, significato e identità. Milano: Raffaello Cortina Editore.",
+        "World Economic Forum (2020, January). Schools of the future: Defining new models of education for the fourth industrial revolution. Switzerland: World Economic Forum.",
+        "Yorke M., Knight P. T. (2004). Embedding employability into the curriculum. Learning and Employability into the curriculum, 3: 1-28."
+      ],
+      "count": 53,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_16040",
+    "article_ID": "16040",
+    "slug": "16040",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "16040",
+      "url_slug": "16040"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Cultivating practical creativity and critical thinking in Higher Education. A conceptual geography",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-06-12",
+      "accepted": null,
+      "created": "2023-06-20",
+      "modified": "2023-06-20",
+      "issued": "2023-06-20",
+      "available": "2023-06-20",
+      "submitted_page": "2023-06-12",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+        "pdf_value": null,
+        "chosen_value": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-06-12",
+        "pdf_value": null,
+        "chosen_value": "2023-06-12",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16040/2296",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16040/2296",
+      "local_relative_path": "2499-507X_16040.pdf",
+      "saved": true,
+      "sha256": "0111c377a871f1ad5bf1af1cb1097d039c16eeb5eba09a3dcb21952ef984c981",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 820882,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Francesca Bracci",
+        "Monica Fedeli"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Firenze",
+        "Università degli Studi di Padova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/06/20"
+      ],
+      "citation_volume": [
+        "8"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2023oa16040"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16040"
+      ],
+      "citation_keywords": [
+        "Creatività Operativa",
+        "Pensiero Critico",
+        "Professioni a Larga Banda",
+        "Active Learning"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/16040/2296"
+      ],
+      "citation_reference_count": 53,
+      "DC.Date.created": [
+        "2023-06-20"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-06-12"
+      ],
+      "DC.Date.issued": [
+        "2023-06-20"
+      ],
+      "DC.Date.modified": [
+        "2023-06-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "16040"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2023oa16040"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16040"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "8"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale"
+      ],
+      "DC.Title.Alternative": [
+        "Cultivating practical creativity and critical thinking in Higher Education. A conceptual geography"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Francesca Bracci",
+        "Monica Fedeli"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Firenze",
+        "Università degli Studi di Padova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Francesca Bracci",
+        "Monica Fedeli"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This article proposes a reflection on the theme of development of creative and critical thinking skills in Higher Education, with reference to university students in the field of Education and Training.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This article proposes a reflection on the theme of development of creative and critical thinking skills in Higher Education, with reference to university students in the field of Education and Training."
+          }
+        },
+        {
+          "content": "Il contributo propone una riflessione sul tema dello sviluppo di competenze di pensiero critico e creativo in Higher Education, con particolare riferimento a studenti e studentesse nell’ambito dell’educazione e della formazione.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il contributo propone una riflessione sul tema dello sviluppo di competenze di pensiero critico e creativo in Higher Education, con particolare riferimento a studenti e studentesse nell’ambito dell’educazione e della formazione."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Creatività Operativa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Creatività Operativa"
+          }
+        },
+        {
+          "content": "Pensiero Critico",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Pensiero Critico"
+          }
+        },
+        {
+          "content": "Professioni a Larga Banda",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Professioni a Larga Banda"
+          }
+        },
+        {
+          "content": "Active Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Active Learning"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16040/2296",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16040/2296",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16040/2296",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16040/2296",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16040/2296",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2023-06-19",
+        "mod_date": "2023-06-19"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 1 Doi: 10.3280/exioa1-2023oa16040 Coltivare creatività pratica e pens iero critico in Higher Education. Elementi di analisi per una geo- grafia concettuale Cultivating practical creativity and critical thinking in Higher Education. A conceptual geography Francesca Bracci * & Monica Fedeli** Abstract Il contributo propone una riflessione sul tema dello sviluppo di competenze di pensiero critico e creativo in Higher Education, con particolar e riferimento a studenti e studentesse nell’ambito dell’educazione e della formazione. Parole chiave: Creatività Operativa; Pensiero Critico; Professioni a Larga Banda; Active Learning Abstract This article proposes a reflection on the theme of development of creative and critical thinking skills in Higher Education, with reference to university stu- dents in the field of Education and Training. Keywords: Practical Creativity; Critical Thinking; Broadband Professions; Active Learning Articolo sottomesso: 05/05/2023; accettato: 29/05/2023 Disponibile online: 20/06/2023 * Università degli Studi di Firenze. ** Università degli Studi di Padova. Sono da attribuire a Monica Fedeli i paragrafi: Implicazioni didattiche: l’Active lear- ning e l’insegnamento Learner-Centered. Francesca Bracci ha scritto: Sviluppare un pensiero in stile X. Per un’epistemologia della pratica professionale a larga banda; Un piccolo glossario dell’apprendimento creativo e critico-riflessivo. Entrambi le autrici hanno elaborato le Riflessioni conclusive. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\16040\\2499-507X_16040.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+        "pdf_value": null,
+        "chosen_value": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-06-12",
+        "pdf_value": null,
+        "chosen_value": "2023-06-12",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16040",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16040",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:33:38Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16040\\temp\\2499-507X_16040.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:40Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16040\\2499-507X_16040.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+        "submitted_date": "2023-06-12",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Francesca Bracci",
+          "Monica Fedeli"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16040\\2499-507X_16040.pdf",
+        "generated_at_utc": "2026-04-21T21:33:40Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2023-06-19",
+          "mod_date": "2023-06-19"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 1 Doi: 10.3280/exioa1-2023oa16040 Coltivare creatività pratica e pens iero critico in Higher Education. Elementi di analisi per una geo- grafia concettuale Cultivating practical creativity and critical thinking in Higher Education. A conceptual geography Francesca Bracci * & Monica Fedeli** Abstract Il contributo propone una riflessione sul tema dello sviluppo di competenze di pensiero critico e creativo in Higher Education, con particolar e riferimento a studenti e studentesse nell’ambito dell’educazione e della formazione. Parole chiave: Creatività Operativa; Pensiero Critico; Professioni a Larga Banda; Active Learning Abstract This article proposes a reflection on the theme of development of creative and critical thinking skills in Higher Education, with reference to university stu- dents in the field of Education and Training. Keywords: Practical Creativity; Critical Thinking; Broadband Professions; Active Learning Articolo sottomesso: 05/05/2023; accettato: 29/05/2023 Disponibile online: 20/06/2023 * Università degli Studi di Firenze. ** Università degli Studi di Padova. Sono da attribuire a Monica Fedeli i paragrafi: Implicazioni didattiche: l’Active lear- ning e l’insegnamento Learner-Centered. Francesca Bracci ha scritto: Sviluppare un pensiero in stile X. Per un’epistemologia della pratica professionale a larga banda; Un piccolo glossario dell’apprendimento creativo e critico-riflessivo. Entrambi le autrici hanno elaborato le Riflessioni conclusive. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Coltivare creatività pratica e pensiero critico in Higher Education. Elementi di analisi per una geografia concettuale",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-06-12",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-06-12",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:34Z"
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:36Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16040\\temp\\2499-507X_16040.conflicts.json"
+  }
+}

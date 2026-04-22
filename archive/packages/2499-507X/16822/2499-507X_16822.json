@@ -1,0 +1,899 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16822",
+  "scraped_at_utc": "2026-04-21T21:34:00Z",
+  "fetched_at_utc": "2026-04-21T21:34:00Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "1efe22cf03e839107f9dfbb9db1dccfce0cb70f281c2fa016d99416f06907f4e",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Stefano Bonometti",
+        "nameType": "Personal",
+        "givenName": "Stefano",
+        "familyName": "Bonometti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi dell’Insubria di Varese e Como"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Giacomo Felloni",
+        "nameType": "Personal",
+        "givenName": "Giacomo",
+        "familyName": "Felloni",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi dell’Insubria di Varese e Como"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Letizia Ferri",
+        "nameType": "Personal",
+        "givenName": "Letizia",
+        "familyName": "Ferri",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi dell’Insubria di Varese e Como"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/16822",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-12-13",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-12-13",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-12-13",
+      "Issued": "2023-12-13"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This paper provides a comprehensive exploration of the institution of Legal Clinics in the context of the Service Learning model, with a particular focus on methodological and disciplinary considerations, within the framework of Italian legal academia. In response to the evolving landscape of higher education, particularly in the field of Legal Sciences, there is a growing imperative to contemplate educational innovation. This paper addresses the pressing need to foster a symbiotic relationship between pedagogical models and practical experiences. Legal Clinics serve as a pioneering example of how traditional teaching and learning methodologies can be adapted to various academic contexts, imbued with perspectives and nuances tailored to the specific disciplinary and cultural milieu they inhabit, all in accordance with the principles of interdisciplinarity. Following an exploration of the potential benefits associated with adopting an interdisciplinary approach to education, this paper delves into the methodology of Service Learning and its capacity to seamlessly integrate learning with community service (the “third mission”). Subsequently, Legal Clinics are scrutinized in terms of their educational implications at both the national and international levels, with a particular focus on the unique adaptations required for their effective implementation within the current framework of Italian higher education.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il presente contributo approfondisce l’istituto delle Cliniche Legali, alla luce del modello del Service Learning sotto il profilo metodologico e disciplinare, in relazione all’ambito accademico giuridico italiano. Vi è oggi la necessità di riflettere sul tema di un’innovazione didattica nel contesto universitario, in particolare nel settore delle Scienze giuridiche, dove emerge la necessità di promuovere una circolarità tra modelli ed esperienze. Le Cliniche Legali costituiscono un esempio innovativo di come le metodologie didattiche classiche di insegnamento e apprendimento possano essere applicate in ogni contesto di studi, assumendo prospettive e connotazioni adeguate all’ambito disciplinare ed al contesto culturale in cui vengono trasposte, come previsto dal costrutto dell’interdisciplinarietà. Dopo aver presentato le potenzialità di un approccio interdisciplinare all’insegnamento, si approfondirà la metodologia del Service Learning e le sue potenzialità di integrazione tra apprendimenti e servizi al territorio (terza missione). In seguito, le Cliniche Legali saranno approfondite nei loro risvolti formativi in ambito nazionale ed internazionale, con una particolare sottolineatura delle peculiarità che devono assumere per essere introdotte efficacemente nell’attuale realtà accademica italiana.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2023oa16822",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "8",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Didattica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Service Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Cliniche Legali",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Interdisciplinarità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Apprendimento esperienziale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16822/2576",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "8",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Bonometti, S., Felloni, G., & Ferri, L. (2023). Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive. Excellence and Innovation in Learning and Teaching - Open Access , 8 (2). https://doi.org/10.3280/exioa2-2023oa16822",
+      "articleTitleEcho": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Akkerman, S. F., & Bakker, A. (2011). Boundary crossing and boundary objects, in Review of Educational Research, 81, 132-169. DOI: 10.3102/0034654311404435.",
+        "Bartoli, C. (2016). Legal clinics in Europe: for a commitment of higher education in social justice, Diritto & Questioni Pubbliche, 1.",
+        "Benasayag, M. (2019). Funzionare o esistere?. Milano: Vita e Pensiero.",
+        "Calamandrei, P. (1921). Troppi avvocati! (Vol. 46). La Voce.",
+        "Carnelutti, F. (1935). Clinica del diritto, in Proc. Civ., (Vol. 2, No. 1).",
+        "Casadei, T. (2019). L’approccio clinico-legale e le sue (utili) implicazioni, Rivista di filosofia del diritto, 8(2), 277-296.",
+        "Castoldi, M. (2017). Costruire unità di apprendimento. Guida alla progettazione a ritroso. Carocci.",
+        "Chiaromonte, W. (2021). La formazione del giurista attraverso l’insegnamento cli-nico del diritto: qualche spunto ricostruttivo “per principianti”. LLC.",
+        "Colazzo, S., & Ellerani, P. (2018). Service learning: tra didattica e terza missione. Ripensare e riprogettare l’organizzazione nelle scuole e nelle università. Università del Salento. DOI. 10.1285/i26108968n2.",
+        "Culcasi, I., & Cinque, M. (2021). L’impatto del Service-Learning universitario: il progetto Hope. Excellence and Innovation in Learning and Teaching, (1). DOI: 10.32801-2021oa12076.",
+        "Dewey, J. (2014) (1938). Esperienza e educazione. Raffello Cortina.",
+        "D.M. n.35 del 22/06/2020: Linee Guida per l’insegnamento dell’educazione civica, ai sensi dell’articolo 3 della legge 20 agosto 2019, n. 92.",
+        "Engeström, Y., Engeström, R., & Kärkkäinen, M. (1995). Polycontextuality and boundary crossing in expert cognition: Learning and problem solving in complex work activities. Learning and Instruction, 5(4), 319-336. Doi: 10.1016/0959-4752(95)00021-6.",
+        "Fabbri, L., Romano, A., Carmignani, S. (2022). Sviluppare i processi di innovazione attraverso i meccanismi di apprendimento all’interno delle comunità professionali. Un modo di pensare e fare i Teaching & Learning Center. In Fabbri, L., Romano, A. (a cura di). Transformative teaching in higher education. Pensa Multimedia. pp. 19-50.",
+        "Fiorin, I. (2016). Oltre l’aula. La proposta pedagogica del Service Learning. Mondadori Università.",
+        "Frank, J. (1933). Why not a clinical lawyer-school?. University of Pennsylvania Law Review and American Law Register, 81(8), 907-923.",
+        "Freire, P. (1970). La pedagogia degli oppressi. Gruppo Abele.",
+        "Fundarò, A. (26 giugno 2020), Interdisciplinarietà: cos’è, metodologia e pratica, in Orizzonte Scuola, in: https://www.orizzontescuola.it/interdisciplinarieta-cose-metodologia-e-pratica (8/9/2023).",
+        "Furco, A. & Billing, S.H. (2001). Service-Learning: the Essence of the Pedagogy. Information Age Publishing.",
+        "Furco, A. (2009). La reflexión sobre la práctica, una componente vital de las experiencias de aprendizaje-servicio. In Actas del XII Seminario Internacional de Aprendizaje-Servicio Solidario, pp. 27-36.",
+        "Grossman, G. S. (1974). Clinical Legal Education: History And Diagnosis. Journal of Legal Education, 26(2), 162-193. http://www.jstor.org/stable/42892228.",
+        "LEGGE 31 dicembre 2012, n. 247: Nuova disciplina dell’ordinamento della professione forense.",
+        "LEGGE 20 agosto 2019, n. 92: Introduzione dell’insegnamento scolastico dell’educazione civica.",
+        "Lombardi, P. (2020). L’accesso alla giustizia nel quadro dell’Agenda ONU 2030 sullo sviluppo sostenibile. Federalismi.it, (16), 184-205.",
+        "Marzocca F. (2014). Il nuovo approccio scientifico Verso la transdisciplinarità. Atopon Rivista di Psicoantropologia Simbolica, 10, 1-40.",
+        "Milani, L. (1967). Lettera a una professoressa, a cura di Scuola di Barbiana. Mondadori.",
+        "MIUR (2018a). Una via italiana per il Service Learning, Roma. https://www.miur.gov.it/web/guest/-/una-via-italiana-per-il-service-learning (10/10/2023).",
+        "MIUR (2018b). Percorsi per le competenze trasversali e per l’orientamento. Linee guida https://www.miur.gov.it/documents/20182/1306025/Linee+guida+PCTO+con+allegati.pdf.",
+        "Mortari, L., Silva, R., & Bevilacqua A.M.A. (2022). L’analisi delle pratiche discorsive come strumento per la valutazione d’efficacia dell’innovazione didattica: Il caso delle cliniche legali. In Fabbri, L., Romano, A. (a cura di). Transformative teaching in higher education. Pensa Multimedia. pp. 157-178.",
+        "Orlandini, L., Chipa, S., & C. Giunti, (a cura di) (2020). Il Service Learning per l’innovazione scolastica: le proposte del Movimento delle Avanguardie educative. Carocci.",
+        "Pasquali, G. & Calamandrei, P. (1923). L’università di domani. Foligno.",
+        "Pellerey, M. (2004). Le competenze individuali e il portfolio. La Nuova Italia.",
+        "Poillot, E. (2017). Comparing Legal Clinics: Is There a Way to a European Clinical Culture?: The Luxembourg Experience. European Journal of Comparative Law and Governance, 4(2), 111-139. DOI: 10.1163/22134514-00402003.",
+        "Roccaro, D. (2015). Caratteri e tipologie delle cliniche legali. In Smorto, G.(a cura di). Un manuale operativo. Edizioni NEXT, pp. 13-32.",
+        "Santoro, E. (2019). Guai privati e immaginazione giuridica: le cliniche legali e il ruolo dell’università. Rivista di filosofia del diritto, 8(2), 231-256.",
+        "Serafinelli, L. (2022). Alle origini delle cliniche legali nella formazione del giurista statunitense: tra nativismo e New Deal. DPCE Online, 49(4).",
+        "Taub, M.K. (2022). L’impatto del Service-Learning su docenti e educatori. In Boffo, V., & Togni, F. (edited by). Esercizi di ricerca. Dottorato e politiche della formazione. Firenze University Press, pp. 231-234.",
+        "Wigmore, J. H. (1926). The Legal Clinic: What It Does for the Law Student. The ANNALS of the American Academy of Political and Social Science, 124(1), 130-135."
+      ],
+      "count": 38,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_16822",
+    "article_ID": "16822",
+    "slug": "16822",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "16822",
+      "url_slug": "16822"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Service Learning as the Italian Way to Legal Clinics: Strengths and weaknesses",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-11-21",
+      "accepted": null,
+      "created": "2023-12-13",
+      "modified": "2023-12-13",
+      "issued": "2023-12-13",
+      "available": "2023-12-13",
+      "submitted_page": "2023-11-21",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+        "pdf_value": null,
+        "chosen_value": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-21",
+        "pdf_value": null,
+        "chosen_value": "2023-11-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16822/2576",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16822/2576",
+      "local_relative_path": "2499-507X_16822.pdf",
+      "saved": true,
+      "sha256": "eaa81ac84b9ef41de340a1d30a43f2ae376b27cc0655eeee5b4bd2c0abe56790",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 939187,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Stefano Bonometti",
+        "Giacomo Felloni",
+        "Letizia Ferri"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi dell’Insubria di Varese e Como",
+        "Università degli Studi dell’Insubria di Varese e Como",
+        "Università degli Studi dell’Insubria di Varese e Como"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/12/13"
+      ],
+      "citation_volume": [
+        "8"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2023oa16822"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16822"
+      ],
+      "citation_keywords": [
+        "Didattica",
+        "Service Learning",
+        "Cliniche Legali",
+        "Interdisciplinarità",
+        "Apprendimento esperienziale"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/16822/2576"
+      ],
+      "citation_reference_count": 38,
+      "DC.Date.created": [
+        "2023-12-13"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-11-21"
+      ],
+      "DC.Date.issued": [
+        "2023-12-13"
+      ],
+      "DC.Date.modified": [
+        "2023-12-13"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "16822"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2023oa16822"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16822"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "8"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive"
+      ],
+      "DC.Title.Alternative": [
+        "Service Learning as the Italian Way to Legal Clinics: Strengths and weaknesses"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Stefano Bonometti",
+        "Giacomo Felloni",
+        "Letizia Ferri"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi dell’Insubria di Varese e Como",
+        "Università degli Studi dell’Insubria di Varese e Como",
+        "Università degli Studi dell’Insubria di Varese e Como"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Stefano Bonometti",
+        "Giacomo Felloni",
+        "Letizia Ferri"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This paper provides a comprehensive exploration of the institution of Legal Clinics in the context of the Service Learning model, with a particular focus on methodological and disciplinary considerations, within the framework of Italian legal academia. In response to the evolving landscape of higher education, particularly in the field of Legal Sciences, there is a growing imperative to contemplate educational innovation. This paper addresses the pressing need to foster a symbiotic relationship between pedagogical models and practical experiences. Legal Clinics serve as a pioneering example of how traditional teaching and learning methodologies can be adapted to various academic contexts, imbued with perspectives and nuances tailored to the specific disciplinary and cultural milieu they inhabit, all in accordance with the principles of interdisciplinarity. Following an exploration of the potential benefits associated with adopting an interdisciplinary approach to education, this paper delves into the methodology of Service Learning and its capacity to seamlessly integrate learning with community service (the “third mission”). Subsequently, Legal Clinics are scrutinized in terms of their educational implications at both the national and international levels, with a particular focus on the unique adaptations required for their effective implementation within the current framework of Italian higher education.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This paper provides a comprehensive exploration of the institution of Legal Clinics in the context of the Service Learning model, with a particular focus on methodological and disciplinary considerations, within the framework of Italian legal academia.\nIn response to the evolving landscape of higher education, particularly in the field of Legal Sciences, there is a growing imperative to contemplate educational innovation. This paper addresses the pressing need to foster a symbiotic relationship between pedagogical models and practical experiences. Legal Clinics serve as a pioneering example of how traditional teaching and learning methodologies can be adapted to various academic contexts, imbued with perspectives and nuances tailored to the specific disciplinary and cultural milieu they inhabit, all in accordance with the principles of interdisciplinarity.\nFollowing an exploration of the potential benefits associated with adopting an interdisciplinary approach to education, this paper delves into the methodology of Service Learning and its capacity to seamlessly integrate learning with community service (the “third mission”). Subsequently, Legal Clinics are scrutinized in terms of their educational implications at both the national and international levels, with a particular focus on the unique adaptations required for their effective implementation within the current framework of Italian higher education."
+          }
+        },
+        {
+          "content": "Il presente contributo approfondisce l’istituto delle Cliniche Legali, alla luce del modello del Service Learning sotto il profilo metodologico e disciplinare, in relazione all’ambito accademico giuridico italiano. Vi è oggi la necessità di riflettere sul tema di un’innovazione didattica nel contesto universitario, in particolare nel settore delle Scienze giuridiche, dove emerge la necessità di promuovere una circolarità tra modelli ed esperienze. Le Cliniche Legali costituiscono un esempio innovativo di come le metodologie didattiche classiche di insegnamento e apprendimento possano essere applicate in ogni contesto di studi, assumendo prospettive e connotazioni adeguate all’ambito disciplinare ed al contesto culturale in cui vengono trasposte, come previsto dal costrutto dell’interdisciplinarietà. Dopo aver presentato le potenzialità di un approccio interdisciplinare all’insegnamento, si approfondirà la metodologia del Service Learning e le sue potenzialità di integrazione tra apprendimenti e servizi al territorio (terza missione). In seguito, le Cliniche Legali saranno approfondite nei loro risvolti formativi in ambito nazionale ed internazionale, con una particolare sottolineatura delle peculiarità che devono assumere per essere introdotte efficacemente nell’attuale realtà accademica italiana.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il presente contributo approfondisce l’istituto delle Cliniche Legali, alla luce del modello del Service Learning sotto il profilo metodologico e disciplinare, in relazione all’ambito accademico giuridico italiano.\nVi è oggi la necessità di riflettere sul tema di un’innovazione didattica nel contesto universitario, in particolare nel settore delle Scienze giuridiche, dove emerge la necessità di promuovere una circolarità tra modelli ed esperienze. Le Cliniche Legali costituiscono un esempio innovativo di come le metodologie didattiche classiche di insegnamento e apprendimento possano essere applicate in ogni contesto di studi, assumendo prospettive e connotazioni adeguate all’ambito disciplinare ed al contesto culturale in cui vengono trasposte, come previsto dal costrutto dell’interdisciplinarietà.\nDopo aver presentato le potenzialità di un approccio interdisciplinare all’insegnamento, si approfondirà la metodologia del Service Learning e le sue potenzialità di integrazione tra apprendimenti e servizi al territorio (terza missione).\nIn seguito, le Cliniche Legali saranno approfondite nei loro risvolti formativi in ambito nazionale ed internazionale, con una particolare sottolineatura delle peculiarità che devono assumere per essere introdotte efficacemente nell’attuale realtà accademica italiana."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Didattica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Didattica"
+          }
+        },
+        {
+          "content": "Service Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Service Learning"
+          }
+        },
+        {
+          "content": "Cliniche Legali",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Cliniche Legali"
+          }
+        },
+        {
+          "content": "Interdisciplinarità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Interdisciplinarità"
+          }
+        },
+        {
+          "content": "Apprendimento esperienziale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Apprendimento esperienziale"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16822/2576",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16822/2576",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16822/2576",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16822/2576",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16822/2576",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2023-12-11",
+        "mod_date": "2023-12-11"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 2 Doi: 10.3280/exioa2-2023oa16822 Il Service Learning come vi a italiana alle Cliniche Legali: limiti e prospettive Service Learning as the Italian Way to Legal Clinics: Strengths and weaknesses Stefano Bonometti*, Giacomo Felloni*, Letizia Ferri^ Riassunto Il presente contributo approfondisce l’istituto delle Cliniche Legali, alla luce del modello del Service Learning sotto il profilo metodologico e disciplinare, in relazione all’ambito accademico giuridico italiano. Vi è oggi la necessità di riflettere sul tema di un’innovazione didattica nel con- testo universitario, in particolare nel settore delle Scienze g iuridiche, dove emerge la necessità di promuovere una circolarità tra modelli ed esperienze. Le Cliniche Legali costituiscono un esempio innovativo di come le metodologie didattiche classiche di insegnamento e apprendimento possano essere applicate in ogni contesto di studi, assumendo prospettive e connotazioni adeguate all’ambito disciplinare ed al contesto culturale in cui vengono trasposte, come previsto dal costrutto dell’interdisciplinarietà. Dopo aver presentato le potenzialità di un approccio interdisci plinare all’inse- gnamento, si approfondirà la metodologia del Service Learning e le sue poten- zialità di integrazione tra apprendimenti e servizi al territorio (terza missione). In seguito, le Cliniche Legali saranno approfondite nei loro risvolti formativi in ambito nazionale ed internazionale, con una particolare sottolineatura delle pe- culiarità che devono assumere per essere introdotte efficacemente nell’attuale realtà accademica italiana. Parole chiave: Didattica, Service Learning, Cliniche Legali, interdisciplina- rità, apprendimento esperienziale. * TLC dell’Università degli Studi dell’Insubria di Varese e Como. ^ TLC dell’Università degli Studi d ell’Insubria di Varese e Como . E-mail: leti- zia.ferri@uninsubria.it. L’articolo è frutto del lavoro congiunto di tutti gli Autori. Tuttavia, è possibile attribuire la supervisione del lavoro e il par. 1.1 e 6 a S. Bonometti, il par. 1 e 2 a L. Ferri; i par. 3, 4, 5 a G. Felloni. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\16822\\2499-507X_16822.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+        "pdf_value": null,
+        "chosen_value": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-21",
+        "pdf_value": null,
+        "chosen_value": "2023-11-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16822",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16822",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:34:00Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16822\\temp\\2499-507X_16822.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:34:01Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16822\\2499-507X_16822.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+        "submitted_date": "2023-11-21",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Stefano Bonometti",
+          "Giacomo Felloni",
+          "Letizia Ferri"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16822\\2499-507X_16822.pdf",
+        "generated_at_utc": "2026-04-21T21:34:01Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2023-12-11",
+          "mod_date": "2023-12-11"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 2 Doi: 10.3280/exioa2-2023oa16822 Il Service Learning come vi a italiana alle Cliniche Legali: limiti e prospettive Service Learning as the Italian Way to Legal Clinics: Strengths and weaknesses Stefano Bonometti*, Giacomo Felloni*, Letizia Ferri^ Riassunto Il presente contributo approfondisce l’istituto delle Cliniche Legali, alla luce del modello del Service Learning sotto il profilo metodologico e disciplinare, in relazione all’ambito accademico giuridico italiano. Vi è oggi la necessità di riflettere sul tema di un’innovazione didattica nel con- testo universitario, in particolare nel settore delle Scienze g iuridiche, dove emerge la necessità di promuovere una circolarità tra modelli ed esperienze. Le Cliniche Legali costituiscono un esempio innovativo di come le metodologie didattiche classiche di insegnamento e apprendimento possano essere applicate in ogni contesto di studi, assumendo prospettive e connotazioni adeguate all’ambito disciplinare ed al contesto culturale in cui vengono trasposte, come previsto dal costrutto dell’interdisciplinarietà. Dopo aver presentato le potenzialità di un approccio interdisci plinare all’inse- gnamento, si approfondirà la metodologia del Service Learning e le sue poten- zialità di integrazione tra apprendimenti e servizi al territorio (terza missione). In seguito, le Cliniche Legali saranno approfondite nei loro risvolti formativi in ambito nazionale ed internazionale, con una particolare sottolineatura delle pe- culiarità che devono assumere per essere introdotte efficacemente nell’attuale realtà accademica italiana. Parole chiave: Didattica, Service Learning, Cliniche Legali, interdisciplina- rità, apprendimento esperienziale. * TLC dell’Università degli Studi dell’Insubria di Varese e Como. ^ TLC dell’Università degli Studi d ell’Insubria di Varese e Como . E-mail: leti- zia.ferri@uninsubria.it. L’articolo è frutto del lavoro congiunto di tutti gli Autori. Tuttavia, è possibile attribuire la supervisione del lavoro e il par. 1.1 e 6 a S. Bonometti, il par. 1 e 2 a L. Ferri; i par. 3, 4, 5 a G. Felloni. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Il Service Learning come via italiana alle Cliniche Legali: limiti e prospettive",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-11-21",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-11-21",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:23Z"
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:24Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16822\\temp\\2499-507X_16822.conflicts.json"
+  }
+}

@@ -1,0 +1,861 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16824",
+  "scraped_at_utc": "2026-04-21T21:34:02Z",
+  "fetched_at_utc": "2026-04-21T21:34:02Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "2e7ebd05abd8649b002e409662c674ba2d638d07f629c89989147e85a9789be3",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Orientare con le discipline STEAM",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Rossana Sicurello",
+        "nameType": "Personal",
+        "givenName": "Rossana",
+        "familyName": "Sicurello",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Palermo"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/16824",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-12-13",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-12-13",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-12-13",
+      "Issued": "2023-12-13"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The importance of a solid knowledge in the technological and scientific field has undoubtedly become a necessity in recent years that tends to amplify more and more every day. In relation to this, at a European level, the approach to STEM disciplines, an acronym for Science, Technology, Engineering, Mathematics, has been promoted. In recent years, the STEAM disciplines have also established themselves, an acronym for Science, Technology, Engineering, Art, Mathematics which represent an expansion compared to STEM and, at the same time, a completion. STEAM disciplines today find themselves at the center of a great debate involving schools, universities and companies both for their leading role in the current job market and for their ability to be a driver of change in a rapidly changing world. In this sense, the role of orientation towards STEAM disciplines is fundamental.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’importanza di avere solide conoscenze in ambito tecnologico e scientifico senza dubbio negli ultimi anni è diventata una necessità che tende ad amplificarsi ogni giorno sempre di più. Rispetto a ciò, a livello europeo, è stato promosso l’approccio alle discipline STEM, acronimo di Science, Technology, Engineering, Mathematics. Negli ultimi anni si sono affermate anche le discipline STEAM, acronimo di Science, Technology, Engineering, Art, Mathematics che rappresentano un ampliamento rispetto alle STEM e, al tempo stesso, un completamento. Le discipline STEAM si trovano oggi al centro di un grande dibattito che coinvolge scuole, università e aziende sia per il loro ruolo da protagoniste nell’attuale mercato del lavoro, sia per la capacità di essere motore di cambiamento in un mondo in rapido mutamento. In tal senso, il ruolo dell’orientamento alle discipline STEAM risulta fondamentale.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2023oa16824",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "8",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Orientamento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "STEAM",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Tecnologia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Didattica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Complessità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16824/2577",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "8",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Sicurello, R. (2023). Orientare con le discipline STEAM. Excellence and Innovation in Learning and Teaching - Open Access , 8 (2). https://doi.org/10.3280/exioa2-2023oa16824",
+      "articleTitleEcho": "Orientare con le discipline STEAM"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "DECRETO DEL MINISTRO DELL'ISTRUZIONE E DEL MERITO 22 dicembre 2022, n. 328, concernente l'adozione delle Linee guida per l'orientamento, relative alla riforma 1.4 “Riforma del sistema di orientamento”, nell'ambito della Missione 4 - Componente 1- del Piano nazionale di ripresa e resilienza.",
+        "DECRETO MINISTERIALE 3 agosto 2022, n. 934, Criteri di riparto delle risorse e modalità di attuazione dei progetti relativi al “Orientamento attivo nella transizione scuola-università” nell’ambito del PNRR (M4.C1-24).",
+        "DECRETO MINISTERIALE 30 aprile 2021, n. 147, Decreto di riparto delle risorse per il Piano nazionale per la scuola digitale per l'anno 2021.",
+        "NOTA MINISTERIALE 3 marzo 2023, n. 937Interventi per l’orientamento nell’ambito del PNRR.",
+        "AVVISO MINISTERIALE 19 maggio 2021, AOODGEFID 12181, Avviso pubblico per la raccolta di manifestazioni di interesse per progetti di sperimentazione di metodologie didattiche innovative nell’ambito delle STEAM con l’utilizzo delle tecnologie digitali.",
+        "Appadurai, A. (2014). Il futuro come fatto culturale. Saggi sulla condizione globale. Raffaello Cortina.",
+        "Batini, F. (2011). Storie, futuro e controllo. Le narrazioni come strumento di costruzione del futuro. Liguori.",
+        "Batini, F. (2015). Costruire futuro a scuola. Che cos’è, come e perché fare orientamento nel sistema di istruzione. I Quaderni della Ricerca, 24, Loescher.",
+        "Bauman, Z. (2011). Culture in a Liquid Modern World. Malden-MA, Polity.",
+        "Bauman, Z. (2000). Modernità liquida. Laterza.",
+        "Biagioli, R. (2014). La formazione orientativa. Studium Educationis, 2, pp. 39-50.",
+        "Cantelmi, T. (2013). Tecnoliquidità. La psicologia ai tempi di internet. San Paolo.",
+        "Carletti, A., Varani, A. (a cura di) (2007). Ambienti di apprendimento e nuove tecnologie. Erickson.",
+        "Rivoltella, P. C. (2006). Screen generation. Gli adolescenti e le prospettive dell’educazione nell’età dei media digitali. Vita e pensiero.",
+        "Domenici, G. (2015). Manuale dell’orientamento e della didattica modulare. Laterza.",
+        "Gemelli, A. (1947). L’orientamento professionale dei giovani nelle scuole. Vita e Pensiero.",
+        "Istat (2019). Livelli di istruzione e ritorni occupazionali. Estratto da: https://www.istat.it/it/files//2019/07/Report-Livelli-di-istruzione-e-ritorni-occupazionali_2018.pdf.",
+        "Lengrand, P. (1970). Introduction à l’éducation permanente. Paris: UNESCO.",
+        "Loiodice, I. (2012). Orientamento come educazione alla transizione. Per non farsi “schiacciare” dal cambiamento. MeTis. Mondi educativi. Temi, indagini, suggestioni, 2(1). Estratto da: http://www.metisjournal.it/metis/anno-ii-numero-1-giugno-2012-orientamenti-temi/37-saggi/224-orientamento-come-educazione-alla-transizione-per-non-farsi-schiacciare-dal-cambiamento.html.",
+        "Margottini M. (2015). L’orientamento a livello universitario. Orientamenti pedagogici, 62(3), pp. 531-545.",
+        "Marone, F. (2002). Orientamento come narrazione. In E. Frauenfelder & V. Sarracino (a cura di), L’orientamento. Questioni pedagogiche (pp. 75-95). Liguori.",
+        "OECD (2018), Equity in Education: Breaking Down Barriers to Social Mobility, PISA, OECD Publishing, Paris. Estratto da: https://doi.org/10.1787/9789264073234-en.",
+        "OECD (2017). Youth Aspirations and the Reality of Jobs in Developing Countries: Mind the Gap, Development Centre Studies, OECD Publishing, Paris. Estratto da: https://doi.org/10.1787/9789264285668-en.",
+        "OECD (2016). Education at a Glance 2016: OECD Indicators, OECD Publishing, Paris. Estratto da: http://dx.doi.org/10.187/eag-2016-en.",
+        "Pombeni, M.L. (2007). Metodologie per lo sviluppo delle competenze orientative. Il contributo della scuola nel processo di orientamento. Intervento al convegno Tavolo per l’orientamento, Tione (Trento).",
+        "Rosati, N. (2021). L’educazione STEM al nido: una sfida possibile. IUL Research, Open Journal of IUL University, 2(4), pp. 188-207.",
+        "Rubie-Davies, C.M. (2006), Teacher expectations and student self-perceptions: Exploring relationships. Psychology in the Schools, 43(5), pp. 537-552.",
+        "Sartori, R. (2010), Stage e tirocinio tra orientamento e formazione: il caso di alcune laureate in discipline umanistiche di Verona e Provincia. Giornale Italiano di Psicologia dell’Orientamento, 11, pp. 23-33.",
+        "Sartori, R., Rappagliosi, C.M. (2012). Orientamento, formazione e lavoro: dalla psicologia alle organizzazioni. LED.",
+        "Sibilio, M. (2015). La funzione orientativa della didattica semplessa. Pedagogia Oggi, 1, pp. 327-334.",
+        "Soresi, S., Nota, L. & Ferrari, L. (2004), Autodeterminazione e scelte scolastiche professionali: uno strumento per l’assesment, Giornale Italiano di Psicologia dell’Orientamento, 5, pp. 26-42.",
+        "Toffler, A. (1971). Lo choc del futuro. Rizzoli.",
+        "Trovesi, G. C. (2007). Leggere, scrivere, far di conto. Superare i problemi di apprendimento con la musica. Armando Editore.",
+        "Ulivieri, S., & Martini, B. (2015). Orientare è educare. Pedagogia Oggi, 1, pp. 7-9."
+      ],
+      "count": 34,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_16824",
+    "article_ID": "16824",
+    "slug": "16824",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "16824",
+      "url_slug": "16824"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Orientare con le discipline STEAM",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Orientare con le discipline STEAM",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Orientation with the STEAM education disciplines",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Orientare con le discipline STEAM",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-11-21",
+      "accepted": null,
+      "created": "2023-12-13",
+      "modified": "2023-12-13",
+      "issued": "2023-12-13",
+      "available": "2023-12-13",
+      "submitted_page": "2023-11-21",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Orientare con le discipline STEAM",
+        "pdf_value": null,
+        "chosen_value": "Orientare con le discipline STEAM",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-21",
+        "pdf_value": null,
+        "chosen_value": "2023-11-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16824/2577",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16824/2577",
+      "local_relative_path": "2499-507X_16824.pdf",
+      "saved": true,
+      "sha256": "20fedc3150cdc805a5b3317e3523517ee02ab033f5cf35133c6472cc356025e3",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 864770,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Rossana Sicurello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Palermo"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Orientare con le discipline STEAM"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/12/13"
+      ],
+      "citation_volume": [
+        "8"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2023oa16824"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16824"
+      ],
+      "citation_keywords": [
+        "Orientamento",
+        "STEAM",
+        "Tecnologia",
+        "Didattica",
+        "Complessità"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/16824/2577"
+      ],
+      "citation_reference_count": 34,
+      "DC.Date.created": [
+        "2023-12-13"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-11-21"
+      ],
+      "DC.Date.issued": [
+        "2023-12-13"
+      ],
+      "DC.Date.modified": [
+        "2023-12-13"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "16824"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2023oa16824"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16824"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "8"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Orientare con le discipline STEAM"
+      ],
+      "DC.Title.Alternative": [
+        "Orientation with the STEAM education disciplines"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Rossana Sicurello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Palermo"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Rossana Sicurello"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The importance of a solid knowledge in the technological and scientific field has undoubtedly become a necessity in recent years that tends to amplify more and more every day. In relation to this, at a European level, the approach to STEM disciplines, an acronym for Science, Technology, Engineering, Mathematics, has been promoted. In recent years, the STEAM disciplines have also established themselves, an acronym for Science, Technology, Engineering, Art, Mathematics which represent an expansion compared to STEM and, at the same time, a completion. STEAM disciplines today find themselves at the center of a great debate involving schools, universities and companies both for their leading role in the current job market and for their ability to be a driver of change in a rapidly changing world. In this sense, the role of orientation towards STEAM disciplines is fundamental.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The importance of a solid knowledge in the technological and scientific field has undoubtedly become a necessity in recent years that tends to amplify more and more every day. In relation to this, at a European level, the approach to STEM disciplines, an acronym for Science, Technology, Engineering, Mathematics, has been promoted. In recent years, the STEAM disciplines have also established themselves, an acronym for Science, Technology, Engineering, Art, Mathematics which represent an expansion compared to STEM and, at the same time, a completion. STEAM disciplines today find themselves at the center of a great debate involving schools, universities and companies both for their leading role in the current job market and for their ability to be a driver of change in a rapidly changing world. In this sense, the role of orientation towards STEAM disciplines is fundamental."
+          }
+        },
+        {
+          "content": "L’importanza di avere solide conoscenze in ambito tecnologico e scientifico senza dubbio negli ultimi anni è diventata una necessità che tende ad amplificarsi ogni giorno sempre di più. Rispetto a ciò, a livello europeo, è stato promosso l’approccio alle discipline STEM, acronimo di Science, Technology, Engineering, Mathematics. Negli ultimi anni si sono affermate anche le discipline STEAM, acronimo di Science, Technology, Engineering, Art, Mathematics che rappresentano un ampliamento rispetto alle STEM e, al tempo stesso, un completamento. Le discipline STEAM si trovano oggi al centro di un grande dibattito che coinvolge scuole, università e aziende sia per il loro ruolo da protagoniste nell’attuale mercato del lavoro, sia per la capacità di essere motore di cambiamento in un mondo in rapido mutamento. In tal senso, il ruolo dell’orientamento alle discipline STEAM risulta fondamentale.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’importanza di avere solide conoscenze in ambito tecnologico e scientifico senza dubbio negli ultimi anni è diventata una necessità che tende ad amplificarsi ogni giorno sempre di più. Rispetto a ciò, a livello europeo, è stato promosso l’approccio alle discipline STEM, acronimo di Science, Technology, Engineering, Mathematics. Negli ultimi anni si sono affermate anche le discipline STEAM, acronimo di Science, Technology, Engineering, Art, Mathematics che rappresentano un ampliamento rispetto alle STEM e, al tempo stesso, un completamento. Le discipline STEAM si trovano oggi al centro di un grande dibattito che coinvolge scuole, università e aziende sia per il loro ruolo da protagoniste nell’attuale mercato del lavoro, sia per la capacità di essere motore di cambiamento in un mondo in rapido mutamento. In tal senso, il ruolo dell’orientamento alle discipline STEAM risulta fondamentale."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Orientamento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Orientamento"
+          }
+        },
+        {
+          "content": "STEAM",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "STEAM"
+          }
+        },
+        {
+          "content": "Tecnologia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Tecnologia"
+          }
+        },
+        {
+          "content": "Didattica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Didattica"
+          }
+        },
+        {
+          "content": "Complessità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Complessità"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16824/2577",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16824/2577",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16824/2577",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16824/2577",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16824/2577",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2023-12-11",
+        "mod_date": "2023-12-11"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 2 Doi: 10.3280/exioa2-2023oa16824 Orientare con le discipline STEAM Orientation with the STEAM education disciplines Rossana Sicurello * Riassunto L’importanza di avere solide conoscenze in ambito tecnologico e scientifico senza dubbio negli ultimi anni è diventata una necessità che te nde ad amplificarsi ogni giorno sempre di più. Rispetto a ciò, a livello europeo, è stato promosso l’approccio alle discipline STEM, acronimo di Science, Technology, Engineering, Mathematics. Negli ultimi anni si sono affermate a nche le discipline STEAM, acronimo di Science, Technology, Engineering, A r t , Mathematics che rappresentano un ampliamento rispetto alle STEM e, al tempo stesso, un completamento. Le discipline STEAM si trovano oggi a l centro di un grande dibattito che coinvolge scuole, università e aziende sia per il loro ruolo da protagoniste nell’attuale mercato del lavoro, sia per la capacità di essere motore di cambiamento in un mondo in rapido mutamento. In tal senso, il ruolo dell’orientamento alle discipline STEAM risulta fondamentale. Parole chiave: orientamento, STEAM, tecnologia, didattica, complessità. Abstract The importance of a solid knowledge in the technological and scientific field has undoubtedly become a necessity in recent years that tends to amplify more and more every day. In relation to this, at a European level, t he approach to STEM disciplines, an acronym for Science, Technology, Engineering, Mathematics, has been promoted. In recent years, the STEAM disciplines have also established themselves, an acronym for Science, Technology, Engineering, Art, Mathematics which represent an expansion compared to STEM and, at the same time, a completion. STEAM disciplines today find themselve s at the center of a great debate involving schools, universities and companies both for their leading role in the current job market and for their ability to be a driver of * Università degli Studi di Palermo, e-mail: rossana.sicurello@unikore.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\16824\\2499-507X_16824.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Orientare con le discipline STEAM",
+        "pdf_value": null,
+        "chosen_value": "Orientare con le discipline STEAM",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-21",
+        "pdf_value": null,
+        "chosen_value": "2023-11-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Orientare con le discipline STEAM | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16824",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16824",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:34:02Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16824\\temp\\2499-507X_16824.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:34:05Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16824\\2499-507X_16824.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Orientare con le discipline STEAM",
+        "submitted_date": "2023-11-21",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Rossana Sicurello"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16824\\2499-507X_16824.pdf",
+        "generated_at_utc": "2026-04-21T21:34:05Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2023-12-11",
+          "mod_date": "2023-12-11"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 2 Doi: 10.3280/exioa2-2023oa16824 Orientare con le discipline STEAM Orientation with the STEAM education disciplines Rossana Sicurello * Riassunto L’importanza di avere solide conoscenze in ambito tecnologico e scientifico senza dubbio negli ultimi anni è diventata una necessità che te nde ad amplificarsi ogni giorno sempre di più. Rispetto a ciò, a livello europeo, è stato promosso l’approccio alle discipline STEM, acronimo di Science, Technology, Engineering, Mathematics. Negli ultimi anni si sono affermate a nche le discipline STEAM, acronimo di Science, Technology, Engineering, A r t , Mathematics che rappresentano un ampliamento rispetto alle STEM e, al tempo stesso, un completamento. Le discipline STEAM si trovano oggi a l centro di un grande dibattito che coinvolge scuole, università e aziende sia per il loro ruolo da protagoniste nell’attuale mercato del lavoro, sia per la capacità di essere motore di cambiamento in un mondo in rapido mutamento. In tal senso, il ruolo dell’orientamento alle discipline STEAM risulta fondamentale. Parole chiave: orientamento, STEAM, tecnologia, didattica, complessità. Abstract The importance of a solid knowledge in the technological and scientific field has undoubtedly become a necessity in recent years that tends to amplify more and more every day. In relation to this, at a European level, t he approach to STEM disciplines, an acronym for Science, Technology, Engineering, Mathematics, has been promoted. In recent years, the STEAM disciplines have also established themselves, an acronym for Science, Technology, Engineering, Art, Mathematics which represent an expansion compared to STEM and, at the same time, a completion. STEAM disciplines today find themselve s at the center of a great debate involving schools, universities and companies both for their leading role in the current job market and for their ability to be a driver of * Università degli Studi di Palermo, e-mail: rossana.sicurello@unikore.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Orientare con le discipline STEAM",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Orientare con le discipline STEAM",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-11-21",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-11-21",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:27Z"
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:29Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16824\\temp\\2499-507X_16824.conflicts.json"
+  }
+}

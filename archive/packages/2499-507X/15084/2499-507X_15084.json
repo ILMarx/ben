@@ -1,0 +1,860 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
+  "scraped_at_utc": "2026-04-21T21:33:19Z",
+  "fetched_at_utc": "2026-04-21T21:33:19Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "f51980a21061a12ecbd30dfeb867c41c7be3c3491a466deda7dac5f0d68f9499",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "L’Internazionalizzazione delle Università",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Antonietta Rocco",
+        "nameType": "Personal",
+        "givenName": "Antonietta",
+        "familyName": "Rocco",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Foggia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-12-20",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-12-20",
+      "Issued": "2022-12-20"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "Nowadays Universities are called upon to provide for a rapid innovation of their skills in order to support international competitiveness in an increasingly globalized society from an economic, social, political, cultural, scientific and technological point of view. The internationalization of businesses, the opening of borders, new technologies have led universities to adopt internationalization policies that promote the mobility of students, teachers and administrative staff, the vehicular use of foreign and foreign languages. Particular of English, the growth of international exchange, study and research programs, the introduction of double, multiple and joint degrees. One wonders if internationalization is always and in any case a qualifying element or can it also take on negative connotations and unexpected implications. We are witnessing a rethinking of the mission of universities, as driving forces for progress, development and evolution. For an university, internationalization does not mean forgetting or devaluing its history and tradition, but on the contrary, it must be interpreted as a challenge to design new growth dynamics and enhancement strategies and to redevelop itself as an inclusive and universal university.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Oggi le Università sono chiamate a provvedere ad una rapida innovazione delle proprie competenze al fine di sostenere la competitività internazionale in una società sempre più globalizzata dai punti di vista economico, sociale, politico, culturale, scientifico e tecnologico. L’internazionalizzazione delle imprese, l’apertura delle frontiere, le nuove tecnologie hanno indotto gli Atenei ad adottare politiche di internazionalizzazione che promuovono la mobilità di studenti, docenti e personale amministrativo, l’uso veicolare delle lingue straniere e in particolare dell’inglese, la crescita di programmi internazionali di scambio, di studio e di ricerca, l’introduzione di titoli doppi, multipli e congiunti. Ci si chiede se l’internazionalizzazione sia sempre e comunque un elemento qualificante o possa assumere anche connotati negativi e risvolti inattesi. Si assiste ad un ripensamento della missione delle Università, come centri propulsori di progresso, sviluppo ed evoluzione. L’internazionalizzazione per un Ateneo non significa dimenticare o svalutare la propria storia e la propria tradizione, ma al contrario, va interpretata come una sfida per progettare nuove dinamiche di crescita e strategie di valorizzazione e per riqualificarsi come Università inclusiva e universalistica.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2022oa15084",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Internazionalizzazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Globalizzazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Università",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Mobilità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Studenti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15084/2121",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Rocco, A. (2022). L’Internazionalizzazione delle Università. Excellence and Innovation in Learning and Teaching - Open Access , 7 (2). https://doi.org/10.3280/exioa2-2022oa15084",
+      "articleTitleEcho": "L’Internazionalizzazione delle Università"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Altbach, P. G. (2004). Globalisation and the university: Myths and realities in an unequal world. Tertiary Education & Management, 10.1, 3-25.",
+        "Altbach, P. G., & Knight, J. (2007). The internationalization of higher education: Motivations and realities. Journal of studies in international education, 11.3-4, 290-305.",
+        "Ayoubi, R. M., & Al‐Habaibeh, A. (2006). An investigation into international business collaboration in higher education organisations: A case study of international partnerships in four UK leading universities. International Journal of Educational Management, 20.5, 380-396.",
+        "Ayoubi, R. M., & Massoud, H. K. (2007). The strategy of internationalization in universities: A quantitative evaluation of the intent and implementation in UK universities. International Journal of Educational Management, 21.4, 329-349.",
+        "Bakalis, S., & Joiner, T. A. (2004). Participation in tertiary study abroad programs: The role of personality. International Journal of Educational Management, 18.5, 286-291.",
+        "Bakar, A. R. A., & Abdul-Talib, A. N. (2013). A case study of an internationalization process of a private higher education institution in Malaysia. Gadjah Mada International Journal of Business, 15.3, 211-230.",
+        "Commissione Europea (2020). Horizon 2020. Reperito al http://www.horizon2020news.it/argomenti/programma-horizon-2020 (22/11/2022).",
+        "Consiglio Europeo (marzo 2020). Strategia di Lisbona. Reperito al https://www.crui.it/manuale-didattica/strategia-di-lisbona.html (22/11/2022).",
+        "Costituzione della Repubblica Italiana (1948). Reperito al https://www.senato.it/istituzione/la-costituzione (22/11/2022).",
+        "De Rosa, A. S. (2008). New forms of international cooperation in doctoral training: Internationalisation and the international doctorate-one goal, two distinct models. Higher Education in Europe, 33.1, 3-25.",
+        "De Wit, H. (2011). Globalisation and internationalisation of higher education. International Journal of Educational Technology in Higher Education, 8.2, 241-248.",
+        "Decreto Legge (28 febbraio 2022), n. 16. Ulteriori misure urgenti per la crisi in Ucraina. GU Serie Generale, 49 del 28-02-2022. Reperito al https://www.gazzettaufficiale.it/eli/id/2022/02/28/22G00025/sg (22/11/2022).",
+        "Dordit, L., & De Toni, A. F. (2019). Valutare l’internazionalizzazione dell’università: Una proposta per il sistema italiano degli atenei. Marsilio Editori spa.",
+        "Ferri, P. (2019). MOOC, didattica universitaria digitale e Learning analytics. Opportu-nità e prospettive. Italian Journal of Educational Research, 13-26.",
+        "Gazzetta Italiana ufficiale dell’Unione Europea (26-10-2012), Trattato sul Funzionamento dell’Unione Europea. Reperito al https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:12012E/TXT (22/11/2022).",
+        "Knight, J. (2003). GATS, Trade and Higher Education Perspective 2003-Where are we?. The Observatory on Borderless Higher Education, London.",
+        "Knight, J. (2008). Higher education in turmoil: The changing world of internationalization. Brill.",
+        "Kone, Z. L., & Özden, Ç. (2017). Brain drain, gain and circulation. In Handbook of Globalisation and Development, pp. 349-370. Edward Elgar Publishing.",
+        "Legge 30 dicembre 2010, n. 240. Norme in materia di organizzazione delle università, di personale accademico e reclutamento, nonché delega al Governo per incentivare la qualità e l’efficienza del sistema universitario. Gazzetta Ufficiale n. 10 del 14 gennaio 2011 – Suppl. Ordinario n. 11. Reperito al https://www.parlamento.it/parlam/leggi/10240l.htm (22/11/2022).",
+        "Marinoni, G. (2019). Internationalization of higher education: An evolving landscape, locally and globally: IAU 5th Global Survey. DUZ medienhaus. Reperito al https://www.iau-aiu.net/IMG/pdf/iau_5th_global_survey_executive_summary.pdf (22/11/2022).",
+        "Marinoni, G., Van’t Land, H., & Jensen, T. (2020). The impact of Covid-19 on higher education around the world. IAU global survey report, 23. Reperito al https://www.iau-aiu.net/IMG/pdf/iau_covid19_and_he_survey_report_final_may_2020.pdf (22/11/2022).",
+        "Morris, N. P. (2014). How Digital Technologies, Blended Learning and MOOCs Will Impact the Future of Higher Education. International Association for the Development of the Information Society. International Conference e-Learning 2014, pp. 401-404.",
+        "Nilsson, B. (1999). Internationalisation at home: Theory and praxis (EAIE Forum, Spring).",
+        "Pérez-Encinas, A., Howard, L., Rumbley, L. E., & De Wit, H. (2017). The internationalisation of higher education in Spain. Reflections and perspectives. Servicio Español para la Internacionalización de la Educación (SEPIE). Madrid: Ministerio de Educación Cultura y Deporte. Reperito al http://sepie.es/doc/comunicacion/publicaciones/SEPIE-ESP_internacionalizacion.pdf (22/11/2022).",
+        "Poole, M. (2004, July). Diversity of the student body and social cohesion. In 12th General Conference: The Wealth of Diversity, IAU Sao Paulo Conference, July (pp. 25-29).",
+        "Porter, S. (2015). To MOOC or not to MOOC: How can online learning help to build the future of higher education?. Chandos Publishing.",
+        "Portera, A. (2013). Competenze interculturali. Teoria e pratica nei settori scolastico-educativo, giuridico, aziendale, sanitario e della mediazione culturale. Milano: FrancoAngeli.",
+        "Pritchard, R. M., & Skinner, B. (2002). Cross-cultural partnerships between home and international students. Journal of Studies in International Education, 6.4, 323-353.",
+        "Rugge, F. (2019). L’internazionalizzazione della Formazione Superiore in Italia. Le Università. Fondazione CRUI. Retrieved April, 24, 2020.",
+        "Sentenza della Corte Costituzionale Italiana (21-24 febbraio 2017) n. 42. Reperito al https://www.cortecostituzionale.it/actionSchedaPronuncia.do?anno=2017&numero=42 (22/11/2022).",
+        "Teichler, U. (2012). International student mobility and the Bologna process. Research in Comparative and International Education, 7.1, 34-49.",
+        "Thorstensson, L. (2001). This business of internationalization: The academic experiences of 6 Asian MBA international students at the University of Minnesota’s Carlson School of Management. Journal of Studies in International Education, 5.4, 317-340.",
+        "Warakaulle, H. N. (2004). Institutional linkages, networks and mobility schemes: Which way to capacity building. In 12th General Conference: The Wealth of Diversity, IAU Sao Paulo Conference, July 25-29."
+      ],
+      "count": 33,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_15084",
+    "article_ID": "15084",
+    "slug": "15084",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "15084",
+      "url_slug": "15084"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "L’Internazionalizzazione delle Università",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "L’Internazionalizzazione delle Università",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "The Internationalization of Universities",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "L’Internazionalizzazione delle Università",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-12-13",
+      "accepted": null,
+      "created": "2022-12-20",
+      "modified": "2022-12-20",
+      "issued": "2022-12-20",
+      "available": "2022-12-20",
+      "submitted_page": "2022-12-13",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "L’Internazionalizzazione delle Università",
+        "pdf_value": null,
+        "chosen_value": "L’Internazionalizzazione delle Università",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-13",
+        "pdf_value": null,
+        "chosen_value": "2022-12-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084/2121",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15084/2121",
+      "local_relative_path": "2499-507X_15084.pdf",
+      "saved": true,
+      "sha256": "419811f77689817034c86d8a26a8719a0cf20986bb9597ab4437a708f519f7cc",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 838109,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Antonietta Rocco"
+      ],
+      "citation_author_institution": [
+        "Università di Foggia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "L’Internazionalizzazione delle Università"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2022/12/20"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2022oa15084"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15084"
+      ],
+      "citation_keywords": [
+        "Internazionalizzazione",
+        "Globalizzazione",
+        "Università",
+        "Mobilità",
+        "Studenti"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/15084/2121"
+      ],
+      "citation_reference_count": 33,
+      "DC.Date.created": [
+        "2022-12-20"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-12-13"
+      ],
+      "DC.Date.issued": [
+        "2022-12-20"
+      ],
+      "DC.Date.modified": [
+        "2022-12-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "15084"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2022oa15084"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15084"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "L’Internazionalizzazione delle Università"
+      ],
+      "DC.Title.Alternative": [
+        "The Internationalization of Universities"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Antonietta Rocco"
+      ],
+      "citation_author_institution": [
+        "Università di Foggia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Antonietta Rocco"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Nowadays Universities are called upon to provide for a rapid innovation of their skills in order to support international competitiveness in an increasingly globalized society from an economic, social, political, cultural, scientific and technological point of view. The internationalization of businesses, the opening of borders, new technologies have led universities to adopt internationalization policies that promote the mobility of students, teachers and administrative staff, the vehicular use of foreign and foreign languages. Particular of English, the growth of international exchange, study and research programs, the introduction of double, multiple and joint degrees. One wonders if internationalization is always and in any case a qualifying element or can it also take on negative connotations and unexpected implications. We are witnessing a rethinking of the mission of universities, as driving forces for progress, development and evolution. For an university, internationalization does not mean forgetting or devaluing its history and tradition, but on the contrary, it must be interpreted as a challenge to design new growth dynamics and enhancement strategies and to redevelop itself as an inclusive and universal university.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Nowadays Universities are called upon to provide for a rapid innovation of their skills in order to support international competitiveness in an increasingly globalized society from an economic, social, political, cultural, scientific and technological point of view. The internationalization of businesses, the opening of borders, new technologies have led universities to adopt internationalization policies that promote the mobility of students, teachers and administrative staff, the vehicular use of foreign and foreign languages. Particular of English, the growth of international exchange, study and research programs, the introduction of double, multiple and joint degrees. One wonders if internationalization is always and in any case a qualifying element or can it also take on negative connotations and unexpected implications. We are witnessing a rethinking of the mission of universities, as driving forces for progress, development and evolution. For an university, internationalization does not mean forgetting or devaluing its history and tradition, but on the contrary, it must be interpreted as a challenge to design new growth dynamics and enhancement strategies and to redevelop itself as an inclusive and universal university."
+          }
+        },
+        {
+          "content": "Oggi le Università sono chiamate a provvedere ad una rapida innovazione delle proprie competenze al fine di sostenere la competitività internazionale in una società sempre più globalizzata dai punti di vista economico, sociale, politico, culturale, scientifico e tecnologico. L’internazionalizzazione delle imprese, l’apertura delle frontiere, le nuove tecnologie hanno indotto gli Atenei ad adottare politiche di internazionalizzazione che promuovono la mobilità di studenti, docenti e personale amministrativo, l’uso veicolare delle lingue straniere e in particolare dell’inglese, la crescita di programmi internazionali di scambio, di studio e di ricerca, l’introduzione di titoli doppi, multipli e congiunti. Ci si chiede se l’internazionalizzazione sia sempre e comunque un elemento qualificante o possa assumere anche connotati negativi e risvolti inattesi. Si assiste ad un ripensamento della missione delle Università, come centri propulsori di progresso, sviluppo ed evoluzione. L’internazionalizzazione per un Ateneo non significa dimenticare o svalutare la propria storia e la propria tradizione, ma al contrario, va interpretata come una sfida per progettare nuove dinamiche di crescita e strategie di valorizzazione e per riqualificarsi come Università inclusiva e universalistica.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Oggi le Università sono chiamate a provvedere ad una rapida innovazione delle proprie competenze al fine di sostenere la competitività internazionale in una società sempre più globalizzata dai punti di vista economico, sociale, politico, culturale, scientifico e tecnologico. L’internazionalizzazione delle imprese, l’apertura delle frontiere, le nuove tecnologie hanno indotto gli Atenei ad adottare politiche di internazionalizzazione che promuovono la mobilità di studenti, docenti e personale amministrativo, l’uso veicolare delle lingue straniere e in particolare dell’inglese, la crescita di programmi internazionali di scambio, di studio e di ricerca, l’introduzione di titoli doppi, multipli e congiunti. Ci si chiede se l’internazionalizzazione sia sempre e comunque un elemento qualificante o possa assumere anche connotati negativi e risvolti inattesi. Si assiste ad un ripensamento della missione delle Università, come centri propulsori di progresso, sviluppo ed evoluzione. L’internazionalizzazione per un Ateneo non significa dimenticare o svalutare la propria storia e la propria tradizione, ma al contrario, va interpretata come una sfida per progettare nuove dinamiche di crescita e strategie di valorizzazione e per riqualificarsi come Università inclusiva e universalistica."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Internazionalizzazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Internazionalizzazione"
+          }
+        },
+        {
+          "content": "Globalizzazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Globalizzazione"
+          }
+        },
+        {
+          "content": "Università",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Università"
+          }
+        },
+        {
+          "content": "Mobilità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Mobilità"
+          }
+        },
+        {
+          "content": "Studenti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Studenti"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15084/2121",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15084/2121",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084/2121",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084/2121",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15084/2121",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 07_Rocco.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2022-12-19",
+        "mod_date": "2022-12-19"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15084 L’Internazionalizzazione delle Università The Internationalization of Universities Antonietta Rocco* Riassunto Oggi le Università sono chiamate a provvedere ad una rapida inn ovazione delle proprie competenze al fine di sostenere la competitività internazionale in una società sempre più globali zzata dai punti di vista economic o, sociale, po- litico, culturale, scientifico e tecnologico. L’internazionaliz zazione delle im- prese, l’apertura delle frontie re, le nuove tecnologie hanno in dotto gli Atenei ad adottare politiche di intern azionalizzazione che promuovono la mobilità di studenti, docenti e personale amministrativo, l’uso veicolare d elle lingue stra- niere e in particolare dell’inglese, la crescita di programmi i nternazionali di scambio, di studio e di ricerca, l’introduzione di titoli doppi, multipli e con- giunti. Ci si chiede se l’internazionalizzazione sia sempre e c omunque un elemento qualificante o possa assumere anche connotati negativi e risvolti inattesi. Si assiste ad un ripen samento della missione delle Università, come centri propulsori di progresso, sviluppo ed evoluzione. L’internazionalizzazio- ne per un Ateneo non significa dimenticare o svalutare la propr ia storia e la propria tradizione, ma al contra rio, va interpretata come una s fida per proget- tare nuove dinamiche di crescita e strategie di valorizzazione e per riqualifi- carsi come Università inclusiva e universalistica. Parole chiave: Internazionalizzazione, Globalizzazione, Università, Mobilità, Studenti. Abstract Nowadays Universities are called upon to provide for a rapid in novation of their skills in order to support international competitiveness in an increasingly globalized society from an economic, social, political, cultura l, scientific and technological point of view. The internationalization of busine sses, the * Responsabile Unità Cooperazione Internazionale, Università di Foggia. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\2499-507X_15084.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "L’Internazionalizzazione delle Università",
+        "pdf_value": null,
+        "chosen_value": "L’Internazionalizzazione delle Università",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-13",
+        "pdf_value": null,
+        "chosen_value": "2022-12-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "L’Internazionalizzazione delle Università | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:33:19Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\temp\\2499-507X_15084.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:21Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\2499-507X_15084.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "L’Internazionalizzazione delle Università",
+        "submitted_date": "2022-12-13",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Antonietta Rocco"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\2499-507X_15084.pdf",
+        "generated_at_utc": "2026-04-21T21:33:21Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 07_Rocco.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2022-12-19",
+          "mod_date": "2022-12-19"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15084 L’Internazionalizzazione delle Università The Internationalization of Universities Antonietta Rocco* Riassunto Oggi le Università sono chiamate a provvedere ad una rapida inn ovazione delle proprie competenze al fine di sostenere la competitività internazionale in una società sempre più globali zzata dai punti di vista economic o, sociale, po- litico, culturale, scientifico e tecnologico. L’internazionaliz zazione delle im- prese, l’apertura delle frontie re, le nuove tecnologie hanno in dotto gli Atenei ad adottare politiche di intern azionalizzazione che promuovono la mobilità di studenti, docenti e personale amministrativo, l’uso veicolare d elle lingue stra- niere e in particolare dell’inglese, la crescita di programmi i nternazionali di scambio, di studio e di ricerca, l’introduzione di titoli doppi, multipli e con- giunti. Ci si chiede se l’internazionalizzazione sia sempre e c omunque un elemento qualificante o possa assumere anche connotati negativi e risvolti inattesi. Si assiste ad un ripen samento della missione delle Università, come centri propulsori di progresso, sviluppo ed evoluzione. L’internazionalizzazio- ne per un Ateneo non significa dimenticare o svalutare la propr ia storia e la propria tradizione, ma al contra rio, va interpretata come una s fida per proget- tare nuove dinamiche di crescita e strategie di valorizzazione e per riqualifi- carsi come Università inclusiva e universalistica. Parole chiave: Internazionalizzazione, Globalizzazione, Università, Mobilità, Studenti. Abstract Nowadays Universities are called upon to provide for a rapid in novation of their skills in order to support international competitiveness in an increasingly globalized society from an economic, social, political, cultura l, scientific and technological point of view. The internationalization of busine sses, the * Responsabile Unità Cooperazione Internazionale, Università di Foggia. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 07_Rocco.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "L’Internazionalizzazione delle Università",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "L’Internazionalizzazione delle Università",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-12-13",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-12-13",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:22Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:24Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\temp\\2499-507X_15084.conflicts.json"
+  }
+}

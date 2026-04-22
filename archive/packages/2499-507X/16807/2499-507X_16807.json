@@ -1,0 +1,894 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16807",
+  "scraped_at_utc": "2026-04-21T21:33:46Z",
+  "fetched_at_utc": "2026-04-21T21:33:46Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "d8bc258ff395a0f95178d751182f45e6b113f198a9bac0e3b86470991f79068e",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Ottavia Trevisan",
+        "nameType": "Personal",
+        "givenName": "Ottavia",
+        "familyName": "Trevisan",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Marta Carli",
+        "nameType": "Personal",
+        "givenName": "Marta",
+        "familyName": "Carli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/16807",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-11-08",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2023-12-13",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-12-13",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-12-13",
+      "Issued": "2023-12-13",
+      "Accepted": "2023-11-08"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This research explores the impact a Virtual Community of Practice (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching experiences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develop professional identity and competencies. This paper reports on part of the project engaging eight preservice or early-career teachers, two mentors, three researchers, and forty-eight secondary school pupils. Pre and post semi-structured interviews were employed to collect data, exploring the participants’ experiences and perceptions. The findings reveal significant impacts of the VCoP on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and real-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "This research explores the impact a Virtual Community of Practice (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching experiences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develop professional identity and competencies. This paper reports on part of the project engaging eight preservice or early-career teachers, two mentors, three researchers, and forty-eight secondary school pupils. Pre and post semi-structured interviews were employed to collect data, exploring the participants’ experiences and perceptions. The findings reveal significant impacts of the VCoP on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and real-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2023oa16807",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "8",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Teacher education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Virtual community of practice",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Teaching physics",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Teacher competences",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Professional identity",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16807/2574",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "8",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Trevisan, O., & Carli, M. (2023). Virtual School: Learning to Teach Physics in a Virtual Community of Practice. Excellence and Innovation in Learning and Teaching - Open Access , 8 (2). https://doi.org/10.3280/exioa2-2023oa16807",
+      "articleTitleEcho": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Avraamidou, L. (2014). Studying science teacher identity: current insights and future research directions. Studies in Science Education 50(2), 145-179. Doi: 10.1080/03057267.2014.937171.",
+        "Bjurholt, N., & Bøe, M. V. (2023). Remote physics teaching during the Covid-19 pandemic: losses and potential gains. Physics Education, 58, 015004. Doi: 10.1088/1361-6552/ac96be.",
+        "Boettcher, J. V., & Conrad, R.-M. (2021). The online teaching survival guide: Simple and practical pedagogical tips. John Wiley & Sons.",
+        "Burkholder, E., Salehi, S., Sackeyfio, S., Mohamed-Hinds, N., & Wieman, C. (2022). Equitable approach to introductory calculus-based physics courses focused on problem solving. Physical Review Physics Education Research 18, 020124. Doi: 10.1103/PhysRevPhysEducRes.18.020124.",
+        "Clarke, D., & Hollingsworth, H. (2002). Elaborating a model of teacher professional growth. Teaching and Teacher Education, 18(8), 947-967.",
+        "Cleveland-Innes, M. (2019). The community of inquiry theoretical framework: Designing collaborative online and blended learning. In Rethinking pedagogy for a digital age (pp. 85-102). Routledge.",
+        "Criswell, B. A., Rushton, G. T., Nachtigall, D., Staggs, S., Alemdar, M., Cappelli, C. J. (2018). Strengthening the vision: Examining the understanding of a framework for teacher leadership development by experienced science teachers. Science Education 102, 1265-1287. Doi: 10.1002/sce.21472.",
+        "Etkina, E. (2010). Pedagogical content knowledge and preparation of high school physics teachers. Physical Review Special Topics - Physics Education Research 6, 020110. Doi: 10.1103/PhysRevSTPER.6.020110.",
+        "Etkina, E., Gregorcic, B., & Vokos, S. (2017). Organizing physics teacher professional education around productive habit development: A way to meet reform challenges. Physical Review Physics Education Research 13, 010107. Doi. 10.1103/PhysRevPhysEducRes.13.010107.",
+        "Farmer, H., & Ramsdale, J. (2016). Teaching competencies for the online environment. Canadian Journal of Learning and Technology, 42(3), 1-17.",
+        "Fischer, H.E., & Kauertz, A. (2021). Professional competencies for teaching physics. In H.E. Fischer & R. Girwidz (Ed.). Physics Education. Challenges in Physics Education (pp. 25-53). Springer. Doi: 10.1007/978-3-030-87391-2_2.",
+        "Frågåt, T., Henriksen, E. K., & Tellefsen, C. W. (2021). Pre-service science teachers’ and in-service physics teachers’ views on the knowledge and skills of a good teacher. Nordic Studies in Science Education (NorDiNa) 17(3), 277-292. Doi: 10.5617/nordina.7644.",
+        "Fullan, M. (2020). Learning and the pandemic: What’s next?. Prospects, 49(1-2), 25-28. Doi: 10.1007/s11125-020-09502-0.",
+        "Ghamrawi, N. (2021). Teachers’ virtual communities of practice: A strong response in times of crisis or just another Fad?. Education and Information Technology 27, 5889-5915. Doi: 10.1007/s10639-021-10857-w.",
+        "Goffman, E. (1974). Frame analysis: An essay on the organization of experience. Harvard University Press.",
+        "Goodyear, P., Salmon, G., Spector, J. M., Steeples, C., & Tickner, S. (2001). Competences for online teaching: A special report. Educational Technology Research and Development, 49(1), 65-72.",
+        "Grossman, P. L., & Stodolsky, S. S. (1995). Content as Context: The Role of School Subjects in Secondary School Teaching. Educational Researcher 24(8), 5-23. Doi: 10.3102/0013189X024008005.",
+        "Hadar, L. L., O., Ergas, Alpert, B., & Ariav, T. (2020). Rethinking teacher education in a VUCA world: preservice teachers’ social-emotional competencies during the Covid-19 crisis. European Journal of Teacher Education 43(4), 573-586. Doi: 10.1080/02619768.2020.1807513.",
+        "Kavanagh, S. S., Conrad, J., & Dagogo-Jack, S. (2020). From rote to reasoned: Examining the role of pedagogical reasoning in practice-based teacher education. Teaching and Teacher Education, 89, 69-84. Doi: 10.1016/j.tate.2019.102991.",
+        "Kirkby, J., Walsh, L., & Keary, A. (2018). A case study of the generation and benefits of a community of practice and its impact on the professional identity of early childhood teachers. Professional Development in Education 45(2), 264-275. Doi: 10.1080/19415257.2018.1449003.",
+        "Lave, J., & Wenger, E. (1991). Situated Learning: Legitimate Peripheral Participation. Cambridge, MA: Cambridge University Press. Doi: 10.1017/CBO9780511815355.",
+        "Levy, S., Bagno, E., Berger, H., & Eylon, B.-S. (2022). Professional growth of physics teacher-leaders in a Professional Learning Communities program: the context of inquiry-based laboratories. International Journal of Science and Mathematics Education 20, 1813-1839.",
+        "McHugh, M. L. (2012). Interrater reliability: The kappa statistic. Biochemia medica 22(3), 276-282.",
+        "McLaughlan, T. (2021) Facilitating factors in cultivating diverse online communities of practice: A case of international teaching assistants during the COVID-19 crisis. International Journal of Information and Learning Technology 38(2), 177-195. Doi: 10.1108/IJILT-05-2020-0074.",
+        "Milner-Bolotin, M. (2018). Evidence-Based Research in STEM Teacher Education: From Theory to Practice. Frontiers in Education 3(92). Doi: 10.3389/feduc.2018.00092.",
+        "Murtagh, L., & Rushton, E. A. C. (2023). The role of teacher educator virtual communities of practice (VCoPs) in mobilising policy engagement: A case study of the initial teacher training market review from England. Asia-Pacific Journal of Teacher Education. Doi: 10.1080/1359866X.2023.2191306.",
+        "Nadeau, M., Modir, B., Lock, R. M., & Newton, W. G. (2020). Participation in an online community of high school physics teachers. In Wolf, S., Bennett, M. B., & Frank, B. W. (Eds.). 2020 Physics Education Research Conference Proceedings (pp. 370-375). Doi: 10.1119/perc.2020.pr.Nadeau.",
+        "O’Brien, D. J. (2021). A guide for incorporating e-teaching of physics in a post-COVID world. American Journal of Physics 89, 403. Doi: 10.1119/10.0002437.",
+        "O'Brien, A., & Fuller, R. (2018). Synchronous teaching techniques from the perspective and observation of virtual high school teachers: An investigative study. International Journal of Information and Communication Technology Education (IJICTE), 14(3), 55-67.",
+        "Oshima, J., & Shaffer, D. W. (2021). Learning analytics for a new epistemological perspective of learning. Information and Technology in Education and Learning, 1(1), 1-11. Doi: 10.12937/itel.1.1.Inv.p003.",
+        "Perkins, D. (1992). Smart schools. Free Press.",
+        "Phillips, M., Kovanović, V., Mitchell, I., & Gašević, D. (2019). The Influence of Discipline on Teachers’ Knowledge and Decision Making. In B. Eagan, M. Misfeldt, & A. Siebert-Evenstone (Eds.), Advances in Quantitative Ethnography (pp. 177-188). Springer International Publishing. Doi: 10.1007/978-3-030-33232-7_15.",
+        "Phillips, M., Trevisan, O., Carli, M., Mannix, T., Gargiso, R., Gabelli, L. & Lippiello, S. (2023). Uncovering patterns and (dis)similarities of preservice teachers through Epistemic Network Analysis. In E. Langran, P. Christensen & J. Sanson (Eds.), Proceedings of Society for Information Technology & Teacher Education International Conference (pp. 1021-1030). New Orleans, LA, United States: Association for the Advancement of Computing in Education (AACE). -- Retrieved September 11, 2023 from https://www.learntechlib.org/p/221960.",
+        "Redecker, C. (2017). European framework for the digital competence of educators (Y. Punie, Ed.). Publications Office of the European Union.",
+        "Salazar López, T. I., & Nardi, R. (2020). Imaginários de futuros professores de física sobre os saberes docentes: sentidos produzidos na interface universidade-escola no estágio curricular supervisionado. Investigações Em Ensino De Ciências, 25(3), 454-470. Doi: 10.22600/1518-8795.ienci2020v25n3p454.",
+        "Shaffer, D. W. (2006a). Epistemic frames for epistemic games. Computers & Education 46(3), 223-234. Doi: 10.1016/j.compedu.2005.11.003.",
+        "Shaffer, D. W. (2006b). How computer games help children learn. Palgrave Macmillan.",
+        "Shaffer, D. W., Collier, W., & Ruis, A. R. (2016). A tutorial on Epistemic Network Analysis: Analyzing the structure of connections in cognitive, social, and interaction data. Journal of Learning Analytics, 3(3), 9-45. Doi: 10.18608/jla.2016.33.3.",
+        "Ulla, M. B. & Perales, W. F. (2021). Emergency remote teaching during COVID19: The role of teachers’ online Community of Practice (CoP) in times of crisis. Journal of Interactive Media in Education 1(9), 1-11. Doi: 10.5334/jime.617.",
+        "Vangrieken, K., Meredith, C., Packer, T., & Kyndt, E., (2017). Teacher communities as a context for professional development: A systematic review. Teaching and Teacher Education 61, 47-59. Doi: 10.1016/j.tate.2016.10.001.",
+        "Wei, B., Avraamidou, L. & Chen, N. (2021). How a beginning science teacher deals with practical work: an explorative study through the lens of identity. Research in Science Education 51, 1-19. Doi: 10.1007/s11165-019-9826-z.",
+        "Wenger, E., McDermott, R. A., & Snyder, W. (2002). Cultivating Communities of Practice: A guide to Managing Knowledge. Harvard Business School."
+      ],
+      "count": 42,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_16807",
+    "article_ID": "16807",
+    "slug": "16807",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "16807",
+      "url_slug": "16807"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-09-20",
+      "accepted": "2023-11-08",
+      "created": "2023-12-13",
+      "modified": "2023-12-13",
+      "issued": "2023-12-13",
+      "available": "2023-12-13",
+      "submitted_page": "2023-11-17",
+      "submitted_pdf": "2023-09-20",
+      "accepted_page": null,
+      "accepted_pdf": "2023-11-08"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+        "pdf_value": null,
+        "chosen_value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-17",
+        "pdf_value": "2023-09-20",
+        "chosen_value": "2023-09-20",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2023-11-08",
+        "chosen_value": "2023-11-08",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16807/2574",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16807/2574",
+      "local_relative_path": "2499-507X_16807.pdf",
+      "saved": true,
+      "sha256": "6ac5c530a68017c0e95ac1a632c19d4d395b355daffcb63cea35a0ed33cefe9d",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1217836,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Ottavia Trevisan",
+        "Marta Carli"
+      ],
+      "citation_author_institution": [
+        "University of Padova",
+        "University of Padova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Virtual School: Learning to Teach Physics in a Virtual Community of Practice"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2023/12/13"
+      ],
+      "citation_volume": [
+        "8"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2023oa16807"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16807"
+      ],
+      "citation_keywords": [
+        "Teacher education",
+        "Virtual community of practice",
+        "Teaching physics",
+        "Teacher competences",
+        "Professional identity"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/16807/2574"
+      ],
+      "citation_reference_count": 42,
+      "DC.Date.created": [
+        "2023-12-13"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-11-17"
+      ],
+      "DC.Date.issued": [
+        "2023-12-13"
+      ],
+      "DC.Date.modified": [
+        "2023-12-13"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "16807"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2023oa16807"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16807"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "8"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Virtual School: Learning to Teach Physics in a Virtual Community of Practice"
+      ],
+      "DC.Title.Alternative": [
+        "Virtual School: Learning to Teach Physics in a Virtual Community of Practice"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Ottavia Trevisan",
+        "Marta Carli"
+      ],
+      "citation_author_institution": [
+        "University of Padova",
+        "University of Padova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Ottavia Trevisan",
+        "Marta Carli"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This research explores the impact a Virtual Community of Practice (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching experiences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develop professional identity and competencies. This paper reports on part of the project engaging eight preservice or early-career teachers, two mentors, three researchers, and forty-eight secondary school pupils. Pre and post semi-structured interviews were employed to collect data, exploring the participants’ experiences and perceptions. The findings reveal significant impacts of the VCoP on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and real-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This research explores the impact a Virtual Community of Practice (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching experiences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develop professional identity and competencies. This paper reports on part of the project engaging eight preservice or early-career teachers, two mentors, three researchers, and forty-eight secondary school pupils. Pre and post semi-structured interviews were employed to collect data, exploring the participants’ experiences and perceptions. The findings reveal significant impacts of the VCoP on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and real-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age."
+          }
+        },
+        {
+          "content": "This research explores the impact a Virtual Community of Practice (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching experiences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develop professional identity and competencies. This paper reports on part of the project engaging eight preservice or early-career teachers, two mentors, three researchers, and forty-eight secondary school pupils. Pre and post semi-structured interviews were employed to collect data, exploring the participants’ experiences and perceptions. The findings reveal significant impacts of the VCoP on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and real-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "This research explores the impact a Virtual Community of Practice (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching experiences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develop professional identity and competencies. This paper reports on part of the project engaging eight preservice or early-career teachers, two mentors, three researchers, and forty-eight secondary school pupils. Pre and post semi-structured interviews were employed to collect data, exploring the participants’ experiences and perceptions. The findings reveal significant impacts of the VCoP on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and real-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Teacher education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Teacher education"
+          }
+        },
+        {
+          "content": "Virtual community of practice",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Virtual community of practice"
+          }
+        },
+        {
+          "content": "Teaching physics",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Teaching physics"
+          }
+        },
+        {
+          "content": "Teacher competences",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Teacher competences"
+          }
+        },
+        {
+          "content": "Professional identity",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Professional identity"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16807/2574",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16807/2574",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16807/2574",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16807/2574",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16807/2574",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": "2023-09-20",
+      "accepted_pdf": "2023-11-08",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2023-12-11",
+        "mod_date": "2023-12-11"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 2 Doi: 10.3280/exioa2-2023oa16807 Virtual School: Learning to Teach Physics in a Virtual Community of Practice Ottavia Trevisan*, Marta Carli^ Abstract This research explores the impact a Virtual Community of Practi ce (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching exper iences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develo p professional identity and competencies. This paper reports on part of the pr oject engaging eight preservice or early-career teachers, two mentors, three r esearchers, and forty-eight secondary school pupils. Pre and post semi-structur ed interviews were employed to collect data, exploring the participants’ expe riences and perceptions. The findings reveal significant impacts of the VCo P on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and r eal-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age. Keywords: teacher education, virtual community of practice, teaching physics, teacher competences, professional identity. Article submitted: 20/09/2023; accepted 08/11/2023 Available online: 13/12/2023 * Philosophy, Sociology, Pedagogy and Applied Psychology Department, University of Padova, e-mail: ottavia.trevisan@unipd.it. ^ Physics Department, University of Padova, e-mail: marta.carli.1@unipd.it. Le autrici confermano di aver equamente contribuito alla presen te pubblicazione. Per doveri di attribuzione puramente formale, si consideri M. Carli come primaria autrice dei paragrafi 2, 4.1, 6, 7; e O. Trevisan come primaria autrice di 1, 3, 4, 4.2, 5. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\2499-507X_16807.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+        "pdf_value": null,
+        "chosen_value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-17",
+        "pdf_value": "2023-09-20",
+        "chosen_value": "2023-09-20",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2023-11-08",
+        "chosen_value": "2023-11-08",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16807",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16807",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:33:46Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\temp\\2499-507X_16807.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:48Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\2499-507X_16807.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+        "submitted_date": "2023-11-17",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Ottavia Trevisan",
+          "Marta Carli"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\2499-507X_16807.pdf",
+        "generated_at_utc": "2026-04-21T21:33:48Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2023-12-11",
+          "mod_date": "2023-12-11"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 2 Doi: 10.3280/exioa2-2023oa16807 Virtual School: Learning to Teach Physics in a Virtual Community of Practice Ottavia Trevisan*, Marta Carli^ Abstract This research explores the impact a Virtual Community of Practi ce (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching exper iences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develo p professional identity and competencies. This paper reports on part of the pr oject engaging eight preservice or early-career teachers, two mentors, three r esearchers, and forty-eight secondary school pupils. Pre and post semi-structur ed interviews were employed to collect data, exploring the participants’ expe riences and perceptions. The findings reveal significant impacts of the VCo P on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and r eal-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age. Keywords: teacher education, virtual community of practice, teaching physics, teacher competences, professional identity. Article submitted: 20/09/2023; accepted 08/11/2023 Available online: 13/12/2023 * Philosophy, Sociology, Pedagogy and Applied Psychology Department, University of Padova, e-mail: ottavia.trevisan@unipd.it. ^ Physics Department, University of Padova, e-mail: marta.carli.1@unipd.it. Le autrici confermano di aver equamente contribuito alla presen te pubblicazione. Per doveri di attribuzione puramente formale, si consideri M. Carli come primaria autrice dei paragrafi 2, 4.1, 6, 7; e O. Trevisan come primaria autrice di 1, 3, 4, 4.2, 5. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": "2023-09-20",
+          "accepted_date": "2023-11-08",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": "2023-09-20",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2023-11-08",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-11-17",
+          "pdf_value": "2023-09-20",
+          "preferred_source": "pdf",
+          "chosen_value": "2023-09-20",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:57Z"
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2023-11-08",
+          "preferred_source": "pdf",
+          "chosen_value": "2023-11-08",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:07Z"
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:09Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\temp\\2499-507X_16807.conflicts.json"
+  }
+}

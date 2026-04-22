@@ -1,0 +1,885 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16039",
+  "scraped_at_utc": "2026-04-21T21:33:26Z",
+  "fetched_at_utc": "2026-04-21T21:33:26Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "eb0468da4350b9a31a2af7603342e6c9e7eca9968b6ae17b09f4b4a70273bdf6",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Marina De Rossi",
+        "nameType": "Personal",
+        "givenName": "Marina De",
+        "familyName": "Rossi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Ottavia Trevisan",
+        "nameType": "Personal",
+        "givenName": "Ottavia",
+        "familyName": "Trevisan",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/16039",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-05-15",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2023-06-20",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-20",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-20",
+      "Issued": "2023-06-20",
+      "Accepted": "2023-05-15"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The study reports data from the implementation of hybrid blended learning solutions (HBLS) in initial teacher training programmes for pre-school and primary school teachers. The design of the relevant university courses were revised in a transformative way, using innovative and digitally integrated approaches (DM 289/2021). Twenty teacher educators and 364 students were involved through the administration of semi-structured questionnaires whose dimensions investigated organizational flexibility to facilitate work-life balance processes, methodological quality and the role of teachers in HBLS.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "The study reports data from the implementation of hybrid blended learning solutions (HBLS) in initial teacher training programmes for pre-school and primary school teachers. The design of the relevant university courses were revised in a transformative way, using innovative and digitally integrated approaches (DM 289/2021). Twenty teacher educators and 364 students were involved through the administration of semi-structured questionnaires whose dimensions investigated organizational flexibility to facilitate work-life balance processes, methodological quality and the role of teachers in HBLS.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2023oa16039",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "8",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Higher Education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Blended Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Teacher Training",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Teaching Methods",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Educational technology",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Work Life Balance",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16039/2295",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "8",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "De Rossi, M., & Trevisan, O. (2023). Hybrid Blended Learning Solution for Teacher Education Innovation. Excellence and Innovation in Learning and Teaching - Open Access , 8 (1). https://doi.org/10.3280/exioa1-2023oa16039",
+      "articleTitleEcho": "Hybrid Blended Learning Solution for Teacher Education Innovation"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Alammary, A., Sheard, J., & Carbone, A. (2014). Blended learning in higher education: Three different design approaches. Australasian Journal of Educational Technology, 30(4), 67-74. Doi: 10.14742/ajet.693.",
+        "Angeli, C., & Valanides, N. (2009). Epistemological and Methodological Issues for the Conceptualization, Development, and Assessment of ICT-TP-CK: Advances in Technological Pedagogical Content Knowledge (TPCK). Computers & Education, 52(1), 154-168.",
+        "Bell, M. (2020). The fundamentals of teaching: A five-step model to put the research evidence into practice. Routledge. Doi: 10.4324/9780429342318.",
+        "Boelens, R., De Wever, B., Voet, M. (2017). Four key challenges to the design of blended learning: systematic literature review. Educational Research Review, 22, 1-18.",
+        "Bruggeman, B., Tondeur, J., Struyven, K., Pynoo, B., Garone, A., & Vanslambrouck, S. (2021). Experts speaking: Crucial teacher attributes for implementing blended learning in higher education. The Internet and Higher Education, 48-57. Doi: 10.1016/j.iheduc.2020.100772.",
+        "Calvani, A., & Marzano, A. (2020). Progettare per un miglioramento basato su evidenze. Quale metodologia?. Giornale Italiano della Ricerca Educativa-IJEduR, 24, 67-83. Doi: 10.7346/SIRD-012020-P67.",
+        "Clark, R. C., Nguyen, F., & Sweller, J. (2006). Efficiency in learning: Evidence based guidelines to manage cognitive load. Pfeiffer & Wiley. Doi: 10.1002/pfi.4930450920.",
+        "De Rossi M., Fedeli M. (eds.) (2022). Costruire percorsi di faculty development. Pensamultimedia.",
+        "De Rossi, M., & Trevisan, O. (2022). Innovare la didattica universitaria con Hybrid Blended Learning Solution: Una ricerca design-based project per la formazione iniziale degli insegnanti. Formazione & Insegnamento, 20(3), 475-490. Doi: 10.7346/-fei-XX-03-22_33.",
+        "Graham, C. R. (2006). Blended learning systems. In C. J. Bonk & C.R. Graham (Eds.), The handbook of blended learning: Global perspectives, local designs, 1, 3-21. Pfeiffer Publishing.",
+        "Hattie, J. (2009). Visible learning: A synthesis of over 800 meta-analysis relating to achievement. Routledge. Doi: 10.4324/9780203887332.",
+        "Kaleta, R., Skibba, K., & Joosten, T. (2007). Discovering, designing, and delivering hybrid courses. In Picciano, A. G., Dziuban, C. D. (Eds), Blended Learning: Research perspectives, pp. 111-144. Sloan Consortium.",
+        "Manca, S., & Delfino, M. (2021). Adapting educational practices in emergency remote education: Continuity and change from a student perspective. British Journal of Educational Technology, 52(4), 1394-1413.",
+        "Marzano, A. & Calvani, A. (2020). Evidence Based Education e didattica efficace: come integrare conoscenze metodologiche e tecnologiche nella formazione degli insegnanti. ECPS Journal, 22, 125-143. Doi: 10.7358/ecps-2020-022-maca.",
+        "Mishra, P., & Koehler M. J. (2006). Technological Pedagogical Content Knowledge: a Framework for Integrating Technology in Teacher Knowledge. Teachers College Record, 108(6), 1017-1054.",
+        "Philipsen, B., Tondeur, J., Pareja Roblin, N., Vanslambrouck, S., & Zhu, C. (2019). Improving teacher professional development for online and blended learning: A systematic meta-aggregative review. Education Tech Research & Development, 67, 1145-1174. Doi: 10.1007/s11423-019-09645-8.",
+        "Tondeur, J., van Braak, J., Ertmer, P., & Ottenbreit-Leftwich, A. (2017). Understanding the relationship between teachers’ pedagogical beliefs and technology use in education: A systematic review of qualitative evidence. Educational Technology Research & Development, 65(3), 577. Doi: 10.1007/s11423-016-9492-z.",
+        "Trentin, G. (2015). Orientating pedagogy towards Hybrid spaces. In Nata, R. V. (Ed.), Progress in education, 35, pp. 105-124. Nova Science Publisher Inc.",
+        "Trevisan, O., & De Rossi, M. (2022). Accessibility in Blended Learning and Hybrid Solutions at Higher Education Level: A Word from the Students. In Studium (Ed). Helmeto 2022 – Book of abstract, pp. 107-110.",
+        "Trevisan, O., De Rossi, M., Grion, V. (2021). The positive in the tragic: Covid pandemic as an impetus for change in teaching and assessment in higher education. Research on Education and Media, 12(1), 69-76.",
+        "Zhang, L., Carter Jr., R. A., Qian, X., Yang, S., Rujimora, J., Wen, S. (2022). Academia’s responses to crisis: A bibliometric analysis of literature on online learning in higher education during COVID-19. British Journal of Educational Technology, 53(3), 620-646."
+      ],
+      "count": 21,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_16039",
+    "article_ID": "16039",
+    "slug": "16039",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "16039",
+      "url_slug": "16039"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-06-12",
+      "accepted": "2023-05-15",
+      "created": "2023-06-20",
+      "modified": "2023-06-20",
+      "issued": "2023-06-20",
+      "available": "2023-06-20",
+      "submitted_page": "2023-06-12",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": "2023-05-15"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+        "pdf_value": null,
+        "chosen_value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-06-12",
+        "pdf_value": null,
+        "chosen_value": "2023-06-12",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2023-05-15",
+        "chosen_value": "2023-05-15",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16039/2295",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16039/2295",
+      "local_relative_path": "2499-507X_16039.pdf",
+      "saved": true,
+      "sha256": "0494f347f973f4f73860025f48dee1ae237e2408c111c7aff268a0efc77fd1d2",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 802387,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Marina De Rossi",
+        "Ottavia Trevisan"
+      ],
+      "citation_author_institution": [
+        "Università di Padova",
+        "Università di Padova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Hybrid Blended Learning Solution for Teacher Education Innovation"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2023/06/20"
+      ],
+      "citation_volume": [
+        "8"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2023oa16039"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16039"
+      ],
+      "citation_keywords": [
+        "Higher Education",
+        "Blended Learning",
+        "Teacher Training",
+        "Teaching Methods",
+        "Educational technology",
+        "Work Life Balance"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/16039/2295"
+      ],
+      "citation_reference_count": 21,
+      "DC.Date.created": [
+        "2023-06-20"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-06-12"
+      ],
+      "DC.Date.issued": [
+        "2023-06-20"
+      ],
+      "DC.Date.modified": [
+        "2023-06-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "16039"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2023oa16039"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16039"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "8"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 6,
+      "DC.Title": [
+        "Hybrid Blended Learning Solution for Teacher Education Innovation"
+      ],
+      "DC.Title.Alternative": [
+        "Hybrid Blended Learning Solution for Teacher Education Innovation"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Marina De Rossi",
+        "Ottavia Trevisan"
+      ],
+      "citation_author_institution": [
+        "Università di Padova",
+        "Università di Padova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Marina De Rossi",
+        "Ottavia Trevisan"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The study reports data from the implementation of hybrid blended learning solutions (HBLS) in initial teacher training programmes for pre-school and primary school teachers. The design of the relevant university courses were revised in a transformative way, using innovative and digitally integrated approaches (DM 289/2021). Twenty teacher educators and 364 students were involved through the administration of semi-structured questionnaires whose dimensions investigated organizational flexibility to facilitate work-life balance processes, methodological quality and the role of teachers in HBLS.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The study reports data from the implementation of hybrid blended learning solutions (HBLS) in initial teacher training programmes for pre-school and primary school teachers. The design of the relevant university courses were revised in a transformative way, using innovative and digitally integrated approaches (DM 289/2021). Twenty teacher educators and 364 students were involved through the administration of semi-structured questionnaires whose dimensions investigated organizational flexibility to facilitate work-life balance processes, methodological quality and the role of teachers in HBLS."
+          }
+        },
+        {
+          "content": "The study reports data from the implementation of hybrid blended learning solutions (HBLS) in initial teacher training programmes for pre-school and primary school teachers. The design of the relevant university courses were revised in a transformative way, using innovative and digitally integrated approaches (DM 289/2021). Twenty teacher educators and 364 students were involved through the administration of semi-structured questionnaires whose dimensions investigated organizational flexibility to facilitate work-life balance processes, methodological quality and the role of teachers in HBLS.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "The study reports data from the implementation of hybrid blended learning solutions (HBLS) in initial teacher training programmes for pre-school and primary school teachers. The design of the relevant university courses were revised in a transformative way, using innovative and digitally integrated approaches (DM 289/2021). Twenty teacher educators and 364 students were involved through the administration of semi-structured questionnaires whose dimensions investigated organizational flexibility to facilitate work-life balance processes, methodological quality and the role of teachers in HBLS."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Higher Education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Higher Education"
+          }
+        },
+        {
+          "content": "Blended Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Blended Learning"
+          }
+        },
+        {
+          "content": "Teacher Training",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Teacher Training"
+          }
+        },
+        {
+          "content": "Teaching Methods",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Teaching Methods"
+          }
+        },
+        {
+          "content": "Educational technology",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Educational technology"
+          }
+        },
+        {
+          "content": "Work Life Balance",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Work Life Balance"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16039/2295",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16039/2295",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16039/2295",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16039/2295",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16039/2295",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": "2023-05-15",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2023-06-19",
+        "mod_date": "2023-06-19"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 1 Doi: 10.3280/exioa1-2023oa16039 Hybrid Blended Learning Solution for Teacher Education Innovation Marina De Rossi*, Ottavia Trevisan ** Abstract The study reports data from the implementation of hybrid blende d learning solutions (HBLS) in initial teacher training programmes for pre -school and primary school teachers. The design of the relevant university courses were revised in a transformative way , using innovative and digitally i n t e g r a t e d approaches (DM 289/2021). Twenty teacher educators and 364 stud ents were involved through the administration of semi-structured question naires whose dimensions investigated organizational flexibility to facilitat e work-life balance processes, methodological quality and the role of teachers in HBLS. Keywords: Higher Education, Blended Learning, Teacher Training, Teaching Methods, Educational technology, Work Life Balance. First submission: 11/04/2023; accepted: 15/05/2023 Available online: 20/06/2023 Hybrid Blended Learning Solutions for Teacher Training The effective introduction of information and communication technologies (ICT) in education requires solid design skills on the side of the teachers. Indeed, the ability to integrate different types of knowledge is required: disciplinary content expertise, knowledge of appropriate method ological approaches and oh the pedagogical affordances of digital tools. This unique amalgam of competencies has been framed in research as the Tech nological Pedagogical Content Knowledge framework (TPCK – Mishra & Koehler, 2006; Angeli & Valanides, 2009). The implications of digitally integrated * Università di Padova, e-mail: marina.derossi@unipd.it. ** Università di Padova, e-mail: ottavia.trevisan@unipd.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\16039\\2499-507X_16039.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+        "pdf_value": null,
+        "chosen_value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-06-12",
+        "pdf_value": null,
+        "chosen_value": "2023-06-12",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2023-05-15",
+        "chosen_value": "2023-05-15",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Hybrid Blended Learning Solution for Teacher Education Innovation | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16039",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16039",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:33:26Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16039\\temp\\2499-507X_16039.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:37Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16039\\2499-507X_16039.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+        "submitted_date": "2023-06-12",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Marina De Rossi",
+          "Ottavia Trevisan"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16039\\2499-507X_16039.pdf",
+        "generated_at_utc": "2026-04-21T21:33:37Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2023-06-19",
+          "mod_date": "2023-06-19"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 1 Doi: 10.3280/exioa1-2023oa16039 Hybrid Blended Learning Solution for Teacher Education Innovation Marina De Rossi*, Ottavia Trevisan ** Abstract The study reports data from the implementation of hybrid blende d learning solutions (HBLS) in initial teacher training programmes for pre -school and primary school teachers. The design of the relevant university courses were revised in a transformative way , using innovative and digitally i n t e g r a t e d approaches (DM 289/2021). Twenty teacher educators and 364 stud ents were involved through the administration of semi-structured question naires whose dimensions investigated organizational flexibility to facilitat e work-life balance processes, methodological quality and the role of teachers in HBLS. Keywords: Higher Education, Blended Learning, Teacher Training, Teaching Methods, Educational technology, Work Life Balance. First submission: 11/04/2023; accepted: 15/05/2023 Available online: 20/06/2023 Hybrid Blended Learning Solutions for Teacher Training The effective introduction of information and communication technologies (ICT) in education requires solid design skills on the side of the teachers. Indeed, the ability to integrate different types of knowledge is required: disciplinary content expertise, knowledge of appropriate method ological approaches and oh the pedagogical affordances of digital tools. This unique amalgam of competencies has been framed in research as the Tech nological Pedagogical Content Knowledge framework (TPCK – Mishra & Koehler, 2006; Angeli & Valanides, 2009). The implications of digitally integrated * Università di Padova, e-mail: marina.derossi@unipd.it. ** Università di Padova, e-mail: ottavia.trevisan@unipd.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": "2023-05-15",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2023-05-15",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Hybrid Blended Learning Solution for Teacher Education Innovation",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-06-12",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-06-12",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2023-05-15",
+          "preferred_source": "pdf",
+          "chosen_value": "2023-05-15",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:31Z"
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:33Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16039\\temp\\2499-507X_16039.conflicts.json"
+  }
+}
