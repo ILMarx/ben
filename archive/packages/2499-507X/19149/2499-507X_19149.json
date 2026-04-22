@@ -1,0 +1,860 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19149",
+  "scraped_at_utc": "2026-04-21T21:34:59Z",
+  "fetched_at_utc": "2026-04-21T21:34:58Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "0ec08c75a500a08aeacc731d24cdd420f69d1b7891ec2cca72d6e66e5064e58f",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Maria Giulia Ballatore",
+        "nameType": "Personal",
+        "givenName": "Maria Giulia",
+        "familyName": "Ballatore",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Politecnico di Torino, Italy"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Anita Tabacco",
+        "nameType": "Personal",
+        "givenName": "Anita",
+        "familyName": "Tabacco",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Politecnico di Torino, Italy"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/19149",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-01-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-01-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-01-24",
+      "Issued": "2025-01-24"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context of transformative and sustainable processes in higher education. Based on a sample of 3,739 students, the research evaluates the predictive validity of the entrance exam (Test In Laib - TIL) and the national state exam (Esame di Stato – EdS), considering variables such as gender, geographical origin, and scholastic background. The results show a significant correlation between TIL scores and the university credits earned in the first year, highlighting the importance of the TIL in predicting academic success, while EdS scores are not correlated with performance. Students from scientific high schools and regions outside the North-West obtain higher TIL scores, indicating disparities in preparation. Gender differences also emerge: males achieve slightly higher TIL scores, while females score higher on the EdS. Binary logistic and quantile regression analyses confirm the effectiveness of the TIL as a predictive tool, suggesting the need to revise orientation and admission policies to better support students’ transition from school to university. These results are crucial for refining educational strategies, better aligning students’ preparation with academic and professional demands, contributing to reducing dropout rates and improving academic success.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context of transformative and sustainable processes in higher education. Based on a sample of 3,739 students, the research evaluates the predictive validity of the entrance exam (Test In Laib - TIL) and the national state exam (Esame di Stato – EdS), considering variables such as gender, geographical origin, and scholastic background. The results show a significant correlation between TIL scores and the university credits earned in the first year, highlighting the importance of the TIL in predicting academic success, while EdS scores are not correlated with performance. Students from scientific high schools and regions outside the North-West obtain higher TIL scores, indicating disparities in preparation. Gender differences also emerge: males achieve slightly higher TIL scores, while females score higher on the EdS. Binary logistic and quantile regression analyses confirm the effectiveness of the TIL as a predictive tool, suggesting the need to revise orientation and admission policies to better support students’ transition from school to university. These results are crucial for refining educational strategies, better aligning students’ preparation with academic and professional demands, contributing to reducing dropout rates and improving academic success.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2024oa19149",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "9",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Admission test",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "State exam",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Engineering freshmen",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Quantitative research",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Prerequisites",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19149/3148",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "9",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Ballatore, M. G., & Tabacco, A. (2025). Determinants and Academic Performance: The Role of Prerequisites in University Achievement. Excellence and Innovation in Learning and Teaching - Open Access , 9 (2). https://doi.org/10.3280/exioa2-2024oa19149",
+      "articleTitleEcho": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Aquines Gutiérrez, O., Hernández Taylor, D. M., Santos-Guevara, A., Chavarría-Garza, W. X., Martínez-Huerta, H., & Galloway, R. K. (2022). How the entry profiles and early study habits are related to first-year academic performance in engineering programs. Sustainability, 14(22), 15400. DOI: 10.3390/su142215400.",
+        "Ballatore, M. G., Montanaro, L., & Tabacco, A. (2018). TIL: an innovative tool for the recruitment of bachelor engineering students in Italy. International Education and Research Journal, 4(2), 79-84.",
+        "Biasin, C. (2021). La costruzione di partnership scuola-università per facilitare la transizione degli studenti. La costruzione di partnership scuola-università per facilitare la transizione degli studenti, 63-78. DOI: 10.3280/erp2-2021oa12116.",
+        "Bowles, A., Fisher, R., McPhail, R., Rosenstreich, D., & Dobson, A. (2013). Staying the distance: students’ perceptions of enablers of transition to higher education. Higher Education Research & Development, 33(2), 212-225. DOI: 10.1080/07294360.2013.832157.",
+        "Ferrão, M., & Almeida, L. (2019). Differential effect of university entrance score on first-year students’ academic performance in Portugal. Assessment & Evaluation in Higher Education, 44(4), 610-622. DOI: 10.1080/02602938.2018.1525602.",
+        "González, M. Á., Gazo, P. F., & Fonseca, M. T. (2011). La problemática de la transición bachillerato-universidad en la Universidad de Barcelona. Revista Española de Orientación y Psicopedagogía, 22(1), 15-27.",
+        "Molontay, R., & Nagy, M. (2022). How to improve the predictive validity of a composite admission score? A case study from Hungary. Assessment & Evaluation in Higher Education, 48(4), 419-437. DOI: 10.1080/02602938.2022.2093835.",
+        "Munđar, D., Keček, D., & Matotek, D. (2015). Relationship between enrollment criteria and first-year students’ study-success. In Proceedings of the 3rd Human and Social Sciences at the Common Conference (HASSACC). DOI: 10.18638/hassacc.2015.3.1.179.",
+        "Nagy, M., & Molontay, R. (2021). Comprehensive analysis of the predictive validity of the university entrance score in Hungary. Assessment & Evaluation in Higher Education, 46(8), 1235-1253. DOI: 10.1080/02602938.2021.1871725.",
+        "Nigris, E. (2010). Il passaggio fra scuola e università: un’analisi didattica. Italian Journal of Educational Research, (4), 75-90. DOI: 10.1080/02602938.2024.2364024.",
+        "Núñez-Peña, M. I., Ramon-Casas, M., Cunillera, T., & Campos-Rodríguez, C. (2024). Mathematics self-concept and response pattern in higher education examinations: differences between genders. Assessment & Evaluation in Higher Education, 1-14. DOI: 10.1080/02602938.2024.2364024.",
+        "Nuzzaci, A. (2015). Learning the “science of teaching”: Does the access test of Degree Course in Primary Education Sciences predicts the success in instructional design?. Italian Journal of Educational Research, (14), 227-248.",
+        "Petruccelli, V., Verrastro, V., & D’Amario, B. (2008). Dalla scuola all’Università: una scelta di vita. Teorie e metodi. Ricerche e percorsi. Progetto «Attivazione di un sistema tutoriale». FrancoAngeli.",
+        "Petrucci, A. (2017). Studio della valenza predittiva dei test standard CISIA per l’Ingegneria. In Orientamento e accesso all’Università L’evoluzione dei Test Standard CISIA La predittività del test sulle carriere degli studenti. Edizioni CISIA, pp. 39-70.",
+        "Van Zyl, A., Gravett, S., & De Bruin, G. P. (2012). To what extent do pre-entry attributes predict first year student academic performance in the South African context?. South African Journal of Higher Education, 26(5), 1095-1111. DOI: 10.20853/26-5-210.",
+        "Thompson, M., Pawson, C., & Evans, B. (2021). Navigating entry into higher education: the transition to independent learning and living. Journal of Further and Higher Education, 45(10), 1398-1410. DOI: 10.1080/0309877X.2021.1933400."
+      ],
+      "count": 16,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_19149",
+    "article_ID": "19149",
+    "slug": "19149",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "19149",
+      "url_slug": "19149"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-01-13",
+      "accepted": null,
+      "created": "2025-01-24",
+      "modified": "2025-01-24",
+      "issued": "2025-01-24",
+      "available": "2025-01-24",
+      "submitted_page": "2025-01-13",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+        "pdf_value": null,
+        "chosen_value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-13",
+        "pdf_value": null,
+        "chosen_value": "2025-01-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19149/3148",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19149/3148",
+      "local_relative_path": "2499-507X_19149.pdf",
+      "saved": true,
+      "sha256": "37d19a0b087bdad033a308a29359b29a4eb5e767644ae7bd20f7d1831e7d42db",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1528395,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Maria Giulia Ballatore",
+        "Anita Tabacco"
+      ],
+      "citation_author_institution": [
+        "Politecnico di Torino, Italy",
+        "Politecnico di Torino, Italy"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Determinants and Academic Performance: The Role of Prerequisites in University Achievement"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2024"
+      ],
+      "citation_volume": [
+        "9"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2024oa19149"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19149"
+      ],
+      "citation_keywords": [
+        "Admission test",
+        "State exam",
+        "Engineering freshmen",
+        "Quantitative research",
+        "Prerequisites"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/19149/3148"
+      ],
+      "citation_reference_count": 16,
+      "DC.Date.created": [
+        "2025-01-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-01-13"
+      ],
+      "DC.Date.issued": [
+        "2025-01-24"
+      ],
+      "DC.Date.modified": [
+        "2025-01-24"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "19149"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2024oa19149"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19149"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "9"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Determinants and Academic Performance: The Role of Prerequisites in University Achievement"
+      ],
+      "DC.Title.Alternative": [
+        "Determinants and Academic Performance: The Role of Prerequisites in University Achievement"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Maria Giulia Ballatore",
+        "Anita Tabacco"
+      ],
+      "citation_author_institution": [
+        "Politecnico di Torino, Italy",
+        "Politecnico di Torino, Italy"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Maria Giulia Ballatore",
+        "Anita Tabacco"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context of transformative and sustainable processes in higher education. Based on a sample of 3,739 students, the research evaluates the predictive validity of the entrance exam (Test In Laib - TIL) and the national state exam (Esame di Stato – EdS), considering variables such as gender, geographical origin, and scholastic background. The results show a significant correlation between TIL scores and the university credits earned in the first year, highlighting the importance of the TIL in predicting academic success, while EdS scores are not correlated with performance. Students from scientific high schools and regions outside the North-West obtain higher TIL scores, indicating disparities in preparation. Gender differences also emerge: males achieve slightly higher TIL scores, while females score higher on the EdS. Binary logistic and quantile regression analyses confirm the effectiveness of the TIL as a predictive tool, suggesting the need to revise orientation and admission policies to better support students’ transition from school to university. These results are crucial for refining educational strategies, better aligning students’ preparation with academic and professional demands, contributing to reducing dropout rates and improving academic success.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context of transformative and sustainable processes in higher education. Based on a sample of 3,739 students, the research evaluates the predictive validity of the entrance exam (Test In Laib - TIL) and the national state exam (Esame di Stato – EdS), considering variables such as gender, geographical origin, and scholastic background. The results show a significant correlation between TIL scores and the university credits earned in the first year, highlighting the importance of the TIL in predicting academic success, while EdS scores are not correlated with performance. Students from scientific high schools and regions outside the North-West obtain higher TIL scores, indicating disparities in preparation. Gender differences also emerge: males achieve slightly higher TIL scores, while females score higher on the EdS. Binary logistic and quantile regression analyses confirm the effectiveness of the TIL as a predictive tool, suggesting the need to revise orientation and admission policies to better support students’ transition from school to university. These results are crucial for refining educational strategies, better aligning students’ preparation with academic and professional demands, contributing to reducing dropout rates and improving academic success."
+          }
+        },
+        {
+          "content": "This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context of transformative and sustainable processes in higher education. Based on a sample of 3,739 students, the research evaluates the predictive validity of the entrance exam (Test In Laib - TIL) and the national state exam (Esame di Stato – EdS), considering variables such as gender, geographical origin, and scholastic background. The results show a significant correlation between TIL scores and the university credits earned in the first year, highlighting the importance of the TIL in predicting academic success, while EdS scores are not correlated with performance. Students from scientific high schools and regions outside the North-West obtain higher TIL scores, indicating disparities in preparation. Gender differences also emerge: males achieve slightly higher TIL scores, while females score higher on the EdS. Binary logistic and quantile regression analyses confirm the effectiveness of the TIL as a predictive tool, suggesting the need to revise orientation and admission policies to better support students’ transition from school to university. These results are crucial for refining educational strategies, better aligning students’ preparation with academic and professional demands, contributing to reducing dropout rates and improving academic success.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context of transformative and sustainable processes in higher education. Based on a sample of 3,739 students, the research evaluates the predictive validity of the entrance exam (Test In Laib - TIL) and the national state exam (Esame di Stato – EdS), considering variables such as gender, geographical origin, and scholastic background. The results show a significant correlation between TIL scores and the university credits earned in the first year, highlighting the importance of the TIL in predicting academic success, while EdS scores are not correlated with performance. Students from scientific high schools and regions outside the North-West obtain higher TIL scores, indicating disparities in preparation. Gender differences also emerge: males achieve slightly higher TIL scores, while females score higher on the EdS. Binary logistic and quantile regression analyses confirm the effectiveness of the TIL as a predictive tool, suggesting the need to revise orientation and admission policies to better support students’ transition from school to university. These results are crucial for refining educational strategies, better aligning students’ preparation with academic and professional demands, contributing to reducing dropout rates and improving academic success."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Admission test",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Admission test"
+          }
+        },
+        {
+          "content": "State exam",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "State exam"
+          }
+        },
+        {
+          "content": "Engineering freshmen",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Engineering freshmen"
+          }
+        },
+        {
+          "content": "Quantitative research",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Quantitative research"
+          }
+        },
+        {
+          "content": "Prerequisites",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Prerequisites"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19149/3148",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19149/3148",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19149/3148",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19149/3148",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19149/3148",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2025-01-24",
+        "mod_date": "2025-01-24"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19149 Determinants and Academic Performance: The Role of Prerequisites in University Achievement Maria Giulia Ballatore*, Anita Tabacco^ Abstract This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context of transformative and sustainable processes in higher education. Based on a sample of 3,739 students, the research evaluates the predictive validity of the entrance exam (Test In La ib - TIL) and the national state exam (Esame di Stato – EdS), considering va riables such as gender, geographical origin, and scholastic background. The results show a significant correlation between TIL scores and the university credits earned in the first year, highlighting the importance of the TIL in predicting academic success, while EdS scores are not correlated with performance. Students from scientific high schools and regions outside the North-West obtain higher TIL scores, indicating disparities in preparation. Gender differences also emerge: males achieve slightly higher TIL scores, wh ile females score higher on the EdS. Binary logistic and quantile regression analyses confirm the effectiveness of the TIL as a predictive tool, suggesting the need to revise orientation and admission policies to better support students’ transition from school to university. These results are crucial for refining educational strategies, better aligning students’ preparation with academic and professional demands, contributing to reducing dropout rates and improving academic success. * Dept. of Mathematical Science “G. Lagra nge”, Politecnico di Torino, Italy; e-mail: maria.ballatore@polito.it. ^ Dept. of Mathematical Science “G. Lagrange”, Politecnico di Torino, Italy This paper and the research behind are based on the collaborative efforts of all the authors. MGB: Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Visualization. AT: Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Review & Editing, Supervision Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\19149\\2499-507X_19149.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+        "pdf_value": null,
+        "chosen_value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-13",
+        "pdf_value": null,
+        "chosen_value": "2025-01-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19149",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19149",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:34:58Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19149\\temp\\2499-507X_19149.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:01Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19149\\2499-507X_19149.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+        "submitted_date": "2025-01-13",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Maria Giulia Ballatore",
+          "Anita Tabacco"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19149\\2499-507X_19149.pdf",
+        "generated_at_utc": "2026-04-21T21:35:01Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2025-01-24",
+          "mod_date": "2025-01-24"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19149 Determinants and Academic Performance: The Role of Prerequisites in University Achievement Maria Giulia Ballatore*, Anita Tabacco^ Abstract This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context of transformative and sustainable processes in higher education. Based on a sample of 3,739 students, the research evaluates the predictive validity of the entrance exam (Test In La ib - TIL) and the national state exam (Esame di Stato – EdS), considering va riables such as gender, geographical origin, and scholastic background. The results show a significant correlation between TIL scores and the university credits earned in the first year, highlighting the importance of the TIL in predicting academic success, while EdS scores are not correlated with performance. Students from scientific high schools and regions outside the North-West obtain higher TIL scores, indicating disparities in preparation. Gender differences also emerge: males achieve slightly higher TIL scores, wh ile females score higher on the EdS. Binary logistic and quantile regression analyses confirm the effectiveness of the TIL as a predictive tool, suggesting the need to revise orientation and admission policies to better support students’ transition from school to university. These results are crucial for refining educational strategies, better aligning students’ preparation with academic and professional demands, contributing to reducing dropout rates and improving academic success. * Dept. of Mathematical Science “G. Lagra nge”, Politecnico di Torino, Italy; e-mail: maria.ballatore@polito.it. ^ Dept. of Mathematical Science “G. Lagrange”, Politecnico di Torino, Italy This paper and the research behind are based on the collaborative efforts of all the authors. MGB: Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Visualization. AT: Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Review & Editing, Supervision Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-01-13",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-01-13",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:16Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:17Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19149\\temp\\2499-507X_19149.conflicts.json"
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18033",
+  "scraped_at_utc": "2026-04-21T21:34:49Z",
+  "fetched_at_utc": "2026-04-21T21:34:49Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "11142f1230c956dcb26f7cca9828ac2ea7f58f8ff2cfd50783827e26473235a6",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Lorenza Da Re",
+        "nameType": "Personal",
+        "givenName": "Lorenza Da",
+        "familyName": "Re",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Chiara Meneghetti",
+        "nameType": "Personal",
+        "givenName": "Chiara",
+        "familyName": "Meneghetti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Roberta Bonelli",
+        "nameType": "Personal",
+        "givenName": "Roberta",
+        "familyName": "Bonelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Tommaso Feraco",
+        "nameType": "Personal",
+        "givenName": "Tommaso",
+        "familyName": "Feraco",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/18033",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-11-17",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-11-17",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-11-17",
+      "Issued": "2025-11-17"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The paper explores a formative proposal from the University of Padua concerning active guidance in the school-university transition, based on the provisions of the Italian Ministerial Decree 934/2022 (MUR). In particular, an online course has been designed for students in the last three years of secondary school, aiming at fostering transversal skills essential for the post-diploma transition. The 3-hour course can be used asynchronously on the University's Moodle platform, and consists of four main activities covering the following topics: introduction to soft skills, study skills and motivation, social and interpersonal skills; choice guidance. The activities represent a new and innovative proposal, and are carried out through short videos, questionnaires and initial and final reflection activities, both quantitative and qualitative. The first edition took place from April to August 2023, and the second edition 2023/24 is currently underway. The presentation of the proposal, detailed here in its objectives and operational characteristics, can serve as an example of good practices and could increase the scientific debate on the important topic of active guidance in the school-university transition, also serving as a comparison and reflection for other contexts that are facing this significant challenge.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il contributo approfondisce una proposta formativa dell’Università degli Studi di Padova legata all’orientamento attivo nella transizione scuola-università, sulla base di quanto previsto dal Decreto Ministeriale MUR 934/2022. In particolare, è stato progettato un percorso online, dedicato agli studenti1 dell’ultimo triennio di scuola secondaria di secondo grado del territorio, che mira allo sviluppo di alcune competenze trasversali utili in vista della transizione post-diploma. Il modulo di tre ore è fruibile in modo asincrono sulla piattaforma Moodle di Ateneo, e si compone di quattro attività principali, relative a: introduzione sulle soft skills, abilità e motivazione allo studio, abilità sociali e interpersonali, orientamento alla scelta. Le attività rappresentano una proposta inedita e innovativa per l’Ateneo, e si svolgono tramite brevi video creati ad hoc, questionari e attività di riflessione guidata iniziali e finali, sia di tipo quantitativo che qualitativo. La prima edizione si è svolta da aprile ad agosto 2023, ed è attualmente in corso la seconda edizione 2023/24. La presentazione della proposta, qui dettagliata nei suoi obiettivi e caratteristiche operative, può configurarsi come esempio di pratica e accrescere il dibattito scientifico rispetto all’importante tema dell’orientamento attivo nella transizione scuola-università, fungendo anche da confronto e riflessione per altri contesti che stanno affrontando questa importante sfida. 1 Per rendere più fluida l’esposizione, nel testo utilizzeremo il maschile ma intendiamo includere tutti i generi.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2024oa18033",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "9",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Orientamento educativo e professionale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "PNRR",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "DM 934/2022",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Transizione scuola-università",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Soft-skills",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/18033/2879",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "9",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Da Re, L., Meneghetti, C., Bonelli, R., & Feraco, T. (2024). “Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali. Excellence and Innovation in Learning and Teaching - Open Access , 9 (1). https://doi.org/10.3280/exioa1-2024oa18033",
+      "articleTitleEcho": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Alnawas, I. (2015). Student orientation in higher education: Development of the construct. Higher Education, 69(4), 625-652. Doi: 10.1007/s10734-014-9794-1.",
+        "Annovazzi, C., Camussi, E., Meneghetti, D., Ulivieri Stiozzi, S., & Zuccoli, F. (2019). Orientamento e peer tutoring. Un processo pedagogico innovativo per facilitare e accompagnare l’avvio del percorso universitario. Formazione, lavoro, persona, VIII(25), 201-209.",
+        "Astin, A. (1974). Student Involvement: A Development Theory for Higher Education. Journal of College Student Development, 40, 518-529.",
+        "Batini, F., & Giusti, S. (2023). Orientamento formativo e linee guida: Un’occasione da non perdere. In F. Batini & S. Giusti (Eds), Costruire storie insieme. Quaderno di lavoro. IX convegno biennale sull’orientamento narrativo. (pp. 19-22). Pensa Multimedia.",
+        "Bertagna, G., & Puricelli, E. (Eds). (2008). Dalla scuola all’università. Orientamento in ingresso e dispositivo di ammissione. Rubbettino.",
+        "Bonelli, R., & Da Re, L. (2022). Le azioni di orientamento in università e il dialogo con le aspettative degli studenti. STUDIUM EDUCATIONIS - Rivista semestrale per le professioni educative, XXIII, 88-101. Doi: 10.7346/SE-012022-09.",
+        "Brock, D. M., Sarason, I. G., Sanghvi, H., & Gurung, R. A. (1998). The perceived acceptance scale: Development and validation. Journal of Social and Personal Relationships, 15(1), 5-21.",
+        "Casali, N., & Meneghetti, C. (2023). Soft Skills and Study-Related Factors: Direct and Indirect Associations with Academic Achievement and General Distress in University Students. Education sciences, 13(6), 1-14.",
+        "Consiglio dell’Unione Europea (2018). Raccomandazione del Consiglio, del 22 maggio 2018, relativa alle competenze chiave per l’apprendimento permanente. Recuperato da: https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32018H0604(01).",
+        "Consiglio dell’Unione Europea e Rappresentanti dei governi degli stati membri. (2008). Risoluzione del Consiglio e dei rappresentanti dei governi degli Stati membri «Integrare maggiormente l’orientamento permanente nelle strategie di apprendimento permanente». Recuperato da: https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:42008X1213(02)&from=ES.",
+        "Cornoldi, C., De Beni, R., & Gruppo MT (2020). Imparare a studiare: Strategie, stili cognitivi, metacognizione e atteggiamenti nello studio. Edizioni Centro Studi Erickson.",
+        "Cornoldi, C., Meneghetti, C., Moè, A., Zamperlin, C. (2018). Processi cognitivi, motivazione e apprendimento. Bologna: il Mulino. pp 262.",
+        "Da Re, L. (2017). Il tutor all’Università: Strategie educative per contrastare il drop-out e favorire il rendimento degli studenti. PensaMultimedia.",
+        "Da Re, L. (2024). Orientamento educativo e professionale: prospettive e visioni pedagogiche. In V. Boffo, G. Del Gobbo, & P. Malavasi (a cura di), Dare la parola: professionalità pedagogiche, educative e formative. A 100 anni dalla nascita di don Milani (pp. 28-35). Lecce: PensaMultimedia.",
+        "Da Re, L., Bonelli, R., & Bonin, A. (2023). La progettazione delle azioni di orientamento educativo e professionale per gli studenti di scuola secondaria nella prospettiva del PNRR: La proposta dell’Università di Padova. Lifelong Lifewide Learning, 20(43), 424-442. Doi: 10.19241/lll.v20i43.789.",
+        "Dato, D., & Loiodice, I. (2020). I percorsi per le Competenze Trasversali e per l’Orientamento all’Università di Foggia. Un’opportunità di orientamento consapevole e partecipato. In M. Cid, N. Rajadell-Puiggròs, & G. dos Santos Costa (Eds). Ensinar, avaliar e aprender no ensino superior: Perspetivas internacionais. CIEP | UE.",
+        "Dato, D., Cardone, S., Bassi, M., & Romano, C. (2023). “Educare alla scelta per il futuro”: Un percorso per l’orientamento attivo nella transizione scuola-università (PNRR). Q-TIMES, XV(3). Doi: 10.14668/QTimes_15313.",
+        "De Beni, R. Moè, A., Cornoldi, C., Meneghetti, C., Fabris, M., Zamperlin, C., & De Min Tona, G. (2014). AMOS. Abilità e motivazione allo studio: prove di valutazione e orientamento per la scuola secondaria di secondo grado e l’università. Nuova Edizione. Erickson.",
+        "De Beni, R., Zamperlin, C., Fabris, M., & Meneghetti, C. (2015). Studiare meglio e riuscire all’università: Linee guida e materiali per potenziare le abilità di studio. Edizioni Centro Studi Erickson.",
+        "De Vincenzo, C., Patrizi, N., & Mosca, M. (2019). Orientamento universitario in entrata e in uscita: Principali modalità e strumenti. In V. Biasi (Eds), Counselling universitario e orientamento. Strumenti e rilevazioni empiriche. (pp. 39-57). LED Edizioni Universitarie.",
+        "Decreto Ministeriale n. 934 del 03-08-2022, (2022). Recuperato da: https://www.mur.gov.it/it/atti-e-normativa/decreto-ministeriale-n-934-del-03-08-2022.",
+        "Di Fabio, A., & Gori, A. (2016). Measuring adolescent life satisfaction: psychometric properties of the satisfaction with life scale in a sample of Italian adolescents and young adults. Journal of Psychoeducational Assessment, 34(5), 501-506.",
+        "Di Nuovo, S., & Magnano, P. (2013). Competenze trasversali e scelte formative. Strumenti per valutare metacognizione, motivazione, interessi e abilità sociali nella continuità tra livelli scolastici. Erikson.",
+        "European Commission, Directorate-General for Education, Youth, Sport and Culture (2019), Key competences for lifelong learning, Publications Office. Retrieved from: https://data.europa.eu/doi/10.2766/569540.",
+        "Fabbris, L. (Eds). (2009). I servizi a supporto degli studenti universitari. CLEUP.",
+        "Feraco, T., Casali, N., Ganzit, E., & Meneghetti, C. (2023). Adaptability and emotional, behavioural and cognitive aspects of self-regulated learning: Direct and indirect relations with academic achievement and life satisfaction. British Journal of Educational Psychology, 93(1), 353-367.",
+        "Feraco, T., Resnati, D., Fregonese, D., Spoto, A., & Meneghetti, C. (2023). An integrated model of school students’ academic achievement and life satisfaction. Linking soft skills, extracurricular activities, self-regulated learning, motivation, and emotions. European Journal of Psychology of Education, 38(1), 109-130.",
+        "Feraco, T., Casali, N., Pellegrino, G., Soto, C. J., Napolitano, C., Carretti, B., & Meneghetti, C. (2024). The Italian Behavioral, Emotional, and Social Skills Inventory (BESSI-I). Journal of Personality Assessment.",
+        "Garofano, C., Cuevas, M., Rossi, S., Sgorla, A. F., & Telesca, G. (2023). Serious games e orientamento universitario. Un’esperienza di game-based learning. Q-TIMES, XV(2), 247-262. Doi: 10.14668%2FQTimes_15220.",
+        "Ginevra, M. C., Pallini, S., Vecchio, G. M., Nota, L., & Soresi, S. (2016). Future orientation and attitudes mediate career adaptability and decidedness. Journal of Vocational Behavior, 95-96, 102-110. Doi: 10.1016/j.jvb.2016.08.003.",
+        "Loiodice, I., & Dato, D. (2017). I servizi di orientamento universitario (in entrata, in itinere, in uscita) per il successo formativo, l’inclusione sociale e l’occupabilità. In G. Domenici (Eds). Successo formativo, inclusione e coesione sociale: Strategie innovative. Volume secondo: Strategie orientative e transizione università-lavoro (pp. 76-117). Armando Editore. https://www.torrossa.com/en/resources/an/4570299.",
+        "Magni, F. (2023). Le nuove linee guida per l’orientamento. Una sfida per l’autonomia delle scuole. Nuova Secondaria, XL(5), 17-21.",
+        "Mannese, E. (2021). La pedagogia, scienza di confine, tra innovazione, sostenibilità e orientamento efficace. Formazione & insegnamento, 19(1), 024-030. Doi: 10.7346/-fei-XIX-01-21_02.",
+        "Marcarini, M. F. (2022). Promuovere le soft skills con i PCTO (Percorsi per le Competenze Trasversali e l’Orientamento): Una proposta operativa: progettazione collaborativa degli spazi scolastici. DYNAMIS. Rivista di filosofia e pratiche educative, 1(1), 35-57. Doi: 10.53163/dyn.v1i1.45.",
+        "Margottini, M. (2006). L’informazione nell’orientamento: Una questione di carattere formativo. Lifelong Lifewide Learning, 2(6), 1-5.",
+        "Margottini, M., & Rossi, F. (2019). Strumenti per l’autovalutazione di competenze strategiche per lo studio e il lavoro. Giornale Italiano della Ricerca Educativa, 223-240. https://doi.org/OI 10.7346/SIRD-1S2019-P223 Recuperato da: https://ojs.pensamultimedia.it/index.php/sird/article/view/3278.",
+        "Margottini, M., Rossi, F., & De Carlo, F. (2019). Competenze trasversali e di orientamento: Un’esperienza nell’ambito dell’alternanza scuola-lavoro. In P. Lucisano (Eds), Le Società per la società: Ricerca, scenari, emergenze (pp. 273-282). Pensa Multimedia.",
+        "Mega, C., Ronconi, L., & De Beni, R. (2014). What makes a good student? How emotions, self-regulated learning, and motivation contribute to academic achievement. Journal of Educational Psychology, 106(1), 121-131.",
+        "Meneghetti, C., Casali, N. Fabris, M., Palamà, D., Rizzato, R., Zamperlin, C., Zavagnin, M., & De Beni, R. (2021). Students with academic difficulties: Benefits of a study skills group compared to an emotional skills group. Journal of Evi-dence-Based Psychotherapies, 21(2), 101-106.",
+        "MIM (2022). DM. 328/2022 Linee guida per l’orientamento. Retrieved from: https://www.miur.gov.it/documents/20182/6735034/linee+guida+orientamento-signed.pdf/d02014c6-4b76-7a11-9dbf-1dc9b495de38?version=1.0&t=1672213371208.",
+        "MIUR (2018). Percorsi per le competenze trasversali e per l’orientamento linee guida. Recuperato da: https://www.miur.gov.it/documents/20182/1306025/Linee+guida+PCTO+con+allegati.pdf/3e6b5514-c5e4-71de-8103-30250f17134a?version=1.0&t=1570548388496.",
+        "Nelson, K. J., Quinn, C., Marrington, A., & Clarke, J. A. (2012). Good practice for enhancing the engagement and success of commencing students. Higher Education, 63(1), 83-96.",
+        "Pellerey, M. (2016). Orientamento come potenziamento della persona umana in vista della sua occupabilità: Il ruolo delle soft skills, o competenze professionali personali generali. Rassegna Cnos, 1, 41-50.",
+        "Raimondo, E. M. (2023). I saperi che orientano: Il paradigma narrativo per una didattica orientativa. Lifelong Lifewide Learning, 20(43), 7-16. Doi: 10.19241/lll.v20i43.775.",
+        "Ricchiardi, P., & Lattanzi, T. (2023). Percorsi di educazione alla scelta e consulenziale per la scuola secondaria di secondo grado. Form@re - Open Journal per La Formazione in Rete, 23(2), 209-227. Doi: 10.36253/form-14643.",
+        "Ricchiardi, P., Torre, E. M. T., & Lattanzi, T. (2023). Percorsi di educazione alla scelta: Valutazione dell’efficacia differenziale. Lifelong Lifewide Learning, 20(43), 246-266. Doi: 10.19241/lll.v20i43.803."
+      ],
+      "count": 46,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_18033",
+    "article_ID": "18033",
+    "slug": "18033",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "18033",
+      "url_slug": "18033"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "“Destinazione Università”: An innovative online guidance course for the development of soft skills",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-06-27",
+      "accepted": null,
+      "created": "2024-07-16",
+      "modified": "2025-11-17",
+      "issued": "2025-11-17",
+      "available": "2025-11-17",
+      "submitted_page": "2024-06-27",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+        "pdf_value": null,
+        "chosen_value": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-06-27",
+        "pdf_value": null,
+        "chosen_value": "2024-06-27",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18033/2879",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18033/2879",
+      "local_relative_path": "2499-507X_18033.pdf",
+      "saved": true,
+      "sha256": "a72fcdfa3e438e04e28e79f8a266f2186b55872624fe67dd7c7c79a598a53c25",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1134940,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Lorenza Da Re",
+        "Chiara Meneghetti",
+        "Roberta Bonelli",
+        "Tommaso Feraco"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/07/16"
+      ],
+      "citation_volume": [
+        "9"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2024oa18033"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/18033"
+      ],
+      "citation_keywords": [
+        "Orientamento educativo e professionale",
+        "PNRR",
+        "DM 934/2022",
+        "Transizione scuola-università",
+        "Soft-skills"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/18033/2879"
+      ],
+      "citation_reference_count": 46,
+      "DC.Date.created": [
+        "2024-07-16"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-06-27"
+      ],
+      "DC.Date.issued": [
+        "2025-11-17"
+      ],
+      "DC.Date.modified": [
+        "2025-11-17"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "18033"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2024oa18033"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/18033"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "9"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali"
+      ],
+      "DC.Title.Alternative": [
+        "“Destinazione Università”: An innovative online guidance course for the development of soft skills"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Lorenza Da Re",
+        "Chiara Meneghetti",
+        "Roberta Bonelli",
+        "Tommaso Feraco"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Lorenza Da Re",
+        "Chiara Meneghetti",
+        "Roberta Bonelli",
+        "Tommaso Feraco"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The paper explores a formative proposal from the University of Padua concerning active guidance in the school-university transition, based on the provisions of the Italian Ministerial Decree 934/2022 (MUR). In particular, an online course has been designed for students in the last three years of secondary school, aiming at fostering transversal skills essential for the post-diploma transition. The 3-hour course can be used asynchronously on the University's Moodle platform, and consists of four main activities covering the following topics: introduction to soft skills, study skills and motivation, social and interpersonal skills; choice guidance. The activities represent a new and innovative proposal, and are carried out through short videos, questionnaires and initial and final reflection activities, both quantitative and qualitative. The first edition took place from April to August 2023, and the second edition 2023/24 is currently underway. The presentation of the proposal, detailed here in its objectives and operational characteristics, can serve as an example of good practices and could increase the scientific debate on the important topic of active guidance in the school-university transition, also serving as a comparison and reflection for other contexts that are facing this significant challenge.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The paper explores a formative proposal from the University of Padua concerning active guidance in the school-university transition, based on the provisions of the Italian Ministerial Decree 934/2022 (MUR). In particular, an online course has been designed for students in the last three years of secondary school, aiming at fostering transversal skills essential for the post-diploma transition. The 3-hour course can be used asynchronously on the University's Moodle platform, and consists of four main activities covering the following topics: introduction to soft skills, study skills and motivation, social and interpersonal skills; choice guidance. The activities represent a new and innovative proposal, and are carried out through short videos, questionnaires and initial and final reflection activities, both quantitative and qualitative. The first edition took place from April to August 2023, and the second edition 2023/24 is currently underway. The presentation of the proposal, detailed here in its objectives and operational characteristics, can serve as an example of good practices and could increase the scientific debate on the important topic of active guidance in the school-university transition, also serving as a comparison and reflection for other contexts that are facing this significant challenge."
+          }
+        },
+        {
+          "content": "Il contributo approfondisce una proposta formativa dell’Università degli Studi di Padova legata all’orientamento attivo nella transizione scuola-università, sulla base di quanto previsto dal Decreto Ministeriale MUR 934/2022. In particolare, è stato progettato un percorso online, dedicato agli studenti1 dell’ultimo triennio di scuola secondaria di secondo grado del territorio, che mira allo sviluppo di alcune competenze trasversali utili in vista della transizione post-diploma. Il modulo di tre ore è fruibile in modo asincrono sulla piattaforma Moodle di Ateneo, e si compone di quattro attività principali, relative a: introduzione sulle soft skills, abilità e motivazione allo studio, abilità sociali e interpersonali, orientamento alla scelta. Le attività rappresentano una proposta inedita e innovativa per l’Ateneo, e si svolgono tramite brevi video creati ad hoc, questionari e attività di riflessione guidata iniziali e finali, sia di tipo quantitativo che qualitativo. La prima edizione si è svolta da aprile ad agosto 2023, ed è attualmente in corso la seconda edizione 2023/24. La presentazione della proposta, qui dettagliata nei suoi obiettivi e caratteristiche operative, può configurarsi come esempio di pratica e accrescere il dibattito scientifico rispetto all’importante tema dell’orientamento attivo nella transizione scuola-università, fungendo anche da confronto e riflessione per altri contesti che stanno affrontando questa importante sfida. 1 Per rendere più fluida l’esposizione, nel testo utilizzeremo il maschile ma intendiamo includere tutti i generi.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il contributo approfondisce una proposta formativa dell’Università degli Studi di Padova legata all’orientamento attivo nella transizione scuola-università, sulla base di quanto previsto dal Decreto Ministeriale MUR 934/2022. In particolare, è stato progettato un percorso online, dedicato agli studenti1 dell’ultimo triennio di scuola secondaria di secondo grado del territorio, che mira allo sviluppo di alcune competenze trasversali utili in vista della transizione post-diploma. Il modulo di tre ore è fruibile in modo asincrono sulla piattaforma Moodle di Ateneo, e si compone di quattro attività principali, relative a: introduzione sulle soft skills, abilità e motivazione allo studio, abilità sociali e interpersonali, orientamento alla scelta. Le attività rappresentano una proposta inedita e innovativa per l’Ateneo, e si svolgono tramite brevi video creati ad hoc, questionari e attività di riflessione guidata iniziali e finali, sia di tipo quantitativo che qualitativo. La prima edizione si è svolta da aprile ad agosto 2023, ed è attualmente in corso la seconda edizione 2023/24. La presentazione della proposta, qui dettagliata nei suoi obiettivi e caratteristiche operative, può configurarsi come esempio di pratica e accrescere il dibattito scientifico rispetto all’importante tema dell’orientamento attivo nella transizione scuola-università, fungendo anche da confronto e riflessione per altri contesti che stanno affrontando questa importante sfida.\n1 Per rendere più fluida l’esposizione, nel testo utilizzeremo il maschile ma intendiamo includere tutti i generi."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Orientamento educativo e professionale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Orientamento educativo e professionale"
+          }
+        },
+        {
+          "content": "PNRR",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "PNRR"
+          }
+        },
+        {
+          "content": "DM 934/2022",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "DM 934/2022"
+          }
+        },
+        {
+          "content": "Transizione scuola-università",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Transizione scuola-università"
+          }
+        },
+        {
+          "content": "Soft-skills",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Soft-skills"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/18033/2879",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18033/2879",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18033/2879",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18033/2879",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18033/2879",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2024-07-11",
+        "mod_date": "2024-07-11"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 1 Doi: 10.3280/exioa1-2024oa18033 “Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali “Destinazione Università”: An innovative online guidance course for the development of soft skills Lorenza Da Re, Chiara Meneghetti, Roberta Bonelli, Tommaso Feraco* Riassunto Il contributo approfondisce una proposta formativa dell’Univers ità degli Studi di Padova legata all’orientamento attivo nella transizione scuola-università, sulla base di quanto previsto dal Decreto Ministeriale MUR 934/ 2022. In par- ticolare, è stato progettato un percorso online, dedicato agli studenti 1 dell’ul- timo triennio di scuola secondaria di secondo grado del territorio, che mira allo sviluppo di alcune competenze tras versali utili in vista della transizione post- diploma. Il modulo di tre ore è fruibile in modo asincrono sull a piattaforma Moodle di Ateneo, e si compone di quattro attività principali, relative a: intro- duzione sulle soft skills, abilità e motivazione allo studio, abilità sociali e inter- personali, orientamento alla scelta. Le attività rappresentano una proposta ine- dita e innovativa per l’Ateneo, e si svolgono tramite brevi vid eo creati ad hoc, questionari e attività di riflessione guidata iniziali e finali, sia di tipo quantita- tivo che qualitativo. La prima edizione si è svolta da aprile a d agosto 2023, ed è attualmente in corso la seconda edizione 2023/24. La presentazione della proposta, qui dettagliata nei suoi obiettivi e caratteristi- che operative, può configurarsi come esempio di pratica e accrescere il dibattito scientifico rispetto all’importante tema dell’orientamento atti vo nella transi- zione scuola-università, fungendo anche da confronto e riflessione per altri con- testi che stanno affrontando questa importante sfida. * Università degli Studi di Padova. 1 Per rendere più fluida l’esposizione, nel testo utilizzeremo il maschile ma intendiamo includere tutti i generi. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\18033\\2499-507X_18033.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+        "pdf_value": null,
+        "chosen_value": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-06-27",
+        "pdf_value": null,
+        "chosen_value": "2024-06-27",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18033",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18033",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:34:49Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18033\\temp\\2499-507X_18033.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:34:51Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18033\\2499-507X_18033.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+        "submitted_date": "2024-06-27",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Lorenza Da Re",
+          "Chiara Meneghetti",
+          "Roberta Bonelli",
+          "Tommaso Feraco"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18033\\2499-507X_18033.pdf",
+        "generated_at_utc": "2026-04-21T21:34:51Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2024-07-11",
+          "mod_date": "2024-07-11"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 1 Doi: 10.3280/exioa1-2024oa18033 “Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali “Destinazione Università”: An innovative online guidance course for the development of soft skills Lorenza Da Re, Chiara Meneghetti, Roberta Bonelli, Tommaso Feraco* Riassunto Il contributo approfondisce una proposta formativa dell’Univers ità degli Studi di Padova legata all’orientamento attivo nella transizione scuola-università, sulla base di quanto previsto dal Decreto Ministeriale MUR 934/ 2022. In par- ticolare, è stato progettato un percorso online, dedicato agli studenti 1 dell’ul- timo triennio di scuola secondaria di secondo grado del territorio, che mira allo sviluppo di alcune competenze tras versali utili in vista della transizione post- diploma. Il modulo di tre ore è fruibile in modo asincrono sull a piattaforma Moodle di Ateneo, e si compone di quattro attività principali, relative a: intro- duzione sulle soft skills, abilità e motivazione allo studio, abilità sociali e inter- personali, orientamento alla scelta. Le attività rappresentano una proposta ine- dita e innovativa per l’Ateneo, e si svolgono tramite brevi vid eo creati ad hoc, questionari e attività di riflessione guidata iniziali e finali, sia di tipo quantita- tivo che qualitativo. La prima edizione si è svolta da aprile a d agosto 2023, ed è attualmente in corso la seconda edizione 2023/24. La presentazione della proposta, qui dettagliata nei suoi obiettivi e caratteristi- che operative, può configurarsi come esempio di pratica e accrescere il dibattito scientifico rispetto all’importante tema dell’orientamento atti vo nella transi- zione scuola-università, fungendo anche da confronto e riflessione per altri con- testi che stanno affrontando questa importante sfida. * Università degli Studi di Padova. 1 Per rendere più fluida l’esposizione, nel testo utilizzeremo il maschile ma intendiamo includere tutti i generi. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "“Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-06-27",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-06-27",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:04Z"
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:05Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18033\\temp\\2499-507X_18033.conflicts.json"
+  }
+}

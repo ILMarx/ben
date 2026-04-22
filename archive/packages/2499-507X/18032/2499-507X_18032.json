@@ -1,0 +1,899 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18032",
+  "scraped_at_utc": "2026-04-21T21:34:46Z",
+  "fetched_at_utc": "2026-04-21T21:34:46Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "769d0ced685835b87ed739d26a46148ce82bf8e25dac971d6be0c5eb31cdc2b9",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Isabella Pescarmona",
+        "nameType": "Personal",
+        "givenName": "Isabella",
+        "familyName": "Pescarmona",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Torino"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Valerio Ferrero",
+        "nameType": "Personal",
+        "givenName": "Valerio",
+        "familyName": "Ferrero",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Torino"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/18032",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-11-17",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-11-17",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-11-17",
+      "Issued": "2025-11-17"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This essay aims to discuss the perspectives of innovation in relation to academic didactics in the humanities by examining how future teachers can be trained in the field of intercultural education. It focuses on the university class as a plural territory and proposes Lipmanian community philosophical practice as a method through which students can acquire an intercultural habitus and co-construct disciplinary knowledge. It emphasises the need to transform training processes through approaches that encourage active student participation and call for a repositioning of teachers to promote a dialogical and plural context.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Questo saggio intende discutere le prospettive di innovazione relative alla didattica accademica nell’ambito delle scienze umane, approfondendo le modalità di formazione interculturale dei futuri insegnanti. Concentrandosi sull’aula universitaria come territorio plurale e proponendo la pratica filosofica di comunità di matrice lipmaniana come metodo attraverso cui gli studenti possono acquisire un habitus interculturale e co-costruire conoscenze disciplinari, si enfatizza la necessità di una trasformazione dei processi formativi tramite approcci che favoriscano la partecipazione attiva degli studenti e, al contempo, sollecitino un riposizionamento dei docenti per promuovere un contesto dialogico e plurale.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2024oa18032",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "9",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Innovazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Didattica universitaria",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Educazione interculturale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Aula accademica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Pratica filosofica di comunità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/18032/2878",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "9",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Pescarmona, I., & Ferrero, V. (2024). Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali. Excellence and Innovation in Learning and Teaching - Open Access , 9 (1). https://doi.org/10.3280/exioa1-2024oa18032",
+      "articleTitleEcho": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Achaeva, M., Daurova, A., Pospelova, N., & Borysov, V. (2018). Intercultural educa-tion in the system of training future teachers. Journal of Social Studies Education Research, 9(3), 261-281.",
+        "Adichie, C.N. (2020). Il pericolo di un’unica storia. Einaudi.",
+        "Anderson, B. (a cura di). (2016). Philosophy for Children: Theories and praxis in teacher education. Taylor & Francis.",
+        "Bhatti, G., Gaine, C., Gobbo, F., & Leeman, Y. (2007). Social justice and intercultural education: An open-ended dialogue. Trentham.",
+        "Borghi, V. (2020). Decolonialità e privilegio. Pratiche femministe e critica al sistema mondo. Meltemi.",
+        "Cacciamani, S., & Giannandrea, L. (2004). La classe come comunità di apprendimento. Carocci.",
+        "Calliero, C., & Galvagno, A. (2010). Abitare la domanda. Per un’educazione filosofica nella scuola di base. Morlacchi.",
+        "Castoldi, M. (2015). Didattica generale. Mondadori Università.",
+        "Cinus, M.F. (2019). Chi cerca trova. Racconti per pensare. Erickson.",
+        "Cosentino, A. (2002). Socrate come inizio perduto della filosofia. In A. Cosentino (a cura di). Filosofia e formazione. 10 anni di Philosophy for children in Italia (1991-2001) (pp. 214-217). Liguori.",
+        "Cosentino, A. (2008). Filosofia come pratica sociale. Apogeo.",
+        "Cosentino, A. (2021). Socrate dopo tutto. La pratica filosofica di comunità. Mursia.",
+        "Cosentino, A., & Lupia, M.R. (2021). Didattica della comunità di ricerca. Per un’educazione democratica. Anicia.",
+        "Cosentino, A., & Oliverio, S. (2011). Comunità di ricerca filosofica e formazione. Pratiche di coltivazione del pensiero. Liguori.",
+        "Cosentino, A., Striano, M., & Oliverio, S. (2011). Introduzione. La scrittura filosofica: uno strumento per educare il pensiero al ‘movimento’ dell’indagine. In E. Lupia, M. Miraglia, S. Nardone & R. Sorbo (a cura di), Il risentimento della mula. Racconti e strumenti per l’indagine filosofica (pp. VII-XXXIII). Liguori.",
+        "Felisatti, E., & Serbati, A. (a cura di) (2018). Preparare alla professionalità docente e innovare la didattica universitaria. FrancoAngeli.",
+        "Ferrero, V. (2022). Non perdere il filo. Il dialogo filosofico per scoprire e connettere i linguaggi delle discipline. Ricerche di Pedagogia e Didattica, 17(1), 37-52. DOI: 10.6092/issn.1970-2221/14377.",
+        "Ferrero, V. (2024). Coltivare il pensiero a scuola. Una lettura “rodariana” della pratica filosofica di comunità. QTimes, 16(1), 215-227. DOI: 10.14668/QTimes_16119.",
+        "Figueredo-Canosa, V., Ortiz Jiménez, L., Sánchez Romero, C., & López Berlanga, M. C. (2020). Teacher training in intercultural education: Teacher perceptions. Education Sciences, 10(3), 81. DOI: 10.3390/educsci10030081.",
+        "Fook, J. (1999). Reflexivity as method. Annual Review of Health Social Science, 9(1), 11-20. DOI: 10.5172/hesr.1999.9.1.11.",
+        "Fraser, N., & Honneth, A. (2003). Redistribution or Recognition? A Political-philosophical Exchange. Verso.",
+        "Freire, P. (1971). La pedagogia degli oppressi. Mondadori.",
+        "Galliani, L. (a cura di) (2011). Il docente universitario. Una professione tra ricerca, didattica e governance degli atenei. Pensa MultiMedia.",
+        "Gobbo, F. (2000). Pedagogia interculturale. Il progetto educativo nelle società complesse. Carocci.",
+        "Hooks, B. (2020). Insegnare a trasgredire. L’educazione come pratica della libertà. Meltemi.",
+        "Hooks, B. (2022). Insegnare comunità. Una pedagogia della speranza. Meltemi.",
+        "Hunt, L., & Chalmers, D. (a cura di) (2021). University Teaching in Focus. A Learning-centred Approach. Routledge.",
+        "Kennedy, D. (2012). Lipman, Dewey, and the community of philosophical inquiry. Education and Culture, 28(2), 36-53. DOI: 10.1353/eac.2012.0009.",
+        "Kim, J., & Maloney, E.J. (2020). Learning innovation and the future of higher education. JHU Press.",
+        "Leeman, Y., & Ledoux, G. (2003). Preparing teachers for intercultural education. Teaching Education, 14(3), 279-291. DOI: 10.1080/1047621032000135186.",
+        "Lewis, L. (2022). Transforming teacher education with philosophy for children. In A. Kizel (a cura di), Philosophy with Children and Teacher Education: Global Perspectives on Critical, Creative and Caring Thinking (pp. 49-57). Routledge.",
+        "Lewis, L., & Robinson, G. (2016). Philosophy for children in higher education. In B. Anderson (a cura di). Philosophy for Children: Theories and praxis in teacher education (pp. 107-114). Taylor & Francis.",
+        "Lipman, M. (2005). Educare al pensiero. Vita e Pensiero.",
+        "Lipman, M. (2018). L’impegno di una vita: insegnare a pensare. Mimesis.",
+        "Lotti, A., Crea, G., Garbarino, S., Picasso, F., & Scellato, E. (a cura di) (2021). Faculty Development e innovazione didattica universitaria. Genova University Press.",
+        "Ogay, T., & Edelmann, D. (2016). ‘Taking culture seriously’: implications for inter-cultural education and training. European Journal of Teacher Education, 39(3), 388-400. DOI: 10.1080/02619768.2016.1157160.",
+        "Oliverio, S. (2014). Between the De-traditionalization and “Aurorality” of Knowledge: What (Can) Work(s) in P4C when It Is Set to Work. Thinking: The Journal of Philosophy for Children, 20(3/4), 105-112. DOI: 10.5840/thinking2014203/416.",
+        "Oliverio, S. (2015). Lipman’s novels or turning philosophy inside-out. Childhood & Philosophy, 11(21), 81-92. DOI: 10.12957/childphilo.2015.21117.",
+        "Oliverio, S. (2021). Traces of the Intersubject? Note-taking within the Community of Philosophical Inquiry. Educational Philosophy and Theory, 53(13), 1321-1333. DOI: 10.1080/00131857.2020.1743269.",
+        "Oliverio, S. (2022). Educazione al giudizio professionale e dilemmi della pratica docente. Pedagogia Oggi, 20(1), 40-47. DOI: 10.7346/PO-012022.",
+        "Paulsen, M.B. (a cura di) (2016). Higher Education: Handbook of Theory and Research. Springer. DOI: 10.1007/978-3-319-26829-3.",
+        "PEACE (2015). Cosmopolitismo riflessivo. Educare all’inclusione attraverso l’indagine filosofica. La Rectoral.",
+        "Perla, L., & Vinci, V. (2022). Didattica, riconoscimento professionale e innovazione in Università. FrancoAngeli.",
+        "Pescarmona, I., & Giorgis, P. (2022). L’aula come territorio plurale. Storie, riflessioni, esperienze per costruire cittadinanze interculturali. In E. Zizioli & A. D’Antone (a cura di), Con e per ogni ‘filo d’erba’. Progettazione partecipata e percorsi di emancipazione dentro e fuori la scuola (pp. 153-159). Zeroseiup.",
+        "Pescarmona, I., Gozzelino, G., & Matera, F. (2024). Altre parole sulla migrazione: educazione globale, pensieri di confine e pratiche creative. QTimes, 16(1), 111-122. DOI: 10.14668/QTimes_16 110.",
+        "Pescarmona, I., Sità, C., & Bove, C. (2023). Riconoscersi situati: posizionamenti, di-namismi di potere e tensioni epistemologiche nella ricerca educativa. Pedagogia e Vita, 81(2), 32-44.",
+        "Pulvirenti, F. (2010). Educazione al pensiero e affettività in Matthew Lipman. Studi sulla Formazione, 13(2), 73-81. DOI: 10.13128/Studi_Formaz-10100.",
+        "Robasto, D. (2018). Processi di apprendimento e insegnamento nella didattica universitaria: tra requisiti di sistema e innovazione didattica. Excellence and Innovation in Learning and Teaching, 3(1), 38-58. DOI: 10.3280/EXI2018-001003.",
+        "Rodríguez-Aboytes, J.G., & Barth, M. (2020). Transformative learning in the field of sustainability: a systematic literature review (1999-2019). International Journal of Sustainability in Higher Education, 21(5), 993-1013.",
+        "Santi, M. (2002). Conversazione con Matthew Lipman. In A. Cosentino (a cura di), Filosofia e formazione. 10 anni di Philosophy for Children in Italia (1991-2001) (pp. 47-60). Liguori.",
+        "Santi, M., Striano, M., & Oliverio, S. (2019). Philosophical Inquiry and Education “through” Democracy. Promoting Cosmopolitan and Inclusive Societies. Scuola Democratica, 10(4), 74-91. DOI: 10.12828/96364.",
+        "Striano, M. (2011). The community of philosophical inquiry as a social and cognitive matrix. Childhood & Philosophy, 7(13), 91-102.",
+        "Striano, M. (2020). L’apprendimento trasformativo. Pedagogia e Vita, 78(2), 36-48.",
+        "Striano, M., Melacarne, C., & Oliverio, S. (2018). La riflessività in educazione: prospettive, modelli, pratiche. Morcelliana.",
+        "Tarozzi, M. (2015). Dall’intercultura alla giustizia sociale. Per un progetto pedagogico e politico di cittadinanza globale. FrancoAngeli."
+      ],
+      "count": 55,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_18032",
+    "article_ID": "18032",
+    "slug": "18032",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "18032",
+      "url_slug": "18032"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Building dialogic communities of inquiry: When the academic class becomes a space for intercultural training and possibilities",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-06-27",
+      "accepted": null,
+      "created": "2024-07-16",
+      "modified": "2025-11-17",
+      "issued": "2025-11-17",
+      "available": "2025-11-17",
+      "submitted_page": "2024-06-27",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+        "pdf_value": null,
+        "chosen_value": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-06-27",
+        "pdf_value": null,
+        "chosen_value": "2024-06-27",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18032/2878",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18032/2878",
+      "local_relative_path": "2499-507X_18032.pdf",
+      "saved": true,
+      "sha256": "18df5378b515d2e509567d6fbb70a792ce37d29c8bd5bdbcf5a133fba4a04837",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1117012,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Isabella Pescarmona",
+        "Valerio Ferrero"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Torino",
+        "Università degli Studi di Torino"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/07/16"
+      ],
+      "citation_volume": [
+        "9"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2024oa18032"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/18032"
+      ],
+      "citation_keywords": [
+        "Innovazione",
+        "Didattica universitaria",
+        "Educazione interculturale",
+        "Aula accademica",
+        "Pratica filosofica di comunità"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/18032/2878"
+      ],
+      "citation_reference_count": 55,
+      "DC.Date.created": [
+        "2024-07-16"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-06-27"
+      ],
+      "DC.Date.issued": [
+        "2025-11-17"
+      ],
+      "DC.Date.modified": [
+        "2025-11-17"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "18032"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2024oa18032"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/18032"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "9"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali"
+      ],
+      "DC.Title.Alternative": [
+        "Building dialogic communities of inquiry: When the academic class becomes a space for intercultural training and possibilities"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Isabella Pescarmona",
+        "Valerio Ferrero"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Torino",
+        "Università degli Studi di Torino"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Isabella Pescarmona",
+        "Valerio Ferrero"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This essay aims to discuss the perspectives of innovation in relation to academic didactics in the humanities by examining how future teachers can be trained in the field of intercultural education. It focuses on the university class as a plural territory and proposes Lipmanian community philosophical practice as a method through which students can acquire an intercultural habitus and co-construct disciplinary knowledge. It emphasises the need to transform training processes through approaches that encourage active student participation and call for a repositioning of teachers to promote a dialogical and plural context.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This essay aims to discuss the perspectives of innovation in relation to academic didactics in the humanities by examining how future teachers can be trained in the field of intercultural education. It focuses on the university class as a plural territory and proposes Lipmanian community philosophical practice as a method through which students can acquire an intercultural habitus and co-construct disciplinary knowledge. It emphasises the need to transform training processes through approaches that encourage active student participation and call for a repositioning of teachers to promote a dialogical and plural context."
+          }
+        },
+        {
+          "content": "Questo saggio intende discutere le prospettive di innovazione relative alla didattica accademica nell’ambito delle scienze umane, approfondendo le modalità di formazione interculturale dei futuri insegnanti. Concentrandosi sull’aula universitaria come territorio plurale e proponendo la pratica filosofica di comunità di matrice lipmaniana come metodo attraverso cui gli studenti possono acquisire un habitus interculturale e co-costruire conoscenze disciplinari, si enfatizza la necessità di una trasformazione dei processi formativi tramite approcci che favoriscano la partecipazione attiva degli studenti e, al contempo, sollecitino un riposizionamento dei docenti per promuovere un contesto dialogico e plurale.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Questo saggio intende discutere le prospettive di innovazione relative alla didattica accademica nell’ambito delle scienze umane, approfondendo le modalità di formazione interculturale dei futuri insegnanti. Concentrandosi sull’aula universitaria come territorio plurale e proponendo la pratica filosofica di comunità di matrice lipmaniana come metodo attraverso cui gli studenti possono acquisire un habitus interculturale e co-costruire conoscenze disciplinari, si enfatizza la necessità di una trasformazione dei processi formativi tramite approcci che favoriscano la partecipazione attiva degli studenti e, al contempo, sollecitino un riposizionamento dei docenti per promuovere un contesto dialogico e plurale."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Innovazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Innovazione"
+          }
+        },
+        {
+          "content": "Didattica universitaria",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Didattica universitaria"
+          }
+        },
+        {
+          "content": "Educazione interculturale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Educazione interculturale"
+          }
+        },
+        {
+          "content": "Aula accademica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Aula accademica"
+          }
+        },
+        {
+          "content": "Pratica filosofica di comunità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Pratica filosofica di comunità"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/18032/2878",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18032/2878",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18032/2878",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18032/2878",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18032/2878",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2024-07-11",
+        "mod_date": "2024-07-11"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 1 Doi: 10.3280/exioa1-2024oa18032 Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali Building dialogic communities of inquiry: When the academic class becomes a space for intercultural training and possibilities Isabella Pescarmona*, Valerio Ferrero* Riassunto Questo saggio intende discutere le prospettive di innovazione r elative alla di- dattica accademica nell’ambito delle scienze umane, approfondendo le moda- lità di formazione interculturale dei futuri insegnanti. Concentrandosi sull’aula universitaria come territorio plurale e proponendo la pratica filosofica di comu- nità di matrice lipmaniana come metodo attraverso cui gli studenti possono ac- quisire un habitus interculturale e co-costruire conoscenze disciplinari, si enfa- tizza la necessità di una trasformazione dei processi formativi tramite approcci che favoriscano la partecipazione attiva degli studenti e, al c ontempo, solleci- tino un riposizionamento dei do centi per promuovere un contesto dialogico e plurale. Parole chiave: innovazione, didattica universitaria, educazione interculturale , aula accademica, pratica filosofica di comunità Abstract This essay aims to discuss the perspectives of innovation in relation to academic didactics in the humanities by examining how future teachers can be trained in the field of intercultural education. It focuses on the university class as a plural * Dipartimento di Filosofia e Scienze dell’Educazione, Universit à degli Studi di Torino, e-mail: isabella.pescarmona@unito.it; valerio.ferrero@unito.it. Il saggio è frutto di una riflessione condivisa da parte dei due autori; rispetto alla redazione dei paragrafi, Isabella Pescarmona ha curato i §§ 1, 2 e 5, Valerio Ferrero i §§ 3 e 4. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\18032\\2499-507X_18032.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+        "pdf_value": null,
+        "chosen_value": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-06-27",
+        "pdf_value": null,
+        "chosen_value": "2024-06-27",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18032",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18032",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:34:46Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18032\\temp\\2499-507X_18032.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:34:48Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18032\\2499-507X_18032.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+        "submitted_date": "2024-06-27",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Isabella Pescarmona",
+          "Valerio Ferrero"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18032\\2499-507X_18032.pdf",
+        "generated_at_utc": "2026-04-21T21:34:48Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2024-07-11",
+          "mod_date": "2024-07-11"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 1 Doi: 10.3280/exioa1-2024oa18032 Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali Building dialogic communities of inquiry: When the academic class becomes a space for intercultural training and possibilities Isabella Pescarmona*, Valerio Ferrero* Riassunto Questo saggio intende discutere le prospettive di innovazione r elative alla di- dattica accademica nell’ambito delle scienze umane, approfondendo le moda- lità di formazione interculturale dei futuri insegnanti. Concentrandosi sull’aula universitaria come territorio plurale e proponendo la pratica filosofica di comu- nità di matrice lipmaniana come metodo attraverso cui gli studenti possono ac- quisire un habitus interculturale e co-costruire conoscenze disciplinari, si enfa- tizza la necessità di una trasformazione dei processi formativi tramite approcci che favoriscano la partecipazione attiva degli studenti e, al c ontempo, solleci- tino un riposizionamento dei do centi per promuovere un contesto dialogico e plurale. Parole chiave: innovazione, didattica universitaria, educazione interculturale , aula accademica, pratica filosofica di comunità Abstract This essay aims to discuss the perspectives of innovation in relation to academic didactics in the humanities by examining how future teachers can be trained in the field of intercultural education. It focuses on the university class as a plural * Dipartimento di Filosofia e Scienze dell’Educazione, Universit à degli Studi di Torino, e-mail: isabella.pescarmona@unito.it; valerio.ferrero@unito.it. Il saggio è frutto di una riflessione condivisa da parte dei due autori; rispetto alla redazione dei paragrafi, Isabella Pescarmona ha curato i §§ 1, 2 e 5, Valerio Ferrero i §§ 3 e 4. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Costruire comunità di ricerca dialogiche: quando l’aula accademica diventa uno spazio di formazione e possibilità interculturali",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-06-27",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-06-27",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:01Z"
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:02Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18032\\temp\\2499-507X_18032.conflicts.json"
+  }
+}

@@ -1,0 +1,893 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16825",
+  "scraped_at_utc": "2026-04-21T21:34:06Z",
+  "fetched_at_utc": "2026-04-21T21:34:05Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "642a77a2dd8168bb1080295fb33cdfc296044c0389a3fbeaf6b8d54f719359d1",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Regina Tavano",
+        "nameType": "Personal",
+        "givenName": "Regina",
+        "familyName": "Tavano",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Federica Picasso",
+        "nameType": "Personal",
+        "givenName": "Federica",
+        "familyName": "Picasso",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Trento"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Antonella Lotti",
+        "nameType": "Personal",
+        "givenName": "Antonella",
+        "familyName": "Lotti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Foggia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/16825",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-11-08",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2023-12-13",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-12-13",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-12-13",
+      "Issued": "2023-12-13",
+      "Accepted": "2023-11-08"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research environments, making them more aware of the design and practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student learning and improved satisfaction with the teaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teaching and learning approach based on investigation.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research environments, making them more aware of the design and practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student learning and improved satisfaction with the teaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teaching and learning approach based on investigation.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2023oa16825",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "8",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Inquiry Based Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Teaching-learning design",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Laboratory experience",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Research competences",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Technologies for education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16825/2578",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "8",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Tavano, R., Picasso, F., & Lotti, A. (2023). Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience. Excellence and Innovation in Learning and Teaching - Open Access , 8 (2). https://doi.org/10.3280/exioa2-2023oa16825",
+      "articleTitleEcho": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Alfieri, L., Brooks, P.J., Aldrich, N.J., Tenenbaum, H.R. (2011). Does discovery-based instruction enhance learning?. J Educ Psychol, 103(1), 1-18.",
+        "Archer-Kuhn, B., Wiedeman, D., & Chalifoux, J. (2020). Student engagement and deep learning in higher education: Reflections on inquiry-based learning on our group study program course in the UK. Journal of Higher Education Outreach and Engagement, 24(2), 107-122.",
+        "Banchi, H., & Bell, R. (2008). The many levels of inquiry. Science and children, 46(2), 26.",
+        "Bybee, R., & Landes, N. M. (1990). Science for life and living: An elementary school science program from Biological Sciences Improvement Study (BSCS). The American Biology Teacher, 52(2), 92-98.",
+        "Bruner, J. (1990). Acts of Meaning. Harvard University Press.",
+        "De Jong, T., & Van Joolingen, W. R. (1998). Scientific discovery learning with computer simulations of conceptual domains. Review of educational research, 68(2), 179-201.",
+        "Demaria, M., Barry, A., & Murphy, K. (2019). Using inquiry-based learning to enhance immunology laboratory skills. Frontiers in immunology, 10, 2510.",
+        "Dewey, J. (1933). How We Think: A restatement of the relation of reflective thinking to the educative process. D.C. Heath.",
+        "Duran, L. B., & Duran, E. (2004). The 5E instructional model: A learning cycle approach for inquiry-based science teaching. Science Education Review, 3(2), 49-58.",
+        "Gibbs, G. (1988). Learning by Doing: A Guide to Teaching and Learning Methods. Further Education Unit.",
+        "Healey, M., & Roberts, J., Ed. (2004). Engaging students in active learning: case studies in geography, environment and related disciplines. University of Gloucestershire, Geography Discipline Network and School of Environment.",
+        "Kember, D. (1997). A reconceptualisation of the research into university academics’ conceptions of teaching. Learning and Instruction 7, 255-275.",
+        "Keselman, A. (2003). Supporting inquiry learning by promoting normative understanding of multivariable causality. Journal of Research in Science Teaching, 40, 898-921. doi: 10.1002/tea.10115.",
+        "Lehtinen, A., & Viiri, J. (2017). Guidance provided by teacher and simulation for inquiry-based learning: A case study. Journal of science education and technology, 26(2), 193-206.",
+        "Lents, N.H., Cifuentes, O.E. & Carpi A. (2010). Teaching the Process of Molecular Phylogeny and Systematics: A Multi-Part Inquiry-Based Exercise. CBE-Life Sciences Education, 9, 513-523.",
+        "National Research Council. (1996). National science education standards. National Academy Press.",
+        "Parappilly, M.B., Siddiqui, S., Zadnikb, M.G., Shapter, J. & Schmidt, L. (2013). An Inquiry-Based Approach to Laboratory Experiences: Investigating Students’ Ways of Active Learning. International Journal of Innovation in Science and Mathematics Education, 21(5), 42-53.",
+        "Pedaste, M., & Sarapuu, T. (2006). Developing an effective support system for inquiry learning in a Web-based environment. Journal of Computer Assisted Learning, 22(1), 47-62.",
+        "Pedaste, M., Mäeots, M., Leijen, Ä., & Sarapuu, S. (2012). Improving students’ inquiry skills through reflection and self-regulation scaffolds. Technology, Instruction, Cognition and Learning, 9, 81-95.",
+        "Pedaste, M., Mäeots, M., Siiman, L. A., De Jong, T., Van Riesen, S. A., Kamp, E. T., ... & Tsourlidaki, E. (2015). Phases of inquiry-based learning: Definitions and the inquiry cycle. Educational research review, 14, 47-61.",
+        "Spronken-Smith, R. (2012). Experiencing the process of knowledge creation: The nature and use of inquiry-based learning in higher education. In International Colloquium on Practices for Academic Inquiry. University of Otago (pp. 1-17).",
+        "Thaiposri, P., & Wannapiroon, P. (2015). Enhancing students’ critical thinking skills through teaching and learning by inquiry-based learning activities using social network and cloud computing. Procedia-Social and Behavioral Sciences, 174, 2137-2144.",
+        "Uno, G. (1999). Handbook on teaching undergraduate science courses: A survival training manual. Thomson Custom Publishing.",
+        "Wiseman, E., Carroll, D.J. Fowler, S.R. & Guisbert, E. (2020) Iteration in an Inquiry-Based Undergraduate Laboratory Strengthens Student Engagement and Incorporation of Scientific Skills. Journal of the Scholarship of Teaching and Learning, 20 (2), 99-112."
+      ],
+      "count": 24,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_16825",
+    "article_ID": "16825",
+    "slug": "16825",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "16825",
+      "url_slug": "16825"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-09-19",
+      "accepted": "2023-11-08",
+      "created": "2023-12-13",
+      "modified": "2023-12-13",
+      "issued": "2023-12-13",
+      "available": "2023-12-13",
+      "submitted_page": "2023-11-21",
+      "submitted_pdf": "2023-09-19",
+      "accepted_page": null,
+      "accepted_pdf": "2023-11-08"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+        "pdf_value": null,
+        "chosen_value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-21",
+        "pdf_value": "2023-09-19",
+        "chosen_value": "2023-09-19",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2023-11-08",
+        "chosen_value": "2023-11-08",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16825/2578",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16825/2578",
+      "local_relative_path": "2499-507X_16825.pdf",
+      "saved": true,
+      "sha256": "915dc9280b26bcc23b66a21a8b75371c011f4da696f626c4a7dd9f2f8a98db1e",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 2610302,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Regina Tavano",
+        "Federica Picasso",
+        "Antonella Lotti"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Padova",
+        "Università degli Studi di Trento",
+        "Università degli Studi di Foggia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2023/12/13"
+      ],
+      "citation_volume": [
+        "8"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2023oa16825"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16825"
+      ],
+      "citation_keywords": [
+        "Inquiry Based Learning",
+        "Teaching-learning design",
+        "Laboratory experience",
+        "Research competences",
+        "Technologies for education"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/16825/2578"
+      ],
+      "citation_reference_count": 24,
+      "DC.Date.created": [
+        "2023-12-13"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-11-21"
+      ],
+      "DC.Date.issued": [
+        "2023-12-13"
+      ],
+      "DC.Date.modified": [
+        "2023-12-13"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "16825"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2023oa16825"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/16825"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "8"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience"
+      ],
+      "DC.Title.Alternative": [
+        "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Regina Tavano",
+        "Federica Picasso",
+        "Antonella Lotti"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Padova",
+        "Università degli Studi di Trento",
+        "Università degli Studi di Foggia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Regina Tavano",
+        "Federica Picasso",
+        "Antonella Lotti"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research environments, making them more aware of the design and practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student learning and improved satisfaction with the teaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teaching and learning approach based on investigation.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research environments, making them more aware of the design and practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student learning and improved satisfaction with the teaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teaching and learning approach based on investigation."
+          }
+        },
+        {
+          "content": "This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research environments, making them more aware of the design and practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student learning and improved satisfaction with the teaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teaching and learning approach based on investigation.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research environments, making them more aware of the design and practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student learning and improved satisfaction with the teaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teaching and learning approach based on investigation."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Inquiry Based Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Inquiry Based Learning"
+          }
+        },
+        {
+          "content": "Teaching-learning design",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Teaching-learning design"
+          }
+        },
+        {
+          "content": "Laboratory experience",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Laboratory experience"
+          }
+        },
+        {
+          "content": "Research competences",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Research competences"
+          }
+        },
+        {
+          "content": "Technologies for education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Technologies for education"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/16825/2578",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16825/2578",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16825/2578",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16825/2578",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/16825/2578",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": "2023-09-19",
+      "accepted_pdf": "2023-11-08",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2023-12-11",
+        "mod_date": "2023-12-11"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 2 Doi: 10.3280/exioa2-2023oa16825 Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience Regina Tavano*, Federica Picasso°, Antonella Lotti^ Abstract This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research envir onments, making them more aware of the design a nd practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student l earning and improved satisfaction with the t eaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teac hing and learning approach based on investigation. Key words: Inquiry Based Learning, teaching-learning design, laboratory experience, research competences, technologies for education. Article submitted: 19/09/2023; accepted: 08/11/2023 Available online: 13/12/2023 * Dipartimento di Scienze Biomediche, Università degli Studi di Padova, e-mail: regina.tavano@unipd.it. ° Dipartimento di Psicologia e Scienze Cognitive, Università degli Studi di Trento. ^ Dipartimento di Studi Umanistici, Lettere, Beni Culturali, Scienze della Formazione, Università degli Studi di Foggia. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\2499-507X_16825.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+        "pdf_value": null,
+        "chosen_value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-21",
+        "pdf_value": "2023-09-19",
+        "chosen_value": "2023-09-19",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2023-11-08",
+        "chosen_value": "2023-11-08",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16825",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16825",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:34:05Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\temp\\2499-507X_16825.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:34:09Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\2499-507X_16825.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+        "submitted_date": "2023-11-21",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Regina Tavano",
+          "Federica Picasso",
+          "Antonella Lotti"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\2499-507X_16825.pdf",
+        "generated_at_utc": "2026-04-21T21:34:09Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2023-12-11",
+          "mod_date": "2023-12-11"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 2 Doi: 10.3280/exioa2-2023oa16825 Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience Regina Tavano*, Federica Picasso°, Antonella Lotti^ Abstract This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research envir onments, making them more aware of the design a nd practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student l earning and improved satisfaction with the t eaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teac hing and learning approach based on investigation. Key words: Inquiry Based Learning, teaching-learning design, laboratory experience, research competences, technologies for education. Article submitted: 19/09/2023; accepted: 08/11/2023 Available online: 13/12/2023 * Dipartimento di Scienze Biomediche, Università degli Studi di Padova, e-mail: regina.tavano@unipd.it. ° Dipartimento di Psicologia e Scienze Cognitive, Università degli Studi di Trento. ^ Dipartimento di Studi Umanistici, Lettere, Beni Culturali, Scienze della Formazione, Università degli Studi di Foggia. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": "2023-09-19",
+          "accepted_date": "2023-11-08",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": "2023-09-19",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2023-11-08",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-11-21",
+          "pdf_value": "2023-09-19",
+          "preferred_source": "pdf",
+          "chosen_value": "2023-09-19",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:33Z"
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2023-11-08",
+          "preferred_source": "pdf",
+          "chosen_value": "2023-11-08",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:35Z"
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:37Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\temp\\2499-507X_16825.conflicts.json"
+  }
+}

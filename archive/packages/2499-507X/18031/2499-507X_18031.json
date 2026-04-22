@@ -1,0 +1,863 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18031",
+  "scraped_at_utc": "2026-04-21T21:34:43Z",
+  "fetched_at_utc": "2026-04-21T21:34:43Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "cc8ac729bb7ee9d0123e71631bf8cd9534a474c2849bec488ed617befc2fc26d",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Concetta Tino",
+        "nameType": "Personal",
+        "givenName": "Concetta",
+        "familyName": "Tino",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Monica Fedeli",
+        "nameType": "Personal",
+        "givenName": "Monica",
+        "familyName": "Fedeli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/18031",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-11-17",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-11-17",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-11-17",
+      "Issued": "2025-11-17"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "Teaching innovation (TI) is one of the actions that Higher Education systems have to implement to play the role of agencies that guide change. TI is an initiative that at the University of Padova has been designed into different paths for about last eight years, one of which is the path for change agents (CAs), who have the function of generating change within their contexts. The purpose of this qualitative research is to know what changes the teachers involved have experienced both in the teaching/learning processes and as CAs in their departments. The results show that there has been a significant change in terms of teaching perspectives and practices, but further efforts need to be made to perform an effective role as CA.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’innovazione didattica rientra tra le azioni che i sistemi di Higher Education sono chiamati ad implementare per continuare a svolgere il ruolo di agenzie che guidano il cambiamento. È un’iniziativa che all’Università di Padova ormai da circa otto anni è declinata in percorsi diversi, uno dei quali è il percorso per change agent (CA), i quali hanno la funzione di generare cambiamento all’interno dei loro contesti. La finalità di questa ricerca, a carattere qualitativo, è di conoscere quali cambiamenti hanno sperimentato i docenti coinvolti sia nei processi di insegnamento/apprendimento sia come CA nei loro dipartimenti di afferenza. I risultati mostrano che ci sia stato un cambiamento significativo in termini di prospettive e pratica didattica, ma ulteriori sforzi sono da compiere per svolgere una funzione efficace come CA.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2024oa18031",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "9",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Innovazione didattica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Change agent",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Professional learning community",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Transformative learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/18031/2877",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "9",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Tino, C., & Fedeli, M. (2024). Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina. Excellence and Innovation in Learning and Teaching - Open Access , 9 (1). https://doi.org/10.3280/exioa1-2024oa18031",
+      "articleTitleEcho": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Adair, J. E. (1973). Action-centred leadership. New York: McGraw-Hill.",
+        "Brame, C. (2016). Active learning. Vanderbilt University Center for Teaching. https://www.oaa.osu.edu/sites/default/files/uploads/nfo/2019/Active-Learning-article.pdf.",
+        "Cipriani, R. (Ed.). (2008). L’analisi qualitativa. Teorie, metodi, applicazioni. Armando Editore.",
+        "Cook, C. E., & Meizlish, D. S. (2011). Forging relationships with faculty and academic administrators. In C. E. Cook & M. Kaplan (Eds.), Advancing the culture of teaching on campus: How a teaching center can make a difference (pp. 50-64). Sterling, VA: Stylus.",
+        "Cranton, P., & Taylor, E. W. (2012). Transformative learning theory: Seeking a more unified theory. In P. Cranton, E. W. Taylor, & Associates, Handbook of Transformative Learning: Theory, Research, and Practice. San Francisco, CA: Jossey-Bass.",
+        "Cummings, S., Bridgman, T., & Brown, K. G. (2016). Unfreezing change as three steps: Rethinking Kurt Lewin’s legacy for change management. Human relations, 69(1), 33-60.",
+        "Della Porta, D. (2014). L’intervista qualitativa. Gius. Laterza & Figli Spa.",
+        "Fedeli, M., & Taylor, E.W. (2016). Exploring the impact of a teacher study group in an Italian university. Formazione & Insegnamento, XIV(3), 166-178.",
+        "Fedeli, M. (2019a). Migliorare la didattica universitaria: Il cambiamento organizzativo e il ruolo del Change Agent. Formazione & Insegnamento, 1(1), 267-282.",
+        "Fedeli, M. (2019b). Linking faculty development to organizational development: Teaching4Learning@Unipd. In M. Fedeli & L.L. Bierema (Eds.). Connecting adult learning and knowledge management. Strategies for learning and change in higher education and organizations (pp. 51-68). Svizzera: Springer International Publishing.",
+        "Fedeli, M. (2020). Change agent e comunità di pratica. Uniti per affrontare la pandemia. Il caso dell’Università di Padova. Scuola democratica, 11(3), 573-582.",
+        "Fedeli, M. (2022). Lo sviluppo professionale del docente universitario. Tradizione, Potere e Collaborazione. In M. De Rossi & M. Fedeli (Eds.) Costruire percorsi di faculty development. (49-67). Lecce: Pensa Multimedia.",
+        "Grupp, L. L. (2014). Faculty developer as change agent: A conceptual model for small institutions and beyond. Journal on Centers for Teaching and Learning, 6, 45-58.",
+        "Jarvis, P. (2012). Learning from Everyday Life. HSSRP 1(1), 1-20.",
+        "Kiprotich, S. W., Kahuhia, J., & Kinyua, G. (2019). An assessment of empirical ra-tional strategy and normative re-educative strategy on organizational performance in public offices in Kenya: A case of Teachers Service Commission. International Academic Journal of Human Resource and Business Administration, 3(6), 93-117.",
+        "Knowles, M. S., Holton, E. F., III, & Swanson, R. A. (2015). The adult learner: The definitive classic in adult education and human resource development. Routledge.",
+        "Mezirow, J., & Associates. (1990). Fostering Critical Reflection in Adulthood. San Francisco, CA: Jossey-Bass.",
+        "Mezirow, J., & Associates (2000). Learning as Transformation: Critical Perspectives on a Theory in Progress. San Francisco, CA: Jossey-Bass.",
+        "O’Connell, K., Eddy, P. L., Iverson, E. R., & Macdonald, R. H. (2022). Faculty Change Agent Model: Cultivating Faculty to Catalyze Change. Change: The Magazine of Higher Learning, 54(3), 11-18.",
+        "Ritchie, J., Spencer, L., O’Conner, W. (2003). In J. Ritchie, & J. Lewis. (Ed.), Qualitative research: a guide for social science student and researcher (pp. 219-263). London: Sage Publication Ltd.",
+        "Rogers, E. M. (2010). Diffusion of innovations (4th ed.). New York, NY: Simon and Schuster.",
+        "Schön, D. (1983). The Reflective Practitioner: How Professionals Think in Action. Basic Books.",
+        "Sorzio, P. (2006). La ricerca qualitativa in educazione. Problemi e metodi. Carocci.",
+        "Tam, C.F. (2015). The role of a professional learning community in teacher change: a perspective from beliefs and practices. Teachers and Teaching, 21(1), 22-43.",
+        "Tarozzi, M. (2008). Che cos’è la grounded theory. Roma: Carocci.",
+        "Taylor, E.W. (2008). Transformative learning theory. New Directions for Adult and Continuing Education, 119, 5-15.",
+        "Taylor, E. W. (2007). An update of transformative learning theory: A critical review of the empirical research (1999-2005). International Journal of Lifelong Education, 26(2), 173-191.",
+        "Theobald, E. J., Hill, M. J., Tran, E., Agrawal, S., Arroyo, E. N., Behling, S., ... & Freeman, S. (2020). Active learning narrows achievement gaps for underrepresented students in undergraduate science, technology, engineering, and math. Proceedings of the National Academy of Sciences, 117(12), 6476-6483.",
+        "Tino, C. (2018). Boundary spanners: uno studio sugli orientamenti dei docenti-tutor dell’Alternanza Scuola-Lavoro. Form@re, 18(2), 89-102.",
+        "Tino, C. (2020). An integrative interpretation of personal and contextual factors of students’ resistance to active learning and teaching strategies. Andragoška spoznanja, 2(26), 59-74.",
+        "Wiessner, C., & Mezirow, J. (2000). Theory building and the search for common ground. In J. Mezirow and Associates (Eds.), Learning as transformation. Critical perspectives on a theory in progress (pp. 329-358). San Francisco, CA: Jossey-Bass.",
+        "Weimer, M. (2013). Learner-centered teaching: Five key changes to practice. John Wiley & Sons.",
+        "Wolfe, K. (2006). Active learning. Journal of teaching in travel & tourism, 6(1), 77-82."
+      ],
+      "count": 33,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_18031",
+    "article_ID": "18031",
+    "slug": "18031",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "18031",
+      "url_slug": "18031"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Faculty as Change Agents between changes and challenges: The case of University of Padova",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-06-27",
+      "accepted": null,
+      "created": "2024-07-16",
+      "modified": "2025-11-17",
+      "issued": "2025-11-17",
+      "available": "2025-11-17",
+      "submitted_page": "2024-06-27",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+        "pdf_value": null,
+        "chosen_value": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-06-27",
+        "pdf_value": null,
+        "chosen_value": "2024-06-27",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18031/2877",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18031/2877",
+      "local_relative_path": "2499-507X_18031.pdf",
+      "saved": true,
+      "sha256": "60a41cf309824553c74f1f5329f1e2d95bc46bf454e47181021554cd6d5038f3",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 866765,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Concetta Tino",
+        "Monica Fedeli"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/07/16"
+      ],
+      "citation_volume": [
+        "9"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2024oa18031"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/18031"
+      ],
+      "citation_keywords": [
+        "Innovazione didattica",
+        "Change agent",
+        "Professional learning community",
+        "Transformative learning"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/18031/2877"
+      ],
+      "citation_reference_count": 33,
+      "DC.Date.created": [
+        "2024-07-16"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-06-27"
+      ],
+      "DC.Date.issued": [
+        "2025-11-17"
+      ],
+      "DC.Date.modified": [
+        "2025-11-17"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "18031"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2024oa18031"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/18031"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "9"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina"
+      ],
+      "DC.Title.Alternative": [
+        "Faculty as Change Agents between changes and challenges: The case of University of Padova"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Concetta Tino",
+        "Monica Fedeli"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Padova",
+        "Università degli Studi di Padova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Concetta Tino",
+        "Monica Fedeli"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Teaching innovation (TI) is one of the actions that Higher Education systems have to implement to play the role of agencies that guide change. TI is an initiative that at the University of Padova has been designed into different paths for about last eight years, one of which is the path for change agents (CAs), who have the function of generating change within their contexts. The purpose of this qualitative research is to know what changes the teachers involved have experienced both in the teaching/learning processes and as CAs in their departments. The results show that there has been a significant change in terms of teaching perspectives and practices, but further efforts need to be made to perform an effective role as CA.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Teaching innovation (TI) is one of the actions that Higher Education systems have to implement to play the role of agencies that guide change. TI is an initiative that at the University of Padova has been designed into different paths for about last eight years, one of which is the path for change agents (CAs), who have the function of generating change within their contexts. The purpose of this qualitative research is to know what changes the teachers involved have experienced both in the teaching/learning processes and as CAs in their departments. The results show that there has been a significant change in terms of teaching perspectives and practices, but further efforts need to be made to perform an effective role as CA."
+          }
+        },
+        {
+          "content": "L’innovazione didattica rientra tra le azioni che i sistemi di Higher Education sono chiamati ad implementare per continuare a svolgere il ruolo di agenzie che guidano il cambiamento. È un’iniziativa che all’Università di Padova ormai da circa otto anni è declinata in percorsi diversi, uno dei quali è il percorso per change agent (CA), i quali hanno la funzione di generare cambiamento all’interno dei loro contesti. La finalità di questa ricerca, a carattere qualitativo, è di conoscere quali cambiamenti hanno sperimentato i docenti coinvolti sia nei processi di insegnamento/apprendimento sia come CA nei loro dipartimenti di afferenza. I risultati mostrano che ci sia stato un cambiamento significativo in termini di prospettive e pratica didattica, ma ulteriori sforzi sono da compiere per svolgere una funzione efficace come CA.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’innovazione didattica rientra tra le azioni che i sistemi di Higher Education sono chiamati ad implementare per continuare a svolgere il ruolo di agenzie che guidano il cambiamento. È un’iniziativa che all’Università di Padova ormai da circa otto anni è declinata in percorsi diversi, uno dei quali è il percorso per change agent (CA), i quali hanno la funzione di generare cambiamento all’interno dei loro contesti. La finalità di questa ricerca, a carattere qualitativo, è di conoscere quali cambiamenti hanno sperimentato i docenti coinvolti sia nei processi di insegnamento/apprendimento sia come CA nei loro dipartimenti di afferenza. I risultati mostrano che ci sia stato un cambiamento significativo in termini di prospettive e pratica didattica, ma ulteriori sforzi sono da compiere per svolgere una funzione efficace come CA."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Innovazione didattica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Innovazione didattica"
+          }
+        },
+        {
+          "content": "Change agent",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Change agent"
+          }
+        },
+        {
+          "content": "Professional learning community",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Professional learning community"
+          }
+        },
+        {
+          "content": "Transformative learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Transformative learning"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/18031/2877",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18031/2877",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18031/2877",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18031/2877",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18031/2877",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2024-07-11",
+        "mod_date": "2024-07-11"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 1 Doi: 10.3280/exioa1-2024oa18031 Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina Faculty as Change Agents between changes and challenges: The case of University of Padova Concetta Tino*, Monica Fedeli° Riassunto L’innovazione didattica rientra tra le azioni che i sistemi di Higher Education sono chiamati ad implementare per continuare a svolgere il ruolo di agenzie che guidano il cambiamento. È un’iniziativa che all’Università di Padova ormai da circa otto anni è declinata in percorsi diversi, uno dei quali è il percorso per change agent (CA), i quali hanno la funzione di generare cambia mento all’in- terno dei loro contesti. La finalità di questa ricerca, a carattere qualitativo, è di conoscere quali cambiamenti hanno sperimentato i docenti coinvolti sia nei pro- cessi di insegnamento/apprendimento sia come CA nei loro dipart imenti di af- ferenza. I risultati mostrano che ci sia stato un cambiamento s ignificativo in termini di prospettive e pratica didattica, ma ulteriori sforzi sono da compiere per svolgere una funzione efficace come CA. Parole chiave: innovazione didattica, change agent, professional learning com- munity, transformative learning. Abstract Teaching innovation (TI) is one of the actions that Higher Educ ation systems have to implement to play the role of agencies that guide chang e . T I i s a n initiative that at the University of Padova has been designed into different paths for about last eight years, one of which is the path for change agents (CAs), who have the function of generating change within their contexts. The purpose of this qualitative research is to know what changes the teachers involved have * Università degli Studi di Padova, concetta.tino@unipd.it ° Università degli Studi di Padova, monica.fedeli@unipd.it Le due autrici hanno co -progettato la stesura dell’articolo. Co ncetta Tino ha scritto i paragrafi: Introduzione; 2; 5. Monica Fedeli ha scritto i paragrafi 3; 4. Concetta Tino e Monica Fedeli hanno redatto insieme il paragrafo 6. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\18031\\2499-507X_18031.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+        "pdf_value": null,
+        "chosen_value": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-06-27",
+        "pdf_value": null,
+        "chosen_value": "2024-06-27",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18031",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18031",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:34:43Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18031\\temp\\2499-507X_18031.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:34:45Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18031\\2499-507X_18031.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+        "submitted_date": "2024-06-27",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Concetta Tino",
+          "Monica Fedeli"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18031\\2499-507X_18031.pdf",
+        "generated_at_utc": "2026-04-21T21:34:45Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2024-07-11",
+          "mod_date": "2024-07-11"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 1 Doi: 10.3280/exioa1-2024oa18031 Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina Faculty as Change Agents between changes and challenges: The case of University of Padova Concetta Tino*, Monica Fedeli° Riassunto L’innovazione didattica rientra tra le azioni che i sistemi di Higher Education sono chiamati ad implementare per continuare a svolgere il ruolo di agenzie che guidano il cambiamento. È un’iniziativa che all’Università di Padova ormai da circa otto anni è declinata in percorsi diversi, uno dei quali è il percorso per change agent (CA), i quali hanno la funzione di generare cambia mento all’in- terno dei loro contesti. La finalità di questa ricerca, a carattere qualitativo, è di conoscere quali cambiamenti hanno sperimentato i docenti coinvolti sia nei pro- cessi di insegnamento/apprendimento sia come CA nei loro dipart imenti di af- ferenza. I risultati mostrano che ci sia stato un cambiamento s ignificativo in termini di prospettive e pratica didattica, ma ulteriori sforzi sono da compiere per svolgere una funzione efficace come CA. Parole chiave: innovazione didattica, change agent, professional learning com- munity, transformative learning. Abstract Teaching innovation (TI) is one of the actions that Higher Educ ation systems have to implement to play the role of agencies that guide chang e . T I i s a n initiative that at the University of Padova has been designed into different paths for about last eight years, one of which is the path for change agents (CAs), who have the function of generating change within their contexts. The purpose of this qualitative research is to know what changes the teachers involved have * Università degli Studi di Padova, concetta.tino@unipd.it ° Università degli Studi di Padova, monica.fedeli@unipd.it Le due autrici hanno co -progettato la stesura dell’articolo. Co ncetta Tino ha scritto i paragrafi: Introduzione; 2; 5. Monica Fedeli ha scritto i paragrafi 3; 4. Concetta Tino e Monica Fedeli hanno redatto insieme il paragrafo 6. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Faculty come Change Agent tra cambiamenti e sfide: il caso dell’Università Patavina",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-06-27",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-06-27",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:57Z"
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:59Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18031\\temp\\2499-507X_18031.conflicts.json"
+  }
+}

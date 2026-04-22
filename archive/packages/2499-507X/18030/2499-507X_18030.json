@@ -1,0 +1,951 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18030",
+  "scraped_at_utc": "2026-04-21T21:34:39Z",
+  "fetched_at_utc": "2026-04-21T21:34:39Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "0e76164e1ad3b5f90152f4de8aeedea7ef4461dd778cd0d59f9e3dd993bd6b7e",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Flavia Capodanno",
+        "nameType": "Personal",
+        "givenName": "Flavia",
+        "familyName": "Capodanno",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Salerno"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alessio Di Paolo",
+        "nameType": "Personal",
+        "givenName": "Alessio Di",
+        "familyName": "Paolo",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Salerno"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Maurizio Sibilio",
+        "nameType": "Personal",
+        "givenName": "Maurizio",
+        "familyName": "Sibilio",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Salerno"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/18030",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-11-17",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-11-17",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-11-17",
+      "Issued": "2025-11-17"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "In a view of the school as a complex adaptive system, understood as a set of interacting elements (Murray Gell-Mann, 1995; Sibilio, 2014), the role of teachers as true agents of change (Avrimidis &amp; Norwich, 2002; Hattie, 2012) in adapting to meet the challenges posed by the multifaceted nature of today's society can be recognized. Particularly central is a training oriented towards the full realization of Inclusive Education, as suggested by numerous international documents (EADSNE, 2009, 2012, 2014). Considering this, the present contribution aims to propose an initial reflection on the potential of a cross-pollination in teacher training between the research approach of appreciative inquiry and the language of music for inclusive educational design. This intention stems from the possibility of identifying common traits between the theoretical framework of appreciative inquiry, based on narrative and the sharing of personal stories in a positive light (Cooperider &amp; Srivastva, 1987; Cooperrider et al., 2008), and music, a universal language capable of fostering dialogue and communication towards a common purpose. In this sense, incorporated into training pathways, positive narrative through musical means could potentially promote in teachers the acquisition of reflective and transformative skills enabling them to manage various situations, being flexible and adept at charting innovative educational and organizational paths both in addressing the present and guiding the future (Mezirow, 2003).",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "In una visione della scuola come sistema complesso adattivo, inteso come insieme di elementi interagenti (Murray Gell-Mann, 1995; Sibilio, 2014), è possibile riconoscere il ruolo dei docenti come veri agenti di cambiamento (Avrimidis &amp; Norwich, 2002; Hattie, 2012) nell’adattarsi ad accogliere le sfide poste dalla poliedricità della società odierna. In particolare, assume rilevante centralità una formazione orientata, come suggerito da numerosi documenti internazionali, alla piena affermazione un’inclusive education (EADSNE, 2009, 2012, 2014). Alla luce di quanto detto, dunque, il presente contributo intende proporre una prima riflessione rispetto alla potenzialità di una contaminatio nella formazione dei docenti tra l’approccio di ricerca dell’appreciative inquiry, e il linguaggio musicale per una progettazione didattica inclusiva. Tale intenzione muove dalla possibilità di rilevare tratti comuni tra il framework teorico dell’appreciative inquiry, fondato sulla narrazione e sulla condivisione delle storie personali in chiave positiva (Cooperider &amp; Srivastva, 1987; Cooperrider et al., 2008) e la musica, linguaggio universale capace di favorire dialogo e comunicazione per un fine comune. In tal senso, inserita nei percorsi formativi, la narrazione in positivo attraverso il dispositivo musicale potrebbe potenzialmente promuovere nel docente l’acquisizione di competenze riflessive e trasformative tali da essere in grado di gestire le varie situazioni, perché flessibile e avvezzo a tracciare percorsi didattici e organizzativi innovativi sia nel gestire il presente sia per orientare il futuro (Mezirow, 2003).",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2024oa18030",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "9",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Formazione docenti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Inclusione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Apprendimento trasformativo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Appreciative inquiry",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Musica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/18030/2876",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "9",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Capodanno, F., Di Paolo, A., & Sibilio, M. (2024). Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale. Excellence and Innovation in Learning and Teaching - Open Access , 9 (1). https://doi.org/10.3280/exioa1-2024oa18030",
+      "articleTitleEcho": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Aiello, P. (2017). Creare mondi possibili. Una sfida per la pedagogia dell'inclusione. In Vicarianza e didattica. Corpo, cognizione, insegnamento (pp. 267-274). Brescia: La Scuola.",
+        "Aiello, P. (2019). Teacher Education e Induction Period. Agentività del docente e sostenibilità di modelli formativi. Nuova Secondaria, 13, 58-61.",
+        "Aiello, P., Pace, E.M., Sharma, U., Rangarajan, R., Sokal, L., May F., Gil, F. G., Lore-man T., Malak S., Martín E, McIlroy, A.E., Schwab, S., (2023) Identifying teachers’ strengths to face COVID-19: narratives from across the globe, Cambridge Journal of Education, DOI: 10.1080/0305764X.2022.2159013.",
+        "Alberici, A. (2002). Imparare sempre nella società della conoscenza. Milano: Bruno Mondadori.",
+        "Alberici, A. (2008). La possibilità di cambiare, apprendere ad apprendere come risorsa strategica per la vita. Milano: FrancoAngeli.",
+        "Argyris, C., Schön, D.A., (1978). Organizational Learning: a Theory of Action Perspective. US: Addison Wesley Longman Publishing Co.",
+        "Ausubel, D. (1985). Learning as constructing meaning. New directions in educational psychology. Londra: Falmer Press.",
+        "Avramidis, E., Norwich, B. (2002). Teachers’ attitudes toward integration/inclusion: A review of the literature. European Journal of Special Needs Education, 17(2), 129-147. Doi: 10.1080/08856250210129056.",
+        "Ballantyne, J., Packer, J. (2004). Effectiveness of preservice music teacher education programs: Perceptions of early-career music teachers. Music Education Research, 6(3), 299-312. DOI: 10.1080/1461380042000281749.",
+        "Barba, E. (1993). La Canoa di Carta: trattato di antropologia teatrale. Bologna: il Mulino.",
+        "Baricco, A. (2022). La via della narrazione. Milano: Feltrinelli Editore.",
+        "Bauman, Z. (2013). Liquid modernity. New York: John Wiley & Sons.",
+        "Berthoz, A. (2015). La vicarianza: il nostro cervello creatore di mondi. Torino: Codice.",
+        "Biesta, G J J., Tedder, M (2007). Agency and learning in the lifecourse: Towards an ecological perspective. Studies in the Education of Adults, 39(2), 132-149. DOI: 10.1080/02660830.2007.11661545.",
+        "Bruner, J. (1992). La ricerca del significato. Torino: Ed. Bollati e Boringhieri.",
+        "Bruner, J. (2015). La fabbrica delle storie. Bari: Ed. Laterza.",
+        "Bushe, G. (2007). Appreciative Inquiry is not (just) about the positive. OD Practitioner, 39, 30-35.",
+        "Butera F., Donati E., Cesaria R., (1997). I lavoratori della conoscenza. Milano: FrancoAngeli.",
+        "Cambi, F. (2004). Saperi e competenze, Bari: Laterza.",
+        "Canevaro, A., Mendolicchio, P. (2017). Un coro di voci: il domino sociale. Trento: Erickson.",
+        "Chiappetta Cajola, L., Rizzo, A. L. (2016). Musica e inclusione. Teorie e strumenti. Roma: Carocci.",
+        "Chinoperekweyi, J. (2023). Engaged Scholarship: Maximizing Student Learning through Action Research and Appreciative Inquiry. Organization Leadership and Development Quarterly (OLDQ). https://ssrn.com/abstract=4316095.",
+        "Ciasullo, A. (2015). Armonie Bioeducative: scale e arpeggi pedagogici. Milano: FrancoAngeli.",
+        "Cockell, J., McArthur-Blair, J., Schiller, M. (2020). Appreciative inquiry in higher education: A transformative force. Canada: FriesenPress.",
+        "Conklin, T. A. (2009). Creating classrooms of preference: An exercise in appreciative inquiry. Journal of Management Education, 6(33). 772-792. DOI: 10.1177/1052562909333888.",
+        "Cooperrider, D. (2001). Appreciative Inquiry: Releasing the Power of the Positive Question. Cleveland: Case Western Reserve University.",
+        "Cooperrider D.L., Whitney D. (2001). A positive revolution in change: Appreciative inquiry. In D.L. Cooperrider, P.F. Sorenson, D. Whitney, Yeager, T.F. Appreciative inquiry. Champaign: Stipes Publishing.",
+        "Cooperrider, D., (2005). Appreciative inquiry: A positive revolution in change. In P. Holman & T. Devane (Eds.). The change handbook. San Francisco: Berrett-Koehler Publishers Inc.",
+        "Cooperrider, D.L., Whitney, D., Stavros, M. (2008). The Appreciative Inquiry Handbook: For Leaders of Change. San Francisco: Berrett-Koehler Publishers.",
+        "Cooperrider, D. L., Srivastva, S. (1987). Appreciative Inquiry in organizational life. In Pasmore, W. A. & Woodman, W. (Eds.). Research in organizational change and development (Vol. 1). Stamford: JAI Press.",
+        "Dankoff, J. (2011). Toward a development discourse inclusive of music. Alternatives, 36(3), 257-269. DOI: 10.1177/0304375411418602.",
+        "Darrow, A. A. (2003). Dealing with diversity: The inclusion of students with disabilities in music. Research Studies in Music Education, 21(1), 45-57. DOI: 10.1177/1321103X030210010401.",
+        "Demetrio, D. (2012). Educare è narrare: le teorie, le pratiche, la cura. Sesto San Giovanni: Mimesis.",
+        "Dunlap, C. (2008) Effective Evaluation through Appreciative Inquiry in Performance Improvement, 47(2), 23- 29. DOI: 10.1002/pfi.181.",
+        "EADSNE (2009). Key Principles for Promoting Quality in Inclusive Education: Recommendations for Policy Makers. https://www.cedefop.europa.eu/events/curriculum-innovation-2011/images/stories/files/key-principles%20for%20inclusive%20education.pdf.",
+        "EADSNE (2012). Teacher education for inclusion. Profile of inclusive teachers. https://www.european-agency.org/sites/default/files/Profile-of-Inclusive-Teachers.pdf.",
+        "EADSNE (2014). Five key messages for inclusive education. Putting theory into practice. https://www.european-agency.org/sites/default/files/Five%20Key%20Messages% 20for%20Inclusive%20Education.pdf.",
+        "EASNIE (2022). Developing The Profile For Inclusive Teacher Professional Learning: Implementing the Teacher Professional Learning for Inclusion Phase 2 methodology. https://www.european-agency.org/sites/default/files/TPL4I_Phase_2_Implementation_Report.pdf.",
+        "Emirbayer, M., Mische, A. (1998). What is agency?. American Journal of Sociology, 103, 962-1023. DOI: 10.1086/231294.",
+        "European Commission (2000). Memorandum sull’istruzione e la formazione permanente, 30.10.2000, Bruxelles. https://www.arpa.veneto.it/servizi/educazione-per-la-sostenibili-ta/eas/documenti/comunitari/ea_memorandum_europeo.pdf/@@download/file.",
+        "Fabbri, L. (2007). Comunità di pratiche e apprendimento. Per una formazione situata. Roma: Carocci.",
+        "Fabbri L., Romano A. (2017). Metodi per l’apprendimento trasformativo. Roma: Carocci.",
+        "Fabbri, L., Bracci, F., Romano, A. (2021). Apprendimento trasformativo, ricerca collaborativa e approccio practice-based. Una proposta per lo sviluppo professionale dell’insegnante. ANNALI ONLINE DELLA DIDATTICA E DELLA FORMAZIONE DOCENTE, 13, 68-88. DOI: 10.15160/2038-1034/2326.",
+        "Fernandez Pradier, M. (2011). Emotion Recognition from Speech Signals and Per-ception of Music (Doctoral dissertation, Telecomunicacion). https://oa.upm.es/9963/1/ausarbeitung_Melanie.pdf.",
+        "Fernández-García, A., Fonseca-Mora, M. C. (2022). EFL learners’ speaking proficiency and its connection to emotional understanding, willingness to communicate and musical experience. Language Teaching Research, 26(1), 124-140. DOI: /10.1177/1362168819891868.",
+        "Gardner, H. (2010). Formae mentis: saggio sulla pluralità dell'intelligenza. Milano: Feltrinelli.",
+        "Gell-Mann, M. (1995). The Quark and the Jaguar: Adventures in the Simple and the Complex. New York: Owl Books.",
+        "Gibson, J. J. (1979). The ecological approach to visual perception. Houghton: Mifflin and Company.",
+        "Gorbunova, I. B., & Plotnikov, K. Y. (2020). Music-related educational project for contemporary general music education of school children. International Journal of Innovation, Creativity and Change, 12(2), 451-468. https://www.ijicc.net/images/vol12/iss2/12235_Gorbunova_2020_E_R.pdf.",
+        "Hanslick, E. (2021). Il bello musicale. Sesto San Giovanni: Mimesis.",
+        "Hattie, J.A.C. (2009). Visible learning: A synthesis of over 800 meta-analyses relat-ing to achievement. London, UK: Routledge.",
+        "Higgins, K. M. (2019). The music between us: Is music a universal language?. Chicago: University of Chicago Press.",
+        "Kandinsky, W. (2014). Punto, linea, superficie: contributo all’analisi degli elementi pittorici. Milano: Adelphi Edizioni spa.",
+        "Laertius, D., Yonge, C. D. (2006). The lives and opinions of eminent philosophers. Whitefish, MT: Kessinger Publishing, LLC.",
+        "Maturana, H. R., Varela, F. J. (1991). Autopoiesis and cognition: The realization of the living. Berlino: Springer Science & Business Media.",
+        "McShane, S., Von Glinow, M. A. (2000). Organizational Behavior. Boston: Irwin McGrawHill.",
+        "Mezirow, J. (1991). Transformative Dimensions of Adult Learning. San Francisco: Jossey-Bass.",
+        "Mezirow, J. (2003). Apprendimento e trasformazione. Il significato dell'esperienza e il valore della riflessione nell'apprendimento degli adulti, Roma: Raffaello Cortina.",
+        "Mohr, B. (2002). The essentials of appreciative inquiry: A roadmap to creating posi-tive futures. Los Angeles: Pegasus Communications.",
+        "Murray, G. (2009). Narrative inquiry. Qualitative research in applied linguistics: A practical introduction, 45-65. DOI: 10.1057/9780230239517_3.",
+        "Nissley, N. (2004). The ‘artful creation’ of positive anticipatory imagery in appreciative inquiry: Understanding the ‘art of’ appreciative inquiry as aesthetic discourse. In Constructive discourse and human organization (Vol. 1, pp. 283-307). UK: Emerald Group Publishing Limited.",
+        "OECD (2018). OECD Future of Education and Skills 2030. The future we want. https://www.oecd.org/education/2030-project/about/documents/E2030%20Position%20Paper%20(05.04.2018).pdf.",
+        "OECD (2019). OECD Future of Education and Skills 2030. Conceptual Learning Framework. Transformative competences for 2030. https://www.oecd.org/education/2030-project/teaching-and-learning/learning/transformative-competencies/Transformative_Competencies_for_2030_concept_note.pdf.",
+        "OECD (2021). OECD Skills Outlook 2021: Learning for Life, OECD Publishing, Paris. DOI: 10.1787/0ae365b4-en.",
+        "Pellegrino, K., Sweet, B., Derges Kastner, J., Russell, H. A., Reese, J. (2014). Becoming music teacher educators: Learning from and with each other in a professional development community. International Journal of Music Education, 32(4), 462-477. DOI: 10.1177/0255761413515819.",
+        "Perillo, F. D. (2010). Individuo e organizzazione nella Tech-Net Economy. In Allessandrini, G., Pignalberi C. (Eds.). Comunità di pratica e pedagogia del lavoro. Voglia di comunità in azienda. Lecce: Pensa Multimedia.",
+        "Priestley, M., Biesta, G., Robinson, S. (2015). Teacher agency: An ecological approach. Londra: Bloomsbury.",
+        "Reybrouck, M. (2023). A Dynamic Interactive Approach to Music Listening: The Role of Entrainment, Attunement and Resonance. Multimodal Technologies and Interaction, 7(7), 66. DOI: /10.3390/mti7070066.",
+        "Ricoeur, P. (1986). La semantica dell'azione: discorso e azione (Vol. 156). Milano: Editoriale Jaca Book.",
+        "Saarikallio, S. (2019). Music as a resource for agency and empowerment in identity construction. Handbook of music, adolescents, and wellbeing, 89-98. DOI: 10.1093/oso/9780198808992.003.0008.",
+        "Schein, E. H. (1983). The role of the founder in creating organizational culture. Organizational dynamics, 12(1), 13-28. DOI: 10.1016/0090-2616(83)90023-2.",
+        "Schön, D. A. (1987). Educating the reflective practitioner: Toward a new design for teaching and learning in the professions. UK: Jossey-Bass.",
+        "Schön, D.A. (1993). Il Professionista Riflessivo: Per una Nuova Epistemologia della Pratica Professionale. Bari: Dedalo.",
+        "Seligman, M.E.P. (1996). Imparare l’ottimismo. Firenze: Ed. Giunti.",
+        "Senge, P. M. (1997) The fifth discipline Measuring business excellence, 1(3) 46-51.",
+        "Sibilio, M. (2014). La didattica semplessa. Napoli: Liguori Editore.",
+        "Sibilio, M. (2015). La didattica semplessa: Una traiettoria non lineare della ricerca educativa. Revue de Synthèse, 136, 477-493. DOI: 10.1007/s11873-015-0284-4.",
+        "Sibilio, M. (2017). Vicarianza e didattica. Corpo, cognizione, insegnamento. Brescia: La Scuola.",
+        "Sibilio, M. (2020). L’interazione didattica (pp. 1-191). Brescia Morcelliana.",
+        "Sibilio, M. (2023). La semplessità: proprietà e principi per agire il cambiamento. Brescia Morcelliana.",
+        "Sibilio., M., Aiello, P. (2015) (a cura di). Formazione e ricerca per una didattica inclusiva. Milano: FrancoAngeli.",
+        "Taylor, E. W. (2017). Critical reflection and transformative learning: a critical review. PAACE Journal of Lifelong Learning, 26(2), 77-95. DOI: 10.12691/education-9-5-9.",
+        "Taylor, E W. (2019). Apprendimento trasformativo : insegnare per promuovere cambiamento. Educational reflective practices, 1, 19-38. DOI: 10.3280/ERP2019-001003.",
+        "Unione Europea-Raccomandazioni del 5/09/2006 sulla costituzione del Quadro Europeo delle qualifiche e dei titoli per l’apprendimento permanente. https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:52006PC0479&from=EN.",
+        "Vittori, R. (1996). Identità e narrazione. In Mantegazza R. (Eds.). Per una pedagogia narrativa. Riflessioni, tracce, progetti, Centro di Educazione alla Mondialità, pp. 13-28. Bologna: Emi.",
+        "Walsh, R. (2011). The common basis of narrative and music: Somatic, social, and affective foundations. StoryWorlds: A Journal of Narrative Studies, 3, 49-72. DOI: 10.1353/stw.2011.0003.",
+        "Watkins J.M., Mohr, B.J. (2001). Appreciative inquiry: Change at the speed of imagination. San Francisco: Jossey-Bass.",
+        "Weldon, S. M., Korkiakangas, T., Bezemer, J., Kneebone, R. (2015). Music and communication in the operating theatre. Journal of advanced nursing, 71(12), 2763-2774. DOI10.1111/jan.12744.",
+        "Wenger, E. (1998) 2006). Comunità di pratica Apprendimento, significato, identità. Milano: Raffaello Cortina.",
+        "Yang, Y. H., Chen, H. H. (2010). Ranking-based emotion recognition for music organization and retrieval. IEEE Transactions on audio, speech, and language processing, 19(4), 762-774. DOI: 10.1109/TASL.2010.2064164."
+      ],
+      "count": 90,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_18030",
+    "article_ID": "18030",
+    "slug": "18030",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "18030",
+      "url_slug": "18030"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Transformative Tracks for Teacher Education: A Potential Contamination between Appreciative Inquiry and Musical Language",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-06-27",
+      "accepted": null,
+      "created": "2024-07-16",
+      "modified": "2025-11-17",
+      "issued": "2025-11-17",
+      "available": "2025-11-17",
+      "submitted_page": "2024-06-27",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+        "pdf_value": null,
+        "chosen_value": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-06-27",
+        "pdf_value": null,
+        "chosen_value": "2024-06-27",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18030/2876",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18030/2876",
+      "local_relative_path": "2499-507X_18030.pdf",
+      "saved": true,
+      "sha256": "37d23a1bb4d463219cc30eddd23b9ef5d3ddc584fd013058ac5d3c79fa622b98",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 886440,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Flavia Capodanno",
+        "Alessio Di Paolo",
+        "Maurizio Sibilio"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Salerno",
+        "Università degli Studi di Salerno",
+        "Università degli Studi di Salerno"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/07/16"
+      ],
+      "citation_volume": [
+        "9"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2024oa18030"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/18030"
+      ],
+      "citation_keywords": [
+        "Formazione docenti",
+        "Inclusione",
+        "Apprendimento trasformativo",
+        "Appreciative inquiry",
+        "Musica"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/18030/2876"
+      ],
+      "citation_reference_count": 90,
+      "DC.Date.created": [
+        "2024-07-16"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-06-27"
+      ],
+      "DC.Date.issued": [
+        "2025-11-17"
+      ],
+      "DC.Date.modified": [
+        "2025-11-17"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "18030"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2024oa18030"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/18030"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "9"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale"
+      ],
+      "DC.Title.Alternative": [
+        "Transformative Tracks for Teacher Education: A Potential Contamination between Appreciative Inquiry and Musical Language"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Flavia Capodanno",
+        "Alessio Di Paolo",
+        "Maurizio Sibilio"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Salerno",
+        "Università degli Studi di Salerno",
+        "Università degli Studi di Salerno"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Flavia Capodanno",
+        "Alessio Di Paolo",
+        "Maurizio Sibilio"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "In a view of the school as a complex adaptive system, understood as a set of interacting elements (Murray Gell-Mann, 1995; Sibilio, 2014), the role of teachers as true agents of change (Avrimidis &amp; Norwich, 2002; Hattie, 2012) in adapting to meet the challenges posed by the multifaceted nature of today's society can be recognized. Particularly central is a training oriented towards the full realization of Inclusive Education, as suggested by numerous international documents (EADSNE, 2009, 2012, 2014). Considering this, the present contribution aims to propose an initial reflection on the potential of a cross-pollination in teacher training between the research approach of appreciative inquiry and the language of music for inclusive educational design. This intention stems from the possibility of identifying common traits between the theoretical framework of appreciative inquiry, based on narrative and the sharing of personal stories in a positive light (Cooperider &amp; Srivastva, 1987; Cooperrider et al., 2008), and music, a universal language capable of fostering dialogue and communication towards a common purpose. In this sense, incorporated into training pathways, positive narrative through musical means could potentially promote in teachers the acquisition of reflective and transformative skills enabling them to manage various situations, being flexible and adept at charting innovative educational and organizational paths both in addressing the present and guiding the future (Mezirow, 2003).",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "In a view of the school as a complex adaptive system, understood as a set of interacting elements (Murray Gell-Mann, 1995; Sibilio, 2014), the role of teachers as true agents of change (Avrimidis &amp; Norwich, 2002; Hattie, 2012) in adapting to meet the challenges posed by the multifaceted nature of today's society can be recognized. Particularly central is a training oriented towards the full realization of Inclusive Education, as suggested by numerous international documents (EADSNE, 2009, 2012, 2014). Considering this, the present contribution aims to propose an initial reflection on the potential of a cross-pollination in teacher training between the research approach of appreciative inquiry and the language of music for inclusive educational design.\nThis intention stems from the possibility of identifying common traits between the theoretical framework of appreciative inquiry, based on narrative and the sharing of personal stories in a positive light (Cooperider &amp; Srivastva, 1987; Cooperrider et al., 2008), and music, a universal language capable of fostering dialogue and communication towards a common purpose. In this sense, incorporated into training pathways, positive narrative through musical means could potentially promote in teachers the acquisition of reflective and transformative skills enabling them to manage various situations, being flexible and adept at charting innovative educational and organizational paths both in addressing the present and guiding the future (Mezirow, 2003)."
+          }
+        },
+        {
+          "content": "In una visione della scuola come sistema complesso adattivo, inteso come insieme di elementi interagenti (Murray Gell-Mann, 1995; Sibilio, 2014), è possibile riconoscere il ruolo dei docenti come veri agenti di cambiamento (Avrimidis &amp; Norwich, 2002; Hattie, 2012) nell’adattarsi ad accogliere le sfide poste dalla poliedricità della società odierna. In particolare, assume rilevante centralità una formazione orientata, come suggerito da numerosi documenti internazionali, alla piena affermazione un’inclusive education (EADSNE, 2009, 2012, 2014). Alla luce di quanto detto, dunque, il presente contributo intende proporre una prima riflessione rispetto alla potenzialità di una contaminatio nella formazione dei docenti tra l’approccio di ricerca dell’appreciative inquiry, e il linguaggio musicale per una progettazione didattica inclusiva. Tale intenzione muove dalla possibilità di rilevare tratti comuni tra il framework teorico dell’appreciative inquiry, fondato sulla narrazione e sulla condivisione delle storie personali in chiave positiva (Cooperider &amp; Srivastva, 1987; Cooperrider et al., 2008) e la musica, linguaggio universale capace di favorire dialogo e comunicazione per un fine comune. In tal senso, inserita nei percorsi formativi, la narrazione in positivo attraverso il dispositivo musicale potrebbe potenzialmente promuovere nel docente l’acquisizione di competenze riflessive e trasformative tali da essere in grado di gestire le varie situazioni, perché flessibile e avvezzo a tracciare percorsi didattici e organizzativi innovativi sia nel gestire il presente sia per orientare il futuro (Mezirow, 2003).",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "In una visione della scuola come sistema complesso adattivo, inteso come insieme di elementi interagenti (Murray Gell-Mann, 1995; Sibilio, 2014), è possibile riconoscere il ruolo dei docenti come veri agenti di cambiamento (Avrimidis &amp; Norwich, 2002; Hattie, 2012) nell’adattarsi ad accogliere le sfide poste dalla poliedricità della società odierna. In particolare, assume rilevante centralità una formazione orientata, come suggerito da numerosi documenti internazionali, alla piena affermazione un’inclusive education (EADSNE, 2009, 2012, 2014). Alla luce di quanto detto, dunque, il presente contributo intende proporre una prima riflessione rispetto alla potenzialità di una contaminatio nella formazione dei docenti tra l’approccio di ricerca dell’appreciative inquiry, e il linguaggio musicale per una progettazione didattica inclusiva. Tale intenzione muove dalla possibilità di rilevare tratti comuni tra il framework teorico dell’appreciative inquiry, fondato sulla narrazione e sulla condivisione delle storie personali in chiave positiva (Cooperider &amp; Srivastva, 1987; Cooperrider et al., 2008) e la musica, linguaggio universale capace di favorire dialogo e comunicazione per un fine comune. In tal senso, inserita nei percorsi formativi, la narrazione in positivo attraverso il dispositivo musicale potrebbe potenzialmente promuovere nel docente l’acquisizione di competenze riflessive e trasformative tali da essere in grado di gestire le varie situazioni, perché flessibile e avvezzo a tracciare percorsi didattici e organizzativi innovativi sia nel gestire il presente sia per orientare il futuro (Mezirow, 2003)."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Formazione docenti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Formazione docenti"
+          }
+        },
+        {
+          "content": "Inclusione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Inclusione"
+          }
+        },
+        {
+          "content": "Apprendimento trasformativo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Apprendimento trasformativo"
+          }
+        },
+        {
+          "content": "Appreciative inquiry",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Appreciative inquiry"
+          }
+        },
+        {
+          "content": "Musica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Musica"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/18030/2876",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18030/2876",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18030/2876",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18030/2876",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/18030/2876",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2024-07-11",
+        "mod_date": "2024-07-11"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 1 Doi: 10.3280/exioa1-2024oa18030 Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative In- quiry e Linguaggio Musicale Transformative Tracks for Teacher Education: A Potential Contaminatio n between Appreciative Inquiry and Musical Language Flavia Capodanno*, Alessio Di Paolo*, Maurizio Sibilio* Riassunto In una visione della scuola come sistema complesso adattivo, inteso come in- sieme di elementi interagenti (Murray Gell-Mann, 1995; Sibilio, 2014), è pos- sibile riconoscere il ruolo dei docenti come veri agenti di cam biamento (Avrimidis & Norwich, 2002; Hattie, 2012) nell’adattarsi ad accogliere le sfi- de poste dalla poliedricità della società odierna. In particolare, assume rilevan- te centralità una formazione orientata, come suggerito da numer osi documenti internazionali, alla piena affermazione un ’inclusive education (EADSNE, 2009, 2012, 2014). Alla luce di quanto detto, dunque, il presen te contributo intende proporre una prima riflessione rispetto alla potenzialità di una conta- minatio nella formazione dei docenti tra l’approccio di ricerca dell’appreciative inquiry, e il linguaggio musicale per una progettazione di- dattica inclusiva. Tale intenzione muove dalla possibilità di r ilevare tratti co- muni tra il framework teorico dell’ appreciative inquiry, fondato sulla narra- zione e sulla condivisione delle storie personali in chiave pos itiva (Cooperider * Dipartimento di Scienze Umane, Filosofiche e della formazione, Università degli studi di Salerno, fcapodanno@unisa.it; adipaolo@unisa.it; msibilio@unisa.it. Il contributo è il risultato della collaborazione scientifica t ra gli autori; tuttavia, le at- tribuzioni sono le seguenti: Flavia Capodanno è autrice dei par agrafi 1. “Introduzio- ne” e 2. “Le potenzialità della formazione nella prospettiva dell’appreciative Inquiry”; Alessio Di Paolo è autore dei paragrafi 3. “Musica come linguag gio della e per la formazione” e 4 “Riflessioni conclusive”; Maurizio Sibilio è co ordinatore scientifico del lavoro. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\18030\\2499-507X_18030.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+        "pdf_value": null,
+        "chosen_value": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-06-27",
+        "pdf_value": null,
+        "chosen_value": "2024-06-27",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18030",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/18030",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:34:39Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18030\\temp\\2499-507X_18030.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:34:42Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18030\\2499-507X_18030.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+        "submitted_date": "2024-06-27",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Flavia Capodanno",
+          "Alessio Di Paolo",
+          "Maurizio Sibilio"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18030\\2499-507X_18030.pdf",
+        "generated_at_utc": "2026-04-21T21:34:42Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2024-07-11",
+          "mod_date": "2024-07-11"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 1 Doi: 10.3280/exioa1-2024oa18030 Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative In- quiry e Linguaggio Musicale Transformative Tracks for Teacher Education: A Potential Contaminatio n between Appreciative Inquiry and Musical Language Flavia Capodanno*, Alessio Di Paolo*, Maurizio Sibilio* Riassunto In una visione della scuola come sistema complesso adattivo, inteso come in- sieme di elementi interagenti (Murray Gell-Mann, 1995; Sibilio, 2014), è pos- sibile riconoscere il ruolo dei docenti come veri agenti di cam biamento (Avrimidis & Norwich, 2002; Hattie, 2012) nell’adattarsi ad accogliere le sfi- de poste dalla poliedricità della società odierna. In particolare, assume rilevan- te centralità una formazione orientata, come suggerito da numer osi documenti internazionali, alla piena affermazione un ’inclusive education (EADSNE, 2009, 2012, 2014). Alla luce di quanto detto, dunque, il presen te contributo intende proporre una prima riflessione rispetto alla potenzialità di una conta- minatio nella formazione dei docenti tra l’approccio di ricerca dell’appreciative inquiry, e il linguaggio musicale per una progettazione di- dattica inclusiva. Tale intenzione muove dalla possibilità di r ilevare tratti co- muni tra il framework teorico dell’ appreciative inquiry, fondato sulla narra- zione e sulla condivisione delle storie personali in chiave pos itiva (Cooperider * Dipartimento di Scienze Umane, Filosofiche e della formazione, Università degli studi di Salerno, fcapodanno@unisa.it; adipaolo@unisa.it; msibilio@unisa.it. Il contributo è il risultato della collaborazione scientifica t ra gli autori; tuttavia, le at- tribuzioni sono le seguenti: Flavia Capodanno è autrice dei par agrafi 1. “Introduzio- ne” e 2. “Le potenzialità della formazione nella prospettiva dell’appreciative Inquiry”; Alessio Di Paolo è autore dei paragrafi 3. “Musica come linguag gio della e per la formazione” e 4 “Riflessioni conclusive”; Maurizio Sibilio è co ordinatore scientifico del lavoro. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Piste Trasformative per la Formazione dei Docenti: Una Potenziale Contaminatio tra Appreciative Inquiry e Linguaggio Musicale",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-06-27",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-06-27",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:52Z"
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:50:53Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\18030\\temp\\2499-507X_18030.conflicts.json"
+  }
+}
