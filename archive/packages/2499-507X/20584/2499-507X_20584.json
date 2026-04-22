@@ -1,0 +1,918 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20584",
+  "scraped_at_utc": "2026-04-21T21:35:32Z",
+  "fetched_at_utc": "2026-04-21T21:35:32Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "6e6c88951a0ae540942af88fbbf6e77751ddfd300279988690e0ee5915cf21f9",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Lucia Borsini",
+        "nameType": "Personal",
+        "givenName": "Lucia",
+        "familyName": "Borsini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Campania “Luigi Vanvitelli”"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Noemi Del Bianco",
+        "nameType": "Personal",
+        "givenName": "Noemi Del",
+        "familyName": "Bianco",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Macerata"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Catia Giaconi",
+        "nameType": "Personal",
+        "givenName": "Catia",
+        "familyName": "Giaconi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Macerata"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/20584",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-06-10",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2025-11-17",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-11-17",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-11-17",
+      "Issued": "2025-11-17",
+      "Accepted": "2025-06-10"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "The pursuit of inclusion in higher education requires reevaluating the roles and practices of universities. While institutions are increasingly recognized as essential agents in promoting social equity and community well-being, students with disabilities and Specific Learning Disorders continue to encounter barriers that prevent their full participation in academic and civic life. These challenges highlight the shortcomings of current approaches and emphasize the need for systemic innovations that prioritize both citizenship and active engagement. In this context, the University of Macerata has launched a project aimed at including students with disabilities and Specific Learning Disorders, seeking to develop transformative strategies that align educational equity with broader objectives of promoting community development and welfare.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "The pursuit of inclusion in higher education requires reevaluating the roles and practices of universities. While institutions are increasingly recognized as essential agents in promoting social equity and community well-being, students with disabilities and Specific Learning Disorders continue to encounter barriers that prevent their full participation in academic and civic life. These challenges highlight the shortcomings of current approaches and emphasize the need for systemic innovations that prioritize both citizenship and active engagement. In this context, the University of Macerata has launched a project aimed at including students with disabilities and Specific Learning Disorders, seeking to develop transformative strategies that align educational equity with broader objectives of promoting community development and welfare.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2025oa20584",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "10",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "inclusion",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "higher education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "citizenship",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "participation",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "self-advocacy",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "http://creativecommons.org",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/20584/3552",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "10",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Borsini, L., Del Bianco, N., & Giaconi, C. (2025). Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders. Excellence and Innovation in Learning and Teaching - Open Access , 10 (1). https://doi.org/10.3280/exioa1-2025oa20584",
+      "articleTitleEcho": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Aiello, P., & Giaconi, C. (Eds.) (2024). L’Agire inclusivo. Interfacce pedagogiche e didattiche. Manuale per l’insegnante. Brescia: Scholè.",
+        "Bellacicco, R. (2018). Verso una università inclusiva: La voce degli studenti con disabilità. Milano: FrancoAngeli.",
+        "Canevaro, A. (2014). Educazione come inclusione. Civitas Educationis. Education, Politics and Culture, 3(1), 81-98.",
+        "Canevaro, A. (Ed.). (2007). L’integrazione scolastica degli alunni con disabilità. Trent’anni di inclusione nella scuola italiana. Trento: Edizioni Erickson.",
+        "Conferenza Nazionale Universitaria dei Delegati per la Disabilità (CNUDD). (2014). Linee Guida.",
+        "Cook-Sather, A. (2002). Authorizing students’ perspectives: Toward trust, dialogue, and change in education. Educational researcher, 31(4), 3-14. -- https://www.jstor.org/stable/3594363.",
+        "Cook-Sather, A. (2018). Listening to equity-seeking perspectives: How students’ experiences of pedagogical partnership can inform wider discussions of student success. Higher Education Research & Development, 37(5), 923-936. Doi: 10.1080/07294360.2018.1457629.",
+        "Cook-Sather, A., Bovill, C., & Felten, P. (2014). Engaging students as partners in learning and teaching: A guide for faculty. Hoboken: John Wiley & Sons.",
+        "d’Alonzo, L. (2015). Didattica speciale per l’inclusione. In L. d’Alonzo, F. Bocci, S. Pinnelli (Eds.), Didattica speciale per l’inclusione (pp. 11-22). Brescia: La Scuola SEI.",
+        "d’Alonzo, L. (2022). Promuovere l’inclusione in Università: un salto di qualità. Education Sciences & Society, 1, 347-361.",
+        "d’Alonzo, L., & Giaconi, C. (Eds.) (2024). Manuale per l’inclusione. Brescia: Scholé.",
+        "D’Angelo I., Giaconi C., Del Bianco N., & Perry V. (2020). Students’ Voice and Disability: Ethical and methodological reflections for Special Pedagogy research. Education Sciences & Society, 11(1), 112-123. -- https://journals.francoangeli.it/index.php/ess/article/view/9537.",
+        "Daly-Cano, M., Vaccaro, A., & Newman, B. (2015). College Student Narratives about Learning and Using Self-Advocacy Skills. Journal of Postsecondary Education and Disability, 28(2), 213-227. -- https://files.eric.ed.gov/fulltext/EJ1074673.pdf.",
+        "Del Bianco, N., & Paviotti, G. (2024). Self-advocacy. La nuova sfida educativa per l’inclusione. Milano: FrancoAngeli.",
+        "Del Bianco, N., Giaconi, C., Gison, G., D’Angelo, I., & Capellini, S. A. (2021a). Inclusion at the University through technology: A case study in Italy. Journal of Education and Special Education Technology, 7, 1-15. Doi: 10.18844/jeset.v7i1.6793.",
+        "Del Bianco, N., Paviotti, G., D’Angelo, I., Tarantino, A., Capellini, S. A., & Giaconi, C. (2021b). From university to the world of work world. Traineeship as a gateway to employment and social inclusion. Italian Journal of Special Education for Inclusion, 9, 61-68. Doi: 10.7346/sipes-02-2021-07.",
+        "Di Vita, A. (2017). «Student Voice» per la valorizzazione delle risorse personali. Journal of Educational, Cultural and Psychological Studies (ECPS Journal), (16), 269-294. Doi: 10.7358/ecps-2017-016-divi.",
+        "Edwards, M., Poed, S., Al-Nawab, H., & Penna, O. (2022). Academic accommodations for university students living with disability and the potential of universal design to address their needs. Higher education, 84(4), 779-799. Doi: 10.1007/s10734-021-00800-w.",
+        "Elia, G., Seveso, G., Giaconi, C., & Vannini, I. (2024). Editorial. Pedagogia Oggi, 22(1), 9-18. Doi: 10.7346/PO-012024-01.",
+        "Gazzetta Ufficiale. (2010). Legge 170. Nuove norme in materia di disturbi specifici di apprendimento in ambito scolastico.",
+        "Giaconi, C., & Del Bianco, N. (Eds.) (2018). Inclusione 3.0. Milano: FrancoAngeli.",
+        "Giaconi, C., Taddei, A., Del Bianco, N., Caldarelli, A., & D’Angelo, I. (2020). Dalla “voce degli studenti” alla co-progettazione di percorsi inclusivi: uno studio di caso. SIRD, 2, 186-193.",
+        "Gillespie-Lynch, K., DeNigris, D., Cheriyan, B., Massa, A., Wong, V., Kostikas, C., et al. (2017). “Fostering effective teaching using strategies developed by peer mentors for autistic and non-autistic undergraduates”. In R. Obeid, A. Schwartz, C. Shane-Simpson, and P. J. Brooks (Eds.). How We Teach Now: The GSTA Guide to Student-Centered Teaching (Washington, DC: Society for the Teaching of Psychology).",
+        "Grimes, S., Southgate, E., Scevak, J., & Buchanan, R. (2019). University student perspectives on institutional non-disclosure of disability and learning challenges: Reasons for staying invisible. International Journal of Inclusive Education, 23(6), 639-655. Doi: 10.1080/13603116.2018.1442507.",
+        "Grion, V., & Cook-Sather, A. (eds.) (2013). Student Voice. Prospettive internazionali e pratiche emergenti in Italia. Milano: Guerini.",
+        "Grion, V., & Dettori, F. (2014). Student Voice: nuove traiettorie della ricerca educativa. In M. Tomarchio & S. Ulivieri (eds.). Pedagogia militante. Diritti, culture, territori (pp. 852-857). Pisa: ETS.",
+        "Healey, M., & Jenkins, A. (2009). Developing undergraduate research and inquiry. Innovations in Practice, Celt Journal, 2(1), 3-15.",
+        "Hong, B. S. (2015). Qualitative analysis of the barriers college students with disabilities experience in higher education. Journal of College Student Development, 56(3), 209-226. Doi: 10.1353/csd.2015.0032.",
+        "Ju, S., Zeng, W., & Landmark, L. J. (2017). Self-determination and academic success of students with disabilities in postsecondary education: A review. Journal of Disability Policy Studies, 28(3), 180-189. Doi: 10.1177/1044207317739402.",
+        "Kimball, E.W., Wells, R.S., Ostiguy, B.J., Manly, C.A., Lauterbach, A.A. (2016). Students with Disabilities in Higher Education: A Review of the Literature and an Agenda for Future Research. In Paulsen, M. (Eds.) Higher Education: Handbook of Theory and Research. Higher Education: Handbook of Theory and Research, vol 31. Cham: Springer. Doi: 10.1007/978-3-319-26829-3_3.",
+        "Kubiak, J. (2015). Using ’Voice’ to Understand What College Students with Intellectual Disabilities Say about the Teaching and Learning Process. Journal of Research in Special Educational Needs, 17(1), 41-48. Doi: 10.1111/1471-3802.12098.",
+        "Lombardi, A., Gelbar, N., Dukes III, L. L., Kowitt, J., Wei, Y., Madaus, J., ... & Faggella-Luby, M. (2018). Higher education and disability: A systematic review of assessment instruments designed for students, faculty, and staff. Journal of Diversity in Higher Education, 11(1), 34-50.",
+        "Matthews, K. E., & Dollinger, M. (2023). Student voice in higher education: The importance of distinguishing student representation and student partnership. Higher Education, 85(3), 555-570. Doi. 10.1007/s10734-022-00851-7.",
+        "Moriña, A. (2017). ’We aren’t heroes, we’re survivors’: higher education as an opportunity for students with disabilities to reinvent an identity. Journal of Further and Higher Education, 41(2), 215-226. Doi: 10.1080/0309877X.2015.1070402.",
+        "Moriña, A., & Biagiotti, G. (2022). Academic success factors in university students with disabilities: a systematic review. European Journal of Special Needs Education, 37(5), 729-746. Doi: 10.1080/08856257.2021.1940007.",
+        "Mura, A. (2012). Barriere architettoniche e percorsi di inclusione: un’esperienza internazionale nella scuola primaria. Revista de Educación Inclusiva, 5(2), 95-102.",
+        "Nazioni Unite (UN). (2015). Agenda 2030 per lo Sviluppo Sostenibile.",
+        "Palumbo, M., & Proietti, E. (2020). Le Università come parte del sistema di welfare territoriale: il caso dell’Apprendimento Permanente e della Certificazione delle Competenze. Autonomie locali e servizi sociali, 43(1), 87-105. Doi: 10.1447/97471.",
+        "Pavone, M. (2014). L’inclusione educativa. Milano: Mondadori Università.",
+        "Pavone, M., Arenghi, A., Borgonovi, E., Ferrucci, F., Genovese, E., & Pepino, A. (2022). Un ponte tra università e mondo del lavoro per l’inclusione e la vita indipendente. Milano: FrancoAngeli.",
+        "Sahu, K. K., & Sahu, S. (2015). Attitudinal barrier experienced by people with disabilities. Journal of Disability Studies, 1(2), 53-54.",
+        "Seale, J., Colwell, C., Coughlan, T., Heiman, T., Kaspi-Tsahor, D., & Olenik-Shemesh, D. (2021). ’Dreaming in colour’: disabled higher education students’ perspectives on improving design practices that would enable them to benefit from their use of technologies. Education and Information Technologies, 26, 1687-1719. Doi: 10.1007/s10639-020-10329-7.",
+        "Soorenian, A. (2021). Equal and Inclusive Study Experiences for International Students with Disabilities. Comparative & International Education Series. -- https://www.ojed.org/cies/article/view/1284.",
+        "Taddei, A., Giaconi, C., Girotti, E., & Capellini, S. A. (2024). The Inclusive University: Practices and reflections for student community well-being. Education Sciences & Society: (1), 148-158. Doi: 10.3280/ess1-2024oa17632.",
+        "Tai, J. H. M., Dollinger, M., Ajjawi, R., Jorre de St Jorre, T., Krattli, S., McCarthy, D., & Prezioso, D. (2023). Designing assessment for inclusion: An exploration of diverse students’ assessment experiences. Assessment & Evaluation in Higher Education, 48(3), 403-417. Doi: 10.1080/02602938.2022.2082373.",
+        "Test, D. W., Fowler, C. H., Wood, W. M., Brewer, D. M., & Eddy, S. (2005). A Conceptual Framework of Self-Advocacy for Students with Disabilities. Remedial and Special Education, 26(1), 43-54. Doi: 10.1177/07419325050260010601.",
+        "Traina, I., Leader, G., Ghirotto, L., & Andreoli, M. (2022). I programmi a sostegno della transizione al lavoro di giovani con disabilità intellettiva: una integrative review. Education Sciences & Society, 2, 264-283. Doi: 10.3280/ess2-2022oa14236.",
+        "United Nations. (2020). Resolution adopted by the General Assembly. Quadrennial comprehensive policy review of operational activities for development of the United Nations system.",
+        "Vaccaro, A., Daly-Cano, M., & Newman, B. M. (2015). A Sense of Belonging Among College Students with Disabilities: An Emergent Theoretical Model. Journal of College Student Development, 56(7), 670-686. Doi: 10.1353/csd.2015.0072."
+      ],
+      "count": 49,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_20584",
+    "article_ID": "20584",
+    "slug": "20584",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "20584",
+      "url_slug": "20584"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-04-12",
+      "accepted": "2025-06-10",
+      "created": "2025-07-11",
+      "modified": "2025-11-17",
+      "issued": "2025-11-17",
+      "available": "2025-11-17",
+      "submitted_page": "2025-07-07",
+      "submitted_pdf": "2025-04-12",
+      "accepted_page": null,
+      "accepted_pdf": "2025-06-10"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+        "pdf_value": null,
+        "chosen_value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-07-07",
+        "pdf_value": "2025-04-12",
+        "chosen_value": "2025-04-12",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2025-06-10",
+        "chosen_value": "2025-06-10",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "http://creativecommons.org",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20584/3552",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20584/3552",
+      "local_relative_path": "2499-507X_20584.pdf",
+      "saved": true,
+      "sha256": "2340b0d4eb84e4bfbdad0f7dedaf2960924a9164d730e97fecf27687948d8802",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1019726,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Lucia Borsini",
+        "Noemi Del Bianco",
+        "Catia Giaconi"
+      ],
+      "citation_author_institution": [
+        "University of Campania “Luigi Vanvitelli”",
+        "University of Macerata",
+        "University of Macerata"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2025/07/11"
+      ],
+      "citation_volume": [
+        "10"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2025oa20584"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/20584"
+      ],
+      "citation_keywords": [
+        "inclusion",
+        "higher education",
+        "citizenship",
+        "participation",
+        "self-advocacy"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/20584/3552"
+      ],
+      "citation_reference_count": 49,
+      "DC.Date.created": [
+        "2025-07-11"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-07-07"
+      ],
+      "DC.Date.issued": [
+        "2025-11-17"
+      ],
+      "DC.Date.modified": [
+        "2025-11-17"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "20584"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2025oa20584"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/20584"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "10"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders"
+      ],
+      "DC.Title.Alternative": [
+        "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Lucia Borsini",
+        "Noemi Del Bianco",
+        "Catia Giaconi"
+      ],
+      "citation_author_institution": [
+        "University of Campania “Luigi Vanvitelli”",
+        "University of Macerata",
+        "University of Macerata"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Lucia Borsini",
+        "Noemi Del Bianco",
+        "Catia Giaconi"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The pursuit of inclusion in higher education requires reevaluating the roles and practices of universities. While institutions are increasingly recognized as essential agents in promoting social equity and community well-being, students with disabilities and Specific Learning Disorders continue to encounter barriers that prevent their full participation in academic and civic life. These challenges highlight the shortcomings of current approaches and emphasize the need for systemic innovations that prioritize both citizenship and active engagement. In this context, the University of Macerata has launched a project aimed at including students with disabilities and Specific Learning Disorders, seeking to develop transformative strategies that align educational equity with broader objectives of promoting community development and welfare.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The pursuit of inclusion in higher education requires reevaluating the roles and practices of universities. While institutions are increasingly recognized as essential agents in promoting social equity and community well-being, students with disabilities and Specific Learning Disorders continue to encounter barriers that prevent their full participation in academic and civic life. These challenges highlight the shortcomings of current approaches and emphasize the need for systemic innovations that prioritize both citizenship and active engagement. In this context, the University of Macerata has launched a project aimed at including students with disabilities and Specific Learning Disorders, seeking to develop transformative strategies that align educational equity with broader objectives of promoting community development and welfare."
+          }
+        },
+        {
+          "content": "The pursuit of inclusion in higher education requires reevaluating the roles and practices of universities. While institutions are increasingly recognized as essential agents in promoting social equity and community well-being, students with disabilities and Specific Learning Disorders continue to encounter barriers that prevent their full participation in academic and civic life. These challenges highlight the shortcomings of current approaches and emphasize the need for systemic innovations that prioritize both citizenship and active engagement. In this context, the University of Macerata has launched a project aimed at including students with disabilities and Specific Learning Disorders, seeking to develop transformative strategies that align educational equity with broader objectives of promoting community development and welfare.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "The pursuit of inclusion in higher education requires reevaluating the roles and practices of universities. While institutions are increasingly recognized as essential agents in promoting social equity and community well-being, students with disabilities and Specific Learning Disorders continue to encounter barriers that prevent their full participation in academic and civic life. These challenges highlight the shortcomings of current approaches and emphasize the need for systemic innovations that prioritize both citizenship and active engagement. In this context, the University of Macerata has launched a project aimed at including students with disabilities and Specific Learning Disorders, seeking to develop transformative strategies that align educational equity with broader objectives of promoting community development and welfare."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "inclusion",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "inclusion"
+          }
+        },
+        {
+          "content": "higher education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "higher education"
+          }
+        },
+        {
+          "content": "citizenship",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "citizenship"
+          }
+        },
+        {
+          "content": "participation",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "participation"
+          }
+        },
+        {
+          "content": "self-advocacy",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "self-advocacy"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/20584/3552",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20584/3552",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20584/3552",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20584/3552",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20584/3552",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": "2025-04-12",
+      "accepted_pdf": "2025-06-10",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2025-07-11",
+        "mod_date": "2025-07-11"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20584 Towards inclusive universities: Promoting self- advocacy and active citizenship for students with disabilities and Specific Learning Disorders Lucia Borsini*, Noemi Del Bianco^ and Catia Giaconi° Abstract The pursuit of inclusion in higher education requires reevaluating the roles and practices of universities. While institutions are increasingly recognized as essential agents in promoting social equity and community well-being, students with disabilities and Specific Learning Disorders continue to encounter barriers that prevent their full participation in academic and civic life. These challenges highlight the shortcomings of current approaches and emphasize the need for systemic innovations that prioritize both citizenship and active engagement. In this context, the University of Macerata has launched a project aimed at including students with disabilities and Specific Learning Disorders, seeking to develop transformative strategies that a lign educational equity with broader objectives of promoting community development and welfare. Keywords: inclusion, higher education, citizenship, participation, self-advocacy. Article submitted: 12/04/2025; accepted: 10/06/2025 1. Introduction Inclusion poses a significant challenge for modern educational systems, particularly within higher educati on (Canevaro, 2007, 2014; Pavone, 2014; * Dept. of Mental and Physical Health and Preventive Medicine, University of Campania “Luigi Vanvitelli”, Italy, e-mail: lucia.borsini@unicampania.it. ^ Dept. of Education Sciences, Cultural Heritage, and Tourism, University of Macerata, Italy, e-mail: n.delbianco@unimc.it. ° Dept. of Education Sciences, Cultural Heritage, and Tourism, University of Macerata, Italy, e- mail: catia.giaconi@unimc.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\20584\\2499-507X_20584.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+        "pdf_value": null,
+        "chosen_value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-07-07",
+        "pdf_value": "2025-04-12",
+        "chosen_value": "2025-04-12",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2025-06-10",
+        "chosen_value": "2025-06-10",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "http://creativecommons.org",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20584",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20584",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:32Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20584\\temp\\2499-507X_20584.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:35Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20584\\2499-507X_20584.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+        "submitted_date": "2025-07-07",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Lucia Borsini",
+          "Noemi Del Bianco",
+          "Catia Giaconi"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20584\\2499-507X_20584.pdf",
+        "generated_at_utc": "2026-04-21T21:35:34Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2025-07-11",
+          "mod_date": "2025-07-11"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20584 Towards inclusive universities: Promoting self- advocacy and active citizenship for students with disabilities and Specific Learning Disorders Lucia Borsini*, Noemi Del Bianco^ and Catia Giaconi° Abstract The pursuit of inclusion in higher education requires reevaluating the roles and practices of universities. While institutions are increasingly recognized as essential agents in promoting social equity and community well-being, students with disabilities and Specific Learning Disorders continue to encounter barriers that prevent their full participation in academic and civic life. These challenges highlight the shortcomings of current approaches and emphasize the need for systemic innovations that prioritize both citizenship and active engagement. In this context, the University of Macerata has launched a project aimed at including students with disabilities and Specific Learning Disorders, seeking to develop transformative strategies that a lign educational equity with broader objectives of promoting community development and welfare. Keywords: inclusion, higher education, citizenship, participation, self-advocacy. Article submitted: 12/04/2025; accepted: 10/06/2025 1. Introduction Inclusion poses a significant challenge for modern educational systems, particularly within higher educati on (Canevaro, 2007, 2014; Pavone, 2014; * Dept. of Mental and Physical Health and Preventive Medicine, University of Campania “Luigi Vanvitelli”, Italy, e-mail: lucia.borsini@unicampania.it. ^ Dept. of Education Sciences, Cultural Heritage, and Tourism, University of Macerata, Italy, e-mail: n.delbianco@unimc.it. ° Dept. of Education Sciences, Cultural Heritage, and Tourism, University of Macerata, Italy, e- mail: catia.giaconi@unimc.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": "2025-04-12",
+          "accepted_date": "2025-06-10",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": "2025-04-12",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2025-06-10",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Towards inclusive universities: Promoting self-advocacy and active citizenship for students with disabilities and Specific Learning Disorders",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-07-07",
+          "pdf_value": "2025-04-12",
+          "preferred_source": "pdf",
+          "chosen_value": "2025-04-12",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:00Z"
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2025-06-10",
+          "preferred_source": "pdf",
+          "chosen_value": "2025-06-10",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "page",
+          "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:02Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "pdf",
+          "chosen_value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:03Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20584\\temp\\2499-507X_20584.conflicts.json"
+  }
+}

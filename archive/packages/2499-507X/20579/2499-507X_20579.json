@@ -1,0 +1,884 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20579",
+  "scraped_at_utc": "2026-04-21T21:35:22Z",
+  "fetched_at_utc": "2026-04-21T21:35:22Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "c34857930b0272908dbb0539703387ccd0f424a839fa857bf5b460b93cea07a5",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Alfonso Filippone",
+        "nameType": "Personal",
+        "givenName": "Alfonso",
+        "familyName": "Filippone",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Pegaso University; University of Foggia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Maria Ermelinda De Carlo",
+        "nameType": "Personal",
+        "givenName": "Maria Ermelinda De",
+        "familyName": "Carlo",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Pegaso University"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Raffaele Di Fuccio",
+        "nameType": "Personal",
+        "givenName": "Raffaele Di",
+        "familyName": "Fuccio",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Pegaso University"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/20579",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-11-17",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-11-17",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-11-17",
+      "Issued": "2025-11-17"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This study investigates the impact of immersive three-dimensional virtual environments on language learning and professional skills development in Higher Education. Grounded in constructivist and socio-cultural pedagogies, the research explores the implementation of the English LAB Virtual World – FrameVR-based educational platform – within two university-level English language laboratory courses for future primary school teachers. Adopting a quasi-experimental, mixed-methods design, the study analyzes learning outcomes, motivation, life skills, and perceived usability through validated tools: Cambridge Assessment-aligned tests (A2/B1), the MSLQ, the LiSST scale, and the SUS questionnaire. The experimental group, engaged in blended learning within the immersive environment, demonstrated statistically significant improvements in grammar, vocabulary, listening, and speaking skills (p &lt; 0.001), alongside enhanced intrinsic motivation and substantial growth in life skills domains such as critical thinking, collaboration, and self-efficacy. Correlational analyses revealed strong associations between perceived usability, motivation, and transversal skills development. Qualitative data from focus groups further confirmed the transformative nature of immersive learning, emphasizing engagement, agency, and collaborative dynamics. The findings support the potential of Virtual Worlds to function not only as linguistic learning platforms but also as pedagogical ecosystems for developing 21st-century competencies. This research contributes to the evolving paradigm of the Eduverse, suggesting that virtual environments – when purposefully designed and pedagogically structured –can act as strategic enablers of inclusive, student-centered, and transformative learning in Higher Education.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "This study investigates the impact of immersive three-dimensional virtual environments on language learning and professional skills development in Higher Education. Grounded in constructivist and socio-cultural pedagogies, the research explores the implementation of the English LAB Virtual World – FrameVR-based educational platform – within two university-level English language laboratory courses for future primary school teachers. Adopting a quasi-experimental, mixed-methods design, the study analyzes learning outcomes, motivation, life skills, and perceived usability through validated tools: Cambridge Assessment-aligned tests (A2/B1), the MSLQ, the LiSST scale, and the SUS questionnaire. The experimental group, engaged in blended learning within the immersive environment, demonstrated statistically significant improvements in grammar, vocabulary, listening, and speaking skills (p &lt; 0.001), alongside enhanced intrinsic motivation and substantial growth in life skills domains such as critical thinking, collaboration, and self-efficacy. Correlational analyses revealed strong associations between perceived usability, motivation, and transversal skills development. Qualitative data from focus groups further confirmed the transformative nature of immersive learning, emphasizing engagement, agency, and collaborative dynamics. The findings support the potential of Virtual Worlds to function not only as linguistic learning platforms but also as pedagogical ecosystems for developing 21st-century competencies. This research contributes to the evolving paradigm of the Eduverse, suggesting that virtual environments – when purposefully designed and pedagogically structured –can act as strategic enablers of inclusive, student-centered, and transformative learning in Higher Education.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2025oa20579",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "10",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Immersive Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Virtual Worlds",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Language Education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Teacher Training",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Life Skills",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/20579/3549",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "10",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Filippone, A., De Carlo, M. E., & Di Fuccio, R. (2025). Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education. Excellence and Innovation in Learning and Teaching - Open Access , 10 (1). https://doi.org/10.3280/exioa1-2025oa20579",
+      "articleTitleEcho": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Bevilacqua, A., & Filippone, A. (2023). Divulgazione scientifica e didattica della Microbiologia. Un modello di didattica innovativa in una scuola secondaria di primo grado. MeTis-Mondi educativi. Temi, indagini, suggestioni, 13(2), 68-84.",
+        "Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3(2), 77-101.",
+        "Brooke, J. (1996). SUS: A “quick and dirty” usability scale. In P. W. Jordan, B. Thomas, B. A. Weerdmeester & I. L. McClelland (Eds.), Usability evaluation in industry (pp. 189-194). London: Taylor & Francis.",
+        "Deci, E. L., & Ryan, R. M. (2000). The “what” and “why” of goal pursuits: Human needs and the self-determination of behavior. Psychological Inquiry, 11(4), 227-268.",
+        "Dede, C. (2009). Immersive interfaces for engagement and learning. Science, 323(5910), 66-69. Doi: 10.1126/science.1167311.",
+        "Filippone, A., Montepeloso, E. A., Leone, R., & Bevilacqua, A. (2023/a). Cooperative learning in virtual worlds: An innovative teaching and learning experience for STEAM education. Italian Journal of Educational Research, 31, 100-113.",
+        "Filippone, A., Ferulli, M., & Bevilacqua, A. (2023). Virtual Worlds and Eduverse: A reflection on the body, space and learning in the metaverse. Giornale Italiano di Educazione alla Salute, Sport e Didattica Inclusiva, 7(3). Doi: 10.32043/gsd.v7i3.983.",
+        "Filippone, A., Barbieri, U., Di Fuccio, R., De Carlo, M. E., & Marsico, E. (2024). Teaching and Learning in 3D Virtual Worlds integrated with Intelligent Tutoring Systems: New perspectives for Virtual Reality, Eduverse and Artificial Intelligence in Education. Education Sciences & Society, 2: 298-313. Doi: 10.3280/ess2-2024oa18448.",
+        "Grivokostopoulou, F., Kovas, K., & Perikos, I. (2020). The effectiveness of embodied pedagogical agents and their impact on students learning in virtual worlds. Applied Sciences, 10(5), 1739. Doi: 10.3390/app10051739.",
+        "International Youth Foundation. (2022). Life Skills Survey Tool (LiSST). -- Retrieved from https://iyfglobal.org.",
+        "Johnson-Glenberg, M. C. (2018). Immersive VR and education: Embodied design principles that include gesture and hand controls. Frontiers in Robotics and AI, 5, 81. Doi: 10.3389/frobt.2018.00081.",
+        "Kennedy, F., Pearson, D., Brett-Taylor, L., & Talreja, V. (2014). The Life Skills Assessment Scale: Measuring life skills for the disadvantaged. Social Behavior and Personality: An International Journal, 42(2), 197-210. Doi: 10.2224/sbp.2014.42.2.197.",
+        "Merchant, Z., Goetz, E. T., Cifuentes, L., Keeney-Kennicutt, W., & Davis, T. J. (2014). Effectiveness of virtual reality-based instruction on students’ learning outcomes in K-12 and higher education: A meta-analysis. Computers & Education, 70, 29-40. Doi: 10.1016/j.compedu.2013.07.033.",
+        "Mezirow, J. (2003). Transformative learning as discourse. Journal of Transformative Education, 1(1), 58-63.",
+        "Pearson, D., Kennedy, F., Talreja, V., Bhat, S., & Newman-Taylor, K. (2020). The Life Skills Assessment Scale: Norms for young people aged 17-19 and 20-22 years. Social Behavior and Personality: an international journal, 48(4), 1-15.",
+        "Peterson, M. (2016). The use of virtual worlds in language learning: A review of the literature. In T. Sylvia (Ed.), Virtual Worlds for Language Learning: From Theory to Practice (pp. 13-30). Peter Lang.",
+        "Pintrich, P. R., Smith, D. A., Garcia, T., & McKeachie, W. J. (1993). Reliability and predictive validity of the motivated strategies for learning questionnaire (MSLQ). Educational and Psychological Measurement, 53(3), 801-813.",
+        "Radianti, J., Majchrzak, T. A., Fromm, J., & Wohlgenannt, I. (2020). A systematic review of immersive virtual reality applications for higher education: Design elements, lessons learned, and research agenda. Computers & Education, 147, 103778. Doi: 10.1016/j.compedu.2019.103778.",
+        "Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. In: Punie, Y. (ed). EUR 28775 EN. Publications Office of the European Union, Luxembourg. Doi: 10.2760/159770.",
+        "Richards, J. C., & Rodgers, T. S. (2014). Approaches and Methods in Language Teaching (3rd ed.). Cambridge University Press.",
+        "Schwienhorst, K. (2002). Why virtual, why environments? Implementing virtual reality concepts in computer-assisted language learning. Simulation & Gaming, 33(2), 196-209.",
+        "Vygotskij, L. S. (1978). Mind in society: The development of higher psychological processes. Harvard University Press.",
+        "World Health Organization, WHO (1997). Life skills education for children and adolescents in schools. Geneva."
+      ],
+      "count": 23,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_20579",
+    "article_ID": "20579",
+    "slug": "20579",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "20579",
+      "url_slug": "20579"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-07-07",
+      "accepted": null,
+      "created": "2025-07-11",
+      "modified": "2025-11-17",
+      "issued": "2025-11-17",
+      "available": "2025-11-17",
+      "submitted_page": "2025-07-07",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+        "pdf_value": null,
+        "chosen_value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-07-07",
+        "pdf_value": null,
+        "chosen_value": "2025-07-07",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20579/3549",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20579/3549",
+      "local_relative_path": "2499-507X_20579.pdf",
+      "saved": true,
+      "sha256": "a434c4357158e5781d60dacd2d736ab88226f5a6ac0689d132007ca21c4f47e1",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1636962,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Alfonso Filippone",
+        "Maria Ermelinda De Carlo",
+        "Raffaele Di Fuccio"
+      ],
+      "citation_author_institution": [
+        "Pegaso University; University of Foggia",
+        "Pegaso University",
+        "Pegaso University"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/07/11"
+      ],
+      "citation_volume": [
+        "10"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2025oa20579"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/20579"
+      ],
+      "citation_keywords": [
+        "Immersive Learning",
+        "Virtual Worlds",
+        "Language Education",
+        "Teacher Training",
+        "Life Skills"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/20579/3549"
+      ],
+      "citation_reference_count": 23,
+      "DC.Date.created": [
+        "2025-07-11"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-07-07"
+      ],
+      "DC.Date.issued": [
+        "2025-11-17"
+      ],
+      "DC.Date.modified": [
+        "2025-11-17"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "20579"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2025oa20579"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/20579"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "10"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education"
+      ],
+      "DC.Title.Alternative": [
+        "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Alfonso Filippone",
+        "Maria Ermelinda De Carlo",
+        "Raffaele Di Fuccio"
+      ],
+      "citation_author_institution": [
+        "Pegaso University; University of Foggia",
+        "Pegaso University",
+        "Pegaso University"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Alfonso Filippone",
+        "Maria Ermelinda De Carlo",
+        "Raffaele Di Fuccio"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This study investigates the impact of immersive three-dimensional virtual environments on language learning and professional skills development in Higher Education. Grounded in constructivist and socio-cultural pedagogies, the research explores the implementation of the English LAB Virtual World – FrameVR-based educational platform – within two university-level English language laboratory courses for future primary school teachers. Adopting a quasi-experimental, mixed-methods design, the study analyzes learning outcomes, motivation, life skills, and perceived usability through validated tools: Cambridge Assessment-aligned tests (A2/B1), the MSLQ, the LiSST scale, and the SUS questionnaire. The experimental group, engaged in blended learning within the immersive environment, demonstrated statistically significant improvements in grammar, vocabulary, listening, and speaking skills (p &lt; 0.001), alongside enhanced intrinsic motivation and substantial growth in life skills domains such as critical thinking, collaboration, and self-efficacy. Correlational analyses revealed strong associations between perceived usability, motivation, and transversal skills development. Qualitative data from focus groups further confirmed the transformative nature of immersive learning, emphasizing engagement, agency, and collaborative dynamics. The findings support the potential of Virtual Worlds to function not only as linguistic learning platforms but also as pedagogical ecosystems for developing 21st-century competencies. This research contributes to the evolving paradigm of the Eduverse, suggesting that virtual environments – when purposefully designed and pedagogically structured –can act as strategic enablers of inclusive, student-centered, and transformative learning in Higher Education.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This study investigates the impact of immersive three-dimensional virtual environments on language learning and professional skills development in Higher Education. Grounded in constructivist and socio-cultural pedagogies, the research explores the implementation of the English LAB Virtual World – FrameVR-based educational platform – within two university-level English language laboratory courses for future primary school teachers. Adopting a quasi-experimental, mixed-methods design, the study analyzes learning outcomes, motivation, life skills, and perceived usability through validated tools: Cambridge Assessment-aligned tests (A2/B1), the MSLQ, the LiSST scale, and the SUS questionnaire. The experimental group, engaged in blended learning within the immersive environment, demonstrated statistically significant improvements in grammar, vocabulary, listening, and speaking skills (p &lt; 0.001), alongside enhanced intrinsic motivation and substantial growth in life skills domains such as critical thinking, collaboration, and self-efficacy. Correlational analyses revealed strong associations between perceived usability, motivation, and transversal skills development. Qualitative data from focus groups further confirmed the transformative nature of immersive learning, emphasizing engagement, agency, and collaborative dynamics. The findings support the potential of Virtual Worlds to function not only as linguistic learning platforms but also as pedagogical ecosystems for developing 21st-century competencies. This research contributes to the evolving paradigm of the Eduverse, suggesting that virtual environments – when purposefully designed and pedagogically structured –can act as strategic enablers of inclusive, student-centered, and transformative learning in Higher Education."
+          }
+        },
+        {
+          "content": "This study investigates the impact of immersive three-dimensional virtual environments on language learning and professional skills development in Higher Education. Grounded in constructivist and socio-cultural pedagogies, the research explores the implementation of the English LAB Virtual World – FrameVR-based educational platform – within two university-level English language laboratory courses for future primary school teachers. Adopting a quasi-experimental, mixed-methods design, the study analyzes learning outcomes, motivation, life skills, and perceived usability through validated tools: Cambridge Assessment-aligned tests (A2/B1), the MSLQ, the LiSST scale, and the SUS questionnaire. The experimental group, engaged in blended learning within the immersive environment, demonstrated statistically significant improvements in grammar, vocabulary, listening, and speaking skills (p &lt; 0.001), alongside enhanced intrinsic motivation and substantial growth in life skills domains such as critical thinking, collaboration, and self-efficacy. Correlational analyses revealed strong associations between perceived usability, motivation, and transversal skills development. Qualitative data from focus groups further confirmed the transformative nature of immersive learning, emphasizing engagement, agency, and collaborative dynamics. The findings support the potential of Virtual Worlds to function not only as linguistic learning platforms but also as pedagogical ecosystems for developing 21st-century competencies. This research contributes to the evolving paradigm of the Eduverse, suggesting that virtual environments – when purposefully designed and pedagogically structured –can act as strategic enablers of inclusive, student-centered, and transformative learning in Higher Education.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "This study investigates the impact of immersive three-dimensional virtual environments on language learning and professional skills development in Higher Education. Grounded in constructivist and socio-cultural pedagogies, the research explores the implementation of the English LAB Virtual World – FrameVR-based educational platform – within two university-level English language laboratory courses for future primary school teachers. Adopting a quasi-experimental, mixed-methods design, the study analyzes learning outcomes, motivation, life skills, and perceived usability through validated tools: Cambridge Assessment-aligned tests (A2/B1), the MSLQ, the LiSST scale, and the SUS questionnaire. The experimental group, engaged in blended learning within the immersive environment, demonstrated statistically significant improvements in grammar, vocabulary, listening, and speaking skills (p &lt; 0.001), alongside enhanced intrinsic motivation and substantial growth in life skills domains such as critical thinking, collaboration, and self-efficacy. Correlational analyses revealed strong associations between perceived usability, motivation, and transversal skills development. Qualitative data from focus groups further confirmed the transformative nature of immersive learning, emphasizing engagement, agency, and collaborative dynamics. The findings support the potential of Virtual Worlds to function not only as linguistic learning platforms but also as pedagogical ecosystems for developing 21st-century competencies. This research contributes to the evolving paradigm of the Eduverse, suggesting that virtual environments – when purposefully designed and pedagogically structured –can act as strategic enablers of inclusive, student-centered, and transformative learning in Higher Education."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Immersive Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Immersive Learning"
+          }
+        },
+        {
+          "content": "Virtual Worlds",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Virtual Worlds"
+          }
+        },
+        {
+          "content": "Language Education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Language Education"
+          }
+        },
+        {
+          "content": "Teacher Training",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Teacher Training"
+          }
+        },
+        {
+          "content": "Life Skills",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Life Skills"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/20579/3549",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20579/3549",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20579/3549",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20579/3549",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20579/3549",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2025-07-11",
+        "mod_date": "2025-07-11"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20579 Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education Alfonso Filippone *, Maria Ermelinda De Carlo**, Raffaele Di Fuccio*** Abstract This study investigates the impact of immersive three-dimensional virtual environments on language learning a nd professional skills development in Higher Education. Grounded in constr uctivist and socio-cultural pedagogies, the research explores the implementation of the English LAB Virtual World – FrameVR-based educational platform – within two university-level English language laboratory courses for future primary school teachers. Adopting a quasi-experimental, mixed-methods design, the study analyzes learning outcomes, motivation, life skills, and perceived usability through validated tools: Cambridge Assessment-aligned tests (A2/B1), the MSLQ, the LiSST scale, and the SUS questionnaire. The experimental group, engaged in blended learning within the immersive environment, demonstrated statistically significant improvements in grammar, vocabulary, listening, and speaking skills (p < 0.001), alongside enhanced intrinsic motivation and substantial growth in life skills domains such as critical thinking, * PhD student in Digital Transformation (curriculum Education), Department of Psychology and Education, Pegaso University, Italy, and Contract Professor at DAFNE, DISTUM and Medical Area Departme nts, University of Foggia, Italy. Corresponding author: e-mail: alfonso.filippone@unipegaso.it, alfonso.filippone@unifg.it. ** RTD-B in Experimental Pedagogy, Department of Psychology and Education, Pegaso University, Italy. *** Associate Professor in Teaching and Special Pedagogy, Department of Psychology and Education, Pegaso University, Italy. The article is the result of discussion and scientific collaboration among the authors. However, the attribution of scientific responsibility is as follows: A. Filippone, paragraphs 1, 2.2, 2.4, 3, 4, 5 and 6, as well as the supervision of the article and the creation of the virtual world; M.E. De Carlo, paragraph 1 and 6; R. Di Fuccio, paragraph 2.1, 2.3 and 6. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\20579\\2499-507X_20579.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+        "pdf_value": null,
+        "chosen_value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-07-07",
+        "pdf_value": null,
+        "chosen_value": "2025-07-07",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20579",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20579",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:22Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20579\\temp\\2499-507X_20579.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:24Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20579\\2499-507X_20579.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+        "submitted_date": "2025-07-07",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Alfonso Filippone",
+          "Maria Ermelinda De Carlo",
+          "Raffaele Di Fuccio"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20579\\2499-507X_20579.pdf",
+        "generated_at_utc": "2026-04-21T21:35:24Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2025-07-11",
+          "mod_date": "2025-07-11"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20579 Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education Alfonso Filippone *, Maria Ermelinda De Carlo**, Raffaele Di Fuccio*** Abstract This study investigates the impact of immersive three-dimensional virtual environments on language learning a nd professional skills development in Higher Education. Grounded in constr uctivist and socio-cultural pedagogies, the research explores the implementation of the English LAB Virtual World – FrameVR-based educational platform – within two university-level English language laboratory courses for future primary school teachers. Adopting a quasi-experimental, mixed-methods design, the study analyzes learning outcomes, motivation, life skills, and perceived usability through validated tools: Cambridge Assessment-aligned tests (A2/B1), the MSLQ, the LiSST scale, and the SUS questionnaire. The experimental group, engaged in blended learning within the immersive environment, demonstrated statistically significant improvements in grammar, vocabulary, listening, and speaking skills (p < 0.001), alongside enhanced intrinsic motivation and substantial growth in life skills domains such as critical thinking, * PhD student in Digital Transformation (curriculum Education), Department of Psychology and Education, Pegaso University, Italy, and Contract Professor at DAFNE, DISTUM and Medical Area Departme nts, University of Foggia, Italy. Corresponding author: e-mail: alfonso.filippone@unipegaso.it, alfonso.filippone@unifg.it. ** RTD-B in Experimental Pedagogy, Department of Psychology and Education, Pegaso University, Italy. *** Associate Professor in Teaching and Special Pedagogy, Department of Psychology and Education, Pegaso University, Italy. The article is the result of discussion and scientific collaboration among the authors. However, the attribution of scientific responsibility is as follows: A. Filippone, paragraphs 1, 2.2, 2.4, 3, 4, 5 and 6, as well as the supervision of the article and the creation of the virtual world; M.E. De Carlo, paragraph 1 and 6; R. Di Fuccio, paragraph 2.1, 2.3 and 6. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Virtual English LAB: The Impact of Virtual Worlds on English Language Learning and Life Skills in Higher Education",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-07-07",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-07-07",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:47Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:49Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20579\\temp\\2499-507X_20579.conflicts.json"
+  }
+}

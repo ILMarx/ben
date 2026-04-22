@@ -1,0 +1,906 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20578",
+  "scraped_at_utc": "2026-04-21T21:35:17Z",
+  "fetched_at_utc": "2026-04-21T21:35:17Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "a006815166fced4056591b5777bf12873c72948152b85d30557a77f317ce7ee6",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Rosanna Tammaro",
+        "nameType": "Personal",
+        "givenName": "Rosanna",
+        "familyName": "Tammaro",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Salerno"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Deborah Gragnaniello",
+        "nameType": "Personal",
+        "givenName": "Deborah",
+        "familyName": "Gragnaniello",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Salerno"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Roberta Scarano",
+        "nameType": "Personal",
+        "givenName": "Roberta",
+        "familyName": "Scarano",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Salerno"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/20578",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-11-17",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-11-17",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-11-17",
+      "Issued": "2025-11-17"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The regeneration of Higher Education (HE) is explored. Action research explores the assessment conceptions of future teachers. The role of previous experiences in designing a training path aimed at deconstructing conceptions is highlighted.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Si approfondisce la rigenerazione dell’Higher Education (HE). Una ricerca-azione esplora le concezioni valutative di futuri docenti, evidenziando il ruolo delle esperienze pregresse per progettare una formazione orientata a decostruire preconcetti",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2025oa20578",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "10",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "concezioni valutative",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "docenti pre-service",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "higher education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "ricerca-azione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "sostenibilità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/20578/3548",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "10",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Tammaro, R., Gragnaniello, D., & Scarano, R. (2025). Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti. Excellence and Innovation in Learning and Teaching - Open Access , 10 (1). https://doi.org/10.3280/exioa1-2025oa20578",
+      "articleTitleEcho": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Baldacci, M. (2023). Appunti sulla formazione dei docenti, LLL, 19(42), 7-13. Doi: 10.19241/lll.v19i42.746.",
+        "Benvenuto, G. (2018). Stili e metodi della ricerca educativa. Carocci.",
+        "Boud, D. (2000). Sustainable assessment: rethinking assessment for the learning society. Studies in continuing education, 22(2), 151-167. Doi: 10.1080/713695728.",
+        "Brown, G.T.L. (2006). Teachers’ conceptions of assessment: validation of an abridged instrument. Psychological Reports, 99(1), 166-170. Doi: 10.2466/PR0.99.5.166-170.",
+        "Brown, G.T.L., Gebril, A., Michaelides, M.P. (2019). Teachers’ conceptions of assessment: a global phenomenon or a global localism. Frontiers in education, 4(16), 1-13. Doi: 10.3389/feduc.2019.00016.",
+        "Cartney, P. (2010). Exploring the use of peer assessment as a vehicle for closing the gap between feedback given and feedback used. Assessment & Evaluation in Higher Education, 35(5), 551-564. Doi: 10.1080/02602931003632381.",
+        "Castoldi, M. (2010). Didattica generale. Mondadori.",
+        "Christersson, C., Staaf, P., Braekhus, S., Stjernqvist, R., Pusineri, A.G., Giovani, C., Mainelli, X.U. (2019). Promoting active learning in universities.",
+        "Ciani, A., Rosa, A. (2021). CONVAL: validazione di una scala sulle concezioni degli insegnanti relative alla valutazione. LLL, 17(39), 9-113. Doi: 10.19241/lll.v17i39.648.",
+        "Clark, I. (2012). Formative assessment: Assessment is for self-regulated learning. Ed-ucational Psychology Review, 24(2), 205-249. Doi: 10.1007/s10648-011-9191-6.",
+        "Coggi, C., Pizzorno, M.C. (2017). La valutazione formativa in Università. In A.M. Notti (Ed.), La funzione educativa della valutazione (pp. 37-58). Pensa MultiMedia.",
+        "Corsini, C. (2023). La valutazione che educa. Liberare insegnamento e apprendimento dalla tirannia del voto. FrancoAngeli.",
+        "Decreto Legislativo 10 agosto 2018, n. 101. Disposizioni per l’adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio, del 27 aprile 2016, relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali, nonché alla libera circolazione di tali dati e che abroga la direttiva 95/46/CE (regolamento generale sulla protezione dei dati).",
+        "Di Palma, D., Belfiore, P. (2023). La trasformazione didattica universitaria ai tempi del Covid-19: un’opportunità di innovazione? Formazione & Insegnamento, XVIII(1), 281-293. Doi: 10.7346/-fei-XVIII-01-20_23.",
+        "Earl, L.M. (2013). Assessment as Learning: Using classroom assessment to maximize student learning. Corwin.",
+        "EFFECT (2019). Promoting a European dimensions to teaching enhancement. A feasibility study from the European forum for enhanced collaboration in teaching (EFFECT) project.",
+        "Fajet, W., Bello, M., Leftwich, S.A, Mesler, J.L., Shaver, A.N. (2005). Pre-service teachers’ perceptions in beginning education classes. Teaching and Teacher Education, 21(6), 717-727. Doi: 10.1016/j.tate.2005.05.002.",
+        "Feiman-Nemser, S. (1983). Learning to teach. In Shulman, L., Sykes, G. (Eds.), Handbook of teaching and policy (pp.150-171). Longman.",
+        "Flavell, J.H. (1977). Cognitive Development. Prentice-Hall Press.",
+        "Gragnaniello, D. (2024). Assessment conceptions: data and reflections from future teachers. Q-Times, XVI(3), 971-983.",
+        "Gragnaniello, D., Tammaro, R. (2024). Il Sustainable Assessment: una ricerca-azione tra futuri docenti. Articolo 33(5), 37-43.",
+        "Grion, V. (2008). Qualità della didattica universitaria e formazione iniziale degli insegnanti. In Biasin, C. (Ed.), La responsabilità sociale dell’università per le professioni (pp. 269-281). Pensa MultiMedia.",
+        "Hermanas, R., Van Braak, J., Van Keer, H. (2008). Development of the beliefs about primary education scale: distinguishing a developmental and transmissive dimension. Teaching and teacher education, 24(1), 127-139. Doi: 10.1016/j.tate.2006.11.007.",
+        "Jorgensen, T. (2019). Digital skills. Where universities matter. Learning & Teaching Paper (EUA).",
+        "Kemmis, S., McTaggart, R. (1982). The Action Research Planner. Deakin University Press.",
+        "Lam, R. (2016). Assessment as learning: Examining a cycle of teaching, learning, and assessment of writing in the portfolio-based classroom. Studies in Higher Education, 41(11), 1900-1917. Doi: 10.1080/03075079.2014.999317.",
+        "Lisimberti, C. (2015). Impiegare gli strumenti di rilevazione: approfondimenti opera-tivi. In Montalbetti, K., Lisimberti, C. (Eds.), Ricerca e professionalità educativa. Risorse e strumenti (pp. 83-127). Pensa MultiMedia.",
+        "Marton, F. (1981). Phenomenography-describing conceptions of the world around us. Instructional Science, 10, 177-200.",
+        "McMillan, J.H. (2001). Essential assessment concepts for teachers and administrators. Corwin.",
+        "Notti, A.M. (2023). Riflessioni conclusive: la valutazione come funzione regolativa del processo educativo. In Notti, A.M., & Tammaro, R. (eds.), Docimologia Oggi. Manuale per docenti e futuri docenti (265-273). Pensa MultiMedia.",
+        "OECD. (2018). The future of education and skills: Education 2030. The OECD learning compass 2030. Parigi: OECD Publishing.",
+        "Pastore, S., Pentassuglia, M. (2015). “Another brick in the wall”? Concezioni degli insegnanti sulla valutazione: il punto di vista di chi è in formazione. Italian Journal of Educational Research, 14, 249-264.",
+        "Pentucci, M. (2024). La percezione degli insegnanti sulle funzioni della valutazione e sul potenziale trasformativo e metacognitivo del feedback. Annali online della Didattica e della Formazione Docenti, 16(28), 159-172.",
+        "Richardson, V. (1996). The role of attitudes and beliefs in learning to teach. In Sikula J., Buttery, T. J., Guyton, E. (eds.), Handbook of research on teacher education: A project of the Association of Teacher Educators (pp.102-119). Macmillan Library.",
+        "Rosa, A., Ciani, A. (2023). Esperienza valutativa e concezioni sulla valutazione: una ricerca empirica con futuri insegnanti di scuola secondaria. QTimes, XV(3), 278-293.",
+        "Salomoni, P., Sancassani, S. (2018). Ecosistemi digitali come driver di innovazione didattica. I Magnifici incontri. CRUI 2018, Piano Nazionale Università Digitale.",
+        "Schön, D.A. (1987). Educating the reflective practitioner. Jossey.",
+        "Scierri, I.D.M. (2023). Per una valutazione centrata sull’allievo: framework teorico e primi risultati di un’indagine su concezioni e strategie valutative degli insegnanti. LLL, 19(42), 83-101. Doi: 10.19241/lll.v19i42.754.",
+        "Scierri, I.D.M. (2024). Perché valuto? Costruzione e validazione della scala delle concezioni valutative degli insegnanti (CoVI). Ricerche di Pedagogia e Didattica-Journal of Theories and Research in Education 19(1), 109-128. Doi: 10.6092/issn.1970-2221/19258.",
+        "Tabachnick, B. & Zeichner, Kenneth. (1984). The Impact of the Student Teaching Experience on the Development of Teacher Perspectives. Journal of Teacher Education - J TEACH EDUC., 35, 28-36. Doi: 10.1177/002248718403500608.",
+        "Tammaro, R., Gragnaniello, D. (2024). La sfida dei docenti: dalla valutazione tradizionale all’assessment for learning, tra concezioni e buone pratiche. QTimes. Journal of Education, Technology and Social Studies, XVI(1), 1-12.",
+        "Thompson, A.G. (1992). Teachers’ beliefs and conceptions: a synthesis of the re-search. In Grouws, D.A. (Ed.), Handbook of research on mathematics teaching and learning (pp. 127-146). New York: Macmillan.",
+        "Trinchero, R. (2023). Assessment as learning in università. Costruire le capacità auto-valutative degli studenti. Pedagogia Oggi, 21(1), 108-117. Doi: 10.7346/PO-012023-12.",
+        "Viganò, R. (2017). Qualità e professione docente: la valutazione come risorsa. Edetania: Estudios y propuestas socioeducativos, 52, 269-285.",
+        "World Economic Forum. (2023). The Future of Jobs Report 2023. Ginevra: World Economic Forum."
+      ],
+      "count": 45,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_20578",
+    "article_ID": "20578",
+    "slug": "20578",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "20578",
+      "url_slug": "20578"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Transforming Higher Education for Sustainability: An analysis of the conceptions on assessment in initial teacher education",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-07-07",
+      "accepted": null,
+      "created": "2025-07-11",
+      "modified": "2025-11-17",
+      "issued": "2025-11-17",
+      "available": "2025-11-17",
+      "submitted_page": "2025-07-07",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+        "pdf_value": null,
+        "chosen_value": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-07-07",
+        "pdf_value": null,
+        "chosen_value": "2025-07-07",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20578/3548",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20578/3548",
+      "local_relative_path": "2499-507X_20578.pdf",
+      "saved": true,
+      "sha256": "8e273ab5df5927ac7158772dfc67929b6641057cbe7085f98ec811751480268d",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 3240105,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Rosanna Tammaro",
+        "Deborah Gragnaniello",
+        "Roberta Scarano"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Salerno",
+        "Università degli Studi di Salerno",
+        "Università degli Studi di Salerno"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/07/11"
+      ],
+      "citation_volume": [
+        "10"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2025oa20578"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/20578"
+      ],
+      "citation_keywords": [
+        "concezioni valutative",
+        "docenti pre-service",
+        "higher education",
+        "ricerca-azione",
+        "sostenibilità"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/20578/3548"
+      ],
+      "citation_reference_count": 45,
+      "DC.Date.created": [
+        "2025-07-11"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-07-07"
+      ],
+      "DC.Date.issued": [
+        "2025-11-17"
+      ],
+      "DC.Date.modified": [
+        "2025-11-17"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "20578"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2025oa20578"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/20578"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "10"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti"
+      ],
+      "DC.Title.Alternative": [
+        "Transforming Higher Education for Sustainability: An analysis of the conceptions on assessment in initial teacher education"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Rosanna Tammaro",
+        "Deborah Gragnaniello",
+        "Roberta Scarano"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Salerno",
+        "Università degli Studi di Salerno",
+        "Università degli Studi di Salerno"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Rosanna Tammaro",
+        "Deborah Gragnaniello",
+        "Roberta Scarano"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The regeneration of Higher Education (HE) is explored. Action research explores the assessment conceptions of future teachers. The role of previous experiences in designing a training path aimed at deconstructing conceptions is highlighted.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The regeneration of Higher Education (HE) is explored. Action research explores the assessment conceptions of future teachers. The role of previous experiences in designing a training path aimed at deconstructing conceptions is highlighted."
+          }
+        },
+        {
+          "content": "Si approfondisce la rigenerazione dell’Higher Education (HE). Una ricerca-azione esplora le concezioni valutative di futuri docenti, evidenziando il ruolo delle esperienze pregresse per progettare una formazione orientata a decostruire preconcetti",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Si approfondisce la rigenerazione dell’Higher Education (HE). Una ricerca-azione esplora le concezioni valutative di futuri docenti, evidenziando il ruolo delle esperienze pregresse per progettare una formazione orientata a decostruire preconcetti"
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "concezioni valutative",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "concezioni valutative"
+          }
+        },
+        {
+          "content": "docenti pre-service",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "docenti pre-service"
+          }
+        },
+        {
+          "content": "higher education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "higher education"
+          }
+        },
+        {
+          "content": "ricerca-azione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "ricerca-azione"
+          }
+        },
+        {
+          "content": "sostenibilità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "sostenibilità"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/20578/3548",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20578/3548",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20578/3548",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20578/3548",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20578/3548",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2025-07-11",
+        "mod_date": "2025-07-11"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20578 Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella forma- zione iniziale dei docenti Transforming Higher Education for Sustainability: An analysis of the conceptions on assessment in initial teacher education Rosanna Tammaro *, Deborah Gragnaniello^, Roberta Scarano° Riassunto Si approfondisce la rigenerazione dell’Higher Education (HE). Una ricerca- azione esplora le concezioni valutative di futuri docenti, evidenziando il ruolo delle esperienze pregresse per progettare una formazione orientata a decostruire preconcetti Parole chiave: concezioni valutative, docenti pre-service, higher education, ri- cerca-azione, sostenibilità. Abstract The regeneration of Higher Education (HE) is explored. Action research explores the assessment conceptions of fu ture teachers. The role of previous experiences in designing a training path aimed at deconstructing conceptions is highlighted. Keywords: assessment conceptions, pre-servi ce teachers, higher education, action research, sustainability, data analysis. Articolo sottomesso: 12/04/2025; accettato: 10/06/2025 * Dipartimento di Scienze Umane, Filosofi che e della Formazione, Università degli studi di Salerno, Italia, e-mail: rtammaro@unisa.it. ^ Dipartimento di Scienze Politiche e della Comunicazione, Università degli studi di Salerno, Italia, e-mail: dgragnaniello@unisa.it. ° Dipartimento di Scienze Politiche e della Comunicazione, Università degli studi di Salerno, Italia, e-mail: rscarano@unisa.it. Il contributo è frutto di un lavoro condiviso in ogni sua parte. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\20578\\2499-507X_20578.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+        "pdf_value": null,
+        "chosen_value": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-07-07",
+        "pdf_value": null,
+        "chosen_value": "2025-07-07",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20578",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20578",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:17Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20578\\temp\\2499-507X_20578.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:22Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20578\\2499-507X_20578.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+        "submitted_date": "2025-07-07",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Rosanna Tammaro",
+          "Deborah Gragnaniello",
+          "Roberta Scarano"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20578\\2499-507X_20578.pdf",
+        "generated_at_utc": "2026-04-21T21:35:22Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2025-07-11",
+          "mod_date": "2025-07-11"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20578 Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella forma- zione iniziale dei docenti Transforming Higher Education for Sustainability: An analysis of the conceptions on assessment in initial teacher education Rosanna Tammaro *, Deborah Gragnaniello^, Roberta Scarano° Riassunto Si approfondisce la rigenerazione dell’Higher Education (HE). Una ricerca- azione esplora le concezioni valutative di futuri docenti, evidenziando il ruolo delle esperienze pregresse per progettare una formazione orientata a decostruire preconcetti Parole chiave: concezioni valutative, docenti pre-service, higher education, ri- cerca-azione, sostenibilità. Abstract The regeneration of Higher Education (HE) is explored. Action research explores the assessment conceptions of fu ture teachers. The role of previous experiences in designing a training path aimed at deconstructing conceptions is highlighted. Keywords: assessment conceptions, pre-servi ce teachers, higher education, action research, sustainability, data analysis. Articolo sottomesso: 12/04/2025; accettato: 10/06/2025 * Dipartimento di Scienze Umane, Filosofi che e della Formazione, Università degli studi di Salerno, Italia, e-mail: rtammaro@unisa.it. ^ Dipartimento di Scienze Politiche e della Comunicazione, Università degli studi di Salerno, Italia, e-mail: dgragnaniello@unisa.it. ° Dipartimento di Scienze Politiche e della Comunicazione, Università degli studi di Salerno, Italia, e-mail: rscarano@unisa.it. Il contributo è frutto di un lavoro condiviso in ogni sua parte. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Trasformare l’Higher Education per la sostenibilità: analisi delle concezioni sull’assessment nella formazione iniziale dei docenti",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-07-07",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-07-07",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:44Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:46Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20578\\temp\\2499-507X_20578.conflicts.json"
+  }
+}

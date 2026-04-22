@@ -1,0 +1,923 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19160",
+  "scraped_at_utc": "2026-04-21T21:35:14Z",
+  "fetched_at_utc": "2026-04-21T21:35:14Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "cc67f8930f05bb83362b47f413cdfdea5d9ba2add682119353c7abfc96931d3a",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Luigina Mortari",
+        "nameType": "Personal",
+        "givenName": "Luigina",
+        "familyName": "Mortari",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Verona"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Roberta Silva",
+        "nameType": "Personal",
+        "givenName": "Roberta",
+        "familyName": "Silva",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Verona"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alessia Bevilacqua",
+        "nameType": "Personal",
+        "givenName": "Alessia",
+        "familyName": "Bevilacqua",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Verona"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alessandra Cordiano",
+        "nameType": "Personal",
+        "givenName": "Alessandra",
+        "familyName": "Cordiano",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Verona"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/19160",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-01-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-01-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-01-24",
+      "Issued": "2025-01-24"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "Service Learning (SL) is an educational methodology that integrates academic learning with community service, fostering a practical connection between theory and practice. Based on Dewey’s philosophy, SL emphasizes critical reflection and service as contributions to society, developing professional and transversal skills such as problem-solving and teamwork, while encouraging a comprehensive civic and social perspective. In the specific field of legal studies, it enables students to tackle real-world issues, developing practical knowledge of the law and a strong professional identity, while also promoting a holistic and collaborative view of the legal discipline. The Erasmus+ project “Mobilising university-community resources through SL for the inclusion of migrants/refugees” exemplifies this approach. It aims to address the challenges of social inclusion in Europe through SL, involving universities and local entities in creating interconnected support networks aimed at supporting both migrants and refugees and fostering reflective professional development among university students.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il Service Learning (SL) è una metodologia didattica che consente di integrare l’apprendimento accademico con il servizio alla comunità, promuovendo una connessione pratica tra teoria e prassi. Basato sul pensiero di Dewey, il SL enfatizza la riflessione critica e il servizio come contributo alla società, sviluppando competenze professionali e trasversali come il problem-solving e il teamwork, incoraggiando una visione civica e sociale complessa. Nello specifico ambito delle scienze giuridiche, essa consente agli studenti di confrontarsi con problemi reali, sviluppando una conoscenza pratica del diritto e una forte identità professionale, oltre a promuovere una visione olistica e collaborativa della disciplina legale. Il progetto Erasmus+ “Mobilising university-community resources through SL for the inclusion of migrants/refugees” ne rappresenta un esempio attuativo. Esso si propone di affrontare le sfide dell’inclusione sociale in Europa tramite il SL, coinvolgendo università ed enti locali nella creazione di reti di sostegno interconnesse finalizzate da un lato al supporto di persone migranti e rifugiate, dall’altro ad uno sviluppo professionale riflessivo degli studenti universitari.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2024oa19160",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "9",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Scienze giuridiche",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Scienze dell’educazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Service Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Cliniche legali",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Università",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Centro per l’innovazione didattica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19160/3153",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "9",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Mortari, L., Silva, R., Bevilacqua, A., & Cordiano, A. (2025). Il Service Learning in area giuridica: l’esperienza dell’Università di Verona. Excellence and Innovation in Learning and Teaching - Open Access , 9 (2). https://doi.org/10.3280/exioa2-2024oa19160",
+      "articleTitleEcho": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Aramburuzabala, P., McIlrath, L., & Opazo, H. (2019). Embedding service learning in European higher education. Routlede: London, UK.",
+        "Ash, A.L., Clayton, P.H., & Atkinson, M.P. (2005). Integrating reflection and assess-ment to capture and improve student learning. Michigan Journal of Community Service-Learning, 11(2), 49-60.",
+        "Bengtsson, L. (2023). The Law in the Community Model of Clinical Legal Education: Assessing the Impact on Key Stakeholders. Int. J. Clinical Legal Educ., 30(2), 1-54.",
+        "Bloom, E. M. (2017). Creating Desirable Difficulties: Strategies for Reshaping Teach-ing and Learning in the Law School Classroom. U. Det. Mercy L. Rev., 95, 115-151.",
+        "Boys, S. K., Quiring, S. Q., Harris, E., & Hagan, C. A. (2015). Social work and law in-terdisciplinary service learning: Increasing future lawyers’ interpersonal skills. Journal of Teaching in Social Work, 35(4), 410-424. DOI: 10.1080/08841233.2015.1063569.",
+        "Clark, T., Croddy, M., Hayes, W., & Philips, S. (1997). Service learning as civic participation. Theory Into Practice, 36(3), 164-169. DOI: 10.1080/00405849709543763.",
+        "Dewey, J. (1916). Democracy and education. Project Gutenberg.",
+        "Dewey, J. (1962). The relation of theory to practice in education. Cedar Falls, Iowa: Association for Student Teaching.",
+        "Eyler, J., Giles, D., & Braxton, J. (1997). The impact of service-learning on college students. Michigan Journal of Community Service Learning, 4, 5-15.",
+        "Furco, A. (1996). Service Learning: a balanced approach to experiential education. In B. Taylor (ed.), Expanding boundaries: Service and Learning. Washington, DC: Corporation for National Service, pp. 2-6.",
+        "Hatcher, J., Bringle, R. & Muthiah, R. (2004). Designing effective reflection: What matters to service-learning. Michigan Journal of Community Service Learning, 11(1), 38-46.",
+        "He, Y., & Prater, K. (2014). Writing together, learning together: teacher development through community Service Learning. Teachers and Teaching: theory and practice, 20(1), 32-44. DOI: 10.1080/13540602.2013.848512.",
+        "Hecht D., & Grode, D., (2012). The Case for Prosocial Education: Service Learning as Community Building. In Brown P.M., Corrigan M.W., D’Alessandro A.H. (Eds.), Handbook of prosocial education (pp. 271-288). Lahman (ML): Rowman & Littlefield.",
+        "Jones, E. (2017). One size fits all? Multiple intelligences and legal education. The Law Teacher, 51(1), 56-68. DOI: 10.1080/03069400.2015.1082238.",
+        "Kahne, J., & Westheimer, J. (1996). In the service of what? The politics of service learning. Phi Delta Kappan, 77(9), 593-599.",
+        "Lawton, A., Saban, K., & Whittam, S. (2022). Do We Want a Human First, and a Lawyer Second? Developing Law Student Empathy Through Clinical Legal Education. Int. J. Clinical Legal Educ., 29(1), 4-31. DOI: 10.19164/ijcle.v29i1.1227.",
+        "Leering, M. M. (2017). Integrated reflective practice: A critical imperative for enhancing legal education and professionalism. Can. B. Rev., 95, 47.",
+        "Mortari, L. (Ed.). (2017). Service learning: per un apprendimento responsabile. Milano: FrancoAngeli.",
+        "Mortari, L., & Silva, R. (2023). Service Learning in Italy: A Bridge Between Academia and Society. In Acquaro, D., Bradbury, O.J., (Eds), International Perspectives on School-University Partnerships: Research, Policy and Practice. (pp. 151-167). Singapore: Springer Nature.",
+        "Quintanilla, V. D., Middenforf, J. K., Hoffmann, F. L., et al. (2019). Experiential Education and Access-to-Justice Within US Law Schools: Designing and Evaluating an Access-to-Justice Service Learning Program Within the First-Year Curriculum. Ind. JL & Soc. Equal., 7, 88.",
+        "Rhode, D.L. (2012). Legal Education: Rethinking the Problem, Reimagining the Reforms. Pepp. L. Rev., 40, 437.",
+        "Rougeau, V. D. (2009). Reforming the Legal Profession Through Faith-Based Service Learning for Law Students: Notre Dame’s “Just Communities” Project. Journal of College and Character, 10(7), 1-7. DOI: 10.2202/1940-1639.1439.",
+        "Rowthorn, V. (2012). Teaching health law: health law service-learning trip: a how-to guide. JL Med. & Ethics, 40, 401. DOI: 10.1111/j.1748-720X.2012.00674.x.",
+        "Scott, J. H. (2012). The Intersection of Service‐Learning and Moral Growth. New di-rections for student services, (139), 27-38. DOI: 10.1002/ss.20020.",
+        "Stanton, T. K., Giles Jr, D. E., & Cruz, N. I. (1999). Service-Learning: A Movement’s Pioneers Reflect on Its Origins, Practice, and Future. Jossey-Bass Higher and Adult Education Series. Jossey-Bass Inc., Publishers, 350 Sansome St., San Fran-cisco, CA 94104.",
+        "Stoecker, R., Loving, K., Reddy, M., & Bollig, N. (2010). Can community-based research guide service learning?. Journal of Community Practice, 18(2-3), 280-296.",
+        "Stuckey, R. et al. (2007). The Best Practices Report for Legal Education. Clinical Legal Education Association.",
+        "United Nations High Commissioner For Refugees (2023). Global Trends Forced Dis-placement in 2023, United Nations High Commissioner for Refugees. Available online at: https://www.unhcr.org/uk/globaltrends (accessed October 25, 2023).",
+        "Virgil, S. M. (2016). The role of experiential learning on a law student's sense of professional identity. Wake Forest L. Rev., 51, 325.",
+        "Vlajkovic, M., & Dabetic, V. (2023). Building transversal skills and competences in legal education. Modernising European Legal Education (MELE), 93.",
+        "Ward, K., & Wolf-Wendel, L. (2000). Community-centered service learning: Moving from doing for to doing with. American Behavioral Scientist, 43(5), 767-780. DOI: 10.1177/00027640021955586."
+      ],
+      "count": 31,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_19160",
+    "article_ID": "19160",
+    "slug": "19160",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "19160",
+      "url_slug": "19160"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Service Learning in the legal field: The experience of the University of Verona",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-01-14",
+      "accepted": null,
+      "created": "2025-01-24",
+      "modified": "2025-01-24",
+      "issued": "2025-01-24",
+      "available": "2025-01-24",
+      "submitted_page": "2025-01-14",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+        "pdf_value": null,
+        "chosen_value": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-14",
+        "pdf_value": null,
+        "chosen_value": "2025-01-14",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19160/3153",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19160/3153",
+      "local_relative_path": "2499-507X_19160.pdf",
+      "saved": true,
+      "sha256": "9f04e05f26e29a5db0a9b00bec8ac549822f5ca38732aeae51be5501b4f29073",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 839979,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Luigina Mortari",
+        "Roberta Silva",
+        "Alessia Bevilacqua",
+        "Alessandra Cordiano"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Verona",
+        "Università degli Studi di Verona",
+        "Università degli Studi di Verona",
+        "Università degli Studi di Verona"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024"
+      ],
+      "citation_volume": [
+        "9"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2024oa19160"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19160"
+      ],
+      "citation_keywords": [
+        "Scienze giuridiche",
+        "Scienze dell’educazione",
+        "Service Learning",
+        "Cliniche legali",
+        "Università",
+        "Centro per l’innovazione didattica"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/19160/3153"
+      ],
+      "citation_reference_count": 31,
+      "DC.Date.created": [
+        "2025-01-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-01-14"
+      ],
+      "DC.Date.issued": [
+        "2025-01-24"
+      ],
+      "DC.Date.modified": [
+        "2025-01-24"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "19160"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2024oa19160"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19160"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "9"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 6,
+      "DC.Title": [
+        "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona"
+      ],
+      "DC.Title.Alternative": [
+        "Service Learning in the legal field: The experience of the University of Verona"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Luigina Mortari",
+        "Roberta Silva",
+        "Alessia Bevilacqua",
+        "Alessandra Cordiano"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Verona",
+        "Università degli Studi di Verona",
+        "Università degli Studi di Verona",
+        "Università degli Studi di Verona"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Luigina Mortari",
+        "Roberta Silva",
+        "Alessia Bevilacqua",
+        "Alessandra Cordiano"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Service Learning (SL) is an educational methodology that integrates academic learning with community service, fostering a practical connection between theory and practice. Based on Dewey’s philosophy, SL emphasizes critical reflection and service as contributions to society, developing professional and transversal skills such as problem-solving and teamwork, while encouraging a comprehensive civic and social perspective. In the specific field of legal studies, it enables students to tackle real-world issues, developing practical knowledge of the law and a strong professional identity, while also promoting a holistic and collaborative view of the legal discipline. The Erasmus+ project “Mobilising university-community resources through SL for the inclusion of migrants/refugees” exemplifies this approach. It aims to address the challenges of social inclusion in Europe through SL, involving universities and local entities in creating interconnected support networks aimed at supporting both migrants and refugees and fostering reflective professional development among university students.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Service Learning (SL) is an educational methodology that integrates academic learning with community service, fostering a practical connection between theory and practice. Based on Dewey’s philosophy, SL emphasizes critical reflection and service as contributions to society, developing professional and transversal skills such as problem-solving and teamwork, while encouraging a comprehensive civic and social perspective. In the specific field of legal studies, it enables students to tackle real-world issues, developing practical knowledge of the law and a strong professional identity, while also promoting a holistic and collaborative view of the legal discipline. The Erasmus+ project “Mobilising university-community resources through SL for the inclusion of migrants/refugees” exemplifies this approach. It aims to address the challenges of social inclusion in Europe through SL, involving universities and local entities in creating interconnected support networks aimed at supporting both migrants and refugees and fostering reflective professional development among university students."
+          }
+        },
+        {
+          "content": "Il Service Learning (SL) è una metodologia didattica che consente di integrare l’apprendimento accademico con il servizio alla comunità, promuovendo una connessione pratica tra teoria e prassi. Basato sul pensiero di Dewey, il SL enfatizza la riflessione critica e il servizio come contributo alla società, sviluppando competenze professionali e trasversali come il problem-solving e il teamwork, incoraggiando una visione civica e sociale complessa. Nello specifico ambito delle scienze giuridiche, essa consente agli studenti di confrontarsi con problemi reali, sviluppando una conoscenza pratica del diritto e una forte identità professionale, oltre a promuovere una visione olistica e collaborativa della disciplina legale. Il progetto Erasmus+ “Mobilising university-community resources through SL for the inclusion of migrants/refugees” ne rappresenta un esempio attuativo. Esso si propone di affrontare le sfide dell’inclusione sociale in Europa tramite il SL, coinvolgendo università ed enti locali nella creazione di reti di sostegno interconnesse finalizzate da un lato al supporto di persone migranti e rifugiate, dall’altro ad uno sviluppo professionale riflessivo degli studenti universitari.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il Service Learning (SL) è una metodologia didattica che consente di integrare l’apprendimento accademico con il servizio alla comunità, promuovendo una connessione pratica tra teoria e prassi. Basato sul pensiero di Dewey, il SL enfatizza la riflessione critica e il servizio come contributo alla società, sviluppando competenze professionali e trasversali come il problem-solving e il teamwork, incoraggiando una visione civica e sociale complessa. Nello specifico ambito delle scienze giuridiche, essa consente agli studenti di confrontarsi con problemi reali, sviluppando una conoscenza pratica del diritto e una forte identità professionale, oltre a promuovere una visione olistica e collaborativa della disciplina legale. Il progetto Erasmus+ “Mobilising university-community resources through SL for the inclusion of migrants/refugees” ne rappresenta un esempio attuativo. Esso si propone di affrontare le sfide dell’inclusione sociale in Europa tramite il SL, coinvolgendo università ed enti locali nella creazione di reti di sostegno interconnesse finalizzate da un lato al supporto di persone migranti e rifugiate, dall’altro ad uno sviluppo professionale riflessivo degli studenti universitari."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Scienze giuridiche",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Scienze giuridiche"
+          }
+        },
+        {
+          "content": "Scienze dell’educazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Scienze dell’educazione"
+          }
+        },
+        {
+          "content": "Service Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Service Learning"
+          }
+        },
+        {
+          "content": "Cliniche legali",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Cliniche legali"
+          }
+        },
+        {
+          "content": "Università",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Università"
+          }
+        },
+        {
+          "content": "Centro per l’innovazione didattica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Centro per l’innovazione didattica"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19160/3153",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19160/3153",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19160/3153",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19160/3153",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19160/3153",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2025-01-24",
+        "mod_date": "2025-01-24"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19160 Il Service Learning in area giuridica: l’esperienza dell’Università di Verona Service Learning in the legal field: The experience of the University of Verona Luigina Mortari, Roberta Silva, Alessia Bevilacqua, Alessandra Cordiano* Riassunto Il Service Learning (SL) è una metodologia didattica che consente di integrare l’apprendimento accademico con il servi zio alla comunità , promuovendo una connessione pratica tra teoria e prassi. Basato sul pensiero di Dewey, il SL en- fatizza la riflessione critica e il servizio come contributo alla società, svilup- pando competenze professionali e trasversali come il problem-solving e il team- work, incoraggiando una visione civica e sociale complessa. Nello specifico ambito delle scienze giuridiche, essa consente agli studenti di confrontarsi con problemi reali, sviluppando una conoscenza pratica del diritto e una forte iden- tità professionale, oltre a promuovere una visione olistica e collaborativa della disciplina legale. Il progetto Erasmus+ “ Mobilising university-community re- sources through SL for the inclusion of migrants/refugees ” ne rappresenta un esempio attuativo. Esso si propone di affrontare le sfide dell’inclusione sociale in Europa tramite il SL, coinvolgendo università ed enti locali nella creazione di reti di sostegno interconnesse finalizzate da un lato al su pporto di persone migranti e rifugiate, dall’altro ad uno sviluppo professionale riflessivo degli studenti universitari. Parole chiave: Scienze giuridiche, Scienze dell’educazione, Service Learning, Cliniche legali, Università, Centro per l’innovazione didattica. * Università degli Studi di Verona. Contatto principale Bevilacqua Alessia, e-mail: alessia.bevilacqua@univr.it Ai fini della valutazione accademica si attr ibuiscano a Luigina Mortari il paragrafo 1, a Roberta Silva il paragrafo 2, ad Alessia Bevilacqua il paragrafo 3.1 e ad Alessandra Cordiano il paragrafo 3. L’attribuzione della bibliografia è invece equamente divisa. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\19160\\2499-507X_19160.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+        "pdf_value": null,
+        "chosen_value": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-14",
+        "pdf_value": null,
+        "chosen_value": "2025-01-14",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19160",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19160",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:14Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19160\\temp\\2499-507X_19160.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:17Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19160\\2499-507X_19160.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+        "submitted_date": "2025-01-14",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Luigina Mortari",
+          "Roberta Silva",
+          "Alessia Bevilacqua",
+          "Alessandra Cordiano"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19160\\2499-507X_19160.pdf",
+        "generated_at_utc": "2026-04-21T21:35:17Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2025-01-24",
+          "mod_date": "2025-01-24"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19160 Il Service Learning in area giuridica: l’esperienza dell’Università di Verona Service Learning in the legal field: The experience of the University of Verona Luigina Mortari, Roberta Silva, Alessia Bevilacqua, Alessandra Cordiano* Riassunto Il Service Learning (SL) è una metodologia didattica che consente di integrare l’apprendimento accademico con il servi zio alla comunità , promuovendo una connessione pratica tra teoria e prassi. Basato sul pensiero di Dewey, il SL en- fatizza la riflessione critica e il servizio come contributo alla società, svilup- pando competenze professionali e trasversali come il problem-solving e il team- work, incoraggiando una visione civica e sociale complessa. Nello specifico ambito delle scienze giuridiche, essa consente agli studenti di confrontarsi con problemi reali, sviluppando una conoscenza pratica del diritto e una forte iden- tità professionale, oltre a promuovere una visione olistica e collaborativa della disciplina legale. Il progetto Erasmus+ “ Mobilising university-community re- sources through SL for the inclusion of migrants/refugees ” ne rappresenta un esempio attuativo. Esso si propone di affrontare le sfide dell’inclusione sociale in Europa tramite il SL, coinvolgendo università ed enti locali nella creazione di reti di sostegno interconnesse finalizzate da un lato al su pporto di persone migranti e rifugiate, dall’altro ad uno sviluppo professionale riflessivo degli studenti universitari. Parole chiave: Scienze giuridiche, Scienze dell’educazione, Service Learning, Cliniche legali, Università, Centro per l’innovazione didattica. * Università degli Studi di Verona. Contatto principale Bevilacqua Alessia, e-mail: alessia.bevilacqua@univr.it Ai fini della valutazione accademica si attr ibuiscano a Luigina Mortari il paragrafo 1, a Roberta Silva il paragrafo 2, ad Alessia Bevilacqua il paragrafo 3.1 e ad Alessandra Cordiano il paragrafo 3. L’attribuzione della bibliografia è invece equamente divisa. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Il Service Learning in area giuridica: l’esperienza dell’Università di Verona",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-01-14",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-01-14",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:41Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:42Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19160\\temp\\2499-507X_19160.conflicts.json"
+  }
+}

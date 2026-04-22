@@ -1,0 +1,880 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19157",
+  "scraped_at_utc": "2026-04-21T21:35:09Z",
+  "fetched_at_utc": "2026-04-21T21:35:09Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "52392822796adb2aae64481336e57b7750f137ee2464168a5247c7e181f8f7e3",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Beatrice Saltarelli",
+        "nameType": "Personal",
+        "givenName": "Beatrice",
+        "familyName": "Saltarelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Istituto Universitario Salesiano Venezia (IUSVE)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Elena Mantoet",
+        "nameType": "Personal",
+        "givenName": "Elena",
+        "familyName": "Mantoet",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Istituto Universitario Salesiano Venezia (IUSVE)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/19157",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-01-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-01-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-01-24",
+      "Issued": "2025-01-24"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The aim of this pilot study is to investigate an aspect of the reasoning process activated by social workers in training, during their internship experiences. In particular, identify and map the assumptions by which the students make decisions about a specific action (including not acting). The hypothesis is that the abduction is the most relevant type of reasoning to understand and decide on events that are always new, as often they are in educational practice. The thematic analysis of the logbook, as a survey tool, highlights, on the one hand, the easy access of students to the implicit of the chosen action (94%), on the other a complexity of the same implicit (between hypothesis, explanatory hypothesis and purpose) which requires both, further investigation in this regard, as well as educational attention in order to stimulate appropriate learning from experience.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Obiettivo di questo studio pilota è indagare un aspetto del processo di ragionamento attivato dagli educatori socio-pedagogici in formazione, durante le loro esperienze di tirocinio. Nello specifico individuare e mappare gli assunti alla luce dei quali gli studenti giungono a decidere in favore di una specifica azione (compreso il non agire). Presupposto è che l’abduzione sia la tipologia di ragionamento maggiormente pertinente per comprendere e decidere in merito ad eventi sempre nuovi, come spesso sono quelli vissuti nella pratica educativa. L’analisi tematica del diario di bordo, come strumento di indagine, restituisce, da una parte un facile accesso degli studenti alla messa a fuoco degli impliciti alla base dell’azione scelta (94%), dall’altra una complessità degli impliciti stessi (tra assunti, ipotesi esplicativa e scopo) che richiede tanto ulteriori indagini in merito, quanto un’attenzione didattica nell’ottica di sollecitare un appropriato apprendimento dall’esperienza.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2024oa19157",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "9",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Ragionamento abduttivo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Tirocinio",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Pratica educativa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Pensiero riflessivo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Didattica universitaria",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19157/3151",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "9",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Saltarelli, B., & Mantoet, E. (2025). Abduzione e pratica educativa: come ragionano gli educatori in tirocinio. Excellence and Innovation in Learning and Teaching - Open Access , 9 (2). https://doi.org/10.3280/exioa2-2024oa19157",
+      "articleTitleEcho": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Agrati, L. S. (2016). La competenza progettuale dell’insegnante. Esplicitazione della componente abduttiva. In Formazione & insegnamento. European Journal of Research on Education and Teaching, 14(3), 155-164. doi: 107346/-fei-XIV-03-16_11.",
+        "Baldacci, M. (2006). Ripensare il curriculo. Principi educativi e strategie didattiche. Carocci Editore.",
+        "Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3(2), 77-101. DOI: 10.1191/1478088706qp063oa.",
+        "Biesta, G. (2019). How have you been? On Existential Reflection and Thoughtful Teaching. In Webster, R. S., & Whelen, J. D. (eds.), Rethinking Reflection and Ethics for Teachers. Spinger. DOI: 10.1007/978-981-32-9401-1_8.",
+        "Castoldi, M. (2015). Didattica generale. Milano: Mondadori Education.",
+        "Demir, M., Zengin, Y. (2024). How Do Structural and Process Aspects of Mathematical Reasoning Support Each Other Through the Integration of GeoGebra and the ACODESA Method?. Digital Experiences in Mathematics Education, 10(3), 514-542. DOI: 10.1007/s40751-024-00154-9.",
+        "Fabbri, L. (2014). Comunità di pratiche e apprendimento riflessivo. Per una formazione situata. Carocci Editore.",
+        "Fabbri, L., Romano, A. (2017). Metodi per l’apprendimento trasformativo. Carocci Editore.",
+        "Fedeli, M., Grion, V., Frison, D. (2016). Coinvolgere per apprendere. Metodi e tecniche partecipative per la formazione. Pensa Multimedia.",
+        "Frison, D., Fedeli, M., Minnoni, E. (2017). Il ruolo della riflessione nell’apprendimento degli adulti: rappresentazioni e pratiche nella didattica universitaria e nella formazione. In Formazione & Insegnamento. European Journal of Research on Education and Teaching, XV(1).",
+        "Grossen, M. (2010). Interaction Analysis and Psychology: A Dialogical Perspective. In Integrative Psychological and Behavioral Science, 44, 1-21. DOI: 10.1007/s12124-009-9108-9.",
+        "Hintikka, J. (1999). Inquiry as Inquiry. A logic of scientific discovery. NY: Springer Science+Business Media. DOI: 10.1007/ 978-1-4419-1428-6.",
+        "Magnani, L. (ed). (2023). Handbook of abductive cognition. Switzerland: Springer Nature. DOI: 10.1007/978-3-642-03631-6.",
+        "Markovà, I. (2006). On “The Inner Alter” in dialogue. International Journal for Dialogical Science, 1(1), 125-147. DOI: 10.1177/1354067X11418541.",
+        "Markovà, I. (2016). The Dialogical Mind. Cambridge University Press.",
+        "Miatto E., Saltarelli B. (2024). Pensamiento dialógico y confianza epistémica en la didáctica universitaria para la formación de los educadores sociales. In Sánchez-Pérez Y., Esteban Bara F., Fuentes J.L. (eds), Ideas y propuestas para pensar la universidad en tiempos de incertidumbre, (pp. 225-228). Barcelona: Octaedro.",
+        "Miatto, E., Rossi, L., Saltarelli, B. (2021). Il tirocinio come apprendimento. Indagare l’accompagnamento alla pratica degli educatori professionali socio-pedagogici. Formazione&insegnamento. European Journal of Research on Education and Teaching, 19(2), 88-95. DOI: 10.7346/-fei-XIX-02-21_09.",
+        "Milani, L. (2017). La progettualità educativa. Come svilupparla in educatori e pedagogisti. Pedagogia Oggi, XV(2).",
+        "Milesi, P., Catellani, P. (2002). L’analisi qualitativa di testi con il programma Atlas.ti. In Mazzara, B. M. (ed). Metodi qualitativi in psicologia sociale. Roma: Carocci Editore.",
+        "Mirza, N.A., Akhtar-Danesh N., Noesgaard C, Martin L, Byrne C. (2019). Usefulness of abductive reasoning in nursing education: a pilot study. Nurse Education, 45(4), 220-224. DOI: 10.1097/NNE.0000000000000755.",
+        "Mortari, L. (2003). Apprendere dall’esperienza. Carocci Editore.",
+        "National Academies of Sciences, Engineering, and Medicine [NASEM] (2019). Come apprendiamo. Discenti, contesti, culture [2018]. Roma: LAS.",
+        "Råholm, M. B. (2010). Abductive reasoning and the formation of scientific knowledge within nursing research. Nursing Philosophy, 11(4), 260-270. DOI: 10.1111/j.1466-769X.2010.00457.x.",
+        "Palmieri, C. (2018). Dentro il lavoro educativo. Pensare il metodo, tra scenario professionale e cura dell’esperienza educativa. FrancoAngeli.",
+        "Paul, R. (2005). The state of critical thinking today. New directions for community colleges, (130), 27-38. DOI: 10.1002/cc.193.",
+        "Perla, L. (2010). La didattica dell’implicito. Brescia: La scuola SEI.",
+        "Perla, L. (2014). La ricerca didattica sugli impliciti d’aula. Opzioni metodologiche. In Italian Journal of Educational Research, (6), 119-130. https://ojs.pensamultimedia.it/index.php/sird/article/view/279.",
+        "Perla, L., Agrati, L.S., Amati, I. (2020). Agire educativo e trasposizione didattica dei saperi della relazione educativa. Una ricerca co-costruita con gli studenti della L-19 dell’Università degli Studi di Bari Aldo Moro. Rivista Italiana di Educazione Familiare, 2, 221-243. DOI: 10.13128/rief-9555.",
+        "Perla, L., Vinci, V. (2012). Tirocinio formativo e apprendistato di alta formazione come mediatori del sapere pratico. Risultati di un’indagine. Formazione, lavoro, persona, 2(5). https://forperlav.unibg.it/index.php/fpl/article/view/70/56.",
+        "Ritchhart, R., & Perkins, D. N. (2005). Learning to think: The challenges of teaching thinking. In Holyoak, K. J., Morrison, R. G. (eds), The Cambridge handbook of thinking and reasoning (pp. 775-802). UK: Cambridge University Press.",
+        "Seel, N. M. (ed) (2012). Encyclopedia of the sciences of learning. NY: Springer Science + Business Media. DOI: 10.1007/ 978-1-4419-1428-6.",
+        "Shön, D. (2006). Il professionista riflessivo. Per una nuova epistemologia della pratica professionale [1993]. Dedalo.",
+        "Tramma, S. (2017). Divenire ed essere educatrici ed educatori nei servizi socioeducativi della contemporaneità. Pedagogia Oggi, XV(2).",
+        "Tramma, S. (2020). L’educazione sociale. Laterza.",
+        "Upmeier zu Belzen, A., Engelschalt, P., Krüger, D. (2021). Modeling as Scientific Reasoning ‒ The Role of Abductive Reasoning for Modeling Competence. Education Sciences, 11, 495. DOI: 10.3390/educsci11090495.",
+        "Zittoun, T. (2014). Three dimensions in dialogical movement. New Ideas in Psychology, 32, 99-106. DOI: 10.1016/j.newideapsych.2013.05.006."
+      ],
+      "count": 36,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_19157",
+    "article_ID": "19157",
+    "slug": "19157",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "19157",
+      "url_slug": "19157"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Abduction and educational practice: How educators in training think",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-01-14",
+      "accepted": null,
+      "created": "2025-01-24",
+      "modified": "2025-02-07",
+      "issued": "2025-01-24",
+      "available": "2025-01-24",
+      "submitted_page": "2025-01-14",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+        "pdf_value": null,
+        "chosen_value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-14",
+        "pdf_value": null,
+        "chosen_value": "2025-01-14",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19157/3151",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19157/3151",
+      "local_relative_path": "2499-507X_19157.pdf",
+      "saved": true,
+      "sha256": "c96367026921ac45434edf804c94955bd239469e1b691568d6d76cd5ac25de0f",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 841486,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Beatrice Saltarelli",
+        "Elena Mantoet"
+      ],
+      "citation_author_institution": [
+        "Istituto Universitario Salesiano Venezia (IUSVE)",
+        "Istituto Universitario Salesiano Venezia (IUSVE)"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024"
+      ],
+      "citation_volume": [
+        "9"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2024oa19157"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19157"
+      ],
+      "citation_keywords": [
+        "Ragionamento abduttivo",
+        "Tirocinio",
+        "Pratica educativa",
+        "Pensiero riflessivo",
+        "Didattica universitaria"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/19157/3151"
+      ],
+      "citation_reference_count": 36,
+      "DC.Date.created": [
+        "2025-01-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-01-14"
+      ],
+      "DC.Date.issued": [
+        "2025-01-24"
+      ],
+      "DC.Date.modified": [
+        "2025-02-07"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "19157"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2024oa19157"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19157"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "9"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio"
+      ],
+      "DC.Title.Alternative": [
+        "Abduction and educational practice: How educators in training think"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Beatrice Saltarelli",
+        "Elena Mantoet"
+      ],
+      "citation_author_institution": [
+        "Istituto Universitario Salesiano Venezia (IUSVE)",
+        "Istituto Universitario Salesiano Venezia (IUSVE)"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Beatrice Saltarelli",
+        "Elena Mantoet"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The aim of this pilot study is to investigate an aspect of the reasoning process activated by social workers in training, during their internship experiences. In particular, identify and map the assumptions by which the students make decisions about a specific action (including not acting). The hypothesis is that the abduction is the most relevant type of reasoning to understand and decide on events that are always new, as often they are in educational practice. The thematic analysis of the logbook, as a survey tool, highlights, on the one hand, the easy access of students to the implicit of the chosen action (94%), on the other a complexity of the same implicit (between hypothesis, explanatory hypothesis and purpose) which requires both, further investigation in this regard, as well as educational attention in order to stimulate appropriate learning from experience.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The aim of this pilot study is to investigate an aspect of the reasoning process activated by social workers in training, during their internship experiences. In particular, identify and map the assumptions by which the students make decisions about a specific action (including not acting).\nThe hypothesis is that the abduction is the most relevant type of reasoning to understand and decide on events that are always new, as often they are in educational practice. The thematic analysis of the logbook, as a survey tool, highlights, on the one hand, the easy access of students to the implicit of the chosen action (94%), on the other a complexity of the same implicit (between hypothesis, explanatory hypothesis and purpose) which requires both, further investigation in this regard, as well as educational attention in order to stimulate appropriate learning from experience."
+          }
+        },
+        {
+          "content": "Obiettivo di questo studio pilota è indagare un aspetto del processo di ragionamento attivato dagli educatori socio-pedagogici in formazione, durante le loro esperienze di tirocinio. Nello specifico individuare e mappare gli assunti alla luce dei quali gli studenti giungono a decidere in favore di una specifica azione (compreso il non agire). Presupposto è che l’abduzione sia la tipologia di ragionamento maggiormente pertinente per comprendere e decidere in merito ad eventi sempre nuovi, come spesso sono quelli vissuti nella pratica educativa. L’analisi tematica del diario di bordo, come strumento di indagine, restituisce, da una parte un facile accesso degli studenti alla messa a fuoco degli impliciti alla base dell’azione scelta (94%), dall’altra una complessità degli impliciti stessi (tra assunti, ipotesi esplicativa e scopo) che richiede tanto ulteriori indagini in merito, quanto un’attenzione didattica nell’ottica di sollecitare un appropriato apprendimento dall’esperienza.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Obiettivo di questo studio pilota è indagare un aspetto del processo di ragionamento attivato dagli educatori socio-pedagogici in formazione, durante le loro esperienze di tirocinio. Nello specifico individuare e mappare gli assunti alla luce dei quali gli studenti giungono a decidere in favore di una specifica azione (compreso il non agire).\nPresupposto è che l’abduzione sia la tipologia di ragionamento maggiormente pertinente per comprendere e decidere in merito ad eventi sempre nuovi, come spesso sono quelli vissuti nella pratica educativa. L’analisi tematica del diario di bordo, come strumento di indagine, restituisce, da una parte un facile accesso degli studenti alla messa a fuoco degli impliciti alla base dell’azione scelta (94%), dall’altra una complessità degli impliciti stessi (tra assunti, ipotesi esplicativa e scopo) che richiede tanto ulteriori indagini in merito, quanto un’attenzione didattica nell’ottica di sollecitare un appropriato apprendimento dall’esperienza."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Ragionamento abduttivo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Ragionamento abduttivo"
+          }
+        },
+        {
+          "content": "Tirocinio",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Tirocinio"
+          }
+        },
+        {
+          "content": "Pratica educativa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Pratica educativa"
+          }
+        },
+        {
+          "content": "Pensiero riflessivo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Pensiero riflessivo"
+          }
+        },
+        {
+          "content": "Didattica universitaria",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Didattica universitaria"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19157/3151",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19157/3151",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19157/3151",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19157/3151",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19157/3151",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2025-01-24",
+        "mod_date": "2025-01-24"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19157 Abduzione e pratica educativa: come ragionano gli educatori in tirocinio Abduction and educational practice: How educa- tors in training think Beatrice Saltarelli*, Elena Mantoet* Riassunto Obiettivo di questo studio pilota è indagare un aspetto del processo di ragiona- mento attivato dagli educatori socio-pedagogici in formazione, durante le loro esperienze di tirocinio. Nello specifico individuare e mappare gli assunti alla luce dei quali gli studenti giungono a decidere in favore di una specifica azione (compreso il non agire). Presupposto è che l’abduzione sia la tipologia di ragionamento maggiormente pertinente per comprendere e decidere in merito ad eventi sempre nuovi, come spesso sono quelli vissuti nella pratica educa tiva. L’analisi tematica del diario di bordo, come strumento di indagine, restituisce, da una parte un facile accesso degli studenti alla messa a fuoco degl i impliciti alla base dell’azione scelta (94%), dall’altra una complessità degli impliciti stessi (tra assunti, ipotesi espli- cativa e scopo) che richiede tanto ulteriori indagini in merito, quanto un’atten- zione didattica nell’ottica di sollecitare un appropriato apprendimento dall’esperienza. Parole chiave: ragionamento abduttivo; tirocinio; pratica educativa; pensiero riflessivo; didattica universitaria Abstract The aim of this pilot study is to inves tigate an aspect of the reasoning process activated by social workers in training, during their internship experiences. In particular, identify and map the assump tions by which the students make decisions about a specific action (including not acting). The hypothesis is that the abduction is th e most relevant type of reasoning to understand and decide on events that ar e always new, as often they are in * Istituto Universitario Salesiano Venezia (IUSVE). Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\2499-507X_19157.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+        "pdf_value": null,
+        "chosen_value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-14",
+        "pdf_value": null,
+        "chosen_value": "2025-01-14",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19157",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19157",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:09Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\temp\\2499-507X_19157.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:10Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\2499-507X_19157.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+        "submitted_date": "2025-01-14",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Beatrice Saltarelli",
+          "Elena Mantoet"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\2499-507X_19157.pdf",
+        "generated_at_utc": "2026-04-21T21:35:10Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2025-01-24",
+          "mod_date": "2025-01-24"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19157 Abduzione e pratica educativa: come ragionano gli educatori in tirocinio Abduction and educational practice: How educa- tors in training think Beatrice Saltarelli*, Elena Mantoet* Riassunto Obiettivo di questo studio pilota è indagare un aspetto del processo di ragiona- mento attivato dagli educatori socio-pedagogici in formazione, durante le loro esperienze di tirocinio. Nello specifico individuare e mappare gli assunti alla luce dei quali gli studenti giungono a decidere in favore di una specifica azione (compreso il non agire). Presupposto è che l’abduzione sia la tipologia di ragionamento maggiormente pertinente per comprendere e decidere in merito ad eventi sempre nuovi, come spesso sono quelli vissuti nella pratica educa tiva. L’analisi tematica del diario di bordo, come strumento di indagine, restituisce, da una parte un facile accesso degli studenti alla messa a fuoco degl i impliciti alla base dell’azione scelta (94%), dall’altra una complessità degli impliciti stessi (tra assunti, ipotesi espli- cativa e scopo) che richiede tanto ulteriori indagini in merito, quanto un’atten- zione didattica nell’ottica di sollecitare un appropriato apprendimento dall’esperienza. Parole chiave: ragionamento abduttivo; tirocinio; pratica educativa; pensiero riflessivo; didattica universitaria Abstract The aim of this pilot study is to inves tigate an aspect of the reasoning process activated by social workers in training, during their internship experiences. In particular, identify and map the assump tions by which the students make decisions about a specific action (including not acting). The hypothesis is that the abduction is th e most relevant type of reasoning to understand and decide on events that ar e always new, as often they are in * Istituto Universitario Salesiano Venezia (IUSVE). Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-01-14",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-01-14",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:30Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:32Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\temp\\2499-507X_19157.conflicts.json"
+  }
+}

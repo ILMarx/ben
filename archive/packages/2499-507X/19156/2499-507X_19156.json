@@ -1,0 +1,873 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19156",
+  "scraped_at_utc": "2026-04-21T21:35:06Z",
+  "fetched_at_utc": "2026-04-21T21:35:06Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "c1270df8328febedcced467cac70f7c1f439e99550532db83e3affc0eb9f57ad",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Orientamento attivo nella transizione scuola-università-lavoro",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Rossana Sicurello",
+        "nameType": "Personal",
+        "givenName": "Rossana",
+        "familyName": "Sicurello",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Palermo"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/19156",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-01-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-01-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-01-24",
+      "Issued": "2025-01-24"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The topic of support for career choice in relation to the transition phase from school to university and to the world of work has become a relevant focus in the debate on orientation. Choosing the major in secondary school, the university course, the specific skills to develop or the directions in which to direct one's learning efforts apparently seem like simple tasks that concern all young adults in moments of transition and passage from school to university and from university to the world of work, but this is not always the case: these are, in fact, crucial development tasks for the construction of a future working and professional identity for which people are not always prepared and/or adequately supported from the family, social and cultural context that surrounds them. It is suggested the implementation of a support system for the development of Career Management Skills, skills and abilities necessary for the management, exploration, identification and realization of personal educational and professional expectations. The article presents, in this direction, the educational and professional orientation paths dedicated to secondary school and university students, in line with the provisions of the PNRR reforms.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il tema dell’accompagnamento alla scelta di carriera in relazione alla fase di transizione dalla scuola all’università e al mondo del lavoro è diventato un focus rilevante nel dibattito sull’orientamento. Scegliere l’indirizzo nella scuola secondaria di secondo grado, il percorso universitario, le competenze specifiche da sviluppare o le direzioni verso cui orientare i propri sforzi di apprendimento apparentemente sembrano compiti semplici che interessano tutti i giovani adulti nei momenti di transizione e di passaggio dalla scuola all’università e dall’università al mondo del lavoro, ma non sempre è così: si tratta, infatti, di compiti di sviluppo cruciali per la costruzione della futura identità lavorativa e professionale per cui non sempre le persone sono preparate e/o adeguatamente supportate dal contesto familiare, sociale, culturale che li circonda. Una risposta potrebbe essere l’implementazione di un sistema di supporto allo sviluppo delle Career Management Skills, ovvero quelle competenze e abilità necessarie per la gestione, esplorazione, identificazione e realizzazione delle proprie aspettative a livello personale, formativo e lavorativo. Sono presentati, in tale direzione, i percorsi di orientamento educativo e professionale dedicati a studentesse e studenti di scuola secondaria di secondo grado e universitari, in linea con quanto stabilito dalle riforme PNRR per la transizione scuola-università-lavoro.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2024oa19156",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "9",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Orientamento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Transizione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Career Management Skills",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Empowerment",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Autodeterminazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19156/3150",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "9",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Sicurello, R. (2025). Orientamento attivo nella transizione scuola-università-lavoro. Excellence and Innovation in Learning and Teaching - Open Access , 9 (2). https://doi.org/10.3280/exioa2-2024oa19156",
+      "articleTitleEcho": "Orientamento attivo nella transizione scuola-università-lavoro"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Amir, T., & Gati, I. (2006). Facets of career decision-making difficulties. British Journal of Guidance and Counselling, 34, 483-503.",
+        "Bartholomäi, A., De Palma, C.P. & Zanini, P. (2022). StarNet. Un modello di lavoro collaborativo e in rete per una migliore transizione scuola-lavoro. In Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills (pp. 117-132). PensaMultimedia.",
+        "Bassi, M. (2022). Una ricerca-azione a supporto dell’orientamento tra pari: dalla sperimentazione “Job design” al servizio “Peer career Advising” di Ateneo. In Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills (pp. 277-290). PensaMultimedia.",
+        "Bertuletti, P., & Potestio, A. (2022). L’apprendistato di alta formazione come leva per l’innovazione sociale. In Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills (pp. 233-246). PensaMultimedia.",
+        "Bonelli, R., & Da Re, L. (2022). Le azioni di orientamento in università e il dialogo con le aspettative degli studenti. Studium Educationis, (1), 88-101.",
+        "Bonometti, S. (2022). Peer tutorship e formazione dei tutor. L’esperienza dell’Università dell’Insubria. In Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills (pp. 233-246). PensaMultimedia.",
+        "Capo, M. (2022). Il laboratorio interattivo Spo: uno spazio-tempo psicopedagogico per l’auto-riconoscimento e la promozione del sé personale e professionale. In Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills (pp. 145-160). PensaMultimedia.",
+        "Cardone, S. (2022). “Job Design”: la sperimentazione di un servizio di Career Advising presso il DISTUM dell’università di Foggia. In Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills (pp. 259-276). PensaMultimedia.",
+        "Chung, B. Y., (2002). Career decision-making self-efficacy and career commitment: Gender and ethnic differences among college students. Journal of Career Development, 28(4), 277-284.",
+        "Da Re, L., Feraco, T., Bonelli, R., & Meneghetti, C. (2024). “Destinazione Università”: un percorso innovativo online di orientamento per lo sviluppo di competenze trasversali. Excellence and innovation in learning and teaching: research and practices, 9, 1, 55-71.",
+        "Dato, D., Cardone, S., & Romano, C. (2023). PNRR)/“Educare alla scelta per il futuro”: un percorso per l’orientamento attivo nella transizione scuola-università (PNRR). Q-TIMES WEBMAGAZINE.",
+        "De Maria, F., Montorsi, S. (2023). Promuovere lo sviluppo professionale nella transizione scuola-università. Form@re - Open Journal per la formazione in rete, 23(2), 296-306.",
+        "DECRETO DEL MINISTRO DELL’ISTRUZIONE E DEL MERITO 22 dicembre 2022, n. 328, concernente l’adozione delle Linee guida per l’orientamento, relative alla riforma 1.4 “Riforma del sistema di orientamento”, nell’ambito della Missione 4 - Componente 1- del Piano nazionale di ripresa e resilienza.",
+        "DECRETO MINISTERIALE 24 giugno 2022, n. 170, Riparto delle risorse fra le istituzioni scolastiche per il contrasto alla dispersione nell’ambito dell’Investimento 1.4 del PNRR per la riduzione dei divari territoriali.",
+        "DECRETO MINISTERIALE 3 agosto 2022, n. 934, Criteri di riparto delle risorse e modalità di attuazione dei progetti relativi al “Orientamento attivo nella transizione scuola-università” nell’ambito del PNRR (M4.C1-24).",
+        "Del Gobbo, G., Frison, D., Galeotti, G. (2021). Early Career Education. Strategie e prospettive di orientamento. PensaMultimedia.",
+        "Di Fabio, A., & Palazzeschi, L. (2010). Career Decision-Making Difficulties Questionnaire: Proprietà psicometriche nel contesto italiano. Counseling: Giornale Italiano di Ricerca e Applicazioni, 3, 351-364.",
+        "Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills. PensaMultimedia.",
+        "Dixon-Reeves, R. (2003). Mentoring as a Precursor to Incorporation: An Assessment of the Mentoring Experience of Recently Minted Ph.D.s. Journal of Black Studies, 34(1), 12-27. https://psycnet.apa.org/doi/10.1177/0021934703253680.",
+        "Eret, E., Yerin Güneri, O., & Aydin, Y. C. (2018). Evaluation of peer mentoring program in higher education: Does it support smooth transition of new faculty to the academia? Journal of Higher Education and Science, 8(3), 532-541.",
+        "Federighi, P., Del Gobbo, G., & Frison, D. (2021). Un dispositivo di self-directed guidance per orientare alle professioni educative. Educational reflective practices, 1, 22-36.",
+        "Forakis, J., March, J. L., & Erdmann, M. (2020). The impact of COVID-19 on the academic plans and career intentions of future STEM professionals. Journal of Chemical Education, 97(9), 3336-3340. DOI: 10.1021/acs.jchemed.0c00646.",
+        "Gati, I., Krausz, M., & Osipow, S. H. (1996). A taxonomy of difficulties in career decision making. Journal of counseling psychology, 43(4), 510.",
+        "Gati, I., Landman, S., Davidovitch, S., Asulin-Peretz, L., & Gadassi, R. (2010). From career decision-making styles to career decision-making profiles: A multidimensional approach. Journal of Vocational Behavior, 76(2), 277-291.",
+        "Giambalvo & Corleo (2022). I servizi di placement per un’efficace transizione dall’Università al mondo del lavoro. In Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills (185-199). PensaMultimedia.",
+        "Gushue, G. V., Scanlan, K. R. L., Pantzer, K. M., & Clarke, C. P. (2006). The relationship of career decision-making self-efficacy, vocational identity, and career exploration behavior in African American high school students. Journal of Career Development, 33(1), 19-28.",
+        "Healy, R., Smyth, C., & Harrison, A. J. (2017). The relationship between reactive strength measures and sprinting performance. ISBS Proceedings Archive, 35(1), 200.",
+        "Jemini-Gashi, L., and Kadriu, E. (2022). Exploring the career decisionmaking process during the COVID-19 pandemic: Opportunities and challenges for young people. SAGE Open 12. DOI: 10.1177/21582440221078856.",
+        "Lease Dahlbeck, S. (2009). Parental influences, career decision-making attributions, and self-efficacy: Differences for men and women?. Journal of Career Development, 36 (2), 95-113.",
+        "Lezzi, A. (2022). BanzHack. Il cambiamento che non ti aspetti. In Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills (101-116). PensaMultimedia.",
+        "Lovšin, M. (2017). Career in the light of educational attainment and career management skills. Problems of Education in the 21st Century, 75(6), 568-580.",
+        "Margottini, M. (2022). Competenze strategiche.it: Un ambiente on line per orientare e orientarsi. Progetti ed Esperienze, 3, 135-147.",
+        "Mau, W. C. J. (2004). Cultural dimensions of career decision-making difficulties. The Career Development Quarterly, 53(1), 67-77.",
+        "Neary, M. (2016). Teaching Excellence Framework: A critical response and an alternative future. Journal of Contemporary European Research, 12(3).",
+        "Nota, L., Ferrari, L., Solberg, S., & Soresi, S. (2007). Career search self-efficacy, family support, and career indecision with Italian youth. Journal of Career Assessment, 15(2), 181-193.",
+        "Osipow, S. H., & Gati, I. (1998). Construct and concurrent validity of the Career Decision-Making Difficulties Questionnaire. Journal of Career Assessment, 6, 347-364.",
+        "Restiglian, E., Serbati, A., Da Re, L., Maniero, S., & Brait, D. (2020). Scegliere il futuro con consapevolezza. Una ricerca su pratiche di orientamento nella scuola secondaria. Lifelong Lifewide Learning, 16(35), 196-214.",
+        "Ricchiardi, P., Torre, E. M. T., & Lattanzi, T. (2023). Percorsi di educazione alla scelta: valutazione dell’efficacia differenziale. Lifelong Lifewide Learning, 20(43), 246-266.",
+        "Saka, N., & Gati, I. (2007). Emotional and personality-related aspects of persistent career decision-making difficulties. Journal of Vocational Behavior, 71(3), 340-358.",
+        "Saka, N., Gati, I., & Kelly, K. R. (2008). Emotional and personality-related aspects of career decision-making difficulties. Journal of Career Assessment, 16, 403-424. DOI: 10.1177/1069072708318900.",
+        "Savickas, M.L., Nota, L., Rossier, J., Dauwalder, J-P, Duarte, M.E., Guichard, J., Soresi, S., Van Esbroeck, R., van Vianen, A.E.M. (2009). Life designing: A paradigm for career construction in the 21st century. Journal of Vocational Behavior, 75(3), 239-250.",
+        "Scalia. E. (2022) il Centro di orientamento e Tutorato dell’Università degli Studi di Palermo: gli interventi di orientamento e un progetto di transizione scuola-università. In Di Vita, A. (2022). Orientare nelle transizioni scuola-università-lavoro promuovendo le character skills (pp. 117-132). PensaMultimedia.",
+        "Slaten, C. D., & Baskin, T. W. (2014). Contextual school counseling approach: Linking contextual psychotherapy with the school environment. The Counseling Psychologist, 42(1), 73-96.",
+        "Sovet, L., & Metz, A. J. (2014), Parenting styles and career decision-making among French and Korean adolescents. Journal of Vocational Behavior, 84(3), 345-355.",
+        "Sultana, R. G. (2011). Learning career management skills in Europe: a critical review. Journal of Education and Work, 25(2), 225-248. DOI: 10.1080/13639080.2010.547846.",
+        "Vaughan, K. (2010). The potential of career management competencies for renewed focus and direction in career education. New Zealand Annual Review of Education, 20(20), 24-51. DOI: 10.26686/nzaro."
+      ],
+      "count": 46,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_19156",
+    "article_ID": "19156",
+    "slug": "19156",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "19156",
+      "url_slug": "19156"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Orientamento attivo nella transizione scuola-università-lavoro",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Orientamento attivo nella transizione scuola-università-lavoro",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Active orientation in the school-university-work transition",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Orientamento attivo nella transizione scuola-università-lavoro",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-01-14",
+      "accepted": null,
+      "created": "2025-01-24",
+      "modified": "2025-01-24",
+      "issued": "2025-01-24",
+      "available": "2025-01-24",
+      "submitted_page": "2025-01-14",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Orientamento attivo nella transizione scuola-università-lavoro",
+        "pdf_value": null,
+        "chosen_value": "Orientamento attivo nella transizione scuola-università-lavoro",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-14",
+        "pdf_value": null,
+        "chosen_value": "2025-01-14",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19156/3150",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19156/3150",
+      "local_relative_path": "2499-507X_19156.pdf",
+      "saved": true,
+      "sha256": "ffbd2d37e2495d3456d861751355e47b9d553296c6f061196cbfea5d2b7f7357",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 852784,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Rossana Sicurello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Palermo"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Orientamento attivo nella transizione scuola-università-lavoro"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024"
+      ],
+      "citation_volume": [
+        "9"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2024oa19156"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19156"
+      ],
+      "citation_keywords": [
+        "Orientamento",
+        "Transizione",
+        "Career Management Skills",
+        "Empowerment",
+        "Autodeterminazione"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/19156/3150"
+      ],
+      "citation_reference_count": 46,
+      "DC.Date.created": [
+        "2025-01-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-01-14"
+      ],
+      "DC.Date.issued": [
+        "2025-01-24"
+      ],
+      "DC.Date.modified": [
+        "2025-01-24"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "19156"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2024oa19156"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19156"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "9"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Orientamento attivo nella transizione scuola-università-lavoro"
+      ],
+      "DC.Title.Alternative": [
+        "Active orientation in the school-university-work transition"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Rossana Sicurello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Palermo"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Rossana Sicurello"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The topic of support for career choice in relation to the transition phase from school to university and to the world of work has become a relevant focus in the debate on orientation. Choosing the major in secondary school, the university course, the specific skills to develop or the directions in which to direct one's learning efforts apparently seem like simple tasks that concern all young adults in moments of transition and passage from school to university and from university to the world of work, but this is not always the case: these are, in fact, crucial development tasks for the construction of a future working and professional identity for which people are not always prepared and/or adequately supported from the family, social and cultural context that surrounds them. It is suggested the implementation of a support system for the development of Career Management Skills, skills and abilities necessary for the management, exploration, identification and realization of personal educational and professional expectations. The article presents, in this direction, the educational and professional orientation paths dedicated to secondary school and university students, in line with the provisions of the PNRR reforms.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The topic of support for career choice in relation to the transition phase from school to university and to the world of work has become a relevant focus in the debate on orientation. Choosing the major in secondary school, the university course, the specific skills to develop or the directions in which to direct one's learning efforts apparently seem like simple tasks that concern all young adults in moments of transition and passage from school to university and from university to the world of work, but this is not always the case: these are, in fact, crucial development tasks for the construction of a future working and professional identity for which people are not always prepared and/or adequately supported from the family, social and cultural context that surrounds them. It is suggested the implementation of a support system for the development of Career Management Skills, skills and abilities necessary for the management, exploration, identification and realization of personal educational and professional expectations. The article presents, in this direction, the educational and professional orientation paths dedicated to secondary school and university students, in line with the provisions of the PNRR reforms."
+          }
+        },
+        {
+          "content": "Il tema dell’accompagnamento alla scelta di carriera in relazione alla fase di transizione dalla scuola all’università e al mondo del lavoro è diventato un focus rilevante nel dibattito sull’orientamento. Scegliere l’indirizzo nella scuola secondaria di secondo grado, il percorso universitario, le competenze specifiche da sviluppare o le direzioni verso cui orientare i propri sforzi di apprendimento apparentemente sembrano compiti semplici che interessano tutti i giovani adulti nei momenti di transizione e di passaggio dalla scuola all’università e dall’università al mondo del lavoro, ma non sempre è così: si tratta, infatti, di compiti di sviluppo cruciali per la costruzione della futura identità lavorativa e professionale per cui non sempre le persone sono preparate e/o adeguatamente supportate dal contesto familiare, sociale, culturale che li circonda. Una risposta potrebbe essere l’implementazione di un sistema di supporto allo sviluppo delle Career Management Skills, ovvero quelle competenze e abilità necessarie per la gestione, esplorazione, identificazione e realizzazione delle proprie aspettative a livello personale, formativo e lavorativo. Sono presentati, in tale direzione, i percorsi di orientamento educativo e professionale dedicati a studentesse e studenti di scuola secondaria di secondo grado e universitari, in linea con quanto stabilito dalle riforme PNRR per la transizione scuola-università-lavoro.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il tema dell’accompagnamento alla scelta di carriera in relazione alla fase di transizione dalla scuola all’università e al mondo del lavoro è diventato un focus rilevante nel dibattito sull’orientamento. Scegliere l’indirizzo nella scuola secondaria di secondo grado, il percorso universitario, le competenze specifiche da sviluppare o le direzioni verso cui orientare i propri sforzi di apprendimento apparentemente sembrano compiti semplici che interessano tutti i giovani adulti nei momenti di transizione e di passaggio dalla scuola all’università e dall’università al mondo del lavoro, ma non sempre è così: si tratta, infatti, di compiti di sviluppo cruciali per la costruzione della futura identità lavorativa e professionale per cui non sempre le persone sono preparate e/o adeguatamente supportate dal contesto familiare, sociale, culturale che li circonda. Una risposta potrebbe essere l’implementazione di un sistema di supporto allo sviluppo delle Career Management Skills, ovvero quelle competenze e abilità necessarie per la gestione, esplorazione, identificazione e realizzazione delle proprie aspettative a livello personale, formativo e lavorativo. Sono presentati, in tale direzione, i percorsi di orientamento educativo e professionale dedicati a studentesse e studenti di scuola secondaria di secondo grado e universitari, in linea con quanto stabilito dalle riforme PNRR per la transizione scuola-università-lavoro."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Orientamento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Orientamento"
+          }
+        },
+        {
+          "content": "Transizione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Transizione"
+          }
+        },
+        {
+          "content": "Career Management Skills",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Career Management Skills"
+          }
+        },
+        {
+          "content": "Empowerment",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Empowerment"
+          }
+        },
+        {
+          "content": "Autodeterminazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Autodeterminazione"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19156/3150",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19156/3150",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19156/3150",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19156/3150",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19156/3150",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2025-01-24",
+        "mod_date": "2025-01-24"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19156 Orientamento attivo nella transizione scuola-univer- sità-lavoro Active orientation in the school-university-work transition Rossana Sicurello* Riassunto Il tema dell’accompagnamento alla scelta di carriera in relazione alla fase di transizione dalla scuola all’università e al mondo del lavoro è diventato un fo- cus rilevante nel dibattito sull’orientamen to. Scegliere l’indirizzo nella scuola secondaria di secondo grado, il percorso universitario, le competenze specifiche da sviluppare o le direzioni verso cui orientare i propri sforzi di apprendimento apparentemente sembrano compiti semplici che interessano tutti i giovani adulti nei momenti di transizione e di passaggio dalla scuola all’università e dall’uni- versità al mondo del lavoro, ma non sempre è così: si tratta, infatti, di compiti di sviluppo cruciali per la costruzione della futura identità lavorativa e profes- sionale per cui non sempre le persone sono preparate e/o adeguatamente sup- portate dal contesto familiare, sociale, culturale che li circonda. Una risposta potrebbe essere l’implementazione di un sistema di supporto allo sviluppo delle Career Management Skills, ovvero quelle competenze e abilità necessarie per la gestione, esplorazione, identificazione e realizzazione delle proprie aspetta- tive a livello personale, formativo e lavorativo. Sono presentati, in tale dire- zione, i percorsi di orientamento educativo e professionale dedicati a studen- tesse e studenti di scuola secondaria di secondo grado e universitari, in linea con quanto stabilito dalle riforme PNRR per la transizione scuola-università- lavoro. Parole-chiave: orientamento, transizione, Career Management Skills, empow- erment, autodeterminazione * Università degli Studi di Palermo. Dipa rtimento di Scienze Psicologiche, Pedagog- iche, dell’Esercizio Fisico e della Formazione. E-mail: rossana.sicurello@unipa.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\19156\\2499-507X_19156.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Orientamento attivo nella transizione scuola-università-lavoro",
+        "pdf_value": null,
+        "chosen_value": "Orientamento attivo nella transizione scuola-università-lavoro",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-14",
+        "pdf_value": null,
+        "chosen_value": "2025-01-14",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Orientamento attivo nella transizione scuola-università-lavoro | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19156",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19156",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:06Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19156\\temp\\2499-507X_19156.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:08Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19156\\2499-507X_19156.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Orientamento attivo nella transizione scuola-università-lavoro",
+        "submitted_date": "2025-01-14",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Rossana Sicurello"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19156\\2499-507X_19156.pdf",
+        "generated_at_utc": "2026-04-21T21:35:08Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2025-01-24",
+          "mod_date": "2025-01-24"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19156 Orientamento attivo nella transizione scuola-univer- sità-lavoro Active orientation in the school-university-work transition Rossana Sicurello* Riassunto Il tema dell’accompagnamento alla scelta di carriera in relazione alla fase di transizione dalla scuola all’università e al mondo del lavoro è diventato un fo- cus rilevante nel dibattito sull’orientamen to. Scegliere l’indirizzo nella scuola secondaria di secondo grado, il percorso universitario, le competenze specifiche da sviluppare o le direzioni verso cui orientare i propri sforzi di apprendimento apparentemente sembrano compiti semplici che interessano tutti i giovani adulti nei momenti di transizione e di passaggio dalla scuola all’università e dall’uni- versità al mondo del lavoro, ma non sempre è così: si tratta, infatti, di compiti di sviluppo cruciali per la costruzione della futura identità lavorativa e profes- sionale per cui non sempre le persone sono preparate e/o adeguatamente sup- portate dal contesto familiare, sociale, culturale che li circonda. Una risposta potrebbe essere l’implementazione di un sistema di supporto allo sviluppo delle Career Management Skills, ovvero quelle competenze e abilità necessarie per la gestione, esplorazione, identificazione e realizzazione delle proprie aspetta- tive a livello personale, formativo e lavorativo. Sono presentati, in tale dire- zione, i percorsi di orientamento educativo e professionale dedicati a studen- tesse e studenti di scuola secondaria di secondo grado e universitari, in linea con quanto stabilito dalle riforme PNRR per la transizione scuola-università- lavoro. Parole-chiave: orientamento, transizione, Career Management Skills, empow- erment, autodeterminazione * Università degli Studi di Palermo. Dipa rtimento di Scienze Psicologiche, Pedagog- iche, dell’Esercizio Fisico e della Formazione. E-mail: rossana.sicurello@unipa.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Orientamento attivo nella transizione scuola-università-lavoro",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Orientamento attivo nella transizione scuola-università-lavoro",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-01-14",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-01-14",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:26Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:27Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19156\\temp\\2499-507X_19156.conflicts.json"
+  }
+}

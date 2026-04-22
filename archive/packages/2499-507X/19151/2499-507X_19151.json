@@ -1,0 +1,865 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19151",
+  "scraped_at_utc": "2026-04-21T21:35:02Z",
+  "fetched_at_utc": "2026-04-21T21:35:02Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "a15a339e87a3e434e4adceed02f6a1eaa5a148f40e92d5f1ee89563e13fd92bb",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Roberta Bertoli",
+        "nameType": "Personal",
+        "givenName": "Roberta",
+        "familyName": "Bertoli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Parma"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/19151",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-01-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-01-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-01-24",
+      "Issued": "2025-01-24"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "In the transitional phases of an individual's life, particularly with the entry into the workforce, the perception of competence becomes a crucial element, as does the process of constructing professional identity. The opportunity provided by internships for future educators serves as a tool that promotes competencies and allows for an understanding of the specificity of work environments. This paper presents a pilot study that involved the development and validation of a self-efficacy scale in relation to the competencies expected from graduates of the L-19 degree programs. Descriptive analyses, dimensionality assessments, validity, and reliability tests demonstrated good properties of the instrument. The scale presented here also aims to foster reflective and self-assessment processes among students in relation to the learning outcomes of their academic programs.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Nelle fasi di transizione della vita di ogni soggetto e in particolare con l’ingresso nel mondo del lavoro, il percepirsi competenti diventa un elemento essenziale così come nel processo di costruzione dell’identità professionale. L’occasione del tirocinio per futuri educatori si configura come strumento che promuove competenze e permette di conoscere la specificità dei contesti lavorativi. Nel presente contributo viene presentato uno studio pilota che ha previsto la costruzione e la validazione di una scala dell’autoefficacia in relazione alle competenze attese in uscita dai CdS classe L-19. Le analisi descrittive, di dimensionalità, di validità e di affidabilità hanno evidenziato buone proprietà dello strumento. La scala qui presentata è volta anche a promuovere negli studenti processi riflessivi e autovalutativi in relazione al profilo di uscita dal percorso accademico.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2024oa19151",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "9",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Autoefficacia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Educatori",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Learning outcomes",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Tirocinio",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Studenti universitari",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19151/3149",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "9",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Bertoli, R. (2025). Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota. Excellence and Innovation in Learning and Teaching - Open Access , 9 (2). https://doi.org/10.3280/exioa2-2024oa19151",
+      "articleTitleEcho": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Bandura, A. (1986). Social foundations of thought and action: A social cognitive theory. Prentice-Hall.",
+        "Bandura, A. (1997). Self-efficacy: The exercise of control. Freeman.",
+        "Bandura, A. (2000). Autoefficacia: teoria e applicazioni. Edizioni Centro Studi Erickson.",
+        "Barbaranelli, C. (2007). Analisi dei dati. LED.",
+        "Biasi, V., De Vincenzo, C., Patrizi, N. (2017). Relazioni tra autoregolazione dell’apprendimento, motivazioni e successo accademico degli studenti. Identificazione di fattori predittivi del rischio di drop-out. Italian Journal Of Educational Research, 18, 181-198. Retrieved from https://ojs.pensamultimedia.it/index.php/sird/article/view/2265.",
+        "Biasi, V., Domenici, G., Patrizi, N., Capobianco, R. (2014). Teacher Self-Efficacy Scale (Scala sull’auto-efficacia del Docente – SAED): adattamento e validazione in Italia. Journal of Educational, Cultural and Psychological Studies (ECPS Journal), 10, 485-509. DOI: 10.7358/ecps-2014-010-bias.",
+        "Biasin, C., Boffo, V., Silva, C. (2020). Le dinamiche relazionali e comunicative nella formazione delle professionalità educative. Rivista Italiana di Educazione Familiare, 17, 7-25. DOI: 10.13128/rief-10140.",
+        "Boateng, G. O., Neilands, T. B., Frongillo, E. A., Melgar-Quiñonez, H. R., Young, S. L. (2018). Best practices for developing and validating scales for health, social, and behavioral research: a primer. Frontiers in public health, 6, 149. DOI: 10.3389/fpubh.2018.00149.",
+        "Bonaiuti, G., & Fanni, L. (2021). Tirocinio e sviluppo professionale degli educatori nella prospettiva della Student Voice. Educational Reflective Practices, 2, 137-159. DOI: 10.3280/erp2-2021oa12120.",
+        "Cardarello R., Bertolini C., Antonietti M., Pintus A., Scipione L. (2016). Aspetti di qualità dell’insegnante attraverso una scala di self efficacy. In L. Perla (Ed.), La professionalità degli insegnanti. La ricerca e le pratiche. Pensa MultiMedia.",
+        "Cattell, R.B. (1966). The screen test for the number of factors. Multivariate behavioral research, 1(2), 245-276. DOI: 10.1207/s15327906mbr0102_10.",
+        "De Canale, B. (2015). Il tirocinio formativo: Catalizzatore di competenza. CQIIA Rivista, 5(15), 71-83. Retrieved from https://cqiiarivista.unibg.it/index.php/fpl/article/view/222/195.",
+        "Del Gobbo, G. (2018). Potenzialità del Corso “Educatore professionale socio-pedagogico” per il miglioramento della QA dei Corsi L-19 nel quadro del Processo di Bologna. Form@re, 18(3). DOI: 10.13128/formare-24477.",
+        "Di Mele, L., D’Errico, F., Cerniglia, L., Cersosimo, M., Paciello, M. (2015). Convinzioni di efficacia personale nella regolazione dell’apprendimento universitario mediato dalle tecnologie. Qwerty-Open and Interdisciplinary Journal of Technology, Culture and Education, 10(2), 63-77. Retrieved from https://www.researchgate.net/publication/290168723_Convinzioni_di_efficacia_personale_nella_regolazione_dell'apprendimento_universitario_mediato_dalle_tecnologie#fullTextFileContent.",
+        "Ercolani, A.P., Perugini, M. (1997). La misura in psicologia. Introduzione ai test psicologici. LED Edizioni Universitarie.",
+        "Fabbri, L. (2018). La costruzione dei contenuti core come pratica scientifica condivisa. Metodologie per la trasformazione della progettazione dell’offerta formativa. Form@re, 18(3). DOI10.13128/formare-24614.",
+        "Fabbri, L., Torlone, F. (2018). Education professionals’ training in relation to learning objectives and learning outcomes. Sharing tests. Form@re, 18(3), 1-6. DOI: 10.13128/formare-24680.",
+        "Federighi, P. (2018). I contenuti core dell’offerta formativa dei Corsi di laurea in Scienze dell’educazione e della formazione. Form@re, 18(3), 19-36. DOI: 10.13128/formare-24609.",
+        "Federighi, P., Bracci, F., Del Gobbo, G., Torlone, F., Torre, E. (2019). Framework. Teco-D Pedagogia (Scienze dell’educazione e della formazione L-19). In Framework. Teco-D Pedagogia (Scienze dell’educazione e della formazione L-19), (pp. 1-10). https://www.anvur.it/wp-content/uploads/2019/08/TECOD-Pedagogia.pdf.",
+        "Fermani, A., Taddei, A. (2020). Valutare la self-efficacy all’Università. Uno studio pilota nel corso di Scienze dell’Educazione e della Formazione. Form@re, 20, 302-317. DOI: 10.13128/form-8174.",
+        "Gandolfi, P. (2015). Il tirocinio universitario come strategia formativa per sperimentare la complessità. CQIIA Rivista, 5(15), 59-70. Retrieved from https://cqiiarivista.unibg.it/index.php/fpl/article/view/221/194.",
+        "Hoy, A. W., Davis, H., Pape, S. J. (2006). Teacher Knowledge and Beliefs. In P. A. Alexander, P. H. Winne (Eds.), Handbook of educational psychology (pp. 715-737). Lawrence Erlbaum Associates Publishers.",
+        "Kaiser, H. F. (1974). An index of factorial simplicity. Psychometrika, 39(1), 31-36. DOI: 10.1007/BF02291575.",
+        "Labone, E. (2004). Teacher cfficacy: Maturing the construct through research in al-ternative paradigms. Teaching and Teacher Education, 20, 341-359. DOI: 10.1016/j.tate.2004.02.013.",
+        "Mancini, T., Tonarelli, A. (2013). Processi di costruzione dell'identità professionale in studenti universitari. Una estensione del paradigma degli stati di identità. Giornale italiano di psicologia, 40(3), 589-614. DOI: 10.1421/76210.",
+        "Manuti, A., Fiorentino, T., Epifani, M. C., Mennuti, R., Giancaspro, M. L., Gemmano, G. (2022). La relazione tra employability, self-efficacy e comportamenti di ricerca attiva nella transizione università-mondo del lavoro. Counseling: Giornale Italiano di Ricerca e Applicazioni, 15(2), 63-83. DOI: 10.14605/CS1522204.",
+        "Nunnally, J.C., Bernstein, I.H. (1994) The assessment of reliability. Psychometric Theory, 3, 248-292.",
+        "Pellerey, M. (2021). L’identità professionale oggi. Natura e costruzione. FrancoAngeli.",
+        "Piazza, R., Di Martino, V., Rizzari, S. (2021). Ripensare il curricolo a partire dai learning outcomes. Lifelong Lifewide Learning, 17(38), 302-323. DOI: 10.19241/lll.v17i38.600.",
+        "Piazza, R., Rizzari, S. (2021). Verso la costruzione dell’identità professionale: un per-corso di self-assessment per gli educatori del CdS L-19. Educational Reflective Practices, 1, 65-77. DOI: 10.3280/erpoa1-2021oa11514.",
+        "Rosati, N. (2018). Metacooperative Learning. Percorso di ricerca e didattica nella scuola dell’infanzia. Anicia.",
+        "Schermelleh-Engel, K., Moosbrugger, H., Müller, H. (2003). Evaluating the fit of structural equation models: Tests of significance and descriptive goodness-of-fit measures. Methods of psychological research online, 8(2), 23-74.",
+        "Silva, C.M. (2022). L’impatto del progetto TECO-D Pedagogia sul CdS in Scienze dell’Educazione e della Formazione L-19 dell’Università degli studi di Firenze. In V. Boffo, G. Del Gobbo, F. Torlone, Educazione degli Adulti: politiche, percorsi, prospettive Studi in onore di Paolo Federighi, (pp. 203-210). DOI: 10.36253/979-12-215-0006-6.",
+        "Szpunar, G., & Renda, E. (2015). Educatori non si nasce. Una riflessione sul ruolo del tirocinio nella formazione delle competenze per il lavoro socio-educativo. CQIIA Rivista, 5(15), 149-159. Retrieved from https://cqiiarivista.unibg.it/index.php/fpl/article/view/229/202.",
+        "Tammaro, R., Ferrantino, C., Iannotta, I.S. (2020). Promuovere competenze progettuali e organizzative nel futuro educatore. Form@re, 20(2), 276-285. DOI: 10.13128/form-8903.",
+        "Torlone, F. (2018). Metodi e strumenti per la definizione dei contenuti core del Corso di Laurea L-19 in Scienze dell’educazione e della formazione. Form@re, 18(3). 37-60. DOI: 10.13128/formare-24682.",
+        "Wilcox, G., Nordstokke, D. (2019) Predictors of university student satisfaction with life, academic self-efficacy, and achievement in the first year. Canadian Journal of Higher Education 49(1),104-124. DOI: 10.7202/1060826ar.",
+        "Zobbi, E., Pintus, A. (2022). Quanto mi sento in grado di? La percezione di autoefficacia degli insegnanti in formazione in relazione all’atmosfera morale scolastica. In P. Calidoni (Ed), Phronèsis. Coltivare la competenza etica. Spunti da una ricerca sul campo, (pp. 91-100). Milano: Franco Angeli."
+      ],
+      "count": 38,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_19151",
+    "article_ID": "19151",
+    "slug": "19151",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "19151",
+      "url_slug": "19151"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Perceived Self-Efficacy in Relation to the Learning Outcomes of the Degree Program in Educational Sciences: Construction and Validation of an Instrument in a Pilot Study",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-01-13",
+      "accepted": null,
+      "created": "2025-01-24",
+      "modified": "2025-01-24",
+      "issued": "2025-01-24",
+      "available": "2025-01-24",
+      "submitted_page": "2025-01-13",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+        "pdf_value": null,
+        "chosen_value": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-13",
+        "pdf_value": null,
+        "chosen_value": "2025-01-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19151/3149",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19151/3149",
+      "local_relative_path": "2499-507X_19151.pdf",
+      "saved": true,
+      "sha256": "a5c5098a22712f02f615e16f492129d5adbe55f41e6c0c084045cbb7cb2deabe",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1401947,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Roberta Bertoli"
+      ],
+      "citation_author_institution": [
+        "Università di Parma"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024"
+      ],
+      "citation_volume": [
+        "9"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2024oa19151"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19151"
+      ],
+      "citation_keywords": [
+        "Autoefficacia",
+        "Educatori",
+        "Learning outcomes",
+        "Tirocinio",
+        "Studenti universitari"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/19151/3149"
+      ],
+      "citation_reference_count": 38,
+      "DC.Date.created": [
+        "2025-01-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-01-13"
+      ],
+      "DC.Date.issued": [
+        "2025-01-24"
+      ],
+      "DC.Date.modified": [
+        "2025-01-24"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "19151"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2024oa19151"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/19151"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "9"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota"
+      ],
+      "DC.Title.Alternative": [
+        "Perceived Self-Efficacy in Relation to the Learning Outcomes of the Degree Program in Educational Sciences: Construction and Validation of an Instrument in a Pilot Study"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Roberta Bertoli"
+      ],
+      "citation_author_institution": [
+        "Università di Parma"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Roberta Bertoli"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "In the transitional phases of an individual's life, particularly with the entry into the workforce, the perception of competence becomes a crucial element, as does the process of constructing professional identity. The opportunity provided by internships for future educators serves as a tool that promotes competencies and allows for an understanding of the specificity of work environments. This paper presents a pilot study that involved the development and validation of a self-efficacy scale in relation to the competencies expected from graduates of the L-19 degree programs. Descriptive analyses, dimensionality assessments, validity, and reliability tests demonstrated good properties of the instrument. The scale presented here also aims to foster reflective and self-assessment processes among students in relation to the learning outcomes of their academic programs.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "In the transitional phases of an individual's life, particularly with the entry into the workforce, the perception of competence becomes a crucial element, as does the process of constructing professional identity. The opportunity provided by internships for future educators serves as a tool that promotes competencies and allows for an understanding of the specificity of work environments. This paper presents a pilot study that involved the development and validation of a self-efficacy scale in relation to the competencies expected from graduates of the L-19 degree programs. Descriptive analyses, dimensionality assessments, validity, and reliability tests demonstrated good properties of the instrument. The scale presented here also aims to foster reflective and self-assessment processes among students in relation to the learning outcomes of their academic programs."
+          }
+        },
+        {
+          "content": "Nelle fasi di transizione della vita di ogni soggetto e in particolare con l’ingresso nel mondo del lavoro, il percepirsi competenti diventa un elemento essenziale così come nel processo di costruzione dell’identità professionale. L’occasione del tirocinio per futuri educatori si configura come strumento che promuove competenze e permette di conoscere la specificità dei contesti lavorativi. Nel presente contributo viene presentato uno studio pilota che ha previsto la costruzione e la validazione di una scala dell’autoefficacia in relazione alle competenze attese in uscita dai CdS classe L-19. Le analisi descrittive, di dimensionalità, di validità e di affidabilità hanno evidenziato buone proprietà dello strumento. La scala qui presentata è volta anche a promuovere negli studenti processi riflessivi e autovalutativi in relazione al profilo di uscita dal percorso accademico.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Nelle fasi di transizione della vita di ogni soggetto e in particolare con l’ingresso nel mondo del lavoro, il percepirsi competenti diventa un elemento essenziale così come nel processo di costruzione dell’identità professionale. L’occasione del tirocinio per futuri educatori si configura come strumento che promuove competenze e permette di conoscere la specificità dei contesti lavorativi. Nel presente contributo viene presentato uno studio pilota che ha previsto la costruzione e la validazione di una scala dell’autoefficacia in relazione alle competenze attese in uscita dai CdS classe L-19. Le analisi descrittive, di dimensionalità, di validità e di affidabilità hanno evidenziato buone proprietà dello strumento. La scala qui presentata è volta anche a promuovere negli studenti processi riflessivi e autovalutativi in relazione al profilo di uscita dal percorso accademico."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Autoefficacia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Autoefficacia"
+          }
+        },
+        {
+          "content": "Educatori",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Educatori"
+          }
+        },
+        {
+          "content": "Learning outcomes",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Learning outcomes"
+          }
+        },
+        {
+          "content": "Tirocinio",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Tirocinio"
+          }
+        },
+        {
+          "content": "Studenti universitari",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Studenti universitari"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/19151/3149",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19151/3149",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19151/3149",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19151/3149",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/19151/3149",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2025-01-24",
+        "mod_date": "2025-01-24"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19151 Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Vali- dazione di uno Strumento in uno Studio Pilota Perceived Self-Efficacy in Relation to the Learning Outcomes of the Degree Program in Educational Sciences: Construction and Validation of an Instrument in a Pilot Study Roberta Bertoli* Riassunto Nelle fasi di transizione della vita di ogni soggetto e in particolare con l’in- gresso nel mondo del lavoro, il percepir si competenti diventa un elemento es- senziale così come nel processo di costruzione dell’identità professionale. L’oc- casione del tirocinio per futuri educatori si configura come strumento che pro- muove competenze e permette di conoscere la specificità dei contesti lavorativi. Nel presente contributo viene presentato uno studio pilota che ha previsto la costruzione e la validazione di una scala dell’autoefficacia in relazione alle competenze attese in uscita dai CdS classe L-19. Le analisi descrittive, di di- mensionalità, di validità e di affida bilità hanno evidenziato buone proprietà dello strumento. La scala qui presentata è volta anche a promuovere negli stu- denti processi riflessivi e autovalutativi in relazione al profilo di uscita dal per- corso accademico. Parole chiave: Autoefficacia, Educatori, Learning outcomes, Tirocinio, Stu- denti universitari Abstract In the transitional phases of an individua l's life, particularly with the entry into the workforce, the perception of competence becomes a crucial element, as does the process of constructing professional identity. The opportunity provided by internships for future educators serves as a tool that promotes * Università di Parma, e-mail: roberta.bertoli@unipr.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\19151\\2499-507X_19151.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+        "pdf_value": null,
+        "chosen_value": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-01-13",
+        "pdf_value": null,
+        "chosen_value": "2025-01-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19151",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19151",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:02Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19151\\temp\\2499-507X_19151.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:05Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19151\\2499-507X_19151.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+        "submitted_date": "2025-01-13",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Roberta Bertoli"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19151\\2499-507X_19151.pdf",
+        "generated_at_utc": "2026-04-21T21:35:05Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2025-01-24",
+          "mod_date": "2025-01-24"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19151 Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Vali- dazione di uno Strumento in uno Studio Pilota Perceived Self-Efficacy in Relation to the Learning Outcomes of the Degree Program in Educational Sciences: Construction and Validation of an Instrument in a Pilot Study Roberta Bertoli* Riassunto Nelle fasi di transizione della vita di ogni soggetto e in particolare con l’in- gresso nel mondo del lavoro, il percepir si competenti diventa un elemento es- senziale così come nel processo di costruzione dell’identità professionale. L’oc- casione del tirocinio per futuri educatori si configura come strumento che pro- muove competenze e permette di conoscere la specificità dei contesti lavorativi. Nel presente contributo viene presentato uno studio pilota che ha previsto la costruzione e la validazione di una scala dell’autoefficacia in relazione alle competenze attese in uscita dai CdS classe L-19. Le analisi descrittive, di di- mensionalità, di validità e di affida bilità hanno evidenziato buone proprietà dello strumento. La scala qui presentata è volta anche a promuovere negli stu- denti processi riflessivi e autovalutativi in relazione al profilo di uscita dal per- corso accademico. Parole chiave: Autoefficacia, Educatori, Learning outcomes, Tirocinio, Stu- denti universitari Abstract In the transitional phases of an individua l's life, particularly with the entry into the workforce, the perception of competence becomes a crucial element, as does the process of constructing professional identity. The opportunity provided by internships for future educators serves as a tool that promotes * Università di Parma, e-mail: roberta.bertoli@unipr.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-01-13",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-01-13",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:20Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:51:24Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19151\\temp\\2499-507X_19151.conflicts.json"
+  }
+}
