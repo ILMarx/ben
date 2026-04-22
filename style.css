@@ -399,6 +399,11 @@ section > :last-child {
   background: var(--surface-2);
 }
 
+.person-card-image {
+  aspect-ratio: 4 / 5;
+  object-position: center 28%;
+}
+
 /* Tables */
 table {
   width: 100%;
