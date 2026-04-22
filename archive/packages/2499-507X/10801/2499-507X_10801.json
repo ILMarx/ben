@@ -1,0 +1,867 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801",
+  "scraped_at_utc": "2026-04-21T21:30:03Z",
+  "fetched_at_utc": "2026-04-21T21:30:03Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "f33a91ffd2698a4c0a412a2170042d98b4154eec186b6ad353d412a511c04f89",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Mary Deane Sorcinelli",
+        "nameType": "Personal",
+        "givenName": "Mary Deane",
+        "familyName": "Sorcinelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Massachusetts"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/10801",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2020-12-01",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2020-12-01",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2020-12-01",
+      "Issued": "2020-12-01"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This article provides a chronological review of models and studies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both classic and recent literature. An emergent theme from the review is that we now have robust models, criteria, and examples of how to better assess the quality, outcomes, and impact of faculty development programs. At the same time, what often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "This article provides a chronological review of models and studies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both classic and recent literature. An emergent theme from the review is that we now have robust models, criteria, and examples of how to better assess the quality, outcomes, and impact of faculty development programs. At the same time, what often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2020oa10801",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "5",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "evaluation",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "impact",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "faculty development",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "literature review",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10801/1320",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "5",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Sorcinelli, M. D. (2020). The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020). Excellence and Innovation in Learning and Teaching - Open Access , 5 (2). https://doi.org/10.3280/exioa2-2020oa10801",
+      "articleTitleEcho": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Allen, D., McPherson, M.S., Nilson, L.B., & Sorcinelli, M.D. (2019). ACUE student, faculty, and institutional impact research: Independent review process and findings. Association of College and University Educators. Retrieved from https://acue.org/wp-content/uploads/2019/06/ACUE-Research-Review-Findings-2019.pdf.",
+        "Bass, R., Eyon, B., & Gambino, L.M. (2019). The new learning compact: A framework for professional learning and educational change (Every Learner Everywhere). Retrieved from https://www.everylearnereverywhere.org/resources/the-newlearning-compact/.",
+        "Beach, A., Sorcinelli, M.D., Austin, A., & Rivard, J. (2016). Faculty development in the age of evidence: Current practices, future imperatives. Sterling, VA: Stylus Publishing.",
+        "Bergquist, W.H., & Phillips, S.R. (1975). Components of an effective faculty development program. Journal of Higher Education, 46(2), 177-215.",
+        "Blackburn, R.T. (1980). Project for faculty development program evaluation: Final report. ERIC Document Reproduction Service No. ED 208 767. Ann Arbor, MI: Center for the Study of Higher Education: Michigan University.",
+        "Blackburn, R.T., Pellino, G., Boberg, A., & O’Connell, C. (1980). Are institutional improvement programs off-target? In Improving Teaching and Institutional Quality. Current Issues in Higher Education, No. 1. Washington, D.C.: American Association for Higher Education.",
+        "Centra, J. A. (1976). Faculty development practices in U.S. colleges and universities. Princeton, NJ: Educational Testing Service.",
+        "Chism, N.V.N. & Szabo, B. (1997). How Faculty Development Programs Evaluate Their Services. Journal of Staff, Program & Organization Development, 15(2), 55-62.",
+        "Chism, Holley, M., & Harris, C.J. (2012). Researching the impact of educational development: Basis for informed practice. In J.E. Garcia & L. Cruz (Eds.), To Improve the Academy, 31, 129-145.",
+        "Collins Brown, E., Haras, C., Hurney, C., Iuzzini, J., Magruder, E., Sorcinelli, M.D., Taylor, S.C., & Wright, M. (2018). A Center for Teaching and Learning Matrix. POD Network and American Council on Education. Retrieved from https://podnetwork.org/resources/center-for-teaching-and-learning-matrix/.",
+        "Condon, W., Iverson, E., Manduca, C., Rutz, C., & Willett, G. (2016). Faculty development and student learning: Assessing the connections. Bloomington, IN: Indiana University Press.",
+        "Eble, K. E., & McKeachie, W. J. (1985). Improving undergraduate education through faculty development: An analysis of effective programs and practices. San Francisco, CA: Jossey-Bass.",
+        "Elliot, D.L., Skeff, K.M. & Stratos, G.A. (1999). How do you get to the improvement of teaching? A longitudinal faculty development program for medical educators. Teaching and Learning in Medicine, 11(1), 52-57.",
+        "Erickson, G. (1986). A survey of faculty development practices. In M. Svinicki, J. Kurfiss, & J. Stone (Eds.), To Improve the Academy, 5, 182-96.",
+        "Fink, L.D. (2013). Creating significant learning experiences: An integrated approach to designing college courses. San Francisco, CA: Jossey Bass.",
+        "Frantz, A.C., Beebe, S.A., Horvath, V.S., Canales, J., & Swee, D.E. (2005). The roles of teaching and learning centers. In S. Chadwick-Blossey & D.R. Robertson (Eds.), To Improve the Academy, 23, 72-90.",
+        "Ferren, A. & Mussell, K. (1987). Strengthening faculty development programs through evaluation. To Improve the Academy, 133-143.",
+        "Gaff, J.G. (1975). Toward faculty renewal. San Francisco, CA: Jossey-Bass.",
+        "Haras, C., Taylor, S., Sorcinelli, M. D., & von Hoene, L. (Eds.). (2017). Institutional commitment to teaching excellence: Assessing the impacts and outcomes of faculty development. Washington, DC: American Council on Education. Retrieved from https://www.acenet.edu/news-room/Documents/Institutional-Commitment-to-Teaching-Excellence.pdf.",
+        "Hines, S.R. (2009). Investigating faculty development program assessment practices: What's being done and how can it be improved? The Journal of Faculty Development, 23(3), 5-19.",
+        "Hines, S.R. (2011). How mature teaching and learning centers evaluate their services. To Improve the Academy, 30(1), 277-289.",
+        "Hines, S. (2017). Evaluating centers for teaching and learning: A field‐tested model. To Improve the Academy, 36 (2), 89-100.",
+        "Hoyt, D.P., & Howard, G.S. (1978). The evaluation of faculty development programs. Research in Higher Education, 8, 25-38.",
+        "Jankowski, N. (2017). Unpacking relationships: Instruction and student outcomes. Washington, DC: American Council on Education. Retrieved from https://www.acenet.edu/news-room/Documents/Unpacking-Relationships-7.",
+        "Jennings, C.A., Barlar, A.D., & Bartling, C.A. (1991). Trends in college and university faculty development programs. Journal of Staff, Program, & Organization Development, 9, 147-154.",
+        "Kalish, A., & Plank, K.M. (2010). Program assessment for faculty development. In Kay J. Gillespie & D.L. Robertson, (Eds.), A guide to faculty development. Second Edition. San Francisco: Jossey-Bass.",
+        "Kucsera, J.V., & Svinicki, M. (2010). Rigorous evaluations of faculty development programs. Journal of Faculty Development, 24(2), 5-18.",
+        "MacCormack, P., Snow, M., Gyurko, J., & Sekel, J.C. (2018). Connecting the dots: A proposed accountability method for evaluating the efficacy of faculty development and its impact on student outcomes. Retrieved from https://acue.org/efficacy_reports/connecting-the-dots-a-proposed-ccountabilitymethod-for-evaluating-the-efficacy-of-faculty-development-and-its-impact-onstudent-outcomes/.",
+        "Menges, R.J. & Svinicki, M. (1989). Designing program evaluations: A circular model. To Improve the Academy, 81-97.",
+        "Murray, J.P. (2002). The current state of faculty development in two-year colleges. In C.L. Outcalt (Ed.), Community college faculty: Characteristics, practices, and challenges: New directions for teaching and learning, 118, 89-97. San Francisco, CA: Jossey-Bass.",
+        "Nasmith, L., Saroyan, A., Steinert, Y., Daigle, N., & Franco, E.D. (1997). Long-Term Impact of Faculty Development Workshops: A Pilot Study. In A.J.J.A. Scherpbier., C.P.M. Van der Vleuten, J.J. Rethans, A.F.W. Van der Steeg (eds), Advances in Medical Education. Springer, Dordrecht. Doi: 10.1007/978-94-011-4886-3_71.",
+        "Nelsen, W. C., & Siegel, M. E. (1980). Effective approaches to faculty development. Washington, DC: Association of American Colleges.",
+        "Plank, K. M., Kalish, A., Rohdieck, S., & Harper, K.A. (2004). A vision beyond measurement: Creating an integrated data system for teaching centers. In S. Chadwick-Blossey (Ed.), To Improve the Academy, 22.",
+        "POD Network in Higher Education (2016). The 2016 POD Network Membership Survey: Past, Present, and Future. Retrieved from https://podnetwork.org/content/uploads/2016podmembershipreportprintnomarks.pdf.",
+        "POD Network in Higher Education (2018). Defining what matters: Guidelines for Comprehensive Center for Teaching and Learning (CTL) Evaluation. Retrieved from https://podnetwork.org/content/uploads/POD_CTL_Evaluation_Guidelines__2018_.pdf.",
+        "Rubino, A. (1994) Faculty Development Programs and Evaluation in American Colleges and Universities. Dissertations. 1856. https://scholarworks.wmich.edu/dissertations/1856.",
+        "Sheets, K.L., & Henry, R.C. (1984). Assessing the impact of faculty development programs in medical education. Journal of Medical Education, 59, 746-748.",
+        "Sheets, K.J., & Henry, R.C. (1988). Evaluation of a family development program for family physicians. Medical Teacher, 10(1), 75-83.",
+        "Sorcinelli, M.D., Austin, A. E., Eddy, P.L., & Beach, A.L. (2006). Creating the future of faculty development: Learning from the past, understanding the present. Bolton, MA: Anker Publishing.",
+        "Stes, A., Min-Leliveld, M., Gijbels, D., & Van Petegem, P. (2010). The impact of instructional development in higher education: The state-of-the-art of the research. Educational Research Review, 5, 25-49.",
+        "Struthers, B., MacCormack, P., & Taylor, S.C. (2018). Effective teaching: A foundational aspect of practices that support student learning. Washington, D.C.: American Council on Education. Retrieved from https://acue.org/wpcontent/uploads/2018/07/Effective-Teaching-A-Foundational-Aspect-of-Practices-1.pdf.",
+        "Toombs, W. (1975). A three-dimensional view of faculty development. Journal of Higher Education, 46, 701-17.",
+        "Wright, M., Horii, C.V., Felten, P., Sorcinelli, M.D., & Kaplan, M. (2018). Faculty development improves teaching and learning. POD Speaks, 2, 1-5. Retrieved from https://podnetwork.org/content/uploads/POD-Speaks-Issue-2_Jan2018-1.pdf.",
+        "Wright, M.C. (2011). Measuring a Teaching Center’s Effectiveness. In C. Cook & M. Kaplan (Eds), Advancing the Culture of Teaching on Campus: How a Teaching Center Can Make a Difference. Sterling, VA: Stylus."
+      ],
+      "count": 44,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_10801",
+    "article_ID": "10801",
+    "slug": "10801",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "10801",
+      "url_slug": "10801"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "evaluation, impact, faculty development, literature review",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2020-11-30",
+      "accepted": null,
+      "created": "2020-11-30",
+      "modified": "2022-04-08",
+      "issued": "2020-12-01",
+      "available": "2020-12-01",
+      "submitted_page": "2020-11-30",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "pdf_value": null,
+        "chosen_value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-11-30",
+        "pdf_value": null,
+        "chosen_value": "2020-11-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801/1320",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10801/1320",
+      "local_relative_path": "2499-507X_10801.pdf",
+      "saved": true,
+      "sha256": "c4165880fea90e0291ec79beaf39c01b7fcc201ef785e3f5bfe70ed8a02e28b8",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 958307,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Mary Deane Sorcinelli"
+      ],
+      "citation_author_institution": [
+        "University of Massachusetts"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2020/11/30"
+      ],
+      "citation_volume": [
+        "5"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2020oa10801"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10801"
+      ],
+      "citation_keywords": [
+        "evaluation",
+        "impact",
+        "faculty development",
+        "literature review"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/10801/1320"
+      ],
+      "citation_reference_count": 44,
+      "DC.Date.created": [
+        "2020-11-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2020-11-30"
+      ],
+      "DC.Date.issued": [
+        "2020-12-01"
+      ],
+      "DC.Date.modified": [
+        "2022-04-08"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "10801"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2020oa10801"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10801"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "5"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)"
+      ],
+      "DC.Title.Alternative": [
+        "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "evaluation, impact, faculty development, literature review",
+        "evaluation, impact, faculty development, literature review"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Mary Deane Sorcinelli"
+      ],
+      "citation_author_institution": [
+        "University of Massachusetts"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Mary Deane Sorcinelli"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This article provides a chronological review of models and studies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both classic and recent literature. An emergent theme from the review is that we now have robust models, criteria, and examples of how to better assess the quality, outcomes, and impact of faculty development programs. At the same time, what often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This article provides a chronological review of models and studies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both classic and recent literature. An emergent theme from the review is that we now have robust models, criteria, and examples of how to better assess the quality, outcomes, and impact of faculty development programs. At the same time, what often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice."
+          }
+        },
+        {
+          "content": "This article provides a chronological review of models and studies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both classic and recent literature. An emergent theme from the review is that we now have robust models, criteria, and examples of how to better assess the quality, outcomes, and impact of faculty development programs. At the same time, what often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "This article provides a chronological review of models and studies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both classic and recent literature. An emergent theme from the review is that we now have robust models, criteria, and examples of how to better assess the quality, outcomes, and impact of faculty development programs. At the same time, what often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "evaluation",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "evaluation"
+          }
+        },
+        {
+          "content": "impact",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "impact"
+          }
+        },
+        {
+          "content": "faculty development",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "faculty development"
+          }
+        },
+        {
+          "content": "literature review",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "literature review"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10801/1320",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10801/1320",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801/1320",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801/1320",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10801/1320",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2020-11-30",
+        "mod_date": "2020-11-30"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 2 The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s- 2020) Mary Deane Sorcinelli * Abstract This article provides a chronological review of models and stud ies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both clas sic and recent literature. An emergent theme from the review is that we now ha ve robust models, criteria, and examples of how to better assess the qual ity, outcomes, and impact of faculty developmen t programs. At the same time, w hat often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice. Key Words: evaluation, impact, faculty development, literature review. Introduction Calls for more accountability for colleges and universities are , of course, nothing new. What is different over the last decade is the lase r focus on measuring student learning outcomes and success. Student develo pment and learning, however, do not occur in isolation. Faculty members p lay a critical role in student success through the quality of their teaching. Students are more engaged, learn more, persist in their studies, and graduate in stronger numbers when instructors teach well (Struthers, MacCormack, & Taylor, 2 018). Investing in faculty professional learning, then, is essential; faculty members deserve the on-going support needed to provide every student with a quality education. * Professor Emeritus & Senior Fellow, Center for Teaching & Lear ning, University of Massachusetts Amherst. Co-Principal Investigator, Undergraduate S T E M E d u c a t i o n Initiative, Association of American Universities (AAU). Doi:10.3280/exioa2-2020oa10801 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\2499-507X_10801.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "pdf_value": null,
+        "chosen_value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-11-30",
+        "pdf_value": null,
+        "chosen_value": "2020-11-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020) | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:30:03Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\temp\\2499-507X_10801.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:30:05Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\2499-507X_10801.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+        "submitted_date": "2020-11-30",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Mary Deane Sorcinelli"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\2499-507X_10801.pdf",
+        "generated_at_utc": "2026-04-21T21:30:05Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2020-11-30",
+          "mod_date": "2020-11-30"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 2 The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s- 2020) Mary Deane Sorcinelli * Abstract This article provides a chronological review of models and stud ies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both clas sic and recent literature. An emergent theme from the review is that we now ha ve robust models, criteria, and examples of how to better assess the qual ity, outcomes, and impact of faculty developmen t programs. At the same time, w hat often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice. Key Words: evaluation, impact, faculty development, literature review. Introduction Calls for more accountability for colleges and universities are , of course, nothing new. What is different over the last decade is the lase r focus on measuring student learning outcomes and success. Student develo pment and learning, however, do not occur in isolation. Faculty members p lay a critical role in student success through the quality of their teaching. Students are more engaged, learn more, persist in their studies, and graduate in stronger numbers when instructors teach well (Struthers, MacCormack, & Taylor, 2 018). Investing in faculty professional learning, then, is essential; faculty members deserve the on-going support needed to provide every student with a quality education. * Professor Emeritus & Senior Fellow, Center for Teaching & Lear ning, University of Massachusetts Amherst. Co-Principal Investigator, Undergraduate S T E M E d u c a t i o n Initiative, Association of American Universities (AAU). Doi:10.3280/exioa2-2020oa10801 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2020-11-30",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2020-11-30",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:58Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:45:01Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\temp\\2499-507X_10801.conflicts.json"
+  }
+}

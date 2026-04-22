@@ -1,0 +1,879 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10809",
+  "scraped_at_utc": "2026-04-21T21:30:11Z",
+  "fetched_at_utc": "2026-04-21T21:30:11Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "f6efb4600f6b19023d3aaa3482db2e6fba8873e380fd38baa613ce4efbea13ba",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Mercedes López-Aguado",
+        "nameType": "Personal",
+        "givenName": "Mercedes",
+        "familyName": "López-Aguado",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Leon, Spain"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/10809",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2020-12-01",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2020-12-01",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2020-12-01",
+      "Issued": "2020-12-01"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The forced transition to online education caused by the confinement of the Spanish population in order to slow the progress of COVID19, has aggravated educational differences, especially harming the most disadvantaged sectors of society. This survey study, in which 3700 teachers from all over Spain participate, analyses the effect of the type of school (public, private or concerted) on two groups of variables. First, those that value the prior training of teachers to attend virtual teaching and, second, those that describe the action of teachers during the period of confinement. Results seem to confirm that this crisis has aggravated the previous educational differences due both to the differences in digital teacher and student education, and to the difficulties in monitoring virtual education in the most disadvantaged sector. These difficulties are mainly (but not exclusively) due to the lack of technological resources and the inability of families to support their children’s learning. The results are discussed and proposals are made for education administrations.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "El paso obligado a la enseñanza online provocado por el confinamiento de la población española para frenar el avance del COVID19, ha agravado las diferencias educativas perjudicando, especialmente, a los sectores más desfavorecidos de la sociedad. En este trabajo de investigación por encuesta, en el que participan 3700 docentes de todo el territorio español, se analiza el efecto del tipo de centro (público, privado o concertado) sobre dos grupos de variables. En primer lugar, aquellas que valoran la capacitación previa de los docentes para atender la docencia virtual y, en segundo lugar, aquellas que describen la acción de los docentes durante el periodo de confinamiento. Los resultados parecen confirmar que esta crisis ha agravado las diferencias educativas previas debido tanto a las diferencias en formación digital de profesorado y alumnado, como a las dificultades para el seguimiento de la enseñanza virtual del sector más desfavorecido. Estas dificultades se deben principalmente (aunque no exclusivamente) a la falta de recursos tecnológicos y a la imposibilidad de las familias para apoyar el aprendizaje de sus hijos. Se discuten los resultados y se realizan propuestas para las administraciones educativas.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2020oa10809",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "5",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Enseñanza virtual",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "desigualdades educativas",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "tipo de centro",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pandemia del coronavirus",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "confinamiento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10809/1322",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "5",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "López-Aguado, M. (2020). El incremento de las desigualdades educativas producido por la pandemia del coronavirus. Excellence and Innovation in Learning and Teaching - Open Access , 5 (2). https://doi.org/10.3280/exioa2-2020oa10809",
+      "articleTitleEcho": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Alva de la Selva, A.R. (2015). Los nuevos rostros de la desigualdad en el siglo XXI: la brecha digital. Revista mexicana de ciencias políticas y sociales, 60(223), 265-285. https://www.sciencedirect.com/science/article/pii/S0185191815721380.",
+        "Andrew, A., Cattan, S., Costa Dias, M., Farquharson, C., Kraftman, L., Krutikova, S., Phimister, A., & Sevilla, A. (2020). Learning during the lockdown: real-time data on children’s experiences during home learning. IFS, Briefing Note no. BN288. https://www.ifs.org.uk/publications/14848.",
+        "Armitage, R., & Nellums, L.B. (2020). Considering inequalities in the school closure response to COVID-19. The Lancet Global Health, 8(5), e644. Doi: 10.1016/S2214-109X(20)30116-9.",
+        "Banco de Desarrollo de América Latina. (2020). Las oportunidades de la digitalización en América Latina frente al Covid-19. Naciones Unidas.",
+        "Beltrán, A. (2013). El tiempo de la familia es un recurso escaso: ¿cómo afecta su distribución en el desempeño escolar? Apuntes: Revista De Ciencias Sociales, 40(72), 117-156. https://revistas.up.edu.pe/index.php/apuntes/article/view/677.",
+        "Blundell, R., Costa Dias, M., Joyce, R., & Xu, X. (2020). COVID‐19 and Inequalities. Fiscal Studies, 41(2), 291-319. Doi: 10.1111/1475-5890.12232.",
+        "Cabrera, L. (2020). Efectos del coronavirus en el sistema de enseñanza: aumenta la desigualdad de oportunidades educativas en España. Revista de Sociología de la Educación-RASE, 13(2), 114-139.",
+        "Cáceres-Muñoz, J., Jiménez, A.S., & Martín-Sánchez, M. (2020). Cierre de Escuelas y Desigualdad Socioeducativa en Tiempos del Covid-19. Una Investigación Exploratoria en Clave Internacional. Revista Internacional de Educación para la Justicia Social, 9(3), 199-221. Doi: 10.15366/riejs2020.9.3.011.",
+        "Casado, O.M. (2018). La autorregulación en el aula de educación primaria: estudio y aplicación de un modelo integral de transición activa hacia la autonomía [tesis doctoral]. Valladolid: Universidad de Valladolid. Doi: 10.35376/10324/33456.",
+        "Cifuentes-Faura, J. (2020). Consecuencias en los Niños del Cierre de Escuelas por Covid-19: El Papel del Gobierno, Profesores y Padres. Revista Internacional de Educación para la Justicia Social, 9(3). https://revistas.uam.es/riejs.",
+        "Cooper, H. (2003). Summer Learning Loss: The Problem and Some Solutions. ERIC Digest. https://eric.ed.gov/?id=ED475391.",
+        "COTEC (2020a). Covid-19 y educación I: problemas, respuestas y escenarios. COTEC. https://bit.ly/3hy4Ph5.",
+        "COTEC (2020b). Covid-19 y educación II: escuela en casa y desigualdad. COTEC. https://bit.ly/2URkyhw.",
+        "Diez-Gutierrez, E., & Gajardo-Espinoza, K. (2020). Educar y Evaluar en Tiempos de Coronavirus: la Situación en España. Multidisciplinary Journal of Educational Research, 10(2), 102-134. doi: 10.4471/remie.2020.5604.",
+        "Doyle, O. (2020). COVID-19: Exacerbating Educational Inequalities?. publicpolicy.ie. http://publicpolicy.ie/papers/covid-19-exacerbating-educational-inequalities/.",
+        "Fairchild, R., & Boulay, M. (2003). Summer learning loss: The evidence anda possible solution. APPAM Research Conference. USA.",
+        "Fernández-Alonso, R., Suárez-Álvarez, J., & Muñiz, J. (2014). Tareas escolares en el hogar y rendimiento en matemáticas: una aproximación multinivel con estudiantes de enseñanza primaria. Revista de Psicología y Educación, 9(2). http://digibuo.uniovi.es/dspace/bitstream/10651/29664/1/rpye_ -_nmero_9-2_-_pp15-29.pdf.",
+        "Fernández-Enguita, M. (2020, 31 marzo). Una pandemia imprevisible ha traído la brecha previsible. Cuaderno de Campo. https://blog.enguita.info/.",
+        "Fernández-Franco, F.J. (2020). Estudio comparado de las normas del tercer trimestre del curso 2019/2020 reguladas por las administraciones educativas. Córdoba: USIE. https://usie.es/wp-content/uploads/2020/06/ESTUDIO-COMPARADO-DELAS-NORMAS-DEL-3R-TRIMESTRE-CURSO-19_20-USIE-Fernandez-Franco.pdf.",
+        "García-Gómez, T. (2018). Bases del derecho a la educación: La justicia social y la democracia. Revista Internacional de Educación para la Justicia Social, 7(1), 159-175. Doi: 10.15366/riejs2018.7.1.008.",
+        "Jæger, M.M., & Blaabæk, E.H. (2020). Inequality in learning opportunities during Covid-19: Evidence from library takeout. Research in Social Stratification and Mobility, 68, 100524. Doi: 10.1016/j.rssm.2020.100524.",
+        "Jorquera, G. (2020). Familias en riesgo, análisis de la situación de pobreza en los hogares con hijos e hijas en España. Save the Children España. https://www.savethechildren.es/sites/default/files/imce/familias_en_riesgo_feb2020.pdf.",
+        "Lloyd, M. (2020). Desigualdades educativas y la brecha digital en tiempos de COVID-19. En H. Casanova Cardiel (Coord.). Educación y pandemia: una visión académica (pp. 115-121). México: UNAM http://132.248.192.241:8080/xmlui/bitstream/handle/IISUE_UNAM/546/LloydM_2020_Desigualdades_educativas.pdf?sequence=1&isAllowed=y.",
+        "Luengo, F., & Manso, J. (cood.) (2020). Informe de Investigación COVID19- Voces de docentes y familias. http://www.proyectoatlantida.eu/wordpress/informe-deinvestigacion-covid19.",
+        "Martín-Criado, E., & Gómez-Bueno, C. (2017). El mito de la dimisión parental. Implicación familiar, desigualdad social y éxito escolar. Cuadernos de Relaciones Laborales, 35(2), 35. Doi: 10.5209/CRLA.56777.",
+        "Ministerio de Educación y Formación Profesional (2019a). Datos y cifras. Curso escolar 2019/2020. Madrid: MEFP.",
+        "Ministerio de Educación y Formación Profesional (2019). Panorama de la educación indicadores de la OCDE 2019. Informe español. Madrid: MEFP.",
+        "Moreno, J.M., & Luengo, F. (2020). Hay que parar la hemorragia educativa. Magisterio (8 junio) https://www.magisnet.com/2020/06/hay-que-parar-la-hemorragiaeducativa/.",
+        "Murillo, F.J., & Duk, C. (2020). El Covid-19 y las Brechas Educativas. Revista latinoamericana de educación inclusiva, 14(1), 11-13. Doi: 10.4067/S0718-73782020000100011.",
+        "Patton, K., & Reschly, A. (2013). Using curriculum-based measurement to examine summer learning loss. Psychology in the Schools, 50(7), 738-753.",
+        "Ruiz, A. (2008) La muestra: algunos elementos para su confección. REIRE: Revista d’Innovació i Recerca en Educació, 1, 75-88.",
+        "Save the Children. (2020). COVID-19: cerrar la brecha. Impacto educativo y propuestas de equidad para la desescalada. https://www.observatoriodelainfancia.es/ficherosoia/documentos/7086_d_COVID19Cerrarlabrecha.pdf.",
+        "Shinwell, J., & Defeyter, M.A. (2017). Investigation of Summer Learning Loss in the UK— Implications for Holiday Club Provision. Front Public Health, 5, 1-7.",
+        "Tourón, J., & Santiago, R. (2015). El modelo Flipped Learning y el desarrollo del talento en la escuela. Revista de Educación, 368, 196-223. Doi: 10.4438/1988-592X-RE-2015-368-288.",
+        "UNESCO. (2020b). COVID-19: 10 Recommendations to plan distance learning solutions. Paris: UNESCO. https://en.unesco.org/news/covid-19-10-recommendations-plan-distance-learning-solutions.",
+        "Van Lancker, W., & Parolin, Z. (2020). COVID-19, school closures, and child poverty: a social crisis in the making. The Lancet Public Health, 5(5), e243-e244. Doi: 10.1016/S2468-2667(20)30084-0."
+      ],
+      "count": 36,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_10809",
+    "article_ID": "10809",
+    "slug": "10809",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "10809",
+      "url_slug": "10809"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "The increase in educational inequalities caused by the coronavirus pandemic",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Virtual teaching, educational inequalities, type of center, coronavirus pandemic, confinement.",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Enseñanza virtual, desigualdades educativas, tipo de centro, pandemia del coronavirus, confinamiento",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2020-12-01",
+      "accepted": null,
+      "created": "2020-12-01",
+      "modified": "2022-04-08",
+      "issued": "2020-12-01",
+      "available": "2020-12-01",
+      "submitted_page": "2020-12-01",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+        "pdf_value": null,
+        "chosen_value": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-12-01",
+        "pdf_value": null,
+        "chosen_value": "2020-12-01",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10809/1322",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10809/1322",
+      "local_relative_path": "2499-507X_10809.pdf",
+      "saved": true,
+      "sha256": "f5da8136de467e023ac66bf4755c1552633ad7b71482ebaafc00ddf8634d6db4",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1045072,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Mercedes López-Aguado"
+      ],
+      "citation_author_institution": [
+        "University of Leon, Spain"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "El incremento de las desigualdades educativas producido por la pandemia del coronavirus"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2020/12/01"
+      ],
+      "citation_volume": [
+        "5"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2020oa10809"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10809"
+      ],
+      "citation_keywords": [
+        "Enseñanza virtual",
+        "desigualdades educativas",
+        "tipo de centro",
+        "pandemia del coronavirus",
+        "confinamiento"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/10809/1322"
+      ],
+      "citation_reference_count": 36,
+      "DC.Date.created": [
+        "2020-12-01"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2020-12-01"
+      ],
+      "DC.Date.issued": [
+        "2020-12-01"
+      ],
+      "DC.Date.modified": [
+        "2022-04-08"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "10809"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2020oa10809"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10809"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "5"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "El incremento de las desigualdades educativas producido por la pandemia del coronavirus"
+      ],
+      "DC.Title.Alternative": [
+        "The increase in educational inequalities caused by the coronavirus pandemic",
+        "Virtual teaching, educational inequalities, type of center, coronavirus pandemic, confinement.",
+        "Enseñanza virtual, desigualdades educativas, tipo de centro, pandemia del coronavirus, confinamiento"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Mercedes López-Aguado"
+      ],
+      "citation_author_institution": [
+        "University of Leon, Spain"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Mercedes López-Aguado"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The forced transition to online education caused by the confinement of the Spanish population in order to slow the progress of COVID19, has aggravated educational differences, especially harming the most disadvantaged sectors of society. This survey study, in which 3700 teachers from all over Spain participate, analyses the effect of the type of school (public, private or concerted) on two groups of variables. First, those that value the prior training of teachers to attend virtual teaching and, second, those that describe the action of teachers during the period of confinement. Results seem to confirm that this crisis has aggravated the previous educational differences due both to the differences in digital teacher and student education, and to the difficulties in monitoring virtual education in the most disadvantaged sector. These difficulties are mainly (but not exclusively) due to the lack of technological resources and the inability of families to support their children’s learning. The results are discussed and proposals are made for education administrations.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The forced transition to online education caused by the confinement of the Spanish population in order to slow the progress of COVID19, has aggravated educational differences, especially harming the most disadvantaged sectors of society. This survey study, in which 3700 teachers from all over Spain participate, analyses the effect of the type of school (public, private or concerted) on two groups of variables. First, those that value the prior training of teachers to attend virtual teaching and, second, those that describe the action of teachers during the period of confinement. Results seem to confirm that this crisis has aggravated the previous educational differences due both to the differences in digital teacher and student education, and to the difficulties in monitoring virtual education in the most disadvantaged sector. These difficulties are mainly (but not exclusively) due to the lack of technological resources and the inability of families to support their children’s learning. The results are discussed and proposals are made for education administrations."
+          }
+        },
+        {
+          "content": "El paso obligado a la enseñanza online provocado por el confinamiento de la población española para frenar el avance del COVID19, ha agravado las diferencias educativas perjudicando, especialmente, a los sectores más desfavorecidos de la sociedad. En este trabajo de investigación por encuesta, en el que participan 3700 docentes de todo el territorio español, se analiza el efecto del tipo de centro (público, privado o concertado) sobre dos grupos de variables. En primer lugar, aquellas que valoran la capacitación previa de los docentes para atender la docencia virtual y, en segundo lugar, aquellas que describen la acción de los docentes durante el periodo de confinamiento. Los resultados parecen confirmar que esta crisis ha agravado las diferencias educativas previas debido tanto a las diferencias en formación digital de profesorado y alumnado, como a las dificultades para el seguimiento de la enseñanza virtual del sector más desfavorecido. Estas dificultades se deben principalmente (aunque no exclusivamente) a la falta de recursos tecnológicos y a la imposibilidad de las familias para apoyar el aprendizaje de sus hijos. Se discuten los resultados y se realizan propuestas para las administraciones educativas.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "El paso obligado a la enseñanza online provocado por el confinamiento de la población española para frenar el avance del COVID19, ha agravado las diferencias educativas perjudicando, especialmente, a los sectores más desfavorecidos de la sociedad. En este trabajo de investigación por encuesta, en el que participan 3700 docentes de todo el territorio español, se analiza el efecto del tipo de centro (público, privado o concertado) sobre dos grupos de variables. En primer lugar, aquellas que valoran la capacitación previa de los docentes para atender la docencia virtual y, en segundo lugar, aquellas que describen la acción de los docentes durante el periodo de confinamiento. Los resultados parecen confirmar que esta crisis ha agravado las diferencias educativas previas debido tanto a las diferencias en formación digital de profesorado y alumnado, como a las dificultades para el seguimiento de la enseñanza virtual del sector más desfavorecido. Estas dificultades se deben principalmente (aunque no exclusivamente) a la falta de recursos tecnológicos y a la imposibilidad de las familias para apoyar el aprendizaje de sus hijos. Se discuten los resultados y se realizan propuestas para las administraciones educativas. "
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Enseñanza virtual",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Enseñanza virtual"
+          }
+        },
+        {
+          "content": "desigualdades educativas",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "desigualdades educativas"
+          }
+        },
+        {
+          "content": "tipo de centro",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "tipo de centro"
+          }
+        },
+        {
+          "content": "pandemia del coronavirus",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pandemia del coronavirus"
+          }
+        },
+        {
+          "content": "confinamiento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "confinamiento"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10809/1322",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10809/1322",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10809/1322",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10809/1322",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10809/1322",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2020-11-30",
+        "mod_date": "2020-12-01"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 2 El incremento de las desigualdades educativas producido por la pandemia del coronavirus The increase in educational inequalities caused by the coronavirus pandemic Mercedes López-Aguado* Resumen El paso obligado a la enseñanza online provocado por el confina miento de la población española para frenar el avance del COVID19, ha agravado las diferencias educativas perjudicando, especialmente, a los sectores más desfavorecidos de la sociedad. En este trabajo de investigación por encuesta, en el que participan 3700 docentes de todo el territorio español, se analiza el efecto del tipo de centro (público, privado o concertado) sobre dos grupos de variables. En primer lugar, aquellas que valoran la capacitación previa de los docentes para atender la docencia virtual y, en segundo lugar, aquellas que describen la acción de los docentes durante el periodo de confinamiento. Los resultados parecen confirmar que esta crisis ha agravado las diferencias educativas previas debido tanto a las diferencias en formación digital de profesorado y alumnado, como a las dificultades para el seguimi ento de la enseñanza virtual del sector más desfavorecido. Estas dificulta des se deben principalmente (aunque no exclusivamente) a la falta de recursos tecnológicos y a la imposibilidad de las familias para apoyar el aprendizaje de sus hijos. Se discuten los resultados y se realizan propuestas para las administraciones educativas. Palabras clave: Enseñanza virtual, desigualdades educativas, tipo de centro, pandemia del coronavirus, confinamiento. Abstract The forced transition to online education caused by the confine ment of the Spanish population in order to slow the progress of COVID19, has aggravated educational differences, especially harming the most disadvantaged sectors of society. This survey study, in which 3700 teachers from all ove r Spain * University of Leon, Spain. Doi: 10.3280/exioa2-2020oa10809 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\10809\\2499-507X_10809.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+        "pdf_value": null,
+        "chosen_value": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-12-01",
+        "pdf_value": null,
+        "chosen_value": "2020-12-01",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10809",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10809",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:30:11Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10809\\temp\\2499-507X_10809.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:30:12Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10809\\2499-507X_10809.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+        "submitted_date": "2020-12-01",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Mercedes López-Aguado"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10809\\2499-507X_10809.pdf",
+        "generated_at_utc": "2026-04-21T21:30:12Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2020-11-30",
+          "mod_date": "2020-12-01"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 2 El incremento de las desigualdades educativas producido por la pandemia del coronavirus The increase in educational inequalities caused by the coronavirus pandemic Mercedes López-Aguado* Resumen El paso obligado a la enseñanza online provocado por el confina miento de la población española para frenar el avance del COVID19, ha agravado las diferencias educativas perjudicando, especialmente, a los sectores más desfavorecidos de la sociedad. En este trabajo de investigación por encuesta, en el que participan 3700 docentes de todo el territorio español, se analiza el efecto del tipo de centro (público, privado o concertado) sobre dos grupos de variables. En primer lugar, aquellas que valoran la capacitación previa de los docentes para atender la docencia virtual y, en segundo lugar, aquellas que describen la acción de los docentes durante el periodo de confinamiento. Los resultados parecen confirmar que esta crisis ha agravado las diferencias educativas previas debido tanto a las diferencias en formación digital de profesorado y alumnado, como a las dificultades para el seguimi ento de la enseñanza virtual del sector más desfavorecido. Estas dificulta des se deben principalmente (aunque no exclusivamente) a la falta de recursos tecnológicos y a la imposibilidad de las familias para apoyar el aprendizaje de sus hijos. Se discuten los resultados y se realizan propuestas para las administraciones educativas. Palabras clave: Enseñanza virtual, desigualdades educativas, tipo de centro, pandemia del coronavirus, confinamiento. Abstract The forced transition to online education caused by the confine ment of the Spanish population in order to slow the progress of COVID19, has aggravated educational differences, especially harming the most disadvantaged sectors of society. This survey study, in which 3700 teachers from all ove r Spain * University of Leon, Spain. Doi: 10.3280/exioa2-2020oa10809 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "El incremento de las desigualdades educativas producido por la pandemia del coronavirus",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2020-12-01",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2020-12-01",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:45:11Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:45:16Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10809\\temp\\2499-507X_10809.conflicts.json"
+  }
+}

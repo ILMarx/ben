@@ -1,0 +1,893 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10077",
+  "scraped_at_utc": "2026-04-21T21:29:38Z",
+  "fetched_at_utc": "2026-04-21T21:29:38Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "40e54287747075c3e55c3c6bdd9235535cafdba579bc5dd200a6028b3ca96cca",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Daniela Frison",
+        "nameType": "Personal",
+        "givenName": "Daniela",
+        "familyName": "Frison",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Firenze"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/10077",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2020-06-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2020-06-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2020-06-24",
+      "Issued": "2020-06-24"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The paper presents the design process of a teaching and learning proposal addressed to students in Primary Education inspired by an Experiential and Active Learning approach. The proposed activity aims at fostering awareness about play-based learning in pre-primary and primary school settings. The paper includes the methodological framework, learning objectives and the description of the activity.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il contributo presenta una proposta didattica ispirata ad Experiential e Active Learning rivolta a studenti e studentesse in Scienze della Formazione Primaria, con l’obiettivo di sensibilizzarli verso la centralità di un approccio play-based nella Scuola dell’Infanzia e Primaria. L’articolo presenta il framework metodologico di riferimento, gli obiettivi della strategia e la sua articolazione.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2020oa10077",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "5",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "peer-review",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "feedback tra pari",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "tirocinio",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "valutazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "auto-valutazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10077/1292",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "5",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Frison, D. (2020). Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria. Excellence and Innovation in Learning and Teaching - Open Access , 5 (1). https://doi.org/10.3280/exioa1-2020oa10077",
+      "articleTitleEcho": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Barblett, L., Knaus, M., & Barratt-Pugh, C. (2016). The pushes and pulls of pedagogy in the early years: Competing knowledges and the erosion of play-based learning. Australasian Journal of Early Childhood, 41(4), 36-43.",
+        "Baumgartner, E. (2013). Il gioco dei bambini. Roma: Carocci.",
+        "Bennett, N., Wood, E., & Rogers, S. (1997). Teaching through play: Reception teachers’ theories and practice. Buckingham: Open University Press. Google Scholar.",
+        "Biagioli, R. (2005). Educare all’interculturalità: teorie, modelli, esperienze scolastiche. Milano: FrancoAngeli.",
+        "Bondioli, A. (1996). Gioco e educazione. Milano: FrancoAngeli.",
+        "Bowdon, J. (2015). The common core’s first casualty: Playful learning. Phi Delta Kappan, 96(8), 33-37.",
+        "Bracci, F. (2017). L'apprendimento adulto: metodologie didattiche ed esperienze trasformative. Milano: Unicopli.",
+        "Cutter-Mackenzie, A., & Edwards, S. (2013). Toward a model for early childhood environmental education: Foregrounding, developing, and connecting knowledge through play-based learning. The Journal of Environmental Education, 44(3), 195-213.",
+        "De Rossi, M. (2018). Didattica dell'animazione: contesti, metodi, tecniche. Roma: Carocci.",
+        "Falchikov, N. (2005). Improving Assessment through Student Involvement. London: Routledge-Falmer.",
+        "Fedeli, M., Grion, V., & Frison, D. (Eds.). (2016). Coinvolgere per apprendere. Metodi e tecniche partecipative per la formazione. Lecce: Pensa Multimedia.",
+        "Fedeli, M. (2014). La dimensione metodologica e riflessiva nei processi di apprendimento dall’esperienza. In M. Fedeli, L. Frontani, & L. Mengato, (Eds.). Experiential learning. Metodi, tecniche e strumenti per il debriefing (pp. 17-26). Milano: FrancoAngeli.",
+        "Felder, R. M., & Brent, R. (2016). Teaching and learning STEM: a practical guide. John Wiley & Sons.",
+        "Ferrando, M., & Ferrándiz, C. (2013). Early years’ creativity. Creativity in pre-school education, 70-78.",
+        "Ferranti, C. (2018). Giocare e apprendere con le tecnologie. Esperienze da 0 a 6 anni. Roma: Carocci Faber.",
+        "Fisher, K. R., Hirsh-Pasek, K., Golinkoff, R. M., & Gryfe, S. G. (2008). Conceptual split? Parents’ and experts’ perceptions of play in the 21st century. Journal of Applied Developmental Psychology, 29(4), 305-316.",
+        "Goodwin, J., Polman, P., Brodin, J., & Knell, G. (2018). To play is to learn. Time to step back and let kids be kids. World Economic Forum Annual Meeting 2018. Retrieved online https://www.weforum.org/agenda/2018/01/to-play-is-to-learn/.",
+        "Grion, V., & Tino, C. (2018). Verso una “valutazione sostenibile” all’università: percezioni di efficacia dei processi di dare e ricevere feedback fra pari. Lifelong Lifewide Learning, 14(31), 38-55.",
+        "Haney, M., & Bissonnette, V. (2011). Teachers’ perceptions about the use of play to facilitate development and teach prosocial skills. Creative Education, 2(01), 41-46.",
+        "Hattie, J., & Timperley, H. (2007). The power of feedback. Review of educational research, 77(1), 81-112.",
+        "Holt, N. L., Lee, H., Millar, C. A., & Spence, J. C. (2015). ‘Eyes on where children play’: A retrospective study of active free play. Children's Geographies, 13(1), 73-88.",
+        "Howard, J. (2010). Early years practitioners’ perceptions of play: An exploration of theoretical understanding, planning and involvement, confidence and barriers to practice. Educational & Child Psychology, 27(4), 91-102.",
+        "Kutnick, P., Ota, C., & Berdondini, L. (2008). Improving the effects of group working in classrooms with young school-aged children: Facilitating attainment, interaction and classroom activity. Learning and Instruction, 18(1), 83-95.",
+        "Leggett, N., & Ford, M. (2013). A fine balance: Understanding the roles educators and children play as intentional teachers and intentional learners within the early years learning framework. Australasian Journal of Early Childhood, 38(4), 42-50.",
+        "Lester, S., & Russell, W. (2010). Children’s right to play. An examination of the importance of play in the lives of children worldwide. Bernard van Leer Foundation. Retrieved from http://www.academia.edu/415484/Lester_S._and_Russell_W._2010_Childrens_right_to_play_An_examination_of_the_importance_of_play_in_the_lives_of_children_worldwide_The_Hague_Bernard_van_Leer_Foundation.",
+        "Jay, J. A., & Knaus, M. (2018). Embedding play-based learning into junior primary (Year 1 and 2) curriculum in WA. Australian Journal of Teacher Education, 43(1), 112-126.",
+        "Kolb, D. A. (1984). Experiential Learning: Experience as the source of learning and development. Englewood Cliffs, NJ: Prentice Hill.",
+        "Martlew, J., Stephen, C., & Ellis, J. (2011). Play in the primary school classroom? The experience of teachers supporting children’s learning through a new pedagogy. Early Years, 31(1), 71-83.",
+        "Munari, B. (1977). Fantasia. Roma: Laterza.",
+        "Nicol, D., Thomson, A. & Breslin, C. (2014). Rethinking feedback practices in higher education: a peer review perspective. Assessment & Evaluation in Higher Education, 39(1), 102-122.",
+        "OECD. (2017). Starting Strong V: Transitions from Early Childhood Education and Care to Primary Education. Online https://doi.org/10.1787/9789264276253-en.",
+        "OECD. (2019). \"Play!\". Trends Shaping Education Spotlights, 18. Paris: OECD Publishing. Online https://doi.org/10.1787/a4115284-en.",
+        "Pellegrini, A. D., & Bohn, C. M. (2005). The role of recess in children’s cognitive performance and school adjustment. Educational researcher, 34(1), 13-19.",
+        "Pfeiffer, W., & Jones, J. (1985) (Eds.). A handbook of structured experience for human relations training. San Diego, US: University Associates.",
+        "Pyle, A., DeLuca, C., & Danniels, E. (2017). A scoping review of research on playbased pedagogies in kindergarten education. Review of Education, 5(3), 311-351.",
+        "Pramling Samuelsson, I., & Johansson, E. (2006). Play and learning – inseparable dimensions in preschool practice. Early Child Development and Care, 176(1), 47-65. Doi: 10.1080/0300443042000302654.",
+        "Prince, M. (2004). Does active learning work? A review of the research. Journal of engineering education, 93(3), 223-231.",
+        "Puteh, N. (2013). Preschool Teachers’ Perceptions towards the Use of Play-Based Approach in Language and Literacy Development for Preschool. Malaysian Journal of Learning and Instruction, 10, 79-98.",
+        "Reidsema, C., Kavanagh, L., Hadgraft, R., & Smith, N. (2017). (Eds.). The Flipped Classroom. Practice and Practices in Higher Education. Springer.",
+        "Resnick, M., & Robinson, K. (2017). Lifelong kindergarten: Cultivating creativity through projects, passion, peers, and play. Boston, US: MIT press.",
+        "Scottish Executive. (2007). A Curriculum for Excellence, Building the Curriculum 2: Active learning in the early years. Edinburgh: Scottish Executive.",
+        "Staccioli, G. (2004). Culture in gioco: attività ludiche per l’apprendimento. Roma: Carocci Faber.",
+        "Staccioli, G. (2010). Ludobiografia: raccontare e raccontarsi con il gioco. Roma: Carocci Faber.",
+        "Surian, A., & Frison, D. (2019). Formazione esperienziale. Proposte per la sicurezza digitale. Lecce: Pensa Multimedia.",
+        "Trinchero, R. (2012). Costruire, valutare, certificare competenze. Proposte di attività per la scuola. Milano: FrancoAngeli.",
+        "Taylor, E. W. (2016). Teacher transformation: a transformative learning perspective. Italian Journal of Educational Research, 15, 17-26.",
+        "Weisberg, D. S., Hirsh-Pasek, K., & Golinkoff, R. M. (2013). Guided play: Where curricular goals meet playful pedagogy. Mind, Brain and Education, 7(2), 104-112.",
+        "Whitebread, D., Neale, D., Jensen, H., Liu, C., Lynneth Solis, S., Hopkins, E., Hirsh-Pasek, K., & Zosh, J. (2017). The role of play in children’s development: a review of evidence. The Lego Foundation, DK. Retrieved from https://www.legofoundation.com/media/1065/play-types-developmentreview_web.pdf.",
+        "Wieman, C. E. (2014). Large-scale comparison of science teaching methods sends clear message. Proceedings of the National Academy of Sciences, 111(23), 8319-8320.",
+        "Wood, E., & Attfield, J. (2005). Play, learning and the early childhood curriculum. London: Paul Chapman."
+      ],
+      "count": 50,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_10077",
+    "article_ID": "10077",
+    "slug": "10077",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "10077",
+      "url_slug": "10077"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Experiential teaching and learning methods in Higher Education to encourage a play-based approach in pre-primary and primary school settings",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "experiential learning, active learning, play-based learning, teachers training, primary school",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "peer-review, feedback tra pari, tirocinio, valutazione, auto-valutazione",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2020-06-24",
+      "accepted": null,
+      "created": "2020-06-24",
+      "modified": "2022-04-04",
+      "issued": "2020-06-24",
+      "available": "2020-06-24",
+      "submitted_page": "2020-06-24",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+        "pdf_value": null,
+        "chosen_value": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10077/1292",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10077/1292",
+      "local_relative_path": "2499-507X_10077.pdf",
+      "saved": true,
+      "sha256": "1fcc0b6537da24889ecf3e0075062d5e0a399d2ebc08d26004bcb59e0bc0981a",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1026950,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Daniela Frison"
+      ],
+      "citation_author_institution": [
+        "Università di Firenze"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2020/06/24"
+      ],
+      "citation_volume": [
+        "5"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2020oa10077"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10077"
+      ],
+      "citation_keywords": [
+        "peer-review",
+        "feedback tra pari",
+        "tirocinio",
+        "valutazione",
+        "auto-valutazione"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/10077/1292"
+      ],
+      "citation_reference_count": 50,
+      "DC.Date.created": [
+        "2020-06-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2020-06-24"
+      ],
+      "DC.Date.issued": [
+        "2020-06-24"
+      ],
+      "DC.Date.modified": [
+        "2022-04-04"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "10077"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2020oa10077"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10077"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "5"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria"
+      ],
+      "DC.Title.Alternative": [
+        "Experiential teaching and learning methods in Higher Education to encourage a play-based approach in pre-primary and primary school settings",
+        "experiential learning, active learning, play-based learning, teachers training, primary school",
+        "peer-review, feedback tra pari, tirocinio, valutazione, auto-valutazione"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Daniela Frison"
+      ],
+      "citation_author_institution": [
+        "Università di Firenze"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Daniela Frison"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The paper presents the design process of a teaching and learning proposal addressed to students in Primary Education inspired by an Experiential and Active Learning approach. The proposed activity aims at fostering awareness about play-based learning in pre-primary and primary school settings. The paper includes the methodological framework, learning objectives and the description of the activity.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The paper presents the design process of a teaching and learning proposal addressed to students in Primary Education inspired by an Experiential and Active Learning approach. The proposed activity aims at fostering awareness about play-based learning in pre-primary and primary school settings. The paper includes the methodological framework, learning objectives and the description of the activity."
+          }
+        },
+        {
+          "content": "Il contributo presenta una proposta didattica ispirata ad Experiential e Active Learning rivolta a studenti e studentesse in Scienze della Formazione Primaria, con l’obiettivo di sensibilizzarli verso la centralità di un approccio play-based nella Scuola dell’Infanzia e Primaria. L’articolo presenta il framework metodologico di riferimento, gli obiettivi della strategia e la sua articolazione.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il contributo presenta una proposta didattica ispirata ad Experiential e Active Learning rivolta a studenti e studentesse in Scienze della Formazione Primaria, con l’obiettivo di sensibilizzarli verso la centralità di un approccio play-based nella Scuola dell’Infanzia e Primaria. L’articolo presenta il framework metodologico di riferimento, gli obiettivi della strategia e la sua articolazione."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "peer-review",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": " peer-review"
+          }
+        },
+        {
+          "content": "feedback tra pari",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "feedback tra pari"
+          }
+        },
+        {
+          "content": "tirocinio",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "tirocinio"
+          }
+        },
+        {
+          "content": "valutazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "valutazione"
+          }
+        },
+        {
+          "content": "auto-valutazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "auto-valutazione"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10077/1292",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10077/1292",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10077/1292",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10077/1292",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10077/1292",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - Sommario.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2020-06-24",
+        "mod_date": "2020-06-24"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (I SSNe 2499-507X), 2020, 1 Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria Experiential teaching and learning methods in Higher Education to encourage a play-based approach in pre-primary and primary school settings Daniela Frison * Riassunto Il contributo presenta una proposta didattica ispirata ad Experiential e Active Learning rivolta a studenti e studentesse in Scienze della Formazione Primaria, con l’obiettivo di sensibilizzarli verso la centralità di un approccio play-based nella Scuola dell’Infanzia e Primaria. L’articolo presenta il framework metodo- logico di riferimento, gli obiettivi della strategia e la sua articolazione. Parole chiave: peer-review, feedback tra pari, tirocinio, valutazione, auto-v a- lutazione Abstract The paper presents the design process of a teaching and learnin g proposal addressed to students in Primary Education inspired by an Experiential and Active Learning approach. The proposed activity aims at fosteri ng awareness about play-based learning in pre-primary and primary school set tings. The paper includes the methodological framework, learning objectives and the description of the activity. Keywords: experiential learning, active learning, play-based learning, teachers training, primary school * Università di Firenze. DOI: 10.3280/exioa1-2020oa10077 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\10077\\2499-507X_10077.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+        "pdf_value": null,
+        "chosen_value": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10077",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10077",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:29:38Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10077\\temp\\2499-507X_10077.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:29:41Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10077\\2499-507X_10077.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+        "submitted_date": "2020-06-24",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Daniela Frison"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10077\\2499-507X_10077.pdf",
+        "generated_at_utc": "2026-04-21T21:29:41Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - Sommario.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2020-06-24",
+          "mod_date": "2020-06-24"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (I SSNe 2499-507X), 2020, 1 Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria Experiential teaching and learning methods in Higher Education to encourage a play-based approach in pre-primary and primary school settings Daniela Frison * Riassunto Il contributo presenta una proposta didattica ispirata ad Experiential e Active Learning rivolta a studenti e studentesse in Scienze della Formazione Primaria, con l’obiettivo di sensibilizzarli verso la centralità di un approccio play-based nella Scuola dell’Infanzia e Primaria. L’articolo presenta il framework metodo- logico di riferimento, gli obiettivi della strategia e la sua articolazione. Parole chiave: peer-review, feedback tra pari, tirocinio, valutazione, auto-v a- lutazione Abstract The paper presents the design process of a teaching and learnin g proposal addressed to students in Primary Education inspired by an Experiential and Active Learning approach. The proposed activity aims at fosteri ng awareness about play-based learning in pre-primary and primary school set tings. The paper includes the methodological framework, learning objectives and the description of the activity. Keywords: experiential learning, active learning, play-based learning, teachers training, primary school * Università di Firenze. DOI: 10.3280/exioa1-2020oa10077 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - Sommario.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Metodi e strategie didattiche esperienziali all’Università per incoraggiare un approccio play-based nella scuola dell’infanzia e primaria",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2020-06-24",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2020-06-24",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:21Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:26Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10077\\temp\\2499-507X_10077.conflicts.json"
+  }
+}

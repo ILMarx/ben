@@ -1,0 +1,858 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10080",
+  "scraped_at_utc": "2026-04-21T21:29:48Z",
+  "fetched_at_utc": "2026-04-21T21:29:48Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "f50688e1851930dff618098fd7805cdc98f6756ab8f1f26b43f20e414a16bb30",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Maria Cristina Mecenero",
+        "nameType": "Personal",
+        "givenName": "Maria Cristina",
+        "familyName": "Mecenero",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Istituto Comprensivo Statale Ciresola di Milano"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/10080",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2020-06-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2020-06-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2020-06-24",
+      "Issued": "2020-06-24"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "The experience of growing up in Milan, in particular at NoLo, an immigrants’ neighborhood (that in recent years has been characterized thanks to a lively social mobilization); a school that tries to replay the fate of an – almost predictable – ghettoization of some classes; the idea of art as a formative possibility and emancipation of pupils and the practice of Social Theater that invites us to take back the political intentionality of educational actions and our being part of a community, placing ourselves as a frontier where there are collective and individual difficulties: these are some elements that form the background to the experience of a school curriculum, the CrEA (Creative-Expressive-Artistic), examined here, at a primary school in Milan, the “Ciresola”. For years the change in the school population towards an increasingly multicultural dimension has opened questions and solicited answers. Showing how schools can activate inclusion processes, rethinking the relationship between teaching and learning as a creative/performative dimension in itself, is one of the objectives of these pages. The experience presented here is still ongoing. It relaunches art and theater as innovative means that, focusing on the authorship of the group, lend themselves to translating the pedagogical/educational idea of a school in which children are the protagonists of their learning and teachers, in alliance with families and the territory, can contribute to regenerate the social fabric of the school and the city.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’esperienza di crescere a Milano, in particolare a NoLo, un quartiere di immigrazione che negli ultimi anni si sta caratterizzando grazie a una vivace mobilitazione sociale; una scuola che tenta di rigiocare le sorti di una – quasi scontata – ghettizzazione di alcune classi; l’idea di arte come possibilità formativa e di emancipazione di alunne e alunni e la pratica del Teatro Sociale che invita a riappropriarci dell’intenzionalità politica delle azioni educative e del nostro essere parte di una comunità, ponendosi come frontiera là dove esistono difficoltà individuali e collettive: questi alcuni elementi che fanno da sfondo all’esperienza di un indirizzo scolastico, il CrEA (Creativo-Espressivo-Artistico), preso qui in esame, in una scuola primaria milanese, la “Ciresola”. Da anni il cambiamento della popolazione scolastica verso una dimensione sempre più multiculturale ha aperto interrogativi e sollecitato risposte. Mostrare come le scuole possano attivare processi di inclusione, ripensando il rapporto di insegnamento-apprendimento come una dimensione creativa/performativa in sé, è uno degli obiettivi di queste pagine. L’esperienza che si vuole qui presentare è ancora in corso. Essa rilancia l’arte e il teatro come mezzi innovatori che, puntando sull’autorialità del gruppo, si prestano a tradurre nella pratica didattica quotidiana l’idea pedagogica/educativa di una scuola in cui bambine e bambini sono protagonisti del loro apprendere e in cui chi insegna, in alleanza con famiglie e territorio, può contribuire a rigenerare il tessuto sociale della scuola e della città.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2020oa10080",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "5",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "teatro sociale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "arte",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "inclusione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "cittadinanza",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "comunità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10080/1295",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "5",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Mecenero, M. C. (2020). Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale. Excellence and Innovation in Learning and Teaching - Open Access , 5 (1). https://doi.org/10.3280/exioa1-2020oa10080",
+      "articleTitleEcho": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Amadini, M. (2012). Crescere nella città. Spazi, relazioni, processi partecipativi per educare l’infanzia. Brescia: La Scuola.",
+        "Augé, M. (2007). Tra i confini: città, luoghi, integrazioni. Milano: Mondadori.",
+        "Benjamin, W. (2014). L’opera d’arte nell’epoca della sua riproducibilità tecnica, Torino: Einaudi.",
+        "Bernardi, C. (2014). Il teatro sociale. L’arte tra disagio e cura. Roma: Carocci editore.",
+        "Bolognesi, I. (2016). Classi “etniche”. Scuole ad alta incidenza di alunni figli di immigrati. Sesamo. Didattica interculturale, rivista on-line, disponibile da https://www.giuntiscuola.it/sesamo/cultura-e-societa/punti-di-vista/classi-etnichescuole-ad-alta-incidenza-di-alunni-figli-di-immigrati/.",
+        "Dallari, M. & Francucci, C. (1998). L’esperienza pedagogica dell’arte, Scandicci. Firenze: La Nuova Italia editrice.",
+        "Fiaschini, F. (2018). Libere (e poco sistematiche) riflessioni in quattro punti e tre problemi sui rapporti fra teatro, performance e arti partecipative. ATEATRO webzine di cultura teatrale, /ateatro n. #BP2018, #BP2018 Lavoro, 164, disponibile da http://www.ateatro.it/webzine/2018/01/27/artepartecipativa-libere-e-poco-sistematiche-riflessioni-quattro-punti-e-tre-problemi-sui-rapporti-fra-teatro-performancee-arti-partecipative/.",
+        "Gasparini, L. (2013), Di fronte all’arte, forma significante. Lettura degli scritti di S. K. Langer alla luce di un interesse educativo In C. De Carli (a cura di), Attraverso l’arte. Percorsi filosofici ed esperienze educative (pp. 23-38). Milano: Vita e Pensiero.",
+        "Hillman, J. (2005). Politica della bellezza. Bergamo: Moretti e Vitali.",
+        "Ortese, A. M. (1997). Corpo celeste. Milano: Adelphi.",
+        "Ostrom, E. (2009). Governare i beni collettivi. Venezia: Marsilio.",
+        "Rossi Ghiglione, A. (2011). Fare un progetto di teatro sociale. In A. Rossi Ghiglione & A. Pagliarino (a cura di), Fare teatro sociale. Esercizi e progetti (pp. 11-30). Roma: Dino Audino Editore.",
+        "Servida, A. (2012). Un galeone in città. Milano: Paoline Editoriale Libri.",
+        "Triani, P. (2012). L’animazione come metodo educativo. In V. Iori (a cura di), Animare l’educazione. Gioco pittura musica danza teatro cinema parole (pp. 13-20). Milano: FrancoAngeli.",
+        "Tullet, H. (2016). La fabbrica dei colori. I laboratori di Hervé Tullet. Milano: L’Ippocampo."
+      ],
+      "count": 15,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_10080",
+    "article_ID": "10080",
+    "slug": "10080",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "10080",
+      "url_slug": "10080"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Aesthetical and political education: The CrEA orientation, a challenge for a multicultural school",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Social Theater, art, multiculturalism, inclusion, citizenship, community",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "teatro sociale, arte, inclusione, cittadinanza, comunità",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2020-06-24",
+      "accepted": null,
+      "created": "2020-06-24",
+      "modified": "2022-04-04",
+      "issued": "2020-06-24",
+      "available": "2020-06-24",
+      "submitted_page": "2020-06-24",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+        "pdf_value": null,
+        "chosen_value": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10080/1295",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10080/1295",
+      "local_relative_path": "2499-507X_10080.pdf",
+      "saved": true,
+      "sha256": "8b8199ad4328e9346222561d16e7ae0870de53f5650d8cc699516a9fdbb84c6a",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 969523,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Maria Cristina Mecenero"
+      ],
+      "citation_author_institution": [
+        "Istituto Comprensivo Statale Ciresola di Milano"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2020/06/24"
+      ],
+      "citation_volume": [
+        "5"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2020oa10080"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10080"
+      ],
+      "citation_keywords": [
+        "teatro sociale",
+        "arte",
+        "inclusione",
+        "cittadinanza",
+        "comunità"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/10080/1295"
+      ],
+      "citation_reference_count": 15,
+      "DC.Date.created": [
+        "2020-06-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2020-06-24"
+      ],
+      "DC.Date.issued": [
+        "2020-06-24"
+      ],
+      "DC.Date.modified": [
+        "2022-04-04"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "10080"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2020oa10080"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10080"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "5"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale"
+      ],
+      "DC.Title.Alternative": [
+        "Aesthetical and political education: The CrEA orientation, a challenge for a multicultural school",
+        "Social Theater, art, multiculturalism, inclusion, citizenship, community",
+        "teatro sociale, arte, inclusione, cittadinanza, comunità"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Maria Cristina Mecenero"
+      ],
+      "citation_author_institution": [
+        "Istituto Comprensivo Statale Ciresola di Milano"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Maria Cristina Mecenero"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The experience of growing up in Milan, in particular at NoLo, an immigrants’ neighborhood (that in recent years has been characterized thanks to a lively social mobilization); a school that tries to replay the fate of an – almost predictable – ghettoization of some classes; the idea of art as a formative possibility and emancipation of pupils and the practice of Social Theater that invites us to take back the political intentionality of educational actions and our being part of a community, placing ourselves as a frontier where there are collective and individual difficulties: these are some elements that form the background to the experience of a school curriculum, the CrEA (Creative-Expressive-Artistic), examined here, at a primary school in Milan, the “Ciresola”. For years the change in the school population towards an increasingly multicultural dimension has opened questions and solicited answers. Showing how schools can activate inclusion processes, rethinking the relationship between teaching and learning as a creative/performative dimension in itself, is one of the objectives of these pages. The experience presented here is still ongoing. It relaunches art and theater as innovative means that, focusing on the authorship of the group, lend themselves to translating the pedagogical/educational idea of a school in which children are the protagonists of their learning and teachers, in alliance with families and the territory, can contribute to regenerate the social fabric of the school and the city.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The experience of growing up in Milan, in particular at NoLo, an immigrants’ neighborhood (that in recent years has been characterized thanks to a lively social mobilization); a school that tries to replay the fate of an – almost predictable – ghettoization of some classes; the idea of art as a formative possibility and emancipation of pupils and the practice of Social Theater that invites us to take back the political intentionality of educational actions and our being part of a community, placing ourselves as a frontier where there are collective and individual difficulties: these are some elements that form the background to the experience of a school curriculum, the CrEA (Creative-Expressive-Artistic), examined here, at a primary school in Milan, the “Ciresola”. For years the change in the school population towards an increasingly multicultural dimension has opened questions and solicited answers. Showing how schools can activate inclusion processes, rethinking the relationship between teaching and learning as a creative/performative dimension in itself, is one of the objectives of these pages. The experience presented here is still ongoing. It relaunches art and theater as innovative means that, focusing on the authorship of the group, lend themselves to translating the pedagogical/educational idea of a school in which children are the protagonists of their learning and teachers, in alliance with families and the territory, can contribute to regenerate the social fabric of the school and the city."
+          }
+        },
+        {
+          "content": "L’esperienza di crescere a Milano, in particolare a NoLo, un quartiere di immigrazione che negli ultimi anni si sta caratterizzando grazie a una vivace mobilitazione sociale; una scuola che tenta di rigiocare le sorti di una – quasi scontata – ghettizzazione di alcune classi; l’idea di arte come possibilità formativa e di emancipazione di alunne e alunni e la pratica del Teatro Sociale che invita a riappropriarci dell’intenzionalità politica delle azioni educative e del nostro essere parte di una comunità, ponendosi come frontiera là dove esistono difficoltà individuali e collettive: questi alcuni elementi che fanno da sfondo all’esperienza di un indirizzo scolastico, il CrEA (Creativo-Espressivo-Artistico), preso qui in esame, in una scuola primaria milanese, la “Ciresola”. Da anni il cambiamento della popolazione scolastica verso una dimensione sempre più multiculturale ha aperto interrogativi e sollecitato risposte. Mostrare come le scuole possano attivare processi di inclusione, ripensando il rapporto di insegnamento-apprendimento come una dimensione creativa/performativa in sé, è uno degli obiettivi di queste pagine. L’esperienza che si vuole qui presentare è ancora in corso. Essa rilancia l’arte e il teatro come mezzi innovatori che, puntando sull’autorialità del gruppo, si prestano a tradurre nella pratica didattica quotidiana l’idea pedagogica/educativa di una scuola in cui bambine e bambini sono protagonisti del loro apprendere e in cui chi insegna, in alleanza con famiglie e territorio, può contribuire a rigenerare il tessuto sociale della scuola e della città.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’esperienza di crescere a Milano, in particolare a NoLo, un quartiere di immigrazione che negli ultimi anni si sta caratterizzando grazie a una vivace mobilitazione sociale; una scuola che tenta di rigiocare le sorti di una – quasi scontata – ghettizzazione di alcune classi; l’idea di arte come possibilità formativa e di emancipazione di alunne e alunni e la pratica del Teatro Sociale che invita a riappropriarci dell’intenzionalità politica delle azioni educative e del nostro essere parte di una comunità, ponendosi come frontiera là dove esistono difficoltà individuali e collettive: questi alcuni elementi che fanno da sfondo all’esperienza di un indirizzo scolastico, il CrEA (Creativo-Espressivo-Artistico), preso qui in esame, in una scuola primaria milanese, la “Ciresola”. Da anni il cambiamento della popolazione scolastica verso una dimensione sempre più multiculturale ha aperto interrogativi e sollecitato risposte. Mostrare come le scuole possano attivare processi di inclusione, ripensando il rapporto di insegnamento-apprendimento come una dimensione creativa/performativa in sé, è uno degli obiettivi di queste pagine. L’esperienza che si vuole qui presentare è ancora in corso. Essa rilancia l’arte e il teatro come mezzi innovatori che, puntando sull’autorialità del gruppo, si prestano a tradurre nella pratica didattica quotidiana l’idea pedagogica/educativa di una scuola in cui bambine e bambini sono protagonisti del loro apprendere e in cui chi insegna, in alleanza con famiglie e territorio, può contribuire a rigenerare il tessuto sociale della scuola e della città."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "teatro sociale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "teatro sociale"
+          }
+        },
+        {
+          "content": "arte",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "arte"
+          }
+        },
+        {
+          "content": "inclusione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "inclusione"
+          }
+        },
+        {
+          "content": "cittadinanza",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "cittadinanza"
+          }
+        },
+        {
+          "content": "comunità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "comunità"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10080/1295",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10080/1295",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10080/1295",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10080/1295",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10080/1295",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - Sommario.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2020-06-24",
+        "mod_date": "2020-06-24"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale Aesthetical and political education: The CrEA orientation, a challenge for a multicultural school Maria Cristina Mecenero* Riassunto L’esperienza di crescere a Milano, in particolare a NoLo, un quartiere di immi- grazione che negli ultimi anni si sta caratterizzando grazie a una vivace mobi- litazione sociale; una scuola che tenta di rigiocare le sorti di una – quasi scontata – ghettizzazione di alcune classi; l’idea di arte come possibil ità formativa e di emancipazione di alunne e alunni e la pratica del Teatro Social e che invita a riappropriarci dell’intenzionalità politica delle azioni educative e del nostro es- sere parte di una comunità, ponendosi come frontiera là dove esistono difficoltà individuali e collettive: questi alcuni elementi che fanno da s fondo all’espe- rienza di un indirizzo scolastico, il CrEA (Creativo-Espressivo-Artistico), preso qui in esame, in una scuola primaria milanese, la “Ciresola”. Da anni il cambiamento della popolazione scolastica verso una dimensione sempre più multiculturale ha aperto interrogativi e sollecitato risposte. Mostrare come le scuole possano attivare processi di inclusione, ripensa ndo il rapporto di insegnamento-apprendimento come una dimensione creativa/performativa in sé, è uno degli obiettivi di queste pagine. L’esperienza che si vuole qui presen- tare è ancora in corso. Essa rilancia l’arte e il teatro come mezzi innovatori che, puntando sull’autorialità del gruppo, si prestano a tradurre ne lla pratica didat- tica quotidiana l’idea pedagogica/educativa di una scuola in cui bambine e bam- bini sono protagonisti del loro apprendere e in cui chi insegna , in alleanza con famiglie e territorio, può contribuire a rigenerare il tessuto sociale della scuola e della città. Parole chiave: teatro sociale, arte, inclusione, cittadinanza, comunità. * Istituto Comprensivo Statale Ciresola di Milano. DOI: 10.3280/exioa1-2020oa10080 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\10080\\2499-507X_10080.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+        "pdf_value": null,
+        "chosen_value": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10080",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10080",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:29:48Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10080\\temp\\2499-507X_10080.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:30:02Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10080\\2499-507X_10080.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+        "submitted_date": "2020-06-24",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Maria Cristina Mecenero"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10080\\2499-507X_10080.pdf",
+        "generated_at_utc": "2026-04-21T21:30:02Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - Sommario.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2020-06-24",
+          "mod_date": "2020-06-24"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale Aesthetical and political education: The CrEA orientation, a challenge for a multicultural school Maria Cristina Mecenero* Riassunto L’esperienza di crescere a Milano, in particolare a NoLo, un quartiere di immi- grazione che negli ultimi anni si sta caratterizzando grazie a una vivace mobi- litazione sociale; una scuola che tenta di rigiocare le sorti di una – quasi scontata – ghettizzazione di alcune classi; l’idea di arte come possibil ità formativa e di emancipazione di alunne e alunni e la pratica del Teatro Social e che invita a riappropriarci dell’intenzionalità politica delle azioni educative e del nostro es- sere parte di una comunità, ponendosi come frontiera là dove esistono difficoltà individuali e collettive: questi alcuni elementi che fanno da s fondo all’espe- rienza di un indirizzo scolastico, il CrEA (Creativo-Espressivo-Artistico), preso qui in esame, in una scuola primaria milanese, la “Ciresola”. Da anni il cambiamento della popolazione scolastica verso una dimensione sempre più multiculturale ha aperto interrogativi e sollecitato risposte. Mostrare come le scuole possano attivare processi di inclusione, ripensa ndo il rapporto di insegnamento-apprendimento come una dimensione creativa/performativa in sé, è uno degli obiettivi di queste pagine. L’esperienza che si vuole qui presen- tare è ancora in corso. Essa rilancia l’arte e il teatro come mezzi innovatori che, puntando sull’autorialità del gruppo, si prestano a tradurre ne lla pratica didat- tica quotidiana l’idea pedagogica/educativa di una scuola in cui bambine e bam- bini sono protagonisti del loro apprendere e in cui chi insegna , in alleanza con famiglie e territorio, può contribuire a rigenerare il tessuto sociale della scuola e della città. Parole chiave: teatro sociale, arte, inclusione, cittadinanza, comunità. * Istituto Comprensivo Statale Ciresola di Milano. DOI: 10.3280/exioa1-2020oa10080 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - Sommario.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Educazione estetica e politica: l’indirizzo CrEA, una sfida per una scuola multiculturale",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2020-06-24",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2020-06-24",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:45Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:50Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10080\\temp\\2499-507X_10080.conflicts.json"
+  }
+}

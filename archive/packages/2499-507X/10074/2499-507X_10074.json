@@ -1,0 +1,928 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10074",
+  "scraped_at_utc": "2026-04-21T21:29:04Z",
+  "fetched_at_utc": "2026-04-21T21:29:04Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "a44ded2dd886e7e3275b0ea3deb7088150f434f2c7e2d44de8cf1aeae924645b",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Rossana Sicurello",
+        "nameType": "Personal",
+        "givenName": "Rossana",
+        "familyName": "Sicurello",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Enna Kore"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/10074",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2020-06-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2020-06-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2020-06-24",
+      "Issued": "2020-06-24"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "Globalization process and uncontrollable technological progress underlying the Fourth Industrial Revolution have upset the traditional model of organization of education and the labor market which have become increasingly dynamic.Vocational education, trying to respond to the current needs of individuals and the knowledge and work society 5.0, are working to ensure effective modernization and innovation of didactic, training and evaluation practices, making orientation and work practice the main tools of their action. The aim is to verify one's ability to keep up with social changes, as well as to contribute significantly to economic growth and, therefore, to the promotion of mobility and employability of which soft skills constitute a key dimension, especially in the context of the current political, social, cultural and economic debate around the labor market and unemployment.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il processo di globalizzazione e il progresso tecnologico alla base della Quarta Rivoluzione Industriale hanno sconvolto il tradizionale modello di organizzazione dell’istruzione e del mercato del lavoro divenuti sempre più dinamici e complessi. La formazione professionale, cercando di rispondere ai bisogni attualidei singoli e della società della conoscenza e del lavoro 5.0, si sta adoperando per assicurare azioni efficaci di modernizzazione e di innovazione delle pratiche didattiche, formative e valutative, facendo dell’orientamento e della pratica lavorativa gli strumenti principali della loro azione. Lo scopo è quellodi verificare la propria capacità di stare al passo con i cambiamenti sociali, nonché di contribuire in maniera significativa alla crescita economica e, quindi, alla promozione della mobilità e dell’employability di cui le soft skills costituiscono una dimensione chiave, soprattutto nell’ambito dell’attuale dibattito politico, sociale, culturale ed economico attorno al mercato del lavoro e al tema della disoccupazione.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2020oa10074",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "5",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Istruzione professionale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "orientamento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "employability",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "soft skills",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "sviluppo umano",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10074/1289",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "5",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Sicurello, R. (2020). La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità. Excellence and Innovation in Learning and Teaching - Open Access , 5 (1). https://doi.org/10.3280/exioa1-2020oa10074",
+      "articleTitleEcho": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Accornero, A., & Pirro, F. (2013). Il mondo della produzione. Sociologia del lavoro e dell’industria. Bologna: il Mulino.",
+        "Alessandrini, G. (2019). Lavorare nelle risorse umane. Competenze e formazione 4.0. Roma: Armando.",
+        "Alessandrini, G. (2017). Atlante di Pedagogia del Lavoro. Milano: FrancoAngeli.",
+        "Alessandrini, G. (2016). Nuovo Manuale per l’esperto dei processi formativi. Canoni teorico-metodologici. Roma: Carocci.",
+        "Alessandrini, G. (2004). Pedagogia delle risorse umane e delle organizzazioni. Milano: Guerini.",
+        "Bautista, I. (2016). Generic competences acquisition through classroom activities in first-year agricultural engineering students. International Journal of Educational Technology in Higher Education, 13(29), 1-9. Doi: 10.1186/s41239-016-0028-8.",
+        "Batini, F., & Bartolucci, M. (a cura di) (2016). Dispersione scolastica. Ascoltare i protagonisti per comprenderla e prevenirla. Milano: FrancoAngeli.",
+        "Batini F., & Giusti, S. (2008). L’orientamento narrativo a scuola. Trento: Erickson.",
+        "Benelli, C., Pedretti A.M. (2017). La formazione autobiografica in gruppo. Milano: Unicopli.",
+        "Bennett, N., Dunne, E., & Carrè, C. (1999). Patterns of core and generic skill provision in higher education. Higher Education, 37, 71-93. Doi: 10.1023/A:1003451727126.",
+        "Bennet, J.V. (2007). Work-Based Learning and social support: relative influences on high school seniors’occupational engagement orientations. Career and Technical Education Research, 32(3), 187-214. Doi: 10.5328/CTER32.3.187.",
+        "Biagioli, R. (2014). La formazione orientativa. Studium Educationis, 2, 39-50.",
+        "Boffo, V. (2012). A Glance at Work. Firenze: Firenze University Press.",
+        "Bruner, J. (2004). La cultura dell’educazione. Nuovi orizzonti per la scuola. Milano: Feltrinelli.",
+        "Cherniss, C., Extein, M., Goleman, D., & Weissberg, R.P. (2006). Emotional intelligence: What does the research really indicate? Educational Psychologist, 41(4), 239-245. Doi: 10.1207/s15326985ep4104_4.",
+        "Colombo, M. (2010). Dispersione scolastica e politiche per il successo formativo: dalla ricerca sugli early school leaver alle proposte di innovazione. Trento: Erickson.",
+        "Coll, R.K., Eames, C., Paku, L., Lay, M., Ayling, D., Hodges, D., Ram, S., Bhat, R., Fleming, J., Ferkins, L., Wiersma, C., & Martin, A. (2009). An exploration of the pedagogies employed to integrate knowledge in work integrated learning. Journal of Coopertaive Education & Internships, 43(1), 14-35.",
+        "Commissione Europea (2010). Europa 2020: la strategia dell’Unione europea per la crescita e l’occupazione. http://eur lex.europa.eu/legal-content/IT /TXT/?ri=URISERV%3Aem0028 [01/04/2017].",
+        "Eurofound (2014). Mapping youth transitions in Europe. Lussemburgo: Ufficio Pubblicazioni dell’Unione Europea.",
+        "Del Gobbo, G. (2014). Le buone pratiche per l’inserimento socio-lavorativo di adolescenti con disabilità psichica: Presupposti metodologici alla ricerca, Dallo studio di caso alle buone pratiche, I risultati dell’indagine. ISFOL, Prevenire si può. Analisi delle misure di accompagnamento per i giovani con disagio psichico (pp. 124-134). Roma: Isfol.",
+        "Demetrio, D. (2003). Ricordare a scuola. Fare memoria e didattica autobiografica. Roma-Bari: Laterza.",
+        "European Commission (2016). New skills Agenda for Europe. Luxemborug.",
+        "Faioli, M. (a cura di) (2017). Il lavoro nella gig economy. Roma: I Quaderni del CNEL.",
+        "Formenti, L. (a cura di) (2010). Attraversare la cura. Relazioni, contesti e pratiche di scrittura di sé. Trento: Erickson.",
+        "Forrier, A., & Sels, L. (2003). The concept employability: A complex mosaic. International Journal of Human Resources Development and Management, 3, 102-124.",
+        "Fugate, M., & Kinicki, A.J. (2008). A dispositional approach to employability: Development of a measure and test of implication for employee reactions to organizational change. Journal of Occupational and Organizational Psychology, 81, 503-527. Doi: 10.1348/096317907X241579.",
+        "Fugate, M., Kinicki, A.J., & Ashforth, B.E. (2004). Employability: A psycho-social construct, its dimensions, and applications. Journal of Vocational Behavior, 65, 14-38. Doi: 10.1016/j.jvb.2003.10.005.",
+        "Furco, A. (1997). School-sponsored service programs and the educational development of high school students, unpublished PhD dissertation, University of California at Berkeley.",
+        "Gaspersz, J., & Marlies, O. (1996). Management van employability. Nieuwe kansen in arbeidsrelaties. Assen: Van Gorcum.",
+        "Gazier, B. (1998). Employability – definitions and trends. In B. Gazier (Ed.), Employability: Concepts and Policies (pp. 37-71). Berlin: European Employment Observatory.",
+        "Gentili, C. (2016). L’alternanza scuola-lavoro: paradigmi pedagogici e modelli didattici. Nuova secondaria, 10, 16-37.",
+        "Greenberg, M. T., Weissberg, R. P., O’Brien, M. U., Zins, J. E., Fredericks, L., Resnick, H., & Elias, M. J. (2003). Enhancing school-based prevention and youth development though coordinated social, emotional, and academic learning. American Psychologist, 58, 466-474.",
+        "Griffin, M., & Annulis, H. (2013). Employability skills in practice: the case of manufacturing education in Mississippi. International Journal of Training and Development, 17, 3.",
+        "Hanushek, E.A., Wossmann, L., & Zhang, Y. (2011). The Economics of International Differences in Educational Achievement. The Netherlands: Elsevier B.V.",
+        "Harvey, L. (1999). New realities: the relationship between higher education and employment, Keynote presentation alla European Association of Institutional Research, Lund, Sweden. https://goo.gl/5JnchK [10/03/2020].",
+        "Harvey, L. (2004). On employability. York: The Higher Education Academy.",
+        "Harvey, L. (a cura di) (2003). Transitions from higher education to work. A briefing paper. https://goo.gl/rhxDex [06/04/2020].",
+        "Harvey, L. (2001). Defining and measuring employability. Quality in Higher Education, 7(2), 97-110. Doi: 10.1080/13538320120059990.",
+        "Hillage, J., & Pollard, E., (1998). Employability: developing a framework for policy analysis. DfEE Research Briefing, n 85.",
+        "Hopkins, A.E. (2008). Work-Related Learning: hearing students voices. Educational Action Research, 16(2), 209-219.",
+        "Istat (2019). Livelli di istruzione e ritorni occupazionali. Estratto da: https://www.istat.it/it/files//2019/07/Report-Livelli-di-istruzione-e-ritorni-occupazionali_2018.pdf.",
+        "Kearns, P. (2001). Generic Skills for the New Economy. Review of Research, Leabrook, National Centre for Vocational Education Research.",
+        "Lodigiani, R. (2010). I nuovi termini della socializzazione (alla cittadinanza) lavorativa. Sociologia del lavoro, 117, 59-72.",
+        "Lo Presti, A., & Pluviano, S. (2016). Looking for a route in turbulent waters: Employability as a compass for career success. Organizational Psychology Review, 6(2), 192-211.",
+        "Lowther, M.W., McMillan W.J., & Venter, F. (2009). Education for actuarial quality must develop more than technical competence. South African Actuarial Journal, 9(1), pp. 53-75.",
+        "Margiotta, U. (2012). Educazione e formazione dopo la crisi del welfare. In M. Baldacci, F. Frabboni & U. Margiotta, Longlife Longwide Learning. Per un Trattato Europeo della Formazione. Milano: Bruno Mondadori.",
+        "McArdle, S., Waters, L., Briscoe, J., & Hall, D. (2007), Employability during Unemployment: Adaptability, career identity and human and social capital. Journal of Vocational Behavior, 71, 247-264. Doi: 10.1016/j.jvb.2007.06.003.",
+        "McEwen, B. E. (2010). Crosscultural and international career exploration and employability skills. In L. Waldman (Ed.), Crosscultural and international business education, 48 (pp. 140-159). Reston, VA: National Business Education Association.",
+        "McQuaid, R. W., & Lindsay, C. (2005). The concept of employability. Urban Studies, 42(2), 197-219. Doi: 10.10800042098042000316100.",
+        "Morselli, D., & Costa, M. (2014). Il laboratorio di attraversamento dei confini nell’alternanza scuola-lavoro. RICERCAZIONE. Ricerca educativa, valutativa e studi sociali sulle politiche e il mondo giovanile, 6(2), 193-209.",
+        "NEW SKILLS AGENDA FOR EUROPE (2016). Working together to strengthen human capital, employability and competitiveness. Brussels.",
+        "Olivetti Manoukian, F. (2005). Re/immaginare il Lavoro Sociale. Appigli per una nuova progettualità, I Geki di Animazione Sociale. Torino: Gruppo Abele.",
+        "Parker, J.D.A., Hogan, M.J., Eastabrook, J.M., Oke, A., & Wood, L.M. (2006). Emotional intelligence and student retention: Predicting the successful transition from high school to university. Personality and Individual Differences, 41, 1329-1336. Doi: 10.1016/j.paid.2006.04.022.",
+        "Pombeni, M.L. (2007). La consulenza di orientamento. In A. Grimaldi & M.L. Pombeni (a cura di), Valori (pp. 7-19). Roma: ISFOL.",
+        "Reyneri, E., & Pintaldi, F. (2013). Dieci domande su un mercato del lavoro in crisi. Bologna: il Mulino.",
+        "Robles, M.M. (2012). Executive perceptions of the top 10 soft skills needed in today’s workplace. Business Communication Quarterly, 75(4), 453-465. Doi: 10.1177/1080569912460400.",
+        "Sicurello, R. (2017). Dispersione scolastica e abbandono precoce dell’istruzione e della formazione: cause, politiche europee e strategie di intervento. Civitas educationis, 2, 203-249.",
+        "Sicurello, R. (2016). Potenzialità e sfide del modello di apprendimento in alternanza scuola-lavoro. Lifelong Lifewide Learning, 12(48), 1-19. Doi: 10.19241/lll.v12i28.29.",
+        "Sigmar, L., Hynes, G.E., & Cooper, T. (2010). Emotional Intelligence: Pedagogical Considerations for Skills-Based Learning in Business Communication Courses. Journal of Instructional Pedagogies, 3, 1-11.",
+        "Smorti, A. (1994). Il pensiero narrativo Costruzione di storie e sviluppo della conoscenza sociale. Firenze: Giunti.",
+        "Süß, S., & Becker, J. (2012). Competences as the foundation of employability: a qualitative study of German freelancers. Personnel Review, 42(2), 223-240. Doi: 10.1108/00483481311309393.",
+        "Van Dam, K. (2004). Antecedents and consequences of employability orientation. European Journal of work and organizational psychology, 13(I), 29-51. Doi: 10.1080/13594320344000237.",
+        "Van der Heijde, C.M., & Van der Heijden, B.I.J.M. (2006). A competence-based and multidimensional operationalization and measurement of employability. Human Resource Management, 45(3), 449-476. Doi: 10.1002/hrm.20119.",
+        "Van Esbroeck, R. (2011), L’orientamento a scuola. Firenze: Giunti O.S.",
+        "Venini, L., & Castelli, C. (2002). Psicologia dell’orientamento scolastico e professionale. Teorie, modelli e strumenti. Milano: FrancoAngeli.",
+        "Yorke, M. (2006). Employability in higher education: what it is-what it is not. York: Higher Education Academy.",
+        "Yorke, M., & Knight, P.T. (2006). Embedding Employability into the Curriculum: Learning & Employability Series 1. York: The Higher Education Academy.",
+        "Watts, A. (2006). Career Development Learning and Employability. Heslington, York: The Higher Education Academy.",
+        "Webb, J., & Chaffer, C. (2016). The expectation performance gap in accounting education: a review of generic skills development in UK accounting degrees. Accounting Education, 25(4), 349-367. Doi: 10.1080/09639284.2016.1191274.",
+        "Worldwide, J.A. (2009). Retrospective study report (Alumni). CO: JA: Colorado Springs.",
+        "World Economic Forum (2016a), The Future of Jobs. Employment, Skills and Workforce Strategy for the Fourth Industrial Revolution, Geneva: World Economic Forum.",
+        "World Economic Forum (2016b). New Vision for Education: Fostering Social and Emotional Learning through Technology. Geneva, Switzerland: World Economic Forum.",
+        "Zollo, I., Pace, E.M., Agrillo, F., Sibilio, M. (2016). Il ruolo dell’orientamento formativo per la promozione dell’inclusione. Lifelong Lifewide Learning, 12(27), 14-28. Doi: 10.19241/lll.v12i27.2.",
+        "Riferimenti legislativi",
+        "Decreto Legislativo 15 aprile 2005 n. 77, Definizione delle norme generali relative all’alternanza scuola-lavoro, a norma dell’articolo 4 della Legge del 28 marzo 2003, n. 53.",
+        "Decreto del Presidente della Repubblica 15 marzo 2010, n. 87, Regolamento recante norme per il riordino degli istituti professionali, a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133.",
+        "Decreto del Presidente della Repubblica 15 marzo 2010, n. 88, Regolamento recante norme per il riordino degli istituti tecnici a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133",
+        "Decreto del Presidente della Repubblica 15 marzo 2010, n. 89, Regolamento recante revisione dell'assetto ordinamentale, organizzativo e didattico dei licei a norma dell'articolo 64, comma 4, del decreto-legge 25 giugno 2008, n. 112, convertito, con modificazioni, dalla legge 6 agosto 2008, n. 133.",
+        "Decreto Legislativo 14 settembre 2015, n. 150, “Disposizioni per il riordino della normativa in materia di servizi per il lavoro e di politiche attive, ai sensi dell'articolo 1, comma 3, della legge 10 dicembre 2014, n. 183”.",
+        "Legge 13 luglio 2015, n. 107, Riforma del sistema nazionale di istruzione e formazione e delega per il riordino delle disposizioni legislative vigenti.",
+        "Decreto Dipartimentale 15 settembre 2015 n. 936.",
+        "Decreto Legislativo 13 aprile 2017, n. 61, Revisione dei percorsi dell'istruzione professionale nel rispetto dell'articolo 117 della Costituzione, nonché raccordo con i percorsi dell'istruzione e formazione professionale, a norma dell'articolo 1, commi 180 e 181, lettera d) della Legge 13 luglio 2015, n. 107.",
+        "Legge 30 dicembre 2018, n. 145, Bilancio di previsione dello Stato per l’anno finanziario 2019 e bilancio pluriennale per il triennio 2019-2021.",
+        "Decreto Interministeriale 24 maggio 2018, n. 92, Regolamento recante la disciplina dei profili di uscita degli indirizzi di studio dei percorsi di istruzione professionale, ai sensi dell’articolo 3, comma 3, del Decreto Legislativo 13 aprile 2017, n. 61, Revisione dei percorsi dell’istruzione professionale nel rispetto dell’articolo 117 della Costituzione, nonché raccordo con i percorsi dell’istruzione e formazione professionale, a norma dell’articolo 1, commi 180 e 181, lettera d) della Legge 13 luglio 2015, n. 107.",
+        "Decreto Ministeriale 4 settembre 2019, n. 774, Linee guida relative ai PCTO (Percorsi per le Competenze Trasversali per l’Orientamento)."
+      ],
+      "count": 85,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_10074",
+    "article_ID": "10074",
+    "slug": "10074",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "10074",
+      "url_slug": "10074"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Review of vocational education: Young people, orientation, soft skills and employability",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Vocational education, orientation, employability, soft skills, human development",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Istruzione professionale, orientamento, employability, soft skills, sviluppo umano",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2020-06-24",
+      "accepted": null,
+      "created": "2020-06-24",
+      "modified": "2022-04-01",
+      "issued": "2020-06-24",
+      "available": "2020-06-24",
+      "submitted_page": "2020-06-24",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+        "pdf_value": null,
+        "chosen_value": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10074/1289",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10074/1289",
+      "local_relative_path": "2499-507X_10074.pdf",
+      "saved": true,
+      "sha256": "b5afcec725d39b81a0ef6b58d1986059457340e71929f3cc40638b20e24083e2",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1540140,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Rossana Sicurello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Enna Kore"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2020/06/24"
+      ],
+      "citation_volume": [
+        "5"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2020oa10074"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10074"
+      ],
+      "citation_keywords": [
+        "Istruzione professionale",
+        "orientamento",
+        "employability",
+        "soft skills",
+        "sviluppo umano"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/10074/1289"
+      ],
+      "citation_reference_count": 85,
+      "DC.Date.created": [
+        "2020-06-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2020-06-24"
+      ],
+      "DC.Date.issued": [
+        "2020-06-24"
+      ],
+      "DC.Date.modified": [
+        "2022-04-01"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "10074"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2020oa10074"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10074"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "5"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità"
+      ],
+      "DC.Title.Alternative": [
+        "Review of vocational education: Young people, orientation, soft skills and employability",
+        "Vocational education, orientation, employability, soft skills, human development",
+        "Istruzione professionale, orientamento, employability, soft skills, sviluppo umano"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Rossana Sicurello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Enna Kore"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Rossana Sicurello"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Globalization process and uncontrollable technological progress underlying the Fourth Industrial Revolution have upset the traditional model of organization of education and the labor market which have become increasingly dynamic.Vocational education, trying to respond to the current needs of individuals and the knowledge and work society 5.0, are working to ensure effective modernization and innovation of didactic, training and evaluation practices, making orientation and work practice the main tools of their action. The aim is to verify one's ability to keep up with social changes, as well as to contribute significantly to economic growth and, therefore, to the promotion of mobility and employability of which soft skills constitute a key dimension, especially in the context of the current political, social, cultural and economic debate around the labor market and unemployment.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Globalization process and uncontrollable technological progress underlying the Fourth Industrial Revolution have upset the traditional model of organization of education and the labor market which have become increasingly dynamic.Vocational education, trying to respond to the current needs of individuals and the knowledge and work society 5.0, are working to ensure effective modernization and innovation of didactic, training and evaluation practices, making orientation and work practice the main tools of their action. The aim is to verify one's ability to keep up with social changes, as well as to contribute significantly to economic growth and, therefore, to the promotion of mobility and employability of which soft skills constitute a key dimension, especially in the context of the current political, social, cultural and economic debate around the labor market and unemployment."
+          }
+        },
+        {
+          "content": "Il processo di globalizzazione e il progresso tecnologico alla base della Quarta Rivoluzione Industriale hanno sconvolto il tradizionale modello di organizzazione dell’istruzione e del mercato del lavoro divenuti sempre più dinamici e complessi. La formazione professionale, cercando di rispondere ai bisogni attualidei singoli e della società della conoscenza e del lavoro 5.0, si sta adoperando per assicurare azioni efficaci di modernizzazione e di innovazione delle pratiche didattiche, formative e valutative, facendo dell’orientamento e della pratica lavorativa gli strumenti principali della loro azione. Lo scopo è quellodi verificare la propria capacità di stare al passo con i cambiamenti sociali, nonché di contribuire in maniera significativa alla crescita economica e, quindi, alla promozione della mobilità e dell’employability di cui le soft skills costituiscono una dimensione chiave, soprattutto nell’ambito dell’attuale dibattito politico, sociale, culturale ed economico attorno al mercato del lavoro e al tema della disoccupazione.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il processo di globalizzazione e il progresso tecnologico alla base della Quarta Rivoluzione Industriale hanno sconvolto il tradizionale modello di organizzazione dell’istruzione e del mercato del lavoro divenuti sempre più dinamici e complessi. La formazione professionale, cercando di rispondere ai bisogni attualidei singoli e della società della conoscenza e del lavoro 5.0, si sta adoperando per assicurare azioni efficaci di modernizzazione e di innovazione delle pratiche didattiche, formative e valutative, facendo dell’orientamento e della pratica lavorativa gli strumenti principali della loro azione. Lo scopo è quellodi verificare la propria capacità di stare al passo con i cambiamenti sociali, nonché di contribuire in maniera significativa alla crescita economica e, quindi, alla promozione della mobilità e dell’employability di cui le soft skills costituiscono una dimensione chiave, soprattutto nell’ambito dell’attuale dibattito politico, sociale, culturale ed economico attorno al mercato del lavoro e al tema della disoccupazione."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Istruzione professionale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Istruzione professionale"
+          }
+        },
+        {
+          "content": "orientamento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "orientamento"
+          }
+        },
+        {
+          "content": "employability",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "employability"
+          }
+        },
+        {
+          "content": "soft skills",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "soft skills"
+          }
+        },
+        {
+          "content": "sviluppo umano",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "sviluppo umano"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10074/1289",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10074/1289",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10074/1289",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10074/1289",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10074/1289",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - Sommario.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2020-06-24",
+        "mod_date": "2020-06-24"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità Review of vocational education: Young people, orientation, soft skills and employability Rossana Sicurello* Riassunto Il processo di globalizzazione e il progresso tecnologico alla base della Quarta Rivoluzione Industriale hanno sconvolto il tradizionale modello di organizza- zione dell’istruzione e del mercato del lavoro divenuti sempre più dinamici e complessi. La formazione professionale, cercando di rispondere ai bisogni at- tuali dei singoli e della società della conoscenza e del lavoro 5.0, si sta adope- rando per assicurare azioni efficaci di modernizzazione e di innovazione delle pratiche didattiche, formative e valutative, facendo dell’orientamento e della pratica lavorativa gli strumenti principali della loro azione. Lo scopo è quello di verificare la propria capacità di stare al passo con i cambiamenti sociali, non- ché di contribuire in maniera significativa alla crescita economica e, quindi, alla promozione della mobilità e dell’employability di cui le soft skills costituiscono una dimensione chiave, soprattutto nell’ambito dell’attuale dib attito politico, sociale, culturale ed economico attorno al mercato del lavoro e al tema della disoccupazione. Parole Chiave: Istruzione professionale, orientamento, employability, soft skills, sviluppo umano. Abstract Globalization process and uncontrollable technological progress underlying the Fourth Industrial Revolution have upset the traditional model o f organization of education and the labor marke t which have become increasingl y dynamic. Vocational education, trying to respond to the current needs of individuals and the knowledge and work society 5.0, are working to ensure effec tive * Università degli Studi di Enna Kore. DOI: 10.3280/exioa1-2020oa10074 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\10074\\2499-507X_10074.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+        "pdf_value": null,
+        "chosen_value": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10074",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10074",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:29:04Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10074\\temp\\2499-507X_10074.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:29:30Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10074\\2499-507X_10074.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+        "submitted_date": "2020-06-24",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Rossana Sicurello"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10074\\2499-507X_10074.pdf",
+        "generated_at_utc": "2026-04-21T21:29:30Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - Sommario.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2020-06-24",
+          "mod_date": "2020-06-24"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità Review of vocational education: Young people, orientation, soft skills and employability Rossana Sicurello* Riassunto Il processo di globalizzazione e il progresso tecnologico alla base della Quarta Rivoluzione Industriale hanno sconvolto il tradizionale modello di organizza- zione dell’istruzione e del mercato del lavoro divenuti sempre più dinamici e complessi. La formazione professionale, cercando di rispondere ai bisogni at- tuali dei singoli e della società della conoscenza e del lavoro 5.0, si sta adope- rando per assicurare azioni efficaci di modernizzazione e di innovazione delle pratiche didattiche, formative e valutative, facendo dell’orientamento e della pratica lavorativa gli strumenti principali della loro azione. Lo scopo è quello di verificare la propria capacità di stare al passo con i cambiamenti sociali, non- ché di contribuire in maniera significativa alla crescita economica e, quindi, alla promozione della mobilità e dell’employability di cui le soft skills costituiscono una dimensione chiave, soprattutto nell’ambito dell’attuale dib attito politico, sociale, culturale ed economico attorno al mercato del lavoro e al tema della disoccupazione. Parole Chiave: Istruzione professionale, orientamento, employability, soft skills, sviluppo umano. Abstract Globalization process and uncontrollable technological progress underlying the Fourth Industrial Revolution have upset the traditional model o f organization of education and the labor marke t which have become increasingl y dynamic. Vocational education, trying to respond to the current needs of individuals and the knowledge and work society 5.0, are working to ensure effec tive * Università degli Studi di Enna Kore. DOI: 10.3280/exioa1-2020oa10074 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - Sommario.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La revisione dell’istruzione professionale: giovani, orientamento, competenze trasversali e occupabilità",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2020-06-24",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2020-06-24",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:42:33Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:43:26Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10074\\temp\\2499-507X_10074.conflicts.json"
+  }
+}

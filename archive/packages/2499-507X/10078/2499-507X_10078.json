@@ -1,0 +1,909 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10078",
+  "scraped_at_utc": "2026-04-21T21:29:42Z",
+  "fetched_at_utc": "2026-04-21T21:29:42Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "8b3d8cb9ea12c8dea37ffc78cca37940b707f339c4e2b3d724161095e7636169",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "TEACH-POT: Provide Opportunities in Teaching",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Maria Giulia Ballatore",
+        "nameType": "Personal",
+        "givenName": "Maria Giulia",
+        "familyName": "Ballatore",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Politecnico di Torino"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Ettore Felisatti",
+        "nameType": "Personal",
+        "givenName": "Ettore",
+        "familyName": "Felisatti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padua"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Laura Montanaro",
+        "nameType": "Personal",
+        "givenName": "Laura",
+        "familyName": "Montanaro",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Politecnico di Torino"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Anita Tabacco",
+        "nameType": "Personal",
+        "givenName": "Anita",
+        "familyName": "Tabacco",
+        "nameIdentifiers": [],
+        "affiliations": [],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/10078",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2020-06-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2020-06-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2020-06-24",
+      "Issued": "2020-06-24"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "This paper is aimed to describe and critically analyze the so-called “TEACHPOT” experience (POT: Provide Opportunities in Teaching) performed during the last few years at Politecnico di Torino. Due to career criteria, the effort and the time lecturers spend in teaching have currently undergone a significant reduction in quantity. In order to support and meet each lecturers’ expectations towards an improvement in their ability to teach, a mix of training opportunities has been provided. This consists of an extremely wide variety of experiences, tools, relationships, from which everyone can feel inspired to increase the effectiveness of their teaching and the participation of their students. The provided activities are designed around three main components: methodological training, teaching technologies, methodological experiences.A discussion on the findings is included and presented basing on the data collected through a survey. The impact of the overall experience can be evaluated on two different levels: the real effect on redesigning lessons, and the discussion on the matter within the entire academic community.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "This paper is aimed to describe and critically analyze the so-called “TEACHPOT” experience (POT: Provide Opportunities in Teaching) performed during the last few years at Politecnico di Torino. Due to career criteria, the effort and the time lecturers spend in teaching have currently undergone a significant reduction in quantity. In order to support and meet each lecturers’ expectations towards an improvement in their ability to teach, a mix of training opportunities has been provided. This consists of an extremely wide variety of experiences, tools, relationships, from which everyone can feel inspired to increase the effectiveness of their teaching and the participation of their students. The provided activities are designed around three main components: methodological training, teaching technologies, methodological experiences.A discussion on the findings is included and presented basing on the data collected through a survey. The impact of the overall experience can be evaluated on two different levels: the real effect on redesigning lessons, and the discussion on the matter within the entire academic community.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2020oa10078",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "5",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "methodological training",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "active learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "student-centered approach",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lecturer role",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10078/1293",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "5",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Ballatore, M. G., Felisatti, E., Montanaro, L., & Tabacco, A. (2020). TEACH-POT: Provide Opportunities in Teaching. Excellence and Innovation in Learning and Teaching - Open Access , 5 (1). https://doi.org/10.3280/exioa1-2020oa10078",
+      "articleTitleEcho": "TEACH-POT: Provide Opportunities in Teaching"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Ambrose, S., Bridges, M., Lovett, M., Di Pietro, M., & Norma , M. (2010). How learning works: 7 research-based principles for smart teaching. San Francisco, CA: Jossey-Bass.",
+        "Amundsen, G., & Haakstad, J. (2017). Teaching in Higher Education; consistency and change in context and role. Riga: European Quality Assurance Forum.",
+        "ANVUR. (2017). QUARC Docente: Linee di indirizzo per lo sviluppo professionale del docente e strategie di valutazione della didattica universitaria. Tratto da http://www.anvur.it/gruppo-di-lavoro-ric/qualificazione-e-riconoscimento-dellecompetenze-didattiche-del-docente-nel-sistema-universitario-quarc_docente/.",
+        "ANVUR. (2018). Rapporto biennale sullo stato del sistema universitario e della ricerca. Roma: http://www.anvur.it/wp-content/uploads/2018/08/ANVURRapporto-2018.pdf.",
+        "Area, T. E. (2005). Communiqué of the Conference of European Ministers Responsible for Higher Education. Bergen.",
+        "Ballatore, M., Montanaro, L., & Tabacco, A. (2018). TIL: an innovative tool for the recruitment of bachelor engineering students in Italy. International Educational and Research Journal, 4(2), 79-84.",
+        "Ballatore, M., Montanaro, L., & Tabacco, A. (2019). Empowering talented students: an Italian experience of an enriched curriculum in Engineering. International Journal of Engineering Pedagogy, 9(3), 56-75.",
+        "Bonwell, C., & Eison, J. (1991). Active learning: creating excitement in the classroom. 1991 ASHE-ERIC Higher Education Reports., ERIC Clearinghouse on higher education. Washington, DC: The George Washington University.",
+        "Ciappei, C., & Cinque, M. (2014). Soft skills per il governo dell’agire. La saggezza e le competenze prassico-pragmatiche. Milano: FrancoAngeli.",
+        "Coggi, C., & Ricchiardi, P. (2018). Sviluppare un insegnamento efficace in Università. Form@re - Open Journal per la formazione in rete, 18(1), 23-38.",
+        "Coryell, J. (2017). Learning to teach: Adult learning theory and methodologies for creating effective learning environments and promoting students’ active learning. In E. Felisatti, & A. Serbati (A cura di), Sviluppare la professionalità docente e innovare la didattica universitaria (p. 53-66). Milano: FrancoAngeli.",
+        "European Union, E. (2013). Report to the European Commission on Improving the quality of teaching and learning in Europe’s higher education institutions. Luxembourg: Publications Office of the European Union.",
+        "European University Institution, E. (2018). Italy, Academic Career Structure. Retrieved 10 4, 2018, from https://www.eui.eu/ProgrammesAndFellowships/AcademicCareersObservatory/AcademicCareersbyCountry/Italy",
+        "Felisatti, E. (2016). Modelli e strategie per la formazione del docente universitario. In P. Rivoltella, E. Felisatti, R. Di Nubila, A. Notti, & U. Margiotta (A cura di), Saperi pedagogici e pratiche formative. Traiettorie tecnologiche e didattiche dell’innovazione. Lecce: Pensa Multimedia.",
+        "Felisatti, E. (2017). PRODID: modelli, strategie e dispositivi operativi per un intervento sulla qualificazione della docenza universitaria nel contesto italiano. In E. Felisatti, & A. Serbati (A cura di), Preparare alla professionalità docente e innovare la didattica universitaria. Milano: FrancoAngeli.",
+        "Felisatti, E., & Serbati, A. (2014). Professionalità docente e innovazione didattica. Una proposta dell’Università di Padova per lo sviluppo professionale dei docenti universitari. European Journal of Research on Education and Teaching, XII(1), 137-153.",
+        "High Level Group on the Modernisation of Higher Education. (2013). Report to the European Commission on Improving the quality of teaching and learning in Europe’s higher education institutions. Belgium: European Union.",
+        "Nascimbeni, F., Burgos, D., Campbell, L., & Tabacco, A. (2018). Mapping Open Educational Practices within univesities: a case study. Distance Education, 39(4), 511-527.",
+        "Nicol, D., Thomson, A., & Breslin, C. (2014). Rethinking feedback practices in higher education: a peer review perspective. Assessment & Evaluation in Higher Education, 1(39), 102-122.",
+        "Nigris, E. (2018). Apprendere per insegnare: il progetto pilota di formazione didattica ai docenti dell’Università Bicocca. Form@re - Open Journal per la formazione in rete, 18(1), 53-66.",
+        "OPENMed project. (2017). Open Education: fundamentals and approaches. Retrieved 10 10, 2018, from https://openmedproject.eu/course/openmed-course/.",
+        "Ranieri, M., Raffaghelli, J., & Pezzati, F. (2018). Building cases for faculty development in e-learning: a design-based approach. Form@re - Open Journal per la formazione in rete, 18(1), 67-82.",
+        "Ryan, M., & Martens, G. (1989). Planning a CollegeCourse; A Guidebook for the Graduate Teaching Assistant. AnnArbor, Mich.",
+        "Serbati, A., Felisatti, E., & Dirkx, J. (2015). Professional development and the growth of university teacher communities in the context of educational change. Proceedings of the 8th annual International Conference of Education, Research and Innovation, (p. 951-961). Seville (Spain).",
+        "Serbati, A., Felisatti, E., Da Re, L., & Tabacco, A. (2018). Qualifying faculty teaching competencies. The pilot experience at Politecnico di Torino. Form@re - Open Journal per la formazione in rete, 18(1), 39-52.",
+        "The European Higher Education Area. (2015). Communiqué of the Conference of European Ministers Responsible for Higher Education. Yerevan."
+      ],
+      "count": 26,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_10078",
+    "article_ID": "10078",
+    "slug": "10078",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "10078",
+      "url_slug": "10078"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "TEACH-POT: Provide Opportunities in Teaching",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "TEACH-POT: Provide Opportunities in Teaching",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "TEACH-POT: Provide Opportunities in Teaching",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "methodological training, active learning, student-centered approach, lecturer role",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "TEACH-POT: Provide Opportunities in Teaching",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2020-06-24",
+      "accepted": null,
+      "created": "2020-06-24",
+      "modified": "2022-04-04",
+      "issued": "2020-06-24",
+      "available": "2020-06-24",
+      "submitted_page": "2020-06-24",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "TEACH-POT: Provide Opportunities in Teaching",
+        "pdf_value": null,
+        "chosen_value": "TEACH-POT: Provide Opportunities in Teaching",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10078/1293",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10078/1293",
+      "local_relative_path": "2499-507X_10078.pdf",
+      "saved": true,
+      "sha256": "5ee965d4d3bbc2afd5631e472f61ff119314b2a42318012917cd988b9261368c",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 948989,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Maria Giulia Ballatore",
+        "Ettore Felisatti",
+        "Laura Montanaro",
+        "Anita Tabacco"
+      ],
+      "citation_author_institution": [
+        "Politecnico di Torino",
+        "University of Padua",
+        "Politecnico di Torino"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "TEACH-POT: Provide Opportunities in Teaching"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2020/06/24"
+      ],
+      "citation_volume": [
+        "5"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2020oa10078"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10078"
+      ],
+      "citation_keywords": [
+        "methodological training",
+        "active learning",
+        "student-centered approach",
+        "lecturer role"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/10078/1293"
+      ],
+      "citation_reference_count": 26,
+      "DC.Date.created": [
+        "2020-06-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2020-06-24"
+      ],
+      "DC.Date.issued": [
+        "2020-06-24"
+      ],
+      "DC.Date.modified": [
+        "2022-04-04"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "10078"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2020oa10078"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10078"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "5"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "TEACH-POT: Provide Opportunities in Teaching"
+      ],
+      "DC.Title.Alternative": [
+        "TEACH-POT: Provide Opportunities in Teaching",
+        "methodological training, active learning, student-centered approach, lecturer role",
+        "methodological training, active learning, student-centered approach, lecturer role"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Maria Giulia Ballatore",
+        "Ettore Felisatti",
+        "Laura Montanaro",
+        "Anita Tabacco"
+      ],
+      "citation_author_institution": [
+        "Politecnico di Torino",
+        "University of Padua",
+        "Politecnico di Torino"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Maria Giulia Ballatore",
+        "Ettore Felisatti",
+        "Laura Montanaro",
+        "Anita Tabacco"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This paper is aimed to describe and critically analyze the so-called “TEACHPOT” experience (POT: Provide Opportunities in Teaching) performed during the last few years at Politecnico di Torino. Due to career criteria, the effort and the time lecturers spend in teaching have currently undergone a significant reduction in quantity. In order to support and meet each lecturers’ expectations towards an improvement in their ability to teach, a mix of training opportunities has been provided. This consists of an extremely wide variety of experiences, tools, relationships, from which everyone can feel inspired to increase the effectiveness of their teaching and the participation of their students. The provided activities are designed around three main components: methodological training, teaching technologies, methodological experiences.A discussion on the findings is included and presented basing on the data collected through a survey. The impact of the overall experience can be evaluated on two different levels: the real effect on redesigning lessons, and the discussion on the matter within the entire academic community.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This paper is aimed to describe and critically analyze the so-called “TEACHPOT” experience (POT: Provide Opportunities in Teaching) performed during the last few years at Politecnico di Torino. Due to career criteria, the effort and the time lecturers spend in teaching have currently undergone a significant reduction in quantity. In order to support and meet each lecturers’ expectations towards an improvement in their ability to teach, a mix of training opportunities has been provided. This consists of an extremely wide variety of experiences, tools, relationships, from which everyone can feel inspired to increase the effectiveness of their teaching and the participation of their students. The provided activities are designed around three main components: methodological training, teaching technologies, methodological experiences.A discussion on the findings is included and presented basing on the data collected through a survey. The impact of the overall experience can be evaluated on two different levels: the real effect on redesigning lessons, and the discussion on the matter within the entire academic community."
+          }
+        },
+        {
+          "content": "This paper is aimed to describe and critically analyze the so-called “TEACHPOT” experience (POT: Provide Opportunities in Teaching) performed during the last few years at Politecnico di Torino. Due to career criteria, the effort and the time lecturers spend in teaching have currently undergone a significant reduction in quantity. In order to support and meet each lecturers’ expectations towards an improvement in their ability to teach, a mix of training opportunities has been provided. This consists of an extremely wide variety of experiences, tools, relationships, from which everyone can feel inspired to increase the effectiveness of their teaching and the participation of their students. The provided activities are designed around three main components: methodological training, teaching technologies, methodological experiences.A discussion on the findings is included and presented basing on the data collected through a survey. The impact of the overall experience can be evaluated on two different levels: the real effect on redesigning lessons, and the discussion on the matter within the entire academic community.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "This paper is aimed to describe and critically analyze the so-called “TEACHPOT” experience (POT: Provide Opportunities in Teaching) performed during the last few years at Politecnico di Torino. Due to career criteria, the effort and the time lecturers spend in teaching have currently undergone a significant reduction in quantity. In order to support and meet each lecturers’ expectations towards an improvement in their ability to teach, a mix of training opportunities has been provided. This consists of an extremely wide variety of experiences, tools, relationships, from which everyone can feel inspired to increase the effectiveness of their teaching and the participation of their students. The provided activities are designed around three main components: methodological training, teaching technologies, methodological experiences.A discussion on the findings is included and presented basing on the data collected through a survey. The impact of the overall experience can be evaluated on two different levels: the real effect on redesigning lessons, and the discussion on the matter within the entire academic community."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "methodological training",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "methodological training"
+          }
+        },
+        {
+          "content": "active learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "active learning"
+          }
+        },
+        {
+          "content": "student-centered approach",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "student-centered approach"
+          }
+        },
+        {
+          "content": "lecturer role",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lecturer role"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10078/1293",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10078/1293",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10078/1293",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10078/1293",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10078/1293",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - Sommario.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2020-06-24",
+        "mod_date": "2020-06-24"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 TEACH-POT: Provide Opportunities in Teaching TEACH-POT: fornire opportunità di insegnamento Maria Giulia Ballatore *, Ettore Felisatti °, Laura Montanaro, and Anita Tabacco§ Abstract This paper is aimed to describe and critically analyze the so-c alled “TEACH- POT” experience (POT: Provide Opportunities in Teaching) performed during the last few years at Politecnico di Torino. Due to career criteria, the effort and the time lecturers spend in teach ing have currently undergone a significant reduction in quantity. In order to support and meet each lecturers’ expectations towards an improvement in their ability to teach, a mix of training opportunities has been provided. This consists of an extremely wide variety o f experiences, tools, relationships, from which everyone can feel inspired to increase the effectiveness of their teaching and the participation of their students. The provided activities are designed around three main components: methodological training , teaching technologies, methodological experiences. A discussion on the findings is included and presented basing on the data collected through a survey. The impact of the overall experienc e can be evaluated on two different levels: the real effect on redesigning lessons, and the discussion on the matter within the entire academic community. Keywords: methodological training, active learning, student-centered approach, lecturer role. Riassunto In questo lavoro si descrive e an alizza criticamente l’esperienza “TEACH- * Dept. of Mathematical Science “G. Lagrange”, Politecnico di To rino, Italy. Corresponding Author. E-mail: maria.ballatore@polito.it. ° Department of Philosophy, Sociology, Education and Applied Psychology, University of Padua, Italy. § Dept. of Applied Science Technology, Politecnico di Torino, Italy. DOI: 10.3280/exioa1-2020oa10078 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\10078\\2499-507X_10078.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "TEACH-POT: Provide Opportunities in Teaching",
+        "pdf_value": null,
+        "chosen_value": "TEACH-POT: Provide Opportunities in Teaching",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "TEACH-POT: Provide Opportunities in Teaching | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [
+      "citation_author_institution count (3) does not match citation_author count (4); institutions paired only by shared index."
+    ],
+    "warning_objects": [
+      {
+        "code": "CITATION_AUTHOR_INSTITUTION_COUNT_MISMATCH",
+        "message": "citation_author_institution count (3) does not match citation_author count (4); institutions paired only by shared index.",
+        "context": {
+          "citation_author_count": 4,
+          "citation_author_institution_count": 3
+        },
+        "function_name": "_extract_creators",
+        "code_snippet": "    def _extract_creators(self) -> Dict[str, Any]:\n        citation_authors = self.meta.all(\"citation_author\")\n        citation_institutions = self.meta.all(\"citation_author_institution\")\n        dc_authors = self.meta.all(\"DC.Creator.PersonalName\")\n        orcids = self.meta.all(\"citation_author_orcid\")\n\n        creators: List[Creator] = []\n        raw = {\n            \"citation_author\": citation_authors,\n            \"citation_author_institution\": citation_institutions,\n            \"citation_author_orcid\": orcids,\n            \"DC.Creator.PersonalName\": dc_authors,\n        }\n\n        if citation_authors:\n            if citation_institutions and len(citation_institutions) != len(citation_authors):\n                self._warn(\n                    code=\"CITATION_AUTHOR_INSTITUTION_COUNT_MISMATCH\",\n                    message=f\"citation_author_institution count ({len(citation_institutions)}) does not match citation_author count ({len(citation_authors)}); institutions paired only by shared index.\",\n                    function_name=\"_extract_creators\",\n                    context={\n                        \"citation_author_count\": len(citation_authors),\n                        \"citation_author_institution_count\": len(citation_institutions),\n                    },\n                )\n            for idx, author in enumerate(citation_authors):\n                given, family = split_name(author)\n                affiliations: List[str] = []\n                if idx < len(citation_institutions):\n                    aff = normalize_space(citation_institutions[idx])\n                    if aff:\n                        affiliations.append(aff)\n                name_ids: List[Dict[str, Any]] = []\n                if idx < len(orcids):\n                    orcid = normalize_space(orcids[idx])\n                    if orcid:\n                        name_ids.append({\"nameIdentifier\": orcid, \"nameIdentifierScheme\": \"ORCID\", \"schemeURI\": \"https://orcid.org\"})\n                creators.append(Creator(\n                    creatorName=author,\n                    givenName=given,\n                    familyName=family,\n                    affiliations=affiliations,\n                    nameIdentifiers=name_ids,\n                    source=\"meta:citation_author(+citation_author_institution/+citation_author_orcid)\",\n                ))\n            return {\"items\": [asdict(c) for c in creators], \"raw\": raw}\n\n        if dc_authors:\n            for author in dc_authors:\n                given, family = split_name(author)\n                creators.append(Creator(creatorName=author, givenName=given, familyName=family, source=\"meta:DC.Creator.PersonalName\"))\n            return {\"items\": [asdict(c) for c in creators], \"raw\": raw}\n\n        names = self._texts(\"ul.authors-string li span\")\n        affs = self._texts(\"div.article-details__author-affiliation\")\n        if affs and len(affs) != len(names):\n            self._warn(\n                code=\"DOM_AFFILIATION_COUNT_MISMATCH\",\n                message=f\"DOM affiliation count ({len(affs)}) does not match DOM author count ({len(names)}); affiliations paired only by shared index.\",\n                function_name=\"_extract_creators\",\n                context={\"dom_author_count\": len(names), \"dom_affiliation_count\": len(affs)},\n            )\n        for idx, name in enumerate(names):\n            given, family = split_name(name)\n            affiliations = [affs[idx]] if idx < len(affs) and affs[idx] else []\n            creators.append(Creator(\n                creatorName=name,\n                givenName=given,\n                familyName=family,\n                affiliations=affiliations,\n                source=\"dom:authors-string/article-details__author-affiliation\",\n            ))\n        return {\"items\": [asdict(c) for c in creators], \"raw\": raw}\n"
+      }
+    ],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10078",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10078",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:29:42Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10078\\temp\\2499-507X_10078.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:29:44Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10078\\2499-507X_10078.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "TEACH-POT: Provide Opportunities in Teaching",
+        "submitted_date": "2020-06-24",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Maria Giulia Ballatore",
+          "Ettore Felisatti",
+          "Laura Montanaro",
+          "Anita Tabacco"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10078\\2499-507X_10078.pdf",
+        "generated_at_utc": "2026-04-21T21:29:44Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - Sommario.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2020-06-24",
+          "mod_date": "2020-06-24"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 TEACH-POT: Provide Opportunities in Teaching TEACH-POT: fornire opportunità di insegnamento Maria Giulia Ballatore *, Ettore Felisatti °, Laura Montanaro, and Anita Tabacco§ Abstract This paper is aimed to describe and critically analyze the so-c alled “TEACH- POT” experience (POT: Provide Opportunities in Teaching) performed during the last few years at Politecnico di Torino. Due to career criteria, the effort and the time lecturers spend in teach ing have currently undergone a significant reduction in quantity. In order to support and meet each lecturers’ expectations towards an improvement in their ability to teach, a mix of training opportunities has been provided. This consists of an extremely wide variety o f experiences, tools, relationships, from which everyone can feel inspired to increase the effectiveness of their teaching and the participation of their students. The provided activities are designed around three main components: methodological training , teaching technologies, methodological experiences. A discussion on the findings is included and presented basing on the data collected through a survey. The impact of the overall experienc e can be evaluated on two different levels: the real effect on redesigning lessons, and the discussion on the matter within the entire academic community. Keywords: methodological training, active learning, student-centered approach, lecturer role. Riassunto In questo lavoro si descrive e an alizza criticamente l’esperienza “TEACH- * Dept. of Mathematical Science “G. Lagrange”, Politecnico di To rino, Italy. Corresponding Author. E-mail: maria.ballatore@polito.it. ° Department of Philosophy, Sociology, Education and Applied Psychology, University of Padua, Italy. § Dept. of Applied Science Technology, Politecnico di Torino, Italy. DOI: 10.3280/exioa1-2020oa10078 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - Sommario.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "TEACH-POT: Provide Opportunities in Teaching",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "TEACH-POT: Provide Opportunities in Teaching",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2020-06-24",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2020-06-24",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:29Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:36Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10078\\temp\\2499-507X_10078.conflicts.json"
+  }
+}

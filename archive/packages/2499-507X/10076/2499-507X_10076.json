@@ -1,0 +1,883 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10076",
+  "scraped_at_utc": "2026-04-21T21:29:35Z",
+  "fetched_at_utc": "2026-04-21T21:29:35Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "8a588a515aab9329070d590ba082b13fba105efdc13a7b76941cc8cd681ca9b4",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Andrea Ciani",
+        "nameType": "Personal",
+        "givenName": "Andrea",
+        "familyName": "Ciani",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Bologna"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alessandra Rosa",
+        "nameType": "Personal",
+        "givenName": "Alessandra",
+        "familyName": "Rosa",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Bologna"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/10076",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2020-06-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2020-06-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2020-06-24",
+      "Issued": "2020-06-24"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This paper concerns a quantitative evaluation research on a training program aimed at developing the evaluation skills of Burmese faculty teachers in the formative assessment perspective.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il presente contributo concerne una ricerca valutativa di tipo quantitativo su un intervento formativo orientato a sviluppare le competenze valutative dei docenti universitari birmani nella prospettiva del formative assessment.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2020oa10076",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "5",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "università",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "sviluppo professionale dei docenti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "competenze valutative",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "formative assessment",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "ricerca valutativa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10076/1291",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "5",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Ciani, A., & Rosa, A. (2020). Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar. Excellence and Innovation in Learning and Teaching - Open Access , 5 (1). https://doi.org/10.3280/exioa1-2020oa10076",
+      "articleTitleEcho": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Asquini, G. (2019). La Ricerca - Formazione. Temi, esperienze e prospettive. Milano: FrancoAngeli.",
+        "Assessment Reform Group (2002). Assessment for Learning: 10 principles. Available online at: http://www.assessment-reform-group.org/CIE3.PDF.",
+        "Bennett, R.E. (2011). Formative assessment: a critical review. Assessment in Education: Principles, Policy & Practice, 18(1), 5-25. Doi: 10.4135/9781446250808.n13.",
+        "Black, P., & Wiliam, D. (2009). Developing the theory of formative assessment. Educational Assessment, Evaluation & Accountability, 21(1), 5-31. Doi: 10.1007/s11092-008-9068-5.",
+        "Black, P., & Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education, 5(1), 7-74. Doi: 10.1080/0969595980050102.",
+        "Bloom, B. (1974). An introduction to Mastery Learning Theory. In J. Block (Ed.), Schools, society and Mastery Learning. New York: Holt, Rinehart & Winston.",
+        "Boud, D. (2000). Sustainable assessment: rethinking assessment for the learning society. Studies in Continuing Education, 22(2), 151-167. Doi: 10.1080/713695728.",
+        "Brown, G.T.L., Gebril, A., & Michaelides, M.P. (2019). Teachers’ conceptions of assessment: a global phenomenon or a global localism. Frontiers in Education, 4(16), 1-13. Doi: 10.3389/feduc.2019.00016.",
+        "Campbell, D.T., & Stanley, J.C. (1963). Experimental and quasi-experimental designs for research on teaching. In N.L. Gage (ed.), Handbook of research on teaching (pp. 171-246). Chicago, IL: Rand McNally.",
+        "Ciani, A. (2019). L’insegnante democratico. Una ricerca empirica sulle convinzioni degli studenti di Scienze della Formazione Primaria dell’Università di Bologna. Milano: FrancoAngeli.",
+        "Ciani, A., & Vannini, I. (2017). Equità e didattica. Validazione di scale sulle convinzioni di insegnamento democratico. CADMO, 2, 5-32. Doi: 10.3280/cad2017-002003.",
+        "Clarke, D.J., & Hollingsworth, H. (2002). Elaborating a model of teacher professional growth. Teaching and Teacher Education, 18(8), 947-967. Doi: 10.1016/s0742-051x(02)00053-7.",
+        "CRESPI (2016). Un’idea comune di Ricerca-Formazione all’interno del Centro CRESPI. Online: https://centri.unibo.it/crespi/it/centro. (ultimo accesso: 6.05.2020).",
+        "Evans, C. (2013). Making sense of assessment feedback in Higher Education. Review of Educational Research, 83(1), 70-120. Doi: 10.3102/0034654312474350.",
+        "Gregoire, M. (2003). Is it a challenge or a threat? A dual-process model of teachers’ cognition and appraisal processes during conceptual change. Educational Psychology Review, 15(2), 147-179. Doi: 10.1023/a:1023477131081.",
+        "Guskey, T.R. (1986). Staff development and the process of teacher change. Educational Researcher, 15.5, 5-12. Doi: 10.3102/0013189x015005005.",
+        "Nicol, D.J., & MacFarlane-Dick, D. (2006). Formative assessment and self regulated learning: a model and seven principles of good feedback practice. Studies in Higher Education, 31(2), 199-218. Doi: 10.1080/03075070600572090.",
+        "Palinscar, A.S. (1998). Social constructivist perspectives on teaching and learning. Annual Review of Psychology, 49, 345-375. Doi: 10.1146/annurev.psych.49.1.345.",
+        "Ruiz-Primo, M.A. (2011). Informal formative assessment: The role of instructional dialogues in assessing students’ learning. Studies in Educational Evaluation, 37(1), 15-24. Doi: 10.1016/j.stueduc.2011.04.003.",
+        "Scriven, M. (1967). The methodology of evaluation. In R.W. Tyler, R.M. Gagné & M. Scriven (Eds.), Perspectives of curriculum evaluation (Vol. 1, pp. 39-83). Chicago, IL: Rand McNally.",
+        "Torrance, H. (2012). Formative assessment at the crossroads: conformative, deformative and transformative assessment. Oxford Review of Education, 38(3), 323-342. Doi: 10.1080/03054985.2012.689693.",
+        "Yorke, M. (2003). Formative assessment in higher education: moves towards theory and the enhancement of pedagogic practice. Higher Education, 45(4), 477-501. Doi: 10.1080/13583883.2005.9967148.",
+        "Wiliam, D., & Thompson, M. (2007). Integrating assessment with learning: What will it take to make it work? In C.A. Dwyer (Ed.), The future of assessment: Shaping teaching and learning (pp. 53-82). New York: Erlbaum. Doi: 10.4324/9781315086545-3."
+      ],
+      "count": 23,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_10076",
+    "article_ID": "10076",
+    "slug": "10076",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "10076",
+      "url_slug": "10076"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Developing the skills of university teachers in the perspective of formative assessment: An evaluation research on a training program for teachers of Myanmar’ universities",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "higher education, teachers’ professional development, training program, assessment skills, formative assessment, evaluation research",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "università, sviluppo professionale dei docenti, competenze valutative, formative assessment, ricerca valutativa",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2020-06-24",
+      "accepted": null,
+      "created": "2020-06-24",
+      "modified": "2022-04-04",
+      "issued": "2020-06-24",
+      "available": "2020-06-24",
+      "submitted_page": "2020-06-24",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+        "pdf_value": null,
+        "chosen_value": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10076/1291",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10076/1291",
+      "local_relative_path": "2499-507X_10076.pdf",
+      "saved": true,
+      "sha256": "f34158af09719818c9d9451a1c342ebaf34720cf88c8d111f60dd7c9415a1415",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1081367,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Andrea Ciani",
+        "Alessandra Rosa"
+      ],
+      "citation_author_institution": [
+        "Università di Bologna",
+        "Università di Bologna"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2020/06/24"
+      ],
+      "citation_volume": [
+        "5"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2020oa10076"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10076"
+      ],
+      "citation_keywords": [
+        "università",
+        "sviluppo professionale dei docenti",
+        "competenze valutative",
+        "formative assessment",
+        "ricerca valutativa"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/10076/1291"
+      ],
+      "citation_reference_count": 23,
+      "DC.Date.created": [
+        "2020-06-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2020-06-24"
+      ],
+      "DC.Date.issued": [
+        "2020-06-24"
+      ],
+      "DC.Date.modified": [
+        "2022-04-04"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "10076"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2020oa10076"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10076"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "5"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar"
+      ],
+      "DC.Title.Alternative": [
+        "Developing the skills of university teachers in the perspective of formative assessment: An evaluation research on a training program for teachers of Myanmar’ universities",
+        "higher education, teachers’ professional development, training program, assessment skills, formative assessment, evaluation research",
+        "università, sviluppo professionale dei docenti, competenze valutative, formative assessment, ricerca valutativa"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Andrea Ciani",
+        "Alessandra Rosa"
+      ],
+      "citation_author_institution": [
+        "Università di Bologna",
+        "Università di Bologna"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Andrea Ciani",
+        "Alessandra Rosa"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This paper concerns a quantitative evaluation research on a training program aimed at developing the evaluation skills of Burmese faculty teachers in the formative assessment perspective.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This paper concerns a quantitative evaluation research on a training program aimed at developing the evaluation skills of Burmese faculty teachers in the formative assessment perspective."
+          }
+        },
+        {
+          "content": "Il presente contributo concerne una ricerca valutativa di tipo quantitativo su un intervento formativo orientato a sviluppare le competenze valutative dei docenti universitari birmani nella prospettiva del formative assessment.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il presente contributo concerne una ricerca valutativa di tipo quantitativo su un intervento formativo orientato a sviluppare le competenze valutative dei docenti universitari birmani nella prospettiva del formative assessment."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "università",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "università"
+          }
+        },
+        {
+          "content": "sviluppo professionale dei docenti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "sviluppo professionale dei docenti"
+          }
+        },
+        {
+          "content": "competenze valutative",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "competenze valutative"
+          }
+        },
+        {
+          "content": "formative assessment",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "formative assessment"
+          }
+        },
+        {
+          "content": "ricerca valutativa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "ricerca valutativa"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10076/1291",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10076/1291",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10076/1291",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10076/1291",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10076/1291",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - Sommario.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2020-06-24",
+        "mod_date": "2020-06-24"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar Developing the skills of university teachers in the perspective of formative assessment: An evaluation research on a training program for teachers of Myanmar’ universities Andrea Ciani e Alessandra Rosa* Riassunto Il presente contributo concerne una ricerca valutativa di tipo quantitativo su un intervento formativo orientato a sviluppare le competenze valut ative dei do- centi universitari birmani nella prospettiva del formative assessment. Parole chiave: università, sviluppo professionale dei docenti, competenze va- lutative, formative assessment, ricerca valutativa. Abstract This paper concerns a quantitative evaluation research on a training program aimed at developing the evaluation skills of Burmese faculty te achers in the formative assessment perspective. Keywords: higher education, teachers’ professional development, training pro- gram, assessment skills, formative assessment, evaluation research. * Dipartimento di Scienze dell’Educazione, Università di Bologna. L’impianto e i contenuti del contributo sono stati discussi e p rogettati in modo condi- viso dagli autori. Alessandra Rosa ha scritto l’Introduzione e i Paragrafi 1, 4 e 5.2; Andrea Ciani ha scritto i Paragrafi 2, 3, 5.1 e 6. DOI: 10.3280/exioa1-2020oa10076 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\10076\\2499-507X_10076.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+        "pdf_value": null,
+        "chosen_value": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10076",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10076",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:29:35Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10076\\temp\\2499-507X_10076.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:29:37Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10076\\2499-507X_10076.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+        "submitted_date": "2020-06-24",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Andrea Ciani",
+          "Alessandra Rosa"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10076\\2499-507X_10076.pdf",
+        "generated_at_utc": "2026-04-21T21:29:37Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - Sommario.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2020-06-24",
+          "mod_date": "2020-06-24"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar Developing the skills of university teachers in the perspective of formative assessment: An evaluation research on a training program for teachers of Myanmar’ universities Andrea Ciani e Alessandra Rosa* Riassunto Il presente contributo concerne una ricerca valutativa di tipo quantitativo su un intervento formativo orientato a sviluppare le competenze valut ative dei do- centi universitari birmani nella prospettiva del formative assessment. Parole chiave: università, sviluppo professionale dei docenti, competenze va- lutative, formative assessment, ricerca valutativa. Abstract This paper concerns a quantitative evaluation research on a training program aimed at developing the evaluation skills of Burmese faculty te achers in the formative assessment perspective. Keywords: higher education, teachers’ professional development, training pro- gram, assessment skills, formative assessment, evaluation research. * Dipartimento di Scienze dell’Educazione, Università di Bologna. L’impianto e i contenuti del contributo sono stati discussi e p rogettati in modo condi- viso dagli autori. Alessandra Rosa ha scritto l’Introduzione e i Paragrafi 1, 4 e 5.2; Andrea Ciani ha scritto i Paragrafi 2, 3, 5.1 e 6. DOI: 10.3280/exioa1-2020oa10076 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - Sommario.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Sviluppare le competenze dei docenti universitari nella prospettiva del formative assessment: una ricerca valutativa su un intervento formativo rivolto a docenti delle Università del Myanmar",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2020-06-24",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2020-06-24",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:43:56Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:10Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10076\\temp\\2499-507X_10076.conflicts.json"
+  }
+}

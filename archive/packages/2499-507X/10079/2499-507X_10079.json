@@ -1,0 +1,924 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10079",
+  "scraped_at_utc": "2026-04-21T21:29:45Z",
+  "fetched_at_utc": "2026-04-21T21:29:45Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "eb05ddab925382873cabd2e2ac914e196ed4d8f19612b8f76eca92c21e3487c1",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Educazione emotiva e linguaggio interculturale",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Anna Di Giusto",
+        "nameType": "Personal",
+        "givenName": "Anna Di",
+        "familyName": "Giusto",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/10079",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2020-06-24",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2020-06-24",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2020-06-24",
+      "Issued": "2020-06-24"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "The present research tries to respond to the urgency, increasingly felt in the Italian school with a multicultural imprint, to identify an answer to one of the cardinal principles of education, namely that of hospitality. On the line of the School of Barbiana, taken up and also deepened by the SIPED conference held in Catania in 2014, the project proposed to give life to a new form of militant pedagogy. This term means the implementation of an experiment aimed at achieving the principle of “removing obstacles” mentioned in article 3 of the Italian Constitutional Charter, regardless of which it is impossible to implement real equality among future citizens.The reception of non-Italian-speaking students is the most critical challenge of today and future schools. The present laboratory on emotions was designed to help these students, but also their Italian peers, to understand their discomfort.In this way, an attempt was made to foster the climate of collaboration in the classroom. The result was an improvement in the schoolwork of all the students. In particular, the perception of oneself and the others was modified, favouring collaboration, and attenuating the level of competitiveness of the students.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La presente ricerca nasce dal tentativo di rispondere all’urgenza, sempre più avvertita nella scuola italiana a forte impronta multiculturale, di individuare una modalità di risposta a uno dei principi cardine dell’educazione, ovvero quello dell’accoglienza. Sulla linea di pensiero della Scuola di Barbiana, ripresa e approfondita anche dal convegno SIPED tenutosi a Catania nel 2014, il progetto si è proposto di dare corpo a una nuova forma di pedagogia militante.Con questo termine si intende la messa in atto di una sperimentazione volta a realizzare il principio della “rimozione degli ostacoli” di cui parla l’articolo 3 della Carta Costituzionale, a prescindere dal quale non si può attuare una concreta uguaglianza tra futuri cittadini.L’accoglienza degli studenti non italofoni è la sfida più importante della scuola di oggi e del futuro. Il presente laboratorio sulle emozioni è stato pensato per aiutare questi alunni, ma anche i loro compagni italiani, a comprendere il proprio disagio. In questo modo, si è cercato di favorire il clima di collaborazione della classe. Il risultato è stato un miglioramento del rendimento scolastico di tutti gli studenti, ma in particolare si è modificata la percezione di sé e dell’altro, favorendo la collaborazione e attenuando il livello di competitività degli studenti.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2020oa10079",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "5",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Educazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "emozioni",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "scuola",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "contesto interculturale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "apprendimento cooperativo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10079/1294",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "5",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Di Giusto, A. (2020). Educazione emotiva e linguaggio interculturale. Excellence and Innovation in Learning and Teaching - Open Access , 5 (1). https://doi.org/10.3280/exioa1-2020oa10079",
+      "articleTitleEcho": "Educazione emotiva e linguaggio interculturale"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Badino, A. (2013). Strade in salita. Figlie e figli dell’immigrazione meridionale al Nord. Roma: Carocci.",
+        "Balducci, E. (1990). L’uomo planetario. Fiesole: ECP.",
+        "Batini, F. (2011). Orientare per non disperdere: le storie siamo noi. Una ricerca sperimentale sull’orientamento narrativo delle scuole secondarie di Livorno. Lecce: Pensa Multimedia.",
+        "Batini, F., & Giusti S. (2015). Non lavoro, non studio, non guardo la Tv. Lecce: Pensa Multimedia.",
+        "Bauman, Z. (2001). Dentro la globalizzazione. Le conseguenze sulle persone (O. Pesce transl.). Roma: Laterza.",
+        "Bauman, Z. (2007). Homo consumens. Lo sciame inquieto dei consumatori e la miseria degli esclusi (M. De Carmeri, P. Boccagni transl.). Trento: Erickson.",
+        "Beck, U. (2003). La società cosmopolita. Prospettive dell’epoca postnazionale (C. Sandrelli transl.). Bologna: il Mulino.",
+        "Benadusi, M. (2017). La scuola in pratica. Prospettive antropologiche sull’educazione. Firenze: Editpress.",
+        "Bettoni, C. (2002). Imparare un’altra lingua. Roma: Laterza.",
+        "Biagioli, R. (2005). Educare all’interculturalità: teorie, modelli, esperienze scolastiche. Milano: FrancoAngeli.",
+        "Biagioli, R. (2017). A come Accoglienza. In M. Fiorucci, F. Pinto Minerva, & A. Portera (ed.), Gli alfabeti dell’intercultura (pp. 19-29). Pisa: ETS.",
+        "Bocchi, B., & Ceruti, M. (2004). Educazione e globalizzazione. Milano: Cortina Raffaello.",
+        "Bourdieu, P., & Passeron, J.C. (1972). La riproduzione. Sistemi di insegnamento e ordine culturale (G. Mughini, transl.). Rimini: Guardalgi.",
+        "Cambi, F. (2001). Intercultura. Fondamenti pedagogici. Roma: Carocci.",
+        "Cambi, F. (2006). Incontro e dialogo. Prospettive della pedagogia interculturale. Roma: Carocci.",
+        "Campani, G. (2008). Dalle minoranze agli immigrati. La questione del pluralismo culturale e religioso in Italia. Milano: UNICOPLI.",
+        "Collacchioni, L. (2006). Insegnare emozionando, emozionare insegnando. Tirrenia: Del Cerro.",
+        "Colombo, M. (2010). Dispersione scolastica e politiche per il successo formativo: dalla ricerca sugli early school leaver alle proposte di innovazione. Trento: Erickson.",
+        "Conroy, J.C. (1999). Catholic Education: Inside-Out/Outside-In. Dublin: Veritas Education.",
+        "Contini, M. (1992). Per una pedagogia delle emozioni. Firenze: La Nuova Italia.",
+        "Demetrio, D., & Favaro, G. (1997). Bambini stranieri a scuola. Accoglienza e didattica interculturale nella scuola dell’infanzia e nella scuola elementare. Firenze: La Nuova Italia.",
+        "Dewey, J. (1954). Il mio credo pedagogico. Antologia di scritti sull’educazione (L. Borghi transl.). Firenze: La Nuova Italia.",
+        "Di Blasio, P., & Vitali, R. (2001). Sentirsi in colpa. Bologna: il Mulino.",
+        "Di Nicola, P. (1998). La rete: metafora dell’appartenenza. Milano: FrancoAngeli.",
+        "Dolci, D. (1988). Dal trasmettere al comunicare. Torino: Edizioni Sonda.",
+        "Dolci, D. (1996). La struttura maieutica e l’evolverci. Firenze: La Nuova Italia.",
+        "Dusi, P. (2011). Il riconoscimento. In A. Mariani (ed.), 25 saggi di pedagogia. Milano: FrancoAngeli.",
+        "Dusi, P. (2017). Appartenenza, appartenenze. In M. Fiorucci, F. Pinto Minerva, & A. Portera, Gli alfabeti dell’intercultura. Pisa: ETS.",
+        "Erikson, H.E. (2008). Infanzia e società (L.A. Armando transl.).",
+        "Fabiani R., & Passantino, C. (2007). Risolvere i conflitti in classe. Tecniche di apprendimento cooperativo e di counseling educativo. Trento: Erikson.",
+        "Fanon, F. (1962). I dannati della terra (C. Cignetti transl.). Torino: Einaudi.",
+        "Favaro, G. (2018). Parola che includono. L’italiano per (non essere) stranieri. In Fiorucci M., F. Pinto Minerva, A. Portera (ed.), Gli alfabeti dell’intercultura. (2017). Pisa: ETS.",
+        "Favaro, G., & Luatti, L. (ed.). (2004). L’intercultura dalla A alla Z. Milano: FrancoAngeli.",
+        "Filliozart, I. (1997). Il quoziente emotivo. Come comprendere e usare le emozioni per riscoprire l’intelligenza del cuore (M. Proh transl.). Alessandria: Piemme.",
+        "M. Fiorucci, F. Pinto Minerva, & A. Portera (ed.), Gli alfabeti dell'intercultura. Pisa: ETS.",
+        "Foucault, M. (1976). Sorvegliare e punire. Nascita della prigione (A. Tarchetti, transl.). Torino: Einaudi.",
+        "Frabboni, F., & Baldacci, M. (2004). Didattica e successo formativo: strategie per la prevenzione della dispersione scolastica. Milano: FrancoAngeli.",
+        "Franta, H., & Colasanti, A.R. (1991). L’arte dell’incoraggiamento. Insegnamento e personalità degli allievi. Roma: La Nuova Italia Scientifica.",
+        "Freire, P. (1971). La pedagogia degli oppressi (L. Bimbi transl.). Milano: Mondadori.",
+        "Freire, P. (2008). Pedagogia della speranza: un nuovo approccio a La pedagogia degli oppressi (F. Tellesi, transl.). Torino: Gruppo Abele.",
+        "Goleman, D. (1997). Intelligenza emotiva. Che cos’è e perché può renderci felici (I. Blum, B. Lotti transl.). Milano: Rizzoli.",
+        "Honneth, A. (2002). La lotta per il riconoscimento (C. Sandrelli transl.). Milano: Il Saggiatore.",
+        "Ianes, D. (2007). Educare all’affettività. A scuola di emozioni, stati d’animo e sentimenti. Trento: Erikson.",
+        "Illich, I. (1978). Descolarizzare la società (E. Capriolo transl.). Milano: Mondadori.",
+        "Illich, I. (1991). Distruggere la scuola: sei saggi sulla descolarizzazione (M. Miegge transl.). Pistoia: Centro di Documentazione.",
+        "Iori, B. (ed.). (2005). L’italiano e le altre lingue. Apprendimento della seconda lingua e bilinguismo dei bambini e dei ragazzi migranti. Milano: FrancoAngeli",
+        "Jaspers, K. (1964). Psicopatologia generale (R. Prioli transl.). Roma: Il Pensiero Scientifico.",
+        "Kilpatrick, W.H. (1972). La funzione sociale, culturale e docente della scuola (N. Santalucia, transl.). Messina: Peloritana.",
+        "Kohut, H. (2009). La ricerca del Sé. Introspezione, empatia e psicoanalisi: rapporto tra modalità di osservazione e teoria. Torino: Bollati Boringhieri.",
+        "Lanna, M. (2011). Ermeneutica del conflitto. Benevento: Labrys.",
+        "Lasch, C. (1981). La cultura del narcisismo (M. Bocconcelli transl.). Milano: Bompiani.",
+        "Loschi, T. (1981). Educazione affettiva, emotiva, sociale. Bologna: Ed. Milano.",
+        "Luccini, E. (2005). Le idee politiche e sociali di G. E. Pestalozzi. Padova: Il Poligrafo.",
+        "Maritain, J. (1949). L’educazione al bivio (A. Agazzi transl.). Brescia: La Scuola.",
+        "Marone, F. (2006). Emozione e affetti nel processo formativo. Pisa: ETS.",
+        "Moscati, R., Nigris, E., & Tramma, S. (2008). Dentro e fuori la scuola. Milano: Bruno Mondadori.",
+        "Nussbaum, M. (2001). Diventare persone (W. Mafezzoni transl.). Bologna: il Mulino.",
+        "Pasolini, P.P. (1975). Scritti corsari. Milano: Garzanti.",
+        "Petracchi, G. (1993). Affettività a scuola. Brescia: La Scuola.",
+        "Piaget, J. (2016). L’epistemologia genetica (F. Martinelli transl.). Roma: Studium.",
+        "Pontecorvo, C. (1999). Manuale di psicologia dell’educazione. Bologna: il Mulino.",
+        "Portera, A. (1997). Tesori sommersi. Emigrazione, identità, bisogni educativi interculturali. Milano: FrancoAngeli.",
+        "Portera, A., & Dusi, P. (2017). Gestione dei conflitti e mediazione interculturale. Milano: FrancoAngeli.",
+        "Remotti, F. (2007). Contro l’identità. Roma: Laterza.",
+        "Rosenberg, M. (2005). Educazione che arricchisce la vita (F. Rossi transl.). Roma: Esserci.",
+        "Rossi, B. (2002). Pedagogia degli affetti. Orizzonti culturali e percorsi formativi. Roma: Laterza.",
+        "Salimbeni, O. (2011). Storie minori. Realtà ed accoglienza per i minori stranieri in Italia. Pisa: ETS.",
+        "Sen, A. (2014). Lo sviluppo è libertà (G. Rigamonti transl.). Milano: Mondadori.",
+        "Sen, A.K. (2008). Identità e violenza (D. Galiberti transl.). Roma: Laterza.",
+        "Seriacopi, C. (2004). L’obbligo scolastico e l’obbligo formativo come strumenti della scuola che accoglie. In E. Catarsi, La scuola accogliente. Pisa: Edizioni del Cerro.",
+        "Severino, E. (1998). Il destino della tecnica. Milano: Rizzoli.",
+        "Silva, C. (2008). Pedagogia interculturale e diritti umani. Roma: Carocci.",
+        "Simmel, G. (2006). Lo straniero (D. Simon transl.). Torino: Il Segnalibro.",
+        "Snow, D. R. (2005). Classroom Strategies for Helping At-Risk Students. Association for Supervision and Curriculum Development. Aurora: ASCD.",
+        "Ulivieri, S. (ed.). (2018). Ragazze e ragazzi stranieri a scuola. Intercultura, istruzione e progetto di vita in Europa e Toscana.",
+        "Ulivieri. S. (1997). L’educazione e i marginali: storia, teorie, luoghi e tipologia dell’emarginazione. Firenze: La Nuova Italia.",
+        "Ulivieri, S., & Tomarchio, M. (2016). Pedagogia militante. Diritti, culture, territori. Pisa: ETS.",
+        "Vegetti, M. (2004). Passioni antiche. L’io collerico. In S. Vegetti Finzi (ed.), Storia delle passioni (pp. 39-73). Roma: Laterza.",
+        "Viganò, R., Brex, G., & Goisis, C. (2011). Per il gusto di apprendere. La didattica come risorsa. Milano: FrancoAngeli.",
+        "Zollo, I., Pace, E. M., Agrillo, F., & Sibilio, M. (2016). Il ruolo dell’orientamento per la promozione dell’inclusione educativa e sociale. Lifelong Lifewide Learning, 12(27), 14-28.",
+        "Zolo, D. (2011). Sulla paura: fragilità, aggressività, potere. Milano: Feltrinelli."
+      ],
+      "count": 81,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_10079",
+    "article_ID": "10079",
+    "slug": "10079",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "10079",
+      "url_slug": "10079"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Educazione emotiva e linguaggio interculturale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Educazione emotiva e linguaggio interculturale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Emotional Education and Intercultural Language",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Education, emotions, intercultural context, cooperative learning, school dissatisfaction, school inclusion",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Educazione, emozioni, scuola, contesto interculturale, apprendimento cooperativo",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Educazione emotiva e linguaggio interculturale",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2020-06-24",
+      "accepted": null,
+      "created": "2020-06-24",
+      "modified": "2022-04-04",
+      "issued": "2020-06-24",
+      "available": "2020-06-24",
+      "submitted_page": "2020-06-24",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Educazione emotiva e linguaggio interculturale",
+        "pdf_value": null,
+        "chosen_value": "Educazione emotiva e linguaggio interculturale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10079/1294",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10079/1294",
+      "local_relative_path": "2499-507X_10079.pdf",
+      "saved": true,
+      "sha256": "bdfd0527c260e5bfe6d128bd5fa0bf3921a25fac56e18ebea87d555ae98d43c1",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 922458,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Anna Di Giusto"
+      ],
+      "citation_author_institution": [
+        "Università di Siena"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Educazione emotiva e linguaggio interculturale"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2020/06/24"
+      ],
+      "citation_volume": [
+        "5"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2020oa10079"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10079"
+      ],
+      "citation_keywords": [
+        "Educazione",
+        "emozioni",
+        "scuola",
+        "contesto interculturale",
+        "apprendimento cooperativo"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/10079/1294"
+      ],
+      "citation_reference_count": 81,
+      "DC.Date.created": [
+        "2020-06-24"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2020-06-24"
+      ],
+      "DC.Date.issued": [
+        "2020-06-24"
+      ],
+      "DC.Date.modified": [
+        "2022-04-04"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "10079"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2020oa10079"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/10079"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "5"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Educazione emotiva e linguaggio interculturale"
+      ],
+      "DC.Title.Alternative": [
+        "Emotional Education and Intercultural Language",
+        "Education, emotions, intercultural context, cooperative learning, school dissatisfaction, school inclusion",
+        "Educazione, emozioni, scuola, contesto interculturale, apprendimento cooperativo"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Anna Di Giusto"
+      ],
+      "citation_author_institution": [
+        "Università di Siena"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Anna Di Giusto"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The present research tries to respond to the urgency, increasingly felt in the Italian school with a multicultural imprint, to identify an answer to one of the cardinal principles of education, namely that of hospitality. On the line of the School of Barbiana, taken up and also deepened by the SIPED conference held in Catania in 2014, the project proposed to give life to a new form of militant pedagogy. This term means the implementation of an experiment aimed at achieving the principle of “removing obstacles” mentioned in article 3 of the Italian Constitutional Charter, regardless of which it is impossible to implement real equality among future citizens.The reception of non-Italian-speaking students is the most critical challenge of today and future schools. The present laboratory on emotions was designed to help these students, but also their Italian peers, to understand their discomfort.In this way, an attempt was made to foster the climate of collaboration in the classroom. The result was an improvement in the schoolwork of all the students. In particular, the perception of oneself and the others was modified, favouring collaboration, and attenuating the level of competitiveness of the students.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The present research tries to respond to the urgency, increasingly felt in the Italian school with a multicultural imprint, to identify an answer to one of the cardinal principles of education, namely that of hospitality. On the line of the School of Barbiana, taken up and also deepened by the SIPED conference held in Catania in 2014, the project proposed to give life to a new form of militant pedagogy.\nThis term means the implementation of an experiment aimed at achieving the principle of “removing obstacles” mentioned in article 3 of the Italian Constitutional Charter, regardless of which it is impossible to implement real equality among future citizens.The reception of non-Italian-speaking students is the most critical challenge of today and future schools. The present laboratory on emotions was designed to help these students, but also their Italian peers, to understand their discomfort.In this way, an attempt was made to foster the climate of collaboration in the classroom. The result was an improvement in the schoolwork of all the students. In particular, the perception of oneself and the others was modified, favouring collaboration, and attenuating the level of competitiveness of the students."
+          }
+        },
+        {
+          "content": "La presente ricerca nasce dal tentativo di rispondere all’urgenza, sempre più avvertita nella scuola italiana a forte impronta multiculturale, di individuare una modalità di risposta a uno dei principi cardine dell’educazione, ovvero quello dell’accoglienza. Sulla linea di pensiero della Scuola di Barbiana, ripresa e approfondita anche dal convegno SIPED tenutosi a Catania nel 2014, il progetto si è proposto di dare corpo a una nuova forma di pedagogia militante.Con questo termine si intende la messa in atto di una sperimentazione volta a realizzare il principio della “rimozione degli ostacoli” di cui parla l’articolo 3 della Carta Costituzionale, a prescindere dal quale non si può attuare una concreta uguaglianza tra futuri cittadini.L’accoglienza degli studenti non italofoni è la sfida più importante della scuola di oggi e del futuro. Il presente laboratorio sulle emozioni è stato pensato per aiutare questi alunni, ma anche i loro compagni italiani, a comprendere il proprio disagio. In questo modo, si è cercato di favorire il clima di collaborazione della classe. Il risultato è stato un miglioramento del rendimento scolastico di tutti gli studenti, ma in particolare si è modificata la percezione di sé e dell’altro, favorendo la collaborazione e attenuando il livello di competitività degli studenti.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La presente ricerca nasce dal tentativo di rispondere all’urgenza, sempre più avvertita nella scuola italiana a forte impronta multiculturale, di individuare una modalità di risposta a uno dei principi cardine dell’educazione, ovvero quello dell’accoglienza. Sulla linea di pensiero della Scuola di Barbiana, ripresa e approfondita anche dal convegno SIPED tenutosi a Catania nel 2014, il progetto si è proposto di dare corpo a una nuova forma di pedagogia militante.Con questo termine si intende la messa in atto di una sperimentazione volta a realizzare il principio della “rimozione degli ostacoli” di cui parla l’articolo 3 della Carta Costituzionale, a prescindere dal quale non si può attuare una concreta uguaglianza tra futuri cittadini.L’accoglienza degli studenti non italofoni è la sfida più importante della scuola di oggi e del futuro. Il presente laboratorio sulle emozioni è stato pensato per aiutare questi alunni, ma anche i loro compagni italiani, a comprendere il proprio disagio. In questo modo, si è cercato di favorire il clima di collaborazione della classe. Il risultato è stato un miglioramento del rendimento scolastico di tutti gli studenti, ma in particolare si è modificata la percezione di sé e dell’altro, favorendo la collaborazione e attenuando il livello di competitività degli studenti."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Educazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Educazione"
+          }
+        },
+        {
+          "content": "emozioni",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "emozioni"
+          }
+        },
+        {
+          "content": "scuola",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "scuola"
+          }
+        },
+        {
+          "content": "contesto interculturale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "contesto interculturale"
+          }
+        },
+        {
+          "content": "apprendimento cooperativo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "apprendimento cooperativo"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/10079/1294",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10079/1294",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10079/1294",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10079/1294",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/10079/1294",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - Sommario.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2020-06-24",
+        "mod_date": "2020-06-24"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 Educazione emotiva e linguaggio interculturale Emotional Education and Intercultural Language Anna Di Giusto* Riassunto La presente ricerca nasce dal tentativo di rispondere all’urgen za, sempre più avvertita nella scuola italiana a forte impronta multiculturale , di individuare una modalità di risposta a uno dei principi cardine dell’educaz ione, ovvero quello dell’accoglienza. Sulla linea di pensiero della Scuola di Barbiana, ri- presa e approfondita anche dal c onvegno SIPED tenutosi a Catani a nel 2014, il progetto si è proposto di dare corpo a una nuova forma di pedagogia mili- tante. Con questo termine si intende la messa in atto di una sperime ntazione volta a realizzare il principio della “rimozione degli ostacoli ” di cui parla l’articolo 3 della Carta Costituzionale, a prescindere dal qual e non si può at- tuare una concreta uguaglianza tra futuri cittadini. L’accoglienza degli studenti non italofoni è la sfida più impor tante della scuo- la di oggi e del futuro. Il presente laboratorio sulle emozioni è stato pensato per aiutare questi alunni, ma anche i loro compagni italiani, a comprendere il proprio disagio. In questo modo, si è cercato di favorire il cl ima di collabora- zione della classe. Il risultato è stato un miglioramento del rendimento scola- stico di tutti gli studenti, ma in particolare si è modificata la percezione di sé e dell’altro, favorendo la collaborazione e attenuando il livello di competitività degli studenti. Parole chiave: Educazione, emozioni, scuola, c ontesto interculturale, appren- dimento cooperativo Abstract The present research tries to respond to the urgency, increasin gly felt in the Italian school with a multicultural imprint, to identify an ans wer to one of the cardinal principles of education, namely that of hospitality. O n the line of the School of Barbiana, taken up and also deepened by the SIPED con ference * Università di Siena. DOI: 10.3280/exioa1-2020oa10079 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\10079\\2499-507X_10079.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Educazione emotiva e linguaggio interculturale",
+        "pdf_value": null,
+        "chosen_value": "Educazione emotiva e linguaggio interculturale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2020-06-24",
+        "pdf_value": null,
+        "chosen_value": "2020-06-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Educazione emotiva e linguaggio interculturale | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10079",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10079",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:29:45Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10079\\temp\\2499-507X_10079.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:29:47Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10079\\2499-507X_10079.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Educazione emotiva e linguaggio interculturale",
+        "submitted_date": "2020-06-24",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Anna Di Giusto"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10079\\2499-507X_10079.pdf",
+        "generated_at_utc": "2026-04-21T21:29:47Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - Sommario.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2020-06-24",
+          "mod_date": "2020-06-24"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 Educazione emotiva e linguaggio interculturale Emotional Education and Intercultural Language Anna Di Giusto* Riassunto La presente ricerca nasce dal tentativo di rispondere all’urgen za, sempre più avvertita nella scuola italiana a forte impronta multiculturale , di individuare una modalità di risposta a uno dei principi cardine dell’educaz ione, ovvero quello dell’accoglienza. Sulla linea di pensiero della Scuola di Barbiana, ri- presa e approfondita anche dal c onvegno SIPED tenutosi a Catani a nel 2014, il progetto si è proposto di dare corpo a una nuova forma di pedagogia mili- tante. Con questo termine si intende la messa in atto di una sperime ntazione volta a realizzare il principio della “rimozione degli ostacoli ” di cui parla l’articolo 3 della Carta Costituzionale, a prescindere dal qual e non si può at- tuare una concreta uguaglianza tra futuri cittadini. L’accoglienza degli studenti non italofoni è la sfida più impor tante della scuo- la di oggi e del futuro. Il presente laboratorio sulle emozioni è stato pensato per aiutare questi alunni, ma anche i loro compagni italiani, a comprendere il proprio disagio. In questo modo, si è cercato di favorire il cl ima di collabora- zione della classe. Il risultato è stato un miglioramento del rendimento scola- stico di tutti gli studenti, ma in particolare si è modificata la percezione di sé e dell’altro, favorendo la collaborazione e attenuando il livello di competitività degli studenti. Parole chiave: Educazione, emozioni, scuola, c ontesto interculturale, appren- dimento cooperativo Abstract The present research tries to respond to the urgency, increasin gly felt in the Italian school with a multicultural imprint, to identify an ans wer to one of the cardinal principles of education, namely that of hospitality. O n the line of the School of Barbiana, taken up and also deepened by the SIPED con ference * Università di Siena. DOI: 10.3280/exioa1-2020oa10079 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - Sommario.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Educazione emotiva e linguaggio interculturale",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Educazione emotiva e linguaggio interculturale",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2020-06-24",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2020-06-24",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:40Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:44:42Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10079\\temp\\2499-507X_10079.conflicts.json"
+  }
+}
