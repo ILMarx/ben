@@ -1,8 +1,8 @@
-function loadFragment(id, file, callback) {
+function loadFragment(id, file) {
   const target = document.getElementById(id);
-  if (!target) return;
+  if (!target) return Promise.resolve(false);
 
-  fetch(file)
+  return fetch(file)
     .then(response => {
       if (!response.ok) {
         throw new Error(`Could not load ${file}`);
@@ -11,10 +11,11 @@ function loadFragment(id, file, callback) {
     })
     .then(html => {
       target.innerHTML = html;
-      if (callback) callback();
+      return true;
     })
     .catch(error => {
       console.error(error);
+      return false;
     });
 }
 
@@ -24,7 +25,9 @@ function updateLastModified() {
 
   fetch('https://api.github.com/repos/ILMarx/ben/commits?per_page=1')
     .then(response => {
-      if (!response.ok) throw new Error('GitHub API error');
+      if (!response.ok) {
+        throw new Error('GitHub API error');
+      }
       return response.json();
     })
     .then(data => {
@@ -46,6 +49,12 @@ function updateLastModified() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+  loadFragment('header-placeholder', 'header.html');
   loadFragment('nav-placeholder', 'nav.html');
-  loadFragment('footer-placeholder', 'footer.html', updateLastModified);
+  loadFragment('footer-placeholder', 'footer.html')
+    .then(function (loaded) {
+      if (loaded) {
+        updateLastModified();
+      }
+    });
 });
