@@ -3,9 +3,13 @@ function buildPersonCard(person, role) {
     ? person.roleLabels[role]
     : "";
 
+  const objectPosition = person.picturePosition
+    ? ` style="object-position: ${person.picturePosition};"`
+    : "";
+
   return `
     <a class="card card-link" href="person.html?id=${person.id}">
-      <img src="${person.picture}" alt="" class="card-image">
+      <img src="${person.picture}" alt="" class="card-image person-card-image"${objectPosition}>
       <h3>${person.name}</h3>
       <p class="meta">${person.academicTitle}</p>
       ${label ? `<p>${label}</p>` : ""}
