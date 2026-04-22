@@ -1,0 +1,853 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13022",
+  "scraped_at_utc": "2026-04-21T21:32:05Z",
+  "fetched_at_utc": "2026-04-21T21:32:05Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "2fc76aca5c1b3d6a04eafd40bbb5f2eb006114ddcb7fda2f67f57b7cf6248106",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "The Experience of Organizing the First Italian Youth Debating Championship",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Matteo Giangrande",
+        "nameType": "Personal",
+        "givenName": "Matteo",
+        "familyName": "Giangrande",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Società Nazionale Debate Italia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/13022",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2021-11-20",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2021-12-23",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2021-12-23",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2021-12-23",
+      "Issued": "2021-12-23",
+      "Accepted": "2021-11-20"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importance of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve participants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not have been conceivable and viable before the COVID-19 pandemic, as organizers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importance of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve participants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not have been conceivable and viable before the COVID-19 pandemic, as organizers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2021oa13022",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "6",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Debate Methodology",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Organization of Educational Innovation",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Post-Pandemic Pedagogy",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Active Citizenship",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Education Platformization",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2021,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13022/1179",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "6",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Giangrande, M. (2021). The Experience of Organizing the First Italian Youth Debating Championship. Excellence and Innovation in Learning and Teaching - Open Access , 6 (2). https://doi.org/10.3280/exioa2-2021oa13022",
+      "articleTitleEcho": "The Experience of Organizing the First Italian Youth Debating Championship"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Andrič, M., Bartanen, M., Frank, D., Llano, S., Zompetti, J. (2021) L’analisi della mozione. Capire i problemi per sviluppare gli argomenti. Milano: Pearson.",
+        "Akerman, R., Neale, I. (2011). Debating the evidence: An international review of current situation and perceptions. Reading, UK: CFBT Education Trust.",
+        "Bartanen, Michael D. (2014). Forensics in America: A history. Lanham, MD: Rowman & Littlefield.",
+        "Cinganotto, L., Mosa, E., Panzavolta, S. (2021). Il debate. Una metodologia per potenziare le competenze chiave. Roma: Carocci.",
+        "De Conti, M., Giangrande, M. (2018). Debate. Teoria, pratica, pedagogia. Milano: Pearson.",
+        "De Conti, M., Zompatti, J. (2019). L’etica del debate. Milano: Pearson.",
+        "Dickman, N. (2021). Physical distance, ethical proximity: Levinasian dialogue as pandemic pedagogy in faceless (masked or online) classrooms. Teaching Philosophy, 44.3, 255-279. DOI: 10.5840/teachphil2021610147.",
+        "Floridi, L. (2014). The fourth revolution: How the infosphere is reshaping human reality. Oxford: Oxford University Press.",
+        "Giangrande, M. (2019a). Le regole del debate. Guida ai protocolli per coach e debater. Milano: Pearson.",
+        "Giangrande, M. (2019b). Il debate come sport. In Obino, A., (a cura di), Competenze e occupazione nell’era della discontinuità (pp. 79-95). Roma: Castelvecchi.",
+        "Johnson, D., Johnson, R. (1985). Classroom conflict: Controversy versus debate in learning groups. American Educational Research Journal, 22.2, 237-256. DOI: 10.3102/00028312022002237.",
+        "IDEA, (2020). Online debating review and lessons learned, Retrieved from: https://www.sn-di.it/debate-online-valutazione-critica-e-indicazioni-per-il-futuro/.",
+        "Osler, L. (2021). Taking empathy online. Inquire: An Interdisciplinary Journal of Philosophy, DOI: 10.1080/0020174X.2021.1899045.",
+        "Potter, D. (1944). Debating in the colonial chartered colleges: An historical survey, 1642 to 1900. New York: Teachers College, Columbia University.",
+        "Rief, J. (2021). Post-pandemic pedagogy in intercollegiate academic febate. In Valenzano, J. (Ed.), Post-pandemic pedagogy: A paradigm shift (pp. 239-257). Lanham: Lexington Books.",
+        "Snider, A. (1984). Ethics in academic debate: A gaming perspective. The National Forensic Journal, 2, 119-134.",
+        "Snider, A. (2003). Gamemaster: It is you. Contemporary Argumentation and Debate, 24, 31-41.",
+        "Strait, P., Wallace, B. (2008). Academic debate as a decision-making game: Inculcating the virtue of practical wisdom. Contemporary Argumentation and Debate, 29, 11-46.",
+        "Tolmayer, A. (2019). The platformization of higher education. Paper presented at the Central European Conference on Information and Intelligent System, Varazdin.",
+        "Weijers, O. (2013). In search of the truth. A history of disputation techniques from antiquity to early modern times. Turnhout: Brepols."
+      ],
+      "count": 20,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_13022",
+    "article_ID": "13022",
+    "slug": "13022",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "13022",
+      "url_slug": "13022"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "The Experience of Organizing the First Italian Youth Debating Championship",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "The Experience of Organizing the First Italian Youth Debating Championship",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "The Experience of Organizing the First Italian Youth Debating Championship",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "The Experience of Organizing the First Italian Youth Debating Championship",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-09-17",
+      "accepted": "2021-11-20",
+      "created": "2021-12-23",
+      "modified": "2021-12-23",
+      "issued": "2021-12-23",
+      "available": "2021-12-23",
+      "submitted_page": "2021-09-17",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": "2021-11-20"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "The Experience of Organizing the First Italian Youth Debating Championship",
+        "pdf_value": null,
+        "chosen_value": "The Experience of Organizing the First Italian Youth Debating Championship",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-09-17",
+        "pdf_value": null,
+        "chosen_value": "2021-09-17",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2021-11-20",
+        "chosen_value": "2021-11-20",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13022/1179",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13022/1179",
+      "local_relative_path": "2499-507X_13022.pdf",
+      "saved": true,
+      "sha256": "7dc2f1be23165f8489bce554054a82d51274fe3c939637a47be7864a0b477418",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 826748,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Matteo Giangrande"
+      ],
+      "citation_author_institution": [
+        "Società Nazionale Debate Italia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "The Experience of Organizing the First Italian Youth Debating Championship"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2021/12/23"
+      ],
+      "citation_volume": [
+        "6"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2021oa13022"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13022"
+      ],
+      "citation_keywords": [
+        "Debate Methodology",
+        "Organization of Educational Innovation",
+        "Post-Pandemic Pedagogy",
+        "Active Citizenship",
+        "Education Platformization"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/13022/1179"
+      ],
+      "citation_reference_count": 20,
+      "DC.Date.created": [
+        "2021-12-23"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-09-17"
+      ],
+      "DC.Date.issued": [
+        "2021-12-23"
+      ],
+      "DC.Date.modified": [
+        "2021-12-23"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "13022"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2021oa13022"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13022"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "6"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "The Experience of Organizing the First Italian Youth Debating Championship"
+      ],
+      "DC.Title.Alternative": [
+        "The Experience of Organizing the First Italian Youth Debating Championship"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Matteo Giangrande"
+      ],
+      "citation_author_institution": [
+        "Società Nazionale Debate Italia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Matteo Giangrande"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importance of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve participants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not have been conceivable and viable before the COVID-19 pandemic, as organizers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importance of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve participants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not have been conceivable and viable before the COVID-19 pandemic, as organizers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends."
+          }
+        },
+        {
+          "content": "We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importance of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve participants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not have been conceivable and viable before the COVID-19 pandemic, as organizers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importance of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve participants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not have been conceivable and viable before the COVID-19 pandemic, as organizers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Debate Methodology",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Debate Methodology"
+          }
+        },
+        {
+          "content": "Organization of Educational Innovation",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Organization of Educational Innovation"
+          }
+        },
+        {
+          "content": "Post-Pandemic Pedagogy",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Post-Pandemic Pedagogy"
+          }
+        },
+        {
+          "content": "Active Citizenship",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Active Citizenship"
+          }
+        },
+        {
+          "content": "Education Platformization",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Education Platformization"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13022/1179",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13022/1179",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13022/1179",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13022/1179",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13022/1179",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": "2021-11-20",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2021-12-23",
+        "mod_date": "2021-12-23"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 2 Doi: 10.3280/exioa2-2021oa13022 The Experience of Organizing the First Italian Youth Debating Championship Matteo Giangrande* Abstract We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importanc e of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve partic ipants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not ha ve been conceivable and viable before the COVID-19 pandemic, as organiz ers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends. Keywords: Debate Methodology, Organization of Educational Innovation, Post-Pandemic Pedagogy, Active Citizenship, Education Platformization First submission: 17/09/2021; accepted: 20/11/2021 Available online: 23/12/2021 This paper offers a report on the experience of a project and a n innovative training process in an Italian informal educational context: th e first Italian Youth Debating Championship 2021 (Campionato Italiano Giovanile di Debate 2021). 1 While it can be observed from multiple perspectives (pedagogic al, sporting, and sociological), this paper is intended to illustra te its management and organizational aspects. * Società Nazionale Debate Italia. E-mail: matteo.giangrande@sn-di.it. 1 In the Italian-speaking community, the acronym CIGD is used to refer to the Italian youth debate championship. This paper uses IYDC, as this acronym is formed with the initials of the tournament name translated into English. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\2499-507X_13022.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2021,
+      "raw_dc_rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "The Experience of Organizing the First Italian Youth Debating Championship",
+        "pdf_value": null,
+        "chosen_value": "The Experience of Organizing the First Italian Youth Debating Championship",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-09-17",
+        "pdf_value": null,
+        "chosen_value": "2021-09-17",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2021-11-20",
+        "chosen_value": "2021-11-20",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "The Experience of Organizing the First Italian Youth Debating Championship | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13022",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13022",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:32:05Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\temp\\2499-507X_13022.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:32:08Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\2499-507X_13022.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "The Experience of Organizing the First Italian Youth Debating Championship",
+        "submitted_date": "2021-09-17",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2021",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Matteo Giangrande"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\2499-507X_13022.pdf",
+        "generated_at_utc": "2026-04-21T21:32:08Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2021-12-23",
+          "mod_date": "2021-12-23"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 2 Doi: 10.3280/exioa2-2021oa13022 The Experience of Organizing the First Italian Youth Debating Championship Matteo Giangrande* Abstract We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importanc e of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve partic ipants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not ha ve been conceivable and viable before the COVID-19 pandemic, as organiz ers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends. Keywords: Debate Methodology, Organization of Educational Innovation, Post-Pandemic Pedagogy, Active Citizenship, Education Platformization First submission: 17/09/2021; accepted: 20/11/2021 Available online: 23/12/2021 This paper offers a report on the experience of a project and a n innovative training process in an Italian informal educational context: th e first Italian Youth Debating Championship 2021 (Campionato Italiano Giovanile di Debate 2021). 1 While it can be observed from multiple perspectives (pedagogic al, sporting, and sociological), this paper is intended to illustra te its management and organizational aspects. * Società Nazionale Debate Italia. E-mail: matteo.giangrande@sn-di.it. 1 In the Italian-speaking community, the acronym CIGD is used to refer to the Italian youth debate championship. This paper uses IYDC, as this acronym is formed with the initials of the tournament name translated into English. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": "2021-11-20",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2021-11-20",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "The Experience of Organizing the First Italian Youth Debating Championship",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "The Experience of Organizing the First Italian Youth Debating Championship",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-09-17",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-09-17",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2021-11-20",
+          "preferred_source": "pdf",
+          "chosen_value": "2021-11-20",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:58Z"
+        },
+        "copyright_year": {
+          "page_value": "2021",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:59Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\temp\\2499-507X_13022.conflicts.json"
+  }
+}

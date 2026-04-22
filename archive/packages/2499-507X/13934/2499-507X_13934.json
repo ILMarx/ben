@@ -1,0 +1,876 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13934",
+  "scraped_at_utc": "2026-04-21T21:32:37Z",
+  "fetched_at_utc": "2026-04-21T21:32:37Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "f78271de93e2503045d671c2d192ee6de6678f407af197c0d77a29926116239a",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Francesca Anello",
+        "nameType": "Personal",
+        "givenName": "Francesca",
+        "familyName": "Anello",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Palermo"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/13934",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-09",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-09",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-09",
+      "Issued": "2022-06-09"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The CIRC model, Cooperative Integrated Reading and Composition, which focuses on the combined mastery of comprehension and composition strategies, can be effective for promoting writing as a conscious and systematic activity for the study in students. In an essential relationship with reading, the co-construction of texts stimulates students to exercise multiple skills: analyzing and synthesizing, imagining and anticipating, choosing and selecting, integrating and elaborating, organizing contents regarding different communicative situations and recipients. In this paper, the exercise of reading and text composition skills on a group of university students preparing to become teachers was investigated. The CIRC program was applied in a distance learning path. Through shared writing, the dual aim of the project was: facilitating individual study activities in 285 students; increasing their awareness in the use of the CIRC technique in primary school classroom. Although the findings concern only one experiential situation that cannot be generalized, the implementation of the project allowed to indicate the efficacy of the procedures used.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Per promuovere negli studenti la scrittura come attività consapevole e sistematica per lo studio può risultare efficace il Cooperative Integrated Reading and Composition (CIRC) Model, che si concentra sulla padronanza combinata di strategie di comprensione e di composizione. In rapporto essenziale con la lettura, la co-costruzione di testi stimola gli studenti a esercitare molteplici capacità: analizzare e sintetizzare, immaginare e anticipare, scegliere e selezionare, integrare e elaborare, organizzare i contenuti riguardo a situazioni comunicative e destinatari diversi. Nel presente contributo l’esercizio delle abilità di leggere e comporre testi è stato indagato su un gruppo di studenti universitari che si preparano a diventare maestri. Il programma CIRC è stato applicato in un insegnamento a distanza. Il duplice obiettivo del progetto è stato di facilitare in 285 soggetti lo studio individuale attraverso la scrittura condivisa e di accrescere in loro la consapevolezza d’uso della tecnica nelle classi di scuola primaria. Pur rimanendo su un piano esperienziale, che fornisce dati non generalizzabili, l’attuazione del progetto ha consentito di precisare l’adeguatezza delle procedure utilizzate.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2022oa13934",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "composizione scritta",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "comprensione della lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "insegnamento reciproco",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "apprendimento a distanza",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "consapevolezza",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13934/1358",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Anello, F. (2022). Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari. Excellence and Innovation in Learning and Teaching - Open Access , 7 (1). https://doi.org/10.3280/exioa1-2022oa13934",
+      "articleTitleEcho": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Baker, L., & Brown, A.L. (1984). Metacognitive skills and reading. In Pearson, P.D. (Ed.), Handbook of reading research (pp. 353-394). Longman.",
+        "Bastug, M., & Demirtas, G. (2016). Child-Centered Reading Intervention: See, Talk, Dictate, Read, Write. International Electronic Journal of Elementary Education, 8.4, 601-616.",
+        "Bereiter, C., & Scardamalia, M. (1982). From conversation to composition: The role of instruction in a developmental process. In Glaser R. (Ed.), Advances in instructional psychology (Vol. 2, pp. 1-64). Erlbaum.",
+        "Bereiter, C., & Scardamalia, M. (1987). The Psychology of Written Composition. Lawrence Erlbaum Associates, Inc.",
+        "Bramlett, R.K. (1994). Implementing cooperative learning: A field study evaluating issues for school-based consultants. Journal of School Psychology, 32.1, 67-84.",
+        "Bridge, C., & Hiebert, E. (1985). A comparison of classroom writing practices, teachers’ perceptions of their writing instruction, and textbook recommendations on writing practices. Elementary School Journal, 2, 155-172.",
+        "Brown, A.L., & Palincsar, A.S. (1982). Inducing strategic learning from text by means of informed self-control training. Topics in Learning and Learning Disabilities, 2, 1-17.",
+        "Calamai, S. (2012). Per un’analisi delle competenze scrittorie negli studenti universitari. In Bernini, G., Lavinio, C., Valentini, A., & Voghera, M. (Eds.). Atti dell’11° Congresso dell’associazione italiana di linguistica applicata. Competenze e formazione linguistiche. In memoria di Monica Berretta (pp. 77-99). Guerra.",
+        "Calkins, L.M. (1983). Lessons from a child: On the teaching and learning of writing. Heinemann.",
+        "Calvani, A., Fornili, F., & Serafini, M.T. (2020). Comprendere e riassumere testi: Il metodo del Reciprocal Teaching nella scuola primaria. Erickson.",
+        "Cardarello, R., & Pintus, A. (2018). Insegnare la comprensione a scuola. Un percorso didattico sperimentale centrato sui testi e sul confronto tra pari. Giornale Italiano della Ricerca Educativa, 21.2, 189-204.",
+        "Cardarello, R., & Bertolini, C. (2020). Didattiche della comprensione del testo. Metodi e strumenti per la scuola primaria. Carocci.",
+        "Çolak, E. (2015). The effect of cooperative learning on the learning approaches of students with different learning styles. Eurasian Journal of Educational Research, 59, 17-34. Doi: 10.14689/ejer.2015.59.2.",
+        "Durkin, D. (1981). Reading comprehension instruction in five basal reader series. Reading Research Quarterly, 16, 515-544.",
+        "Durukan, E. (2011). Effects of Cooperative Integrated Reading and Composition (CIRC) Technique on Reading-Writing Skills. Educational Research and Reviews, 6.1, 102-109.",
+        "Flower, L., & Hayes, J. (1980). The dynamics of composing: Making plans and juggling constraints. In Gregg, L., & Steinberg, E. (Eds.), Cognitive processes in writing (pp. 31-50). Erlbaum.",
+        "Fuchs, L.S., Fuchs, D., Hosp, M.K., & Jenkins, J.R. (2001). Oral Reading Fluency as an Indicator of Reading Competence: A Theoretical, Empirical, and Historical Analysis. Scientific Studies of Reading, 5, 239-256.",
+        "Grasha, A.F. (1996). Teaching with style: A practical guide to enhancing learning by understanding teaching and learning style. Alliance Publishers.",
+        "Graves, D. (1983). Writing: Teachers and children at work. Heinemann.",
+        "Guerin, A., & Murphy, B. (2015). Repeated Reading as a Method to Improve Reading Fluency for Struggling Adolescent Readers. Journal of Adolescent & Adult Literacy, 58.7, 551-560. Doi: 10.1002/jaal.395.",
+        "Hayes, J.R, & Flower, L.S. (1981). College Composition and Communication. Cognitive Process of Writing, 32.4, 365-387.",
+        "Hansen, J. (1981). The effects of inference training and practice on young children’s reading comprehension. Reading Research Quarterly, 16, 391-417.",
+        "Jonassen, D.H., & Grabowski, B.L. (2011). Handbook of individual differences learning and instruction. Routledge.",
+        "Lubello, S. (2019). L’italiano scritto accademico all’università tra L1 e L2: riflessioni e proposte per un curricolo. Testi e linguaggi, 13, 178-187. Doi: 10.14273/unisa-2362.",
+        "Marburger, R. M. (2005). Comparing student performance using cooperative learning. International Review of Economics Education, 4.1, 46-57. Doi: 10.1016/S1477-3880(15)30138-9.",
+        "Mubarok, H, & Sofiana, N. (2017). Cooperative Integrated Reading and Composition (CIRC) and Reading Motivation: Examining the Effect on Students’ Reading Ability. Lingua Cultura, 11.2, 121-126. Doi: 10.21512/lc.v11i2.1824.",
+        "Palincsar, A.S., & Brown, A.L. (1984). Reciprocal teaching of comprehension-monitoring activities. Cognition and Instruction, 2, 117-175.",
+        "Palincsar, A.S., & Duke, N.K. (2004). The role of text and text-reader interactions in young children’s reading development and achievement. The Elementary School Journal, 105.2, 183-197. Doi: 10.1086/428864.",
+        "Pangesty, D., Nursirwan, H., Marliah, A., Yasa, L., & Hartono, R. (2021). The Influence of Cooperative Integrated Reading and Composition (CIRC) Model on Stu-dents’ Written Mathematical Communication Skills in Primary School. Technium Social Sciences Journal, 22, 249-254.",
+        "Paris, S., Cross, D., & Lipson, M. (1984). Informed strategies for learning: A program to improve children’s reading awareness and comprehension. Journal of Educational Psychology, 76, 1239-1252. Doi: 10.1037/0022-0663.76.6.1239.",
+        "Perfetti, C.A. (1985). Reading ability. New York: Oxford University Press.",
+        "Polselli, P., & Fatone, A. (2021). Apprendenti universitari e profili di competenza nella scrittura accademica. Quaderns d’Italià, 26, 217-240. Doi: 10.5565/rev/qdi.508.",
+        "Pugliese, R., & Della Putta, P. (2017). Il mio ragazzo è italiano B1. Sulle competenze di scrittura formale degli studenti universitari. Lend, XLVI.4, 83-110.",
+        "Ramsay, A., Hanlon, D., & Smith, D. (2000). The association between cognitive style and accounting students’ preference for cooperative learning: an empirical investigation. Journal of Accounting Education, 18.3, 215-228. Doi: 10.1016/S0748-5751(00)00018-X.",
+        "Samuels, S.J. (1979). The method of repeated readings. The Reading Teacher, 32.4, 403-408.",
+        "Scardamalia, M., & Bereiter, C. (1986). Research on written composition. In Wittrock, M.C. (Ed.), Handbook of research on teaching (pp. 778-803). Macmillan.",
+        "Senemoglu, N. (1997). Development, learning and teaching: implementing theory. Spot Publications.",
+        "Siegel, C. (2005). Implementing a research-based model of cooperative learning. The Journal of Educational Research, 98.6, 339-349.",
+        "Slavin, R.E. (1987). A theory of school and classroom organization. Educational Psychologist, 22.2, 89-108. Doi: 10.1207/s15326985ep2202_1.",
+        "Slavin, R.E., Madden, N.A., Karweit, N, Livermon, B.J., & Dolan, L. (1995). Success for all: First year outcomes of a comprehensive plan for reforming urban education. American Educational Research Journal, 27, 255-278. Doi: 10.3102/00028312027002255.",
+        "Sposetti, P. (2008). L’italiano degli studenti universitari. Homo-legens.",
+        "Stefanko, B. (2011). Oral Reading. In Goldstein, S., & Naglieri, J.A. (Eds), Encyclopedia of Child Behavior and Development (pp.103-162). Springer.",
+        "Stevens, R.J. (2003). Student team reading and writing: a cooperative learning approach to middle school literacy instruction. Educational Research and Evaluation, 9.2, 137-160. Doi: 10.1076/edre.9.2.137.14212.",
+        "Stevens, R.J., & Slavin, R.E. (1995). The cooperative elementary school: effects on students’ achievement, attitudes, and social relations. American Educational Research Journal, 32.2, 321-351. Doi: 10.3102/00028312032002321.",
+        "Stevens, R.J., Madden, N.A., Slavin, R.E., & Farnish, A.M. (1987). Cooperative Integrated Reading and Composition: Two Field Experiments. Reading Research Quarterly, 22.4, 433-454. Doi: 10.2307/747701.",
+        "Stevens, R.J., Slavin, R.E., & Farnish, A.M. (1991). The effects of cooperative learning and direct instruction in reading comprehension strategies on main idea identification. Journal of Educational Psychology, 83.1, 8-16. Doi: 10.1037/0022-0663.83.1.8.",
+        "Traxler, M.J., Tooley, K.M., & Pickering, M.J. (2014). Syntactic priming during sentence comprehension: evidence for the lexical boost. Journal of Experimental Psychology: Learning, Memory, and Cognition, 40.4, 905-918. Doi: 10.1037/a0036377.",
+        "Timothy, V., Rasinskj, J., & Hoffman, V. (2003). Oral Reading in the School Literacy Curriculum. Reading Research Quarterly, 38.4, 510-522. Doi: 10.1598/RRQ.38.4.5.",
+        "Villanueva, J.M. (2022). Language profile, metacognitive reading strategies, and reading comprehension performance among college students. Cogent Education, 9.1, 2061683. Doi: 10.1080/2331186X.2022.2061683."
+      ],
+      "count": 49,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_13934",
+    "article_ID": "13934",
+    "slug": "13934",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "13934",
+      "url_slug": "13934"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Cooperative Integrated Reading and Composition in Distance Learning: Examining the Effects on University Students",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-04-08",
+      "accepted": null,
+      "created": "2022-06-09",
+      "modified": "2022-06-09",
+      "issued": "2022-06-09",
+      "available": "2022-06-09",
+      "submitted_page": "2021-04-08",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+        "pdf_value": null,
+        "chosen_value": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-04-08",
+        "pdf_value": null,
+        "chosen_value": "2021-04-08",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13934/1358",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13934/1358",
+      "local_relative_path": "2499-507X_13934.pdf",
+      "saved": true,
+      "sha256": "6270bfa0184621b0c3043235c1bcdfb4451f708fa4f973c4d7a5a97dfe8b943c",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 773612,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Francesca Anello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Palermo"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2022/06/09"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2022oa13934"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13934"
+      ],
+      "citation_keywords": [
+        "composizione scritta",
+        "comprensione della lettura",
+        "insegnamento reciproco",
+        "apprendimento a distanza",
+        "consapevolezza"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/13934/1358"
+      ],
+      "citation_reference_count": 49,
+      "DC.Date.created": [
+        "2022-06-09"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-04-08"
+      ],
+      "DC.Date.issued": [
+        "2022-06-09"
+      ],
+      "DC.Date.modified": [
+        "2022-06-09"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "13934"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2022oa13934"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13934"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari"
+      ],
+      "DC.Title.Alternative": [
+        "Cooperative Integrated Reading and Composition in Distance Learning: Examining the Effects on University Students"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Francesca Anello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Palermo"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Francesca Anello"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The CIRC model, Cooperative Integrated Reading and Composition, which focuses on the combined mastery of comprehension and composition strategies, can be effective for promoting writing as a conscious and systematic activity for the study in students. In an essential relationship with reading, the co-construction of texts stimulates students to exercise multiple skills: analyzing and synthesizing, imagining and anticipating, choosing and selecting, integrating and elaborating, organizing contents regarding different communicative situations and recipients. In this paper, the exercise of reading and text composition skills on a group of university students preparing to become teachers was investigated. The CIRC program was applied in a distance learning path. Through shared writing, the dual aim of the project was: facilitating individual study activities in 285 students; increasing their awareness in the use of the CIRC technique in primary school classroom. Although the findings concern only one experiential situation that cannot be generalized, the implementation of the project allowed to indicate the efficacy of the procedures used.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The CIRC model, Cooperative Integrated Reading and Composition, which focuses on the combined mastery of comprehension and composition strategies, can be effective for promoting writing as a conscious and systematic activity for the study in students. In an essential relationship with reading, the co-construction of texts stimulates students to exercise multiple skills: analyzing and synthesizing, imagining and anticipating, choosing and selecting, integrating and elaborating, organizing contents regarding different communicative situations and recipients. In this paper, the exercise of reading and text composition skills on a group of university students preparing to become teachers was investigated. The CIRC program was applied in a distance learning path. Through shared writing, the dual aim of the project was: facilitating individual study activities in 285 students; increasing their awareness in the use of the CIRC technique in primary school classroom. Although the findings concern only one experiential situation that cannot be generalized, the implementation of the project allowed to indicate the efficacy of the procedures used."
+          }
+        },
+        {
+          "content": "Per promuovere negli studenti la scrittura come attività consapevole e sistematica per lo studio può risultare efficace il Cooperative Integrated Reading and Composition (CIRC) Model, che si concentra sulla padronanza combinata di strategie di comprensione e di composizione. In rapporto essenziale con la lettura, la co-costruzione di testi stimola gli studenti a esercitare molteplici capacità: analizzare e sintetizzare, immaginare e anticipare, scegliere e selezionare, integrare e elaborare, organizzare i contenuti riguardo a situazioni comunicative e destinatari diversi. Nel presente contributo l’esercizio delle abilità di leggere e comporre testi è stato indagato su un gruppo di studenti universitari che si preparano a diventare maestri. Il programma CIRC è stato applicato in un insegnamento a distanza. Il duplice obiettivo del progetto è stato di facilitare in 285 soggetti lo studio individuale attraverso la scrittura condivisa e di accrescere in loro la consapevolezza d’uso della tecnica nelle classi di scuola primaria. Pur rimanendo su un piano esperienziale, che fornisce dati non generalizzabili, l’attuazione del progetto ha consentito di precisare l’adeguatezza delle procedure utilizzate.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Per promuovere negli studenti la scrittura come attività consapevole e sistematica per lo studio può risultare efficace il Cooperative Integrated Reading and Composition (CIRC) Model, che si concentra sulla padronanza combinata di strategie di comprensione e di composizione. In rapporto essenziale con la lettura, la co-costruzione di testi stimola gli studenti a esercitare molteplici capacità: analizzare e sintetizzare, immaginare e anticipare, scegliere e selezionare, integrare e elaborare, organizzare i contenuti riguardo a situazioni comunicative e destinatari diversi. Nel presente contributo l’esercizio delle abilità di leggere e comporre testi è stato indagato su un gruppo di studenti universitari che si preparano a diventare maestri. Il programma CIRC è stato applicato in un insegnamento a distanza. Il duplice obiettivo del progetto è stato di facilitare in 285 soggetti lo studio individuale attraverso la scrittura condivisa e di accrescere in loro la consapevolezza d’uso della tecnica nelle classi di scuola primaria. Pur rimanendo su un piano esperienziale, che fornisce dati non generalizzabili, l’attuazione del progetto ha consentito di precisare l’adeguatezza delle procedure utilizzate."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "composizione scritta",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "composizione scritta"
+          }
+        },
+        {
+          "content": "comprensione della lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "comprensione della lettura"
+          }
+        },
+        {
+          "content": "insegnamento reciproco",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "insegnamento reciproco"
+          }
+        },
+        {
+          "content": "apprendimento a distanza",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "apprendimento a distanza"
+          }
+        },
+        {
+          "content": "consapevolezza",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "consapevolezza"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13934/1358",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13934/1358",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13934/1358",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13934/1358",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13934/1358",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2022-06-08",
+        "mod_date": "2022-06-08"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13934 Lettura e Composizione In tegrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Stu- denti Universitari Cooperative Integrated Reading and Composition in Distance Learning: E xamining the Effects on University Students Francesca Anello * Abstract Per promuovere negli studenti la scrittura come attività consap evole e si- stematica per lo studio può risultare efficace il Cooperative Integrated Rea- ding and Composition (CIRC) Model, che si concentra sulla padronanza com- binata di strategie di comprensione e di composizione. In rapporto essenziale con la lettura, la co-costruzione di testi stimola gli studenti a esercitare molte- plici capacità: analizzare e sintetizzare, immaginare e anticip are, scegliere e selezionare, integrare e elaborare, organizzare i contenuti riguardo a situazioni comunicative e destinatari diversi. Nel presente contributo l’e sercizio delle abilità di leggere e comporre testi è stato indagato su un grup po di studenti universitari che si preparano a diventare maestri. Il programma CIRC è stato applicato in un insegnamento a distanza. Il duplice obiettivo d e l p r o g e t t o è stato di facilitare in 285 sogge tti lo studio individuale attra verso la scrittura condivisa e di accrescere in loro la consapevolezza d’uso della tecnica nelle classi di scuola primaria. Pur rimanendo su un piano esperienzi ale, che forni- sce dati non generalizzabili, l’attuazione del progetto ha cons entito di precisa- re l’adeguatezza delle procedure utilizzate. Parole chiave: composizione scritta, comprensione della lettura, insegnamen- to reciproco, apprendimento a distanza, consapevolezza. * Università degli Studi di Palermo. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\13934\\2499-507X_13934.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+        "pdf_value": null,
+        "chosen_value": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-04-08",
+        "pdf_value": null,
+        "chosen_value": "2021-04-08",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13934",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13934",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:32:37Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13934\\temp\\2499-507X_13934.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:32:40Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13934\\2499-507X_13934.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+        "submitted_date": "2021-04-08",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Francesca Anello"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13934\\2499-507X_13934.pdf",
+        "generated_at_utc": "2026-04-21T21:32:40Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2022-06-08",
+          "mod_date": "2022-06-08"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13934 Lettura e Composizione In tegrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Stu- denti Universitari Cooperative Integrated Reading and Composition in Distance Learning: E xamining the Effects on University Students Francesca Anello * Abstract Per promuovere negli studenti la scrittura come attività consap evole e si- stematica per lo studio può risultare efficace il Cooperative Integrated Rea- ding and Composition (CIRC) Model, che si concentra sulla padronanza com- binata di strategie di comprensione e di composizione. In rapporto essenziale con la lettura, la co-costruzione di testi stimola gli studenti a esercitare molte- plici capacità: analizzare e sintetizzare, immaginare e anticip are, scegliere e selezionare, integrare e elaborare, organizzare i contenuti riguardo a situazioni comunicative e destinatari diversi. Nel presente contributo l’e sercizio delle abilità di leggere e comporre testi è stato indagato su un grup po di studenti universitari che si preparano a diventare maestri. Il programma CIRC è stato applicato in un insegnamento a distanza. Il duplice obiettivo d e l p r o g e t t o è stato di facilitare in 285 sogge tti lo studio individuale attra verso la scrittura condivisa e di accrescere in loro la consapevolezza d’uso della tecnica nelle classi di scuola primaria. Pur rimanendo su un piano esperienzi ale, che forni- sce dati non generalizzabili, l’attuazione del progetto ha cons entito di precisa- re l’adeguatezza delle procedure utilizzate. Parole chiave: composizione scritta, comprensione della lettura, insegnamen- to reciproco, apprendimento a distanza, consapevolezza. * Università degli Studi di Palermo. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-04-08",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-04-08",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:10Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:27Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13934\\temp\\2499-507X_13934.conflicts.json"
+  }
+}

@@ -1,0 +1,870 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13017",
+  "scraped_at_utc": "2026-04-21T21:31:49Z",
+  "fetched_at_utc": "2026-04-21T21:31:49Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "74e1f5db173f05fb12f69fb9cf506018341e00ac4482cd32155c98b1841fc914",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Raffaela Tore",
+        "nameType": "Personal",
+        "givenName": "Raffaela",
+        "familyName": "Tore",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Diletta Peretti",
+        "nameType": "Personal",
+        "givenName": "Diletta",
+        "familyName": "Peretti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Cagliari"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/13017",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2021-12-23",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2021-12-23",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2021-12-23",
+      "Issued": "2021-12-23"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The quality of teaching in higher education depends on the teaching skills of teachers (European Commission, 2017). They are asked to design student-centered activities in view of the expected learning outcomes, reinforcing the coherence between planning, assessment methods, activities and the sharing of these with the students. The paper presents some effects observed following the DISCENTIA Project, both in the way the teachers compiled the syllabus and in the students’ perception of the teaching experience at the University of Cagliari.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La qualità della didattica in Higher Education passa attraverso il riconoscimento delle competenze didattiche dei docenti (Commissione Europea, 2017). Essi sono chiamati a progettare attività student-centered in vista dei risultati di apprendimento attesi (Outcome Learning), rafforzando la coerenza tra progettazione, metodi e attività di valutazione e la condivisione con gli studenti. Il contributo presenta alcuni effetti osservati a seguito del Progetto DISCENTIA sia nel modo di compilare il syllabus da parte dei docenti che nella percezione dell’esperienza didattica degli studenti dell’Università degli Studi di Cagliari.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2021oa13017",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "6",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "didattica universitaria",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "formazione docenti universitari",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "syllabus",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "studenti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "qualità didattica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2021,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13017/1175",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "6",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Tore, R., & Peretti, D. (2021). Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati. Excellence and Innovation in Learning and Teaching - Open Access , 6 (2). https://doi.org/10.3280/exioa2-2021oa13017",
+      "articleTitleEcho": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Allen, J., Ramaekers, G., & Van Der Velden, R. (2005). Measuring competencies of higher education graduates. In Weerts, D. J. & Vidal, J. (Eds.). Enhancing alumni research: European and American perspectives. New directions for institutional research (pp. 49-59). San Francisco, CA: Jossey-Bass.",
+        "Anvur (2018). Rapporto ANVUR. Accreditamento Periodico delle Sedi e dei Corsi di Studio. Parere n. 37 della Seduta n. 26 del 10/10/2018. Università degli Studi di Cagliari.",
+        "Beach, A., Sorcinelli, M.D., Austin, A. & Rivard, J. (2016). Faculty development in the age of evidence. Sterling, VA: Stylus.",
+        "Biggs, J.B. & Tang, C. (2007). Teaching for Quality Learning at University. (3rd Ed.). Maidenhead: McGraw Hill Education & Open University Press.",
+        "Boffo, V. & Fedeli, M. (Eds.) (2018). Employability and competences. Innovative curricula for new professions. Firenze: Firenze University Press.",
+        "Chauvigné, C. & Coulet, J., C. (2010). L’approche par compétences: un nouveau paradigme pour la pédagogie universitaire?. Revue française de pédagogie, juillet-septembre. Doi:10.4000/rfp.2169.",
+        "Coggi, C., & Ricchiardi, P. (2018). Developing effective teaching in Higher Education, pp. 23-38. Doi: 10.13128/formare-22452.",
+        "Commissione Europea (2017). Modernizzazione dell’istruzione superiore in Europa: il personale accademico. Rapporto Eurydice. Lussemburgo: Ufficio delle pubblicazioni dell’Unione Europea.",
+        "De Toni, A., F. & Rullani, E. (a cura di) (2018). Uomini 4.0: Ritorno al futuro creare valore esplorando la complessità. Milano: FrancoAngeli.",
+        "Eble, K. & McKeachie, W. (1985). Improving undergraduate education through faculty development. San Francisco, CA: Jossey-Bass.",
+        "Fabbri, L. (2007). Comunità di pratiche e apprendimento riflessivo. Per una formazione situata. Roma: Carocci.",
+        "Fedeli, M., & Tino, C. (2019). Teaching4Learning@Unipd: strumenti per lo sviluppo professionale dei docenti universitari. Form@re - Open Journal per la formazione in rete 19(2), 105-121. Doi: 10.13128/formare-25191.",
+        "Felisatti, E., & Serbati, A. (2015). Apprendere per imparare: formazione e sviluppo professionale dei docenti universitari. Un progetto innovativo dell’Università di Padova. Italian Journal of Educational Research, 14, 323-340.",
+        "Fenu, G., Mola, F., Peretti, D., Putzu I., E, Tore, R. & Usai, E. (2020). Il progetto DISCENTIA: UniCa per la didattica universitaria. In Lotti, A. & Lampugnani, P. A. (a cura di). Faculty Development in Italia Valorizzazione delle competenze didattiche dei docenti universitari. p. 150-173. Genova: Genova University Press.",
+        "Hadji, C. (2017). La valutazione delle azioni educative. Brescia: Editrice La Scuola.",
+        "Lotti, A. (2020). L’esperienza del GLIA dell’Università di Genova. In Lotti, A. & Lampugnani, P. A. (a cura di). Faculty Development in Italia. Valorizzazione delle competenze didattiche dei docenti universitari, pp. 205-218. Genova: Genova University Press.",
+        "Nucleo di Valutazione d’Ateneo (2021). Relazione del Nucleo di Valutazione d’Ateneo. Modalità e risultati della rilevazione dell’opinione degli studenti frequentanti e dei laureandi. A.A. 2019/2020.",
+        "Peretti, D., Tore, R. (2016). Didattica Universitaria di Qualità in un’ottica inclusiva. Il modello DUQ-G, per la gestione della progettazione di un corso di insegnamento. Giornale Italiano della Ricerca Educativa, 16, pp. 175-186. Lecce: Editore Pensa MultiMedia s.r.l.",
+        "Perla, L. & Vinci, V. (2020). Follow up del progetto PRODID per lo sviluppo professionale dei docenti universitari: prima analisi dei Syllabi di insegnamento. In Lotti, A. & Lampugnani, P. A. (a cura di). Faculty Development in Italia Valorizzazione delle competenze didattiche dei docenti universitari, pp. 19-25. Genova: Genova University Press.",
+        "QUARC. Gruppo di Lavoro Docente. (2017). Linee di indirizzo per lo sviluppo professionale del docente e strategie di valutazione della didattica in Università.",
+        "Romano, A. (2020). Processi trasformativi, didattica innovativa e cambiamenti organizzativi. Il caso del Teaching & Learning Center dell’Università di Siena In Lotti, A. & Lampugnani, P. A. (a cura di). Faculty Development in Italia Valorizzazione delle competenze didattiche dei docenti universitari, pp. 293-302. Genova: Genova University Press.",
+        "Sorcinelli, M.D. (2020). Fostering 21st Century Teaching and Learning: New Models for Faculty Professional Development. In Lotti, A. & Lampugnani, P. A. (a cura di). Faculty Development in Italia Valorizzazione delle competenze didattiche dei docenti universitari, pp. 19-25. Genova: Genova University Press.",
+        "Sorcinelli, M.D., Austin, A., Eddy, P. & Beach, A. (2006). Creating the future of faculty development. San Francisco, CA: Jossey-Bass.",
+        "Tore, R. & Peretti, D. (2020). Formare gli accademici all’uso della valutazione formativa, costruttiva, trasformativa dell’apprendimento. FORM@RE, 20, p. 30-42, doi: 10.13128/form-8180.",
+        "UniCA (2018). Guida operativa PQA 2018. Università di Cagliari.",
+        "Venet, M., Correa Molina, E., Nootens, P. & Roberge, M. (2016). La zone proximale de développement: une zone de changements intérieurs pour les étudiantes du baccalauréat en adaptation scolaire et sociale?. 1. Nouveaux cahiers de la recherche en éducation, 19(1), 88-110. Doi:10.7202/1040664ar."
+      ],
+      "count": 26,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_13017",
+    "article_ID": "13017",
+    "slug": "13017",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "13017",
+      "url_slug": "13017"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Impact of teacher training on the didactic of the University of Cagliari. Some results",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-09-29",
+      "accepted": null,
+      "created": "2021-12-23",
+      "modified": "2021-12-23",
+      "issued": "2021-12-23",
+      "available": "2021-12-23",
+      "submitted_page": "2021-09-29",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+        "pdf_value": null,
+        "chosen_value": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-09-29",
+        "pdf_value": null,
+        "chosen_value": "2021-09-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13017/1175",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13017/1175",
+      "local_relative_path": "2499-507X_13017.pdf",
+      "saved": true,
+      "sha256": "ebebdc44fd01820347fee987d61d0dcf16234f6892e6e8d4c3d8b1e62e9dd812",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1460371,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Raffaela Tore",
+        "Diletta Peretti"
+      ],
+      "citation_author_institution": [
+        "Università di Padova",
+        "Università di Cagliari"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2021/12/23"
+      ],
+      "citation_volume": [
+        "6"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2021oa13017"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13017"
+      ],
+      "citation_keywords": [
+        "didattica universitaria",
+        "formazione docenti universitari",
+        "syllabus",
+        "studenti",
+        "qualità didattica"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/13017/1175"
+      ],
+      "citation_reference_count": 26,
+      "DC.Date.created": [
+        "2021-12-23"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-09-29"
+      ],
+      "DC.Date.issued": [
+        "2021-12-23"
+      ],
+      "DC.Date.modified": [
+        "2021-12-23"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "13017"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2021oa13017"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13017"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "6"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati"
+      ],
+      "DC.Title.Alternative": [
+        "Impact of teacher training on the didactic of the University of Cagliari. Some results"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Raffaela Tore",
+        "Diletta Peretti"
+      ],
+      "citation_author_institution": [
+        "Università di Padova",
+        "Università di Cagliari"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Raffaela Tore",
+        "Diletta Peretti"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The quality of teaching in higher education depends on the teaching skills of teachers (European Commission, 2017). They are asked to design student-centered activities in view of the expected learning outcomes, reinforcing the coherence between planning, assessment methods, activities and the sharing of these with the students. The paper presents some effects observed following the DISCENTIA Project, both in the way the teachers compiled the syllabus and in the students’ perception of the teaching experience at the University of Cagliari.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The quality of teaching in higher education depends on the teaching skills of teachers (European Commission, 2017). They are asked to design student-centered activities in view of the expected learning outcomes, reinforcing the coherence between planning, assessment methods, activities and the sharing of these with the students.\nThe paper presents some effects observed following the DISCENTIA Project, both in the way the teachers compiled the syllabus and in the students’ perception of the teaching experience at the University of Cagliari."
+          }
+        },
+        {
+          "content": "La qualità della didattica in Higher Education passa attraverso il riconoscimento delle competenze didattiche dei docenti (Commissione Europea, 2017). Essi sono chiamati a progettare attività student-centered in vista dei risultati di apprendimento attesi (Outcome Learning), rafforzando la coerenza tra progettazione, metodi e attività di valutazione e la condivisione con gli studenti. Il contributo presenta alcuni effetti osservati a seguito del Progetto DISCENTIA sia nel modo di compilare il syllabus da parte dei docenti che nella percezione dell’esperienza didattica degli studenti dell’Università degli Studi di Cagliari.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La qualità della didattica in Higher Education passa attraverso il riconoscimento delle competenze didattiche dei docenti (Commissione Europea, 2017). Essi sono chiamati a progettare attività student-centered in vista dei risultati di apprendimento attesi (Outcome Learning), rafforzando la coerenza tra progettazione, metodi e attività di valutazione e la condivisione con gli studenti. Il contributo presenta alcuni effetti osservati a seguito del Progetto DISCENTIA sia nel modo di compilare il syllabus da parte dei docenti che nella percezione dell’esperienza didattica degli studenti dell’Università degli Studi di Cagliari."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "didattica universitaria",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "didattica universitaria"
+          }
+        },
+        {
+          "content": "formazione docenti universitari",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "formazione docenti universitari"
+          }
+        },
+        {
+          "content": "syllabus",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "syllabus"
+          }
+        },
+        {
+          "content": "studenti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "studenti"
+          }
+        },
+        {
+          "content": "qualità didattica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "qualità didattica"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13017/1175",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13017/1175",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13017/1175",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13017/1175",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13017/1175",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2021-12-23",
+        "mod_date": "2021-12-23"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 2 Doi: 10.3280/exioa2-2021oa13017 Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati Impact of teacher training on the didactic of the University of Cagliari. Some results Raffaela Tore* Diletta Peretti** Riassunto La qualità della didattica in Higher Education passa attraverso il riconosci- mento delle competenze didattiche dei docenti (Commissione Euro pea, 2017). Essi sono chiamati a progettare attività student-centered in vista dei risultati di apprendimento attesi (Outcome Learning), rafforzando la coerenza tra proget- tazione, metodi e attività di valutazione e la condivisione con gli studenti. Il contributo presenta alcuni effetti osservati a seguito del Prog etto DISCENTIA sia nel modo di compilare il syllabus da parte dei docenti che nella percezione dell’esperienza didattica degli studenti dell’Università degli Studi di Cagliari. Parole chiave: didattica universitaria, formazione docenti universitari, syll a- bus, studenti, qualità didattica. Abstract The quality of teaching in higher education depends on the teac hing skills of teachers (European Commission, 2017). They are asked to design student- centered activities in view of the expected learning outcomes, reinforcing the coherence between planning, assessment methods, activities and the sharing of these with the students. * Università di Padova. E-mail: raffaela.tore@unipd.it. ** Università di Cagliari. E-mail: perettid@unica.it. Il contributo è frutto di un lavoro condiviso in ogni sua parte. Questo lavoro è dedicato al professor Vincenzo Solinas, seminatore di Qualità in Ateneo. Si ringrazia il professor Elio Usai, Coordinatore del Presidio della Qualità per aver proseguito il suo lavoro di Faculty Developer. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\13017\\2499-507X_13017.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2021,
+      "raw_dc_rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+        "pdf_value": null,
+        "chosen_value": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-09-29",
+        "pdf_value": null,
+        "chosen_value": "2021-09-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13017",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13017",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:31:49Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13017\\temp\\2499-507X_13017.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:31:53Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13017\\2499-507X_13017.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+        "submitted_date": "2021-09-29",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2021",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Raffaela Tore",
+          "Diletta Peretti"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13017\\2499-507X_13017.pdf",
+        "generated_at_utc": "2026-04-21T21:31:53Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2021-12-23",
+          "mod_date": "2021-12-23"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 2 Doi: 10.3280/exioa2-2021oa13017 Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati Impact of teacher training on the didactic of the University of Cagliari. Some results Raffaela Tore* Diletta Peretti** Riassunto La qualità della didattica in Higher Education passa attraverso il riconosci- mento delle competenze didattiche dei docenti (Commissione Euro pea, 2017). Essi sono chiamati a progettare attività student-centered in vista dei risultati di apprendimento attesi (Outcome Learning), rafforzando la coerenza tra proget- tazione, metodi e attività di valutazione e la condivisione con gli studenti. Il contributo presenta alcuni effetti osservati a seguito del Prog etto DISCENTIA sia nel modo di compilare il syllabus da parte dei docenti che nella percezione dell’esperienza didattica degli studenti dell’Università degli Studi di Cagliari. Parole chiave: didattica universitaria, formazione docenti universitari, syll a- bus, studenti, qualità didattica. Abstract The quality of teaching in higher education depends on the teac hing skills of teachers (European Commission, 2017). They are asked to design student- centered activities in view of the expected learning outcomes, reinforcing the coherence between planning, assessment methods, activities and the sharing of these with the students. * Università di Padova. E-mail: raffaela.tore@unipd.it. ** Università di Cagliari. E-mail: perettid@unica.it. Il contributo è frutto di un lavoro condiviso in ogni sua parte. Questo lavoro è dedicato al professor Vincenzo Solinas, seminatore di Qualità in Ateneo. Si ringrazia il professor Elio Usai, Coordinatore del Presidio della Qualità per aver proseguito il suo lavoro di Faculty Developer. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Impatto della formazione dei docenti sulla didattica dell’Università di Cagliari. Alcuni risultati",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-09-29",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-09-29",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:41Z"
+        },
+        "copyright_year": {
+          "page_value": "2021",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:42Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13017\\temp\\2499-507X_13017.conflicts.json"
+  }
+}

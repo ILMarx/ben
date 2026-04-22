@@ -1,0 +1,894 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13935",
+  "scraped_at_utc": "2026-04-21T21:32:41Z",
+  "fetched_at_utc": "2026-04-21T21:32:41Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "dfb3cfa248d5fc731e7619d261f1066d2abcdcfea5d8b2d3f87cb99b253ecbc3",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Nicolina Bosco",
+        "nameType": "Personal",
+        "givenName": "Nicolina",
+        "familyName": "Bosco",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Loretta Fabbri",
+        "nameType": "Personal",
+        "givenName": "Loretta",
+        "familyName": "Fabbri",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Mario Giampaolo",
+        "nameType": "Personal",
+        "givenName": "Mario",
+        "familyName": "Giampaolo",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/13935",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-09",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-09",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-09",
+      "Issued": "2022-06-09"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The article presents the first evidence on the adaptation and Italian validation of the Student Measure of Culturally Responsive Teaching scale aimed at measuring the perceptions of university students on culturally responsive teaching practices applied in classes. This instrument was administered to 336 students enrolled at the University of Siena. The data collected made it possible to conduct the exploratory factor analysis, confirming its trifactorial structure. The internal consistency of the Student Measure of Culturally Responsive Teaching and of the emerging factors was measured through the coefficient alpha whose results suggest that the Italian version of the instrument has a good internal consistency and a good level of reliability even with respect to its dimensions.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’articolo presenta le prime evidenze sull’adattamento e la validazione italiana dello Student Measure of Culturally Responsive Teaching volto a misurare le percezioni delle studentesse e degli studenti universitari sulle pratiche didattiche attente alla dimensione culturale in aula. Tale strumento è stato somministrato ad un campione di 336 studentesse e studenti iscritti all’Università di Siena. I dati raccolti hanno permesso di condurre l’analisi fattoriale esplorativa dello strumento, confermando la struttura trifattoriale. La consistenza interna dello Student Measure of Culturally Responsive Teaching e dei fattori emergenti è stata misurata attraverso l’alpha di Cronbach i cui risultati suggeriscono che la versione italiana di tale strumento presenta una buona consistenza interna ed un buon livello di affidabilità anche rispetto alle sue componenti.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2022oa13935",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "culturally responsive teaching",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "misure",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "validazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "università multiculturali",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "popolazione studentesca",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13935/1359",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Bosco, N., Fabbri, L., & Giampaolo, M. (2022). La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano. Excellence and Innovation in Learning and Teaching - Open Access , 7 (1). https://doi.org/10.3280/exioa1-2022oa13935",
+      "articleTitleEcho": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Au, K. (2009). Isn’t culturally responsive instruction just good teaching?. Social Education, 73.4, 179-183.",
+        "Bartlett, M. S. (1954). A note on the multiplying factors for various χ 2 approximations. Journal of the Royal Statistical Society. Series B (Methodological), 296-298.",
+        "Bosco, N., Giampaolo, M., & Orefice, C. (2020). Noi e loro. Un’indagine esplorativa sulle rappresentazioni degli insegnanti in contesti scolastici multiculturali. Educational Reflective Practices, 1, 132-145, doi: 10.3280/ERP2020-001007.",
+        "Braun, V., & Clarke, V. (2014). What can “thematic analysis” offer health and well-being researchers? International journal of qualitative studies on health and well-being, 9, doi: 10.3402/qhw.v9.26152.",
+        "Castaneda, C. R. (2004). Teaching and learning in diverse classrooms. Routledge-Falmer.",
+        "Cattell, R. B. (1966). The scree test for the number of factors. Multivariate behavioral research, 1.2, 245-276.",
+        "Chang, M. J., Denson, N., Sáenz, V., & Misa, K. (2006). The educational benefits of sustaining cross-racial interaction among undergraduates. The Journal of Higher Education, 77.3, 430-455, doi: 10.1353/jhe.2006.0018.",
+        "Coryell, J. E., Cinque, M., Fedeli, M., Lapina Salazar, A., & Tino, C. (2021). University Teaching in Global Times: Perspectives of Italian University Faculty on Teaching International Graduate Students. Journal of Studies in International Education, doi: 10.1177/1028315321990749.",
+        "Dickson, G. L., Chun, H., & Fernandez, I. T. (2016). The development and initial validation of the student measure of culturally responsive teaching. Assessment for Effective Intervention, 41.3, 141-154.",
+        "Fabbri, L. (2007). Comunità di pratiche e apprendimento riflessivo. Per una formazione situata. Carocci.",
+        "Fabbri, L. & Melacarne, C. (2020). Learning and de-learning in everyday life. A case study of an Italian multiethnic district. Educational Reflective Practices, 1, 18-54, doi: 10.3280/ERP2020-001002.",
+        "Fabbri, L., & Romano, A. (2017). Metodi per l’apprendimento trasformativo. Carocci.",
+        "Gay, G. (2013). Teaching to and through cultural diversity. Curriculum inquiry, 43.1, 48-70, doi: 10.1111/curi.12002.",
+        "Gay, G. (2018). Culturally responsive teaching: Theory, research, and practice. Teachers college press.",
+        "Ginsberg, M. & Wlodkowski, R. (2009). Diversity and Motivation: Culturally Responsive Teaching in College. Jossey-Bass.",
+        "Guy, T. C. (1999). Culture as Context for Adult Education: The Need for Culturally Relevant Adult Education. New directions for adult and continuing education, 82, 5-18.",
+        "Gay, G. (2000). Culturally Responsive Teaching: Theory, Research, and Practice. Teachers College Press, U.S.A.",
+        "Hambleton, R. K., Merenda, P. F., & Spielberger, C. D. (Eds.) (2009). Adapting educational and psychological tests for cross-cultural assessment. Taylor and Francis e-library.",
+        "Hu, S., & Kuh, G. (2003). Diversity experiences and college student learning and personal development. Journal of College Student Development, 44.3, 320-334.",
+        "Huang, Y. (2019). Undergraduate students’ perceptions of culturally responsive teaching and their sense of belonging and academic self-efficacy in higher education (retrieved on February 2021 from: https://www.semanticscholar.org/paper/Undergraduate-Students%E2%80%99-Perceptions-of-Culturally-Huang/f0896baec68cd4699c0964b7c32e67745efa85ce).",
+        "James, C. E., & Wood, M. (2005). Multicultural education in Canada: Opportunities, limitations and contradictions. In C.E. James (Ed.). Possibilities and limitations: Multicultural policies and programs in Canada (pp. 93-107). Fernwood.",
+        "Jones, E. B. (2004). Culturally relevant strategies for the classroom. In A.M. Johns & M. K. Sipp (Eds.). Diversity in college classrooms: Practices for today’s campuses (pp. 51-72). University of Michigan Press.",
+        "Kaiser, H. F. (1970). A second generation little jiffy. Psychometrika, 35, 401-415.",
+        "Kaiser, H. F. (1974). An index of factorial simplicity. Psychometrika, 39, 31-36.",
+        "Kramlich, D. & Romano, A. (2020). Leveraging (the potential of) the multiethnic classroom: Using the constructs of cultural humility and safety to provide belonging for Cross Cultural Kid (CCK) refugees. Educational Reflective Practices, 1, 146-178, doi: 10.3280/ERP2020-001008.",
+        "Guo, S., & Jamal, Z. (2007). Nurturing cultural diversity in higher education: a critical review of selected models. Canadian Journal of Higher Education, 37.3, 27-49.",
+        "Orefice, C., Betti, M. & Bosco, N. (2019). Processi di inclusione e di esclusione nelle scuole multiculturali. Un’indagine preliminare nel territorio toscano. Comparative Cultural Studies - European and Latin American Perspectives, 4.8, 83‐92.",
+        "Rhodes, C. M. (2017). A validation study of the Culturally Responsive Teaching Survey. Universal Journal of Educational Research, 5.1, 45-53, doi: 10.13189/ujer.2017.050106.",
+        "Siwatu, K. O. (2007). Preservice teachers’ culturally responsive teaching self-efficacy and outcome expectancy beliefs. Teaching and teacher education, 23.7, 1086-1101.",
+        "Sperber, A. D., Devellis, R. F., & Boehlecke, B. (1994). Cross-cultural translation: methodology and validation. Journal of cross-cultural psychology, 25.4, 501-524.",
+        "Tyupa, S. (2011). A theoretical framework for back-translation as a quality assessment tool. New Voices in Translation Studies, 7.1, 35-46.",
+        "Walker, R., & McPhee, R. (2022). Transforming First Nations Individual and Community Realities: Reflections on a Decolonizing Higher Education Project. In A. Nicolaides, S. Eschenbacher, P. T. Buergelt, Y. Gilpin-Jackson, M. Welch, & M. Misawa (a cura di), The Palgrave handbook of learning for transformation (pp. 254-277). Palgrave Macmillan",
+        "Yanaprasart, P., & Lüdi, G. (2018). Diversity and multilingual challenges in academic settings. International Journal of Bilingual Education and Bilingualism, 21.7, 825-840, doi: 10.1080/13670050.2017.1308311."
+      ],
+      "count": 33,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_13935",
+    "article_ID": "13935",
+    "slug": "13935",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "13935",
+      "url_slug": "13935"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "The Student Measure of Culturally Responsive Teaching scale: Adaptation and Validation for the Italian Higher Education Context",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-04-20",
+      "accepted": null,
+      "created": "2022-06-09",
+      "modified": "2022-06-24",
+      "issued": "2022-06-09",
+      "available": "2022-06-09",
+      "submitted_page": "2021-04-20",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+        "pdf_value": null,
+        "chosen_value": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-04-20",
+        "pdf_value": null,
+        "chosen_value": "2021-04-20",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13935/1359",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13935/1359",
+      "local_relative_path": "2499-507X_13935.pdf",
+      "saved": true,
+      "sha256": "44f75d9bbbfbeab13bc65f6a4c83d1b1e0525b84adfc586363926eba46e2913b",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1843491,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Nicolina Bosco",
+        "Loretta Fabbri",
+        "Mario Giampaolo"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Siena",
+        "Università degli Studi di Siena",
+        "Università degli Studi di Siena"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2022/06/09"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2022oa13935"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13935"
+      ],
+      "citation_keywords": [
+        "culturally responsive teaching",
+        "misure",
+        "validazione",
+        "università multiculturali",
+        "popolazione studentesca"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/13935/1359"
+      ],
+      "citation_reference_count": 33,
+      "DC.Date.created": [
+        "2022-06-09"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-04-20"
+      ],
+      "DC.Date.issued": [
+        "2022-06-09"
+      ],
+      "DC.Date.modified": [
+        "2022-06-24"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "13935"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2022oa13935"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13935"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano"
+      ],
+      "DC.Title.Alternative": [
+        "The Student Measure of Culturally Responsive Teaching scale: Adaptation and Validation for the Italian Higher Education Context"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Nicolina Bosco",
+        "Loretta Fabbri",
+        "Mario Giampaolo"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Siena",
+        "Università degli Studi di Siena",
+        "Università degli Studi di Siena"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Nicolina Bosco",
+        "Loretta Fabbri",
+        "Mario Giampaolo"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The article presents the first evidence on the adaptation and Italian validation of the Student Measure of Culturally Responsive Teaching scale aimed at measuring the perceptions of university students on culturally responsive teaching practices applied in classes. This instrument was administered to 336 students enrolled at the University of Siena. The data collected made it possible to conduct the exploratory factor analysis, confirming its trifactorial structure. The internal consistency of the Student Measure of Culturally Responsive Teaching and of the emerging factors was measured through the coefficient alpha whose results suggest that the Italian version of the instrument has a good internal consistency and a good level of reliability even with respect to its dimensions.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The article presents the first evidence on the adaptation and Italian validation of the Student Measure of Culturally Responsive Teaching scale aimed at measuring the perceptions of university students on culturally responsive teaching practices applied in classes. This instrument was administered to 336 students enrolled at the University of Siena. The data collected made it possible to conduct the exploratory factor analysis, confirming its trifactorial structure. The internal consistency of the Student Measure of Culturally Responsive Teaching and of the emerging factors was measured through the coefficient alpha whose results suggest that the Italian version of the instrument has a good internal consistency and a good level of reliability even with respect to its dimensions."
+          }
+        },
+        {
+          "content": "L’articolo presenta le prime evidenze sull’adattamento e la validazione italiana dello Student Measure of Culturally Responsive Teaching volto a misurare le percezioni delle studentesse e degli studenti universitari sulle pratiche didattiche attente alla dimensione culturale in aula. Tale strumento è stato somministrato ad un campione di 336 studentesse e studenti iscritti all’Università di Siena. I dati raccolti hanno permesso di condurre l’analisi fattoriale esplorativa dello strumento, confermando la struttura trifattoriale. La consistenza interna dello Student Measure of Culturally Responsive Teaching e dei fattori emergenti è stata misurata attraverso l’alpha di Cronbach i cui risultati suggeriscono che la versione italiana di tale strumento presenta una buona consistenza interna ed un buon livello di affidabilità anche rispetto alle sue componenti.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’articolo presenta le prime evidenze sull’adattamento e la validazione italiana dello Student Measure of Culturally Responsive Teaching volto a misurare le percezioni delle studentesse e degli studenti universitari sulle pratiche didattiche attente alla dimensione culturale in aula. Tale strumento è stato somministrato ad un campione di 336 studentesse e studenti iscritti all’Università di Siena. I dati raccolti hanno permesso di condurre l’analisi fattoriale esplorativa dello strumento, confermando la struttura trifattoriale. La consistenza interna dello Student Measure of Culturally Responsive Teaching e dei fattori emergenti è stata misurata attraverso l’alpha di Cronbach i cui risultati suggeriscono che la versione italiana di tale strumento presenta una buona consistenza interna ed un buon livello di affidabilità anche rispetto alle sue componenti."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "culturally responsive teaching",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "culturally responsive teaching"
+          }
+        },
+        {
+          "content": "misure",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "misure"
+          }
+        },
+        {
+          "content": "validazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "validazione"
+          }
+        },
+        {
+          "content": "università multiculturali",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "università multiculturali"
+          }
+        },
+        {
+          "content": "popolazione studentesca",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "popolazione studentesca"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13935/1359",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13935/1359",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13935/1359",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13935/1359",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13935/1359",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2022-06-08",
+        "mod_date": "2022-06-08"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13935 La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il con- testo universitario italiano The Student Measure of Culturally Responsive Teaching scale: Adaptation and Validation for the Italian Higher Education Context Nicolina Bosco, Loretta Fabbri, Mario Giampaolo* Riassunto L’articolo presenta le prime evidenze sull’adattamento e la validazione ita- liana dello Student Measure of Culturally Responsive Teaching v olto a misu- rare le percezioni delle studentesse e degli studenti universit ari sulle pratiche didattiche attente alla dimensione culturale in aula. Tale strumento è stato som- ministrato ad un campione di 336 studentesse e studenti iscritt i all’Università di Siena. I dati raccolti hanno permesso di condurre l’analisi fattoriale esplora- tiva dello strumento, confermando la struttura trifattoriale. L a consistenza in- terna dello Student Measure of Culturally Responsive Teaching e dei fattori emergenti è stata misurata attraverso l’alpha di Cronbach i cui risultati sugge- riscono che la versione italiana di tale strumento presenta una buona consi- stenza interna ed un buon livello di affidabilità anche rispetto alle sue compo- nenti. Parole chiave: culturally responsive teaching; misure; validazione; universi tà multiculturali; popolazione studentesca. Abstract The article presents the first evidence on the adaptation and Italian validation of the Student Measure of Culturally Responsive Teaching scale aimed at measuring the perceptions of university students on culturally responsive teaching practices applied in classes. This instrument was administered to 336 students enrolled at the University of Siena. The data collected made it possible * Università di Siena. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\13935\\2499-507X_13935.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+        "pdf_value": null,
+        "chosen_value": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-04-20",
+        "pdf_value": null,
+        "chosen_value": "2021-04-20",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13935",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13935",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:32:41Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13935\\temp\\2499-507X_13935.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:32:43Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13935\\2499-507X_13935.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+        "submitted_date": "2021-04-20",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Nicolina Bosco",
+          "Loretta Fabbri",
+          "Mario Giampaolo"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13935\\2499-507X_13935.pdf",
+        "generated_at_utc": "2026-04-21T21:32:43Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2022-06-08",
+          "mod_date": "2022-06-08"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13935 La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il con- testo universitario italiano The Student Measure of Culturally Responsive Teaching scale: Adaptation and Validation for the Italian Higher Education Context Nicolina Bosco, Loretta Fabbri, Mario Giampaolo* Riassunto L’articolo presenta le prime evidenze sull’adattamento e la validazione ita- liana dello Student Measure of Culturally Responsive Teaching v olto a misu- rare le percezioni delle studentesse e degli studenti universit ari sulle pratiche didattiche attente alla dimensione culturale in aula. Tale strumento è stato som- ministrato ad un campione di 336 studentesse e studenti iscritt i all’Università di Siena. I dati raccolti hanno permesso di condurre l’analisi fattoriale esplora- tiva dello strumento, confermando la struttura trifattoriale. L a consistenza in- terna dello Student Measure of Culturally Responsive Teaching e dei fattori emergenti è stata misurata attraverso l’alpha di Cronbach i cui risultati sugge- riscono che la versione italiana di tale strumento presenta una buona consi- stenza interna ed un buon livello di affidabilità anche rispetto alle sue compo- nenti. Parole chiave: culturally responsive teaching; misure; validazione; universi tà multiculturali; popolazione studentesca. Abstract The article presents the first evidence on the adaptation and Italian validation of the Student Measure of Culturally Responsive Teaching scale aimed at measuring the perceptions of university students on culturally responsive teaching practices applied in classes. This instrument was administered to 336 students enrolled at the University of Siena. The data collected made it possible * Università di Siena. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La Student Measure of Culturally Responsive Teaching scale: adattamento e validazione per il contesto universitario italiano",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-04-20",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-04-20",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:29Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:33Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13935\\temp\\2499-507X_13935.conflicts.json"
+  }
+}
