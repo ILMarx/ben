@@ -399,6 +399,15 @@ section > :last-child {
   background: var(--surface-2);
 }
 
+.hub-banner-image {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius-sm) + 2px);
+  margin: 1rem 0 0;
+  background: var(--surface-2);
+}
+
 .person-card-image {
   aspect-ratio: 3 / 4;
   object-fit: cover;
