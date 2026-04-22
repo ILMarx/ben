@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Governance - Borderland Education Network</title>
+  <title>Person - Borderland Education Network</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,14 +13,26 @@
     <div id="nav-placeholder"></div>
 
     <main class="main-content">
-      <section class="hero">
-        <span class="eyebrow">About</span>
-        <h2 class="section-title">Governance</h2>
-        <p class="lead">Borderland Education Network is governed by a Board responsible for institutional direction, strategic orientation, and the promotion of the network’s activities. Individual profiles are provided below.</p>
+      <section class="hero" id="person-hero">
+        <span class="eyebrow">People</span>
+        <h2 class="section-title">Profile</h2>
+        <p class="lead">Loading profile...</p>
       </section>
 
-      <section>
-        <div class="grid-3" id="governance-cards"></div>
+      <section id="person-profile-section">
+        <div class="grid-2" id="person-profile-grid">
+          <div class="card">
+            <img id="person-picture" src="assets/images/placeholder.png" alt="" class="card-image person-card-image">
+          </div>
+
+          <div class="card">
+            <h3 id="person-name">Name Surname</h3>
+            <p class="meta" id="person-title"></p>
+            <p id="person-role-block"></p>
+            <p id="person-bio"></p>
+            <p id="person-email-block"></p>
+          </div>
+        </div>
       </section>
     </main>
   </div>
@@ -29,6 +41,101 @@
 
   <script src="script.js"></script>
   <script src="assets/data/people.js"></script>
-  <script src="people-render.js"></script>
+  <script>
+    function fallbackRoleLabel(role) {
+      const map = {
+        "board": "Board member",
+        "scholarly-fellow": "Scholarly Fellow",
+        "training-fellow": "Training Fellow",
+        "digital-chapter": "Responsible for the Digital Chapter",
+        "gorizia-chapter": "Responsible for the Gorizia Chapter"
+      };
+      return map[role] || role.replace(/-/g, " ");
+    }
+
+    function getReadableRoleLabels(person) {
+      if (!person || !Array.isArray(person.roles)) return [];
+
+      return person.roles.map(function (role) {
+        if (person.roleLabels && typeof person.roleLabels === "object" && person.roleLabels[role]) {
+          return person.roleLabels[role];
+        }
+        return fallbackRoleLabel(role);
+      });
+    }
+
+    function buildEmail(person) {
+      if (!person || !person.emailUser || !person.emailDomain) return "";
+      return person.emailUser + "@" + person.emailDomain;
+    }
+
+    function renderPersonPage() {
+      const params = new URLSearchParams(window.location.search);
+      const personId = params.get("id");
+
+      const heroTitle = document.querySelector("#person-hero .section-title");
+      const heroLead = document.querySelector("#person-hero .lead");
+      const picture = document.getElementById("person-picture");
+      const name = document.getElementById("person-name");
+      const title = document.getElementById("person-title");
+      const roleBlock = document.getElementById("person-role-block");
+      const bio = document.getElementById("person-bio");
+      const emailBlock = document.getElementById("person-email-block");
+
+      if (typeof PEOPLE === "undefined" || !Array.isArray(PEOPLE)) {
+        heroTitle.textContent = "Profile unavailable";
+        heroLead.textContent = "The people database could not be loaded.";
+        document.getElementById("person-profile-section").style.display = "none";
+        return;
+      }
+
+      const person = PEOPLE.find(function (p) {
+        return p.id === personId;
+      });
+
+      if (!person) {
+        heroTitle.textContent = "Profile not found";
+        heroLead.textContent = "No matching profile is currently available.";
+        document.getElementById("person-profile-section").style.display = "none";
+        return;
+      }
+
+      document.title = person.name + " - Borderland Education Network";
+
+      heroTitle.textContent = person.name;
+      heroLead.textContent = person.bio || "";
+
+      picture.src = person.picture || "assets/images/placeholder.png";
+      picture.alt = person.name;
+
+      if (person.picturePosition) {
+        picture.style.objectPosition = person.picturePosition;
+      }
+
+      name.textContent = person.name || "";
+      title.textContent = person.academicTitle || "";
+
+      const labels = getReadableRoleLabels(person);
+      roleBlock.innerHTML = labels.length
+        ? "<strong>Roles:</strong> " + labels.join(" · ")
+        : "";
+
+      bio.textContent = person.bio || "";
+
+      const email = buildEmail(person);
+      if (email) {
+        emailBlock.innerHTML = '<button class="button secondary" id="reveal-email">Show email</button>';
+        document.getElementById("reveal-email").addEventListener("click", function () {
+          emailBlock.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
+        });
+      } else {
+        emailBlock.textContent = "";
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      renderPersonPage();
+    });
+  </script>
 </body>
 </html>
