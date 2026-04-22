@@ -10,6 +10,7 @@ const PEOPLE = [
     },
     bio: "Associate Professor of Education with more than a decade of experience in the Italian Academia and previous scholarly experience in Australia. His research focuses on heritage education in an ecopedagogical perspective, with particular attention to ultraperipheral and remote regions, and on migration studies connected to the phenomenon of Unaccompanied Minors in Europe.",
     picture: "assets/images/people/andrea-mattia-marcelli.png",
+    picturePosition: "50% 24%"
     emailUser: "andrea.marcelli",
     emailDomain: "unimercatorum.it"
   },
@@ -23,6 +24,7 @@ const PEOPLE = [
     },
     bio: "Scholar and institutional leader active in education and migration-related work.",
     picture: "assets/images/people/placeholder.png",
+    picturePosition: "50% 24%"
     emailUser: "test",
     emailDomain: "test.it"
   },
@@ -37,6 +39,7 @@ const PEOPLE = [
     },
     bio: "Former Associate Professor of Education (retired), Rita has four decades of experience in education and training, of which two spent in the Academia.",
     picture: "assets/images/people/rita-minello.png",
+    picturePosition: "50% 24%"
     emailUser: "rita.minello",
     emailDomain: "example.org"
   }
