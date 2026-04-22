@@ -608,3 +608,15 @@ tr:last-child td {
   pointer-events: none;
   user-select: none;
 }
+
+@media (max-width: 900px) {
+  .header-motif {
+    justify-content: center;
+    margin-top: 0.75rem;
+  }
+
+  .motif-banner {
+    width: min(88%, 620px);
+    opacity: 0.78;
+  }
+}
