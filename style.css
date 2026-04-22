@@ -388,6 +388,17 @@ section > :last-child {
   color: var(--text-soft);
 }
 
+.card-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius-sm) - 2px);
+  margin: 0 0 0.9rem;
+  background: var(--surface-2);
+}
+
 /* Tables */
 table {
   width: 100%;
