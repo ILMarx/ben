@@ -1,0 +1,881 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12065",
+  "scraped_at_utc": "2026-04-21T21:31:07Z",
+  "fetched_at_utc": "2026-04-21T21:31:07Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "17311908e33092d3e55570f4f3de5a00b571eadaab7d60e8bcf44d0d0cd038d2",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Alessandra La Marca",
+        "nameType": "Personal",
+        "givenName": "Alessandra La",
+        "familyName": "Marca",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Palermo"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Valeria Di Martino",
+        "nameType": "Personal",
+        "givenName": "Valeria Di",
+        "familyName": "Martino",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Catania"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Elif Gülbay",
+        "nameType": "Personal",
+        "givenName": "Elif",
+        "familyName": "Gülbay",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Palermo"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/12065",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2021-06-25",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2021-06-25",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2021-06-25",
+      "Issued": "2021-06-25"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "Le convinzioni che i docenti universitari possiedono sulla propria Self-Efficacy influenzano non solo il loro modo di lavorare, ma soprattutto gli esiti di apprendimento e il senso di autoefficacia dei loro studenti. La percezione di autoefficacia dei docenti nella didattica a distanza assume un ruolo ancora più importante in situazione di emergenza Covid-19. Il presente contributo indaga tale costrutto in un campione di 50 docenti universitari dell’Università degli Studi di Palermo, rilevando l’eventuale incidenza di variabili quali le esperienze pregresse di insegnamento nell’ambito della didattica a distanza e l’autoefficacia nell’utilizzo di tecnologie didattiche.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Le convinzioni che i docenti universitari possiedono sulla propria Self-Efficacy influenzano non solo il loro modo di lavorare, ma soprattutto gli esiti di apprendimento e il senso di autoefficacia dei loro studenti. La percezione di autoefficacia dei docenti nella didattica a distanza assume un ruolo ancora più importante in situazione di emergenza Covid-19. Il presente contributo indaga tale costrutto in un campione di 50 docenti universitari dell’Università degli Studi di Palermo, rilevando l’eventuale incidenza di variabili quali le esperienze pregresse di insegnamento nell’ambito della didattica a distanza e l’autoefficacia nell’utilizzo di tecnologie didattiche.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2021oa12065",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "6",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "autoefficacia del docente",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "didattica a distanza",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "formazione docenti universitari",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "tecnologie didattiche",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2021,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/12065/953",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "6",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "La Marca, A., Di Martino, V., & Gülbay, E. (2021). La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19. Excellence and Innovation in Learning and Teaching - Open Access , 6 (1). https://doi.org/10.3280/exioa1-2021oa12065",
+      "articleTitleEcho": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Abali Ozturk, Y., & Sahin, C. (2015). Determining the relationships between academic achievement, self-efficacy and attitudes towards maths. The Journal of Academic Social Science Studies, 31(2), 343-366. doi: 10.9761/JASSS2621.",
+        "Bandura, A. (1997). Self-efficacy: The exercise of control. New York: W.H. Freeman.",
+        "Benigno, V., Chifari, A., & Chiorri, C. (2014). Adottare le tecnologie a scuola: una scala per rilevare gli atteggiamenti e le credenze degli insegnanti. Italian Journal of Educational Technology, 22(1), 59-62. doi: 10.17471/2499-4324/82.",
+        "Biasi, V., Domenici, G., Patrizi, N., & Capobianco, R. (2014). Teacher Self-Efficacy Scale (Scala sull’auto-efficacia del Docente–SAED): adattamento e validazione in Italia. Journal of Educational, Cultural and Psychological Studies (ECPS Journal), 10, 485-509. doi: 10.7358/ecps-2014-010-bias.",
+        "Cassidy, S., & Eachus, P. (2002). Developing the computer user self-efficacy (CUSE) scale: Investigating the relationship between computer self-efficacy, gender and experience with computers. Journal of educational computing research, 26(2), 133-153. doi: 10.2190/JGJR-0KVL-HRF7-GCNV.",
+        "Corry, M., & Stella, J. (2018). Teacher self-efficacy in online education: a review of the literature. Research in Learning Technology, 26, 1-12. doi: 10.25304/rlt.v26.2047.",
+        "Depaepe, F., & König, J. (2018). General pedagogical knowledge, self-efficacy and instructional practice: Disentangling their relationship in pre-service teacher education. Teaching and Teacher Education, 69, 177-190. doi: 10.1016/j.tate.2017.10.003.",
+        "Dolighan, T., & Owen, M. (2021). Teacher efficacy for online teaching during the COVID-19 pandemic. Brock Education Journal, 30(1), 95-95.",
+        "Fong, C. J., Dillard, J. B., & Hatcher, M. (2019). Teaching self-efficacy of graduate student instructors: Exploring faculty motivation, perceptions of autonomy support, and undergraduate student engagement. International Journal of Educa-tional Research, 98, 91-105. doi: 10.1016/j.ijer.2019.08.018.",
+        "Hardy, P., Shepard, M., & Pilotti, M. (2017). Does Part-Time Faculty’s Self-Efficacy Predict Critical Dimensions of Online College Teaching?. College Teaching, 65(2), 50-57. doi: 10.1080/87567555.2016.1232692.",
+        "Henson, R.K. (2002). From adolescent Angst to adulthood: substantive implications and measurement dilemmas in the development of teacher efficacy research. Educational Psychologist, 37(3), 137-50. doi: 10.1207/S15326985EP3703_1.",
+        "Horvitz, B.S., Beach, A.L., Anderson, M. L., & Xia, J. (2015). Examination of faculty self-efficacy related to online teaching. Innovative Higher Education, 40(4), 305-316. doi: 10.1007/s10755-014-9316-1.",
+        "Maddux, J., & Kleiman, E.M. (2018). Self-efficacy. In Oettingen, G., Sevincer, A.T. & Gollwitzer, P. (Eds.), The psychology of thinking about the future (pp. 174-198). New York: Guilford Publications.",
+        "Martin, F., Wang, C., Jokiaho, A., May, B., & Grübmeyer, S. (2019). Examining Faculty Readiness to Teach Online: A Comparison of US and German Educators. European Journal of Open, Distance and E-learning, 22(1), 53-69. doi: 10.2478/eurodl-2019-0004.",
+        "Mishra, P., & Koehler, M.J. (2006). Technological pedagogical content knowledge: A new framework for teacher knowledge. Teachers College Record, 108(6), 1017-1054. doi: 10.1111/j.1467-9620.2006.00684.x.",
+        "Moore-Adams, B.L. & Jones, WM. (2015). Lessons learned from the development of an online teaching certificate program for K-12 teacher. In Society for Information Technology & Teacher Education International Conference, Charleston, SC.",
+        "Niederhauser, D.S., & Perkmen, S. (2008). Validation of the intrapersonal technology integration scale: Assessing the influence of intrapersonal factors that influence technology integration. Computers in the Schools, 25(1-2), 98-111. doi: 10.1080/07380560802157956.",
+        "Northcote, M., Gosselin, KP, Reynaud, D., Kilgour, P. & Anderson, M. (2015). Navi-gating the learning journeys of online teachers: Threshold concepts and self-efficacy. Issues in Educational Research, 25(3), 319-344. Retrieved from http://www.iier.org.au/iier25/northcote.pdf.",
+        "Ouyang, F., & Scharber, C. (2017). The influences of an experienced instructor’s dis-cussion design and facilitation on an online learning community development: A social network analysis study. The Internet and Higher Education, 35, 34-47. doi: 10.1016/j.iheduc.2017.07.002.",
+        "Robinia, K.A., & Anderson, M.L. (2010). Online teaching efficacy of nurse faculty. Journal of Professional Nursing, 26(3), 168-175. doi: 10.1016/j.profnurs.2010.02.006.",
+        "Schunk, D.H. (1991). Self-efficacy and academic motivation. Educational Psychologist, 26(3-4), 207-31. doi: 10.1207/s15326985ep2603&4_2.",
+        "Schunk, D.H. (2004). Learning theories: An educational perspective. Columbus, OH: Merrill/Prentice-Hall.",
+        "Sharp, J. G., Hemmings, B., Kay, R., & Callinan, C. (2013). An application of the re-vised ‘Lecturer Self-efficacy Questionnaire’: An evidence-based route for initiating transformational change. Journal of Further and Higher Education, 37(5), 643-674. doi: 10.1080/0309877X.2011.645596.",
+        "Shea, P., & Bidjerano, T. (2010). Learning presence: Towards a theory of self-efficacy, self-regulation, and the development of a communities of inquiry in online and blended learning environments. Computers & Education, 55(4), 1721-1731. doi: 10.1016/j.compedu.2010.07.017.",
+        "Skaalvik, E. M., & Skaalvik, S. (2007). Dimensions of teacher self-efficacy and rela-tions with strain factors, perceived collective teacher efficacy, and teacher burn-out. Journal of educational psychology, 99(3), 611-625. doi: 10.1037/0022-0663.99.3.611.",
+        "Skaalvik, E. M., & Skaalvik, S. (2010). Teacher self-efficacy and teacher burnout: A study of relations. Teaching and Teacher Education, 26(4), 1059-1069. doi: 10.1016/j.tate.2009.11.001.",
+        "Tschannen-Moran, M., & Hoy, A. W. (2001). Teacher efficacy: Capturing an elusive construct. Teaching and teacher education, 17(7), 783-805. doi: 10.1016/S0742-051X(01)00036-1.",
+        "Tschannen-Moran, M., Hoy, A. W., & Hoy, W. K. (1998). Teacher efficacy: Its meaning and measure. Review of educational research, 68(2), 202-248. doi: 10.3102/00346543068002202.",
+        "Woodcock, S., Sisco, A., & Eady, M. (2015). The learning experience: training teachers using online synchronous environments. Journal of Educational Research and Practice, 5(1), 21-34. doi: 10.5590/JERAP.2015.05.1.02.",
+        "Walter, O. (2015). Self-efficacy as an accurate predictor of teaching skills. Journal of Education Research, 9(3), 309-322.",
+        "Wright, J.M. (2011, June). Effect of quality matters training on faculty’s online self-efficacy. In Annual Distance Learning Administration Conference, Jekyll Island, GA.",
+        "Yuan, J., & Kim, C. (2014). Guidelines for facilitating the development of learning communities in online courses. Journal of Computer Assisted Learning, 30(3), 220-232. doi: 10.1111/jcal.12042.",
+        "Zee, M., & Koomen, H.M. (2016). Teacher self-efficacy and its effects on classroom processes, student academic adjustment, and teacher well-being: A synthesis of 40 years of research. Review of Educational research, 86(4), 981-1015. doi: 10.3102/0034654315626801.",
+        "Zimmerman, B.J. (2002). Becoming a self-regulated learner: An overview. Theory into Practice, 41(2), 64-70. doi: 10.1207/s15430421tip4102_2."
+      ],
+      "count": 34,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_12065",
+    "article_ID": "12065",
+    "slug": "12065",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "12065",
+      "url_slug": "12065"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-06-18",
+      "accepted": null,
+      "created": "2021-06-25",
+      "modified": "2021-06-25",
+      "issued": "2021-06-25",
+      "available": "2021-06-25",
+      "submitted_page": "2021-06-18",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+        "pdf_value": null,
+        "chosen_value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-06-18",
+        "pdf_value": null,
+        "chosen_value": "2021-06-18",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12065/953",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12065/953",
+      "local_relative_path": "2499-507X_12065.pdf",
+      "saved": true,
+      "sha256": "7f11eb8d117afa515896469b3607be692fe9372b2a1d38f1960bb95a1ce56025",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 966728,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Alessandra La Marca",
+        "Valeria Di Martino",
+        "Elif Gülbay"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Palermo",
+        "Università degli Studi di Catania",
+        "Università degli Studi di Palermo"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2021/06/25"
+      ],
+      "citation_volume": [
+        "6"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2021oa12065"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/12065"
+      ],
+      "citation_keywords": [
+        "autoefficacia del docente",
+        "didattica a distanza",
+        "formazione docenti universitari",
+        "tecnologie didattiche"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/12065/953"
+      ],
+      "citation_reference_count": 34,
+      "DC.Date.created": [
+        "2021-06-25"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-06-18"
+      ],
+      "DC.Date.issued": [
+        "2021-06-25"
+      ],
+      "DC.Date.modified": [
+        "2021-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "12065"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2021oa12065"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/12065"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "6"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19"
+      ],
+      "DC.Title.Alternative": [
+        "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Alessandra La Marca",
+        "Valeria Di Martino",
+        "Elif Gülbay"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Palermo",
+        "Università degli Studi di Catania",
+        "Università degli Studi di Palermo"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Alessandra La Marca",
+        "Valeria Di Martino",
+        "Elif Gülbay"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Le convinzioni che i docenti universitari possiedono sulla propria Self-Efficacy influenzano non solo il loro modo di lavorare, ma soprattutto gli esiti di apprendimento e il senso di autoefficacia dei loro studenti. La percezione di autoefficacia dei docenti nella didattica a distanza assume un ruolo ancora più importante in situazione di emergenza Covid-19. Il presente contributo indaga tale costrutto in un campione di 50 docenti universitari dell’Università degli Studi di Palermo, rilevando l’eventuale incidenza di variabili quali le esperienze pregresse di insegnamento nell’ambito della didattica a distanza e l’autoefficacia nell’utilizzo di tecnologie didattiche.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Le convinzioni che i docenti universitari possiedono sulla propria Self-Efficacy influenzano non solo il loro modo di lavorare, ma soprattutto gli esiti di apprendimento e il senso di autoefficacia dei loro studenti. La percezione di autoefficacia dei docenti nella didattica a distanza assume un ruolo ancora più importante in situazione di emergenza Covid-19. Il presente contributo indaga tale costrutto in un campione di 50 docenti universitari dell’Università degli Studi di Palermo, rilevando l’eventuale incidenza di variabili quali le esperienze pregresse di insegnamento nell’ambito della didattica a distanza e l’autoefficacia nell’utilizzo di tecnologie didattiche."
+          }
+        },
+        {
+          "content": "Le convinzioni che i docenti universitari possiedono sulla propria Self-Efficacy influenzano non solo il loro modo di lavorare, ma soprattutto gli esiti di apprendimento e il senso di autoefficacia dei loro studenti. La percezione di autoefficacia dei docenti nella didattica a distanza assume un ruolo ancora più importante in situazione di emergenza Covid-19. Il presente contributo indaga tale costrutto in un campione di 50 docenti universitari dell’Università degli Studi di Palermo, rilevando l’eventuale incidenza di variabili quali le esperienze pregresse di insegnamento nell’ambito della didattica a distanza e l’autoefficacia nell’utilizzo di tecnologie didattiche.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Le convinzioni che i docenti universitari possiedono sulla propria Self-Efficacy influenzano non solo il loro modo di lavorare, ma soprattutto gli esiti di apprendimento e il senso di autoefficacia dei loro studenti. La percezione di autoefficacia dei docenti nella didattica a distanza assume un ruolo ancora più importante in situazione di emergenza Covid-19. Il presente contributo indaga tale costrutto in un campione di 50 docenti universitari dell’Università degli Studi di Palermo, rilevando l’eventuale incidenza di variabili quali le esperienze pregresse di insegnamento nell’ambito della didattica a distanza e l’autoefficacia nell’utilizzo di tecnologie didattiche."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "autoefficacia del docente",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "autoefficacia del docente"
+          }
+        },
+        {
+          "content": "didattica a distanza",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "didattica a distanza"
+          }
+        },
+        {
+          "content": "formazione docenti universitari",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "formazione docenti universitari"
+          }
+        },
+        {
+          "content": "tecnologie didattiche",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "tecnologie didattiche"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/12065/953",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12065/953",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12065/953",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12065/953",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12065/953",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2021-06-25",
+        "mod_date": "2021-06-25"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12065 La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19 University Teachers’ Self-Efficacy during the Covid-19 Pandemic Alessandra La Marca^, Valeria Di Martino°, Elif Gülbay§* Riassunto Le convinzioni che i docenti universitari possiedono sulla propria Self-Efficacy influenzano non solo il loro modo di lavorare, ma soprattutto gli esiti di appren- dimento e il senso di autoefficacia dei loro studenti. La percezione di autoeffi- cacia dei docenti nella didattica a distanza assume un ruolo an cora più impor- tante in situazione di emergenza Covid-19. Il presente contribu to indaga tale costrutto in un campione di 50 docenti universitari dell’Univer sità degli Studi di Palermo, rilevando l’eventuale incidenza di variabili quali le esperienze pre- gresse di insegnamento nell’ambito della didattica a distanza e l’autoefficacia nell’utilizzo di tecnologie didattiche. Parole chiave: autoefficacia del docente, didattica a distanza, formazione do- centi universitari, tecnologie didattiche. Abstract University teachers’ conceptions about their Self-Efficacy infl uence not only their way of working but also their students’ awareness of Self-Efficacy and learning outcomes. Teachers’ perceptions of Self-Efficacy in distance learning plays an even more important role during Covid-19 crisis. The s tudy aims to examine this concept in a sample of 50 professors from the University of Palermo by revealing the possible impact of variables such as previous teaching ^ Università degli Studi di Palermo. ° Università degli Studi di Catania. § Università degli Studi di Palermo. * Questo articolo è il risultato del lavoro congiunto dei tre autori. In particolare, Ales- sandra La Marca ha scritto i paragrafi 1, 4, 5, 6.1 e 7; Valeri a Di Martino i paragrafi Introduzione, 3, 5.2, 6 e 6.2; Elif Gülbay i paragrafi 2, 5.1, 6.3 e 6.4. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\12065\\2499-507X_12065.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2021,
+      "raw_dc_rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+        "pdf_value": null,
+        "chosen_value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-06-18",
+        "pdf_value": null,
+        "chosen_value": "2021-06-18",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19 | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12065",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12065",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:31:07Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12065\\temp\\2499-507X_12065.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:31:09Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12065\\2499-507X_12065.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+        "submitted_date": "2021-06-18",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2021",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Alessandra La Marca",
+          "Valeria Di Martino",
+          "Elif Gülbay"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12065\\2499-507X_12065.pdf",
+        "generated_at_utc": "2026-04-21T21:31:09Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2021-06-25",
+          "mod_date": "2021-06-25"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12065 La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19 University Teachers’ Self-Efficacy during the Covid-19 Pandemic Alessandra La Marca^, Valeria Di Martino°, Elif Gülbay§* Riassunto Le convinzioni che i docenti universitari possiedono sulla propria Self-Efficacy influenzano non solo il loro modo di lavorare, ma soprattutto gli esiti di appren- dimento e il senso di autoefficacia dei loro studenti. La percezione di autoeffi- cacia dei docenti nella didattica a distanza assume un ruolo an cora più impor- tante in situazione di emergenza Covid-19. Il presente contribu to indaga tale costrutto in un campione di 50 docenti universitari dell’Univer sità degli Studi di Palermo, rilevando l’eventuale incidenza di variabili quali le esperienze pre- gresse di insegnamento nell’ambito della didattica a distanza e l’autoefficacia nell’utilizzo di tecnologie didattiche. Parole chiave: autoefficacia del docente, didattica a distanza, formazione do- centi universitari, tecnologie didattiche. Abstract University teachers’ conceptions about their Self-Efficacy infl uence not only their way of working but also their students’ awareness of Self-Efficacy and learning outcomes. Teachers’ perceptions of Self-Efficacy in distance learning plays an even more important role during Covid-19 crisis. The s tudy aims to examine this concept in a sample of 50 professors from the University of Palermo by revealing the possible impact of variables such as previous teaching ^ Università degli Studi di Palermo. ° Università degli Studi di Catania. § Università degli Studi di Palermo. * Questo articolo è il risultato del lavoro congiunto dei tre autori. In particolare, Ales- sandra La Marca ha scritto i paragrafi 1, 4, 5, 6.1 e 7; Valeri a Di Martino i paragrafi Introduzione, 3, 5.2, 6 e 6.2; Elif Gülbay i paragrafi 2, 5.1, 6.3 e 6.4. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La Self-Efficacy del Docente Universitario in Situazione di Emergenza Covid-19",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-06-18",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-06-18",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:17Z"
+        },
+        "copyright_year": {
+          "page_value": "2021",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:20Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12065\\temp\\2499-507X_12065.conflicts.json"
+  }
+}

@@ -1,0 +1,873 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12076",
+  "scraped_at_utc": "2026-04-21T21:31:26Z",
+  "fetched_at_utc": "2026-04-21T21:31:26Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "b2b9c813042b7b7b228f6add006861dbdd8111ca208d68fad912df474aaa190c",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "L’impatto del Service-Learning universitario: il progetto Hope",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Irene Culcasi",
+        "nameType": "Personal",
+        "givenName": "Irene",
+        "familyName": "Culcasi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università LUMSA e Pontifica Universidad Católica de Chile"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Maria Cinque",
+        "nameType": "Personal",
+        "givenName": "Maria",
+        "familyName": "Cinque",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università LUMSA"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/12076",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2021-06-25",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2021-06-25",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2021-06-25",
+      "Issued": "2021-06-25"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "Nel dibattito contemporaneo sul ruolo dell’Higher Education, il servizio alla comunità assume un ruolo centrale tanto nel modo di intendere la relazione tra università e società quanto nel processo di innovazione della didattica universitaria. In questo scenario il Service-Learning si presenta come una proposta pedagogica innovativa capace di collocare l’università al centro del processo di sviluppo sociale, coinvolgendo docenti, ricercatori e studenti in un processo di insegnamento-apprendimento che interroga i saperi accademici e li rende vivi ed efficaci per trovare risposte a bisogni rilevanti, co-costruendo insieme ai membri della comunità progetti di miglioramento sociale. Il presente contributo – contestualizzando la proposta pedagogica alla luce delle sfide di progettazione e valutazione – descrive l’impatto di un progetto di Service-Learning universitario partendo da un approccio stakeholder-driven che ha impiegato strumenti di indagine di tipo quali-quantitativo raccogliendo i dati secondo la logica del cambiamento generato in virtù delle attività realizzate. L’analisi dei dati ha reso evidenti alcune risultanze capaci di orientare future prospettive di sviluppo sia rispetto alla relazione tra università e società sia al rinnovamento della didattica universitaria, affinché la crescita e lo sviluppo non sia solo dell’individuo ma dell’intera comunità.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Nel dibattito contemporaneo sul ruolo dell’Higher Education, il servizio alla comunità assume un ruolo centrale tanto nel modo di intendere la relazione tra università e società quanto nel processo di innovazione della didattica universitaria. In questo scenario il Service-Learning si presenta come una proposta pedagogica innovativa capace di collocare l’università al centro del processo di sviluppo sociale, coinvolgendo docenti, ricercatori e studenti in un processo di insegnamento-apprendimento che interroga i saperi accademici e li rende vivi ed efficaci per trovare risposte a bisogni rilevanti, co-costruendo insieme ai membri della comunità progetti di miglioramento sociale. Il presente contributo – contestualizzando la proposta pedagogica alla luce delle sfide di progettazione e valutazione – descrive l’impatto di un progetto di Service-Learning universitario partendo da un approccio stakeholder-driven che ha impiegato strumenti di indagine di tipo quali-quantitativo raccogliendo i dati secondo la logica del cambiamento generato in virtù delle attività realizzate. L’analisi dei dati ha reso evidenti alcune risultanze capaci di orientare future prospettive di sviluppo sia rispetto alla relazione tra università e società sia al rinnovamento della didattica universitaria, affinché la crescita e lo sviluppo non sia solo dell’individuo ma dell’intera comunità.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2021oa12076",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "6",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Service-Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "strumenti di valutazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "impatto sociale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "apprendimento attivo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "università",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2021,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/12076/957",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "6",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Culcasi, I., & Cinque, M. (2021). L’impatto del Service-Learning universitario: il progetto Hope . Excellence and Innovation in Learning and Teaching - Open Access , 6 (1). https://doi.org/10.3280/exioa1-2021oa12076",
+      "articleTitleEcho": "L’impatto del Service-Learning universitario: il progetto Hope"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Berger, K.C. (2003). The complete guide to Service Learning. Proven, practical ways to engage students in civic responsibility, academic curriculum, & social action. Minneapolis: Free Spirit Publishing.",
+        "Boothroyd, P., & Fryerm, M. (2004, December). Mainstreaming social engagement in higher education: Benefits, challenges, and successes. In UNESCO Forum Colloquium on Research and Higher Education Policy, Paris.",
+        "Bourner, T. (2008). The fully functioning university. Higher Education Review, 40(2), 26-45.",
+        "Bringle, R., & Hatcher, J. (1999). Reflection in service learning: Making meaning of experience. Educational Horizons, 77(4), 179-185.",
+        "Bryer, T.A. (2014). Beyond Job Creation and Service Learning: Putting the Public Back in Public Affairs Education. Journal of Public Affairs Education, 20(2), 233-252.",
+        "Caspersz, D. & Olaru, D. (2017). The value of service-learning: the student perspective. Studies in Higher Education, 42(4), 685-700.",
+        "Chou, R.J. (2018). Going out into the field: an experience of the landscape architecture studio incorporating service-learning and participatory design in Taiwan. Landscape Research, 43(6), 784-797.",
+        "Culcasi, I. (2020). Esplorare il ruolo del Service-Learning nello sviluppo personale: competenze trasversali nella formazione universitaria. La ricerca educativa e di-dattica nelle scuole di dottorato in Italia, 4, 242-257.",
+        "Cushman, E. (1999). The public intellectual, service learning, and activist research. College English, 61(3), 328-336.",
+        "Deans, T. (1999). Service Learning in two keys: Paulo Freire’s Critical Pedagogy in Relation to John Dewey’s Pragmatism. Michigan Journal of Community Service Learning 6, 15-29. http://hdl.handle.net/2027/spo.3239521.0006.102.",
+        "Dymond, S.K., Renzaglia, A. & Chun, E.J. (2008). Elements of high school service learning programs. Career Development for Exceptional Individuals, 31(1), 37-47.",
+        "European Commission (2013). High Level Group on the Modernisation of Higher Education. Report to the European Commission on Improving the quality of teaching and learning in Europe’s higher education institutions. Luxembourg: Publications Office of the European Union.",
+        "Eyler, J., & Giles, D. E. Jr. (1999). Where’s the learning in service-learning? San Francisco: JosseyBass.",
+        "Fiorin, I. (2016). Oltre l’aula. La proposta pedagogica del Service Learning. Milano: Mondadori Università.",
+        "Furco, A. & Billing, S.H. (2001). Service-Learning: the Essence of the Pedagogy. Connecticut: Information Age Publishing.",
+        "Furco, A. (2009). La reflexión sobre la práctica, una componente vital de las experiencias de aprendizaje-servicio. In Actas del XII Seminario Internacional de Aprendizaje-Servicio Solidario, pp. 27-36.",
+        "Hernández-Barco, M., Sánchez-Martín, J., Blanco-Salas, J., & Ruiz-Téllez, T. (2020). Teaching Down to earth-service-learning methodology for science education and sustainability at the university level: A practical approach. Sustainability, 12(2), 542.",
+        "Holland, B.A. (1999). Factors and Strategies That Influence Faculty Involvement in Public Service. Journal of Public Service and Outreach, 4, 37-43.",
+        "Holland, B.A. (2001). A comprehensive assessment model for assessing Service-Learning and community university partnership. New Directions for Higher Education, 114, 51-60.",
+        "Jacoby, B. (2015). Service-learning essentials: Questions, answers, and lessons learned. San Francisco, CA: Jossey-Bass.",
+        "Kiely, R. (2005). A transformative learning model for service-learning: A longitudinal case study. Michigan Journal of Community Service Learning, 12, 5-22.",
+        "McNatt, D.B. (2019). Service-learning: An experiment to increase interpersonal communication confidence and competence. Education and Training, 62(2), 129-144.",
+        "Millican, J., Pollack, S., Zani, B., Stark, W., Mikelić Preradović, N., & Aramburuz-zabala, P. (2019). The changing face of higher education: economic and demo-cratic imperatives. In Aramburuzabala, P., Mcilarth, L. & Opazio, H. (Eds.), Embedding Service-Learning in European Higher Education: Developing a Culture of Civic Engagement. New York: Routledge.",
+        "Ministero del lavoro e delle politiche sociali, Direzione generale dell’immigrazione e delle politiche di integrazione (2019). Report di monitoraggio. Disponibile a: https://www.lavoro.gov.it/temi-e-priorita/immigrazione/focus-on/minori-stranieri/Documents/Report-di-monitoraggio-MSNA-31-dicembre-2019.pdf",
+        "Puig Rovira, J.M. & Rodríguez, J.P. (2006). Rasgos pedagógicos del Aprendizaje-Servicio. Cuadernos de Pedagogía, 357, 60-63.",
+        "Rossa, C. (2019). Il Service Learning. In: CIOF Scuola FMA (Ed.), Didattica della solidarietà: Service Learning e pedagogia salesiana (pp. 118-148). Milano: FrancoAngeli.",
+        "Sabat, I.E., Morgan, W.B., Perry, S.J. & Wang, Y.C. (2015). Developing Students’ Twenty-First Century Skills through a Service Learning Project. Journal of Learn-ing in Higher Education, 11(2), 23-32.",
+        "Ubbiali, M. (2017). Il service learning: un’analisi sistematica della letteratura. In: Mortari, L. (Ed.), Service Learning per un apprendimento responsabile (pp. 71-197). Milano: FrancoAngeli.",
+        "Willis, T.Y., Wick, D., Han, T.M., Rivera, J. & Doran, J.K. (2019). “If I Did It over There, I Can Do It Here”: U.S. Latinx Social Work Students in Costa Rican Service Placements Deepening Their Professional Identity and Skills. Journal of Social Work Education, 55(4), 710-723."
+      ],
+      "count": 29,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_12076",
+    "article_ID": "12076",
+    "slug": "12076",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "12076",
+      "url_slug": "12076"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "L’impatto del Service-Learning universitario: il progetto Hope",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "L’impatto del Service-Learning universitario: il progetto Hope",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "L’impatto del Service-Learning universitario: il progetto Hope",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "L’impatto del Service-Learning universitario: il progetto Hope",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-06-21",
+      "accepted": null,
+      "created": "2021-06-25",
+      "modified": "2021-06-25",
+      "issued": "2021-06-25",
+      "available": "2021-06-25",
+      "submitted_page": "2021-06-21",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "L’impatto del Service-Learning universitario: il progetto Hope",
+        "pdf_value": null,
+        "chosen_value": "L’impatto del Service-Learning universitario: il progetto Hope",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-06-21",
+        "pdf_value": null,
+        "chosen_value": "2021-06-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12076/957",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12076/957",
+      "local_relative_path": "2499-507X_12076.pdf",
+      "saved": true,
+      "sha256": "1a113f78a1914b9fbda25ea9b4eb18ac2a597a4f3de7aa1e98fa84fe810e3e9c",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 789899,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Irene Culcasi",
+        "Maria Cinque"
+      ],
+      "citation_author_institution": [
+        "Università LUMSA e Pontifica Universidad Católica de Chile",
+        "Università LUMSA"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "L’impatto del Service-Learning universitario: il progetto Hope"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2021/06/25"
+      ],
+      "citation_volume": [
+        "6"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2021oa12076"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/12076"
+      ],
+      "citation_keywords": [
+        "Service-Learning",
+        "strumenti di valutazione",
+        "impatto sociale",
+        "apprendimento attivo",
+        "università"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/12076/957"
+      ],
+      "citation_reference_count": 29,
+      "DC.Date.created": [
+        "2021-06-25"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-06-21"
+      ],
+      "DC.Date.issued": [
+        "2021-06-25"
+      ],
+      "DC.Date.modified": [
+        "2021-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "12076"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2021oa12076"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/12076"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "6"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "L’impatto del Service-Learning universitario: il progetto Hope"
+      ],
+      "DC.Title.Alternative": [
+        "L’impatto del Service-Learning universitario: il progetto Hope"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Irene Culcasi",
+        "Maria Cinque"
+      ],
+      "citation_author_institution": [
+        "Università LUMSA e Pontifica Universidad Católica de Chile",
+        "Università LUMSA"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Irene Culcasi",
+        "Maria Cinque"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Nel dibattito contemporaneo sul ruolo dell’Higher Education, il servizio alla comunità assume un ruolo centrale tanto nel modo di intendere la relazione tra università e società quanto nel processo di innovazione della didattica universitaria. In questo scenario il Service-Learning si presenta come una proposta pedagogica innovativa capace di collocare l’università al centro del processo di sviluppo sociale, coinvolgendo docenti, ricercatori e studenti in un processo di insegnamento-apprendimento che interroga i saperi accademici e li rende vivi ed efficaci per trovare risposte a bisogni rilevanti, co-costruendo insieme ai membri della comunità progetti di miglioramento sociale. Il presente contributo – contestualizzando la proposta pedagogica alla luce delle sfide di progettazione e valutazione – descrive l’impatto di un progetto di Service-Learning universitario partendo da un approccio stakeholder-driven che ha impiegato strumenti di indagine di tipo quali-quantitativo raccogliendo i dati secondo la logica del cambiamento generato in virtù delle attività realizzate. L’analisi dei dati ha reso evidenti alcune risultanze capaci di orientare future prospettive di sviluppo sia rispetto alla relazione tra università e società sia al rinnovamento della didattica universitaria, affinché la crescita e lo sviluppo non sia solo dell’individuo ma dell’intera comunità.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Nel dibattito contemporaneo sul ruolo dell’Higher Education, il servizio alla comunità assume un ruolo centrale tanto nel modo di intendere la relazione tra università e società quanto nel processo di innovazione della didattica universitaria. In questo scenario il Service-Learning si presenta come una proposta pedagogica innovativa capace di collocare l’università al centro del processo di sviluppo sociale, coinvolgendo docenti, ricercatori e studenti in un processo di insegnamento-apprendimento che interroga i saperi accademici e li rende vivi ed efficaci per trovare risposte a bisogni rilevanti, co-costruendo insieme ai membri della comunità progetti di miglioramento sociale. Il presente contributo – contestualizzando la proposta pedagogica alla luce delle sfide di progettazione e valutazione – descrive l’impatto di un progetto di Service-Learning universitario partendo da un approccio stakeholder-driven che ha impiegato strumenti di indagine di tipo quali-quantitativo raccogliendo i dati secondo la logica del cambiamento generato in virtù delle attività realizzate. L’analisi dei dati ha reso evidenti alcune risultanze capaci di orientare future prospettive di sviluppo sia rispetto alla relazione tra università e società sia al rinnovamento della didattica universitaria, affinché la crescita e lo sviluppo non sia solo dell’individuo ma dell’intera comunità."
+          }
+        },
+        {
+          "content": "Nel dibattito contemporaneo sul ruolo dell’Higher Education, il servizio alla comunità assume un ruolo centrale tanto nel modo di intendere la relazione tra università e società quanto nel processo di innovazione della didattica universitaria. In questo scenario il Service-Learning si presenta come una proposta pedagogica innovativa capace di collocare l’università al centro del processo di sviluppo sociale, coinvolgendo docenti, ricercatori e studenti in un processo di insegnamento-apprendimento che interroga i saperi accademici e li rende vivi ed efficaci per trovare risposte a bisogni rilevanti, co-costruendo insieme ai membri della comunità progetti di miglioramento sociale. Il presente contributo – contestualizzando la proposta pedagogica alla luce delle sfide di progettazione e valutazione – descrive l’impatto di un progetto di Service-Learning universitario partendo da un approccio stakeholder-driven che ha impiegato strumenti di indagine di tipo quali-quantitativo raccogliendo i dati secondo la logica del cambiamento generato in virtù delle attività realizzate. L’analisi dei dati ha reso evidenti alcune risultanze capaci di orientare future prospettive di sviluppo sia rispetto alla relazione tra università e società sia al rinnovamento della didattica universitaria, affinché la crescita e lo sviluppo non sia solo dell’individuo ma dell’intera comunità.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Nel dibattito contemporaneo sul ruolo dell’Higher Education, il servizio alla comunità assume un ruolo centrale tanto nel modo di intendere la relazione tra università e società quanto nel processo di innovazione della didattica universitaria. In questo scenario il Service-Learning si presenta come una proposta pedagogica innovativa capace di collocare l’università al centro del processo di sviluppo sociale, coinvolgendo docenti, ricercatori e studenti in un processo di insegnamento-apprendimento che interroga i saperi accademici e li rende vivi ed efficaci per trovare risposte a bisogni rilevanti, co-costruendo insieme ai membri della comunità progetti di miglioramento sociale. Il presente contributo – contestualizzando la proposta pedagogica alla luce delle sfide di progettazione e valutazione – descrive l’impatto di un progetto di Service-Learning universitario partendo da un approccio stakeholder-driven che ha impiegato strumenti di indagine di tipo quali-quantitativo raccogliendo i dati secondo la logica del cambiamento generato in virtù delle attività realizzate. L’analisi dei dati ha reso evidenti alcune risultanze capaci di orientare future prospettive di sviluppo sia rispetto alla relazione tra università e società sia al rinnovamento della didattica universitaria, affinché la crescita e lo sviluppo non sia solo dell’individuo ma dell’intera comunità."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Service-Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Service-Learning"
+          }
+        },
+        {
+          "content": "strumenti di valutazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "strumenti di valutazione"
+          }
+        },
+        {
+          "content": "impatto sociale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "impatto sociale"
+          }
+        },
+        {
+          "content": "apprendimento attivo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "apprendimento attivo"
+          }
+        },
+        {
+          "content": "università",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "università"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/12076/957",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12076/957",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12076/957",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12076/957",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12076/957",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2021-06-25",
+        "mod_date": "2021-06-25"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12076 L’impatto del Service-Le arning universitario: il progetto Hope The impact of university Service-Learning: The Hope project Irene Culcasi* e Maria Cinque**^ Riassunto Nel dibattito contemporaneo sul ruolo dell’ Higher Education, il servizio alla comunità assume un ruolo centrale tanto nel modo di intendere la relazione tra università e società quanto nel processo di innovazione della didattica univer- sitaria. In questo scenario il Service-Learning si presenta com e una proposta pedagogica innovativa capace di collocare l’università al centro del processo di sviluppo sociale, coinvolgendo docenti, ricercatori e studenti in un processo di insegnamento-apprendimento che interroga i saperi accademici e li rende vivi ed efficaci per trovare risposte a bisogni rilevanti, co-costru endo insieme ai membri della comunità progetti di miglioramento sociale. Il presente contributo – contestualizzando la proposta p edagogica alla luce delle sfid e di progetta- zione e valutazione – descrive l’impatto di un progetto di Service-Learning uni- versitario partendo da un approccio stakeholder-driven che ha impiegato stru- menti di indagine di tipo quali-quantitativo raccogliendo i dati secondo la logica del cambiamento generato in virtù delle attività realizzate. L’analisi dei dati ha reso evidenti alcune risultanze capaci di orientare future prospettive di sviluppo sia rispetto alla relazione tra università e società sia al rin novamento della di- dattica universitaria, affinché la crescita e lo sviluppo non s ia solo dell’indivi- duo ma dell’intera comunità. Parole chiave: Service-Learning; strumenti di valutazione; impatto sociale; ap- prendimento attivo; università. * Università LUMSA e Pontifica Universidad Católica de Chile. ** Università LUMSA. ^ Il contributo è frutto di un lavoro condiviso. Irene Culcasi è autrice dei paragrafi 1, 2 e 3. Maria Cinque è autrice dei paragrafi 4 e 5. Tutti gli auto ri hanno contributo alla revisione del manoscritto nella sua versione finale. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\12076\\2499-507X_12076.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2021,
+      "raw_dc_rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "L’impatto del Service-Learning universitario: il progetto Hope",
+        "pdf_value": null,
+        "chosen_value": "L’impatto del Service-Learning universitario: il progetto Hope",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-06-21",
+        "pdf_value": null,
+        "chosen_value": "2021-06-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "L’impatto del Service-Learning universitario: il progetto Hope | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12076",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12076",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:31:26Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12076\\temp\\2499-507X_12076.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:31:29Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12076\\2499-507X_12076.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "L’impatto del Service-Learning universitario: il progetto Hope",
+        "submitted_date": "2021-06-21",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2021",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Irene Culcasi",
+          "Maria Cinque"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12076\\2499-507X_12076.pdf",
+        "generated_at_utc": "2026-04-21T21:31:29Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2021-06-25",
+          "mod_date": "2021-06-25"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12076 L’impatto del Service-Le arning universitario: il progetto Hope The impact of university Service-Learning: The Hope project Irene Culcasi* e Maria Cinque**^ Riassunto Nel dibattito contemporaneo sul ruolo dell’ Higher Education, il servizio alla comunità assume un ruolo centrale tanto nel modo di intendere la relazione tra università e società quanto nel processo di innovazione della didattica univer- sitaria. In questo scenario il Service-Learning si presenta com e una proposta pedagogica innovativa capace di collocare l’università al centro del processo di sviluppo sociale, coinvolgendo docenti, ricercatori e studenti in un processo di insegnamento-apprendimento che interroga i saperi accademici e li rende vivi ed efficaci per trovare risposte a bisogni rilevanti, co-costru endo insieme ai membri della comunità progetti di miglioramento sociale. Il presente contributo – contestualizzando la proposta p edagogica alla luce delle sfid e di progetta- zione e valutazione – descrive l’impatto di un progetto di Service-Learning uni- versitario partendo da un approccio stakeholder-driven che ha impiegato stru- menti di indagine di tipo quali-quantitativo raccogliendo i dati secondo la logica del cambiamento generato in virtù delle attività realizzate. L’analisi dei dati ha reso evidenti alcune risultanze capaci di orientare future prospettive di sviluppo sia rispetto alla relazione tra università e società sia al rin novamento della di- dattica universitaria, affinché la crescita e lo sviluppo non s ia solo dell’indivi- duo ma dell’intera comunità. Parole chiave: Service-Learning; strumenti di valutazione; impatto sociale; ap- prendimento attivo; università. * Università LUMSA e Pontifica Universidad Católica de Chile. ** Università LUMSA. ^ Il contributo è frutto di un lavoro condiviso. Irene Culcasi è autrice dei paragrafi 1, 2 e 3. Maria Cinque è autrice dei paragrafi 4 e 5. Tutti gli auto ri hanno contributo alla revisione del manoscritto nella sua versione finale. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "L’impatto del Service-Learning universitario: il progetto Hope",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "L’impatto del Service-Learning universitario: il progetto Hope",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-06-21",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-06-21",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:32Z"
+        },
+        "copyright_year": {
+          "page_value": "2021",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:33Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12076\\temp\\2499-507X_12076.conflicts.json"
+  }
+}

@@ -1,0 +1,867 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12075",
+  "scraped_at_utc": "2026-04-21T21:31:18Z",
+  "fetched_at_utc": "2026-04-21T21:31:18Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "544765bcab4a631a39489d5b08dc18693db4f6275fe3fc9ce3aced78e7b40c40",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Videovalutare l’agire competente dello studente",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Loredana Perla",
+        "nameType": "Personal",
+        "givenName": "Loredana",
+        "familyName": "Perla",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Bari Aldo Moro"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Viviana Vinci",
+        "nameType": "Personal",
+        "givenName": "Viviana",
+        "familyName": "Vinci",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università Mediterranea di Reggio Calabria"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/12075",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2021-06-25",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2021-06-25",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2021-06-25",
+      "Issued": "2021-06-25"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "La videoanalisi è un oggetto di studio che vanta una consolidata tradizione. Pratica multimetodologica e area di studio interdisciplinare, essa risponde a numerosi problemi conoscitivi posti dalla complessità dei fenomeni didattici da indagare e propone strumenti e tecnologie che hanno un potenziale di descrizione, riproduzione e comprensione dei fenomeni molto alto. L’analisi video di un compito autentico costituisce un dispositivo di “supporto” per realizzare la valutazione dell’agire competente dello studente: un prototipo in grado di supportare la focalizzazione delle azioni che strutturano la competenza da valutare, per identificarne dimensioni, indicatori e livelli. Si descrive un percorso di ricerca-formazione che ha coinvolto 30 insegnanti di 11 Istituti scolastici della regione Puglia. Esito del progetto la descrizione del prototipo di videovalutazione che supporta gli insegnanti nella costruzione della rubrica valutativa e l’espressione del giudizio finale per livelli. L’attività riflessiva sollecitata nelle docenti, attraverso l’uso del dispositivo proposto, ha avuto l’obiettivo di accompagnare gli insegnanti a riconsiderare criticamente il proprio l’agire, sollecitando lo sviluppo e il consolidamento della propria professionalità. La ricerca ha consentito di promuovere negli insegnanti un habitus di riflessione sul proprio “fare scuola” e sulle proprie strategie valutative, sul modo in cui si gestisce la mediazione tra soggetti in apprendimento, contenuti disciplinari, metodologie, strategie e dispositivi adottati.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La videoanalisi è un oggetto di studio che vanta una consolidata tradizione. Pratica multimetodologica e area di studio interdisciplinare, essa risponde a numerosi problemi conoscitivi posti dalla complessità dei fenomeni didattici da indagare e propone strumenti e tecnologie che hanno un potenziale di descrizione, riproduzione e comprensione dei fenomeni molto alto. L’analisi video di un compito autentico costituisce un dispositivo di “supporto” per realizzare la valutazione dell’agire competente dello studente: un prototipo in grado di supportare la focalizzazione delle azioni che strutturano la competenza da valutare, per identificarne dimensioni, indicatori e livelli. Si descrive un percorso di ricerca-formazione che ha coinvolto 30 insegnanti di 11 Istituti scolastici della regione Puglia. Esito del progetto la descrizione del prototipo di videovalutazione che supporta gli insegnanti nella costruzione della rubrica valutativa e l’espressione del giudizio finale per livelli. L’attività riflessiva sollecitata nelle docenti, attraverso l’uso del dispositivo proposto, ha avuto l’obiettivo di accompagnare gli insegnanti a riconsiderare criticamente il proprio l’agire, sollecitando lo sviluppo e il consolidamento della propria professionalità. La ricerca ha consentito di promuovere negli insegnanti un habitus di riflessione sul proprio “fare scuola” e sulle proprie strategie valutative, sul modo in cui si gestisce la mediazione tra soggetti in apprendimento, contenuti disciplinari, metodologie, strategie e dispositivi adottati.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2021oa12075",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "6",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "videoanalisi",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "valutazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "compito autentico",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "documentazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "sviluppo professionale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2021,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/12075/956",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "6",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Perla, L., & Vinci, V. (2021). Videovalutare l’agire competente dello studente . Excellence and Innovation in Learning and Teaching - Open Access , 6 (1). https://doi.org/10.3280/exioa1-2021oa12075",
+      "articleTitleEcho": "Videovalutare l’agire competente dello studente"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Ackermans, K., Rusman, E., Brand-Gruwel, S., Specht, M. (2017). A First Step Towards Synthesising Rubrics and Video for the Formative Assessment of Complex Skills. Technology Enhanced Assessment: 19th International Conference (Vol. 653, pp. 1-10). Springer, CCIS, vol. 653.",
+        "Allen, D.W. (1966). Micro-teaching is a scaled down teaching encounter in class size and class time. The High School Journal, 49(8), 355-362.",
+        "Altet, M. (2002). L’analyse plurielle de la pratique enseignante, une démarche de Recherche. Revue Française de Pédagogie, 138, 85-93.",
+        "Altet, M. (2003). La ricerca sulle pratiche d’insegnamento in Francia. Brescia: La Scuola.",
+        "Castoldi, M. (2016). Valutare e certificare le competenze. Roma: Carocci.",
+        "Cescato S., Bove C., Braga P. (2015). Video, formazione e consapevolezza. Intrecci metodologici. Form@re, 15(2), 61-74.",
+        "Damiano, E. (2013). La mediazione didattica. Per una teoria dell’insegnamento. Milano: FrancoAngeli.",
+        "Franchini, E., Salvisberg, M., Sbaragli, S. (2016). Riflessioni sulla valutazione formativa tramite l’uso di video. Linee guida per formatori. Locarno: SUPSI - Dipartimento formazione e apprendimento.",
+        "Galliani, L. (2014). Per una ontologia della valutazione educativa. In L. Galliani, A. Notti (Eds.), Valutazione educativa. Lecce: Pensa MultiMedia.",
+        "Galliani, L. (2015). L’agire valutativo. Manuale per docenti e formatori. Brescia: La Scuola.",
+        "Grion, V., Aquario, D., Restiglian, E. (2019). Valutare nella scuola e nei contesti educativi. Padova: CLEUP.",
+        "Henderson, M., Phillips, M. (2015). Video-based feedback on student assessment: scarily personal. Australasian Journal of Educational Technology, 31(1), 51-66.",
+        "Herrington, J., Reeves, T.C., Oliver, R. (2014). Authentic Learning Environments. In J.M. Spector, M.D. Merrill, J. Elen, M.J. Bishop (Eds.). Handbook of Research on Educational Communications and Technology. New York: Springer-Verlag.",
+        "Mangione, G.R., Rosa, A. (2017). Professional vision e il peer to peer nel percorso Neoassunti. L’uso del video per l’analisi della pratica del docente in classe. Form@re, 17(1), 120-143.",
+        "Nicol, D., Macfarlane-Dick, D. (2004). Rethinking formative assessment in HE: a theoretical model and seven principles of good feedback practice. In: C. Juwah, et al. (Eds.) (2004). Enhancing student learning though effective formative feed-back. York: The Higher Education Academy.",
+        "Orme, M. (1966). The effects of modeling and feedback variables on the acquisition of a complex teaching strategy. (Unpublished doctoral dissertation). Stanford, California: Stanford University.",
+        "Perla, L. (Eds.) (2019). Valutare per valorizzare. La documentazione per il migliora-mento di scuola, insegnanti, studenti. Brescia: Morcelliana.",
+        "Perla, L., Schiavone, N. (2014). Quels dispositifs de documentation de l’implicite dans la formation des enseignants? In M. Frisch (ed.), Le réseau IDEKI. Objets de recherche d’éducation et de formation émergents, problématisés, mis en tension, réélaborés (pp. 23-42). Paris: L’Harmattan.",
+        "Perla, L., Schiavone, N. (2017). Video-Analysis and Self-Assessment in Teaching Work. In P.G., Rossi, L., Fedeli (Eds.). Integrating Video into Pre-Service and In-Service Teacher Training (pp. 191-209). Hersey, PA: IGI Global.",
+        "Rossi, P.G., Fedeli, L. (Eds.). Integrating Video into Pre-Service and In-Service Teacher Training. Hersey, PA: IGI Global.",
+        "Santagata, R., Guarino, J. (2011). Using video to teach future teachers to learn from teaching. Zdm, 43(1), 133-145.",
+        "Vinci, V. (2021). La documentazione per la valutazione. Nuova Secondaria Ricerca, 9 – Dossier, pp. 445-457.",
+        "Wiggins, G. (1993), Assessing student performance: Exploring the purpose and limits of testing. San Francisco, CA: Jossey-Bass."
+      ],
+      "count": 23,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_12075",
+    "article_ID": "12075",
+    "slug": "12075",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "12075",
+      "url_slug": "12075"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Videovalutare l’agire competente dello studente",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Videovalutare l’agire competente dello studente",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Videovalutare l’agire competente dello studente",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Videovalutare l’agire competente dello studente",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-06-21",
+      "accepted": null,
+      "created": "2021-06-25",
+      "modified": "2021-06-25",
+      "issued": "2021-06-25",
+      "available": "2021-06-25",
+      "submitted_page": "2021-06-21",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Videovalutare l’agire competente dello studente",
+        "pdf_value": null,
+        "chosen_value": "Videovalutare l’agire competente dello studente",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-06-21",
+        "pdf_value": null,
+        "chosen_value": "2021-06-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12075/956",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12075/956",
+      "local_relative_path": "2499-507X_12075.pdf",
+      "saved": true,
+      "sha256": "ebafb6e40dc1a5d39ded914df84feabba2ef53e7add8d210c2ff4f1c55514f01",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 843497,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Loredana Perla",
+        "Viviana Vinci"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Bari Aldo Moro",
+        "Università Mediterranea di Reggio Calabria"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Videovalutare l’agire competente dello studente"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2021/06/25"
+      ],
+      "citation_volume": [
+        "6"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2021oa12075"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/12075"
+      ],
+      "citation_keywords": [
+        "videoanalisi",
+        "valutazione",
+        "compito autentico",
+        "documentazione",
+        "sviluppo professionale"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/12075/956"
+      ],
+      "citation_reference_count": 23,
+      "DC.Date.created": [
+        "2021-06-25"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-06-21"
+      ],
+      "DC.Date.issued": [
+        "2021-06-25"
+      ],
+      "DC.Date.modified": [
+        "2021-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "12075"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2021oa12075"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/12075"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "6"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Videovalutare l’agire competente dello studente"
+      ],
+      "DC.Title.Alternative": [
+        "Videovalutare l’agire competente dello studente"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Loredana Perla",
+        "Viviana Vinci"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Bari Aldo Moro",
+        "Università Mediterranea di Reggio Calabria"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Loredana Perla",
+        "Viviana Vinci"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "La videoanalisi è un oggetto di studio che vanta una consolidata tradizione. Pratica multimetodologica e area di studio interdisciplinare, essa risponde a numerosi problemi conoscitivi posti dalla complessità dei fenomeni didattici da indagare e propone strumenti e tecnologie che hanno un potenziale di descrizione, riproduzione e comprensione dei fenomeni molto alto. L’analisi video di un compito autentico costituisce un dispositivo di “supporto” per realizzare la valutazione dell’agire competente dello studente: un prototipo in grado di supportare la focalizzazione delle azioni che strutturano la competenza da valutare, per identificarne dimensioni, indicatori e livelli. Si descrive un percorso di ricerca-formazione che ha coinvolto 30 insegnanti di 11 Istituti scolastici della regione Puglia. Esito del progetto la descrizione del prototipo di videovalutazione che supporta gli insegnanti nella costruzione della rubrica valutativa e l’espressione del giudizio finale per livelli. L’attività riflessiva sollecitata nelle docenti, attraverso l’uso del dispositivo proposto, ha avuto l’obiettivo di accompagnare gli insegnanti a riconsiderare criticamente il proprio l’agire, sollecitando lo sviluppo e il consolidamento della propria professionalità. La ricerca ha consentito di promuovere negli insegnanti un habitus di riflessione sul proprio “fare scuola” e sulle proprie strategie valutative, sul modo in cui si gestisce la mediazione tra soggetti in apprendimento, contenuti disciplinari, metodologie, strategie e dispositivi adottati.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "La videoanalisi è un oggetto di studio che vanta una consolidata tradizione. Pratica multimetodologica e area di studio interdisciplinare, essa risponde a numerosi problemi conoscitivi posti dalla complessità dei fenomeni didattici da indagare e propone strumenti e tecnologie che hanno un potenziale di descrizione, riproduzione e comprensione dei fenomeni molto alto. L’analisi video di un compito autentico costituisce un dispositivo di “supporto” per realizzare la valutazione dell’agire competente dello studente: un prototipo in grado di supportare la focalizzazione delle azioni che strutturano la competenza da valutare, per identificarne dimensioni, indicatori e livelli. Si descrive un percorso di ricerca-formazione che ha coinvolto 30 insegnanti di 11 Istituti scolastici della regione Puglia. Esito del progetto la descrizione del prototipo di videovalutazione che supporta gli insegnanti nella costruzione della rubrica valutativa e l’espressione del giudizio finale per livelli. L’attività riflessiva sollecitata nelle docenti, attraverso l’uso del dispositivo proposto, ha avuto l’obiettivo di accompagnare gli insegnanti a riconsiderare criticamente il proprio l’agire, sollecitando lo sviluppo e il consolidamento della propria professionalità. La ricerca ha consentito di promuovere negli insegnanti un habitus di riflessione sul proprio “fare scuola” e sulle proprie strategie valutative, sul modo in cui si gestisce la mediazione tra soggetti in apprendimento, contenuti disciplinari, metodologie, strategie e dispositivi adottati."
+          }
+        },
+        {
+          "content": "La videoanalisi è un oggetto di studio che vanta una consolidata tradizione. Pratica multimetodologica e area di studio interdisciplinare, essa risponde a numerosi problemi conoscitivi posti dalla complessità dei fenomeni didattici da indagare e propone strumenti e tecnologie che hanno un potenziale di descrizione, riproduzione e comprensione dei fenomeni molto alto. L’analisi video di un compito autentico costituisce un dispositivo di “supporto” per realizzare la valutazione dell’agire competente dello studente: un prototipo in grado di supportare la focalizzazione delle azioni che strutturano la competenza da valutare, per identificarne dimensioni, indicatori e livelli. Si descrive un percorso di ricerca-formazione che ha coinvolto 30 insegnanti di 11 Istituti scolastici della regione Puglia. Esito del progetto la descrizione del prototipo di videovalutazione che supporta gli insegnanti nella costruzione della rubrica valutativa e l’espressione del giudizio finale per livelli. L’attività riflessiva sollecitata nelle docenti, attraverso l’uso del dispositivo proposto, ha avuto l’obiettivo di accompagnare gli insegnanti a riconsiderare criticamente il proprio l’agire, sollecitando lo sviluppo e il consolidamento della propria professionalità. La ricerca ha consentito di promuovere negli insegnanti un habitus di riflessione sul proprio “fare scuola” e sulle proprie strategie valutative, sul modo in cui si gestisce la mediazione tra soggetti in apprendimento, contenuti disciplinari, metodologie, strategie e dispositivi adottati.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La videoanalisi è un oggetto di studio che vanta una consolidata tradizione. Pratica multimetodologica e area di studio interdisciplinare, essa risponde a numerosi problemi conoscitivi posti dalla complessità dei fenomeni didattici da indagare e propone strumenti e tecnologie che hanno un potenziale di descrizione, riproduzione e comprensione dei fenomeni molto alto. L’analisi video di un compito autentico costituisce un dispositivo di “supporto” per realizzare la valutazione dell’agire competente dello studente: un prototipo in grado di supportare la focalizzazione delle azioni che strutturano la competenza da valutare, per identificarne dimensioni, indicatori e livelli. Si descrive un percorso di ricerca-formazione che ha coinvolto 30 insegnanti di 11 Istituti scolastici della regione Puglia. Esito del progetto la descrizione del prototipo di videovalutazione che supporta gli insegnanti nella costruzione della rubrica valutativa e l’espressione del giudizio finale per livelli. L’attività riflessiva sollecitata nelle docenti, attraverso l’uso del dispositivo proposto, ha avuto l’obiettivo di accompagnare gli insegnanti a riconsiderare criticamente il proprio l’agire, sollecitando lo sviluppo e il consolidamento della propria professionalità. La ricerca ha consentito di promuovere negli insegnanti un habitus di riflessione sul proprio “fare scuola” e sulle proprie strategie valutative, sul modo in cui si gestisce la mediazione tra soggetti in apprendimento, contenuti disciplinari, metodologie, strategie e dispositivi adottati."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "videoanalisi",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "videoanalisi"
+          }
+        },
+        {
+          "content": "valutazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "valutazione"
+          }
+        },
+        {
+          "content": "compito autentico",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "compito autentico"
+          }
+        },
+        {
+          "content": "documentazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "documentazione"
+          }
+        },
+        {
+          "content": "sviluppo professionale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "sviluppo professionale"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/12075/956",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12075/956",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12075/956",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12075/956",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12075/956",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2021-06-25",
+        "mod_date": "2021-06-25"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12075 Videovalutare l’agire competente dello studente Videoassessing competence action’s student Loredana Perla* e Viviana Vinci**^ Riassunto La videoanalisi è un oggetto di studio che vanta una consolidat a tradizione. Pratica multimetodologica e area di studio interdisciplinare, essa risponde a nu- merosi problemi conoscitivi pos ti dalla complessità dei fenomen i didattici da indagare e propone strumenti e t ecnologie che hanno un potenzia le di descri- zione, riproduzione e comprensione dei fenomeni molto alto. L’analisi video di un compito autentico costituisce un dispositivo di “supporto” per realizzare la valutazione dell’agire competente dello studente: un prototipo in grado di sup- portare la focalizzazione delle azioni che strutturano la competenza da valutare, per identificarne dimensioni, indicatori e livelli. Si descrive un percorso di ri- cerca-formazione che ha coinvolto 30 insegnanti di 11 Istituti scolastici della regione Puglia. Esito del progetto la descrizione del prototipo di videovaluta- zione che supporta gli insegnanti nella costruzione della rubri ca valutativa e l’espressione del giudizio finale per livelli. L’attività riflessiva sollecitata attra- verso l’uso del dispositivo pro posto, ha avuto l’obiettivo di a ccompagnare gli insegnanti a riconsiderare criticamente il proprio l’agire, sollecitando lo svi- luppo e il consolidamento della propria professionalità. La ricerca ha consentito di promuovere negli insegnanti un habitus di riflessione sul proprio “fare scuola” e sulle proprie strategie valutative, sul modo in cui si gestisce la media- zione tra soggetti in apprendimento, contenuti disciplinari, metodologie, strate- gie e dispositivi adottati. Parole chiave: videoanalisi, valutazione, compito autentico, documentazione, sviluppo professionale * Università degli Studi di Bari Aldo Moro. ** Università Mediterranea di Reggio Calabria. ^ Il contributo è frutto di un lavoro condiviso. Loredana Perla è autrice dei paragrafi 1, 3, Viviana Vinci è autrice dei paragrafi 2, 4. Tutti gli autori hanno contributo alla revisione del manoscritto nella sua versione finale. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\12075\\2499-507X_12075.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2021,
+      "raw_dc_rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Videovalutare l’agire competente dello studente",
+        "pdf_value": null,
+        "chosen_value": "Videovalutare l’agire competente dello studente",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-06-21",
+        "pdf_value": null,
+        "chosen_value": "2021-06-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Videovalutare l’agire competente dello studente | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12075",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12075",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:31:18Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12075\\temp\\2499-507X_12075.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:31:25Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12075\\2499-507X_12075.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Videovalutare l’agire competente dello studente",
+        "submitted_date": "2021-06-21",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2021",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Loredana Perla",
+          "Viviana Vinci"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12075\\2499-507X_12075.pdf",
+        "generated_at_utc": "2026-04-21T21:31:25Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2021-06-25",
+          "mod_date": "2021-06-25"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12075 Videovalutare l’agire competente dello studente Videoassessing competence action’s student Loredana Perla* e Viviana Vinci**^ Riassunto La videoanalisi è un oggetto di studio che vanta una consolidat a tradizione. Pratica multimetodologica e area di studio interdisciplinare, essa risponde a nu- merosi problemi conoscitivi pos ti dalla complessità dei fenomen i didattici da indagare e propone strumenti e t ecnologie che hanno un potenzia le di descri- zione, riproduzione e comprensione dei fenomeni molto alto. L’analisi video di un compito autentico costituisce un dispositivo di “supporto” per realizzare la valutazione dell’agire competente dello studente: un prototipo in grado di sup- portare la focalizzazione delle azioni che strutturano la competenza da valutare, per identificarne dimensioni, indicatori e livelli. Si descrive un percorso di ri- cerca-formazione che ha coinvolto 30 insegnanti di 11 Istituti scolastici della regione Puglia. Esito del progetto la descrizione del prototipo di videovaluta- zione che supporta gli insegnanti nella costruzione della rubri ca valutativa e l’espressione del giudizio finale per livelli. L’attività riflessiva sollecitata attra- verso l’uso del dispositivo pro posto, ha avuto l’obiettivo di a ccompagnare gli insegnanti a riconsiderare criticamente il proprio l’agire, sollecitando lo svi- luppo e il consolidamento della propria professionalità. La ricerca ha consentito di promuovere negli insegnanti un habitus di riflessione sul proprio “fare scuola” e sulle proprie strategie valutative, sul modo in cui si gestisce la media- zione tra soggetti in apprendimento, contenuti disciplinari, metodologie, strate- gie e dispositivi adottati. Parole chiave: videoanalisi, valutazione, compito autentico, documentazione, sviluppo professionale * Università degli Studi di Bari Aldo Moro. ** Università Mediterranea di Reggio Calabria. ^ Il contributo è frutto di un lavoro condiviso. Loredana Perla è autrice dei paragrafi 1, 3, Viviana Vinci è autrice dei paragrafi 2, 4. Tutti gli autori hanno contributo alla revisione del manoscritto nella sua versione finale. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Videovalutare l’agire competente dello studente",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Videovalutare l’agire competente dello studente",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-06-21",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-06-21",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:29Z"
+        },
+        "copyright_year": {
+          "page_value": "2021",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:30Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12075\\temp\\2499-507X_12075.conflicts.json"
+  }
+}

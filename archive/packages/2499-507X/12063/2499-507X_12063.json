@@ -1,0 +1,867 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12063",
+  "scraped_at_utc": "2026-04-21T21:31:01Z",
+  "fetched_at_utc": "2026-04-21T21:31:00Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "b9e3b059bdb97d113c55c16d7298a9b2bdde3544d4f103e838ba84670a3962a0",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Giovanna Del Gobbo",
+        "nameType": "Personal",
+        "givenName": "Giovanna Del",
+        "familyName": "Gobbo",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Firenze"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/12063",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2021-06-25",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2021-06-25",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2021-06-25",
+      "Issued": "2021-06-25"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "L’assicurazione della qualità e la gestione della qualità, elementi chiave per l’attuazione e gli sviluppi del Processo di Bologna, sono sempre di più considerate sfide centrali nella governance dell’alta formazione. L’importanza di promuovere una cultura della qualità ha acquisito, parallelamente e sinergicamente, un'attenzione crescente negli ultimi due decenni. Una cultura della qualità può essere sostenuta favorendo processi di sense making e comprensione del sistema complessivo della didattica, favorendo l’accesso critico e l’interpretazione degli artefatti, delle norme, delle procedure con cui la specifica comunità sociale e culturale realizza le proprie pratiche e risolve i problemi, dei dispositivi relativi alla valutazione e assicurazione della qualità. Nel presente articolo si offrono alcuni elementi di riflessione e problematizzazione a partire dall’esperienza di formazione per docenti e neoassunti realizzata presso l’Università di Firenze.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’assicurazione della qualità e la gestione della qualità, elementi chiave per l’attuazione e gli sviluppi del Processo di Bologna, sono sempre di più considerate sfide centrali nella governance dell’alta formazione. L’importanza di promuovere una cultura della qualità ha acquisito, parallelamente e sinergicamente, un'attenzione crescente negli ultimi due decenni. Una cultura della qualità può essere sostenuta favorendo processi di sense making e comprensione del sistema complessivo della didattica, favorendo l’accesso critico e l’interpretazione degli artefatti, delle norme, delle procedure con cui la specifica comunità sociale e culturale realizza le proprie pratiche e risolve i problemi, dei dispositivi relativi alla valutazione e assicurazione della qualità. Nel presente articolo si offrono alcuni elementi di riflessione e problematizzazione a partire dall’esperienza di formazione per docenti e neoassunti realizzata presso l’Università di Firenze.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2021oa12063",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "6",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "cultura della qualità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "assicurazione della qualità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "azione educativa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "faculty development",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "cultura organizzativa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2021,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/12063/951",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "6",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Del Gobbo, G. (2021). Cultura della Qualità e Faculty Development: Sinergie da Sviluppare. Excellence and Innovation in Learning and Teaching - Open Access , 6 (1). https://doi.org/10.3280/exioa1-2021oa12063",
+      "articleTitleEcho": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Argote, L. (2011). Organizational learning research: Past, present and future. Management Learning, 42(4), 439-446.",
+        "Argote, L. (2013). Organizational Learning. Creating, retaining and transferring knowledge. New York: Springer.",
+        "Bacci, S., Bertaccini, B. e Petrucci, A. (2020). Beliefs and needs of academic teachers: a latent class analysis. Statistical Methods e Applications, 9(3), 597-617, Springer, Società Italiana di Statistica.",
+        "Bollaert, L., Brus, S., Curvale, B. et al. (2007). Embedding quality culture in higher education. Brussels: European University Association.",
+        "Brookfield, S.D. (2009). Self-Directed Learning. In: Maclean, R., Wilson, D. (a cura di), International Handbook of Education for the Changing World of Work (2615-2627). Dordrecht: Springer.",
+        "Catelani, M., Formiconi, A.R., Ranieri, M., Pezzati, F., Raffaghelli, J.E. e Bruni, I. (2018). Promuovere l’innovazione didattica e lo sviluppo professionale della docenza universitaria: primi risultati dello sportello e-learning dell’Università di Firenze. In Volungeviciene, A., Szűcs, A. (a cura di), Exploring the Micro, Meso and Macro Proceedings of the European Distance and E-Learning Network 2018 Annual Conference (761-770), Genova, 17-20 June.",
+        "Catelani, M., Pezzati, F., Renzini, G. e Gallo, F. (2019). La didattica in e-learning all’Università di Firenze. Il progetto DIDeL. In: Federighi, P., Ranieri, M., Bandini, G. (a cura di), Digital scholarship tra ricerca e didattica. Studi, ricerche, esperienze (137-146), Milano: FrancoAngeli.",
+        "Costa, M. (2016). Capacitare l’innovazione. La formatività dell’agire lavorativo. Milano: FrancoAngeli.",
+        "Del, Gobbo G. (2016). Valutazione di sistema per una learning organization. Riferimenti teorici ed esperienze per un modello operativo. Pedagogia e vita, 74, 172-191.",
+        "Del Gobbo, G. (2021). Valutazione di sistema e cultura della qualità: itinerari di ricerca e formazione per le università. Nuova Secondaria, 10(XXXVIII), in press.",
+        "Del Gobbo, G. e Bruni, P. (2020). Valorizzazione delle risorse umane e politiche per il personale come azioni strategiche. In Lotti, A., Lampugnani, P.A., Faculty Development in Italia. Valorizzazione delle competenze didattiche dei docenti universitari (187-204), Genova: GUP Genova University Press.",
+        "De Sanctis, F.M. (1975). Educazione in Età Adulta. Firenze: La Nuova Italia.",
+        "De Sanctis, F.M., Federighi, P. (1976). Didattica universitaria. Per una università sociale. Firenze: Cooperativa Editrice Universitaria.",
+        "Eisenschmidt, E. (2006). Implementation of Induction Year for Novice Teachers in Estonia. Dissertations on Social Sciences, 25. Tallinn: Tallinn University Press.",
+        "Eraut, M. (2007). Learning from other people in the workplace. Oxford Review of Education, XIII(4), 403-422.",
+        "EUA (2006). Quality culture in European universities: A bottom-up approach: Report on the three rounds of the quality culture project 2002-2006. Brussels: European University Association.",
+        "Federighi, P. (2006). Liberare la domanda di formazione. Roma: Edup.",
+        "Federighi, P. (2016). L’azione formativa nelle organizzazioni. Quaderni di Economia del Lavoro, 105, 115-133.",
+        "Felisatti, E. e Serbati, A. (a cura di) (2017). Preparare alla professionalità docente e innovare la didattica universitaria. Milano: FrancoAngeli.",
+        "Felisatti, E., Del Gobbo, G., Di Pietro, et al. (2018). Linee di indirizzo per lo sviluppo professionale del docente e strategie di valutazione della didattica in Università. QUARC_Docente Disponibile in: https://www.anvur.it/wp-content/uploads/2018/12/Linee-guida-QUARC_docente.pdf.",
+        "Fiol, C. M. e Lyles, M. A. (1985). Organizational Learning. The Academy of Management Review, 10(4), 803-813.",
+        "Kairiša, I. e Lapiņa, I. (2019). Analysis of factors influencing quality culture and their impact on organizational development. In Proceedings of the International Scientific Conference, Volume VI.",
+        "Larson, J., Jordan, S. S., Lande, M. e Weiner, S. (2020), Supporting Self-Directed Learning in a Project-Based Embedded Systems Design Course. IEEE Transactions on Education, 63(2), 88-97.",
+        "Lotti, L. e Lampugnani, P.A. (2020). Faculty Development in Italia Valorizzazione delle competenze didattiche dei docenti universitari. Genova: GUP.",
+        "Loukkola, T. e Zhang, T. (2010). Examining quality culture: Part 1-Quality assurance processes in higher education institutions. Brussels: European University Association.",
+        "McAvinia, C. (2016). Online Learning and its Users. Lessons for higher education. Cambridge (USA): Chandos Publishing.",
+        "Perla, L., e Vinci, V. (2021). Faculty Development e Digital Scholarship: questioni di ricerca nell’istruzione superiore. Excellence and Innovation in Learning and Teaching. Research and Practices Special Issue.",
+        "Rossi, B. (2012). La riflessione al lavoro. Reflective Practices, 1, 5-20.",
+        "Sattler, C. e Sonntag, K. (2018). Quality Cultures in Higher Education Institutions - Development of the Quality Culture Inventory. In Meusburger, P., Heffernan, M. e Suarsana, L. (a cura di). Geographies of the University. Knowledge and Space (313-327), vol 12. Springer.",
+        "Schein, E. H. (2010). Organizational culture and leadership (4th ed.). San Francisco: Jossey-Bass.",
+        "Schön, D. A. (1987). Educating the reflective practitioner: Toward a new design for teaching and learning in the professions. San Francisco: Jossey-Bass.",
+        "Snoeck, M., Eisenschmidt, E. et al. (2010). Developing coherent and system-wide induction programmes for beginning teachers: a handbook for policymakers Euro-pean Commission Staff. Working Document SEC (2010) 538.",
+        "Sursock, A. (2011). Examining Quality Culture Part II: Processes and Tools – Participation, Ownership and Bureaucracy. Brussels: European University Association.",
+        "Torlone, F. (2018). La qualità educativa nei luoghi di lavoro. In Federighi, P. (a cura di.). Educazione in età adulta: Ricerche, politiche, luoghi e professioni (239-260). Firenze: Firenze University Press.",
+        "Tutko, M. (2019). Quality culture research in higher education – literature review. Organization and Management, 136, 619-629.",
+        "Vicari, S. (2008). Conoscenza e impresa. Sinergie, 76, 43-66.",
+        "Weick, K.E. (1995). Sensemaking in organizations. Thousand Oaks (CA): Sage.",
+        "Wenger, E. (2006). Comunità di pratica. Apprendimento, significato e identità. Trad. it., Milano: Raffaello Cortina.",
+        "Wenger, E., McDermott, R. e Snyder, W.M. (2007). Coltivare comunità di pratica. Prospettive ed esperienze di gestione della conoscenza. Trad. it., Milano: Guerini e Associati.",
+        "Whalen, T. (2020). Factors affecting quality culture. Quality Management Journal, 11(4), 43-55."
+      ],
+      "count": 40,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_12063",
+    "article_ID": "12063",
+    "slug": "12063",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "12063",
+      "url_slug": "12063"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-06-18",
+      "accepted": null,
+      "created": "2021-06-25",
+      "modified": "2021-06-25",
+      "issued": "2021-06-25",
+      "available": "2021-06-25",
+      "submitted_page": "2021-06-18",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+        "pdf_value": null,
+        "chosen_value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-06-18",
+        "pdf_value": null,
+        "chosen_value": "2021-06-18",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12063/951",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12063/951",
+      "local_relative_path": "2499-507X_12063.pdf",
+      "saved": true,
+      "sha256": "506bba6b00a923879a34d430ab58d1dfa626ca4e9d1fd1851adf8e64812814fa",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 945863,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Giovanna Del Gobbo"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Firenze"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2021/06/25"
+      ],
+      "citation_volume": [
+        "6"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2021oa12063"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/12063"
+      ],
+      "citation_keywords": [
+        "cultura della qualità",
+        "assicurazione della qualità",
+        "azione educativa",
+        "faculty development",
+        "cultura organizzativa"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/12063/951"
+      ],
+      "citation_reference_count": 40,
+      "DC.Date.created": [
+        "2021-06-25"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-06-18"
+      ],
+      "DC.Date.issued": [
+        "2021-06-25"
+      ],
+      "DC.Date.modified": [
+        "2021-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "12063"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2021oa12063"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/12063"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "6"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare"
+      ],
+      "DC.Title.Alternative": [
+        "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Giovanna Del Gobbo"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Firenze"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Giovanna Del Gobbo"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "L’assicurazione della qualità e la gestione della qualità, elementi chiave per l’attuazione e gli sviluppi del Processo di Bologna, sono sempre di più considerate sfide centrali nella governance dell’alta formazione. L’importanza di promuovere una cultura della qualità ha acquisito, parallelamente e sinergicamente, un'attenzione crescente negli ultimi due decenni. Una cultura della qualità può essere sostenuta favorendo processi di sense making e comprensione del sistema complessivo della didattica, favorendo l’accesso critico e l’interpretazione degli artefatti, delle norme, delle procedure con cui la specifica comunità sociale e culturale realizza le proprie pratiche e risolve i problemi, dei dispositivi relativi alla valutazione e assicurazione della qualità. Nel presente articolo si offrono alcuni elementi di riflessione e problematizzazione a partire dall’esperienza di formazione per docenti e neoassunti realizzata presso l’Università di Firenze.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "L’assicurazione della qualità e la gestione della qualità, elementi chiave per l’attuazione e gli sviluppi del Processo di Bologna, sono sempre di più considerate sfide centrali nella governance dell’alta formazione. L’importanza di promuovere una cultura della qualità ha acquisito, parallelamente e sinergicamente, un'attenzione crescente negli ultimi due decenni. Una cultura della qualità può essere sostenuta favorendo processi di sense making e comprensione del sistema complessivo della didattica, favorendo l’accesso critico e l’interpretazione degli artefatti, delle norme, delle procedure con cui la specifica comunità sociale e culturale realizza le proprie pratiche e risolve i problemi, dei dispositivi relativi alla valutazione e assicurazione della qualità. Nel presente articolo si offrono alcuni elementi di riflessione e problematizzazione a partire dall’esperienza di formazione per docenti e neoassunti realizzata presso l’Università di Firenze."
+          }
+        },
+        {
+          "content": "L’assicurazione della qualità e la gestione della qualità, elementi chiave per l’attuazione e gli sviluppi del Processo di Bologna, sono sempre di più considerate sfide centrali nella governance dell’alta formazione. L’importanza di promuovere una cultura della qualità ha acquisito, parallelamente e sinergicamente, un'attenzione crescente negli ultimi due decenni. Una cultura della qualità può essere sostenuta favorendo processi di sense making e comprensione del sistema complessivo della didattica, favorendo l’accesso critico e l’interpretazione degli artefatti, delle norme, delle procedure con cui la specifica comunità sociale e culturale realizza le proprie pratiche e risolve i problemi, dei dispositivi relativi alla valutazione e assicurazione della qualità. Nel presente articolo si offrono alcuni elementi di riflessione e problematizzazione a partire dall’esperienza di formazione per docenti e neoassunti realizzata presso l’Università di Firenze.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’assicurazione della qualità e la gestione della qualità, elementi chiave per l’attuazione e gli sviluppi del Processo di Bologna, sono sempre di più considerate sfide centrali nella governance dell’alta formazione. L’importanza di promuovere una cultura della qualità ha acquisito, parallelamente e sinergicamente, un'attenzione crescente negli ultimi due decenni. Una cultura della qualità può essere sostenuta favorendo processi di sense making e comprensione del sistema complessivo della didattica, favorendo l’accesso critico e l’interpretazione degli artefatti, delle norme, delle procedure con cui la specifica comunità sociale e culturale realizza le proprie pratiche e risolve i problemi, dei dispositivi relativi alla valutazione e assicurazione della qualità. Nel presente articolo si offrono alcuni elementi di riflessione e problematizzazione a partire dall’esperienza di formazione per docenti e neoassunti realizzata presso l’Università di Firenze."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "cultura della qualità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "cultura della qualità"
+          }
+        },
+        {
+          "content": "assicurazione della qualità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "assicurazione della qualità"
+          }
+        },
+        {
+          "content": "azione educativa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "azione educativa"
+          }
+        },
+        {
+          "content": "faculty development",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "faculty development"
+          }
+        },
+        {
+          "content": "cultura organizzativa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "cultura organizzativa"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/12063/951",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12063/951",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12063/951",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12063/951",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/12063/951",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2021-06-25",
+        "mod_date": "2021-06-25"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12063 Cultura della Qualità e Faculty Development: Sinergie da Sviluppare Culture of Quality and Faculty Development: Fostering Synergies Giovanna Del Gobbo* Riassunto L’assicurazione della qualità e la gestione della qualità, elementi chiave per l’attuazione e gli sviluppi del Processo di Bologna, sono sempre di più considerate sfide centrali nella governance dell’alta formazione. L’importanza di promuovere una cultura della qualità ha acquisito, parallelamente e sinergi- camente, un'attenzione crescente negli ultimi due decenni. Una cultura della qualità può essere sostenuta favorendo processi di sense making e compren- sione del sistema complessivo della didattica, favorendo l’acce sso critico e l’interpretazione degli artefatti, delle norme, delle procedure con cui la speci- fica comunità sociale e culturale realizza le proprie pratiche e risolve i pro- blemi, dei dispositivi relativi alla valutazione e assicurazione della qualità. Nel presente articolo si offrono alcuni elementi di riflessione e problematizza- zione a partire dall’esperienza di formazione per docenti e neoassunti realiz- zata presso l’Università di Firenze. Parole chiave: Cultura della qualità. assicur azione della qualità, azione edu- cativa, faculty development, cultura organizzativa Abstract Quality assurance and quality manag ement are key elements in th e implementation and development of the Bologna Process and they are increasingly central challenges in the governance of higher edu cation. The importance of promoting a culture of quality has acquired incre asing attention in the last two decades. A culture of quality can be sustained by favouring * Università degli Studi di Firenze. E-mail: giovanna.delgobbo@unifi.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\12063\\2499-507X_12063.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2021,
+      "raw_dc_rights": [
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+        "pdf_value": null,
+        "chosen_value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-06-18",
+        "pdf_value": null,
+        "chosen_value": "2021-06-18",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2021",
+        "pdf_value": null,
+        "chosen_value": "2021",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12063",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12063",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:31:00Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12063\\temp\\2499-507X_12063.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:31:03Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12063\\2499-507X_12063.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+        "submitted_date": "2021-06-18",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2021",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Giovanna Del Gobbo"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12063\\2499-507X_12063.pdf",
+        "generated_at_utc": "2026-04-21T21:31:03Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2021-06-25",
+          "mod_date": "2021-06-25"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12063 Cultura della Qualità e Faculty Development: Sinergie da Sviluppare Culture of Quality and Faculty Development: Fostering Synergies Giovanna Del Gobbo* Riassunto L’assicurazione della qualità e la gestione della qualità, elementi chiave per l’attuazione e gli sviluppi del Processo di Bologna, sono sempre di più considerate sfide centrali nella governance dell’alta formazione. L’importanza di promuovere una cultura della qualità ha acquisito, parallelamente e sinergi- camente, un'attenzione crescente negli ultimi due decenni. Una cultura della qualità può essere sostenuta favorendo processi di sense making e compren- sione del sistema complessivo della didattica, favorendo l’acce sso critico e l’interpretazione degli artefatti, delle norme, delle procedure con cui la speci- fica comunità sociale e culturale realizza le proprie pratiche e risolve i pro- blemi, dei dispositivi relativi alla valutazione e assicurazione della qualità. Nel presente articolo si offrono alcuni elementi di riflessione e problematizza- zione a partire dall’esperienza di formazione per docenti e neoassunti realiz- zata presso l’Università di Firenze. Parole chiave: Cultura della qualità. assicur azione della qualità, azione edu- cativa, faculty development, cultura organizzativa Abstract Quality assurance and quality manag ement are key elements in th e implementation and development of the Bologna Process and they are increasingly central challenges in the governance of higher edu cation. The importance of promoting a culture of quality has acquired incre asing attention in the last two decades. A culture of quality can be sustained by favouring * Università degli Studi di Firenze. E-mail: giovanna.delgobbo@unifi.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Cultura della Qualità e Faculty Development: Sinergie da Sviluppare",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-06-18",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-06-18",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:10Z"
+        },
+        "copyright_year": {
+          "page_value": "2021",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:46:12Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12063\\temp\\2499-507X_12063.conflicts.json"
+  }
+}
