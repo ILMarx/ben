@@ -20,9 +20,22 @@ function buildPersonCard(person, role) {
 
 function renderPeopleGrid(containerId, role) {
   const container = document.getElementById(containerId);
-  if (!container || typeof PEOPLE === "undefined") return;
+  if (!container) return;
 
-  const filtered = PEOPLE.filter(person => Array.isArray(person.roles) && person.roles.includes(role));
+  if (typeof PEOPLE === "undefined" || !Array.isArray(PEOPLE)) {
+    container.innerHTML = '<p class="note">People data could not be loaded.</p>';
+    return;
+  }
+
+  const filtered = PEOPLE.filter(person =>
+    Array.isArray(person.roles) && person.roles.includes(role)
+  );
+
+  if (filtered.length === 0) {
+    container.innerHTML = '<p class="note">No profiles are currently available.</p>';
+    return;
+  }
+
   container.innerHTML = filtered.map(person => buildPersonCard(person, role)).join("");
 }
 
