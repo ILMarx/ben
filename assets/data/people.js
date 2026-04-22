@@ -12,10 +12,10 @@ const PEOPLE = [
     picture: "assets/images/people/andrea-mattia-marcelli.png",
     emailUser: "andrea.marcelli",
     emailDomain: "unimercatorum.it"
-  }
+  },
   {
     id: "test",
-    name: "Test Test,
+    name: "Test Test",
     academicTitle: "Prof., Habil., Ph.D.",
     roles: ["board"],
     roleLabels: {
