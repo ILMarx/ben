@@ -420,6 +420,63 @@ section > :last-child {
   object-position: 50% 18%;
 }
 
+.journal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.journal-row-card {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  width: 100%;
+  min-height: 104px;
+  padding: 1rem 1.1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-soft);
+  text-decoration: none;
+  color: inherit;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.journal-row-card:hover,
+.journal-row-card:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(31, 41, 51, 0.08);
+  border-color: rgba(31, 78, 95, 0.28);
+  color: inherit;
+}
+
+.journal-row-card-muted {
+  opacity: 0.88;
+}
+
+.journal-row-logo {
+  width: 120px;
+  height: 72px;
+  object-fit: contain;
+  object-position: center;
+  flex: 0 0 120px;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius-sm) - 2px);
+  background: var(--surface-2);
+  padding: 0.35rem;
+}
+
+.journal-row-text {
+  min-width: 0;
+}
+
+.journal-row-text h3 {
+  margin: 0;
+  color: var(--heading);
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
 /* Tables */
 table {
   width: 100%;
