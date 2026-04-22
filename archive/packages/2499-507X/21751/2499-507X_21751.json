@@ -1,0 +1,902 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21751",
+  "scraped_at_utc": "2026-04-21T21:36:04Z",
+  "fetched_at_utc": "2026-04-21T21:36:04Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "108a314b33b240b0b425d975c285a26abdb95096fdaf5f7e77d8ec976d743600",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Mariapia Mazzella",
+        "nameType": "Personal",
+        "givenName": "Mariapia",
+        "familyName": "Mazzella",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Cassino, Lazio Meridionale. Cassino, Italy"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Arianna Fogliata",
+        "nameType": "Personal",
+        "givenName": "Arianna",
+        "familyName": "Fogliata",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Campania “Luigi Vanvitelli”, Caserta, Italy"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Antinea Ambretti",
+        "nameType": "Personal",
+        "givenName": "Antinea",
+        "familyName": "Ambretti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università Telematica Pegaso, Naples, Italy"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/21751",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-11-25",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-12-30",
+      "Issued": "2025-12-30",
+      "Accepted": "2025-11-25"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The research investigates the effectiveness of Body Percussion as a motor-musical practice in education, with particular attention to pupils with ADHD, within the paradigm of Embodied Cognition, which emphasizes the role of the body in cognitive, emotional and relational processes. The sample involved 106 primary and secondary school students: 75 included in the experimental group, subjected to weekly two-hour workshops for four months, and 31 in the control group, engaged in motor activities without musical components. The integrated analysis, based on quantitative and qualitative data (ANOVA with repeated measures, pre/post t-tests and systematic observations), showed significant improvements in the experimental group in almost all the macro-areas analysed, in particular motor-musical technique, involvement, inclusion and group cohesion (Cohen’s d = 0.65-1.39), while the control group showed no relevant changes. The subgroup with ADHD also benefited above all in social cohesion and active participation. The results confirm Body Percussion as an inclusive methodology that promotes cognitive development, social-emotional skills and psychophysical well-being.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "The research investigates the effectiveness of Body Percussion as a motor-musical practice in education, with particular attention to pupils with ADHD, within the paradigm of Embodied Cognition, which emphasizes the role of the body in cognitive, emotional and relational processes. The sample involved 106 primary and secondary school students: 75 included in the experimental group, subjected to weekly two-hour workshops for four months, and 31 in the control group, engaged in motor activities without musical components. The integrated analysis, based on quantitative and qualitative data (ANOVA with repeated measures, pre/post t-tests and systematic observations), showed significant improvements in the experimental group in almost all the macro-areas analysed, in particular motor-musical technique, involvement, inclusion and group cohesion (Cohen’s d = 0.65-1.39), while the control group showed no relevant changes. The subgroup with ADHD also benefited above all in social cohesion and active participation. The results confirm Body Percussion as an inclusive methodology that promotes cognitive development, social-emotional skills and psychophysical well-being.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2025oa21751",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "10",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Body Percussion",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "ADHD",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Embodied Cognition",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "experimental research",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "inclusive educational methodology",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/21751/3928",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "10",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Mazzella, M., Fogliata, A., & Ambretti, A. (2025). Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students. Excellence and Innovation in Learning and Teaching - Open Access , 10 (2). https://doi.org/10.3280/exioa2-2025oa21751",
+      "articleTitleEcho": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Ambrose, H. (2021). Experiencing success: an occupational therapy partnership programme. Gymnastics for children with attention deficit hyperactivity disorder. International Journal of Therapy and Rehabilitation, 28(10). Doi: 10.1108/ijot-03-2021-0005.",
+        "Barkley, R. A. (2006). Attention-Deficit Hyperactivity Disorder: A Handbook for Diagnosis and Treatment. New York: Guiford Publications.",
+        "Biederman, J., & Faraone, S. V. (2005). Attention-deficit hyperactivity disorder. Lancet, 366: 237-248. Doi: 10.1016/S0140-6736(05)66915-2.",
+        "Barsalou, L. W. (2008). Grounded cognition. Annual Review of Psychology, 59: 617-645.",
+        "Brown, T. E. (2005). Attention Deficit Disorder: The Unfocused Mind in Children and Adults. Yale University Press. 5.",
+        "Braun, V., Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3(2): 77-101. Doi: 10.1191/1478088706qp063oa.",
+        "Carlomagno, N., Palumbo, C., & Sibilio, M. (2014). Traiettorie non lineari della ricerca didattica: Le potenzialità metaforiche ed inclusive delle corporeità didattiche. Italian Journal of Special Education for Inclusion, 2(1): 129-143. Doi: 10.7346/sipes-01-2014-42.",
+        "Damiani, G., Basso, D., Acampora, A., Bianchi, C.B., Silvestrini, G., Frisicale, E.M., Sassi, F., Ricciardi, W. (2015). The impact of level of education on adherence to breast and cervical cancer screening: Evidence from a systematic review and meta-analysis. Prev Med., 81: 281-9. doi: 10.1016/j.ypmed.2015.09.011.",
+        "Delalande F. (1993). Le condotte musicali. Comportamenti e motivazioni del fare e ascoltare musica, a cura di Giovanna Guardabasso e Luca Marconi. Bologna: Clueb.",
+        "Dewey J. (1968). Come pensiamo. Firenze: La Nuova Italia.",
+        "Diamond, A. (2013). Executive functions. Annual Review of Psychology, 64: 135-168. Doi: 10.1146/annurev-psych-113011-143750.",
+        "DuPaul, G. J., & Stoner, G. (2014). ADHD in the schools: Assessment and intervention strategies (3rd ed.). New York, NY: Guilford Press.",
+        "Edwards, C., Gandini, L., & Forman, G. (1998). The hundred languages of children: The Reggio Emilia approach to early childhood education. Norwood, NJ: Ablex Publishing.",
+        "Gallese, V. (2007). Dai neuroni specchio alla consonanza intenzionale: Meccanismi neurofisiologici dell’intersoggettività. Rivista di Psicoanalisi, 53(1): 197-208.",
+        "Gapin, J., Etnier, J.L. (2010). The relationship between physical activity and executive function performance in children with attention-deficit hyperactivity disorder. J. Sport Exerc. Psychol., 32(6): 753-63. doi: 10.1123/jsep.32.6.753.",
+        "Granja de Souza Campos, C. E. (2006). Musicalizando a escola: Música, conhecimento e educação. São Paulo, Brazil: Escrituras Editora.",
+        "Hoza, B. (2007). Peer functioning in children with ADHD. Journal of Pediatric Psychology, 32(6): 655-663. Doi: 10.1093/jpepsy/jsm024.",
+        "Jaques-Dalcroze, E. (2008). Il ritmo, la musica e l’educazione (A. Loiacono Husain, Trans.). Torino, Italy: EDT. (Original work published 1921).",
+        "Massa, R. (1983). Le tecniche e i corpi verso una scienza dell’educazione. Trezzano sul Naviglio: Unicopli.",
+        "Mikami, A. Y. (2010). The importance of friendship for youth with attention-deficit/hyperactivity disorder. Clinical Child and Family Psychology Review, 13(2): 181-198. Doi. 10.1007/s10567-010-0067-y.",
+        "Orff, C. (1978). The Orff approach to music education. New York, NY: Schott Music.",
+        "Pontifex, M.B., Saliba, B.J., Raine, L.B., Picchietti, D.L., Hillman, C.H. (2013). Exercise improves behavioral, neurocognitive, and scholastic performance in children with attention-deficit/hyperactivity disorder. J Pediatr., 162(3):543-51. doi: 10.1016/j.jpeds.2012.08.036.",
+        "Rosa, H. (2015). Accelerazione e alienazione: Per una teoria critica del tempo nella tarda modernità (Beschleunigung: Die Veränderung der Zeitstrukturen in der Moderne). Einaudi.",
+        "Rivoltella, P. C. (2023). L’analisi pedagogica e i suoi oggetti al tempo dell’Intelligenza Artificiale. Studi Sulla Formazione – Open Journal of Education, 26(2): 63-67. Doi: 10.36253/ssf-14975.",
+        "Rizzolatti, G., Sinigaglia, C. (2006). So quel che fai. Il cervello che agisce e i neuroni specchio. Milano: Raffaello Cortina Editore.",
+        "Schatz, N. K., Weimer, M., & Lavergne, L. S. (2001). Attention-deficit/hyperactivity disorder with developmental coordination disorder. Seminars in Pediatric Neurology, 8(2): 131-140. Doi: 10.1053/spen.2001.24910.",
+        "Valentini M., Canini A. (2020). ADHD: Systematic review of the beneficial effects of motor activity. European Journal of Educational and Teaching, 18(3): 162-179. Doi: 10.7346/-fei-XVIII-03-20_13.",
+        "Varela, F. J., Thompson, E., & Rosch, E. (1991). The embodied mind: Cognitive science and human experience. Cambridge: MA: MIT Press.",
+        "Verret, C., Guay, M. C., Berthiaume, C., Gardiner, P., & Béliveau, L. (2012). A physical activity program improves behavior and cognitive functions in children with ADHD: an exploratory study. Journal of Attention Disorders, 16(1): 71-80. Doi: 10.1177/1087054710379735.",
+        "Vygotskij, L. S. (1993). Lo sviluppo psichico del bambino. Milano, Italy: Editori Riuniti.",
+        "Wassenaar, T.M., Williamson, W., Johansen-Berg, H., Dawes, H., Roberts, N., Foster, C., Sexton, C.E. (2020). A critical evaluation of systematic reviews assessing the effect of chronic physical activity on academic achievement, cognition and the brain in children and adolescents: a systematic review. Int J Behav Nutr Phys Act., 17(1): 79. Doi: 10.1186/s12966-020-00959-y.",
+        "Wilson, M. (2002). Six views of embodied cognition. Psychonomic Bulletin & Review, 9(4): 625-636. Doi. 10.3758/BF03196322.",
+        "Zwaan, R. A. (1999). Embodied cognition, perceptual symbols, and situation models. Discourse Processes, 28: 81-88."
+      ],
+      "count": 33,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_21751",
+    "article_ID": "21751",
+    "slug": "21751",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "21751",
+      "url_slug": "21751"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-09-30",
+      "accepted": "2025-11-25",
+      "created": "2025-12-30",
+      "modified": "2025-12-30",
+      "issued": "2025-12-30",
+      "available": "2025-12-30",
+      "submitted_page": "2025-12-21",
+      "submitted_pdf": "2025-09-30",
+      "accepted_page": null,
+      "accepted_pdf": "2025-11-25"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+        "pdf_value": null,
+        "chosen_value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-12-21",
+        "pdf_value": "2025-09-30",
+        "chosen_value": "2025-09-30",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2025-11-25",
+        "chosen_value": "2025-11-25",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21751/3928",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21751/3928",
+      "local_relative_path": "2499-507X_21751.pdf",
+      "saved": true,
+      "sha256": "33742230d8ecf6cc61d262f760d26bdf7228c1611d1925ffa7b03177e7e90ba5",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1233664,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Mariapia Mazzella",
+        "Arianna Fogliata",
+        "Antinea Ambretti"
+      ],
+      "citation_author_institution": [
+        "University of Cassino, Lazio Meridionale. Cassino, Italy",
+        "University of Campania “Luigi Vanvitelli”, Caserta, Italy",
+        "Università Telematica Pegaso, Naples, Italy"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2025/12/30"
+      ],
+      "citation_volume": [
+        "10"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2025oa21751"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/21751"
+      ],
+      "citation_keywords": [
+        "Body Percussion",
+        "ADHD",
+        "Embodied Cognition",
+        "experimental research",
+        "inclusive educational methodology"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/21751/3928"
+      ],
+      "citation_reference_count": 33,
+      "DC.Date.created": [
+        "2025-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-12-21"
+      ],
+      "DC.Date.issued": [
+        "2025-12-30"
+      ],
+      "DC.Date.modified": [
+        "2025-12-30"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "21751"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2025oa21751"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/21751"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "10"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students"
+      ],
+      "DC.Title.Alternative": [
+        "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Mariapia Mazzella",
+        "Arianna Fogliata",
+        "Antinea Ambretti"
+      ],
+      "citation_author_institution": [
+        "University of Cassino, Lazio Meridionale. Cassino, Italy",
+        "University of Campania “Luigi Vanvitelli”, Caserta, Italy",
+        "Università Telematica Pegaso, Naples, Italy"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Mariapia Mazzella",
+        "Arianna Fogliata",
+        "Antinea Ambretti"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The research investigates the effectiveness of Body Percussion as a motor-musical practice in education, with particular attention to pupils with ADHD, within the paradigm of Embodied Cognition, which emphasizes the role of the body in cognitive, emotional and relational processes. The sample involved 106 primary and secondary school students: 75 included in the experimental group, subjected to weekly two-hour workshops for four months, and 31 in the control group, engaged in motor activities without musical components. The integrated analysis, based on quantitative and qualitative data (ANOVA with repeated measures, pre/post t-tests and systematic observations), showed significant improvements in the experimental group in almost all the macro-areas analysed, in particular motor-musical technique, involvement, inclusion and group cohesion (Cohen’s d = 0.65-1.39), while the control group showed no relevant changes. The subgroup with ADHD also benefited above all in social cohesion and active participation. The results confirm Body Percussion as an inclusive methodology that promotes cognitive development, social-emotional skills and psychophysical well-being.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The research investigates the effectiveness of Body Percussion as a motor-musical practice in education, with particular attention to pupils with ADHD, within the paradigm of Embodied Cognition, which emphasizes the role of the body in cognitive, emotional and relational processes. The sample involved 106 primary and secondary school students: 75 included in the experimental group, subjected to weekly two-hour workshops for four months, and 31 in the control group, engaged in motor activities without musical components. The integrated analysis, based on quantitative and qualitative data (ANOVA with repeated measures, pre/post t-tests and systematic observations), showed significant improvements in the experimental group in almost all the macro-areas analysed, in particular motor-musical technique, involvement, inclusion and group cohesion (Cohen’s d = 0.65-1.39), while the control group showed no relevant changes. The subgroup with ADHD also benefited above all in social cohesion and active participation. The results confirm Body Percussion as an inclusive methodology that promotes cognitive development, social-emotional skills and psychophysical well-being."
+          }
+        },
+        {
+          "content": "The research investigates the effectiveness of Body Percussion as a motor-musical practice in education, with particular attention to pupils with ADHD, within the paradigm of Embodied Cognition, which emphasizes the role of the body in cognitive, emotional and relational processes. The sample involved 106 primary and secondary school students: 75 included in the experimental group, subjected to weekly two-hour workshops for four months, and 31 in the control group, engaged in motor activities without musical components. The integrated analysis, based on quantitative and qualitative data (ANOVA with repeated measures, pre/post t-tests and systematic observations), showed significant improvements in the experimental group in almost all the macro-areas analysed, in particular motor-musical technique, involvement, inclusion and group cohesion (Cohen’s d = 0.65-1.39), while the control group showed no relevant changes. The subgroup with ADHD also benefited above all in social cohesion and active participation. The results confirm Body Percussion as an inclusive methodology that promotes cognitive development, social-emotional skills and psychophysical well-being.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "The research investigates the effectiveness of Body Percussion as a motor-musical practice in education, with particular attention to pupils with ADHD, within the paradigm of Embodied Cognition, which emphasizes the role of the body in cognitive, emotional and relational processes. The sample involved 106 primary and secondary school students: 75 included in the experimental group, subjected to weekly two-hour workshops for four months, and 31 in the control group, engaged in motor activities without musical components. The integrated analysis, based on quantitative and qualitative data (ANOVA with repeated measures, pre/post t-tests and systematic observations), showed significant improvements in the experimental group in almost all the macro-areas analysed, in particular motor-musical technique, involvement, inclusion and group cohesion (Cohen’s d = 0.65-1.39), while the control group showed no relevant changes. The subgroup with ADHD also benefited above all in social cohesion and active participation. The results confirm Body Percussion as an inclusive methodology that promotes cognitive development, social-emotional skills and psychophysical well-being."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Body Percussion",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Body Percussion"
+          }
+        },
+        {
+          "content": "ADHD",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "ADHD"
+          }
+        },
+        {
+          "content": "Embodied Cognition",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Embodied Cognition"
+          }
+        },
+        {
+          "content": "experimental research",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "experimental research"
+          }
+        },
+        {
+          "content": "inclusive educational methodology",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "inclusive educational methodology"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/21751/3928",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21751/3928",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21751/3928",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21751/3928",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21751/3928",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": "2025-09-30",
+      "accepted_pdf": "2025-11-25",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 06_Mazzellaetal",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 25.0 (Windows)",
+        "keywords": null,
+        "creation_date": "2025-12-21",
+        "mod_date": "2025-12-30"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 2 Doi: 10.3280/exioa2-2025oa21751 Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students Mariapia Mazzella*, Arianna Fogliata^, Antinea Ambretti° Abstract The research investigates the effectiv eness of Body Percussion as a motor- musical practice in education, with pa rticular attention to pupils with ADHD , within the paradigm of Embodied Cognition, which emphasizes the role of the body in cognitive, emotional and relational processes. The sample involved 106 primary and secondary school students: 75 included in the experimental group, subjected to weekly two-hour workshops for four months, and 31 in the control group, engaged in motor activities without musical components. The integrated analysis, based on quantitative and qua litative data (ANOVA with repeated measures, pre/post t-tests and systematic observations), showed significant improvements in the experimental group in almost all the macro-areas analysed, in particular motor-musical technique, involvement, inclusion and group cohesion (Cohen’s d = 0.65-1.39), while the control group showed no relevant changes. The subgroup with ADHD also benefited above all in social cohesion and active participation. The results confirm Body Percussion as an inclusive methodology that promotes cognitive development, social-emotional skills and psychophysical well-being. Keywords: Body Percussion; ADHD; Embodied Cognition; experimental research; inclusive educational methodology Article submitted: 30/09/2025; accepted: 25/11/2025 * University of Cassino, Lazio Meridionale. Cassino, Italy. E-mail: mariapia.mazzella@unicas.it. ^ University of Campania “Luigi Vanvitelli”, Caserta, Italy. ° Università Telematica Pegaso, Naples, Italy. The article is the result of the joint work of all the authors. However, it is possible to attribute to M. Mazzella par. 1-2-3-6, to A. Fogliata par. 4-5 and to A.Ambretti par. 1-6 who also is the scientific supervisor of the article. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\21751\\2499-507X_21751.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+        "pdf_value": null,
+        "chosen_value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-12-21",
+        "pdf_value": "2025-09-30",
+        "chosen_value": "2025-09-30",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2025-11-25",
+        "chosen_value": "2025-11-25",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21751",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21751",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:36:04Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21751\\temp\\2499-507X_21751.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:36:06Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21751\\2499-507X_21751.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+        "submitted_date": "2025-12-21",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Mariapia Mazzella",
+          "Arianna Fogliata",
+          "Antinea Ambretti"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21751\\2499-507X_21751.pdf",
+        "generated_at_utc": "2026-04-21T21:36:05Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 06_Mazzellaetal",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 25.0 (Windows)",
+          "keywords": null,
+          "creation_date": "2025-12-21",
+          "mod_date": "2025-12-30"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 2 Doi: 10.3280/exioa2-2025oa21751 Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students Mariapia Mazzella*, Arianna Fogliata^, Antinea Ambretti° Abstract The research investigates the effectiv eness of Body Percussion as a motor- musical practice in education, with pa rticular attention to pupils with ADHD , within the paradigm of Embodied Cognition, which emphasizes the role of the body in cognitive, emotional and relational processes. The sample involved 106 primary and secondary school students: 75 included in the experimental group, subjected to weekly two-hour workshops for four months, and 31 in the control group, engaged in motor activities without musical components. The integrated analysis, based on quantitative and qua litative data (ANOVA with repeated measures, pre/post t-tests and systematic observations), showed significant improvements in the experimental group in almost all the macro-areas analysed, in particular motor-musical technique, involvement, inclusion and group cohesion (Cohen’s d = 0.65-1.39), while the control group showed no relevant changes. The subgroup with ADHD also benefited above all in social cohesion and active participation. The results confirm Body Percussion as an inclusive methodology that promotes cognitive development, social-emotional skills and psychophysical well-being. Keywords: Body Percussion; ADHD; Embodied Cognition; experimental research; inclusive educational methodology Article submitted: 30/09/2025; accepted: 25/11/2025 * University of Cassino, Lazio Meridionale. Cassino, Italy. E-mail: mariapia.mazzella@unicas.it. ^ University of Campania “Luigi Vanvitelli”, Caserta, Italy. ° Università Telematica Pegaso, Naples, Italy. The article is the result of the joint work of all the authors. However, it is possible to attribute to M. Mazzella par. 1-2-3-6, to A. Fogliata par. 4-5 and to A.Ambretti par. 1-6 who also is the scientific supervisor of the article. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": "2025-09-30",
+          "accepted_date": "2025-11-25",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 06_Mazzellaetal",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": "2025-09-30",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2025-11-25",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Body Percussion and Educational Processes: Embodied Perspectives and Teaching Applications with ADHD Students",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-12-21",
+          "pdf_value": "2025-09-30",
+          "preferred_source": "pdf",
+          "chosen_value": "2025-09-30",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:53:10Z"
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2025-11-25",
+          "preferred_source": "pdf",
+          "chosen_value": "2025-11-25",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:53:19Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:53:22Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21751\\temp\\2499-507X_21751.conflicts.json"
+  }
+}

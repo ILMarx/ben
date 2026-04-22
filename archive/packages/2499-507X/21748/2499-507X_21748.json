@@ -1,0 +1,937 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21748",
+  "scraped_at_utc": "2026-04-21T21:35:52Z",
+  "fetched_at_utc": "2026-04-21T21:35:52Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "af36f506cda8bd8e57e13b94fc1be78774ad92c46bdd444bce2f677894d5f14f",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Francesca Crudele",
+        "nameType": "Personal",
+        "givenName": "Francesca",
+        "familyName": "Crudele",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padua"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Juliana Elisa Raffaghelli",
+        "nameType": "Personal",
+        "givenName": "Juliana Elisa",
+        "familyName": "Raffaghelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padua"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alicia García-Holgado",
+        "nameType": "Personal",
+        "givenName": "Alicia",
+        "familyName": "García-Holgado",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Universidad de Salamanca"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alexandros T. Tzallas",
+        "nameType": "Personal",
+        "givenName": "Alexandros T.",
+        "familyName": "Tzallas",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Ioannina"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/21748",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-12-30",
+      "Issued": "2025-12-30"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The adoption of Open Educational Resources (OER) represents a turning point in democratizing access to knowledge and promoting innovative educational practices. The ENCORE project aims to integrate the use of OER with digital, green and entrepreneurial (DGE) skills through a system based on advanced artificial intelligence technologies. This study analyzes results of a transnational intervention aimed at assessing ENCORE’s impact on increasing OER-related knowledge (OER Knowledge) and explores outcome variability across learner profiles and intervention types. The data collected shows a significant increase in participants’ ability to identify, use and integrate OER in their educational settings, as well as an improvement in their understanding of open licenses and open educational practices. These findings highlight ENCORE’s potential as a tool to facilitate access to OER, emphasizing the importance of course design in shaping learning outcomes and educational practices. ENCORE proves to be a valuable tool for enhancing professional development and promoting innovation. The article reflects implications for instructional design and the adoption of open AI-supported education.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "The adoption of Open Educational Resources (OER) represents a turning point in democratizing access to knowledge and promoting innovative educational practices. The ENCORE project aims to integrate the use of OER with digital, green and entrepreneurial (DGE) skills through a system based on advanced artificial intelligence technologies. This study analyzes results of a transnational intervention aimed at assessing ENCORE’s impact on increasing OER-related knowledge (OER Knowledge) and explores outcome variability across learner profiles and intervention types. The data collected shows a significant increase in participants’ ability to identify, use and integrate OER in their educational settings, as well as an improvement in their understanding of open licenses and open educational practices. These findings highlight ENCORE’s potential as a tool to facilitate access to OER, emphasizing the importance of course design in shaping learning outcomes and educational practices. ENCORE proves to be a valuable tool for enhancing professional development and promoting innovation. The article reflects implications for instructional design and the adoption of open AI-supported education.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2025oa21748",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "10",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "open educational resources",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "technology acceptance",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "AI-driven tools",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "open science",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "educational practices",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "DGE skills",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/21748/3925",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "10",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Crudele, F., Raffaghelli, J. E., García-Holgado, A., & Tzallas, A. T. (2025). The Challenge of OER in the Era of AI: A Transnational Intervention. Excellence and Innovation in Learning and Teaching - Open Access , 10 (2). https://doi.org/10.3280/exioa2-2025oa21748",
+      "articleTitleEcho": "The Challenge of OER in the Era of AI: A Transnational Intervention"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Anderson, L. W., Krathwohl, D. R., Airasian, P. W., Cruikshank, K. A., Mayer, R. E., Pintrich, P. R., et al. (2001). A Taxonomy for Learning, Teaching, and Assessing: A Revision of Bloom’s Taxonomy of Educational Objectives. Longman.",
+        "Bloom, B. S. (1956). Taxonomy of educational objectives: The classification of educational goals, 1-2. Longmans, Green & Co.",
+        "Bucchiarone, A., Vázquez-Ingelmo, A., Schiavo, G., Barandoni, S., García-Holgado, A., García-Peñalvo, F.J., Mosser, S., Pierantonio, A., Zschaler, S., & Barnett, W. (2023). Towards Personalized Learning Paths to Empower Competence Development in Model Driven Engineering Through the ENCORE Platform. IEEEXplore. Doi: 10.1109/MODELS-C59198.2023.00036.",
+        "Bucchiarone, A., Cicchetti, A., Vázquez-Ingelmo, A., Adami, F., Schiavo, G., García-Holgado, A., & García-Peñalvo, F.J. (2024). Designing and Generating Lesson Plans combining Open Educational Content and Generative AI. In MODELS Companion ‘24: ACM/IEEE 27th International Conference on Model Driven Engineering Languages and Systems (pp. 78-86). Doi: 10.1145/3652620.3687773.",
+        "Caena, F. (2014). Teacher Competence Frameworks in Europe: Policy-as-discourse and policy-aspractice. European Journal of Education, 49(3): 311-331. https://www.jstor.org/stable/26609223.",
+        "Camilleri, A., Ferrari, L., Haywood, J., Maina, M.F., Pérez-Mateo, M., Montes, R., Sangrà, A., & Tannhäuser, A.C. (2012). Open Learning Recognition: Taking Open Educational Resources a Step Further. EFQUEL – European Foundation for Quality in e-Learning. http://hdl.handle.net/10609/21341.",
+        "Council of the European Union (2018). Council recommendation of 22 May 2018 on key competences for lifelong learning. Official Journal of the European Union, C189, 1-13. https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX: 32018H0604(01).",
+        "Cronin, C. (2017). Openness and Praxis: Exploring the Use of Open Educational Practices in Higher Education. The International Review of Research in Open and Distributed Learning, 18(5). Doi: 10.19173/irrodl.v18i5.3096.",
+        "Darling-Hammond, L., Holtzman, D. J., Gatlin, S. J., & Heilig, J. V. (2005). Does Teacher Preparation Matter? Evidence about Teacher Certification, Teach for America, and Teacher Effectiveness. Education Policy Analysis Archives, 13(42): 1-51. Doi. 10.14507/epaa.v13n42.2005.",
+        "Darling-Hammond, L., Hyler, M. E., & Gardner, M. (2017). Effective Teacher Professional Development. Learning Policy Institute, 1-76. https://learningpolicyinstitute.org/sites/default/files/productfiles/Effective_Teacher_Professional_Development_REPORT.pdf.",
+        "Elias, M., Oelen, A., Tavakoli, M., Kismihok, G., & Auer, S. (2020). Quality Evaluation of Open Educational Resources. In: C. Alario-Hoyos, M. J. Rodríguez-Triana, M. Scheffel, I. Arnedillo-Sánchez, & S. M. Dennerlein (Eds.). Addressing global challenges and quality education: 15th European Conference on Technology Enhanced Learning, EC-TEL 2020, Heidelberg, Germany, September 14-18. Proceedings (pp. 410-415). Springer. Doi: 10.1007/978-3-030-57717-9_36.",
+        "European Commission (2007). Improving the Quality of Teacher Education. [Report] https://eurlex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52007DC03 92.",
+        "European Commission (2025, January 9). L’UE e le Nazioni Unite: obiettivi comuni per un futuro sostenibile [The EU and the United Nations: common goals for a sustainable future]. Sustainable Development Goals. European Repository. https://commission.europa.eu/strategy-and-policy/sustainable-development-goals/ eu-and-united-nations-common-goals-sustainable-future_it.",
+        "European Council (2014). Council conclusions of 20 May 2014 on effective teacher education. Retrieved from https://eur-lex.europa.eu/legalcontent/EN/TXT/PDF/? uri=CELEX:52014XG0614(05)&from=EN.",
+        "European Council (2017). Council Conclusions on school development and excellent teaching. Official Journal of the European Union. https://eur-lex.europa.eu/ legalcontent/EN/TXT/PDF/?uri=CELEX%3A52017XG1208%2801%29&from=EN.",
+        "European Council (2020). Council conclusions on “European teachers and trainers for the future”. Official Journal of the European Union. https://eur-lex.europa.eu/ legalcontent/EN/TXT/HTML/?uri=CELEX:52020XG0609(02)&rid=5.",
+        "García-Peñalvo, F. J., Corell, A., Rivero-Ortega, R., Rodríguez-Conde, M. J., & Rodríguez-García, N. (2021). Impact of the COVID-19 on Higher Education: An Experience-Based Approach. In: F. J. García-Peñalvo (Ed.), Information Technology Trends for a Global and Interdisciplinary Research Community (pp. 1-18). IGI Global. Doi: 10.4018/978-1-7998-4156-2.ch001.",
+        "Greving, C. E., & Richter, T. (2021). Beyond the Distributed Practice Effect: Is Distributed Learning also Effective for Learning with Non-repeated Text Materials?. Frontiers in Psychology, 12. Doi: 10.3389/fpsyg.2021.685245.",
+        "Inamorato, D. S. A., Punie, Y., & Castaño, M. J. (2016). Opening up Education: A Support Framework for Higher Education Institutions. JRC Publications Repository. Doi: 10.2791/293408.",
+        "Kılıçkaya, F., & Kic-Drgas, J. (2021). Issues of context and design in OER (open educational resources). Education Tech Research Dev, 69: 401-405. Doi: 10.1007/s11423-020-09852-8.",
+        "Kuhn, C., & Raffaghelli, J. E. (2023). ‘Something Important is Going on With Data’: Educators’ Search for Political Agency to Act as Professionals in Complex Datafied Contexts. In: Human Data Interaction, Disadvantage and Skills in the Community: Enabling Cross-Sector Environments for Postdigital Inclusion (pp. 53-77). Springer International Publishing.",
+        "McDaniel, M. A., Fadler, C. L., & Pashler, H. (2013). Effects of Spaced Versus Massed Training in Function Learning. Journal of Experimental Psychology: Learning, Memory, and Cognition, 39(5): 1417-1432. Doi: 10.1037/a0032184.",
+        "OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. OECD Publishing. Doi: 10.1787/9789264018044-en.",
+        "OECD (2019). TALIS 2018 Results (Vol. 1): Teachers and School Leaders as Lifelong Learners. OECD Publishing. Doi: 10.1787/1d0bc92a-en.",
+        "Ossiannilsson, E., Zhang, X., Wetzler, J., Gusmão, C., Aydin, C. H., Jhangiani, R., Glapa-Grossklag, J., Makoe, M., Harichandan, D. (2020). From Open Educational Resources to Open Educational Practices. Distances et médiations des savoirs, 31. Doi: 10.4000/dms.5393.",
+        "Padilla-Zea, N., Burgos, D., García-Holgado, A., García-Peñalvo, F. J., Harquevaux, M. P., de-la-Higuera, C., Brunton, J., & Tlili, A. (2022). Catch the Open! A gamified interactive immersion into Open Educational Practices for Higher Education Educators. Frontiers in Psychology, 13. Doi: 10.3389/fpsyg.2022.812091.",
+        "Parry, S. & Metzger, E. (2023). Barriers to learning for sustainability: a teacher perspective. Sustainable Earth Reviews, 6(2). Doi: 10.1186/s42055-022-00050-3.",
+        "Raffaghelli, J. E. (2014a). A Scholarship of Open Teaching and Learning: New basis for quality in higher education. Formazione&Insegnamento, European Journal of Research on Education and Teaching, 12(1): 211-244. http://ojs.pensamultimedia.it/index.php/siref/article/view/380.",
+        "Raffaghelli, J. E. (2014b). Learning Design as the base for adult educators’ professionalism in the field of intergenerational learning. Progettazione formativa come base per la professionalità dei formatori degli adulti nell’ambito dell’apprendimento intergenerazionale. Formazione & Insegnamento, XII(2): 275-309. https://ojs.pensamultimedia.it/index.php/siref/article/view/878.",
+        "Raffaghelli, J. E., Foschi, L. C., Crudele, F., Doria, B., Grion, V., & Cecchinato, G. (2023). The ENCORE Approach. Pedagogy of an AI-driven system to integrate OER in Higher Education & VET (DLV 5.1; ENCORE Project Report Series, pp. 1-94). University of Padova; Padova Research Archives. https://www.research.unipd.it/handle/11577/3502320.",
+        "Raffaghelli, J. E., Foschi, L. C., Crudele, F., Doria, B., Cechinato, G., & Grion, V. (2024). Codebook - Educathons & Internal Piloting - ENCORE APPROACH [Data set]. Zenodo. Doi: 10.5281/zenodo.11431597.",
+        "Redecker, C., & Punie, Y. (2017, 28 November). European framework for the digital competence of educators: DigCompEdu. Publications Office of the European Union. https://publications.jrc.ec.europa.eu/repository/handle/JRC107466.",
+        "Sancho-Gil, J. M., Rivera-Vargas, P., & Miño-Puigcercós, R. (2020). Moving beyond the predictable failure of Ed-Tech initiatives. Learning, Media and Technology, 45(1): 61-75. Doi: 10.1080/17439884.2019.1666873.",
+        "Selwyn, N. (2023). Lessons to Be Learnt? Education, Techno-solutionism, and Sustainable Development. In: H.S. Sætra (Ed.), Technology and Sustainable Development (pp. 71-83). Routledge. Doi: 10.1201/9781003325086.",
+        "Sirzmann, T., & Ely, K. (2011). A Meta-Analysis of Self-Regulated Learning in Work-Related Training andEducational Attainment: What We Know and Where We Need to Go. Psychological Bulletin, 137(3): 421-442. Doi: 10.1037/a0022777.",
+        "Stracke, C. M., Bozkurt, A., Conole, G., Nascimbeni, F., Ossiannilsson, E., Sharma, R. C., Burgos, D., Cangialosi, K., Fox, G., Mason, J., Nerantzi, C., Obiageli Agbu, J. F., Ramírez Montoya, M. S., Santos-Hermosa, G., Sgouropoulou, C., & Shon, J. G. (2020). Open education and open science for our global society during and after the COVID-19 outbreak. In: Proceedings of the Open Education Global Conference 2020 (pp. 1-4). Doi: 10.5281/zenodo.4274890.",
+        "Tlili, A., Shehata, B., Adarkwah, M.A., Bozkurt, A., Hickey, D.T., Huang, R., & Agyemang, B. (2023). What if the devil is my guardian angel: ChatGPT as a case study of using chatbots in education. Smart Learning Environments, 10(15). Doi: 10.1186/s40561-023-00237-x.",
+        "Veletsianos, G. (2020). Open educational resources: expanding equity or reflecting and furthering inequities?. Educational Technology Research and Development. 69(1): 407-410. Doi: 10.1007/s11423-020-09840-y.",
+        "Villar-Onrubia, D., Morini, L., Marín, V.I., & Nascimbeni, F. (2022). Critical digital literacy as a key for (post)digital citizenship: an international review of teacher competence frameworks. Journal of e-Learning and Knowledge Society, 18(3), 128-139. Doi: 10.20368/1971-8829/1135697.",
+        "Vladimirschi, V. (2018). Professional Development Guidelines for OER: A case study of Brazilian fundamental education public school teachers. DTheses. Faculty of Graduate Studies Dissertations and Theses. https://dt.athabascau.ca/jspui/handle/10791/266.",
+        "Vuorikari, R., Kluzer, S., & Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens - With new examples of knowledge, skills and attitudes. JRC Publications Repository. Doi: 10.2760/1153768.",
+        "UNESCO (2002). Forum on the Impact of Open Courseware for Higher Education in Developing Countries: Final Report. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000128515.",
+        "United Nations (2015). Transforming our World: The 2030 Agenda for Sustainable Development. United Nations. https://sdgs.un.org/2030agenda.",
+        "Wang, F., & Hannafin, M.J. (2005). Design-based research and technology-enhanced learning environments. Educational Technology Research and Development, 53(4): 5-23. Doi: 10.1007/BF02504682.",
+        "Wiley, D., & Hilton, J. (2018). Defining OER-Enabled Pedagogy. The International Review of Research in Open and Distributed Learning, 19(4). Doi: 10.19173/irrodl.v19i4.3601."
+      ],
+      "count": 45,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_21748",
+    "article_ID": "21748",
+    "slug": "21748",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "21748",
+      "url_slug": "21748"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-12-21",
+      "accepted": null,
+      "created": "2025-12-30",
+      "modified": "2025-12-30",
+      "issued": "2025-12-30",
+      "available": "2025-12-30",
+      "submitted_page": "2025-12-21",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+        "pdf_value": null,
+        "chosen_value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-12-21",
+        "pdf_value": null,
+        "chosen_value": "2025-12-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21748/3925",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21748/3925",
+      "local_relative_path": "2499-507X_21748.pdf",
+      "saved": true,
+      "sha256": "60c0a9c0db5739e9068d69bf87bdc88fece405d2802ea4ee9180d11258e4c8ca",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1279848,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Francesca Crudele",
+        "Juliana Elisa Raffaghelli",
+        "Alicia García-Holgado",
+        "Alexandros T. Tzallas"
+      ],
+      "citation_author_institution": [
+        "University of Padua",
+        "University of Padua",
+        "Universidad de Salamanca",
+        "University of Ioannina"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "The Challenge of OER in the Era of AI: A Transnational Intervention"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2025/12/30"
+      ],
+      "citation_volume": [
+        "10"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2025oa21748"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/21748"
+      ],
+      "citation_keywords": [
+        "open educational resources",
+        "technology acceptance",
+        "AI-driven tools",
+        "open science",
+        "educational practices",
+        "DGE skills"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/21748/3925"
+      ],
+      "citation_reference_count": 45,
+      "DC.Date.created": [
+        "2025-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-12-21"
+      ],
+      "DC.Date.issued": [
+        "2025-12-30"
+      ],
+      "DC.Date.modified": [
+        "2025-12-30"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "21748"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2025oa21748"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/21748"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "10"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 6,
+      "DC.Title": [
+        "The Challenge of OER in the Era of AI: A Transnational Intervention"
+      ],
+      "DC.Title.Alternative": [
+        "The Challenge of OER in the Era of AI: A Transnational Intervention"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Francesca Crudele",
+        "Juliana Elisa Raffaghelli",
+        "Alicia García-Holgado",
+        "Alexandros T. Tzallas"
+      ],
+      "citation_author_institution": [
+        "University of Padua",
+        "University of Padua",
+        "Universidad de Salamanca",
+        "University of Ioannina"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Francesca Crudele",
+        "Juliana Elisa Raffaghelli",
+        "Alicia García-Holgado",
+        "Alexandros T. Tzallas"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The adoption of Open Educational Resources (OER) represents a turning point in democratizing access to knowledge and promoting innovative educational practices. The ENCORE project aims to integrate the use of OER with digital, green and entrepreneurial (DGE) skills through a system based on advanced artificial intelligence technologies. This study analyzes results of a transnational intervention aimed at assessing ENCORE’s impact on increasing OER-related knowledge (OER Knowledge) and explores outcome variability across learner profiles and intervention types. The data collected shows a significant increase in participants’ ability to identify, use and integrate OER in their educational settings, as well as an improvement in their understanding of open licenses and open educational practices. These findings highlight ENCORE’s potential as a tool to facilitate access to OER, emphasizing the importance of course design in shaping learning outcomes and educational practices. ENCORE proves to be a valuable tool for enhancing professional development and promoting innovation. The article reflects implications for instructional design and the adoption of open AI-supported education.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The adoption of Open Educational Resources (OER) represents a turning point in democratizing access to knowledge and promoting innovative educational practices. The ENCORE project aims to integrate the use of OER with digital, green and entrepreneurial (DGE) skills through a system based on advanced artificial intelligence technologies. This study analyzes results of a transnational intervention aimed at assessing ENCORE’s impact on increasing OER-related knowledge (OER Knowledge) and explores outcome variability across learner profiles and intervention types. The data collected shows a significant increase in participants’ ability to identify, use and integrate OER in their educational settings, as well as an improvement in their understanding of open licenses and open educational practices. These findings highlight ENCORE’s potential as a tool to facilitate access to OER, emphasizing the importance of course design in shaping learning outcomes and educational practices. ENCORE proves to be a valuable tool for enhancing professional development and promoting innovation. The article reflects implications for instructional design and the adoption of open AI-supported education."
+          }
+        },
+        {
+          "content": "The adoption of Open Educational Resources (OER) represents a turning point in democratizing access to knowledge and promoting innovative educational practices. The ENCORE project aims to integrate the use of OER with digital, green and entrepreneurial (DGE) skills through a system based on advanced artificial intelligence technologies. This study analyzes results of a transnational intervention aimed at assessing ENCORE’s impact on increasing OER-related knowledge (OER Knowledge) and explores outcome variability across learner profiles and intervention types. The data collected shows a significant increase in participants’ ability to identify, use and integrate OER in their educational settings, as well as an improvement in their understanding of open licenses and open educational practices. These findings highlight ENCORE’s potential as a tool to facilitate access to OER, emphasizing the importance of course design in shaping learning outcomes and educational practices. ENCORE proves to be a valuable tool for enhancing professional development and promoting innovation. The article reflects implications for instructional design and the adoption of open AI-supported education.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "The adoption of Open Educational Resources (OER) represents a turning point in democratizing access to knowledge and promoting innovative educational practices. The ENCORE project aims to integrate the use of OER with digital, green and entrepreneurial (DGE) skills through a system based on advanced artificial intelligence technologies. This study analyzes results of a transnational intervention aimed at assessing ENCORE’s impact on increasing OER-related knowledge (OER Knowledge) and explores outcome variability across learner profiles and intervention types. The data collected shows a significant increase in participants’ ability to identify, use and integrate OER in their educational settings, as well as an improvement in their understanding of open licenses and open educational practices. These findings highlight ENCORE’s potential as a tool to facilitate access to OER, emphasizing the importance of course design in shaping learning outcomes and educational practices. ENCORE proves to be a valuable tool for enhancing professional development and promoting innovation. The article reflects implications for instructional design and the adoption of open AI-supported education."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "open educational resources",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "open educational resources"
+          }
+        },
+        {
+          "content": "technology acceptance",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "technology acceptance"
+          }
+        },
+        {
+          "content": "AI-driven tools",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "AI-driven tools"
+          }
+        },
+        {
+          "content": "open science",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "open science"
+          }
+        },
+        {
+          "content": "educational practices",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "educational practices"
+          }
+        },
+        {
+          "content": "DGE skills",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "DGE skills "
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/21748/3925",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21748/3925",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21748/3925",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21748/3925",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21748/3925",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 03_Crudeleetal",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 25.0 (Windows)",
+        "keywords": null,
+        "creation_date": "2025-12-21",
+        "mod_date": "2025-12-30"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 2 Doi: 10.3280/exioa2-2025oa21748 The Challenge of OER in the Era of AI: A Transnational Intervention Francesca Crudele*, Juliana Elisa Raffaghelli ^, Alicia García-Holgado°, Alexandros T. Tzallas** Abstract The adoption of Open Educational Resources (OER) represents a turning point in democratizing access to knowledge a nd promoting innovative educational practices. The ENCORE project aims to integrate the use of OER with digital, green and entrepreneurial (DGE) skills through a system based on advanced artificial intelligence technologies. This study analyzes results of a transnational intervention aimed at assessing ENCORE’s impact on increasing OER-related knowledge (O ER Knowledge) and explores outcome variability across learner profiles and intervention types. The data collected shows a significant increase in participants’ ability to identify, use and integrate OER in their educational settings, as well as an improvement in their understanding of open licenses and open educational practices. These findings highlight ENCORE’s potential as a tool to facilitate access to OER, emphasizing the importance of course design in shapin g learning outcomes and educational practices. ENCORE proves to be a valu able tool for enhancing professional development and promoting innovation. Th e article reflects implications for instructional design and the adoption of open AI-supported education. Keywords: open educational resources, t echnology acceptance, AI-driven tools, open science, educational practices, DGE skills Articolo sottomesso: 16/07/2025; accettato: 04/12/2025 * University of Padua, FISPPA-Department of Philosophy, Sociology, Pedagogy and Applied Psychology. Corresponding author, e-mail: francesca.crudele@unipd.it. https://orcid.org/0000- 0003-1598-2791. ^ University of Padua, FISPPA-Department of Philosophy, Sociology, Pedagogy and Applied Psychology, e-mail: juliana.raffaghelli@unipd.it; https://orcid.org/0000-0002-8753-6478. ° Universidad de Salamanca, GRIAL Research Group, Informatics and Automation Department, e-mail: aliciagh@usal.es, https://orcid.org/0000-0001-9663-1103 ** University of Ioannina, Department of Informatics & Telecommunications, e-mail: tzallas@uoi.gr, https://orcid.org/0000-0001-9043-1290. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\21748\\2499-507X_21748.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+        "pdf_value": null,
+        "chosen_value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-12-21",
+        "pdf_value": null,
+        "chosen_value": "2025-12-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "The Challenge of OER in the Era of AI: A Transnational Intervention | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21748",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21748",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:52Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21748\\temp\\2499-507X_21748.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:55Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21748\\2499-507X_21748.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+        "submitted_date": "2025-12-21",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Francesca Crudele",
+          "Juliana Elisa Raffaghelli",
+          "Alicia García-Holgado",
+          "Alexandros T. Tzallas"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21748\\2499-507X_21748.pdf",
+        "generated_at_utc": "2026-04-21T21:35:55Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 03_Crudeleetal",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 25.0 (Windows)",
+          "keywords": null,
+          "creation_date": "2025-12-21",
+          "mod_date": "2025-12-30"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 2 Doi: 10.3280/exioa2-2025oa21748 The Challenge of OER in the Era of AI: A Transnational Intervention Francesca Crudele*, Juliana Elisa Raffaghelli ^, Alicia García-Holgado°, Alexandros T. Tzallas** Abstract The adoption of Open Educational Resources (OER) represents a turning point in democratizing access to knowledge a nd promoting innovative educational practices. The ENCORE project aims to integrate the use of OER with digital, green and entrepreneurial (DGE) skills through a system based on advanced artificial intelligence technologies. This study analyzes results of a transnational intervention aimed at assessing ENCORE’s impact on increasing OER-related knowledge (O ER Knowledge) and explores outcome variability across learner profiles and intervention types. The data collected shows a significant increase in participants’ ability to identify, use and integrate OER in their educational settings, as well as an improvement in their understanding of open licenses and open educational practices. These findings highlight ENCORE’s potential as a tool to facilitate access to OER, emphasizing the importance of course design in shapin g learning outcomes and educational practices. ENCORE proves to be a valu able tool for enhancing professional development and promoting innovation. Th e article reflects implications for instructional design and the adoption of open AI-supported education. Keywords: open educational resources, t echnology acceptance, AI-driven tools, open science, educational practices, DGE skills Articolo sottomesso: 16/07/2025; accettato: 04/12/2025 * University of Padua, FISPPA-Department of Philosophy, Sociology, Pedagogy and Applied Psychology. Corresponding author, e-mail: francesca.crudele@unipd.it. https://orcid.org/0000- 0003-1598-2791. ^ University of Padua, FISPPA-Department of Philosophy, Sociology, Pedagogy and Applied Psychology, e-mail: juliana.raffaghelli@unipd.it; https://orcid.org/0000-0002-8753-6478. ° Universidad de Salamanca, GRIAL Research Group, Informatics and Automation Department, e-mail: aliciagh@usal.es, https://orcid.org/0000-0001-9663-1103 ** University of Ioannina, Department of Informatics & Telecommunications, e-mail: tzallas@uoi.gr, https://orcid.org/0000-0001-9043-1290. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 03_Crudeleetal",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "The Challenge of OER in the Era of AI: A Transnational Intervention",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-12-21",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-12-21",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:53Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:55Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21748\\temp\\2499-507X_21748.conflicts.json"
+  }
+}

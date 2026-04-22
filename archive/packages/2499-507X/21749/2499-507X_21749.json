@@ -1,0 +1,880 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21749",
+  "scraped_at_utc": "2026-04-21T21:35:56Z",
+  "fetched_at_utc": "2026-04-21T21:35:56Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "87177dcb83ce0a784f579b13c55db55738406c4818cbd5381435be717fb8b277",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Claudio Pensieri",
+        "nameType": "Personal",
+        "givenName": "Claudio",
+        "familyName": "Pensieri",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "LUMSA, Rome, Italy"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Sabrina Saccoccia",
+        "nameType": "Personal",
+        "givenName": "Sabrina",
+        "familyName": "Saccoccia",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Fondazione Policlinico Unversitario Campus Bio-Medico, Rome, Italy"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Rosanna Alloni",
+        "nameType": "Personal",
+        "givenName": "Rosanna",
+        "familyName": "Alloni",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "FPUCBM; Università Campus Bio-Medico"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/21749",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-12-30",
+      "Issued": "2025-12-30"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Policlinico Universitario Campus Bio-Medico for newly enrolled medical residents. The program combines traditional lectures, experiential simulations, and gamified activities, including a hospital-based treasure hunt designed to bridge theoretical knowledge and practical clinical readiness. A comparative analysis of pre- and post-training surveys from the 2022 (n. 146 respondents) and 2024 (n. 135 respondents) cohorts revealed statistically significant improvements in technical competencies, spatial orientation, and familiarity with clinical workflows. Notably, the gamification element, particularly the “Treasure Hunt,” significantly enhanced spatial orientation and clinical area familiarity, with 2024 participants showing greater improvement compared to 2022. While practical sessions received strong evaluations, the team-building activity (“Airplane Challenge”) scored lower than in previous years, suggesting areas for refinement. Overall, the Resident Day initiative demonstrates that innovative, engaging onboarding strategies can effectively enhance early clinical integration, technical skills, and resident confidence. Experiential learning and gamification emerged as particularly impactful, underlining the value of active, hands-on methodologies in bridging the gap between academic training and real-world medical practice. These findings may inform broader reforms in medical education and orientation programs internationally.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Policlinico Universitario Campus Bio-Medico for newly enrolled medical residents. The program combines traditional lectures, experiential simulations, and gamified activities, including a hospital-based treasure hunt designed to bridge theoretical knowledge and practical clinical readiness. A comparative analysis of pre- and post-training surveys from the 2022 (n. 146 respondents) and 2024 (n. 135 respondents) cohorts revealed statistically significant improvements in technical competencies, spatial orientation, and familiarity with clinical workflows. Notably, the gamification element, particularly the “Treasure Hunt,” significantly enhanced spatial orientation and clinical area familiarity, with 2024 participants showing greater improvement compared to 2022. While practical sessions received strong evaluations, the team-building activity (“Airplane Challenge”) scored lower than in previous years, suggesting areas for refinement. Overall, the Resident Day initiative demonstrates that innovative, engaging onboarding strategies can effectively enhance early clinical integration, technical skills, and resident confidence. Experiential learning and gamification emerged as particularly impactful, underlining the value of active, hands-on methodologies in bridging the gap between academic training and real-world medical practice. These findings may inform broader reforms in medical education and orientation programs internationally.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2025oa21749",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "10",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Resident Orientation",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Medical Education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Gamification",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Clinical Training",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Experiential Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/21749/3926",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "10",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Pensieri, C., Saccoccia, S., & Alloni, R. (2025). Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico. Excellence and Innovation in Learning and Teaching - Open Access , 10 (2). https://doi.org/10.3280/exioa2-2025oa21749",
+      "articleTitleEcho": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Abati, E., Nelva Stellio, L., Manini, A., Moroni, F., Azzalini, L., & Vilca, L.M. (2022). A cross-sectional survey study of the impact of COVID-19 pandemic on the training and quality of life of Italian medical residents in the Lombardy region. Annals of Medicine, 54(1): 2325-2338. Doi: 10.1080/07853890.2022.2105392.",
+        "Biasutti, M., Makrakis, V., Concina, E., Frate S. (2017). Sviluppo professionale dei docenti universitari: un’esperienza in un progetto internazionale, Italian Journal of Educational Research, 18: 67-82.",
+        "Binetti, P. (2000) Diventare medici in Europa. Roma: Società Editrice Universo, 133.",
+        "Brillman, J.C., Sklar, D.P., Viccellio, P. (1995). Characteristics of emergency medicine resident orientation programs. Acad Emerg Med., 2(1): 25-31. Doi: 10.1111/j.1553-2712.1995.tb03075.x.",
+        "Cambi, F., (2000). Manuale di filosofia dell’educazione. Roma-Bari: Laterza.",
+        "Guaglianone, L., Malzani, F. (2007). Come cambia l’ambiente di lavoro: Regole, rischi, tecnologie. Milano: Giuffré editore.",
+        "Haynes, J.D., Sakai, K., Rees, G., Gilbert, S., Frith, C., Passingham, R.E. (2007). Reading hidden intensions in the human brain. Curr Biol., 17(4): 323-8. Doi: 10.1016/j.cub.2006.11.072.",
+        "Iori, V. (2018). Educatori e Pedagogisti. Trento: Edizioni centro studi Erickson.",
+        "Jacobs, J.C.G., Van Luijk, S. J., Van Berkel, H., Van der Vleuten, C. P. M., Croiset, G., & Scheele, F. (2012). Development of an instrument (the COLT) to measure conceptions on learning and teaching of teachers, in student-centred medical education. Medical Teacher, 34(7): E483-E491. Doi: 10.3109/0142159X.2012.668630.",
+        "Lappen, J.R., Talati, A., Wieczorek, M., Cossler, N. (2014). Resident Orientation: A Time to Foster Cultural Competency. Obstetrics & Gynecology 123(3): 653-655, March. Doi: 10.1097/AOG.0000000000000135.",
+        "Mank, V.M.F., Wiggins, A., Lowe, D., Breighner, C. (2022). Evaluation of an Education-based Training Orientation for Resident Physicians in an Intensive Care Unit in Hawai’i. Hawaii J Health Soc Welf. Aug; 81(8): 223-227.",
+        "McGrath, J., Barrie, M., Way, D.P. (2017). Emergency Medicine Resident Orientation: How Training Programs Get Their Residents Started. West J Emerg Med. Jan; 18(1): 97-104. Doi: 10.5811/westjem.2016.10.31275. Epub 2016 Nov 15.",
+        "Pensieri, C., Alloni, R. (2019). Educazione e simulazione nelle Facoltà universitarie. Una review. Ricerche di pedagogia e didattica, 14: 121-142. Doi: 10.6092/issn.1970-2221/9167.",
+        "Pensieri, C., De Benedictis, A., Iori, T., Nobile, L., Alloni, R. (2021). L’orientamento iniziale dello specializzando. Nuova Secondaria, 5, gennaio, XXXVIII: 43-57.",
+        "Pensieri, C., Saccoccia, S., De Benedictis, A., Alloni, R. (2022). Il Resident-Day 2019: l’esperienza del Policlinico Universitario Campus Bio-Medico per l’orientamento dei nuovi medici specializzandi. Nuova Secondaria Ricerca, 7: 34-53.",
+        "Ramboldi, G. (2021). Didattica innovativa e percezione dei docenti: il Colt Project nelle scuole di medicina. Università degli Studi di Milano-Bicocca, Tesi di Dottorato, Accessed on: 24 oct 2025, available here: https://boa.unimib.it/retrieve /e39773b7-a898-35a3-e053-3a05fe0aac26/phd_unimib_750018.pdf.",
+        "Tammaro, R., Petolicchio, A., D’Alessio, A. (2017). Formazione dei docenti e sistemi di reclutamento: un leitmotiv. Italian Journal of Educational Research, (19): 53-67. Doi: 10.32043/gsd.v9i1.1328.",
+        "UCBM (Università Campus Bio-Medico di Roma), Aims Charter, ed. 2020, accessed on 04.08.2023, p. 1. Accessible on: https://www.unicampus.it/storage/45f932be/UCBM_Carta_finalita_2020.pdf.",
+        "Ulmanen, S., Soini, T., Pyhältö, K., Pietarinen, J. (2014). Strategies for academic engagement perceived by Finnish sixth and eighth graders. Cambridge Journal of Education, 44(3): 425-443. Doi: 10.1080/0305764X.2014.921281."
+      ],
+      "count": 19,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_21749",
+    "article_ID": "21749",
+    "slug": "21749",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "21749",
+      "url_slug": "21749"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-12-21",
+      "accepted": null,
+      "created": "2025-12-30",
+      "modified": "2025-12-30",
+      "issued": "2025-12-30",
+      "available": "2025-12-30",
+      "submitted_page": "2025-12-21",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+        "pdf_value": null,
+        "chosen_value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-12-21",
+        "pdf_value": null,
+        "chosen_value": "2025-12-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21749/3926",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21749/3926",
+      "local_relative_path": "2499-507X_21749.pdf",
+      "saved": true,
+      "sha256": "8e195841c2d1bc0aa043b4634a91d01c8ac2a8b4233b8d77c1f492113a27cff5",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 3354480,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Claudio Pensieri",
+        "Sabrina Saccoccia",
+        "Rosanna Alloni"
+      ],
+      "citation_author_institution": [
+        "LUMSA, Rome, Italy",
+        "Fondazione Policlinico Unversitario Campus Bio-Medico, Rome, Italy",
+        "FPUCBM; Università Campus Bio-Medico"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2025/12/30"
+      ],
+      "citation_volume": [
+        "10"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2025oa21749"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/21749"
+      ],
+      "citation_keywords": [
+        "Resident Orientation",
+        "Medical Education",
+        "Gamification",
+        "Clinical Training",
+        "Experiential Learning"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/21749/3926"
+      ],
+      "citation_reference_count": 19,
+      "DC.Date.created": [
+        "2025-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-12-21"
+      ],
+      "DC.Date.issued": [
+        "2025-12-30"
+      ],
+      "DC.Date.modified": [
+        "2025-12-30"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "21749"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2025oa21749"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/21749"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "10"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico"
+      ],
+      "DC.Title.Alternative": [
+        "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Claudio Pensieri",
+        "Sabrina Saccoccia",
+        "Rosanna Alloni"
+      ],
+      "citation_author_institution": [
+        "LUMSA, Rome, Italy",
+        "Fondazione Policlinico Unversitario Campus Bio-Medico, Rome, Italy",
+        "FPUCBM; Università Campus Bio-Medico"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Claudio Pensieri",
+        "Sabrina Saccoccia",
+        "Rosanna Alloni"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Policlinico Universitario Campus Bio-Medico for newly enrolled medical residents. The program combines traditional lectures, experiential simulations, and gamified activities, including a hospital-based treasure hunt designed to bridge theoretical knowledge and practical clinical readiness. A comparative analysis of pre- and post-training surveys from the 2022 (n. 146 respondents) and 2024 (n. 135 respondents) cohorts revealed statistically significant improvements in technical competencies, spatial orientation, and familiarity with clinical workflows. Notably, the gamification element, particularly the “Treasure Hunt,” significantly enhanced spatial orientation and clinical area familiarity, with 2024 participants showing greater improvement compared to 2022. While practical sessions received strong evaluations, the team-building activity (“Airplane Challenge”) scored lower than in previous years, suggesting areas for refinement. Overall, the Resident Day initiative demonstrates that innovative, engaging onboarding strategies can effectively enhance early clinical integration, technical skills, and resident confidence. Experiential learning and gamification emerged as particularly impactful, underlining the value of active, hands-on methodologies in bridging the gap between academic training and real-world medical practice. These findings may inform broader reforms in medical education and orientation programs internationally.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Policlinico Universitario Campus Bio-Medico for newly enrolled medical residents. The program combines traditional lectures, experiential simulations, and gamified activities, including a hospital-based treasure hunt designed to bridge theoretical knowledge and practical clinical readiness. A comparative analysis of pre- and post-training surveys from the 2022 (n. 146 respondents) and 2024 (n. 135 respondents) cohorts revealed statistically significant improvements in technical competencies, spatial orientation, and familiarity with clinical workflows. Notably, the gamification element, particularly the “Treasure Hunt,” significantly enhanced spatial orientation and clinical area familiarity, with 2024 participants showing greater improvement compared to 2022. While practical sessions received strong evaluations, the team-building activity (“Airplane Challenge”) scored lower than in previous years, suggesting areas for refinement. Overall, the Resident Day initiative demonstrates that innovative, engaging onboarding strategies can effectively enhance early clinical integration, technical skills, and resident confidence. Experiential learning and gamification emerged as particularly impactful, underlining the value of active, hands-on methodologies in bridging the gap between academic training and real-world medical practice. These findings may inform broader reforms in medical education and orientation programs internationally."
+          }
+        },
+        {
+          "content": "This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Policlinico Universitario Campus Bio-Medico for newly enrolled medical residents. The program combines traditional lectures, experiential simulations, and gamified activities, including a hospital-based treasure hunt designed to bridge theoretical knowledge and practical clinical readiness. A comparative analysis of pre- and post-training surveys from the 2022 (n. 146 respondents) and 2024 (n. 135 respondents) cohorts revealed statistically significant improvements in technical competencies, spatial orientation, and familiarity with clinical workflows. Notably, the gamification element, particularly the “Treasure Hunt,” significantly enhanced spatial orientation and clinical area familiarity, with 2024 participants showing greater improvement compared to 2022. While practical sessions received strong evaluations, the team-building activity (“Airplane Challenge”) scored lower than in previous years, suggesting areas for refinement. Overall, the Resident Day initiative demonstrates that innovative, engaging onboarding strategies can effectively enhance early clinical integration, technical skills, and resident confidence. Experiential learning and gamification emerged as particularly impactful, underlining the value of active, hands-on methodologies in bridging the gap between academic training and real-world medical practice. These findings may inform broader reforms in medical education and orientation programs internationally.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Policlinico Universitario Campus Bio-Medico for newly enrolled medical residents. The program combines traditional lectures, experiential simulations, and gamified activities, including a hospital-based treasure hunt designed to bridge theoretical knowledge and practical clinical readiness. A comparative analysis of pre- and post-training surveys from the 2022 (n. 146 respondents) and 2024 (n. 135 respondents) cohorts revealed statistically significant improvements in technical competencies, spatial orientation, and familiarity with clinical workflows. Notably, the gamification element, particularly the “Treasure Hunt,” significantly enhanced spatial orientation and clinical area familiarity, with 2024 participants showing greater improvement compared to 2022. While practical sessions received strong evaluations, the team-building activity (“Airplane Challenge”) scored lower than in previous years, suggesting areas for refinement. Overall, the Resident Day initiative demonstrates that innovative, engaging onboarding strategies can effectively enhance early clinical integration, technical skills, and resident confidence. Experiential learning and gamification emerged as particularly impactful, underlining the value of active, hands-on methodologies in bridging the gap between academic training and real-world medical practice. These findings may inform broader reforms in medical education and orientation programs internationally."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Resident Orientation",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Resident Orientation"
+          }
+        },
+        {
+          "content": "Medical Education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Medical Education"
+          }
+        },
+        {
+          "content": "Gamification",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Gamification"
+          }
+        },
+        {
+          "content": "Clinical Training",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Clinical Training"
+          }
+        },
+        {
+          "content": "Experiential Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Experiential Learning"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/21749/3926",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21749/3926",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21749/3926",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21749/3926",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21749/3926",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 04_Pensierietal1",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 25.0 (Windows)",
+        "keywords": null,
+        "creation_date": "2025-12-21",
+        "mod_date": "2025-12-30"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 2 Doi: 10.3280/exioa2-2025oa21749 Innovating Residency Orientation Training. A Multi-Modal, Gamified Ap proach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico Claudio Pensieri*, Sabrina Saccoccia^, Rosanna Alloni° Abstract This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Po liclinico Universitario Campus Bio- Medico for newly enrolled medical residents. The program combines traditional lectures, experiential simulations, and gamified activities, including a hospital-based treasure hunt designed to bridge theoretical knowledge and practical clinical readiness. A comparativ e analysis of pre- and post-training surveys from the 2022 (n. 146 respondents) and 2024 (n. 135 respondents) cohorts revealed statistically significant improvements in technical competencies, spatial orientation, and familiarity with clinical workflows. Notably, the gamification element, particularly the “Treasure Hunt,” significantly enhanced spatial orientati on and clinical area familiarity, with 2024 participants showing greater improvement compared to 2022. While practical sessions received strong evaluations, the team-building activity (“Airplane Challenge”) scored lower than in previous years, suggesting areas for refinement. Overall, the Reside nt Day initiative demonstrates that innovative, engaging onboarding strate gies can effectively enhance early clinical integration, technical skills, and resident confidence. Experiential * Department of Human Sciences, LUMSA, Rome , Italy: E-mail: c.pensieri1@lumsa.it. The Corresponding Author is the chief contributor for the paragraphs: Background, Setting, Methods, Results, Discussion. ORCID: https://orcid.org/0000-0001-8502-2345. r.alloni@unicampus.it, is responsible for the conception and design of the article and she is chief contributor for the conclusion paragraph. ORCID: https://orcid.org/0000-0001-8877-2141. ^ Clinical Leadership team – Fondazione Policlinico Unviersitario Campus Bio-Medico, Rome, Italy. E-mail: s.saccoccia@policlinicocampus.it, writes par. Background. ORCID: https://orcid.org/0009-0009-0530-6117. ° Clinical Director FPUCBM and Università Campus Bio-Medico: Specialization School Coordination, Rome, Italy. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\21749\\2499-507X_21749.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+        "pdf_value": null,
+        "chosen_value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-12-21",
+        "pdf_value": null,
+        "chosen_value": "2025-12-21",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21749",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21749",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:56Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21749\\temp\\2499-507X_21749.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:36:00Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21749\\2499-507X_21749.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+        "submitted_date": "2025-12-21",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Claudio Pensieri",
+          "Sabrina Saccoccia",
+          "Rosanna Alloni"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21749\\2499-507X_21749.pdf",
+        "generated_at_utc": "2026-04-21T21:36:00Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 04_Pensierietal1",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 25.0 (Windows)",
+          "keywords": null,
+          "creation_date": "2025-12-21",
+          "mod_date": "2025-12-30"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 2 Doi: 10.3280/exioa2-2025oa21749 Innovating Residency Orientation Training. A Multi-Modal, Gamified Ap proach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico Claudio Pensieri*, Sabrina Saccoccia^, Rosanna Alloni° Abstract This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Po liclinico Universitario Campus Bio- Medico for newly enrolled medical residents. The program combines traditional lectures, experiential simulations, and gamified activities, including a hospital-based treasure hunt designed to bridge theoretical knowledge and practical clinical readiness. A comparativ e analysis of pre- and post-training surveys from the 2022 (n. 146 respondents) and 2024 (n. 135 respondents) cohorts revealed statistically significant improvements in technical competencies, spatial orientation, and familiarity with clinical workflows. Notably, the gamification element, particularly the “Treasure Hunt,” significantly enhanced spatial orientati on and clinical area familiarity, with 2024 participants showing greater improvement compared to 2022. While practical sessions received strong evaluations, the team-building activity (“Airplane Challenge”) scored lower than in previous years, suggesting areas for refinement. Overall, the Reside nt Day initiative demonstrates that innovative, engaging onboarding strate gies can effectively enhance early clinical integration, technical skills, and resident confidence. Experiential * Department of Human Sciences, LUMSA, Rome , Italy: E-mail: c.pensieri1@lumsa.it. The Corresponding Author is the chief contributor for the paragraphs: Background, Setting, Methods, Results, Discussion. ORCID: https://orcid.org/0000-0001-8502-2345. r.alloni@unicampus.it, is responsible for the conception and design of the article and she is chief contributor for the conclusion paragraph. ORCID: https://orcid.org/0000-0001-8877-2141. ^ Clinical Leadership team – Fondazione Policlinico Unviersitario Campus Bio-Medico, Rome, Italy. E-mail: s.saccoccia@policlinicocampus.it, writes par. Background. ORCID: https://orcid.org/0009-0009-0530-6117. ° Clinical Director FPUCBM and Università Campus Bio-Medico: Specialization School Coordination, Rome, Italy. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 04_Pensierietal1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-12-21",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-12-21",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:56Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:58Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21749\\temp\\2499-507X_21749.conflicts.json"
+  }
+}

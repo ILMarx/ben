@@ -1,0 +1,872 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20587",
+  "scraped_at_utc": "2026-04-21T21:35:39Z",
+  "fetched_at_utc": "2026-04-21T21:35:39Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "278854e53082170dc12b84133e993dcb4efb1b327baeebf6048dfc1a7251ed06",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Alexandra Chavarría Arnau",
+        "nameType": "Personal",
+        "givenName": "Alexandra Chavarría",
+        "familyName": "Arnau",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Marco Toffanin",
+        "nameType": "Personal",
+        "givenName": "Marco",
+        "familyName": "Toffanin",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/20587",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-11-17",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-11-17",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-11-17",
+      "Issued": "2025-11-17"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "This paper explores the uses of podcasts created by students in higher education, with a particular focus on a Medieval Archaeology course at the University of Padua. The article highlights how podcasts, used as a creative project managed by students, can significantly enrich active learning and promote fundamental skills in students including research, creative writing, scientific communication, and teamwork. The authors also analyze the feedback collected from students, who have found podcasting to be a stimulating and innovative teaching method capable of enhancing their communication, research, and digital skills.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Questo articolo esplora l’uso di podcast creati dagli studenti nell’educazione superiore, con un focus particolare su un corso di Archeologia Medievale dell’Università di Padova. L’articolo mette in luce come i podcast, utilizzati come progetto creativo gestito dagli studenti, possano arricchire significativamente l’apprendimento attivo e promuovere competenze fondamentali quali la ricerca, la scrittura creativa, la comunicazione scientifica e il lavoro di gruppo. Gli autori analizzano inoltre il feedback raccolto dagli studenti, che hanno riscontrato nel podcasting un metodo didattico stimolante e innovativo, capace di migliorare le loro competenze comunicative, di ricerca e digitali.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2025oa20587",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "10",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "podcasting",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "didattica attiva",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "corso di archeologia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "scienze umanistiche",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "feedback",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/20587/3554",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "10",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Chavarría Arnau, A., & Toffanin, M. (2025). Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria. Excellence and Innovation in Learning and Teaching - Open Access , 10 (1). https://doi.org/10.3280/exioa1-2025oa20587",
+      "articleTitleEcho": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Andersen, R. H., & Dau, S. (2021, October). A review of podcasts as a learning medium in higher education. In Proceedings of the 20th European Conference on e-Learning, ECEL (pp. 34-41).",
+        "Chavarría Arnau, A., & Dal Bon, C. (2023). Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists. Excellence and Innovation in Learning and Teaching - Open Access, 8(2), 87-100. Doi: 10.3280/exioa2-2023oa16826.",
+        "Bergmann, J., & Sams, A. (2012). Flip your classroom: Reach every student in every class every day. International society for technology in education, printed in the United States of America.",
+        "Betts, T., Oprandi, P. (2022). 100 Ideas for Active Learning. The Active Learning Network. University of Sussex Library. Doi: 10.20919/OPXR1032.",
+        "Bonini, T., & Perrotta, M. (2023). Che cos’è un podcast. Carocci.",
+        "Cane, C., & Cashmore, A. (2008). Students’ podcasts as learning tools. Podcasting for learning in universities, pp. 146-152. Open University Press.",
+        "Carpenter, S. K., Witherby, A. E., & Tauber, S. K. (2020). On students’(mis) judgments of learning and teaching effectiveness: Where we stand and how to move forward. Journal of Applied Research in Memory and Cognition, 9(2), 181-185. Doi: 10.1016/j.jarmac.2020.04.003.",
+        "Castells, M. (2006). La sociedad red: una visión global. Alianza Editorial.",
+        "Chacón, C. T., & Pérez, C. J. (2011). El podcast como innovación en la enseñanza del inglés como lengua extranjera. Pixel-Bit. Revista de Medios y Educación, (39), 41-54.",
+        "De Cesco, A. (2024, Febbraio 15). Questioni d’orecchio. -- https://andreadecesco.substack.com/.",
+        "De Semir, V. (2016). La responsabilidad de los medios de comunicación en la divulgación de las ciencias. Educ Med, 17(2), 51-55.",
+        "Drew, C. (2017). Edutaining audio: an exploration of education podcast design possibilities. Educational Media International, 54(1), 48-62. Doi: 10.1080/09523987.2017.1324360.",
+        "Edirisingha, P., & Salmon, G. (2007, maggio). Pedagogical models for podcasts in higher education. Beyond Distance Research Alliance Conference pre-print copy.",
+        "González Enríquez, I., Cutuli, M. S., & Mancha-Cáceres, O. I. (2023). Enhancing Collaborative Learning in Higher Education through Podcast Production: An Experiential Approach with Anthropology and Tourism Students. Education Sciences, 13(9), 898. Doi: 10.3390/educsci13090898.",
+        "Ferranti, C., & Toffanin, M. (2024). Educational Podcast. Independently published.",
+        "Forbes, L. K. (2021). The Process of Play in Learning in Higher Education: A Phenomenological Study. Journal of Teaching and Learning, 15(1), 57-73.",
+        "Gibbs G, Habeshaw S, Habeshaw T. (1987). Improving student learning during lectures. Med Teach., 9(1), 11-20. Doi: 10.3109/01421598709028976.",
+        "Gunderson, J. L., & Cumming, T. M. (2023). Podcasting in higher education as a component of Universal Design for Learning: A systematic review of the literature. Innovations in Education and Teaching International, 60(4), 591-601. Doi: 10.1080/14703297.2022.2075430.",
+        "Hethmon, H. (2018). Your Museum Needs a Podcast: A Step-By-Step Guide to Podcasting on a Budget for Museums, History Organizations, and Cultural Nonprofits. Independently published.",
+        "Hornstein, H. A. (2017). Student evaluations of teaching are an inadequate assessment tool for evaluating faculty performance. Cogent Education, 4(1). Doi: 10.1080/2331186X.2017.1304016.",
+        "McGarr, O. (2009). A review of podcasting in higher education: Its influence on the traditional lecture. Australasian journal of educational technology, 25(3). Doi: 10.14742/ajet.1136.",
+        "Rime, J., Pike, C., & Collins, T. (2022). What is a podcast? Considering innovations in podcasting through the six-tensions framework. Convergence, 28(5), 1260-1282. Doi: 10.1177/13548565221104444.",
+        "Scandolin, M. (2023). Podcast: Guida alla creazione, pubblicazione e promozione. Apogeo Editore.",
+        "Stroebe, W. (2020). Student evaluations of teaching encourages poor teaching and contributes to grade inflation: A theoretical and empirical analysis. Basic and applied social psychology, 42(4), 276-294. Doi: 10.1080/01973533.2020.1756817.",
+        "Tapia López, A. & Carrero Márquez, O. (2022). El podcast como identificador de las necesidades de aprendizaje del universitario, International Humanities Review. Doi: 10.37467/revhuman.v11.4184.",
+        "Tufari L., (2023). Gli italiani e i podcast: una passione in crescita. Audible.it -- https://www.audible.it/blog/dati-ascolto-podcast?tduid=833cb3f911201a0837d83208b13b07f4.",
+        "Wakefield, A., Pike, R., & Amici-Dargan, S. (2023). Learner-generated podcasts: an authentic and enjoyable assessment for students working in pairs. Assessment & Evaluation in Higher Education, 48(7), 1025-1037. Doi: 10.1080/02602938.2022.2152426.",
+        "Zhang, L., Basham, J. D., Carter Jr, R. A., & Zhang, J. (2021). Exploring Factors associated with the implementation of student-centered instructional practices in US classrooms. Teaching and Teacher Education, 99, 103273. Doi: 10.1016/j.tate.2020.103273."
+      ],
+      "count": 28,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_20587",
+    "article_ID": "20587",
+    "slug": "20587",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "20587",
+      "url_slug": "20587"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Becoming Barbero: Podcasts Produced by Students in University Teaching",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-07-07",
+      "accepted": null,
+      "created": "2025-07-11",
+      "modified": "2025-11-17",
+      "issued": "2025-11-17",
+      "available": "2025-11-17",
+      "submitted_page": "2025-07-07",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+        "pdf_value": null,
+        "chosen_value": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-07-07",
+        "pdf_value": null,
+        "chosen_value": "2025-07-07",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20587/3554",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20587/3554",
+      "local_relative_path": "2499-507X_20587.pdf",
+      "saved": true,
+      "sha256": "ed8b48bfd7b2a7b5a417daf2e21741e39b5ddaea4225826a7b83490c5ddc337b",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 3872431,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Alexandra Chavarría Arnau",
+        "Marco Toffanin"
+      ],
+      "citation_author_institution": [
+        "University of Padova",
+        "University of Padova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/07/11"
+      ],
+      "citation_volume": [
+        "10"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2025oa20587"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/20587"
+      ],
+      "citation_keywords": [
+        "podcasting",
+        "didattica attiva",
+        "corso di archeologia",
+        "scienze umanistiche",
+        "feedback"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/20587/3554"
+      ],
+      "citation_reference_count": 28,
+      "DC.Date.created": [
+        "2025-07-11"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-07-07"
+      ],
+      "DC.Date.issued": [
+        "2025-11-17"
+      ],
+      "DC.Date.modified": [
+        "2025-11-17"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "20587"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2025oa20587"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/20587"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "10"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria"
+      ],
+      "DC.Title.Alternative": [
+        "Becoming Barbero: Podcasts Produced by Students in University Teaching"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Alexandra Chavarría Arnau",
+        "Marco Toffanin"
+      ],
+      "citation_author_institution": [
+        "University of Padova",
+        "University of Padova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Alexandra Chavarría Arnau",
+        "Marco Toffanin"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This paper explores the uses of podcasts created by students in higher education, with a particular focus on a Medieval Archaeology course at the University of Padua. The article highlights how podcasts, used as a creative project managed by students, can significantly enrich active learning and promote fundamental skills in students including research, creative writing, scientific communication, and teamwork. The authors also analyze the feedback collected from students, who have found podcasting to be a stimulating and innovative teaching method capable of enhancing their communication, research, and digital skills.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This paper explores the uses of podcasts created by students in higher education, with a particular focus on a Medieval Archaeology course at the University of Padua. The article highlights how podcasts, used as a creative project managed by students, can significantly enrich active learning and promote fundamental skills in students including research, creative writing, scientific communication, and teamwork. The authors also analyze the feedback collected from students, who have found podcasting to be a stimulating and innovative teaching method capable of enhancing their communication, research, and digital skills."
+          }
+        },
+        {
+          "content": "Questo articolo esplora l’uso di podcast creati dagli studenti nell’educazione superiore, con un focus particolare su un corso di Archeologia Medievale dell’Università di Padova. L’articolo mette in luce come i podcast, utilizzati come progetto creativo gestito dagli studenti, possano arricchire significativamente l’apprendimento attivo e promuovere competenze fondamentali quali la ricerca, la scrittura creativa, la comunicazione scientifica e il lavoro di gruppo. Gli autori analizzano inoltre il feedback raccolto dagli studenti, che hanno riscontrato nel podcasting un metodo didattico stimolante e innovativo, capace di migliorare le loro competenze comunicative, di ricerca e digitali.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Questo articolo esplora l’uso di podcast creati dagli studenti nell’educazione superiore, con un focus particolare su un corso di Archeologia Medievale dell’Università di Padova. L’articolo mette in luce come i podcast, utilizzati come progetto creativo gestito dagli studenti, possano arricchire significativamente l’apprendimento attivo e promuovere competenze fondamentali quali la ricerca, la scrittura creativa, la comunicazione scientifica e il lavoro di gruppo. Gli autori analizzano inoltre il feedback raccolto dagli studenti, che hanno riscontrato nel podcasting un metodo didattico stimolante e innovativo, capace di migliorare le loro competenze comunicative, di ricerca e digitali."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "podcasting",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "podcasting"
+          }
+        },
+        {
+          "content": "didattica attiva",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "didattica attiva"
+          }
+        },
+        {
+          "content": "corso di archeologia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "corso di archeologia"
+          }
+        },
+        {
+          "content": "scienze umanistiche",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "scienze umanistiche"
+          }
+        },
+        {
+          "content": "feedback",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "feedback"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/20587/3554",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20587/3554",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20587/3554",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20587/3554",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/20587/3554",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2025-07-11",
+        "mod_date": "2025-07-11"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20587 Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria Becoming Barbero: Podcasts Produced by Students in University Teaching Alexandra Chavarría Arnau*, Marco Toffanin^ Riassunto Questo articolo esplora l’uso di podcast creati dagli studenti nell’educazione superiore, con un focus particolare su un corso di Archeologia Medievale dell’Università di Padova. L’articolo mette in luce come i podcast, utilizzati come progetto creativo gestito dagli st udenti, possano arricchire significativa- mente l’apprendimento attivo e promuovere competenze fondamentali quali la ricerca, la scrittura creativa, la comunicazione scientifica e il lavoro di gruppo. Gli autori analizzano inoltre il feedback raccolto dagli studenti, che hanno ri- scontrato nel podcasting un metodo dida ttico stimolante e innovativo, capace di migliorare le loro competenze comunicative, di ricerca e digitali. Parole chiave: podcasting, didattica attiva, corso di archeologia, scienze uma- nistiche, feedback. Abstract This paper explores the uses of podcasts created by students in higher education, with a particular focus on a Medieval Archaeology course at the University of Padua. The article highl ights how podcasts, used as a creative project managed by students, can significantly enrich active learning and * Department of Cultural Heritage: Archaeology, History of Art, Cinema and Music, University of Padova, Italy. chavarria@unipd.it ^ Digital Learning and Multimedia Office, University of Padova, Italy. marco.tof- fanin@unipd.it A fini curriculari sono di Marco Toffanin i paragrafi 1, 5, 6 e di Alexandra Chavarria Arnau i paragrafi 2, 3, 4. In comune sono stati scritti i paragrafi 7 e 8. Il contributo è frutto di un lavoro condiviso in ogni sua parte. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\20587\\2499-507X_20587.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+        "pdf_value": null,
+        "chosen_value": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-07-07",
+        "pdf_value": null,
+        "chosen_value": "2025-07-07",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20587",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20587",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:39Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20587\\temp\\2499-507X_20587.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:44Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20587\\2499-507X_20587.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+        "submitted_date": "2025-07-07",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Alexandra Chavarría Arnau",
+          "Marco Toffanin"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20587\\2499-507X_20587.pdf",
+        "generated_at_utc": "2026-04-21T21:35:44Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2025-07-11",
+          "mod_date": "2025-07-11"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20587 Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria Becoming Barbero: Podcasts Produced by Students in University Teaching Alexandra Chavarría Arnau*, Marco Toffanin^ Riassunto Questo articolo esplora l’uso di podcast creati dagli studenti nell’educazione superiore, con un focus particolare su un corso di Archeologia Medievale dell’Università di Padova. L’articolo mette in luce come i podcast, utilizzati come progetto creativo gestito dagli st udenti, possano arricchire significativa- mente l’apprendimento attivo e promuovere competenze fondamentali quali la ricerca, la scrittura creativa, la comunicazione scientifica e il lavoro di gruppo. Gli autori analizzano inoltre il feedback raccolto dagli studenti, che hanno ri- scontrato nel podcasting un metodo dida ttico stimolante e innovativo, capace di migliorare le loro competenze comunicative, di ricerca e digitali. Parole chiave: podcasting, didattica attiva, corso di archeologia, scienze uma- nistiche, feedback. Abstract This paper explores the uses of podcasts created by students in higher education, with a particular focus on a Medieval Archaeology course at the University of Padua. The article highl ights how podcasts, used as a creative project managed by students, can significantly enrich active learning and * Department of Cultural Heritage: Archaeology, History of Art, Cinema and Music, University of Padova, Italy. chavarria@unipd.it ^ Digital Learning and Multimedia Office, University of Padova, Italy. marco.tof- fanin@unipd.it A fini curriculari sono di Marco Toffanin i paragrafi 1, 5, 6 e di Alexandra Chavarria Arnau i paragrafi 2, 3, 4. In comune sono stati scritti i paragrafi 7 e 8. Il contributo è frutto di un lavoro condiviso in ogni sua parte. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Diventare Barbero: i podcast realizzati dagli studenti nella didattica universitaria",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-07-07",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-07-07",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:24Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:27Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20587\\temp\\2499-507X_20587.conflicts.json"
+  }
+}

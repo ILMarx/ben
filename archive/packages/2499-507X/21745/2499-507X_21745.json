@@ -1,0 +1,910 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21745",
+  "scraped_at_utc": "2026-04-21T21:35:48Z",
+  "fetched_at_utc": "2026-04-21T21:35:48Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "ff4adbba90e1c799567f6526c72f5afd4c497e8f8dbf0e5768f1d1b52a4a9f5f",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Elena Gabbi",
+        "nameType": "Personal",
+        "givenName": "Elena",
+        "familyName": "Gabbi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Claudia Baiata",
+        "nameType": "Personal",
+        "givenName": "Claudia",
+        "familyName": "Baiata",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Maria Ranieri",
+        "nameType": "Personal",
+        "givenName": "Maria",
+        "familyName": "Ranieri",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/21745",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-12-04",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-12-30",
+      "Issued": "2025-12-30",
+      "Accepted": "2025-12-04"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "In recent years, the expansion of advanced digital technologies in the learning field has caused a deep change in educational platforms and revolutionized the tools and systems that support online learning. Within this context, the rapid development of Learning Analytics (LA) in blended and online higher education has transformed assessment practices, enabling personalized feedback and more targeted instructional strategies. This scoping review investigates how LA is integrated into formative assessment practices within blended learning courses in higher education. By analysing 13 selected studies, the review identifies the main techniques, purposes, and roles attributed to LA, such as student profiling, predictive modeling, teacher support, and feedback automation. The restricted number of papers examined could limit the broader applicability of the conclusions. However, findings highlight how LA is increasingly employed to support formative assessment in blended higher education, with methods such as process mining, predictive modeling, and visualization enabling more precise monitoring of student learning and the provision of timely, personalized feedback. Yet, the pedagogical challenge lies in ensuring that these tools are not reduced to mere instruments of control, but are instead leveraged to foster engagement, support teachers’ decision-making, and promote more inclusive and meaningful learning experiences.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "In recent years, the expansion of advanced digital technologies in the learning field has caused a deep change in educational platforms and revolutionized the tools and systems that support online learning. Within this context, the rapid development of Learning Analytics (LA) in blended and online higher education has transformed assessment practices, enabling personalized feedback and more targeted instructional strategies. This scoping review investigates how LA is integrated into formative assessment practices within blended learning courses in higher education. By analysing 13 selected studies, the review identifies the main techniques, purposes, and roles attributed to LA, such as student profiling, predictive modeling, teacher support, and feedback automation. The restricted number of papers examined could limit the broader applicability of the conclusions. However, findings highlight how LA is increasingly employed to support formative assessment in blended higher education, with methods such as process mining, predictive modeling, and visualization enabling more precise monitoring of student learning and the provision of timely, personalized feedback. Yet, the pedagogical challenge lies in ensuring that these tools are not reduced to mere instruments of control, but are instead leveraged to foster engagement, support teachers’ decision-making, and promote more inclusive and meaningful learning experiences.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2025oa21745",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "10",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Learning Analytics",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Formative Assessment",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Scoping Review",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "blended learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Higher Education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/21745/3924",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "10",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Gabbi, E., Baiata, C., & Ranieri, M. (2025). Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education. Excellence and Innovation in Learning and Teaching - Open Access , 10 (2). https://doi.org/10.3280/exioa2-2025oa21745",
+      "articleTitleEcho": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Banihashem, S. K., Noroozi, O., Van Ginkel, S., Macfadyen, L. P., & Biemans, H. J. (2022). A systematic review of the role of learning analytics in enhancing feedback practices in higher education. Educational Research Review, 37, 100489.",
+        "Barana, A., Conte, A., Fissore, C., Marchisio, M., & Rabellino, S. (2019). Learning Analytics to improve Formative Assessment strategies. Journal of e-Learning and Knowledge Society, 15(3): 75-88.",
+        "Bulut, O., Gorgun, G., Yildirim‐Erbasli, S.N., Wongvorachan, T., Daniels, L.M., Gao, Y., Lai, K.W., & Shin, J. (2023). Standing on the shoulders of giants: Online formative assessments as the foundation for predictive learning analytics models. British Journal of Educational Technology, 54(1): 19-39.",
+        "Cooper, H., Hedges, L. V., & Valentine, J. C. (Eds.). (2019). The Handbook of Research Synthesis and Meta-Analysis (3rd edition). New York, NY: Russell Sage Foundation.",
+        "Gabbi, E. (2023). About or with teachers? A systematic review of learning analytics interventions to support teacher professional development. QWERTY, 18: 88-109.",
+        "Gašević, D., Greiff, S., & Shaffer, D. W. (2022). Towards strengthening links between learning analytics and assessment: Challenges and potentials of a promising new bond. Computers in Human Behavior, 134, 107304.",
+        "Gatrell, C., Muzio, D., Post, C., & Wickert, C. (2024). Here, there and everywhere: On the responsible use of artificial intelligence (AI) in management research and the peer‐review process. Journal of Management Studies, 61(3): 739-751.",
+        "Graham, C. R. (2006). Blended learning systems: Definition, current trends, and future directions. In C. J. Bonk & C. R. Graham (Eds.), Handbook of blended learning: Global perspectives, local designs (pp. 3-21). Hoboken, NJ: Pfeiffer Publishing.",
+        "Guzmán-Valenzuela, C., Gómez-González, C., Rojas-Murphy Tagle, A., & Lorca-Vyhmeister, A. (2021). Learning analytics in higher education: a preponderance of analytics but very little learning?. International journal of educational technology in higher education, 18: 1-19.",
+        "Hughes, N. (2025). Blended learning solutions in higher education: History, theory and practice. New York, NY: Routledge.",
+        "Marano, E., Newton, P. M., Birch, Z., Croombs, M., Gilbert, C., & Draper, M. J. (2024). What is the student experience of remote proctoring? A pragmatic scoping review. Higher Education Quarterly 78(3): 1031-1047.",
+        "Matcha, W., Uzir, N. A. A., Gašević, D., & Pardo, A. (2019). A systematic review of empirical studies on learning analytics dashboards: A self-regulated learning perspective. IEEE transactions on learning technologies, 13(2): 226-245.",
+        "Merikko, J., Ng, K., Saqr, M., & Ihantola, P. (2022). To opt in or to opt out? Predicting student preference for learning analytics-based formative feedback. Ieee Access, 10: 99195-99204.",
+        "Moher, D., Shamseer, L., Clarke, M., Ghersi, D., Liberati, A., Petticrew, M., ... & Prisma-P Group. (2015). Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement. Systematic reviews, 4(1): 1-10.",
+        "Pardo, A., Jovanovic, J., Dawson, S., Gašević, D., & Mirriahi, N. (2019). Using learning analytics to scale the provision of personalised feedback. British journal of educational technology, 50(1): 128-138.",
+        "Paré, G., Trudel, M. C., Jaana, M., & Kitsiou, S. (2015). Synthesizing information systems knowledge: A typology of literature reviews. Information & management, 52(2): 183-199.",
+        "Ranieri, M., & Gabbi, E. (2021). Esplorare le comunità professionali online attraverso i Learning Analytics per la formazione degli insegnanti. In: eTwinning e formazione degli insegnanti (pp. 161-173). Roma: Carocci.",
+        "Romero, C., & Ventura, S. (2020). Educational data mining and learning analytics: An updated survey. Wiley interdisciplinary reviews: Data mining and knowledge discovery, 10(3), e1355.",
+        "Sandelowski, M., & Barroso, J. (2003). Classifying the findings in qualitative studies. Qualitative health research, 13(7): 905-923.",
+        "Sareen, S., & Mandal, S. (2024). Challenges of blended learning in higher education across global north south: A systematic and integrative literature review. Social Sciences & Humanities Open, 10, 101011.",
+        "Siemens, G., & Gašević, D. (2012). Special issue on learning and knowledge analytics. Educational Technology & Society, 15(3): 1-163.",
+        "Stanja, J., Gritz, W., Krugel, J., Hoppe, A., & Dannemann, S. (2023). Formative assessment strategies for students’ conceptions ‒ The potential of learning analytics. British Journal of Educational Technology, 54(1), 58-75.",
+        "Wise A. F. (2014, March). Designing pedagogical interventions to support student use of learning analytics. In Proceedings of the fourth international conference on learning analytics and knowledge LAK '14, March 24 - 28 2014 (pp. 203-211). New York, NY: ACM.",
+        "Yan, L., Echeverria, V., Jin, Y., Fernandez‐Nieto, G., Zhao, L., Li, X., ... & Martinez‐Maldonado, R. (2024). Evidence‐based multimodal learning analytics for feedback and reflection in collaborative learning. British Journal of Educational Technology, 55(5): 1900-1925.",
+        "Yan, Z., Li, Z., Panadero, E., Yang, M., Yang, L., & Lao, H. (2021). A systematic review on factors influencing teachers’ intentions and implementations regarding formative assessment. Assessment in Education: Principles, Policy & Practice, 28(3): 228-260.",
+        "Zhang, K., Yılmaz, R., Ustun, A. B., & Yılmaz, F. G. K. (2023). Learning analytics in formative assessment: A systematic literature review. Journal of Measurement and Evaluation in Education and Psychology, 14(Özel Sayı): 359-381.",
+        "APPENDIX",
+        "Articles included in the study",
+        "Biswas, U., & Bhattacharya, S. (2024). ML-based intelligent real-time feedback system for blended classroom. Education and Information Technologies, 29(4): 3923-3951.",
+        "Borter, N. (2023). Differential Effects of Additional Formative Assessments on Student Learning Behaviors and Outcomes. Studia paedagogica, 28(3): 9-38.",
+        "Clutterbuck, P., & Lewis, D. (2019). Personalized Blended Learning via New Media and Formative Assessment. International Journal of Learning, 5(1): 12-18.",
+        "Comerford, L., Mannis, A., DeAngelis, M., Kougioumtzoglou, I. A., & Beer, M. (2018). Utilising database-driven interactive software to enhance independent home-study in a flipped classroom setting: going beyond visualising engineering concepts to ensuring formative assessment. European Journal of Engineering Education, 43(4): 522-537.",
+        "Koh, E., Tee, Y. H., Suresh, D., & Caleon, I. (2020). A digital formative assessment intervention for cultivating teamwork skills. In ICLS 2020 Proceedings (pp. 1597-1600). ISLS.",
+        "Kohnke, L., Foung, D., & Chen, J. (2022). Using learner analytics to explore the potential contribution of multimodal formative assessment to academic success in higher education. Sage Open, 12(2), 21582440221089957.",
+        "Morais, A. M., Marenzi, I., & Kantz, D. (2015). The LearnWeb formative assessment extension: Supporting awareness and reflection in blended courses. In ARTEL@ EC-TEL (pp. 97-103). EC-TEL.",
+        "Nguyen, V. A. (2017). The impact of online learning activities on student learning outcome in blended learning course. Journal of Information & Knowledge Management, 16(04), 1750040.",
+        "Pardo, A., Jovanovic, J., Dawson, S., Gašević, D., & Mirriahi, N. (2019). Using learning analytics to scale the provision of personalised feedback. British Journal of Educational Technology, 50(1), 128-138.",
+        "Paredes, Y. V., & Hsiao, I. H. (2021). WebPGA: An educational technology that supports learning by reviewing paper-based programming assessments. Information, 12(11), 450.",
+        "Tempelaar, D. T., Rienties, B., & Giesbers, B. (2014, June). Computer assisted, formative assessment and dispositional learning analytics in learning mathematics and statistics. In: International computer assisted assessment conference (pp. 67-78). Cham: Springer International Publishing.",
+        "Titov, S., Kurilov, A., Titova, N., & Brikoshina, I. (2019). Integrative assessment framework in blended learning. Technology, Education, Management, Informatics Journal, 8(3): 768-774.",
+        "Xiaochun, G., & Yiwei, W. (2020, May). Experiments on Blended Learning and its Formative Assessment for Engineering Majors in Universities. In: Proceedings of the 5th International Conference on Distance Education and Learning (pp. 16-20). New York, NY: ACM."
+      ],
+      "count": 41,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_21745",
+    "article_ID": "21745",
+    "slug": "21745",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "21745",
+      "url_slug": "21745"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-07-28",
+      "accepted": "2025-12-04",
+      "created": "2025-12-30",
+      "modified": "2025-12-30",
+      "issued": "2025-12-30",
+      "available": "2025-12-30",
+      "submitted_page": "2025-12-20",
+      "submitted_pdf": "2025-07-28",
+      "accepted_page": null,
+      "accepted_pdf": "2025-12-04"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+        "pdf_value": null,
+        "chosen_value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-12-20",
+        "pdf_value": "2025-07-28",
+        "chosen_value": "2025-07-28",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2025-12-04",
+        "chosen_value": "2025-12-04",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21745/3924",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21745/3924",
+      "local_relative_path": "2499-507X_21745.pdf",
+      "saved": true,
+      "sha256": "b0cc3d6395dde1d9059b3505acd508d8d20ee2120d43c0bbe90622673baf78ce",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1463980,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Elena Gabbi",
+        "Claudia Baiata",
+        "Maria Ranieri"
+      ],
+      "citation_author_institution": [
+        "University of Florence",
+        "University of Florence",
+        "University of Florence"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2025/12/30"
+      ],
+      "citation_volume": [
+        "10"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2025oa21745"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/21745"
+      ],
+      "citation_keywords": [
+        "Learning Analytics",
+        "Formative Assessment",
+        "Scoping Review",
+        "blended learning",
+        "Higher Education"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/21745/3924"
+      ],
+      "citation_reference_count": 41,
+      "DC.Date.created": [
+        "2025-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-12-20"
+      ],
+      "DC.Date.issued": [
+        "2025-12-30"
+      ],
+      "DC.Date.modified": [
+        "2025-12-30"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "21745"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2025oa21745"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/21745"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "10"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education"
+      ],
+      "DC.Title.Alternative": [
+        "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Elena Gabbi",
+        "Claudia Baiata",
+        "Maria Ranieri"
+      ],
+      "citation_author_institution": [
+        "University of Florence",
+        "University of Florence",
+        "University of Florence"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Elena Gabbi",
+        "Claudia Baiata",
+        "Maria Ranieri"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "In recent years, the expansion of advanced digital technologies in the learning field has caused a deep change in educational platforms and revolutionized the tools and systems that support online learning. Within this context, the rapid development of Learning Analytics (LA) in blended and online higher education has transformed assessment practices, enabling personalized feedback and more targeted instructional strategies. This scoping review investigates how LA is integrated into formative assessment practices within blended learning courses in higher education. By analysing 13 selected studies, the review identifies the main techniques, purposes, and roles attributed to LA, such as student profiling, predictive modeling, teacher support, and feedback automation. The restricted number of papers examined could limit the broader applicability of the conclusions. However, findings highlight how LA is increasingly employed to support formative assessment in blended higher education, with methods such as process mining, predictive modeling, and visualization enabling more precise monitoring of student learning and the provision of timely, personalized feedback. Yet, the pedagogical challenge lies in ensuring that these tools are not reduced to mere instruments of control, but are instead leveraged to foster engagement, support teachers’ decision-making, and promote more inclusive and meaningful learning experiences.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "In recent years, the expansion of advanced digital technologies in the learning field has caused a deep change in educational platforms and revolutionized the tools and systems that support online learning. Within this context, the rapid development of Learning Analytics (LA) in blended and online higher education has transformed assessment practices, enabling personalized feedback and more targeted instructional strategies. This scoping review investigates how LA is integrated into formative assessment practices within blended learning courses in higher education. By analysing 13 selected studies, the review identifies the main techniques, purposes, and roles attributed to LA, such as student profiling, predictive modeling, teacher support, and feedback automation. The restricted number of papers examined could limit the broader applicability of the conclusions. However, findings highlight how LA is increasingly employed to support formative assessment in blended higher education, with methods such as process mining, predictive modeling, and visualization enabling more precise monitoring of student learning and the provision of timely, personalized feedback. Yet, the pedagogical challenge lies in ensuring that these tools are not reduced to mere instruments of control, but are instead leveraged to foster engagement, support teachers’ decision-making, and promote more inclusive and meaningful learning experiences."
+          }
+        },
+        {
+          "content": "In recent years, the expansion of advanced digital technologies in the learning field has caused a deep change in educational platforms and revolutionized the tools and systems that support online learning. Within this context, the rapid development of Learning Analytics (LA) in blended and online higher education has transformed assessment practices, enabling personalized feedback and more targeted instructional strategies. This scoping review investigates how LA is integrated into formative assessment practices within blended learning courses in higher education. By analysing 13 selected studies, the review identifies the main techniques, purposes, and roles attributed to LA, such as student profiling, predictive modeling, teacher support, and feedback automation. The restricted number of papers examined could limit the broader applicability of the conclusions. However, findings highlight how LA is increasingly employed to support formative assessment in blended higher education, with methods such as process mining, predictive modeling, and visualization enabling more precise monitoring of student learning and the provision of timely, personalized feedback. Yet, the pedagogical challenge lies in ensuring that these tools are not reduced to mere instruments of control, but are instead leveraged to foster engagement, support teachers’ decision-making, and promote more inclusive and meaningful learning experiences.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "In recent years, the expansion of advanced digital technologies in the learning field has caused a deep change in educational platforms and revolutionized the tools and systems that support online learning. Within this context, the rapid development of Learning Analytics (LA) in blended and online higher education has transformed assessment practices, enabling personalized feedback and more targeted instructional strategies. This scoping review investigates how LA is integrated into formative assessment practices within blended learning courses in higher education. By analysing 13 selected studies, the review identifies the main techniques, purposes, and roles attributed to LA, such as student profiling, predictive modeling, teacher support, and feedback automation. The restricted number of papers examined could limit the broader applicability of the conclusions. However, findings highlight how LA is increasingly employed to support formative assessment in blended higher education, with methods such as process mining, predictive modeling, and visualization enabling more precise monitoring of student learning and the provision of timely, personalized feedback. Yet, the pedagogical challenge lies in ensuring that these tools are not reduced to mere instruments of control, but are instead leveraged to foster engagement, support teachers’ decision-making, and promote more inclusive and meaningful learning experiences."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Learning Analytics",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Learning Analytics"
+          }
+        },
+        {
+          "content": "Formative Assessment",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Formative Assessment"
+          }
+        },
+        {
+          "content": "Scoping Review",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Scoping Review"
+          }
+        },
+        {
+          "content": "blended learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "blended learning"
+          }
+        },
+        {
+          "content": "Higher Education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Higher Education"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/21745/3924",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21745/3924",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21745/3924",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21745/3924",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/21745/3924",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": "2025-07-28",
+      "accepted_pdf": "2025-12-04",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 02_Gabbietal",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 25.0 (Windows)",
+        "keywords": null,
+        "creation_date": "2025-12-20",
+        "mod_date": "2025-12-30"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 2 Doi: 10.3280/exioa2-2025oa2221745 Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education Elena Gabbi*, Claudia Baiata*, Maria Ranieri* Abstract In recent years, the expansion of advanced digital technologies in the learning field has caused a deep change in educational platforms and revolutionized the tools and systems that support online learning. Within this context, the rapid development of Learning Analytics (LA) in blended and online higher education has transformed assessment practices, enabling personalized feedback and more targeted instructi onal strategies. This scoping review investigates how LA is integrated into formative assessment practices within blended learning courses in higher education. By analysing 13 selected studies, the review identifies the main techniques, purposes, and roles attributed to LA, such as student profiling, predictive modeling, teacher support, and feedback automation. The restricted number of papers examined could limit the broader applicability of the conclusions. Howe ver, findings highlight how LA is increasingly employed to support formative assessment in blended higher education, with methods such as process mining, predictive modeling, and visualization enabling more precise monitoring of student learning and the provision of timely, personalized feedback. Yet, the pedagogical challenge lies in ensuring that these tools are not reduced to mere instruments of control, but are instead leveraged to foster engagement, support teachers’ decision-making, and promote more inclusive and meaningful learning experiences. Keywords: Learning Analytics, Formative Assessment, Scoping Review, Blended Learning, Higher Education. Article submitted: 28/07/2025; accepted: 04/12/2025 * University of Florence (ITALY). Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\21745\\2499-507X_21745.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+        "pdf_value": null,
+        "chosen_value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-12-20",
+        "pdf_value": "2025-07-28",
+        "chosen_value": "2025-07-28",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2025-12-04",
+        "chosen_value": "2025-12-04",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21745",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21745",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:35:48Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21745\\temp\\2499-507X_21745.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:35:51Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21745\\2499-507X_21745.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+        "submitted_date": "2025-12-20",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Elena Gabbi",
+          "Claudia Baiata",
+          "Maria Ranieri"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21745\\2499-507X_21745.pdf",
+        "generated_at_utc": "2026-04-21T21:35:51Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 02_Gabbietal",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 25.0 (Windows)",
+          "keywords": null,
+          "creation_date": "2025-12-20",
+          "mod_date": "2025-12-30"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 2 Doi: 10.3280/exioa2-2025oa2221745 Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education Elena Gabbi*, Claudia Baiata*, Maria Ranieri* Abstract In recent years, the expansion of advanced digital technologies in the learning field has caused a deep change in educational platforms and revolutionized the tools and systems that support online learning. Within this context, the rapid development of Learning Analytics (LA) in blended and online higher education has transformed assessment practices, enabling personalized feedback and more targeted instructi onal strategies. This scoping review investigates how LA is integrated into formative assessment practices within blended learning courses in higher education. By analysing 13 selected studies, the review identifies the main techniques, purposes, and roles attributed to LA, such as student profiling, predictive modeling, teacher support, and feedback automation. The restricted number of papers examined could limit the broader applicability of the conclusions. Howe ver, findings highlight how LA is increasingly employed to support formative assessment in blended higher education, with methods such as process mining, predictive modeling, and visualization enabling more precise monitoring of student learning and the provision of timely, personalized feedback. Yet, the pedagogical challenge lies in ensuring that these tools are not reduced to mere instruments of control, but are instead leveraged to foster engagement, support teachers’ decision-making, and promote more inclusive and meaningful learning experiences. Keywords: Learning Analytics, Formative Assessment, Scoping Review, Blended Learning, Higher Education. Article submitted: 28/07/2025; accepted: 04/12/2025 * University of Florence (ITALY). Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": "2025-07-28",
+          "accepted_date": "2025-12-04",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 02_Gabbietal",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": "2025-07-28",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2025-12-04",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Leveraging Learning Analytics in Formative Assessment: Insights from a Scoping Review of Blended Learning Courses in Higher Education",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-12-20",
+          "pdf_value": "2025-07-28",
+          "preferred_source": "pdf",
+          "chosen_value": "2025-07-28",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:43Z"
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2025-12-04",
+          "preferred_source": "pdf",
+          "chosen_value": "2025-12-04",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:45Z"
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:52:49Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21745\\temp\\2499-507X_21745.conflicts.json"
+  }
+}
