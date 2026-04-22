@@ -24,6 +24,7 @@ function renderPeopleGrid(containerId, role) {
 
   if (typeof PEOPLE === "undefined" || !Array.isArray(PEOPLE)) {
     container.innerHTML = '<p class="note">People data could not be loaded.</p>';
+    console.error("PEOPLE is undefined or not an array.");
     return;
   }
 
@@ -33,6 +34,7 @@ function renderPeopleGrid(containerId, role) {
 
   if (filtered.length === 0) {
     container.innerHTML = '<p class="note">No profiles are currently available.</p>';
+    console.warn(`No people found for role: ${role}`);
     return;
   }
 
@@ -43,4 +45,10 @@ function initPeopleRendering() {
   renderPeopleGrid("governance-cards", "board");
   renderPeopleGrid("training-fellowship-cards", "training-fellow");
   renderPeopleGrid("scholarly-fellowship-cards", "scholarly-fellow");
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initPeopleRendering);
+} else {
+  initPeopleRendering();
 }
