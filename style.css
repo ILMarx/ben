@@ -115,7 +115,7 @@ li + li {
 /* Hero */
 .site-hero {
   position: relative;
-  padding: 3.2rem 1.25rem 0.15rem;
+  padding: 3.2rem 1.25rem 0.6rem;
   border-bottom: 1px solid var(--border);
   background:
     linear-gradient(to bottom, rgba(255, 253, 249, 0.94), rgba(247, 244, 239, 0.94));
@@ -216,20 +216,20 @@ section > :last-child {
   position: relative;
   z-index: 1;
   max-width: var(--max-width);
-  margin: -0.9rem auto 0;
-  padding-left: 1.4rem;
-  height: 215px;
-  overflow: hidden;
+  margin: 0.55rem auto 0;
+  padding: 0 1.25rem;
   display: flex;
   align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 0;
+  overflow: visible;
 }
 
 .motif-image {
   width: min(61.8%, 760px);
   height: auto;
   display: block;
-  transform: translateY(-26px);
-  opacity: 0.92;
+  opacity: 0.88;
   pointer-events: none;
   user-select: none;
 }
@@ -238,10 +238,10 @@ section > :last-child {
 .site-shell {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0.15rem 1.25rem 4rem;
+  padding: 1.1rem 1.25rem 4rem;
   display: grid;
   grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
-  gap: 2rem;
+  gap: 2.35rem;
   align-items: start;
 }
 
@@ -578,21 +578,20 @@ footer p {
 /* Responsive */
 @media (max-width: 980px) {
   .motif-wrap {
-    height: 180px;
-    margin-top: -0.45rem;
-    padding-left: 0.5rem;
+    margin-top: 0.45rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     justify-content: center;
   }
 
   .motif-image {
     width: min(82%, 620px);
-    transform: translateY(-10px);
   }
 
   .site-shell {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-    padding-top: 0.45rem;
+    padding-top: 0.8rem;
   }
 
   .sidebar {
@@ -625,7 +624,7 @@ footer p {
 
   .site-hero {
     padding-top: 2.6rem;
-    padding-bottom: 0.15rem;
+    padding-bottom: 0.4rem;
   }
 
   .hero-panel,
@@ -635,18 +634,18 @@ footer p {
   }
 
   .motif-wrap {
-    height: 138px;
-    margin-top: -0.2rem;
+    margin-top: 0.4rem;
     padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
   }
 
   .motif-image {
     width: 92%;
-    transform: translateY(-4px);
   }
 
   .site-shell {
-    padding-top: 0.35rem;
+    padding-top: 0.7rem;
     padding-bottom: 3rem;
   }
 
@@ -671,3 +670,5 @@ footer p {
     animation: none !important;
   }
 }
+
+
