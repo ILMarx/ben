@@ -1,0 +1,898 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13943",
+  "scraped_at_utc": "2026-04-21T21:32:51Z",
+  "fetched_at_utc": "2026-04-21T21:32:51Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "90d0d848ee0a3157f8b8ac688a76dfab2d78c67b1529a13014be7767c9bac343",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Simone Visentin",
+        "nameType": "Personal",
+        "givenName": "Simone",
+        "familyName": "Visentin",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Isabella Valbusa",
+        "nameType": "Personal",
+        "givenName": "Isabella",
+        "familyName": "Valbusa",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Sara Santilli",
+        "nameType": "Personal",
+        "givenName": "Sara",
+        "familyName": "Santilli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università di Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/13943",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-09",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-09",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-09",
+      "Issued": "2022-06-09"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The article presents the outcomes of a university training experience that, inspired by the integrated sport model, intended to offer participants – pre-service physical education teachers – the opportunity to live and reflect on new inclusive teaching practices.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’articolo presenta gli esiti di un’esperienza formativa universitaria che, ispirandosi al modello dello sport integrato, intendeva offrire ai partecipanti – futuri insegnanti di educazione fisica – l’opportunità di sperimentare e riflettere su nuove pratiche didattiche inclusive.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2022oa13943",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "inclusione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "educazione fisica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "apprendimento trasformativo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "sport integrato",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "progettazione universale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13943/1362",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Visentin, S., Valbusa, I., & Santilli, S. (2022). Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica. Excellence and Innovation in Learning and Teaching - Open Access , 7 (1). https://doi.org/10.3280/exioa1-2022oa13943",
+      "articleTitleEcho": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Alhumaid, M. M., Khoo, S., & Bastos, T. (2020). Self-efficacy of pre-service physical education teachers toward inclusion in Saudi Arabia. Sustainability, 12, 3898. doi: 10.3390/su12093898.",
+        "Arvanitis, E. (2018). Preservice teacher education: Towards a transformative and reflexive learning. Global studies of Chilhood, 8.2, 114-130. Doi: 10.1177/2043610617734980.",
+        "Bandura, A. (1986). Social foundations of thought and action. Pearson Education.",
+        "Bodini, A., Capellini, F., & Magnanini, A. (2010). Baskin… uno sport per tutti. FrancoAngeli.",
+        "Braksiek, M. (2022). Pre-service physical education teachers’ attitude toward, and self-efficacy in, inclusive physical education: Measurement invariance and influence factors. Teaching and Teacher Education, 109, 103547. Doi: 10.1016/j.tate.2021.103547.",
+        "CAST- Center for Applied Special Technologies (2011). Universal design for learning guidelines version 2.0. CAST publishing.",
+        "Coates, J., & Vickerman, P. (2013). A review of methodological strategies for consulting children with special educational needs in physical education. European Journal of Special Needs Education, 28, 333-347. doi: 10.1080/08856257.2013.797705.",
+        "Commissione Europea & EACEA/Eurydice (2013). Educazione fisica e sport a scuola in Europa. Rapporto Eurydice. Ufficio delle pubblicazioni dell’Unione Europea.",
+        "Cottini, L. (2017). Didattica speciale e inclusione scolastica. Carocci.",
+        "European Agency for Special Needs and Inclusive Education (2017). Inclusive education for learners with disabilities. EASNIE.",
+        "European Agency for Special Needs and Inclusive Education (2012). La formazione docente per l’inclusione. Profilo dei docenti inclusivi. Preso da: https://www.european-agency.org/sites/default/files/te4i-profile-of-inclusive-teachers_Profile-of-Inclusive-Teachers-IT.pdf.",
+        "Ghedin, E. (2009). Benessere disabili. Liguori Editore.",
+        "Green, K. (2019). Physical education and school sport: Is there a wider social role?. In S. Capel & R. Blair (Eds.), Debates in physical education (pp. 18-35). Routledge.",
+        "Haegele, J. A., & Sutherland, S. (2015). Perspectives of students with disabilities toward physical education: A qualitative inquiry review. Quest, 67, 255-273. doi: 10.1080/00336297.2015.1050118.",
+        "Hersman, B. L., & Hodge, S. R. (2017). Strategies to increase social inclusion of students with disabilities in physical education settings. In A. J. S. Morin, C. Maïano, D. Tracey & R. G. Craven (Eds.), Inclusive physical activities: International perspectives (pp. 77-89). Information Age Publishing.",
+        "Holland, K., & Haegele, J. A. (2021). Perspectives of students with disabilities toward physical education: A review update 2014-2019. Kinesiology Review, 10.1, 78-87.",
+        "King, K. (2009). The handbook of the evolving research of transformative learning based on the learning activities survey. Information Age Pub.",
+        "Koh, Y. (2021). Combining adapted physical activity education with individualized education programs: Building Korean pre-service teachers’ self-efficacy for inclusive physical education. Sustainability, 12, 2879. Doi: 10.3390/su13052879.",
+        "Magnanini, A., Moliterni, P., Ferraro, A., & Cioni, L. (2018). Integrated sport: key-words of an inclusive model. In Proceedings of the 3rd International Eurasian Conference on Sport Education and Society. International Science, Culture and Sport Association. Preso da: https://www.researchgate.net/profile/Antonio-Ferraro-4/publication/330882003_Integrated_Sport_Keywords_of_an_Inclusive_Model/links/5c59a576299bf1d14cadb935/Integrated-Sport-Keywords-of-an-Inclusive-Model.pdf.",
+        "Mezirow, J. (2003). Apprendimento e trasformazione. Il significato dell’esperienza e il valore della riflessione nell’apprendimento degli adulti. Raffaello Cortina Editore.",
+        "Miola, S., Meggiolaro, L., Rodighiero M.P., Lago, C.D. & Bordignon, D. (2021). Gioco Anch’io. Erickson.",
+        "Miur (2009). Linee guida del Ministero dell’Istruzione per le attività di educazione fisica nelle scuole secondarie di primo e secondo grado. Preso da: https://archivio.pubblica.istruzione.it/normativa/2009/allegati/all_prot4273.pdf.",
+        "Miur (2012). Indicazioni per la progettazione curricolare dell’educazione fisica nel primo ciclo. Preso da: http://www.indicazioninazionali.it/wp-content/uploads/2018/08/Indicazioni_Annali_Definitivo.pdf.",
+        "Moliterni, P. (2013). Didattica e scienze motorie: tra mediatori e integrazione. Didattica e Scienze Motorie, 1-320. Preso da: https://aimcmassa.myblog.it/media/01/01/2519945177.pdf.",
+        "Nuangchalerm, P. & Prachagool, V. (2010). Promoting transformative learning of preservice teacher through contemplative practices. Asian Social Science, 6.1, 95-99.",
+        "Nur, I. R. D., & Firmansyah, D. (2019). The use of transformative learning in develop-ing students’ self-efficacy. Journal of Physics: Conference Series, 1315, 012057. IOP Publishing.",
+        "Opstoel, K., Chapelle, L., Prins, F. J., De Meester, A., Haerens, L., van Tartwijk, J., & De Martelaer, K. (2020). Personal and social development in physical education and sports: A review study. European Physical Education Review, 26, 797-813. doi: 10.1177/1356336X19882054.",
+        "Pavone, M. (2014). L’inclusione educativa: Indicazioni pedagogiche per la disabilità. Mondadori Università.",
+        "Qi, J., & Ha, A. S. (2012). Inclusion in physical education: A review of literature. International Journal of Disability, Development, and Education, 59.3, 257-281.",
+        "Qi, J., & Wang, L. (2018). Social interaction between students with and without disabilities in general physical education: a Chinese perspective. Physical Education and Sport Pedagogy, 23.6, 575-591.",
+        "Sibilia, L., Schwarzer, R. & Jerusalem, M. (1995). Italian adaptation of the general self-efficacy scale: Self-efficacy generalized. Preso da: http://userpage.fu-berlin.de/health/italian.htm.",
+        "Spencer-Cavaliere, N., & Watkinson, E. J. (2010). Inclusion understood from the per-spectives of children with disability. Adapted physical activity quarterly, 27, 275-293. doi: 10.1123/apaq.27.4.275.",
+        "Tanure Alves, M.L., Haegele, J. A., & Duarte, E. (2018). “We can’t do anything”: The experiences of students with visual impairments in physical education classes in Brazil. The British Journal of Visual Impairment, 36.2, 152-162.",
+        "Tomlinson, C. A. (2006). Adempiere la promessa di una classe differenziata: Strategie e strumenti per un insegnamento attento alla diversità. LAS.",
+        "UNESCO (2015). Carta internazionale per l’educazione fisica, l’attività fisica e lo sport. Preso da: http://unescoblob.blob.core.windows.net/pdf/UploadCKEditor/Carta%20Sport%20ITA.pdf.",
+        "UNESCO (2017). A guide for ensuring inclusion and equity in education. Preso da: https://unesdoc.unesco.org/ark:/48223/pf0000248254/PDF/248254eng.pdf.multi.",
+        "Whitehead, M. (2013). What is the education in physical education. In S. Capel & R. Blair (Eds.), Debates in physical education (pp. 103-115). Routledge."
+      ],
+      "count": 37,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_13943",
+    "article_ID": "13943",
+    "slug": "13943",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "13943",
+      "url_slug": "13943"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Integrated sport and Transformative Learning. Outcomes of a practical activity in a master degree for pre-service physical activity teachers",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-04-18",
+      "accepted": null,
+      "created": "2022-06-09",
+      "modified": "2022-06-09",
+      "issued": "2022-06-09",
+      "available": "2022-06-09",
+      "submitted_page": "2022-04-18",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+        "pdf_value": null,
+        "chosen_value": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-04-18",
+        "pdf_value": null,
+        "chosen_value": "2022-04-18",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13943/1362",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13943/1362",
+      "local_relative_path": "2499-507X_13943.pdf",
+      "saved": true,
+      "sha256": "5d1b1d89e0595ed4aaea6b0103571243b95097fd6bdec63cac95778d170299da",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 844203,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Simone Visentin",
+        "Isabella Valbusa",
+        "Sara Santilli"
+      ],
+      "citation_author_institution": [
+        "Università di Padova",
+        "Università di Padova",
+        "Università di Padova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2022/06/09"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2022oa13943"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13943"
+      ],
+      "citation_keywords": [
+        "inclusione",
+        "educazione fisica",
+        "apprendimento trasformativo",
+        "sport integrato",
+        "progettazione universale"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/13943/1362"
+      ],
+      "citation_reference_count": 37,
+      "DC.Date.created": [
+        "2022-06-09"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-04-18"
+      ],
+      "DC.Date.issued": [
+        "2022-06-09"
+      ],
+      "DC.Date.modified": [
+        "2022-06-09"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "13943"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2022oa13943"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13943"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica"
+      ],
+      "DC.Title.Alternative": [
+        "Integrated sport and Transformative Learning. Outcomes of a practical activity in a master degree for pre-service physical activity teachers"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Simone Visentin",
+        "Isabella Valbusa",
+        "Sara Santilli"
+      ],
+      "citation_author_institution": [
+        "Università di Padova",
+        "Università di Padova",
+        "Università di Padova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Simone Visentin",
+        "Isabella Valbusa",
+        "Sara Santilli"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The article presents the outcomes of a university training experience that, inspired by the integrated sport model, intended to offer participants – pre-service physical education teachers – the opportunity to live and reflect on new inclusive teaching practices.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The article presents the outcomes of a university training experience that, inspired by the integrated sport model, intended to offer participants – pre-service physical education teachers – the opportunity to live and reflect on new inclusive teaching practices."
+          }
+        },
+        {
+          "content": "L’articolo presenta gli esiti di un’esperienza formativa universitaria che, ispirandosi al modello dello sport integrato, intendeva offrire ai partecipanti – futuri insegnanti di educazione fisica – l’opportunità di sperimentare e riflettere su nuove pratiche didattiche inclusive.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’articolo presenta gli esiti di un’esperienza formativa universitaria che, ispirandosi al modello dello sport integrato, intendeva offrire ai partecipanti – futuri insegnanti di educazione fisica – l’opportunità di sperimentare e riflettere su nuove pratiche didattiche inclusive."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "inclusione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "inclusione"
+          }
+        },
+        {
+          "content": "educazione fisica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "educazione fisica"
+          }
+        },
+        {
+          "content": "apprendimento trasformativo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "apprendimento trasformativo"
+          }
+        },
+        {
+          "content": "sport integrato",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "sport integrato"
+          }
+        },
+        {
+          "content": "progettazione universale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "progettazione universale"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13943/1362",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13943/1362",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13943/1362",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13943/1362",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13943/1362",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2022-06-08",
+        "mod_date": "2022-06-08"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13943 Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica Integrated sport and Tr ansformative Learning. Outcomes of a practical activity in a master degree for pre-service physical activity teachers Simone Visentin, Isabella Valbusa, Sara Santilli* Riassunto L’articolo presenta gli esiti di un’esperienza formativa univer sitaria che, ispirandosi al modello dello sport integrato, intendeva offrire ai partecipanti – futuri insegnanti di educazione fisica – l’opportunità di sperimentare e riflettere su nuove pratiche didattiche inclusive. Parole chiave : inclusione; educazione fisica; apprendimento trasformativo; sport integrato; progettazione universale. Abstract The article presents the outcomes of a university training expe rience that, inspired by the integrated sport model, intended to offer parti cipants – pre- service physical education teachers – the opportunity to live and reflect on new inclusive teaching practices. Keywords: inclusion; physical education; transformative learning; integ rated sport; universal design; self-efficacy. * Università di Padova. Simone Visentin ha ideato il disegno di ricerca e coordinato la pubblicazione. Inoltre, ha scritto i 2 paragrafi Il valore dell’educazione fisica inclusiva e il ruolo dell’insegnante, Il contesto formativo e il modello didattico: sport integrato e apprendimento trasformativo; Isabella Valbusa ha scritto il par agrafo I partecipanti e gli strumenti valutativi; Isabella Valbusa e Sara Santilli hanno curato il paragrafo Ana- lisi dei dati e presentazione dei risultati; Conclusioni e Limiti e Implicazioni sono stati scritti congiuntamente dai tre autori. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\13943\\2499-507X_13943.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+        "pdf_value": null,
+        "chosen_value": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-04-18",
+        "pdf_value": null,
+        "chosen_value": "2022-04-18",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13943",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13943",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:32:51Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13943\\temp\\2499-507X_13943.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:32:53Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13943\\2499-507X_13943.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+        "submitted_date": "2022-04-18",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Simone Visentin",
+          "Isabella Valbusa",
+          "Sara Santilli"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13943\\2499-507X_13943.pdf",
+        "generated_at_utc": "2026-04-21T21:32:53Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2022-06-08",
+          "mod_date": "2022-06-08"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13943 Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica Integrated sport and Tr ansformative Learning. Outcomes of a practical activity in a master degree for pre-service physical activity teachers Simone Visentin, Isabella Valbusa, Sara Santilli* Riassunto L’articolo presenta gli esiti di un’esperienza formativa univer sitaria che, ispirandosi al modello dello sport integrato, intendeva offrire ai partecipanti – futuri insegnanti di educazione fisica – l’opportunità di sperimentare e riflettere su nuove pratiche didattiche inclusive. Parole chiave : inclusione; educazione fisica; apprendimento trasformativo; sport integrato; progettazione universale. Abstract The article presents the outcomes of a university training expe rience that, inspired by the integrated sport model, intended to offer parti cipants – pre- service physical education teachers – the opportunity to live and reflect on new inclusive teaching practices. Keywords: inclusion; physical education; transformative learning; integ rated sport; universal design; self-efficacy. * Università di Padova. Simone Visentin ha ideato il disegno di ricerca e coordinato la pubblicazione. Inoltre, ha scritto i 2 paragrafi Il valore dell’educazione fisica inclusiva e il ruolo dell’insegnante, Il contesto formativo e il modello didattico: sport integrato e apprendimento trasformativo; Isabella Valbusa ha scritto il par agrafo I partecipanti e gli strumenti valutativi; Isabella Valbusa e Sara Santilli hanno curato il paragrafo Ana- lisi dei dati e presentazione dei risultati; Conclusioni e Limiti e Implicazioni sono stati scritti congiuntamente dai tre autori. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Sport integrato e Apprendimento Trasformativo. Gli esiti di un’attività pratica laboratoriale in un corso di laurea magistrale per futuri insegnanti di educazione fisica",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-04-18",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-04-18",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:40Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:42Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13943\\temp\\2499-507X_13943.conflicts.json"
+  }
+}

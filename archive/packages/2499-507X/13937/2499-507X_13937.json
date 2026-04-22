@@ -1,0 +1,865 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13937",
+  "scraped_at_utc": "2026-04-21T21:32:48Z",
+  "fetched_at_utc": "2026-04-21T21:32:48Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "3f69d0aa718a6fb48b15af75305519c9bc6ce94d37c802f9f3cd26345574ab45",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Rossana Sicurello",
+        "nameType": "Personal",
+        "givenName": "Rossana",
+        "familyName": "Sicurello",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi Kore di Enna"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/13937",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-09",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-09",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-09",
+      "Issued": "2022-06-09"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The article reports the results of a survey conducted between april-may 2021 with a group of 30 support teachers training program organized at the University of Messina for the specialization of the support teacher in upper secondary school. In this paper we analyzed and discussed the narration as a reflective methodology to be privileged in field of in-service development of professional identity. The survey intends to demonstrate the usefulness of reflective writing on professional practices as an innovative professional development devices.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’articolo riporta i risultati di un’indagine condotta grazie agli strumenti della narrative inquiry nei mesi di aprile-maggio 2021 con un gruppo di 30 insegnanti frequentanti i Percorsi di formazione per la specializzazione per le attività di sostegno didattico agli alunni con disabilità della scuola secondaria di primo e di secondo grado, V ciclo, A.A. 2019/2020 riservato agli idonei dei cicli precedenti presso l’Università degli Studi di Messina. A partire dal percorso di tirocinio indiretto svolto on line con il tutor coordinatore individuato dall’Università degli Studi di Messina, si è voluto indagare l’utilità della scrittura riflessiva quale dispositivo innovativo di sviluppo professionale.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2022oa13937",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "formazione docente",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pratica riflessiva",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pratica docente",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "identità professionale docente",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13937/1361",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Sicurello, R. (2022). Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività. Excellence and Innovation in Learning and Teaching - Open Access , 7 (1). https://doi.org/10.3280/exioa1-2022oa13937",
+      "articleTitleEcho": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Albanese, O., Businaro, N., Fiorilli C., Zorzi, F. (2010). Rischi e risorse nel contesto scolastico per la professione insegnante. In M. B. Ligorio, C. Pontercorvo (Eds.), La scuola come contesto. Prospettive psicologico-culturali (pp. 215-224). Carocci.",
+        "Altet, M., Charilier, E., Paquay, L., Perrenoud, P. (2006). Formare gli insegnanti professionisti. Quali strategie? Quali competenze? Armando.",
+        "Baldacci, M. (2010). Curricolo e competenze. Mondadori.",
+        "Batini, F., Del Sarto, G. (2005). Narrazioni di narrazioni. Orientamento narrativo e progetto di vita. Erickson.",
+        "Booth, T., & Ainscow, M. (2002). Index for INCLUSION: Developing Learning and Participation in Schools. Centre for Studies on Inclusive Education.",
+        "Bruner, J.S. (1992). La ricerca del significato. Per una psicologia culturale. Bollati Boringhieri (or. [1990] Acts of Meaning. Mass, Harvard University Press).",
+        "Bruner, J.S. (2002). La fabbrica delle storie. Diritto, letteratura, vita. Laterza (or. [2002] Making Stories: Law, Literature, Life. Farrar, Strauss and Giroux).",
+        "Cambi, F. (2005). L’autobiografia come metodo formativo. Laterza.",
+        "Capperucci, D. (2018). Formare insegnanti competenti. Il ruolo del tirocinio. In G. Bandini, A. Calvani, D. Capperucci, (a cura di) (2018). Il tirocinio dei futuri insegnanti (pp. 13-20). Edizioni via Laura.",
+        "Capperucci, D., Piccioli, M. (2015). L’insegnante di scuola primaria. Identità, competenze e profilo professionale. FrancoAngeli.",
+        "Clandinin, D. J. (Ed.) (2007). Handbook of narrative inquiry: Mapping a methodology. Sage.",
+        "Clandinin D.J., Murphy, M.S. (2007), Looking ahead: Conversations with Elliot Mishler, Don Polkinghorne, and Amia Lieblich, in Clandinin D.J., Handbook of narrative inquiry: Mapping a methodology (pp. 632-650). Sage.",
+        "Clandinin, D. J., & Connelly, M. F. (1990). Stories of experience and narrative inquiry. Educational Researcher, 19.5, 2-14.",
+        "Demetrio, D. (2012). Educare è narrare. Le teorie, le pratiche, la cura. Mimesis.",
+        "Demetrio, D. (2008). La scrittura clinica. Consulenza autobiografica e fragilità esistenziali. Raffaello Cortina.",
+        "Demetrio, D. (Ed.) (1999). L’educatore auto(bio)grafico. Il metodo delle storie di vita nelle relazioni di aiuto. Edizioni Unicopli.",
+        "Demetrio, D. (1996). Raccontarsi. L’autobiografia come cura di sé. Raffaello Cortina Editore.",
+        "Dewey J. (1933). How we think: a restatement of the relation of reflective thinking to the educative process. Heath.",
+        "Dewey, J. (1929). Le fonti di una scienza dell’educazione. Trad. it. La Nuova Italia, 1951.",
+        "Dewey, J. (1916). Democracy and education. An introduction to the philosophy of education. Free.",
+        "Elbaz-Luwish, F. (2005). Teachers’ Voices: Storytelling and possibility. IAP.",
+        "European Agency for Development in Special Needs Education (2012). Profile of Inclusive Teachers. European Agency for Development in Special Needs Education.",
+        "Fabbri, L. (2006). Gli insegnanti e la costruzione del sé professionale. In AA.VV. Didatticamente. ETS.",
+        "Formenti, L. (1998). La formazione autobiografica. Confronti tra modelli e riflessioni tra teoria e prassi. Guerini e Associati.",
+        "Grion, V. (2011). Narrare di sé. L’identità professionale dell’insegnante in servizio: identità e proposte. Guerini scientifica.",
+        "Guerra, L. (2018). Il Tirocinio come strategia di apprendimento professionale: la formazione dei Tutor. In I. Bolognesi e M. D’Ascenzo (a cura di), Insegnanti si di-venta. L’esperienza di Tirocinio nei Corsi di laurea magistrale in Scienze della Formazione primaria (pp.315-320). FrancoAngeli.",
+        "Kottkamp, R. (1990). Means of facilitating reflection. Education and Urban Society, XXII.2, 182-203. Doi: 10.1177/0013124590022002005.",
+        "Laneve, C. (2009). Scrittura e pratica educativa. Un contributo al sapere dell’insegnamento. Erickson.",
+        "Magnoler, P. (2008). L’insegnante professionista. Dispositivi per la formazione. EUM.",
+        "Magnoler, P., & Sorzio, P. (2012). Didattica e competenze. Pratiche per una nuova alleanza tra ricercatori e insegnanti. EUM.",
+        "Mariani, A. (2014). Prefazione. In A. Mariani (A cura di), L’orientamento e la forma-zione degli insegnanti del futuro (pp. XI-XIV). Firenze University Press.",
+        "Massaro, S. (2012). Narrare il Sè insegnante. In L. Perla (a cura di), Scritture professionali. Metodi per la formazione (pp. 34-57). Progedit.",
+        "Meirink, J. A., Imants, J., Meijer, P. C., Verloop, N. (2010). Teacher learning and collaboration in innovative teams. Cambridge Journal of Education, 40.2, 161-181.",
+        "Mortari, L. (Ed.). (2010). Dire la pratica. La cultura del fare scuola. Bruno Mondadori.",
+        "Mortari, L. (2009). Ricercare e riflettere. La formazione del docente professionista. Carocci.",
+        "Mortari, L. (2003). Apprendere dall’esperienza. Il pensare riflessivo nella formazione. Carocci.",
+        "Pennazio, V. (2016). Microstorie riflessive per la formazione degli insegnanti di sostegno. Metis. Mondi Educativi, 6.",
+        "Perla, L. (2015). Lo sviluppo professionale dell’insegnante. Ipotesi per una modellistica in fieri. Mizar. Costellazione di pensieri.",
+        "Perla, L. (2012). Scrittura e tirocinio universitario. Una ricerca sulla documentazione. FrancoAngeli.",
+        "Rossi, P. G. (2015). Ripensare la ricerca educativa nell’ottica della professionalità docente e della generalizability. Pedagogia Oggi, 2, 49-64.",
+        "Schön, D. A. (2006). Formare il professionista riflessivo: per una nuova prospettiva della formazione e dell’apprendimento nelle professioni. FrancoAngeli.",
+        "Schön, D. A. (1993). Il professionista riflessivo: per una nuova epistemologia della pratica professionale. Dedalo.",
+        "Schön, D.A. (1987). Educating the reflective practitioner. Jossey‐Bass Publishers.",
+        "Smorti, A. (1994). Il pensiero narrativo. Costruzione di storie e sviluppo della conoscenza sociale. Giunti.",
+        "Sposetti, & Szpunar, (eds.) (2018). Professione educativa e documentazione. L’educatore che scrive: un professionista riflessivo nel contesto della pratica. Edizioni Junior.",
+        "Sposetti, P. (2017). Le scritture professionali in educazione: teorie, modelli, pratiche. Nuova Cultura.",
+        "Tacconi, G. (2015). La didattica al lavoro. Analisi delle pratiche educative nell’istruzione e formazione professionale. FrancoAngeli.",
+        "Tacconi, G. (2011). Costruire conoscenza attraverso la narrazione La valenza formativa della ricerca sull’analisi delle pratiche di insegnamento. Formazione & Insegnamento, IX.3, 125- 131.",
+        "Tacconi, G. (2010). Dentro la pratica. La concomitante attenzione ai saperi disciplinari e al successo formativo degli allievi nel racconto di alcuni insegnanti-scrittori. Rassegna CNOS, 2, 167-183. CNOS-FAP.",
+        "Ulivieri, S., Cambi, F., Orefice, P. (a cura di) (2010). Cultura e professionalità docente nella società complessa. University Press.",
+        "Vannini, I. (2018). Il curricolo di Tirocinio per la formazione iniziale dei maestri di scuola dell’infanzia e primaria: territorio di confine di incontro. In I. Bolognesi e M. D’Ascenzo (a cura di). Insegnanti si diventa. L’esperienza di Tirocinio nei Corsi di laurea magistrale in Scienze della Formazione primaria (pp. 25-32). FrancoAngeli.",
+        "Wenger, E. (1998). Communities of practice: learning, meaning, and identity. Cambridge University Press. Doi: 10.1017/CBO9780511803932."
+      ],
+      "count": 52,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_13937",
+    "article_ID": "13937",
+    "slug": "13937",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "13937",
+      "url_slug": "13937"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Internship in the specialization course for educational support activities for students with disabilities improving the training in reflectiveness",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-09-30",
+      "accepted": null,
+      "created": "2022-06-09",
+      "modified": "2022-06-09",
+      "issued": "2022-06-09",
+      "available": "2022-06-09",
+      "submitted_page": "2021-09-30",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+        "pdf_value": null,
+        "chosen_value": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-09-30",
+        "pdf_value": null,
+        "chosen_value": "2021-09-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13937/1361",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13937/1361",
+      "local_relative_path": "2499-507X_13937.pdf",
+      "saved": true,
+      "sha256": "48a8b5636da19af563e86f023db12b110ffd25eb1fd5a7e5803b5f2024bcd1fb",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 807453,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Rossana Sicurello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi Kore di Enna"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2022/06/09"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2022oa13937"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13937"
+      ],
+      "citation_keywords": [
+        "formazione docente",
+        "pratica riflessiva",
+        "pratica docente",
+        "identità professionale docente"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/13937/1361"
+      ],
+      "citation_reference_count": 52,
+      "DC.Date.created": [
+        "2022-06-09"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-09-30"
+      ],
+      "DC.Date.issued": [
+        "2022-06-09"
+      ],
+      "DC.Date.modified": [
+        "2022-06-09"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "13937"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2022oa13937"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13937"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività"
+      ],
+      "DC.Title.Alternative": [
+        "Internship in the specialization course for educational support activities for students with disabilities improving the training in reflectiveness"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Rossana Sicurello"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi Kore di Enna"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Rossana Sicurello"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The article reports the results of a survey conducted between april-may 2021 with a group of 30 support teachers training program organized at the University of Messina for the specialization of the support teacher in upper secondary school. In this paper we analyzed and discussed the narration as a reflective methodology to be privileged in field of in-service development of professional identity. The survey intends to demonstrate the usefulness of reflective writing on professional practices as an innovative professional development devices.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The article reports the results of a survey conducted between april-may 2021 with a group of 30 support teachers training program organized at the University of Messina for the specialization of the support teacher in upper secondary school. In this paper we analyzed and discussed the narration as a reflective methodology to be privileged in field of in-service development of professional identity. The survey intends to demonstrate the usefulness of reflective writing on professional practices as an innovative professional development devices."
+          }
+        },
+        {
+          "content": "L’articolo riporta i risultati di un’indagine condotta grazie agli strumenti della narrative inquiry nei mesi di aprile-maggio 2021 con un gruppo di 30 insegnanti frequentanti i Percorsi di formazione per la specializzazione per le attività di sostegno didattico agli alunni con disabilità della scuola secondaria di primo e di secondo grado, V ciclo, A.A. 2019/2020 riservato agli idonei dei cicli precedenti presso l’Università degli Studi di Messina. A partire dal percorso di tirocinio indiretto svolto on line con il tutor coordinatore individuato dall’Università degli Studi di Messina, si è voluto indagare l’utilità della scrittura riflessiva quale dispositivo innovativo di sviluppo professionale.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’articolo riporta i risultati di un’indagine condotta grazie agli strumenti della narrative inquiry nei mesi di aprile-maggio 2021 con un gruppo di 30 insegnanti frequentanti i Percorsi di formazione per la specializzazione per le attività di sostegno didattico agli alunni con disabilità della scuola secondaria di primo e di secondo grado, V ciclo, A.A. 2019/2020 riservato agli idonei dei cicli precedenti presso l’Università degli Studi di Messina. A partire dal percorso di tirocinio indiretto svolto on line con il tutor coordinatore individuato dall’Università degli Studi di Messina, si è voluto indagare l’utilità della scrittura riflessiva quale dispositivo innovativo di sviluppo professionale."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "formazione docente",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "formazione docente"
+          }
+        },
+        {
+          "content": "pratica riflessiva",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pratica riflessiva"
+          }
+        },
+        {
+          "content": "pratica docente",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pratica docente"
+          }
+        },
+        {
+          "content": "identità professionale docente",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "identità professionale docente"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13937/1361",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13937/1361",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13937/1361",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13937/1361",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13937/1361",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2022-06-08",
+        "mod_date": "2022-06-08"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13937 Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività Internship in the specialization course for educational support activities for students with disabilities improving the training in reflectiveness Rossana Sicurello* Riassunto L’articolo riporta i risultati di un’indagine condotta grazie a gli strumenti della narrative inquiry nei mesi di aprile-maggio 2021 con un gruppo di 30 in- segnanti frequentanti i Percorsi di formazione per la specializzazione per le at- tività di sostegno didattico agli alunni con disabilità della s cuola secondaria di primo e di secondo grado, V ciclo, A.A. 2019/2020 riservato agli idonei dei cicli precedenti presso l’Università degli Studi di Messina. A partire dal per- corso di tirocinio indiretto svolto on line con il tutor coordi natore individuato dall’Università degli Studi di Messina, si è voluto indagare l’ utilità della scrit- tura riflessiva quale dispositivo innovativo di sviluppo professionale. Parole chiave: formazione docente, pratica riflessiva, pratica docente, identità professionale docente. Abstract The article reports the results of a survey conducted between april-may 2021 with a group of 30 support teachers training program organized at the University of Messina for the specialization of the support tea cher in upper secondary school. In this paper we analyzed and discussed the narration as a reflective methodology to be privileged in field of in-service development of professional identity. The survey intends to demonstrate the usefulness of reflective writing on professional practices as an innovative p rofessional development devices. * Università degli Studi Kore di Enna. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\13937\\2499-507X_13937.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+        "pdf_value": null,
+        "chosen_value": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-09-30",
+        "pdf_value": null,
+        "chosen_value": "2021-09-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13937",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13937",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:32:48Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13937\\temp\\2499-507X_13937.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:32:50Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13937\\2499-507X_13937.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+        "submitted_date": "2021-09-30",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Rossana Sicurello"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13937\\2499-507X_13937.pdf",
+        "generated_at_utc": "2026-04-21T21:32:50Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2022-06-08",
+          "mod_date": "2022-06-08"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13937 Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività Internship in the specialization course for educational support activities for students with disabilities improving the training in reflectiveness Rossana Sicurello* Riassunto L’articolo riporta i risultati di un’indagine condotta grazie a gli strumenti della narrative inquiry nei mesi di aprile-maggio 2021 con un gruppo di 30 in- segnanti frequentanti i Percorsi di formazione per la specializzazione per le at- tività di sostegno didattico agli alunni con disabilità della s cuola secondaria di primo e di secondo grado, V ciclo, A.A. 2019/2020 riservato agli idonei dei cicli precedenti presso l’Università degli Studi di Messina. A partire dal per- corso di tirocinio indiretto svolto on line con il tutor coordi natore individuato dall’Università degli Studi di Messina, si è voluto indagare l’ utilità della scrit- tura riflessiva quale dispositivo innovativo di sviluppo professionale. Parole chiave: formazione docente, pratica riflessiva, pratica docente, identità professionale docente. Abstract The article reports the results of a survey conducted between april-may 2021 with a group of 30 support teachers training program organized at the University of Messina for the specialization of the support tea cher in upper secondary school. In this paper we analyzed and discussed the narration as a reflective methodology to be privileged in field of in-service development of professional identity. The survey intends to demonstrate the usefulness of reflective writing on professional practices as an innovative p rofessional development devices. * Università degli Studi Kore di Enna. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Il tirocinio nel corso di specializzazione per le attività di sostegno didattico agli alunni con disabilità per una formazione alla riflessività",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-09-30",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-09-30",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:37Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:38Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13937\\temp\\2499-507X_13937.conflicts.json"
+  }
+}

@@ -1,0 +1,917 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15075",
+  "scraped_at_utc": "2026-04-21T21:32:57Z",
+  "fetched_at_utc": "2026-04-21T21:32:57Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "7af9af902990b9c6412ee58126b2f3800c07d00cec96fdd17967e5e45d649b6f",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Digital Media in Adult and Continuing Education in Germany",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Lisa Breitschwerdt",
+        "nameType": "Personal",
+        "givenName": "Lisa",
+        "familyName": "Breitschwerdt",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Julius-Maximilians-Universität of Würzburg (JMU)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Vanessa Beu",
+        "nameType": "Personal",
+        "givenName": "Vanessa",
+        "familyName": "Beu",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Julius-Maximilians-Universität of Würzburg (JMU)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Regina Egetenmeyer",
+        "nameType": "Personal",
+        "givenName": "Regina",
+        "familyName": "Egetenmeyer",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Julius-Maximilians-Universität of Würzburg (JMU)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Silke Grafe",
+        "nameType": "Personal",
+        "givenName": "Silke",
+        "familyName": "Grafe",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Julius-Maximilians-Universität of Würzburg (JMU)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/15075",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-11-22",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-12-20",
+      "Issued": "2022-12-20",
+      "Accepted": "2022-11-22"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "Digital media are important elements in the didactic planning and design of provisions and programmes in adult and continuing education. Based on questionnaire and interview data from organizations and umbrella organizations active in adult and continuing education in Germany, the article examines how adult educators use digital media and what reasons they give for using them. The article distinguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- and macrodidactics. Overall, didactic considerations are shifting more to the macrodidactic planning level, emphasizing the role of organizations and umbrella organizations. This is accompanied by changing demands on cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Digital media are important elements in the didactic planning and design of provisions and programmes in adult and continuing education. Based on questionnaire and interview data from organizations and umbrella organizations active in adult and continuing education in Germany, the article examines how adult educators use digital media and what reasons they give for using them. The article distinguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- and macrodidactics. Overall, didactic considerations are shifting more to the macrodidactic planning level, emphasizing the role of organizations and umbrella organizations. This is accompanied by changing demands on cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2022oa15075",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Digital media",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "adult and continuing education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "digitalization",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "media education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "digital tools",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "http://creativecommons.org",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "holder_source": "page",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15075/2115",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Breitschwerdt, L., Beu, V., Egetenmeyer, R., & Grafe, S. (2022). Digital Media in Adult and Continuing Education in Germany. Excellence and Innovation in Learning and Teaching - Open Access , 7 (2). https://doi.org/10.3280/exioa2-2022oa15075",
+      "articleTitleEcho": "Digital Media in Adult and Continuing Education in Germany"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Baacke, D., Schäfer, E., Treumann, K. P., & Volkmer, I. (1990). Neue Medien und Erwachsenenbildung. Walter de Gruyter.",
+        "Breitschwerdt, L., & Egetenmeyer, R. (2021). Professionalisierung im Kontext von Digitalisierung und Mediatisierung: Zu Fortbildungsformaten für das Personal in der Erwachsenenbildung/Weiterbildung. In M. Schemmann (Hrsg.), Internationales Jahrbuch der Erwachsenenbildung: Band 44. Optimierung in der Weiterbildung (pp. 55-74). wbv.",
+        "Christ, J., Koscheck, S. & Martin, A. (2021). Auswirkungen der Coronapandemie auf Weiterbildungsanbieter: Ergebnisse der wbmonitor Umfrage 2020. wbmonitor. BIBB.",
+        "Christ, J., Koscheck, S., Martin, A., Ohly, H., & Widany, S. (2020). Digitalisierung: Ergebnisse der wbmonitor Umfrage 2019. Verlag Barbara Budrich.",
+        "Creswell, J. W., Plano Clark, V. L., Gutmann, M. L., & Hanson, W. E. (2003). Advanced mixed methods research design. In A. Tashakkori & C. Teddlie (Eds.), Handbook of mixed methods in social & behavioral research (pp. 209-240). Sage Publ.",
+        "Dresing, T., & Pehl, T. (Hrsg.) (2018). Praxisbuch Interview, Transkription & Analyse: Anleitungen und Regelsysteme für qualitativ Forschende (8. Auflage). Dr. Dresing und Pehl GmbH.",
+        "Egetenmeyer, R., Grafe, S., Beu, V., Breitschwerdt, L., Büttner, L., Kröner, S., Lechner, R., Thees, A., Treusch, N. (in process). Datenmanual für das Projekt Digitalisierung in der Erwachsenen- und Weiterbildung (DigiEB), 2019-2022.",
+        "Egetenmeyer, R., Kröner, S., & Thees, A. (2021). Digitalisierung in Angeboten der Erwachsenenbildung/Weiterbildung. Zeitschrift für Weiterbildungsforschung, 44(2), 115-132. Doi: 10.1007/s40955-021-00185-4.",
+        "Ernst, H., Schmidt, J., & Beneken, G. H. (2016). Grundkurs Informatik: Grundlagen und Konzepte für die erfolgreiche IT-Praxis - Eine umfassende, praxisorientierte Einführung (6. Aufl.). Springer eBook Collection. Springer Vieweg. Doi: 10.1007/978-3-658-14634-4.",
+        "Fleige, M., Gieseke, W., Hippel, A. von, Käpplinger, B., & Robak, S. (Hrsg.) (2018). Programm- und Angebotsentwicklung in der Erwachsenen- und Weiterbildung. wbv Publikation.",
+        "Gómez, A., Puigvert, L., & Flecha, R. (2011). Critical Communicative Methodology: Informing Real Social Transformation Through Research. Qualitative Inquiry, 17(3), 235-245. Doi: 10.1177/1077800410397802.",
+        "Grotlüschen, A. (2018). Erwachsenenbildung und Medienpädagogik: LinkedIn & Lynda, XING und Google als Bildungsanbieter. MedienPädagogik - Zeitschrift Für Theorie Und Praxis Der Medienbildung, (30), 92-113.",
+        "Herzig, B. (2014). Wie wirksam sind digitale Medien im Unterricht?. Bertelsmann Stiftung.",
+        "Hippel, A. von (2007). Medienpädagogische Erwachsenenbildung: Eine Analyse von pädagogischem Auftrag, gesellschaftlichem Bedarf und Teilnehmendeninteressen. Schriftenreihe der Landesmedienanstalt Saarland: Vol. 14. LMS.",
+        "Hippel, A. von, & Freide, S. (2018). Erwachsenenbildung und Medien. In R. Tippelt & A. von Hippel (Eds.), Handbuch Erwachsenenbildung/Weiterbildung (6. Aufl., pp. 973-999). Springer VS.",
+        "Hippel, A. von, Kulmus, C., & Stimm, M. (2018). Didaktik der Erwachsenen- und Weiterbildung. Verlag Ferdinand Schöningh.",
+        "Koppel, I. (2021). Gelingensbedingungen für den Einsatz digitaler Medien. MedienPädagogik: Zeitschrift Für Theorie Und Praxis Der Medienbildung, 51-78. Doi: 10.21240/mpaed/jb16/2021.01.12.X.",
+        "Krotz, F. (2007). Mediatisierung: Fallstudien zum Wandel von Kommunikation. VS Verlag für Sozialwissenschaften.",
+        "Kuckartz, U. (2016). Qualitative Inhaltsanalyse. Methoden, Praxis, Computerunterstützung (3., überarbeitete Aufl.). Beltz.",
+        "Mayring, P. (2015). Qualitative Inhaltsanalyse: Grundlagen und Techniken (12. Aufl.). Beltz.",
+        "Meyermann, A., & Porzelt, M. (2014). Hinweise zur Anonymisierung von qualitativen Daten. Forschungsdatenzentrum (FDZ) Bildung am DIPF. Forschungsdaten-Bildung. https://www.forschungsdaten-bildung.de/files/fdb-informiert-nr-1.pdf.",
+        "Rasch, B., Friese, M., Hofmann, W., & Naumann, E. (2014). Quantitative Methoden 1: Einführung in die Statistik für Psychologen und Sozialwissenschaftler (4., überarb. Aufl.). Springer Berlin Heidelberg.",
+        "Schmid, U., Goertz, L., & Behrens, J. (2017). Monitor Digitale Bildung: Die Weiterbildung im digitalen Zeitalter. Bertelsmann Stiftung.",
+        "Schüepp, P. (2018). Digitalisierung in der Weiterbildung: Die Sicht der Ausbildenden: Ergebnisse einer Befragung von Inhaberinnen und Inhabern des eidg. Fachausweises Ausbilder/in. PH Zürich.",
+        "Sgier, I., Haberzeth, E., & Schüepp, P. (2018). Digitalisierung in der Weiterbildung: Ergebnisse der jährlichen Umfrage bei Weiterbildungsanbietern. SVEB & PHZH.",
+        "Stang, R. (2001). Neue Medien in der Erwachsenenbildung: Positionspapier des DIE. https://www.die-bonn.de/esprid/dokumente/doc-2001/projektgruppe-neue-medien01_01.pdf.",
+        "Stang, R., Bernhard, C., Kraus, K., & Schreiber-Barsch, S. (2018). Lernräume in der Erwachsenenbildung. In R. Tippelt & A. von Hippel (Hrsg.), Handbuch Erwachsenenbildung/Weiterbildung (6. Aufl., pp. 643-658). Springer VS.",
+        "Tulodziecki, G., Herzig, B., & Grafe, S. (2014). Gestaltungs- und entwicklungsorientierte Bildungsforschung (Enzyklopädie Erziehungswissenschaft Online EEO). Beltz Juventa.",
+        "Tulodziecki, G., Herzig, B., & Grafe, S. (2021). Medienbildung in Schule und Unterricht: Grundlagen und Beispiele (3., durchgesehene und aktualisierte Auflage). Verlag Julius Klinkhardt.",
+        "Weidenmann, B. (2011). Erfolgreiche Kurse und Seminare: Professionelles Lernen mit Erwachsenen (8., vollständig überarbeitete Aufl.). Beltz.",
+        "Zierock, L. (2016). Lernkulturwandel in der Erwachsenenbildung - Vom Wissensvermittler zum Lernraumgestalter und Online-Tutor. In Zentrum Bildung der EKHN (Hrsg.), Wie digitale Medien Bildung verändern: Herausforderungen, Chancen und Projektideen (pp. 10-12)."
+      ],
+      "count": 31,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_15075",
+    "article_ID": "15075",
+    "slug": "15075",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "15075",
+      "url_slug": "15075"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Digital Media in Adult and Continuing Education in Germany",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Digital Media in Adult and Continuing Education in Germany",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Digital Media in Adult and Continuing Education in Germany",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Digital Media in Adult and Continuing Education in Germany",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-09-27",
+      "accepted": "2022-11-22",
+      "created": "2022-12-20",
+      "modified": "2022-12-20",
+      "issued": "2022-12-20",
+      "available": "2022-12-20",
+      "submitted_page": "2022-12-12",
+      "submitted_pdf": "2022-09-27",
+      "accepted_page": null,
+      "accepted_pdf": "2022-11-22"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Digital Media in Adult and Continuing Education in Germany",
+        "pdf_value": null,
+        "chosen_value": "Digital Media in Adult and Continuing Education in Germany",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-09-27",
+        "chosen_value": "2022-09-27",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2022-11-22",
+        "chosen_value": "2022-11-22",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "http://creativecommons.org",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15075/2115",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15075/2115",
+      "local_relative_path": "2499-507X_15075.pdf",
+      "saved": true,
+      "sha256": "0014a7f340e8f6a9706c2ea41a119465163b7acbc0aff4dd8b40487ea3896982",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1126042,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Lisa Breitschwerdt",
+        "Vanessa Beu",
+        "Regina Egetenmeyer",
+        "Silke Grafe"
+      ],
+      "citation_author_institution": [
+        "Julius-Maximilians-Universität of Würzburg (JMU)",
+        "Julius-Maximilians-Universität of Würzburg (JMU)",
+        "Julius-Maximilians-Universität of Würzburg (JMU)",
+        "Julius-Maximilians-Universität of Würzburg (JMU)"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Digital Media in Adult and Continuing Education in Germany"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2022/12/20"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2022oa15075"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15075"
+      ],
+      "citation_keywords": [
+        "Digital media",
+        "adult and continuing education",
+        "digitalization",
+        "media education",
+        "digital tools"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/15075/2115"
+      ],
+      "citation_reference_count": 31,
+      "DC.Date.created": [
+        "2022-12-20"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-12-12"
+      ],
+      "DC.Date.issued": [
+        "2022-12-20"
+      ],
+      "DC.Date.modified": [
+        "2022-12-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "15075"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2022oa15075"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15075"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Digital Media in Adult and Continuing Education in Germany"
+      ],
+      "DC.Title.Alternative": [
+        "Digital Media in Adult and Continuing Education in Germany"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Lisa Breitschwerdt",
+        "Vanessa Beu",
+        "Regina Egetenmeyer",
+        "Silke Grafe"
+      ],
+      "citation_author_institution": [
+        "Julius-Maximilians-Universität of Würzburg (JMU)",
+        "Julius-Maximilians-Universität of Würzburg (JMU)",
+        "Julius-Maximilians-Universität of Würzburg (JMU)",
+        "Julius-Maximilians-Universität of Würzburg (JMU)"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Lisa Breitschwerdt",
+        "Vanessa Beu",
+        "Regina Egetenmeyer",
+        "Silke Grafe"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Digital media are important elements in the didactic planning and design of provisions and programmes in adult and continuing education. Based on questionnaire and interview data from organizations and umbrella organizations active in adult and continuing education in Germany, the article examines how adult educators use digital media and what reasons they give for using them. The article distinguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- and macrodidactics. Overall, didactic considerations are shifting more to the macrodidactic planning level, emphasizing the role of organizations and umbrella organizations. This is accompanied by changing demands on cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Digital media are important elements in the didactic planning and design of provisions and programmes in adult and continuing education. Based on questionnaire and interview data from organizations and umbrella organizations active in adult and continuing education in Germany, the article examines how adult educators use digital media and what reasons they give for using them. The article distinguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- and macrodidactics. Overall, didactic considerations are shifting more to the macrodidactic planning level, emphasizing the role of organizations and umbrella organizations. This is accompanied by changing demands on cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media."
+          }
+        },
+        {
+          "content": "Digital media are important elements in the didactic planning and design of provisions and programmes in adult and continuing education. Based on questionnaire and interview data from organizations and umbrella organizations active in adult and continuing education in Germany, the article examines how adult educators use digital media and what reasons they give for using them. The article distinguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- and macrodidactics. Overall, didactic considerations are shifting more to the macrodidactic planning level, emphasizing the role of organizations and umbrella organizations. This is accompanied by changing demands on cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Digital media are important elements in the didactic planning and design of provisions and programmes in adult and continuing education. Based on questionnaire and interview data from organizations and umbrella organizations active in adult and continuing education in Germany, the article examines how adult educators use digital media and what reasons they give for using them. The article distinguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- and macrodidactics. Overall, didactic considerations are shifting more to the macrodidactic planning level, emphasizing the role of organizations and umbrella organizations. This is accompanied by changing demands on cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Digital media",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Digital media"
+          }
+        },
+        {
+          "content": "adult and continuing education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "adult and continuing education"
+          }
+        },
+        {
+          "content": "digitalization",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "digitalization"
+          }
+        },
+        {
+          "content": "media education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "media education"
+          }
+        },
+        {
+          "content": "digital tools",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "digital tools"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15075/2115",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15075/2115",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15075/2115",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15075/2115",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15075/2115",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": "2022-09-27",
+      "accepted_pdf": "2022-11-22",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 01_Breitschwerdt.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2022-12-16",
+        "mod_date": "2022-12-19"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15075 Digital Media in Adult and Continuing Education in Germany Lisa Breitschwerdt, Vanessa Beu, Regina Egetenmeyer, Silke Grafe* Abstract Digital media are important elements in the didactic planning a nd design of provisions and programmes in adult and continuing education. Ba sed on questionnaire and interview data from organizations and umbrell a organizations active in adult and continuing education in Germa ny, the article examines how adult educators use digital media and what reasons they give for using them. The article disti nguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- a nd macrodidactics. Overall, didactic considerations are shifting m ore to the macrodidactic planning level, emphasizing the role of organizat ions and umbrella organizations. This i s accompanied by changing demands o n cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media. Keywords: Digital media, adult and continuing education, digitalization, media education, digital tools. Article submitted: 27/09/2022; accepted: 22/11/2022 Available online: 20/12/2022 * Julius-Maximilians-Universität of Würzburg (JMU). Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\2499-507X_15075.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Digital Media in Adult and Continuing Education in Germany",
+        "pdf_value": null,
+        "chosen_value": "Digital Media in Adult and Continuing Education in Germany",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-09-27",
+        "chosen_value": "2022-09-27",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2022-11-22",
+        "chosen_value": "2022-11-22",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "http://creativecommons.org",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Digital Media in Adult and Continuing Education in Germany | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15075",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15075",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:32:57Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\temp\\2499-507X_15075.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:00Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\2499-507X_15075.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Digital Media in Adult and Continuing Education in Germany",
+        "submitted_date": "2022-12-12",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Lisa Breitschwerdt",
+          "Vanessa Beu",
+          "Regina Egetenmeyer",
+          "Silke Grafe"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\2499-507X_15075.pdf",
+        "generated_at_utc": "2026-04-21T21:33:00Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 01_Breitschwerdt.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2022-12-16",
+          "mod_date": "2022-12-19"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15075 Digital Media in Adult and Continuing Education in Germany Lisa Breitschwerdt, Vanessa Beu, Regina Egetenmeyer, Silke Grafe* Abstract Digital media are important elements in the didactic planning a nd design of provisions and programmes in adult and continuing education. Ba sed on questionnaire and interview data from organizations and umbrell a organizations active in adult and continuing education in Germa ny, the article examines how adult educators use digital media and what reasons they give for using them. The article disti nguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- a nd macrodidactics. Overall, didactic considerations are shifting m ore to the macrodidactic planning level, emphasizing the role of organizat ions and umbrella organizations. This i s accompanied by changing demands o n cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media. Keywords: Digital media, adult and continuing education, digitalization, media education, digital tools. Article submitted: 27/09/2022; accepted: 22/11/2022 Available online: 20/12/2022 * Julius-Maximilians-Universität of Würzburg (JMU). Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": "2022-09-27",
+          "accepted_date": "2022-11-22",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 01_Breitschwerdt.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": "2022-09-27",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2022-11-22",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Digital Media in Adult and Continuing Education in Germany",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Digital Media in Adult and Continuing Education in Germany",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-12-12",
+          "pdf_value": "2022-09-27",
+          "preferred_source": "pdf",
+          "chosen_value": "2022-09-27",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:48Z"
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2022-11-22",
+          "preferred_source": "pdf",
+          "chosen_value": "2022-11-22",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "page",
+          "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:49Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "pdf",
+          "chosen_value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:52Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\temp\\2499-507X_15075.conflicts.json"
+  }
+}

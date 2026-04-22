@@ -1,0 +1,895 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15078",
+  "scraped_at_utc": "2026-04-21T21:33:08Z",
+  "fetched_at_utc": "2026-04-21T21:33:08Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "cac5ea6ac44dbd286cf62331fc917b3d95091b0690cac27eae39c04d542ef539",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Antonella Lotti",
+        "nameType": "Personal",
+        "givenName": "Antonella",
+        "familyName": "Lotti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Modena and Reggio Emilia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Juliana Raffaghelli",
+        "nameType": "Personal",
+        "givenName": "Juliana",
+        "familyName": "Raffaghelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Marina De Rossi",
+        "nameType": "Personal",
+        "givenName": "Marina De",
+        "familyName": "Rossi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Lieta Marinelli",
+        "nameType": "Personal",
+        "givenName": "Lieta",
+        "familyName": "Marinelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/15078",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-11-17",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-12-20",
+      "Issued": "2022-12-20",
+      "Accepted": "2022-11-17"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "This article is dedicated to evaluating the impact of Faculty Development for the introduction of Problem Based Education in higher education. A bachelor’s science degree program in Animal Care at the University of Padua has decided to introduce Problem Based Learning in an entire semester, as a first propaedeutic attempt at transforming the entire educational pathway. The transformation process was made possible by several elements: a Faculty Development program that allowed teachers to approach the PBL method and the creation of a Community of Practice (CoP) among the teachers. A preliminary evaluation of the impact of the Faculty Development program was conducted and the article describes some results: Faculty Development initiatives were effective, participants learned meaningfully, and enjoyed formal and in group training activities. Participants increased their motivation to teach according to the PBL approach for an entire semester. Participants were also motivated to create some Faculty Learning Communities (FLC), a special type of CoP in which Faculty members learn informally in group.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "This article is dedicated to evaluating the impact of Faculty Development for the introduction of Problem Based Education in higher education. A bachelor’s science degree program in Animal Care at the University of Padua has decided to introduce Problem Based Learning in an entire semester, as a first propaedeutic attempt at transforming the entire educational pathway. The transformation process was made possible by several elements: a Faculty Development program that allowed teachers to approach the PBL method and the creation of a Community of Practice (CoP) among the teachers. A preliminary evaluation of the impact of the Faculty Development program was conducted and the article describes some results: Faculty Development initiatives were effective, participants learned meaningfully, and enjoyed formal and in group training activities. Participants increased their motivation to teach according to the PBL approach for an entire semester. Participants were also motivated to create some Faculty Learning Communities (FLC), a special type of CoP in which Faculty members learn informally in group.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2022oa15078",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Higher education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Faculty Development",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Problem Based Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Community of Practice",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15078/2118",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Lotti, A., Raffaghelli, J., De Rossi, M., & Marinelli, L. (2022). Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study. Excellence and Innovation in Learning and Teaching - Open Access , 7 (2). https://doi.org/10.3280/exioa2-2022oa15078",
+      "articleTitleEcho": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Albanese, M. A., & Mitchell, S. (1993). Problem-based learning: a review of literature on its outcomes and implementation issues. Academic Medicine: Journal of the Association of American Medical Colleges, 68.1, 52-81. Doi: 10.1097/00001888-199301000-00012.",
+        "Barrows, H. S., & Tamblyn, R. M. (1980). Problem-based learning: An approach to medical education. Springer.",
+        "Charlier, B., & Lambert, M. (2020). Evaluating the effects of faculty development: Theoretical framework and empirical implementation. International Journal for Academic Development, 25.2, 162-175. Doi: 10.1080/1360144X.2019.1659798.",
+        "Cox M.D. (2004) Introduction to faculty learning communities. In: M.D. Cox. New directions for teaching and learning, 97, (pp. 5-23). Wiley periodicals, Inc.",
+        "Des Marchais, J.E. (2001). Learning to become a physician at Sherbrooke. A full switch to a student-centered MD program. Maastricht: Network Publications.",
+        "Dewey, J. (1933). How We Think: A Restatement of the Relation of Reflective Thinking to the Educative Process. Boston, MA: D.C. Heath & Co Publishers.",
+        "Eble, K.E., & McKeachie, W.J. (1985) Improving Undergraduate Education through Faculty Development. An Analysis of Effective Programs and Practices. Jossey-Bass Inc., Publishers.",
+        "Fernandez, N., & Audétat, M.-C. (2019). Faculty development program evaluation: A need to embrace complexity. Advances in Medical Education and Practice, 10, 191-199. Doi: 10.2147/AMEP.S188164.",
+        "Gover, A., Loukkola, T., & Peterbauer, H. (2019). Student-centered learning: approaches to quality assurance. European University Association.",
+        "Grover, R. C., Kenda S., & Walters, R. (2016). Exploring faculty preferences for mode of delivery for professional development initiatives. Online Journal of Distance Learning Administration, 19.1.",
+        "Jacobs, J. C. G., Van Luijk, S. J., Van Berkel, H., Van der Vleuten, C. P. M., Croiset, G., & Scheele, F. (2012). Development of an instrument (the COLT) to measure conceptions on learning and teaching of teachers, in student-centred medical education. Medical Teacher, 34.7, e483-e491. Doi: 10.3109/0142159X.2012.668630.",
+        "Lotti, A. (2018) Problem-Based Learning Apprendere per problemi a scuola: Guida al PBL per l’insegnante. Milano: FrancoAngeli.",
+        "Rampoldi, M. (2021). Didattica innovativa e percezione dei docenti il COLT Project nelle scuole di medicina. PhD Thesis, University Milano-Bicocca, Milan. https://boa.unimib.it/handle/10281/305232.",
+        "Ranieri, M., Raffaghelli, J. E., & Bruni, I. (2019). Il progetto DIDeL tra efficacia formativa e prospettive di sviluppo. In P. Federighi, M. Ranieri, & G. Bandini (Eds.). Digital Scholarship tra Ricerca e Didattica. Studi, Ricerche, Esperienze. (pp. 147-161). Milano: FrancoAngeli.",
+        "Schreurs, M.L., Huveneers, W., & Dolmans, D. (2016). Communities of teaching practice in the workplace: Evaluation of a faculty development program. Medical Teacher, 38.8, 808-14.",
+        "Snell, L. (2014) Faculty Development for Curriculum Change: towards competency-based teaching and assessment. In: Y. Steinert (ed.) Faculty Development in health professions. A focus on research and practice (pp. 265-285). Springer.",
+        "Steinert, Y. (2010). How to design and conduct effective workshops. In: K.M. Skeff, & G.A. Stratos, Methods for teaching medicine (pp. 89-117). ACP Teaching Medicine Series. ACP Press, American College of Physicians.",
+        "Steinert, Y. (ed.) (2014). Faculty Development in health professions. A focus on research and practice. Springer.",
+        "Steinert, Y. (2020). Faculty development: From rubies to oak. Medical Teacher, 42.4, 429-435. Doi: 10.1080/0142159X.2019.1688769.",
+        "Steinert, Y., Mann, K., Anderson, B., Barnett, B. M., Centeno, A., Naismith, L., Prideaux, D., Spencer, J., Tullo, E., Viggiano, T., Ward, H., & Dolmans, D. (2016). A systematic review of faculty development initiatives designed to enhance teaching effectiveness: A 10-year update: BEME Guide No. 40. Medical teacher, 38.8, 769-786. Doi: 10.1080/0142159X.2016.1181851.",
+        "Steinert, Y., Mann, K., Centeno, A., Dolmans, D., Spencer, J., Gelula, M., & Prideaux, D. (2006). A systematic review of faculty development initiatives designed to improve teaching effectiveness in medical education: BEME Guide No. 8. Medical teacher, 28.6, 497-526. Doi: 10.1080/01421590600902976.",
+        "Tsoh, J. Y., Kuo, A. K., Barr, J. W., Whitcanack, L., Merry, I., Alldredge, B. K., & Azzam, A. N. (2019). Developing faculty leadership from ‘within’: A 12-year reflection from an internal faculty leadership development program of an academic health sciences center. Medical Education Online, 24.1, 1567239. Doi: 10.1080/10872981.2019.1567239.",
+        "Wenger, E. (1998). Communities of Practice, Learning, Meaning and Identity. Cambridge University Press. (Tr. it. Comunità di Pratica. Apprendimento, significato e identità) Raffaello Cortina editore, 2006."
+      ],
+      "count": 23,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_15078",
+    "article_ID": "15078",
+    "slug": "15078",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "15078",
+      "url_slug": "15078"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-09-30",
+      "accepted": "2022-11-17",
+      "created": "2022-12-20",
+      "modified": "2023-06-13",
+      "issued": "2022-12-20",
+      "available": "2022-12-20",
+      "submitted_page": "2022-12-12",
+      "submitted_pdf": "2022-09-30",
+      "accepted_page": null,
+      "accepted_pdf": "2022-11-17"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+        "pdf_value": null,
+        "chosen_value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-09-30",
+        "chosen_value": "2022-09-30",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2022-11-17",
+        "chosen_value": "2022-11-17",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15078/2118",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15078/2118",
+      "local_relative_path": "2499-507X_15078.pdf",
+      "saved": true,
+      "sha256": "3e88a8117f98dd7931ac57bf09ee7e83bc43db34ef35bbfd1b22049491013117",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1516964,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Antonella Lotti",
+        "Juliana Raffaghelli",
+        "Marina De Rossi",
+        "Lieta Marinelli"
+      ],
+      "citation_author_institution": [
+        "University of Modena and Reggio Emilia",
+        "University of Padova",
+        "University of Padova",
+        "University of Padova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2022/12/20"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2022oa15078"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15078"
+      ],
+      "citation_keywords": [
+        "Higher education",
+        "Faculty Development",
+        "Problem Based Learning",
+        "Community of Practice"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/15078/2118"
+      ],
+      "citation_reference_count": 23,
+      "DC.Date.created": [
+        "2022-12-20"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-12-12"
+      ],
+      "DC.Date.issued": [
+        "2022-12-20"
+      ],
+      "DC.Date.modified": [
+        "2023-06-13"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "15078"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2022oa15078"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15078"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study"
+      ],
+      "DC.Title.Alternative": [
+        "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Antonella Lotti",
+        "Juliana Raffaghelli",
+        "Marina De Rossi",
+        "Lieta Marinelli"
+      ],
+      "citation_author_institution": [
+        "University of Modena and Reggio Emilia",
+        "University of Padova",
+        "University of Padova",
+        "University of Padova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Antonella Lotti",
+        "Juliana Raffaghelli",
+        "Marina De Rossi",
+        "Lieta Marinelli"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This article is dedicated to evaluating the impact of Faculty Development for the introduction of Problem Based Education in higher education. A bachelor’s science degree program in Animal Care at the University of Padua has decided to introduce Problem Based Learning in an entire semester, as a first propaedeutic attempt at transforming the entire educational pathway. The transformation process was made possible by several elements: a Faculty Development program that allowed teachers to approach the PBL method and the creation of a Community of Practice (CoP) among the teachers. A preliminary evaluation of the impact of the Faculty Development program was conducted and the article describes some results: Faculty Development initiatives were effective, participants learned meaningfully, and enjoyed formal and in group training activities. Participants increased their motivation to teach according to the PBL approach for an entire semester. Participants were also motivated to create some Faculty Learning Communities (FLC), a special type of CoP in which Faculty members learn informally in group.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This article is dedicated to evaluating the impact of Faculty Development for the introduction of Problem Based Education in higher education. A bachelor’s science degree program in Animal Care at the University of Padua has decided to introduce Problem Based Learning in an entire semester, as a first propaedeutic attempt at transforming the entire educational pathway. The transformation process was made possible by several elements: a Faculty Development program that allowed teachers to approach the PBL method and the creation of a Community of Practice (CoP) among the teachers. A preliminary evaluation of the impact of the Faculty Development program was conducted and the article describes some results: Faculty Development initiatives were effective, participants learned meaningfully, and enjoyed formal and in group training activities. Participants increased their motivation to teach according to the PBL approach for an entire semester. Participants were also motivated to create some Faculty Learning Communities (FLC), a special type of CoP in which Faculty members learn informally in group."
+          }
+        },
+        {
+          "content": "This article is dedicated to evaluating the impact of Faculty Development for the introduction of Problem Based Education in higher education. A bachelor’s science degree program in Animal Care at the University of Padua has decided to introduce Problem Based Learning in an entire semester, as a first propaedeutic attempt at transforming the entire educational pathway. The transformation process was made possible by several elements: a Faculty Development program that allowed teachers to approach the PBL method and the creation of a Community of Practice (CoP) among the teachers. A preliminary evaluation of the impact of the Faculty Development program was conducted and the article describes some results: Faculty Development initiatives were effective, participants learned meaningfully, and enjoyed formal and in group training activities. Participants increased their motivation to teach according to the PBL approach for an entire semester. Participants were also motivated to create some Faculty Learning Communities (FLC), a special type of CoP in which Faculty members learn informally in group.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "This article is dedicated to evaluating the impact of Faculty Development for the introduction of Problem Based Education in higher education. A bachelor’s science degree program in Animal Care at the University of Padua has decided to introduce Problem Based Learning in an entire semester, as a first propaedeutic attempt at transforming the entire educational pathway. The transformation process was made possible by several elements: a Faculty Development program that allowed teachers to approach the PBL method and the creation of a Community of Practice (CoP) among the teachers. A preliminary evaluation of the impact of the Faculty Development program was conducted and the article describes some results: Faculty Development initiatives were effective, participants learned meaningfully, and enjoyed formal and in group training activities. Participants increased their motivation to teach according to the PBL approach for an entire semester. Participants were also motivated to create some Faculty Learning Communities (FLC), a special type of CoP in which Faculty members learn informally in group."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Higher education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Higher education"
+          }
+        },
+        {
+          "content": "Faculty Development",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Faculty Development"
+          }
+        },
+        {
+          "content": "Problem Based Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Problem Based Learning"
+          }
+        },
+        {
+          "content": "Community of Practice",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Community of Practice"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15078/2118",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15078/2118",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15078/2118",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15078/2118",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15078/2118",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": "2022-09-30",
+      "accepted_pdf": "2022-11-17",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 04_Lotti.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2022-12-19",
+        "mod_date": "2022-12-19"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15078 Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study Antonella Lotti*, Juliana Raffaghelli°, Marina De Rossi°, Lieta Marinelli° Abstract This article is dedicated to evaluating the impact of Faculty Development for the introduction of Problem Based Education in higher educa tion. A bachelor’s science degree program in Animal Care at the University of Padua has decided to introduce Problem Based Learning in an entire se mester, as a first propaedeutic attempt at transforming the entire education al pathway. The transformation process was made possible by several elements: a Faculty Development program that allowed teachers to approach the PBL m ethod and the creation of a Community of Practice (CoP) among the teacher s. A preliminary evaluation of the impact of the Faculty Development program was conducted and the article describes some results: Faculty Devel opment initiatives were effective, partic ipants learned meaningfully, and enjoyed formal and in group training ac tivities. Participants increased their motivation to teach according to the PBL approach for an entire semester. Participants were also motivated to create some Faculty Learning Communities (FLC), a special type of CoP in which Faculty members learn informally in group. Key words: Higher education, Faculty Development, Problem Based Learning, Community of Practice Article submitted: 30/09/2022; accepted: 17/11/2022 Available online: 20/12/2022 * University of Modena and Reggio Emilia. ° University of Padova. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\15078\\2499-507X_15078.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+        "pdf_value": null,
+        "chosen_value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-09-30",
+        "chosen_value": "2022-09-30",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2022-11-17",
+        "chosen_value": "2022-11-17",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15078",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15078",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:33:08Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15078\\temp\\2499-507X_15078.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:12Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15078\\2499-507X_15078.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+        "submitted_date": "2022-12-12",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Antonella Lotti",
+          "Juliana Raffaghelli",
+          "Marina De Rossi",
+          "Lieta Marinelli"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15078\\2499-507X_15078.pdf",
+        "generated_at_utc": "2026-04-21T21:33:12Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 04_Lotti.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2022-12-19",
+          "mod_date": "2022-12-19"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15078 Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study Antonella Lotti*, Juliana Raffaghelli°, Marina De Rossi°, Lieta Marinelli° Abstract This article is dedicated to evaluating the impact of Faculty Development for the introduction of Problem Based Education in higher educa tion. A bachelor’s science degree program in Animal Care at the University of Padua has decided to introduce Problem Based Learning in an entire se mester, as a first propaedeutic attempt at transforming the entire education al pathway. The transformation process was made possible by several elements: a Faculty Development program that allowed teachers to approach the PBL m ethod and the creation of a Community of Practice (CoP) among the teacher s. A preliminary evaluation of the impact of the Faculty Development program was conducted and the article describes some results: Faculty Devel opment initiatives were effective, partic ipants learned meaningfully, and enjoyed formal and in group training ac tivities. Participants increased their motivation to teach according to the PBL approach for an entire semester. Participants were also motivated to create some Faculty Learning Communities (FLC), a special type of CoP in which Faculty members learn informally in group. Key words: Higher education, Faculty Development, Problem Based Learning, Community of Practice Article submitted: 30/09/2022; accepted: 17/11/2022 Available online: 20/12/2022 * University of Modena and Reggio Emilia. ° University of Padova. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": "2022-09-30",
+          "accepted_date": "2022-11-17",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 04_Lotti.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": "2022-09-30",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2022-11-17",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Could Faculty Development Initiatives Like Workshops and Community of Practice Favour the Introduction of a Problem-based Approach in Higher Education? A Case Study",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-12-12",
+          "pdf_value": "2022-09-30",
+          "preferred_source": "pdf",
+          "chosen_value": "2022-09-30",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:48:56Z"
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2022-11-17",
+          "preferred_source": "pdf",
+          "chosen_value": "2022-11-17",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:01Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:06Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15078\\temp\\2499-507X_15078.conflicts.json"
+  }
+}

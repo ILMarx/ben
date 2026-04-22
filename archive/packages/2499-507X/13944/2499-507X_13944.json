@@ -1,0 +1,842 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13944",
+  "scraped_at_utc": "2026-04-21T21:32:54Z",
+  "fetched_at_utc": "2026-04-21T21:32:54Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "eda707230b03596563999083c4ca30ab1fc0de8e07c5c32492bb851ccb433ca4",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Luca Luciani",
+        "nameType": "Personal",
+        "givenName": "Luca",
+        "familyName": "Luciani",
+        "nameIdentifiers": [],
+        "affiliations": [],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/13944",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-09",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-09",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-09",
+      "Issued": "2022-06-09"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Esperienze e pratiche"
+    },
+    "descriptions": [
+      {
+        "value": "This contribution describes a new didactic modeling and the related observational research regarding this potential good training practice, supported by theoretical scientific references and argumentative considerations based also on a personal over twenty years of experience in conducting media laboratories. The research made use of the drafting of an informal logbook on which the didactic peculiarities, the results, some statements by the students themselves and the problems that emerged during the temporal development of the training action were noted. In the second year of activation of the online training experience, an evaluation module was added consisting of some open questions addressed to the participating students. Furthermore, thanks to the various documentation acquired in the previous four overall years of activation of the Laboratory in blended mode, both of a numerical-quantitative type for the determination of some systemic aspects of the framework of the training intervention, and of a qualitative type with regard to some possibilities of procedural comparison, it was possible to make a certain comparison of evidence.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Questo contributo descrive una esperienza didattica laboratoriale condotta in modalità on line e la relativa ricerca osservativa a proposito di questa potenziale buona pratica formativa. È supportato da riferimenti scientifici teorici e da considerazioni argomentative basate anche su una ultraventennale esperienza di conduzione di laboratori mediali. La ricerca si è avvalsa della redazione di un diario di bordo informale su cui sono state annotate le particolarità didattiche, le risultanze, alcune dichiarazioni degli stessi studenti e le problematiche emerse durante lo sviluppo temporale dell’azione formativa. Nel secondo anno di attivazione dell’esperienza formativa online si è aggiunto un modulo di valutazione costituito da alcune domande aperte rivolte agli student* partecipanti. Inoltre, grazie alla varia documentazione acquisita nei precedenti quattro anni di attivazione del Laboratorio in modalità blended, sia di tipo numerico-quantitativo per la determinazione di alcuni aspetti sistemici di cornice dell’intervento formativo, che di tipo qualitativo per alcune possibilità di confronto procedurale, è stato possibile operare una certa comparazione di evidenze.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa1-2022oa13944",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "1",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "laboratorio",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "tecnologie didattiche",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "insegnamento a distanza",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "e-learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "educazione mediale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13944/1363",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "1",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Luciani, L. (2022). Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19. Excellence and Innovation in Learning and Teaching - Open Access , 7 (1). https://doi.org/10.3280/exioa1-2022oa13944",
+      "articleTitleEcho": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Baldacci, M. (2004). Il laboratorio come strategia didattica. Suggestioni deweyane. In N. Filograsso & R. Travaglini (eds.), Dewey e l’educazione della mente (pp. 159-171). FrancoAngeli. (online: https://www.ipsiasar.it/files/Baldacci_Laboratorio.pdf).",
+        "Bertagna, G. (ed.) (2012). Fare laboratorio. Scenari culturali ed esperienze di ricerca nelle scuole del secondo ciclo. Editrice La scuola.",
+        "De Kerckhove, D. (2001). Alla ricerca dell’intelligenza connettiva. É-journal, www.e-journal.it/special_event/relatori/articoli/de_ker http:-//ckhove.htm.",
+        "De Rossi, M. & Montani, R. (2001). Identità e conduzione dei laboratori mono-multi-inter-transdisciplinari. In L. Galliani & E. Felisatti (eds.), I maestri all’università. Modello empirico e qualità della formazione iniziale degli insegnanti: il caso di Padova (pp. 123-151). Pensa MultiMedia Editore.",
+        "Frabboni, F. (2004). Il laboratorio. Gius. Laterza & Figli Spa.",
+        "Galliani, L., Manfredi, P., Santonocito, S., & Luciani, L. (2001). La formazione a distanza degli insegnanti. Pensa Multimedia.",
+        "Galliani, L. (2004a). La scuola in rete. Gius. Laterza & Figli Spa.",
+        "Galliani, L. (2013). Apprendere con le tecnologie, tra formale, informale e non formale. In P. Limone (ed.), Media, tecnologie e scuola (pp. 3-26). Progedit.",
+        "Galliani, L. (ed.) (2004b). Formazione in rete. Indicatori di qualità e buone pratiche. Tecnodid Editrice srl.",
+        "Galliani, L., & Costa, R. (eds.) (2005). E-Learning nella didattica universitaria. Modelli, ricerche ed esperienze della Facoltà di Scienze della Formazione dell’Università di Padova. Edizioni Scientifiche Italiane.",
+        "Garavaglia, A., & Petti, L. (2017). Riprogettazione del setting del laboratorio di tecnologie didattiche per la formazione iniziale degli insegnanti. In P. Limone, & D. Parmigiani (eds.), Modelli pedagogici e pratiche didattiche per la formazione iniziale e in servizio degli insegnanti (pp. 327-339). Progedit - Progetti editoriali srl.",
+        "Giunta, I. (2017). La funzione abilitante dei laboratori pedagogico-didattici. In S. Ka-nizsa (ed.), Oltre il fare. I laboratori nella formazione degli insegnanti (pp. 167-172). Edizioni Junior-Bambini.",
+        "Levy, P. (1994). L’intelligence collective. Pour une anthropologie du cyberspace. Éditions La Découverte. (P. Levy. L’intelligenza collettiva. Per un’antropologia del cyberspazio. Feltrinelli, 1996).",
+        "Luciani, L. (2001). Open distance learning nella formazione degli insegnanti, video-film scientifico-didattico prodotto dal Settore Tecnologie Educative – Dipartimento Scienze dell’Educazione – Università degli Studi di Padova, dur.: 40’, In L. Gal-liani, P. Manfredi, S. Santonocito, & L. Luciani, La formazione a distanza degli insegnanti. Pensa Multimedia.",
+        "Luciani, L. (2005). Segni in movimento - il video-film making, in L. Messina (ed.), Andar per segni: percorsi di educazione ai media (pp. 269-299). CLEUP.",
+        "Luciani, L. (2013). Sviluppare conoscenze e competenze per l’espressione verbo-sonora attraverso il medium radio. L’insegnamento laboratoriale di scrittura radiofonica del Corso di Studi in Teorie e Metodologie dell’e-learning e della media education (E-Media). In D. Parmigiani, V. Pennazio, & A. Traverso (Eds.), ATEE-SIREM Winter conference Proceedings. Learning & Teaching with Media & Technology (pp. 586-596), Genova.",
+        "Luciani, L. (2014a). Per una didattica tassonomica dei media e dei suoi laboratori: il modulo trasversale di familiarizzazione, Giornale Italiano della Ricerca Educativa, 13, 275-286.",
+        "Luciani, L. (2014b). How to develop learning and competence for an audio-visual-kinetic expression. Case study of video-filmic writing lab teaching in the Master of Science in Theory and Methodology of e-learning and media education (E-Media). In P. Limone & M. Baldassarre (Eds.), ICT in Higher Education and Life-long Learning - SIREM 2013 Conference Proceedings (pp. 157-161). Progedit.",
+        "Luciani, L. (2017). Educazione ai media e linguaggio delle immagini in movimento: una proposta di curricolo per la scuola, in P. Limone & D. Parmigiani (eds.), Atti del convegno SIREM 2016 “L’educazione digitale”: Modelli pedagogici e pratiche didattiche per la formazione iniziale e in servizio degli insegnanti (pp. 406-416). Progedit.",
+        "Luciani, L. (2014c). Dimensione pedagogico-didattica del laboratorio: dalla presenza all’online. In D. Accarrino, A. Calò, S. Canazza, C. Dal Bon & C. Paulon (eds.), Atti del Convegno MoodleMoot Italia 2014 (pp. 82-92). Media Touch 2000, Università degli Studi di Padova.",
+        "Wenger, E. (1998). Communities of practice: learning, meaning and identity. New York: Cambridge University Press. (E. Wenger. Comunità di pratica. Apprendi-mento, significato e identità. Raffaello Cortina, 2006)."
+      ],
+      "count": 21,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_13944",
+    "article_ID": "13944",
+    "slug": "13944",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "13944",
+      "url_slug": "13944"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "The Didactic Technology Laboratory to the challenge of COVID-19",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-04-22",
+      "accepted": null,
+      "created": "2022-06-09",
+      "modified": "2022-06-09",
+      "issued": "2022-06-09",
+      "available": "2022-06-09",
+      "submitted_page": "2022-04-22",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+        "pdf_value": null,
+        "chosen_value": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-04-22",
+        "pdf_value": null,
+        "chosen_value": "2022-04-22",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13944/1363",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13944/1363",
+      "local_relative_path": "2499-507X_13944.pdf",
+      "saved": true,
+      "sha256": "74717f4cd3ccb3b0b6b1440f42738dbc171941e190b237cf4c34ee424d2da653",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 959689,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Luca Luciani"
+      ],
+      "citation_author_institution": [],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2022/06/09"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.3280/exioa1-2022oa13944"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13944"
+      ],
+      "citation_keywords": [
+        "laboratorio",
+        "tecnologie didattiche",
+        "insegnamento a distanza",
+        "e-learning",
+        "educazione mediale"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/13944/1363"
+      ],
+      "citation_reference_count": 21,
+      "DC.Date.created": [
+        "2022-06-09"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-04-22"
+      ],
+      "DC.Date.issued": [
+        "2022-06-09"
+      ],
+      "DC.Date.modified": [
+        "2022-06-09"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "13944"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa1-2022oa13944"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/13944"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19"
+      ],
+      "DC.Title.Alternative": [
+        "The Didactic Technology Laboratory to the challenge of COVID-19"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Esperienze e pratiche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Luca Luciani"
+      ],
+      "citation_author_institution": [],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Luca Luciani"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This contribution describes a new didactic modeling and the related observational research regarding this potential good training practice, supported by theoretical scientific references and argumentative considerations based also on a personal over twenty years of experience in conducting media laboratories. The research made use of the drafting of an informal logbook on which the didactic peculiarities, the results, some statements by the students themselves and the problems that emerged during the temporal development of the training action were noted. In the second year of activation of the online training experience, an evaluation module was added consisting of some open questions addressed to the participating students. Furthermore, thanks to the various documentation acquired in the previous four overall years of activation of the Laboratory in blended mode, both of a numerical-quantitative type for the determination of some systemic aspects of the framework of the training intervention, and of a qualitative type with regard to some possibilities of procedural comparison, it was possible to make a certain comparison of evidence.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This contribution describes a new didactic modeling and the related observational research regarding this potential good training practice, supported by theoretical scientific references and argumentative considerations based also on a personal over twenty years of experience in conducting media laboratories. The research made use of the drafting of an informal logbook on which the didactic peculiarities, the results, some statements by the students themselves and the problems that emerged during the temporal development of the training action were noted. In the second year of activation of the online training experience, an evaluation module was added consisting of some open questions addressed to the participating students. Furthermore, thanks to the various documentation acquired in the previous four overall years of activation of the Laboratory in blended mode, both of a numerical-quantitative type for the determination of some systemic aspects of the framework of the training intervention, and of a qualitative type with regard to some possibilities of procedural comparison, it was possible to make a certain comparison of evidence."
+          }
+        },
+        {
+          "content": "Questo contributo descrive una esperienza didattica laboratoriale condotta in modalità on line e la relativa ricerca osservativa a proposito di questa potenziale buona pratica formativa. È supportato da riferimenti scientifici teorici e da considerazioni argomentative basate anche su una ultraventennale esperienza di conduzione di laboratori mediali. La ricerca si è avvalsa della redazione di un diario di bordo informale su cui sono state annotate le particolarità didattiche, le risultanze, alcune dichiarazioni degli stessi studenti e le problematiche emerse durante lo sviluppo temporale dell’azione formativa. Nel secondo anno di attivazione dell’esperienza formativa online si è aggiunto un modulo di valutazione costituito da alcune domande aperte rivolte agli student* partecipanti. Inoltre, grazie alla varia documentazione acquisita nei precedenti quattro anni di attivazione del Laboratorio in modalità blended, sia di tipo numerico-quantitativo per la determinazione di alcuni aspetti sistemici di cornice dell’intervento formativo, che di tipo qualitativo per alcune possibilità di confronto procedurale, è stato possibile operare una certa comparazione di evidenze.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Questo contributo descrive una esperienza didattica laboratoriale condotta in modalità on line e la relativa ricerca osservativa a proposito di questa potenziale buona pratica formativa. È supportato da riferimenti scientifici teorici e da considerazioni argomentative basate anche su una ultraventennale esperienza di conduzione di laboratori mediali. La ricerca si è avvalsa della redazione di un diario di bordo informale su cui sono state annotate le particolarità didattiche, le risultanze, alcune dichiarazioni degli stessi studenti e le problematiche emerse durante lo sviluppo temporale dell’azione formativa. Nel secondo anno di attivazione dell’esperienza formativa online si è aggiunto un modulo di valutazione costituito da alcune domande aperte rivolte agli student* partecipanti. Inoltre, grazie alla varia documentazione acquisita nei precedenti quattro anni di attivazione del Laboratorio in modalità blended, sia di tipo numerico-quantitativo per la determinazione di alcuni aspetti sistemici di cornice dell’intervento formativo, che di tipo qualitativo per alcune possibilità di confronto procedurale, è stato possibile operare una certa comparazione di evidenze."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "laboratorio",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "laboratorio"
+          }
+        },
+        {
+          "content": "tecnologie didattiche",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "tecnologie didattiche"
+          }
+        },
+        {
+          "content": "insegnamento a distanza",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "insegnamento a distanza"
+          }
+        },
+        {
+          "content": "e-learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "e-learning"
+          }
+        },
+        {
+          "content": "educazione mediale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "educazione mediale"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/13944/1363",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13944/1363",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13944/1363",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13944/1363",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/13944/1363",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": null,
+        "author": null,
+        "subject": null,
+        "creator": "Adobe InDesign CS6 (Macintosh)",
+        "producer": "Adobe PDF Library 10.0.1",
+        "keywords": null,
+        "creation_date": "2022-06-08",
+        "mod_date": "2022-06-08"
+      },
+      "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13944 Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19 The Didactic Technolo gy Laboratory to the challenge of COVID-19 Luca Luciani* Riassunto Questo contributo descrive una esperienza didattica laboratoria le condotta in modalità on line e la relativa ricerca osservativa a proposito di questa poten- ziale buona pratica formativa. È supportato da riferimenti scie ntifici teorici e da considerazioni argomentative basate anche su una ultraventen nale espe- rienza di conduzione di laboratori mediali. La ricerca si è avvalsa della reda- zione di un diario di bordo informale su cui sono state annotat e le particolarità didattiche, le risultanze, alcune dichiarazioni degli stessi studenti e le proble- matiche emerse durante lo sviluppo temporale dell’azione format iva. Nel se- condo anno di attivazione dell’esperienza formativa online si è aggiunto un mo- dulo di valutazione costituito da alcune domande aperte rivolte agli student* partecipanti. Inoltre, grazie alla varia documentazione acquisi ta nei precedenti quattro anni di attivazione del Laboratorio in modalità blended , sia di tipo nu- merico-quantitativo per la determinazione di alcuni aspetti sistemici di cornice dell’intervento formativo, che di tipo qualitativo per alcune p ossibilità di con- fronto procedurale, è stato possibile operare una certa compara zione di evi- denze. Parole chiave: laboratorio; tecnologie didattiche; insegnamento a distanza; e- learning; educazione mediale. Abstract This contribution describes a new didactic modeling and the rel ated observational research regarding this potential good training p ractice, supported by theoretical scientific references and argumentative considerations based also on a personal over twenty years of experience in con ducting media laboratories. The research made use of the drafting of an infor mal logbook on * Esperto in media education. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\13944\\2499-507X_13944.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+        "pdf_value": null,
+        "chosen_value": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-04-22",
+        "pdf_value": null,
+        "chosen_value": "2022-04-22",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Esperienze e pratiche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19 | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13944",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13944",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:32:54Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13944\\temp\\2499-507X_13944.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:32:56Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13944\\2499-507X_13944.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+        "submitted_date": "2022-04-22",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Luca Luciani"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13944\\2499-507X_13944.pdf",
+        "generated_at_utc": "2026-04-21T21:32:56Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": null,
+          "author": null,
+          "subject": null,
+          "creator": "Adobe InDesign CS6 (Macintosh)",
+          "producer": "Adobe PDF Library 10.0.1",
+          "keywords": null,
+          "creation_date": "2022-06-08",
+          "mod_date": "2022-06-08"
+        },
+        "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13944 Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19 The Didactic Technolo gy Laboratory to the challenge of COVID-19 Luca Luciani* Riassunto Questo contributo descrive una esperienza didattica laboratoria le condotta in modalità on line e la relativa ricerca osservativa a proposito di questa poten- ziale buona pratica formativa. È supportato da riferimenti scie ntifici teorici e da considerazioni argomentative basate anche su una ultraventen nale espe- rienza di conduzione di laboratori mediali. La ricerca si è avvalsa della reda- zione di un diario di bordo informale su cui sono state annotat e le particolarità didattiche, le risultanze, alcune dichiarazioni degli stessi studenti e le proble- matiche emerse durante lo sviluppo temporale dell’azione format iva. Nel se- condo anno di attivazione dell’esperienza formativa online si è aggiunto un mo- dulo di valutazione costituito da alcune domande aperte rivolte agli student* partecipanti. Inoltre, grazie alla varia documentazione acquisi ta nei precedenti quattro anni di attivazione del Laboratorio in modalità blended , sia di tipo nu- merico-quantitativo per la determinazione di alcuni aspetti sistemici di cornice dell’intervento formativo, che di tipo qualitativo per alcune p ossibilità di con- fronto procedurale, è stato possibile operare una certa compara zione di evi- denze. Parole chiave: laboratorio; tecnologie didattiche; insegnamento a distanza; e- learning; educazione mediale. Abstract This contribution describes a new didactic modeling and the rel ated observational research regarding this potential good training p ractice, supported by theoretical scientific references and argumentative considerations based also on a personal over twenty years of experience in con ducting media laboratories. The research made use of the drafting of an infor mal logbook on * Esperto in media education. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null,
+          "well_formed": false,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Il Laboratorio di Tecnologie Didattiche alla sfida del COVID-19",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-04-22",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-04-22",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:43Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:46Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13944\\temp\\2499-507X_13944.conflicts.json"
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15083",
+  "scraped_at_utc": "2026-04-21T21:33:16Z",
+  "fetched_at_utc": "2026-04-21T21:33:16Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "a477d6bbe0fe7839e6517d92632a47c0ae3cdd001da9b608790ea95349e66422",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Massimo Marcuccio",
+        "nameType": "Personal",
+        "givenName": "Massimo",
+        "familyName": "Marcuccio",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Alma Mater Studiorum Università di Bologna"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Vanessa Lo Turco",
+        "nameType": "Personal",
+        "givenName": "Vanessa Lo",
+        "familyName": "Turco",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Alma Mater Studiorum Università di Bologna"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/15083",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-12-20",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-12-20",
+      "Issued": "2022-12-20"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "In the field of doctoral studies in Italy, there has been an increase in the number of PhDs enrolled and in the number of PhDs entering the labour force over the last twenty years. However, comparing national data with international ones, the percentage of employed PhDs is lower concerning the total workforce. Moreover, many PhDs feel they do not use the skills developed during their PhD while others find better job opportunities abroad. This problematic situation finds a possible solution in the introduction of innovative curricula in PhDs. The contribution presents the outcomes of a multiple case study carried out in 2021 on an innovative non-formal education course on Open Innovation issues promoted by an intermediary organisation in Emilia-Romagna and addressed to companies and PhD students at the universities in Emilia-Romagna. The empirical research framework was developed from a theoretical framework that integrated three different models: the Community of Practice, challenge-based learning and the hackathon. The main objective was to describe the innovative curriculum’s sustainability, efficiency and effectiveness. Fourteen doctoral students, eight representatives of four companies, four representatives of an intermediary and four business consultants were involved. Data were collected through the analysis of documents, interviews and questionnaires. From the main findings, it emerges that the pathway investigated is sustainable, although it requires some adjustments to improve its efficiency and can foster the establishment of communities of practice that promote learning.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Nell’ambito del dottorato di ricerca in Italia, negli ultimi vent’anni si registra un incremento degli iscritti così come dei dottori di ricerca inseritisi nel mondo del lavoro. Tuttavia, confrontando i dati nazionali con quelli internazionali, la percentuale dei dottori di ricerca occupati risulta inferiore in relazione al totale della forza lavoro. Inoltre, molti dei dottori di ricerca ritengono di non utilizzare nel loro lavoro le competenze sviluppate durante il dottorato mentre altri trovano migliori opportunità di lavoro all’estero. Questa situazione problematica sembra trovare una possibile soluzione nell’introduzione di curricula innovativi nei dottorati. Il contributo presenta gli esiti di uno studio di caso multiplo realizzato nel 2021 relativo a un percorso innovativo di educazione non formale sui temi dell’Open innovation promosso da un soggetto intermediario dell’Emilia-Romagna e rivolto ad aziende e dottorandi degli atenei emiliano-romagnoli. L’impianto della ricerca empirica è stato messo a punto a partire da una cornice teorica che ha integrato tre diversi modelli: la Comunità di Pratica, l’apprendimento basato sulla sfida e l’hackathon. L’obiettivo principale è stato quello di descrivere la sostenibilità, l’efficienza e l’efficacia del percorso innovativo. Sono stati coinvolti 14 dottorandi, 8 rappresentanti di quattro imprese, 4 referenti di un soggetto intermediario e 4 consulenti aziendali. I dati sono stati rilevati attraverso l’analisi di documenti, interviste e questionari. Dai principali esiti emerge che il percorso indagato risulta sostenibile, sebbene richieda alcuni adattamenti per migliorarne l’efficienza, e in grado di favorire la costituzione di comunità di pratica capaci di promuovere apprendimenti.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2022oa15083",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "dottorato di ricerca",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "didattica innovativa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "comunità di pratica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "innovazione aperta",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "soggetti intermediari",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15083/2120",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Marcuccio, M., & Lo Turco, V. (2022). Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo. Excellence and Innovation in Learning and Teaching - Open Access , 7 (2). https://doi.org/10.3280/exioa2-2022oa15083",
+      "articleTitleEcho": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Apple Inc. (2010). Challenge Based Learning. A classroom Guide. Apple Inc. https://www.apple.com/br/education/docs/CBL_Classroom_Guide_Jan_2011.pdf.",
+        "Archibugi, D., Cellini, M., Di Tullio, I., Malgieri, A., Mariella, V. & Pisacane, L. (2021). Il dottorato di ricerca: una valutazione. In CNR - Consiglio Nazionale delle Ricer-che (2021). Relazione sulla ricerca e l’innovazione in Italia. Analisi e dati di po-litica della scienza e della tecnologia (pp. 101-151). Cnr Edizioni.",
+        "Ballarino, G., De Toni, A. F., & Regini, M. (2021). La riorganizzazione del dottorato di ricerca fra accademia e mercato. UNIMI2040 Discussion paper n. 4. Milano University Press. Doi: 10.13130/unimi2040.37.",
+        "Birol, G., McKenna, A. F, Smith, H. D, Giorgio, T. D, Brophy, S. P (2002). Integration of the ‘How People Learn’ Framework into Educational Module Development and Implementation in Biotechnology. Paper presented at the proceedings of the Second Joint 24th Annual Conference and the Annual Fall Meeting of the Bio-medical Engineering Society [Engineering in Medicine and Biology (Vol. 3, pp. 2640-2641)]. Houston, Texas. Doi: 10.1109/IEMBS.2002.1053468.",
+        "Bransford, J. D., Brown, A. L., & Cocking, R. R. (2000). How people learn. National academy press.",
+        "Chesbrough H.W. (2003). Open Innovation: The New Imperative for Creating and Profiting from Technology. Harvard Business Press.",
+        "CNR - Consiglio Nazionale delle Ricerche (2021). Relazione sulla ricerca e l’innovazione in Italia. Analisi e dati di politica della scienza e della tecnologia. Cnr Edizioni. http://www.dsu.cnr.it/relazionericercainnovazione2021/volume/Relazione_sulla_ricerca_e_innovazione_in_Italia_2021_webformat.pdf.",
+        "Coccia, B. (ed.) (2013). Il dottorato di ricerca. Profili innovativi. Apes.",
+        "De Toni, A. F. (2021). Il dottorato di ricerca nelle dinamiche dell’innovazione. In G. Ballarino, A. F. De Toni, & M. Regini. La riorganizzazione del dottorato di ricerca fra accademia e mercato. UNIMI2040 Discussion paper n. 4 (pp. 54-72). Milano University Press.",
+        "Fabbri, L. (2010). Ricerca pedagogiche e pratiche lavorative. In Fabbri, L. & Rossi, B. (a cura di). Pratiche lavorative. Studi pedagogici per la formazione (pp. 15-34). Guerini Studio.",
+        "Gallagher, S. E., & Savage, T. (2020). Challenge based learning in third level education: A literature review. Teaching in Higher Education.",
+        "Herbsleb, J. D., Nolte, A., Filippova, A., Bird, C., & Scallen, S. (2019). Design in geo corporate hackathon swith a purpuse: the future of software development. IEEE Softw, 36.1, 15-22. Doi: 10.1109/MS.2018.290110547.",
+        "Istat (2018). L’inserimento professionale dei dottori di ricerca. Report statistiche. ISTAT. https://www.istat.it/it/files//2018/11/Report-Dottori-diricerca26nov2018.pdf.",
+        "Lave, J., & Wenger, E. (1991). Situated learning: Legitimate peripheral participation. Cambridge university press.",
+        "Leijon, M., Gudmundsson, P., Staaf, P., & Christersson, C. (2021). Challenge based learning in higher education – A systematic literature review. Innovations in Education and Teaching International. Doi: 10.1080/14703297.2021.1892503.",
+        "Lipari, D., & Valentini, P. (2021). Pratiche di Cominità di Pratica. PM edizioni.",
+        "Marcuccio, M., & Lo Turco, V. (2020). L’innovazione aperta supportata da interme-diari nelle PMI: riflessioni sulla funzione della formazione continua. Professionalità studi, (2), 66-109.",
+        "Medina Angarita, M. A., & Nolte, A. (2020, Septempber). What do we know about hackathon outcomes and how to support them? – A systematic literature review. [Conference Paper]. International Conference on Collaboration Technologies and Social Computing (pp. 50-64). Springer. Doi: 10.1007/978-3-030-58157-2_4.",
+        "Nolte, A., Pe Than, E. P., Filippova, A., Bird, C., Scallen, S., & Herbsleb, J. D. (2018). You Hacked and Now What?: Exploring Outcomes of a Corporate Hackathon. Proceedings of the ACM on Human - Computer Interaction, 2, 1-23. Doi: 10.1145/3274398.",
+        "Rostan, M. (2014). Il dottorato di ricerca e il mercato del lavoro: problemi e opportu-nità. Diritto delle relazioni industriali: rivista della Associazione lavoro e ricerche, 24.1, 65-72.",
+        "Trinchero, R. (2002). Manuale di ricerca educativa. FrancoAngeli.",
+        "Wenger, E. (2006). Comunità di Pratica. Raffaello Cortina Editore.",
+        "Yin, R. K. (2003). Case study research: Design and methods (3 ed.). SAGE Publications.",
+        "Yin, R. K. (2018). Case study research and applications. Design and methods (6 ed.). SAGE Publications."
+      ],
+      "count": 24,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_15083",
+    "article_ID": "15083",
+    "slug": "15083",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "15083",
+      "url_slug": "15083"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Universities, Companies and Intermediaries in Teaching Innovation Processes in Doctoral Schools. A Multiple Case Study",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-12-13",
+      "accepted": null,
+      "created": "2022-12-20",
+      "modified": "2022-12-20",
+      "issued": "2022-12-20",
+      "available": "2022-12-20",
+      "submitted_page": "2022-12-13",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+        "pdf_value": null,
+        "chosen_value": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-13",
+        "pdf_value": null,
+        "chosen_value": "2022-12-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15083/2120",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15083/2120",
+      "local_relative_path": "2499-507X_15083.pdf",
+      "saved": true,
+      "sha256": "95d7c565bfde122199cd6717c0305d1734a31176d8ea0cb71e167757fa699683",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1121185,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Massimo Marcuccio",
+        "Vanessa Lo Turco"
+      ],
+      "citation_author_institution": [
+        "Alma Mater Studiorum Università di Bologna",
+        "Alma Mater Studiorum Università di Bologna"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2022/12/20"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2022oa15083"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15083"
+      ],
+      "citation_keywords": [
+        "dottorato di ricerca",
+        "didattica innovativa",
+        "comunità di pratica",
+        "innovazione aperta",
+        "soggetti intermediari"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/15083/2120"
+      ],
+      "citation_reference_count": 24,
+      "DC.Date.created": [
+        "2022-12-20"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-12-13"
+      ],
+      "DC.Date.issued": [
+        "2022-12-20"
+      ],
+      "DC.Date.modified": [
+        "2022-12-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "15083"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2022oa15083"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15083"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo"
+      ],
+      "DC.Title.Alternative": [
+        "Universities, Companies and Intermediaries in Teaching Innovation Processes in Doctoral Schools. A Multiple Case Study"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Massimo Marcuccio",
+        "Vanessa Lo Turco"
+      ],
+      "citation_author_institution": [
+        "Alma Mater Studiorum Università di Bologna",
+        "Alma Mater Studiorum Università di Bologna"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Massimo Marcuccio",
+        "Vanessa Lo Turco"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "In the field of doctoral studies in Italy, there has been an increase in the number of PhDs enrolled and in the number of PhDs entering the labour force over the last twenty years. However, comparing national data with international ones, the percentage of employed PhDs is lower concerning the total workforce. Moreover, many PhDs feel they do not use the skills developed during their PhD while others find better job opportunities abroad. This problematic situation finds a possible solution in the introduction of innovative curricula in PhDs. The contribution presents the outcomes of a multiple case study carried out in 2021 on an innovative non-formal education course on Open Innovation issues promoted by an intermediary organisation in Emilia-Romagna and addressed to companies and PhD students at the universities in Emilia-Romagna. The empirical research framework was developed from a theoretical framework that integrated three different models: the Community of Practice, challenge-based learning and the hackathon. The main objective was to describe the innovative curriculum’s sustainability, efficiency and effectiveness. Fourteen doctoral students, eight representatives of four companies, four representatives of an intermediary and four business consultants were involved. Data were collected through the analysis of documents, interviews and questionnaires. From the main findings, it emerges that the pathway investigated is sustainable, although it requires some adjustments to improve its efficiency and can foster the establishment of communities of practice that promote learning.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "In the field of doctoral studies in Italy, there has been an increase in the number of PhDs enrolled and in the number of PhDs entering the labour force over the last twenty years. However, comparing national data with international ones, the percentage of employed PhDs is lower concerning the total workforce. Moreover, many PhDs feel they do not use the skills developed during their PhD while others find better job opportunities abroad. This problematic situation finds a possible solution in the introduction of innovative curricula in PhDs. The contribution presents the outcomes of a multiple case study carried out in 2021 on an innovative non-formal education course on Open Innovation issues promoted by an intermediary organisation in Emilia-Romagna and addressed to companies and PhD students at the universities in Emilia-Romagna. The empirical research framework was developed from a theoretical framework that integrated three different models: the Community of Practice, challenge-based learning and the hackathon. The main objective was to describe the innovative curriculum’s sustainability, efficiency and effectiveness. Fourteen doctoral students, eight representatives of four companies, four representatives of an intermediary and four business consultants were involved. Data were collected through the analysis of documents, interviews and questionnaires. From the main findings, it emerges that the pathway investigated is sustainable, although it requires some adjustments to improve its efficiency and can foster the establishment of communities of practice that promote learning."
+          }
+        },
+        {
+          "content": "Nell’ambito del dottorato di ricerca in Italia, negli ultimi vent’anni si registra un incremento degli iscritti così come dei dottori di ricerca inseritisi nel mondo del lavoro. Tuttavia, confrontando i dati nazionali con quelli internazionali, la percentuale dei dottori di ricerca occupati risulta inferiore in relazione al totale della forza lavoro. Inoltre, molti dei dottori di ricerca ritengono di non utilizzare nel loro lavoro le competenze sviluppate durante il dottorato mentre altri trovano migliori opportunità di lavoro all’estero. Questa situazione problematica sembra trovare una possibile soluzione nell’introduzione di curricula innovativi nei dottorati. Il contributo presenta gli esiti di uno studio di caso multiplo realizzato nel 2021 relativo a un percorso innovativo di educazione non formale sui temi dell’Open innovation promosso da un soggetto intermediario dell’Emilia-Romagna e rivolto ad aziende e dottorandi degli atenei emiliano-romagnoli. L’impianto della ricerca empirica è stato messo a punto a partire da una cornice teorica che ha integrato tre diversi modelli: la Comunità di Pratica, l’apprendimento basato sulla sfida e l’hackathon. L’obiettivo principale è stato quello di descrivere la sostenibilità, l’efficienza e l’efficacia del percorso innovativo. Sono stati coinvolti 14 dottorandi, 8 rappresentanti di quattro imprese, 4 referenti di un soggetto intermediario e 4 consulenti aziendali. I dati sono stati rilevati attraverso l’analisi di documenti, interviste e questionari. Dai principali esiti emerge che il percorso indagato risulta sostenibile, sebbene richieda alcuni adattamenti per migliorarne l’efficienza, e in grado di favorire la costituzione di comunità di pratica capaci di promuovere apprendimenti.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Nell’ambito del dottorato di ricerca in Italia, negli ultimi vent’anni si registra un incremento degli iscritti così come dei dottori di ricerca inseritisi nel mondo del lavoro. Tuttavia, confrontando i dati nazionali con quelli internazionali, la percentuale dei dottori di ricerca occupati risulta inferiore in relazione al totale della forza lavoro. Inoltre, molti dei dottori di ricerca ritengono di non utilizzare nel loro lavoro le competenze sviluppate durante il dottorato mentre altri trovano migliori opportunità di lavoro all’estero. Questa situazione problematica sembra trovare una possibile soluzione nell’introduzione di curricula innovativi nei dottorati. Il contributo presenta gli esiti di uno studio di caso multiplo realizzato nel 2021 relativo a un percorso innovativo di educazione non formale sui temi dell’Open innovation promosso da un soggetto intermediario dell’Emilia-Romagna e rivolto ad aziende e dottorandi degli atenei emiliano-romagnoli. L’impianto della ricerca empirica è stato messo a punto a partire da una cornice teorica che ha integrato tre diversi modelli: la Comunità di Pratica, l’apprendimento basato sulla sfida e l’hackathon. L’obiettivo principale è stato quello di descrivere la sostenibilità, l’efficienza e l’efficacia del percorso innovativo. Sono stati coinvolti 14 dottorandi, 8 rappresentanti di quattro imprese, 4 referenti di un soggetto intermediario e 4 consulenti aziendali. I dati sono stati rilevati attraverso l’analisi di documenti, interviste e questionari. Dai principali esiti emerge che il percorso indagato risulta sostenibile, sebbene richieda alcuni adattamenti per migliorarne l’efficienza, e in grado di favorire la costituzione di comunità di pratica capaci di promuovere apprendimenti."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "dottorato di ricerca",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "dottorato di ricerca"
+          }
+        },
+        {
+          "content": "didattica innovativa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "didattica innovativa"
+          }
+        },
+        {
+          "content": "comunità di pratica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "comunità di pratica"
+          }
+        },
+        {
+          "content": "innovazione aperta",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "innovazione aperta"
+          }
+        },
+        {
+          "content": "soggetti intermediari",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "soggetti intermediari"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15083/2120",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15083/2120",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15083/2120",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15083/2120",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15083/2120",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 06_LoTurco.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2022-12-19",
+        "mod_date": "2022-12-19"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15083 Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo Universities, Companies and Intermediaries in Teaching Innovation Processes in Doctoral Schools. A Multiple Case Study Massimo Marcuccio, Vanessa Lo Turco* Riassunto Nell’ambito del dottorato di ricerca in Italia, negli ultimi ve nt’anni si registra un incremento degli iscritti così come dei dottori di ricerca inseritisi nel mondo del lavoro. Tuttavia, confronta ndo i dati nazionali con quelli internazionali, la percentuale dei dottori di ricerca occupati risulta inferiore in relazione al totale della forza lavoro. Inoltre, molti dei dottori di ricerca ritengono di non utilizzare nel loro lavoro le competenze sviluppate durante il dottorato m entre altri tro- vano migliori opportunità di lavoro all’estero. Questa situazio ne problematica sembra trovare una possibile soluzione nell’introduzione di curricula innovativi nei dottorati. Il contributo presenta gli esiti di uno studio d i caso multiplo rea- lizzato nel 2021 relativo a un percorso innovativo di educazion e non formale sui temi dell’Open innovation promosso da un soggetto intermediario dell’Emi- lia-Romagna e rivolto ad aziende e dottorandi degli atenei emiliano-romagnoli. L’impianto della ricerca empirica è stato messo a punto a partire da una cornice teorica che ha integrato tre diversi modelli: la Comunità di Pratica, l’apprendi- mento basato sulla sfida e l’hackathon. L’obiettivo principale è stato quello di descrivere la sostenibilità, l’efficienza e l’efficacia del per corso innovativo. Sono stati coinvolti 14 dottorandi, 8 rappresentanti di quattro imprese, 4 refe- renti di un soggetto intermediario e 4 consulenti aziendali. I dati sono stati rile- vati attraverso l’analisi di documenti, interviste e questionari. Dai principali esiti emerge che il percorso indagato risulta sostenibile, sebbene richieda alcuni * Alma Mater Studiorum Università di Bologna. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\15083\\2499-507X_15083.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+        "pdf_value": null,
+        "chosen_value": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-13",
+        "pdf_value": null,
+        "chosen_value": "2022-12-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15083",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15083",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:33:16Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15083\\temp\\2499-507X_15083.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:18Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15083\\2499-507X_15083.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+        "submitted_date": "2022-12-13",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Massimo Marcuccio",
+          "Vanessa Lo Turco"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15083\\2499-507X_15083.pdf",
+        "generated_at_utc": "2026-04-21T21:33:18Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 06_LoTurco.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2022-12-19",
+          "mod_date": "2022-12-19"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15083 Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo Universities, Companies and Intermediaries in Teaching Innovation Processes in Doctoral Schools. A Multiple Case Study Massimo Marcuccio, Vanessa Lo Turco* Riassunto Nell’ambito del dottorato di ricerca in Italia, negli ultimi ve nt’anni si registra un incremento degli iscritti così come dei dottori di ricerca inseritisi nel mondo del lavoro. Tuttavia, confronta ndo i dati nazionali con quelli internazionali, la percentuale dei dottori di ricerca occupati risulta inferiore in relazione al totale della forza lavoro. Inoltre, molti dei dottori di ricerca ritengono di non utilizzare nel loro lavoro le competenze sviluppate durante il dottorato m entre altri tro- vano migliori opportunità di lavoro all’estero. Questa situazio ne problematica sembra trovare una possibile soluzione nell’introduzione di curricula innovativi nei dottorati. Il contributo presenta gli esiti di uno studio d i caso multiplo rea- lizzato nel 2021 relativo a un percorso innovativo di educazion e non formale sui temi dell’Open innovation promosso da un soggetto intermediario dell’Emi- lia-Romagna e rivolto ad aziende e dottorandi degli atenei emiliano-romagnoli. L’impianto della ricerca empirica è stato messo a punto a partire da una cornice teorica che ha integrato tre diversi modelli: la Comunità di Pratica, l’apprendi- mento basato sulla sfida e l’hackathon. L’obiettivo principale è stato quello di descrivere la sostenibilità, l’efficienza e l’efficacia del per corso innovativo. Sono stati coinvolti 14 dottorandi, 8 rappresentanti di quattro imprese, 4 refe- renti di un soggetto intermediario e 4 consulenti aziendali. I dati sono stati rile- vati attraverso l’analisi di documenti, interviste e questionari. Dai principali esiti emerge che il percorso indagato risulta sostenibile, sebbene richieda alcuni * Alma Mater Studiorum Università di Bologna. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 06_LoTurco.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Università, Imprese e Soggetti Intermediari nei Processi di Innovazione Didattica nelle Scuole di Dottorato. Uno Studio di Caso Multiplo",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-12-13",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-12-13",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:18Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:49:20Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15083\\temp\\2499-507X_15083.conflicts.json"
+  }
+}

@@ -1,0 +1,911 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15077",
+  "scraped_at_utc": "2026-04-21T21:33:04Z",
+  "fetched_at_utc": "2026-04-21T21:33:04Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "15e8c38269f8ff6259e761cc1e8ea7b059913cf8ef67dd31e43fd366f740f818",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Rhonda Christensen",
+        "nameType": "Personal",
+        "givenName": "Rhonda",
+        "familyName": "Christensen",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of North Texas"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Gerald Knezek",
+        "nameType": "Personal",
+        "givenName": "Gerald",
+        "familyName": "Knezek",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of North Texas"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/15077",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-11-15",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-12-20",
+      "Issued": "2022-12-20",
+      "Accepted": "2022-11-15"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "Simulated teaching environments have been used for more than two decades and are likely to continue to expand to meet the demands of teacher development programs. In this study, the self-reported changes in culturally-responsive teaching perceptions of ten classroom teachers serving more than six hundred students are reported. This paper includes first year findings from a program designed to use artificial-intelligence (AI) based algorithms to reduce implicit bias in teaching. Findings from this study include significant pre-post increases for self-efficacy related to culturally responsive teaching as well as instructional self-efficacy. These findings add credibility to the contention that a key innovation of using simulation programs for teacher professional development is that it provides teachers and teacher trainees many learning trials with simulated students, thereby increasing teacher confidence and competence, and which in turn will improve student learning. Findings set the stage for measuring the impact on student perceptions of learning and cultural engagement intended to support teachers in recognizing and ameliorating their own implicit biases.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Simulated teaching environments have been used for more than two decades and are likely to continue to expand to meet the demands of teacher development programs. In this study, the self-reported changes in culturally-responsive teaching perceptions of ten classroom teachers serving more than six hundred students are reported. This paper includes first year findings from a program designed to use artificial-intelligence (AI) based algorithms to reduce implicit bias in teaching. Findings from this study include significant pre-post increases for self-efficacy related to culturally responsive teaching as well as instructional self-efficacy. These findings add credibility to the contention that a key innovation of using simulation programs for teacher professional development is that it provides teachers and teacher trainees many learning trials with simulated students, thereby increasing teacher confidence and competence, and which in turn will improve student learning. Findings set the stage for measuring the impact on student perceptions of learning and cultural engagement intended to support teachers in recognizing and ameliorating their own implicit biases.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2022oa15077",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "simulated teaching",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reduce bias",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "teachers",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "culturally responsive",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "artificial intelligence",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "http://creativecommons.org",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "holder_source": "page",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15077/2117",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Christensen, R., & Knezek, G. (2022). Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences. Excellence and Innovation in Learning and Teaching - Open Access , 7 (2). https://doi.org/10.3280/exioa2-2022oa15077",
+      "articleTitleEcho": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Aloe, A.M., Amo, L.C., & Shanahan, M.E. (2014). Classroom management self-efficacy and burn-out: A multivariate meta-analysis. Educational Psychology Review, 26.1, 101-126. Doi: 10.1007/s10648-013-9244-0.",
+        "American Psychological Association (APA), Presidential Task Force on Educational Disparities (2012). Ethnic and racial disparities in education: Psychology’s contributions to understanding and reducing disparities. http://www.apa.org/ed/resources/racial-disparities.aspx.",
+        "Atteberry, A., Loeb, S., & Wyckoff, J. (2015). Do first impressions matter? Predicting early career teacher effectiveness. AERA Open, 1.4, 2332858415607834.",
+        "Badiee, F. (2012). From the digital to the authentic classroom: A study using an online simulation for teacher education (Unpublished master’s thesis). Simon Frasier University, Burnaby, BC, Canada.",
+        "Bandura, A. (2012). On the functional properties of perceived self-efficacy revisited. Journal of Management, 38.1, 9-44. Doi: 10.1177/0149206311410606.",
+        "Bandura, A., & Schunk, D.H. (1981). Cultivating competence, self-efficacy, and intrinsic interest through proximal self-motivation. Journal of Personality and Social Psychology, 41.3, 586-598. Doi: 10.1037/0022-3514.41.3.586.",
+        "Bertrand, M., Chugh, D., & Mulainathan, S. (2005). Implicit discrimination. American Economic Review, 95.2, 94-98.",
+        "Bialo, E.R., & Sivin-Kachala, J. (1996). The effectiveness of technology in schools: A summary of recent research. School Library Media Quarterly, 25.1, 51-57.",
+        "Boser, U., Wilhelm, M., & Hanna, R. (2014). The power of the pygmalion effect: Teachers’ expectations strongly predict college completion. Washington DC: Center for American Progress. https://files.eric.ed.gov/fulltext/ED564606.",
+        "Callaway, R.F. (2016). A correlational study of teacher efficacy and culturally responsive teaching techniques in a Southeastern urban school district. Education Dissertation Projects, 188. https://digitalcommons.gardner-webb.edu/education_etd?188.",
+        "Chen, D.W., Nimmo, J., & Fraser, H. (2009). Becoming a culturally responsive early childhood educator: A tool to support reflection by teachers embarking on the anti-bias journey. Multicultural Perspectives, 11.2, 101-106. doi: 10.1080/15210960903028784.",
+        "Chen, J.A., Tutwiler, M.S., & Jackson, J.F.L. (2021). Mixed reality simulations to build capacity for advocating for diversity, equity, and inclusion in the geosciences. Journal of Diversity in Higher Education, 14.4., 557-568. Doi: 10.1037/dhe0000190.",
+        "Christensen, R., Knezek, G., Patterson, L., Wickstrom, C., Overall, T. & Hettler, L. (2007). Early Experiences with SimMentoring: From Virtual to Real Teaching. In R. Carlsen (Ed.), Proceedings of Society for Information Technology & Teacher Education International Conference 2007 (pp. 1186-1188). Chesapeake, VA: AACE. http://www.editlib.org/p/24719.",
+        "Christensen, R., Knezek, G., Tyler-Wood, T., & Gibson, D. (2011). SimSchool: An online dynamic simulator for enhancing teacher preparation. International Journal of Learning Technologies, 6.2, 201-220. doi: 10.1504/IJLT.2011.042649.",
+        "Cohen, J. (1988). Statistical power analysis for the behavioral sciences. Hillsdale, NJ: Erlbaum.",
+        "Collum, D., Christensen, R., Delicath, T. & Johnston, V. (2019). SimSchool: SPARCing New Grounds in Research on Simulated Classrooms. In K. Graziano (Ed.), Proceedings of Society for Information Technology & Teacher Education International Conference (pp. 733-739). Las Vegas, NV, United States: Association for the Advancement of Computing in Education (AACE). https://www.learntechlib.org/primary/p/207723/.",
+        "Collum, D., Christensen, R., Delicath, T., & Knezek, G. (2020). Measuring changes in educator bias in a simulated learning environment. In G.H. Marks & D. Schmidt-Crawford (Eds.), Proceedings of Society for Information Technology & Teacher Education International Conference (pp. 410-416). Online: Association for the Advancement of Computing in Education (AACE). https://www.learntechlib.org/primary/p/215788/.",
+        "Copur-Gencturk, Y., Cimpian, J.R., Lubienski, S.T., & Thacker, I. (2019). Teachers’ bias against the mathematical ability of female, black and Hispanic students. Educational Researcher, 49.1, 30 - 43. doi: 10.3102/0013189X19890577.",
+        "Danielson, C. (1996). Enhancing professional practice: A framework for teaching. Alexandria, VA: Association for Supervision and Curriculum Development.",
+        "de Brey, C., Musu, L., McFarland, J., Wilkinson-Flicker, S., Diliberti, M., Zhang, A., Branstetter, C., & Wang, X. (2019). Status and Trends in the Education of Racial and Ethnic Groups 2018 (NCES 2019-038). U.S. Department of Education. Washington, DC: National Center for Education Statistics. https://nces.ed.gov/pubsearch/.",
+        "Derman-Sparks, L., & Ramsey, P. (2000). A framework for relevant ‘multicultural’ and antibias education in 21st century. In J. Roopnarine & J. Johnson (Eds), Approaches to Early Childhood Education. Upper Saddle River, NJ: Merrill Prentice Hall.",
+        "Erling, E.J., Foltz, A., Siwik, F., & Brummer, M. (2022). Teaching English to linguistically diverse students from migration backgrounds: From deficit perspectives to pockets of possibility. Languages 7.186, 1-22. Doi: 10.3390/languages7030186.",
+        "Fischler, R. (2006). SimTeacher: Simulation-based learning in teacher education (Doctoral dissertation). Available from ProQuest Dissertation and Theses database. (UMI No.3210046).",
+        "Gauthier, A., Rizvi, S., Cukurova, M., & Mavrikis, M. (2022). Is it time we get real? A systematic review of the potential of data-driven technologies to address teachers’ implicit biases. Frontiers in Artificial Intelligence. doi:10.3389/frai.2022.994967.",
+        "Gawronski, B., & Bodenhausen, G.V. (2006). Associative and propositional processes in evaluation: An integrative review of implicit and explicit attitude change. Psychological Bulletin, 132, 692-731. doi: 10.1037/0033-2909.132.5.692.",
+        "Gay, G., & Howard, T.C. (2000). Multicultural teacher education for the 21st century. The Teacher Educator, 36.1, 1-16. doi: 10.1080/08878730009555246.",
+        "Gibson, D. (2007). SimSchool - A complex systems framework for modeling teaching & learning. Paper presented to the National Educational Computing Conference, Atlanta, GA, June 2007.",
+        "Gibson, S., & Dembo, M.H. (1984). Teacher efficacy: A construct validation. Journal of Education Psychology, 76, 569-582.",
+        "Girod, G., & Schalock, M. (2002). Does TWSM work?. In: G. Girod (Ed.), Connecting Teaching and Learning: A Handbook for Teacher Educators on Teacher Work Sample Methodology. Washington DC: American Association of Colleges of Teacher Education.",
+        "Graham, S. (2017). An attributional perspective on motivation in ethnic minority youth. In: J. T. Decuir-Gunby & P. A. Schutz (Eds.), Race and Ethnicity in the Study of Motivation in Education. New York, NY: Routledge.",
+        "Grossman, P. L., Compton, C., Igra, D., & Williamson, P. W. (2009). Teaching practice: A Cross-professional perspective. Teachers College Record, 111.9, 2055-2100.",
+        "Hecht, S.A. & Greenfield, D.B. (2002). Explaining the predictive accuracy of teacher judgments of their students’ reading achievement: The role of gender, classroom behavior, and emergent literacy skills in a longitudinal sample of children exposed to poverty. Reading and Writing: An Interdisciplinary Journal, 15, 789-809. Doi: 10.1023/A:1020985701556.",
+        "Kitsantas, A. (2012). Teacher efficacy scale for classroom diversity (TESCD): A validation study, 16.1, Profesorado, Revista de curriculum y formacion del profesorado. http://www.ugr.es/local/recfpro/rev161ART3en.pdf.",
+        "Knezek, G., & Christensen, R. (2009). Preservice educator learning in a simulated teaching environment. In: Research Highlights in Technology and Teacher Education (Vol. 1, pp. 161-170).",
+        "Lee, S., & Ahn, T.y. (2021). Pre-service teachers’ learning experiences of using a virtual practicum simulation with AI learners. Multimedia-Assisted Language Learning, 24.4, 107-133.",
+        "Littenberg-Tobias, J., Borneman, E., & Reich, J. (2021). Measuring equity-promoting behaviors in digital teaching simulations: A topic modeling approach. AERA Open, 7.1, 1-19. Doi: 10.1177/23328584211045685.",
+        "Malone, J.C. (2016). E.R. Guthrie: A behaviorism for everyone. In: D. Zilio & K. Carrara (Eds.). Behaviorisms: Historical and conceptual issues (Vol. 1). Sao Paulo: Nucleo Paradigma Press.",
+        "McCrae, R., & Costa, P. (1996). Toward a new generation of personality theories: Theoretical contexts for the five-factor model. In J. S. Wiggins (Ed.), The five-factor model of personality: Theoretical perspectives (pp. 51-87). New York: Guilford.",
+        "McGinnis, C.M. (2017). Effects of implicit bias on teachers’ expectations of student relationships. Public Access Theses and Dissertations from the College of Education and Human Sciences. University of Nebraska-Lincoln.",
+        "Muniz, J. (2019). Culturally responsive teaching: A 50-state survey of teaching standards. http://newamerica.org/education-policy/reports/culturally-responsive-teaching.",
+        "National Science and Technology Council (2018). Charting a course for success: America’s strategy for STEM education. Washington, D.C.: Committee on STEM Education.",
+        "Oyerinde, S.A. (2008). A correlational study of teacher efficacy and culturally responsive teaching techniques in four public middle schools. Dissertation University of Missouri-Kansas City.",
+        "Ronfeldt, M. (2015). Field placement schools and instructional effectiveness. Journal of Teacher Education, 66.4, 304-320. Doi: 10.1177/0022487115592463.",
+        "Sadker, D., Zittleman, K., & Koch, M. (2016). Gender bias: Past, present and future. In: J.A. Banks & C.A. McGee Banks (Eds.). Multicultural Education (p. 83-100). Indianapolis, IN: John Wiley & Sons.",
+        "Samuelsson, M., Samuelsson, J., & Thorsten, A. (2021). Simulation training is as effective as teaching pupils: Development of efficacy beliefs among pre-service teachers. Journal of Technology in Teacher Education, 29.2, 225-251.",
+        "Sianjina, R. R. (2000). Educational technology and the diverse classroom. Kappa Delta Pi Record, 37.1, 26-29. Doi: 10.1080/00228958.2000.10518793.",
+        "Siwatu, K.O. (2007). Preservice teachers’ culturally responsive teaching self-efficacy and outcome expectancy beliefs. Teaching and Teacher Education, 23, 1086-1101.",
+        "Smith, K., & Klumper, D. (2018). Virtually in the classroom. Educational Leadership, 76.1, 60-65.",
+        "Soodak, L.C., & Podell, D.M. (1994). Teachers’ thinking about difficult-to-teach students. Journal of Educational Research, 88, 44-51. Doi: 10.1080/00220671.1994.9944833.",
+        "Soon, C.S., Brass, M., Heinze, H-J., & Haynes, J-D. (2008). Unconscious determinants of free decisions in the human brain. Nature Neuroscience, 5, 543-545. doi: 10.1038/nn.2112.",
+        "Staats, C. (2015-16). Understanding implicit bias: What educators should know. American Educator, 29-33.",
+        "Taie, S., & Goldring, R. (2020). Characteristics of public and private elementary and secondary school teachers in the United States: Results from the 2017-18 national teacher and principal survey first look (NCES 2020142). U.S. Department of Education. Washington, DC: National Center for Education Statistics. https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020142.",
+        "Tschannen-Moran, M., & Hoy, A.W. (2001). Teacher efficacy: Capturing an elusive construct. Teaching and Teacher Education, 17, 783-805. Doi: 10.1016/S0742-051X(01)00036-1.",
+        "Tucker, C.M., Porter, T., Reinke, W.M., Herman, K.C., Ivery, P.D., Mack, C.E., & Jackson, E.S. (2005). Promoting teacher efficacy for working with culturally diverse students. Preventing School Failure, 50.1, 29-34. Doi: 10.3200/PSFL.50.1.29-34.",
+        "Tyler-Wood, T., Knezek, G., & Christensen, R. (2010). Instruments for assessing interest in STEM content and careers. Journal of Technology and Teacher Education, 18.2, 341-363.",
+        "U.S. Department of Education. (2016, July). The state of racial diversity in the educator workforce. Washington, D.C.",
+        "U.S. Department of Education. (2021, January). 42nd annual report to Congress on the implementation of the Individuals with Disabilities Act, 2009. Washington, DC.",
+        "Van den Bergh, L., Denessen, E., Hornstra, L., Voeten M., & Holland, R.W. (2010). The implicit prejudiced attitudes of teachers: Relations to teacher expectations and the ethnic achievement gap. American Educational Research Journal, 47, 497-527. Doi: 10.3102/0002831209353594.",
+        "Walker, A., Shafer, J., & Iiams, M. (2004). “Not in my classroom”: Teacher attitudes towards English language learners in the mainstream classroom. National Association for Bilingual Education Journal of Research and Practice, 2, 130-160."
+      ],
+      "count": 59,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_15077",
+    "article_ID": "15077",
+    "slug": "15077",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "15077",
+      "url_slug": "15077"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-09-20",
+      "accepted": "2022-11-15",
+      "created": "2022-12-20",
+      "modified": "2022-12-20",
+      "issued": "2022-12-20",
+      "available": "2022-12-20",
+      "submitted_page": "2022-12-12",
+      "submitted_pdf": "2022-09-20",
+      "accepted_page": null,
+      "accepted_pdf": "2022-11-15"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+        "pdf_value": null,
+        "chosen_value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-09-20",
+        "chosen_value": "2022-09-20",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2022-11-15",
+        "chosen_value": "2022-11-15",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "http://creativecommons.org",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15077/2117",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15077/2117",
+      "local_relative_path": "2499-507X_15077.pdf",
+      "saved": true,
+      "sha256": "80f819881ef6bb8a1f91ddd869b87163281467e7b2f760ced4d27e81e90f297e",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1170000,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Rhonda Christensen",
+        "Gerald Knezek"
+      ],
+      "citation_author_institution": [
+        "University of North Texas",
+        "University of North Texas"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2022/12/20"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2022oa15077"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15077"
+      ],
+      "citation_keywords": [
+        "simulated teaching",
+        "reduce bias",
+        "teachers",
+        "culturally responsive",
+        "artificial intelligence"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/15077/2117"
+      ],
+      "citation_reference_count": 59,
+      "DC.Date.created": [
+        "2022-12-20"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-12-12"
+      ],
+      "DC.Date.issued": [
+        "2022-12-20"
+      ],
+      "DC.Date.modified": [
+        "2022-12-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "15077"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2022oa15077"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15077"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences"
+      ],
+      "DC.Title.Alternative": [
+        "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Rhonda Christensen",
+        "Gerald Knezek"
+      ],
+      "citation_author_institution": [
+        "University of North Texas",
+        "University of North Texas"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Rhonda Christensen",
+        "Gerald Knezek"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Simulated teaching environments have been used for more than two decades and are likely to continue to expand to meet the demands of teacher development programs. In this study, the self-reported changes in culturally-responsive teaching perceptions of ten classroom teachers serving more than six hundred students are reported. This paper includes first year findings from a program designed to use artificial-intelligence (AI) based algorithms to reduce implicit bias in teaching. Findings from this study include significant pre-post increases for self-efficacy related to culturally responsive teaching as well as instructional self-efficacy. These findings add credibility to the contention that a key innovation of using simulation programs for teacher professional development is that it provides teachers and teacher trainees many learning trials with simulated students, thereby increasing teacher confidence and competence, and which in turn will improve student learning. Findings set the stage for measuring the impact on student perceptions of learning and cultural engagement intended to support teachers in recognizing and ameliorating their own implicit biases.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Simulated teaching environments have been used for more than two decades and are likely to continue to expand to meet the demands of teacher development programs. In this study, the self-reported changes in culturally-responsive teaching perceptions of ten classroom teachers serving more than six hundred students are reported. This paper includes first year findings from a program designed to use artificial-intelligence (AI) based algorithms to reduce implicit bias in teaching. Findings from this study include significant pre-post increases for self-efficacy related to culturally responsive teaching as well as instructional self-efficacy. These findings add credibility to the contention that a key innovation of using simulation programs for teacher professional development is that it provides teachers and teacher trainees many learning trials with simulated students, thereby increasing teacher confidence and competence, and which in turn will improve student learning. Findings set the stage for measuring the impact on student perceptions of learning and cultural engagement intended to support teachers in recognizing and ameliorating their own implicit biases."
+          }
+        },
+        {
+          "content": "Simulated teaching environments have been used for more than two decades and are likely to continue to expand to meet the demands of teacher development programs. In this study, the self-reported changes in culturally-responsive teaching perceptions of ten classroom teachers serving more than six hundred students are reported. This paper includes first year findings from a program designed to use artificial-intelligence (AI) based algorithms to reduce implicit bias in teaching. Findings from this study include significant pre-post increases for self-efficacy related to culturally responsive teaching as well as instructional self-efficacy. These findings add credibility to the contention that a key innovation of using simulation programs for teacher professional development is that it provides teachers and teacher trainees many learning trials with simulated students, thereby increasing teacher confidence and competence, and which in turn will improve student learning. Findings set the stage for measuring the impact on student perceptions of learning and cultural engagement intended to support teachers in recognizing and ameliorating their own implicit biases.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Simulated teaching environments have been used for more than two decades and are likely to continue to expand to meet the demands of teacher development programs. In this study, the self-reported changes in culturally-responsive teaching perceptions of ten classroom teachers serving more than six hundred students are reported. This paper includes first year findings from a program designed to use artificial-intelligence (AI) based algorithms to reduce implicit bias in teaching. Findings from this study include significant pre-post increases for self-efficacy related to culturally responsive teaching as well as instructional self-efficacy. These findings add credibility to the contention that a key innovation of using simulation programs for teacher professional development is that it provides teachers and teacher trainees many learning trials with simulated students, thereby increasing teacher confidence and competence, and which in turn will improve student learning. Findings set the stage for measuring the impact on student perceptions of learning and cultural engagement intended to support teachers in recognizing and ameliorating their own implicit biases."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "simulated teaching",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "simulated teaching"
+          }
+        },
+        {
+          "content": "reduce bias",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "reduce bias"
+          }
+        },
+        {
+          "content": "teachers",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "teachers"
+          }
+        },
+        {
+          "content": "culturally responsive",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "culturally responsive"
+          }
+        },
+        {
+          "content": "artificial intelligence",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "artificial intelligence"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15077/2117",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15077/2117",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15077/2117",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15077/2117",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15077/2117",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": "2022-09-20",
+      "accepted_pdf": "2022-11-15",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 03_Christensen.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2022-12-16",
+        "mod_date": "2022-12-19"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15077 Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences Rhonda Christensen, Gerald Knezek* Abstract Simulated teaching environments have been used for more than tw o decades and are likely to continue to expa n d t o m e e t t h e d e m a n d s o f t e acher development programs. In this s tudy, the self-reported changes in culturally- responsive teaching perceptions of ten classroom teachers servi ng more than six hundred students are reported. This paper includes first ye ar findings from a program designed to use artificial-intelligence (AI) based al gorithms to reduce implicit bias in teaching. Findings from this study incl ude significant pre-post increases for self-efficacy related to culturally responsive teaching as well as instructional self-efficacy. These findings add credibi lity to the contention that a key innovation of using simulation programs f or teacher professional development is that it provides teachers and teacher trainees many learning trials with simulated students, thereby increasing tea cher confidence and competence, and which in turn will improve student learning. Findings set the stage for measuring the imp act on student perceptions of le arning and cultural engagement intended to support teachers in recognizing a n d ameliorating their own implicit biases. Keywords: simulated teaching, reduce bias, teachers, culturally responsiv e, artificial intelligence Article submitted: 20/09/2022; accepted: 15/11/2022 Available online: 20/12/2022 * University of North Texas. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\15077\\2499-507X_15077.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+        "pdf_value": null,
+        "chosen_value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-09-20",
+        "chosen_value": "2022-09-20",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2022-11-15",
+        "chosen_value": "2022-11-15",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "http://creativecommons.org",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15077",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15077",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:33:04Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15077\\temp\\2499-507X_15077.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:07Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15077\\2499-507X_15077.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+        "submitted_date": "2022-12-12",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Rhonda Christensen",
+          "Gerald Knezek"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15077\\2499-507X_15077.pdf",
+        "generated_at_utc": "2026-04-21T21:33:07Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 03_Christensen.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2022-12-16",
+          "mod_date": "2022-12-19"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15077 Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences Rhonda Christensen, Gerald Knezek* Abstract Simulated teaching environments have been used for more than tw o decades and are likely to continue to expa n d t o m e e t t h e d e m a n d s o f t e acher development programs. In this s tudy, the self-reported changes in culturally- responsive teaching perceptions of ten classroom teachers servi ng more than six hundred students are reported. This paper includes first ye ar findings from a program designed to use artificial-intelligence (AI) based al gorithms to reduce implicit bias in teaching. Findings from this study incl ude significant pre-post increases for self-efficacy related to culturally responsive teaching as well as instructional self-efficacy. These findings add credibi lity to the contention that a key innovation of using simulation programs f or teacher professional development is that it provides teachers and teacher trainees many learning trials with simulated students, thereby increasing tea cher confidence and competence, and which in turn will improve student learning. Findings set the stage for measuring the imp act on student perceptions of le arning and cultural engagement intended to support teachers in recognizing a n d ameliorating their own implicit biases. Keywords: simulated teaching, reduce bias, teachers, culturally responsiv e, artificial intelligence Article submitted: 20/09/2022; accepted: 15/11/2022 Available online: 20/12/2022 * University of North Texas. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": "2022-09-20",
+          "accepted_date": "2022-11-15",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 03_Christensen.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": "2022-09-20",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2022-11-15",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Impacting Culturally Responsive Teaching Strategies by Decreasing Bias Through Simulation Experiences",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-12-12",
+          "pdf_value": "2022-09-20",
+          "preferred_source": "pdf",
+          "chosen_value": "2022-09-20",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:58Z"
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2022-11-15",
+          "preferred_source": "pdf",
+          "chosen_value": "2022-11-15",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "page",
+          "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:48:00Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "pdf",
+          "chosen_value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:48:01Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15077\\temp\\2499-507X_15077.conflicts.json"
+  }
+}

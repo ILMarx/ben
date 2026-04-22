@@ -1,0 +1,887 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076",
+  "scraped_at_utc": "2026-04-21T21:33:01Z",
+  "fetched_at_utc": "2026-04-21T21:33:01Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "18458432ba8d04f3b63535efcddbf67af6220d8c6637856123eb6920597810f7",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Giulia Pastori",
+        "nameType": "Personal",
+        "givenName": "Giulia",
+        "familyName": "Pastori",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Milano-Bicocca"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Elisa Farina",
+        "nameType": "Personal",
+        "givenName": "Elisa",
+        "familyName": "Farina",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Milano-Bicocca"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/15076",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-11-10",
+        "dateType": "Accepted",
+        "source": "pdf"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-12-20",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-12-20",
+      "Issued": "2022-12-20",
+      "Accepted": "2022-11-10"
+    },
+    "language": {
+      "value": "en",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The transformative processes that have involved the academic world for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the promotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunteer university students and the tutees are secondary school students, the results of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relationship developed entirely online.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "The transformative processes that have involved the academic world for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the promotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunteer university students and the tutees are secondary school students, the results of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relationship developed entirely online.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa2-2022oa15076",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": "7",
+      "issue": "2",
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "Higher Education",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Covid-19 Pandemic",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "online tutoring",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "learning loss",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "school demotivation",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15076/2116",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": "7",
+      "citationIssue": "2",
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Pastori, G., & Farina, E. (2022). What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP). Excellence and Innovation in Learning and Teaching - Open Access , 7 (2). https://doi.org/10.3280/exioa2-2022oa15076",
+      "articleTitleEcho": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Auerbach, C.F. & Silvestrein, L.B. (2003). Qualitative data: an introduction to coding and analysis. New York: New York University Press.",
+        "Bhamani S., et.al. (2020). Home Learning in Times of COVID: Experiences of Parents. Journal of Education and Educational Development, 7.1, 9-26. Doi: 10.22555/joeed.v7i1.3260.",
+        "Bianchi, M.E., Rossi, V. & Ventriglia, L. (2011). Dislessia: la legge 170/2010. Il decreto attuativo e le linee guida. Il Piano Didattico Personalizzato (PDP). A cura della Associazione Italiana Dislessia. Firenze: Libriliberi.",
+        "Biasin, C. (2018). Tutoring accademico: limiti e possibilità del tutorato in università. Formazione Lavoro Persona, 8.1, 149-157.",
+        "Bonal, X. & González S. (2020). The impact of lockdown on the learning gap: family and school divisions in times of crisis. International Review of Education. 66, 635-655. Doi: 10.1007/s11159-020-09860-z.",
+        "Braun, V. & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative Research in Psychology, 3, 77-101.",
+        "Cardano, M. (2003). Tecniche di ricerca qualitativa. Roma: Carocci.",
+        "Cardarello, R. & Bertolini, C. (2020). Didattiche della comprensione del testo. Roma: Carocci.",
+        "Carlana, M. & La Ferrara, E. (2021). Apart but Connected: Online Tutoring and Student Outcomes during the COVID-19 Pandemic. EdWorkingPaper 21-350, Annenberg Institute at Brown University. Doi: 10.26300/0azm-cf65.",
+        "Chianese, G. (2018). Servizi di tutoring e orientamento all’università: uno sguardo all’Europa. Studium Educationis, 19.1, 53-67.",
+        "Claris, S. (2018). Peer tutoring tra gli studenti di Scienze della Formazione Primaria: i nuovi Virgilio. Formazione Lavoro Persona, 8.1, 136-148.",
+        "Colarusso, S., Giancola, O. (2020). Università e nuove forme di valutazione. Roma: Sapienza Università Editrice. Doi: 10.13133/9788893771542.",
+        "Commissione Europea. (2020). Comunicazione della Commissione Europa 2020. Una strategia per una crescita intelligente, sostenibile e inclusiva. https://eurlex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:2020:FIN:IT:PDF.",
+        "Cottini, L. (a cura di). (2019). Universal Design for Learning e curricolo inclusivo. Firenze: GiuntiEdu.",
+        "D’Alessio, M., Laghi, F. & Giacalone, V. (2010). Mentoring e scuola. Teorie, modelli e metodologie di intervento a contrasto della dispersione scolastica. Milano: Ulrico Hoepli.",
+        "De Beni, R. & Moè, A. (2000). Motivazione e apprendimento. Bologna: il Mulino.",
+        "Devescovi, A., Marchione, D., Capobianco, M. & Bentrovato, S. (2003). Psicologia del bambino in età prescolare. Roma: Edizioni Kappa.",
+        "Dettori, G.F. & Letteri, B. (2021). L’importanza della metacognizione per un apprendimento inclusivo. L’integrazione scolastica e sociale, 20.1, 102-123. Doi: 10.14605/ISS2012105.",
+        "Di Vita, A. (2021). Tutoraggio didattico tra pari a distanza: una ricerca-intervento svolta con gli studenti universitari. Excellence and Innovation in Learning and Teaching, 6, 74-87. Doi: 10.3280/exioa2-2021oa13020.",
+        "Frison, D. (2016). L’intervista mediata: evoluzioni dell’intervista cognitivo-critica piagetiana. Journal of Educational, Cultural and Phychological Studies, 13, 193-211.",
+        "Galliani, L. (2019). Prefazione. In Clerici, R., Da Re, L., Giraldo, A. & Meggiolaro, S. (a cura di). La valutazione del tutorato formativo per gli studenti universitari (pp. 9-12). Milano: FrancoAngeli.",
+        "Giuliani, A. (2021). La Supervisione online come dispositivo di supporto alla qualificazione dei tirocini curricolari: una ricerca sui futuri Educatori di nido. Italian Journal of Educational Research, 14, 62-73. Doi: 10.7346/sird-1S2021-p62.",
+        "Grey, D.J. & Osborne, C.L. (2018). Perceptions and principles of personal tutoring. Journal of Further Higher Education, 44, 285-299. Doi: 10.1080/0309877X.2018.1536258.",
+        "Hoffman, J.A. & Miller, E.A. (2020). Addressing the Consequences of School Closure due to COVID‐19 on Children’s Physical and Mental Well‐Being. World Medical & Health Policy, 8.3, 300-310. Doi:10.1002/wmh3.365.",
+        "Kuhfeld, M. & Tarasawa, B. (2020). The COVID-19 Slide: What Summer Learning Loss Can Tell Us about the Potential Impact of School Closures on Student Academic Achievement. NWEA White Paper (https://www.nwea.org/content/uploads/2020/05/CollaborativeBrief_Covid1-Slide-APR20.pdf).",
+        "Main, M. & Goldwin, R. (1997). Interview based adult attachment classification. Developmental Psychology, 8, 227-239.",
+        "Nuzzaci, A., Minello, R., Di Genova N. & Madia, S. (2020). Povertà educativa in contesto italiano tra istruzione e disuguaglianze. Quali gli effetti della pandemia? Lifelong Lifewide Learning, 17. 36, 76-92. Doi: 10.19241/lll.v16i36.537.",
+        "Oggionni, F., Palma, M. & Ulivieri Stiozzi, S. (2018). Il progetto Politiche Attive: dimensioni simboliche del dispositivo e pratiche di accompagnamento progettuale dei percorsi formativi degli studenti. Formazione Lavoro Persona, 11.33, 170-180.",
+        "Passalacqua, F. & Zuccoli, F. (2021). Il tutorato delle matricole nel contesto dell’università a distanza: la voce degli studenti nel valutare l’esperienza del primo semestre nel corso di studi di Scienze della Formazione Primaria. Formazione, Lavoro, Persona, 11.33, 187-215.",
+        "Pastori, G., Pagani, V., Mangiatordi, A. & Pepe, A.(2021). Parents’ view on distance learning during lockdown. A national survey. Rivista Italiana di Educazione Familiare, 18.1, 61-96. Doi: 10.36253/rief-10256.",
+        "Pastori, G. (2017). In ricerca. Prospettive e strumenti di ricerca per educatori e insegnanti. Parma: Spaggiari-Junior.",
+        "Pianta, R. C. (1997). Teacher Relationship Interview. University of Virginia: Curry School Education.",
+        "Potestio, A. (2013) La relazione educativa tra tradizione e nuove tecnologie. Formazione Lavoro Persona, 3.8, 49-59.",
+        "Scandella, O. (2007). Interpretare la tutorship. Nuovi significati e pratiche nella scuola dell’autonomia. Milano: FrancoAngeli.",
+        "Wood, D., Bruner, J. S. & Ross, G. (1976). The role of tutoring in problem solving. Journal of Child Psychology and Psychiatry, 17, 89-100."
+      ],
+      "count": 35,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_15076",
+    "article_ID": "15076",
+    "slug": "15076",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "15076",
+      "url_slug": "15076"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+        "lang": "it",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+        "lang": "en",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-12-12",
+      "accepted": "2022-11-10",
+      "created": "2022-12-20",
+      "modified": "2022-12-20",
+      "issued": "2022-12-20",
+      "available": "2022-12-20",
+      "submitted_page": "2022-12-12",
+      "submitted_pdf": "2022-04-10",
+      "accepted_page": null,
+      "accepted_pdf": "2022-11-10"
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+        "pdf_value": null,
+        "chosen_value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-04-10",
+        "chosen_value": "2022-12-12",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2022-11-10",
+        "chosen_value": "2022-11-10",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076/2116",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15076/2116",
+      "local_relative_path": "2499-507X_15076.pdf",
+      "saved": true,
+      "sha256": "84d094bdba946ad515a2c023a9933dba51de06b610f4bc1fef7fc78b7a593f3e",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 885771,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Giulia Pastori",
+        "Elisa Farina"
+      ],
+      "citation_author_institution": [
+        "University of Milano-Bicocca",
+        "University of Milano-Bicocca"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2022/12/20"
+      ],
+      "citation_volume": [
+        "7"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.3280/exioa2-2022oa15076"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15076"
+      ],
+      "citation_keywords": [
+        "Higher Education",
+        "Covid-19 Pandemic",
+        "online tutoring",
+        "learning loss",
+        "school demotivation"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/15076/2116"
+      ],
+      "citation_reference_count": 35,
+      "DC.Date.created": [
+        "2022-12-20"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-12-12"
+      ],
+      "DC.Date.issued": [
+        "2022-12-20"
+      ],
+      "DC.Date.modified": [
+        "2022-12-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "15076"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa2-2022oa15076"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/15076"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [
+        "7"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)"
+      ],
+      "DC.Title.Alternative": [
+        "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Giulia Pastori",
+        "Elisa Farina"
+      ],
+      "citation_author_institution": [
+        "University of Milano-Bicocca",
+        "University of Milano-Bicocca"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Giulia Pastori",
+        "Elisa Farina"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The transformative processes that have involved the academic world for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the promotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunteer university students and the tutees are secondary school students, the results of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relationship developed entirely online.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The transformative processes that have involved the academic world for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the promotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunteer university students and the tutees are secondary school students, the results of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relationship developed entirely online."
+          }
+        },
+        {
+          "content": "The transformative processes that have involved the academic world for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the promotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunteer university students and the tutees are secondary school students, the results of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relationship developed entirely online.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "The transformative processes that have involved the academic world for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the promotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunteer university students and the tutees are secondary school students, the results of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relationship developed entirely online."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Higher Education",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Higher Education"
+          }
+        },
+        {
+          "content": "Covid-19 Pandemic",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Covid-19 Pandemic"
+          }
+        },
+        {
+          "content": "online tutoring",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "online tutoring"
+          }
+        },
+        {
+          "content": "learning loss",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "learning loss"
+          }
+        },
+        {
+          "content": "school demotivation",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "school demotivation"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/15076/2116",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15076/2116",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076/2116",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076/2116",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/15076/2116",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": "2022-04-10",
+      "accepted_pdf": "2022-11-10",
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 02_Farina.docx",
+        "author": "megazzini",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "keywords": null,
+        "creation_date": "2022-12-16",
+        "mod_date": "2022-12-19"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15076 What Worked? A Qualitative Study on the Tutor- Tutee Relationship in the Tutoring Online Program (TOP) Giulia Pastori, Elisa Farina* Abstract The transformative processes that have involved the academic wo rld for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the p romotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunte er university students and the tutees are secondary school students, the resu lts of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relati onship developed entirely online. Keywords: Higher Education, Covid-19 Pandemic, online tutoring, learning loss, school demotivation. Article submitted: 10/04/2022; accepted: 10/11/2022 Available online: 20/12/2022 * University of Milano-Bicocca. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\2499-507X_15076.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+        "pdf_value": null,
+        "chosen_value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-04-10",
+        "chosen_value": "2022-12-12",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": "2022-11-10",
+        "chosen_value": "2022-11-10",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "La prima pagina PDF riporta esplicitamente la data di acceptance.",
+        "confidence": 0.98,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP) | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:33:01Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\temp\\2499-507X_15076.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:33:03Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\2499-507X_15076.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+        "submitted_date": "2022-12-12",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "en",
+        "creator_names": [
+          "Giulia Pastori",
+          "Elisa Farina"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\2499-507X_15076.pdf",
+        "generated_at_utc": "2026-04-21T21:33:03Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 02_Farina.docx",
+          "author": "megazzini",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 10.1.16 (Windows)",
+          "keywords": null,
+          "creation_date": "2022-12-16",
+          "mod_date": "2022-12-19"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15076 What Worked? A Qualitative Study on the Tutor- Tutee Relationship in the Tutoring Online Program (TOP) Giulia Pastori, Elisa Farina* Abstract The transformative processes that have involved the academic wo rld for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the p romotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunte er university students and the tutees are secondary school students, the resu lts of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relati onship developed entirely online. Keywords: Higher Education, Covid-19 Pandemic, online tutoring, learning loss, school demotivation. Article submitted: 10/04/2022; accepted: 10/11/2022 Available online: 20/12/2022 * University of Milano-Bicocca. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": "2022-04-10",
+          "accepted_date": "2022-11-10",
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 02_Farina.docx",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": "2022-04-10",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": "2022-11-10",
+          "confidence": 0.98,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-12-12",
+          "pdf_value": "2022-04-10",
+          "preferred_source": "page",
+          "chosen_value": "2022-12-12",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:54Z"
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": "2022-11-10",
+          "preferred_source": "pdf",
+          "chosen_value": "2022-11-10",
+          "confidence": 0.98,
+          "controversial": false,
+          "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:55Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:47:57Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\temp\\2499-507X_15076.conflicts.json"
+  }
+}
