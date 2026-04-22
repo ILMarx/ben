@@ -118,8 +118,3 @@ document.addEventListener('DOMContentLoaded', function () {
         updateLastModified();
       }
     });
-
-  if (typeof initPeopleRendering === "function") {
-    initPeopleRendering();
-  }
-});
