@@ -47,8 +47,6 @@ function initPeopleRendering() {
   renderPeopleGrid("scholarly-fellowship-cards", "scholarly-fellow");
 }
 
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", initPeopleRendering);
-} else {
+document.addEventListener('DOMContentLoaded', function () {
   initPeopleRendering();
-}
+});
