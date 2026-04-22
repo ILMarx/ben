@@ -400,8 +400,9 @@ section > :last-child {
 }
 
 .person-card-image {
-  aspect-ratio: 4 / 5;
-  object-position: center 28%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: 50% 20%;
 }
 
 /* Tables */
