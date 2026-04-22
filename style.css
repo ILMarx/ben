@@ -739,6 +739,22 @@ footer p {
   .side-nav .menu > li + li {
     margin-top: 0.65rem;
   }
+
+  .journal-row-card {
+    gap: 0.85rem;
+    min-height: 88px;
+    padding: 0.85rem 0.9rem;
+  }
+
+  .journal-row-logo {
+    width: 88px;
+    height: 56px;
+    flex: 0 0 88px;
+  }
+
+  .journal-row-text h3 {
+    font-size: 1.05rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
