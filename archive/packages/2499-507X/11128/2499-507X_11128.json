@@ -1,0 +1,894 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11128",
+  "scraped_at_utc": "2026-04-21T21:30:39Z",
+  "fetched_at_utc": "2026-04-21T21:30:39Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "50e0d61679749a4b85fd6cc3e27136b756db0177878252f4c96b9cd16d707939",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Giovanni Moretti",
+        "nameType": "Personal",
+        "givenName": "Giovanni",
+        "familyName": "Moretti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi Roma Tre"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Arianna L. Morini",
+        "nameType": "Personal",
+        "givenName": "Arianna L.",
+        "familyName": "Morini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi Roma Tre"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Arianna Giuliani",
+        "nameType": "Personal",
+        "givenName": "Arianna",
+        "familyName": "Giuliani",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi Roma Tre"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/11128",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2021-01-26",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2021-01-26",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2021-01-26",
+      "Issued": "2021-01-26"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The universities have progressively dedicated more attention to the Third Mission activities (TM) (Serbati, 2014; Boffo &amp; Moscati, 2015; Balduzzi &amp; Vaira, 2018). Continuing training is one of the most interesting areas of TM, which involves the active involvement of university professors in identifying the training needs of the territory and in responding to them in a participatory and effective way.The paper presents the results of an exploratory research carried out as part of the professional development path designed for three consecutive years by the University of Roma Tre in collaboration with the Regional School Office for Lazio.The survey involved 2390 teachers tutors of newly hired teachers (Fiorucci &amp; Moretti, 2019) with the aim of consolidating knowledge and developing skills related to the planned tutoring activities (D.M. 850/2015). The data were collected through qualitative-quantitative tools.The design of the training course has allowed to qualify the professional practices of tutors of newly hired teachers and to strengthen the relationship between the University, Regional School Office and educational institutions of the Lazio region.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Le università hanno progressivamente dedicato maggiore attenzione alle attività di Terza Missione (TM) (Serbati, 2014; Boffo &amp; Moscati, 2015; Balduzzi &amp; Vaira, 2018). La formazione continua rappresenta uno degli ambiti più interessanti di TM, che implica il coinvolgimento attivo dei docenti universitari nella individuazione delle esigenze formative del territorio e nel rispondere ad esse in modo partecipato ed efficace.Il contributo presenta gli esiti di un’indagine esplorativa svolta nell’ambito del percorso formativo progettato per tre anni consecutivi dall’Università degli Studi Roma Tre in collaborazione con l’Ufficio Scolastico Regionale per il Lazio. L’indagine ha coinvolto 2390 docenti tutor dei neoassunti (Fiorucci &amp; Moretti, 2019) con la finalità di consolidare le conoscenze e sviluppare le competenze connesse alle previste attività di tutorato (D.M. 850/2015).I dati sono stati rilevati attraverso strumenti quali-quantitativi.La progettazione del percorso formativo ha consentito di qualificare le pratiche professionali dei tutor dei docenti neoassunti e di rafforzare il rapporto tra Università, Ufficio Scolastico Regionale e Istituzioni scolastiche della regione Lazio.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa0-2021oa11128",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": null,
+      "issue": null,
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "sviluppo professionale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "territorio",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Terza Missione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "tutor neoassunti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Università",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/11128/813",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": null,
+      "citationIssue": null,
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Moretti, G., Morini, A. L., & Giuliani, A. (2021). La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio. Excellence and Innovation in Learning and Teaching - Open Access . https://doi.org/10.3280/exioa0-2021oa11128",
+      "articleTitleEcho": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Agenzia Nazionale di Valutazione del Sistema Universitario e della Ricerca (2011). Valutazione della Qualità della Ricerca 2004-2010 (VQR 2004-2010). Bando di partecipazione, 7 novembre 2011. Recuperato da: https://www.anvur.it/attivita/temi/valutazione/vqr-2004-2010/.",
+        "Balduzzi, G., & Vaira M. (2018). La Terza Missione dell'Università come campo organizzativo e politico. Tre studi di caso in atenei e territori del Nord d'Italia. Scuola democratica, 9(3), 455-474.",
+        "Bleach, K. (2013). Induction and mentoring of newly qualified teachers: A new deal for teachers. London: David Fulton Publishers.",
+        "Boffo, S., & Moscati, R. (2015). La Terza Missione dell'università. Origini, problemi e indicatori. Scuola democratica, 6(2), 251-272.",
+        "Bonaiuti, G. (2014). Le strategie didattiche. Roma: Carocci Editore.",
+        "Bubb, S., & Earley, P. (2009). Leading staff development for school improvement. School Leadership and Management, 29(1), 23-37.",
+        "Calvani, A. (2012). Per un’istruzione evidence based. Analisi teorico-metodologica internazionale sulle didattiche efficaci e inclusive. Trento: Edizioni Erickson.",
+        "Domenici, G. (2003). Manuale della valutazione scolastica. Bari: Laterza.",
+        "Earley, P., & Porritt, V. (2014). Evaluating the impact of professional development: the need for a student-focused approach. Professional development in education, 40(1), 112-129.",
+        "Fiorucci, M., & Moretti, G. (a cura di) (2019). Il tutor dei docenti neoassunti. Roma: Roma TrE-Press.",
+        "Giuliani, A. (2019). La funzione strategica del middle management per qualificare e innovare i processi formativi: il Questionario sulle pratiche valutative. In M. Fiorucci & G. Moretti (a cura di). Il tutor dei docenti neoassunti. Roma: Roma Tre-press, pp. 137-150.",
+        "Hattie, J. (2012). Visible learning for teachers: Maximizing impact on learning. New York: Routledge.",
+        "Kemmis, S., Heikkinen, H.L., Fransson, G., Aspfors, J., & Edwards-Groves, C. (2014). Mentoring of new teachers as a contested practice: Supervision, support and collaborative self-development. Teaching and teacher education, 43, 154-164.",
+        "Lucisano, P. (a cura di) (2016), I bisogni formativi dei futuri insegnanti. Roma: Aracne.",
+        "Mangione, G.R., Pettenati, M.C., & Rosa, A. (2016). Anno di formazione e prova: analisi del modello italiano alla luce della letteratura scientifica e delle esperienze internazionali. Form@re, 16(2), 47-64.",
+        "MIUR (2015). Decreto Ministeriale 850 del 27 ottobre 2015. Periodo di prova e formazione personale docente. In http://neoassunti.indire.it/2019/files/2019/DM_850_27_10_2015.pdf.",
+        "MIUR (2016), Piano per la formazione docenti 2016-2019. In https://www.istruzione.it/piano_docenti/.",
+        "Moretti, G. (2019). Il tutor dei docenti neoassunti come risorsa per lo sviluppo professionale dei docenti: un percorso di formazione, in Fiorucci M. e Moretti, G. (a cura di). Il tutor dei docenti neoassunti. Roma: Roma Tre-press, pp. 15-34.",
+        "Moretti, G., Morini, A., & Giuliani, A. (2019). Il profilo dei docenti tutor dei neoassunti in anno di prova (pp. 165-180). In M. Fiorucci &. G. Moretti (a cura di), Il tutor dei docenti neoassunti, Roma: Roma Tre-Press.",
+        "Moretti, G., Morini, A.L., & Giuliani, A. (2020). Osservazione tra pari e innalzamento della qualità dei processi formativi: la funzione strategica dei tutor dei docenti neoassunti. In Atti del Convegno Internazionale SIRD, tomo 1 – Ricerca, scenari, emergenze su istruzione, educazione e valutazione (pp.99-107). Lecce: Pensa Multimedia.",
+        "Morini, A. (2019). L’osservazione del docente tutor e l’autovalutazione del docente neoassunto: strategie per quali care le attività di tutorship. In M. Fiorucci &. G. Moretti (a cura di). Il tutor dei docenti neoassunti. Roma: Roma Tre-press, pp. 121-136.",
+        "Novelli, G. & Talamo, M. (2014). La Terza Missione per l’Università Italiana. Una nuova occasione per crescere, n. 61, 2739-2746.",
+        "Perla, L. (2016). Lo sviluppo professionale dell’insegnante. Ipotesi per una modellistica in fieri. Mizar. Costellazione di pensieri, 2015(1), 9-22.",
+        "Scheerens, J. (2000). Improving school effectiveness: fundamentals of education planning. Paris: International Institute for Educational Planning.",
+        "Serbati, A. (2014), La terza missione dell’università: riconoscere apprendimenti esperienziali e certificare competenze degli adulti. Lecce: Pensa Multimedia.",
+        "Università degli Studi Roma Tre (2020). Piano integrato 2020-2022. Recuperato da: https://performance.gov.it/performance/piani-performance/documento/1329."
+      ],
+      "count": 26,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_11128",
+    "article_ID": "11128",
+    "slug": "11128",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "11128",
+      "url_slug": "11128"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "The strategic role of the University for the improvement of the quality of educational contexts in the territory",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "professional development, territory, third mission, newly hired teachers, University",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "sviluppo professionale, territorio, Terza Missione, tutor neoassunti, Università",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-01-25",
+      "accepted": null,
+      "created": "2021-01-25",
+      "modified": "2023-11-13",
+      "issued": "2021-01-26",
+      "available": "2021-01-26",
+      "submitted_page": "2021-01-25",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+        "pdf_value": null,
+        "chosen_value": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-01-25",
+        "pdf_value": null,
+        "chosen_value": "2021-01-25",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11128/813",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/11128/813",
+      "local_relative_path": "2499-507X_11128.pdf",
+      "saved": true,
+      "sha256": "a5e514ad0591f7e210e309b0111c544747374e0a5e6704c4ed77f1fccb47ea26",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1008048,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Giovanni Moretti",
+        "Arianna L. Morini",
+        "Arianna Giuliani"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi Roma Tre",
+        "Università degli Studi Roma Tre",
+        "Università degli Studi Roma Tre"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2021/01/25"
+      ],
+      "citation_volume": [],
+      "citation_issue": [],
+      "citation_doi": [
+        "10.3280/exioa0-2021oa11128"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/11128"
+      ],
+      "citation_keywords": [
+        "sviluppo professionale",
+        "territorio",
+        "Terza Missione",
+        "tutor neoassunti",
+        "Università"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/11128/813"
+      ],
+      "citation_reference_count": 26,
+      "DC.Date.created": [
+        "2021-01-25"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-01-25"
+      ],
+      "DC.Date.issued": [
+        "2021-01-26"
+      ],
+      "DC.Date.modified": [
+        "2023-11-13"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "11128"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa0-2021oa11128"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/11128"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [],
+      "DC.Source.Issue": [],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio"
+      ],
+      "DC.Title.Alternative": [
+        "The strategic role of the University for the improvement of the quality of educational contexts in the territory",
+        "professional development, territory, third mission, newly hired teachers, University",
+        "sviluppo professionale, territorio, Terza Missione, tutor neoassunti, Università"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Giovanni Moretti",
+        "Arianna L. Morini",
+        "Arianna Giuliani"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi Roma Tre",
+        "Università degli Studi Roma Tre",
+        "Università degli Studi Roma Tre"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Giovanni Moretti",
+        "Arianna L. Morini"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The universities have progressively dedicated more attention to the Third Mission activities (TM) (Serbati, 2014; Boffo &amp; Moscati, 2015; Balduzzi &amp; Vaira, 2018). Continuing training is one of the most interesting areas of TM, which involves the active involvement of university professors in identifying the training needs of the territory and in responding to them in a participatory and effective way.The paper presents the results of an exploratory research carried out as part of the professional development path designed for three consecutive years by the University of Roma Tre in collaboration with the Regional School Office for Lazio.The survey involved 2390 teachers tutors of newly hired teachers (Fiorucci &amp; Moretti, 2019) with the aim of consolidating knowledge and developing skills related to the planned tutoring activities (D.M. 850/2015). The data were collected through qualitative-quantitative tools.The design of the training course has allowed to qualify the professional practices of tutors of newly hired teachers and to strengthen the relationship between the University, Regional School Office and educational institutions of the Lazio region.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The universities have progressively dedicated more attention to the Third Mission activities (TM) (Serbati, 2014; Boffo &amp; Moscati, 2015; Balduzzi &amp; Vaira, 2018). Continuing training is one of the most interesting areas of TM, which involves the active involvement of university professors in identifying the training needs of the territory and in responding to them in a participatory and effective way.The paper presents the results of an exploratory research carried out as part of the professional development path designed for three consecutive years by the University of Roma Tre in collaboration with the Regional School Office for Lazio.The survey involved 2390 teachers tutors of newly hired teachers (Fiorucci &amp; Moretti, 2019) with the aim of consolidating knowledge and developing skills related to the planned tutoring activities (D.M. 850/2015). The data were collected through qualitative-quantitative tools.The design of the training course has allowed to qualify the professional practices of tutors of newly hired teachers and to strengthen the relationship between the University, Regional School Office and educational institutions of the Lazio region."
+          }
+        },
+        {
+          "content": "Le università hanno progressivamente dedicato maggiore attenzione alle attività di Terza Missione (TM) (Serbati, 2014; Boffo &amp; Moscati, 2015; Balduzzi &amp; Vaira, 2018). La formazione continua rappresenta uno degli ambiti più interessanti di TM, che implica il coinvolgimento attivo dei docenti universitari nella individuazione delle esigenze formative del territorio e nel rispondere ad esse in modo partecipato ed efficace.Il contributo presenta gli esiti di un’indagine esplorativa svolta nell’ambito del percorso formativo progettato per tre anni consecutivi dall’Università degli Studi Roma Tre in collaborazione con l’Ufficio Scolastico Regionale per il Lazio. L’indagine ha coinvolto 2390 docenti tutor dei neoassunti (Fiorucci &amp; Moretti, 2019) con la finalità di consolidare le conoscenze e sviluppare le competenze connesse alle previste attività di tutorato (D.M. 850/2015).I dati sono stati rilevati attraverso strumenti quali-quantitativi.La progettazione del percorso formativo ha consentito di qualificare le pratiche professionali dei tutor dei docenti neoassunti e di rafforzare il rapporto tra Università, Ufficio Scolastico Regionale e Istituzioni scolastiche della regione Lazio.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Le università hanno progressivamente dedicato maggiore attenzione alle attività di Terza Missione (TM) (Serbati, 2014; Boffo &amp; Moscati, 2015; Balduzzi &amp; Vaira, 2018). La formazione continua rappresenta uno degli ambiti più interessanti di TM, che implica il coinvolgimento attivo dei docenti universitari nella individuazione delle esigenze formative del territorio e nel rispondere ad esse in modo partecipato ed efficace.Il contributo presenta gli esiti di un’indagine esplorativa svolta nell’ambito del percorso formativo progettato per tre anni consecutivi dall’Università degli Studi Roma Tre in collaborazione con l’Ufficio Scolastico Regionale per il Lazio. L’indagine ha coinvolto 2390 docenti tutor dei neoassunti (Fiorucci &amp; Moretti, 2019) con la finalità di consolidare le conoscenze e sviluppare le competenze connesse alle previste attività di tutorato (D.M. 850/2015).I dati sono stati rilevati attraverso strumenti quali-quantitativi.La progettazione del percorso formativo ha consentito di qualificare le pratiche professionali dei tutor dei docenti neoassunti e di rafforzare il rapporto tra Università, Ufficio Scolastico Regionale e Istituzioni scolastiche della regione Lazio."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "sviluppo professionale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "sviluppo professionale"
+          }
+        },
+        {
+          "content": "territorio",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "territorio"
+          }
+        },
+        {
+          "content": "Terza Missione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Terza Missione"
+          }
+        },
+        {
+          "content": "tutor neoassunti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "tutor neoassunti"
+          }
+        },
+        {
+          "content": "Università",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Università"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/11128/813",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/11128/813",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11128/813",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11128/813",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/11128/813",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 00_EILT_2021_Sommario",
+        "author": "User",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 20.0 (Windows)",
+        "keywords": null,
+        "creation_date": "2021-01-25",
+        "mod_date": "2021-01-25"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio The strategic role of the University for the improvement of the quality of educational contexts in the territory Giovanni Moretti, Arianna L. Morini, Arianna Giuliani* Riassunto Le università hanno progressivamente dedi cato maggiore attenzione alle atti- vità di Terza Missione (TM) (Serbati, 2014; Boffo & Moscati, 2015; Balduzzi & Vaira, 2018). La formazione continua rappresenta uno degli ambiti più inte- ressanti di TM, che implica il coinvolgimento attivo dei docenti universitari nella individuazione delle esigenze formative del territorio e nel rispondere ad esse in modo partecipato ed efficace. Il contributo presenta gli esiti di un’indagine esplorativa svolta nell’ambito del percorso formativo progettato per tre anni consecutivi dall’Università degli Studi Roma Tre in collaborazione con l’Ufficio Scolastico Regionale per il La- zio. L’indagine ha coinvolto 2390 docenti tutor dei neoassunti (Fiorucci & Mo- retti, 2019) con la finalità di consolid are le conoscenze e sviluppare le compe- tenze connesse alle previste attività di tutorato (D.M. 850/2015). I dati sono stati rilevati attraverso strumenti quali-quantitativi. La progettazione del percorso formativo ha consentito di qualificare le pratiche professionali dei tutor dei docenti neoassunti e di rafforzare il rapporto tra Uni- versità, Ufficio Scolastico Regionale e Istituzioni scolastiche della regione Lazio. Parole Chiave: sviluppo professionale, territorio, Terza Missione, tutor neoas- sunti, Università. * Università degli Studi Roma Tre. Il contributo rappresenta il risultato di un lavoro congiunto degli autori. In particolare, G. Moretti ha scritto §1 e §4, A.L. Morini ha scritto §2 e 2.1, A. Giuliani ha scritto §3. Doi: 10.3280/exioa0-2021oa11128 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\11128\\2499-507X_11128.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+        "pdf_value": null,
+        "chosen_value": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-01-25",
+        "pdf_value": null,
+        "chosen_value": "2021-01-25",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11128",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11128",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:30:39Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11128\\temp\\2499-507X_11128.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:30:41Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11128\\2499-507X_11128.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+        "submitted_date": "2021-01-25",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Giovanni Moretti",
+          "Arianna L. Morini",
+          "Arianna Giuliani"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11128\\2499-507X_11128.pdf",
+        "generated_at_utc": "2026-04-21T21:30:41Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 00_EILT_2021_Sommario",
+          "author": "User",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 20.0 (Windows)",
+          "keywords": null,
+          "creation_date": "2021-01-25",
+          "mod_date": "2021-01-25"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio The strategic role of the University for the improvement of the quality of educational contexts in the territory Giovanni Moretti, Arianna L. Morini, Arianna Giuliani* Riassunto Le università hanno progressivamente dedi cato maggiore attenzione alle atti- vità di Terza Missione (TM) (Serbati, 2014; Boffo & Moscati, 2015; Balduzzi & Vaira, 2018). La formazione continua rappresenta uno degli ambiti più inte- ressanti di TM, che implica il coinvolgimento attivo dei docenti universitari nella individuazione delle esigenze formative del territorio e nel rispondere ad esse in modo partecipato ed efficace. Il contributo presenta gli esiti di un’indagine esplorativa svolta nell’ambito del percorso formativo progettato per tre anni consecutivi dall’Università degli Studi Roma Tre in collaborazione con l’Ufficio Scolastico Regionale per il La- zio. L’indagine ha coinvolto 2390 docenti tutor dei neoassunti (Fiorucci & Mo- retti, 2019) con la finalità di consolid are le conoscenze e sviluppare le compe- tenze connesse alle previste attività di tutorato (D.M. 850/2015). I dati sono stati rilevati attraverso strumenti quali-quantitativi. La progettazione del percorso formativo ha consentito di qualificare le pratiche professionali dei tutor dei docenti neoassunti e di rafforzare il rapporto tra Uni- versità, Ufficio Scolastico Regionale e Istituzioni scolastiche della regione Lazio. Parole Chiave: sviluppo professionale, territorio, Terza Missione, tutor neoas- sunti, Università. * Università degli Studi Roma Tre. Il contributo rappresenta il risultato di un lavoro congiunto degli autori. In particolare, G. Moretti ha scritto §1 e §4, A.L. Morini ha scritto §2 e 2.1, A. Giuliani ha scritto §3. Doi: 10.3280/exioa0-2021oa11128 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 00_EILT_2021_Sommario",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-01-25",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-01-25",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:45:47Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:45:51Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11128\\temp\\2499-507X_11128.conflicts.json"
+  }
+}

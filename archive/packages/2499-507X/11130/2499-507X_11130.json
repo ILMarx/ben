@@ -1,0 +1,866 @@
+{
+  "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11130",
+  "scraped_at_utc": "2026-04-21T21:30:46Z",
+  "fetched_at_utc": "2026-04-21T21:30:45Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "d7840ff9518bec7342280125c97d40d42669f8e3d5615e55e2db2bfdd2fe27d9",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Anna Dipace",
+        "nameType": "Personal",
+        "givenName": "Anna",
+        "familyName": "Dipace",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Modena-Reggio Emilia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alessia Scarinci",
+        "nameType": "Personal",
+        "givenName": "Alessia",
+        "familyName": "Scarinci",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università degli Studi di Bari"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://journals.francoangeli.it/index.php/exioa/article/view/11130",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2021-01-26",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2021-01-26",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2021-01-26",
+      "Issued": "2021-01-26"
+    },
+    "language": {
+      "value": "it",
+      "source": "meta:citation_language"
+    },
+    "publisher": {
+      "value": "FrancoAngeli.it",
+      "source": "dom:#customblock-publisher"
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Saggi e ricerche"
+    },
+    "descriptions": [
+      {
+        "value": "The emergency situation arising from the spread of Covid-19 has determined an extraordinary condition for all educational institutions. In this paper, the focus is specifically on the university which has seen thousands of teachers suddenly grappling with the need to adopt distance learning solutions for their students despite not having specific skills and experience in this area. This situation has highlighted a series of needs linked to a specific training demand that affects both the educational aspects and those of didactic research which is trying to provide a reading of the phenomenon in order to feed a mature reflection on the relationship between media, environments (real or virtual) learning and teaching strategies. However, this emergency situation may result in unprecedented situations of qualified redesign of higher education, first of all through a requalification of university teaching and, therefore, of specific skills of their teachers able to use strategies, methods and tools (both in presence and at a distance) to foster active, constructive and interactive learning. The paper, starting from the framework of innovation in higher education proposed by Gilly Salmon, describes an exploratory analysis on the MOOCs offered by some of the main international platforms as a methodological training opportunity for teachers during the most difficult period of the Covid-19.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La situazione di emergenza rinveniente dalla diffusione del Covid-19 ha determinato una condizione straordinaria per tutte le istituzioni formative. In questo contributo l’attenzione è focalizzata in modo particolare sull’università che ha visto migliaia di docenti improvvisamente alle prese con la necessità di adottare soluzioni di didattica a distanza per i propri studenti pur non avendo specifiche competenze ed esperienze maturate in questo ambito. Questa situazione ha messo in evidenza una serie di bisogni collegati ad una specifica domanda di formazione che interessa tanto gli aspetti formativi quanto quelli di ricerca didattica che sta cercando di fornire una lettura del fenomeno al fine di alimentare una riflessione matura sul rapporto tra media, ambienti (reali o virtuali) di apprendimento e strategie di insegnamento. Tuttavia, da questa situazione di emergenza possono derivare situazioni inedite di riprogettazione qualificata della formazione superiore innanzitutto attraverso un aggiornamento della didattica universitaria e, dunque, di specifiche competenze dei propri docenti in grado di utilizzare strategie, metodi e strumenti (sia in presenza che a distanza) per favorire l’apprendimento attivo, costruttivo e interattivo. Il contributo, partendo dal framework di innovazione nell’alta formazione proposto da Gilly Salmon, presenta un’analisi esplorativa sui MOOC offerti da alcune delle principali piattaforme a livello internazionale come opportunità di formazione metodologica per i docenti durante il periodo più difficile dell’emergenza Covid-19.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.3280/exioa0-2021oa11130",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "dom:copyrightModal"
+    },
+    "source": {
+      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_abbrev": "EXIOA",
+      "issn": "2499-507X",
+      "uri": "https://journals.francoangeli.it/index.php/exioa",
+      "volume": null,
+      "issue": null,
+      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string_source": "meta:citation_journal_title"
+    },
+    "subjects": [
+      {
+        "value": "MOOC",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Università",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "strategie di insegnamento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "tecnologie educative",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Covid-19",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "source": "dom:copyrightModal"
+    },
+    "copyright": {
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://journals.francoangeli.it/index.php/exioa/article/download/11130/815",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationVolume": null,
+      "citationIssue": null,
+      "citationStartPage": null,
+      "citationEndPage": null,
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Dipace, A., & Scarinci, A. (2021). Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento. Excellence and Innovation in Learning and Teaching - Open Access . https://doi.org/10.3280/exioa0-2021oa11130",
+      "articleTitleEcho": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Christensen, C.M., & Horn, M.B. (2013). How disruption can help colleges thrive. The Chronicle of Higher Education, 60(5), B30.",
+        "Dohaney, J., De Roiste, M., Salmon, R.A., & Sutherland, K. (2020). Benefits, barriers, and incentives for improved resilience to disruption in university teaching. International of Disaster Risk Reduction, 50(101691), 1-9.",
+        "Fei, M., & Yeung, D.Y. (2015). Temporal models for predicting student dropout in massive open online courses. In 2015 IEEE International Conference on Data Mining Workshop (ICDMW) (pp. 256-263). IEEE.",
+        "Gui, M. (2019). Il digitale a scuola. Rivoluzione o abbaglio? (pp. 1-248). Bologna: il Mulino.",
+        "Harden, R.M., & Lilley, P. (2018). The eight roles of the medical teacher. Amsterdam: Elsevier Limited.",
+        "Hodges, C., Moore, S., Lockee, B., Trust, T., & Bond, A. (2020). The difference between emergency remote teaching and online learning. Educause Review, 27. Recuperato da: https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning (30.12.20).",
+        "Laurillard, D. (2013). Teaching as a design science: Building pedagogical patterns for learning and technology. London: Routledge.",
+        "Limone, P., Dipace, A., & Martiniello, L. (2016). Insegnanti e media digitali. Fattori socio-cognitivi e motivazionali che riducono le resistenze all’innovazione. Pedagogia oggi, 2(2016), 248-257.",
+        "Miller, G., Benke, M., Chaloux, B., Ragan, L.C., Schroeder, R., Smutz, W., & Swan, K. (2014). Leading the e-learning transformation of Higher Education: Meetingthe challenges of technology and distance education. Sterling, VA: Stylus Publishing.",
+        "Moreno-Marcos, P.M., Muñoz-Merino, P.J., Maldonado-Mahauad, J., Pérez-Sanagustín, M., Alario-Hoyos, C., & Kloos, C.D. (2020). Temporal analysis for dropout prediction using self-regulated learning strategies in self-paced MOOCs. Computers & Education, 145(103728), 1-15.",
+        "Nikendei, C., Ben-David, M. F., Mennin, S., & Huwendiek, S. (2016). Medical educators: How they define themselves–Results of an international web survey. Medical teacher, 38(7), 715-723.",
+        "Salmon, G. (2014). Learning innovation: A framework for transformation. European Journal of Open, Distance and E-learning, 17(2), 220-236.",
+        "Scarinci, A., & Dipace, A. (2019). Formazione pedagogica per l’insegnamento: il nuovo profilo professionale del docente universitario. In A. Dipace, V. Tamborra (a cura di). Insegnare in Università. Metodi e strumenti per una didattica efficace (p. 19-36). Milano: FrancoAngeli.",
+        "Xing, W., Chen, X., Stein, J., & Marcinkowski, M. (2016). Temporal predication of dropouts in MOOCs: Reaching the low hanging fruit through stacking generalization. Computers in human behaviour, 58, 119-129."
+      ],
+      "count": 14,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2499-507X_11130",
+    "article_ID": "11130",
+    "slug": "11130",
+    "journal_key": "2499-507X",
+    "raw_identifiers": {
+      "DC.Identifier": "11130",
+      "url_slug": "11130"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:DC.Title"
+      },
+      {
+        "value": "Methodologies, educational technologies and experiences in promoting teaching and learning skills",
+        "lang": "en",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "MOOC, University, teaching strategies, educational technology, Covid-19.",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "MOOC, Università, strategie di insegnamento, tecnologie educative, Covid-19",
+        "lang": "ky",
+        "role": "alternative",
+        "source": "meta:DC.Title.Alternative"
+      },
+      {
+        "value": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+        "lang": "it",
+        "role": "main",
+        "source": "dom:h1.article-page__title span"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en",
+        "ky"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2021-01-25",
+      "accepted": null,
+      "created": "2021-01-25",
+      "modified": "2022-04-12",
+      "issued": "2021-01-26",
+      "available": "2021-01-26",
+      "submitted_page": "2021-01-25",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+        "pdf_value": null,
+        "chosen_value": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-01-25",
+        "pdf_value": null,
+        "chosen_value": "2021-01-25",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11130/815",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/11130/815",
+      "local_relative_path": "2499-507X_11130.pdf",
+      "saved": true,
+      "sha256": "edf2e1cb222e4839ea2dfbaf93cc3843494b3d8561ff1496f1f71c9a845e89af",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1762813,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "citation_journal_abbrev": [
+        "EXIOA"
+      ],
+      "citation_issn": [
+        "2499-507X"
+      ],
+      "citation_author": [
+        "Anna Dipace",
+        "Alessia Scarinci"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Modena-Reggio Emilia",
+        "Università degli Studi di Bari"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2021/01/25"
+      ],
+      "citation_volume": [],
+      "citation_issue": [],
+      "citation_doi": [
+        "10.3280/exioa0-2021oa11130"
+      ],
+      "citation_abstract_html_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/11130"
+      ],
+      "citation_keywords": [
+        "MOOC",
+        "Università",
+        "strategie di insegnamento",
+        "tecnologie educative",
+        "Covid-19"
+      ],
+      "citation_pdf_url": [
+        "https://journals.francoangeli.it/index.php/exioa/article/download/11130/815"
+      ],
+      "citation_reference_count": 14,
+      "DC.Date.created": [
+        "2021-01-25"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2021-01-25"
+      ],
+      "DC.Date.issued": [
+        "2021-01-26"
+      ],
+      "DC.Date.modified": [
+        "2022-04-12"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "11130"
+      ],
+      "DC.Identifier.DOI": [
+        "10.3280/exioa0-2021oa11130"
+      ],
+      "DC.Identifier.URI": [
+        "https://journals.francoangeli.it/index.php/exioa/article/view/11130"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        ""
+      ],
+      "DC.Source": [
+        "Excellence and Innovation in Learning and Teaching - Open Access"
+      ],
+      "DC.Source.ISSN": [
+        "2499-507X"
+      ],
+      "DC.Source.Volume": [],
+      "DC.Source.Issue": [],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento"
+      ],
+      "DC.Title.Alternative": [
+        "Methodologies, educational technologies and experiences in promoting teaching and learning skills",
+        "MOOC, University, teaching strategies, educational technology, Covid-19.",
+        "MOOC, Università, strategie di insegnamento, tecnologie educative, Covid-19"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Saggi e ricerche"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Anna Dipace",
+        "Alessia Scarinci"
+      ],
+      "citation_author_institution": [
+        "Università degli Studi di Modena-Reggio Emilia",
+        "Università degli Studi di Bari"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Anna Dipace",
+        "Alessia Scarinci"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The emergency situation arising from the spread of Covid-19 has determined an extraordinary condition for all educational institutions. In this paper, the focus is specifically on the university which has seen thousands of teachers suddenly grappling with the need to adopt distance learning solutions for their students despite not having specific skills and experience in this area. This situation has highlighted a series of needs linked to a specific training demand that affects both the educational aspects and those of didactic research which is trying to provide a reading of the phenomenon in order to feed a mature reflection on the relationship between media, environments (real or virtual) learning and teaching strategies. However, this emergency situation may result in unprecedented situations of qualified redesign of higher education, first of all through a requalification of university teaching and, therefore, of specific skills of their teachers able to use strategies, methods and tools (both in presence and at a distance) to foster active, constructive and interactive learning. The paper, starting from the framework of innovation in higher education proposed by Gilly Salmon, describes an exploratory analysis on the MOOCs offered by some of the main international platforms as a methodological training opportunity for teachers during the most difficult period of the Covid-19.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The emergency situation arising from the spread of Covid-19 has determined an extraordinary condition for all educational institutions. In this paper, the focus is specifically on the university which has seen thousands of teachers suddenly grappling with the need to adopt distance learning solutions for their students despite not having specific skills and experience in this area. This situation has highlighted a series of needs linked to a specific training demand that affects both the educational aspects and those of didactic research which is trying to provide a reading of the phenomenon in order to feed a mature reflection on the relationship between media, environments (real or virtual) learning and teaching strategies. However, this emergency situation may result in unprecedented situations of qualified redesign of higher education, first of all through a requalification of university teaching and, therefore, of specific skills of their teachers able to use strategies, methods and tools (both in presence and at a distance) to foster active, constructive and interactive learning. The paper, starting from the framework of innovation in higher education proposed by Gilly Salmon, describes an exploratory analysis on the MOOCs offered by some of the main international platforms as a methodological training opportunity for teachers during the most difficult period of the Covid-19."
+          }
+        },
+        {
+          "content": "La situazione di emergenza rinveniente dalla diffusione del Covid-19 ha determinato una condizione straordinaria per tutte le istituzioni formative. In questo contributo l’attenzione è focalizzata in modo particolare sull’università che ha visto migliaia di docenti improvvisamente alle prese con la necessità di adottare soluzioni di didattica a distanza per i propri studenti pur non avendo specifiche competenze ed esperienze maturate in questo ambito. Questa situazione ha messo in evidenza una serie di bisogni collegati ad una specifica domanda di formazione che interessa tanto gli aspetti formativi quanto quelli di ricerca didattica che sta cercando di fornire una lettura del fenomeno al fine di alimentare una riflessione matura sul rapporto tra media, ambienti (reali o virtuali) di apprendimento e strategie di insegnamento. Tuttavia, da questa situazione di emergenza possono derivare situazioni inedite di riprogettazione qualificata della formazione superiore innanzitutto attraverso un aggiornamento della didattica universitaria e, dunque, di specifiche competenze dei propri docenti in grado di utilizzare strategie, metodi e strumenti (sia in presenza che a distanza) per favorire l’apprendimento attivo, costruttivo e interattivo. Il contributo, partendo dal framework di innovazione nell’alta formazione proposto da Gilly Salmon, presenta un’analisi esplorativa sui MOOC offerti da alcune delle principali piattaforme a livello internazionale come opportunità di formazione metodologica per i docenti durante il periodo più difficile dell’emergenza Covid-19.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La situazione di emergenza rinveniente dalla diffusione del Covid-19 ha determinato una condizione straordinaria per tutte le istituzioni formative. In questo contributo l’attenzione è focalizzata in modo particolare sull’università che ha visto migliaia di docenti improvvisamente alle prese con la necessità di adottare soluzioni di didattica a distanza per i propri studenti pur non avendo specifiche competenze ed esperienze maturate in questo ambito. Questa situazione ha messo in evidenza una serie di bisogni collegati ad una specifica domanda di formazione che interessa tanto gli aspetti formativi quanto quelli di ricerca didattica che sta cercando di fornire una lettura del fenomeno al fine di alimentare una riflessione matura sul rapporto tra media, ambienti (reali o virtuali) di apprendimento e strategie di insegnamento. Tuttavia, da questa situazione di emergenza possono derivare situazioni inedite di riprogettazione qualificata della formazione superiore innanzitutto attraverso un aggiornamento della didattica universitaria e, dunque, di specifiche competenze dei propri docenti in grado di utilizzare strategie, metodi e strumenti (sia in presenza che a distanza) per favorire l’apprendimento attivo, costruttivo e interattivo. Il contributo, partendo dal framework di innovazione nell’alta formazione proposto da Gilly Salmon, presenta un’analisi esplorativa sui MOOC offerti da alcune delle principali piattaforme a livello internazionale come opportunità di formazione metodologica per i docenti durante il periodo più difficile dell’emergenza Covid-19."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "MOOC",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "MOOC"
+          }
+        },
+        {
+          "content": "Università",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Università"
+          }
+        },
+        {
+          "content": "strategie di insegnamento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "strategie di insegnamento"
+          }
+        },
+        {
+          "content": "tecnologie educative",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": " tecnologie educative"
+          }
+        },
+        {
+          "content": "Covid-19",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Covid-19"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://journals.francoangeli.it/index.php/exioa/article/download/11130/815",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/download/11130/815",
+      "raw_dom_pdf_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11130/815",
+      "viewer_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11130/815",
+      "effective_download_url": "https://journals.francoangeli.it/index.php/exioa/article/download/11130/815",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": "FrancoAngeli",
+      "copyright_year_pdf": null,
+      "license_url_pdf": "http://creativecommons.org",
+      "embedded_metadata": {
+        "title": "Microsoft Word - 00_EILT_2021_Sommario",
+        "author": "User",
+        "subject": null,
+        "creator": "PScript5.dll Version 5.2.2",
+        "producer": "Acrobat Distiller 20.0 (Windows)",
+        "keywords": null,
+        "creation_date": "2021-01-25",
+        "mod_date": "2021-01-25"
+      },
+      "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento Methodologies, educational technologies and experiences in promoting teaching and learning skills Anna Dipace*, Alessia Scarinci** Riassunto La situazione di emergenza rinveniente dalla diffusione del Covid-19 ha deter- minato una condizione straordinaria per tutte le istituzioni formative. In questo contributo l’attenzione è focalizzata in modo particolare sull’università che ha visto migliaia di docenti improvvisamente alle prese con la necessità di adottare soluzioni di didattica a distanza per i propri studenti pur non avendo specifiche competenze ed esperienze maturate in questo ambito. Questa situazione ha messo in evidenza una serie di bisogni collegati ad una specifica domanda di formazione che interessa tanto gli aspe tti formativi quanto quelli di ricerca di- dattica che sta cercando di fornire una lettura del fenomeno al fine di alimentare una riflessione matura sul rapporto tra media, ambienti (reali o virtuali) di ap- prendimento e strategie di insegnament o. Tuttavia, da questa situazione di emergenza possono derivare situazioni inedite di riprogettazione qualificata della formazione superiore innanzitutto attraverso un aggiornamento della di- dattica universitaria e, dunque, di specifiche competenze dei propri docenti in grado di utilizzare strategie, metodi e strumenti (sia in presenza che a distanza) per favorire l’apprendimento attivo, costruttivo e interattivo. Il contributo, par- tendo dal framework di innovazione nell’alta formazione proposto da Gilly Sal- * Università degli Studi di Modena-Reggio Emilia. ** Università degli Studi di Bari. Le due Autrici hanno condiviso l’ideazione, la progettazione e lo sviluppo del saggio. Nella stesura del testo, i § Introduzione, 1 e 2 sono stati curati da Anna Dipace e i § 3 e 4 e le conclusioni sono stati curati da Alessia Scarinci. Doi: 10.3280/exioa0-2021oa11130 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+      "source": "C:\\dev\\SCRAPER\\output\\2499-507X\\11130\\2499-507X_11130.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+        "pdf_value": null,
+        "chosen_value": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2021-01-25",
+        "pdf_value": null,
+        "chosen_value": "2021-01-25",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "pdf_value": "FrancoAngeli",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
+        "discrepancy": true,
+        "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+        "confidence": 0.97,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+        "confidence": 0.9,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+    ],
+    "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Saggi e ricerche",
+      "meta_generator": "Open Journal Systems 3.3.0.16"
+    },
+    "html_title": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento | Excellence and Innovation in Learning and Teaching - Open Access",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11130",
+      "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11130",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-21T21:30:45Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11130\\temp\\2499-507X_11130.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-21T21:30:47Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11130\\2499-507X_11130.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+        "submitted_date": "2021-01-25",
+        "accepted_date": null,
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "publisher": "FrancoAngeli.it",
+        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "resource_language": "it",
+        "creator_names": [
+          "Anna Dipace",
+          "Alessia Scarinci"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11130\\2499-507X_11130.pdf",
+        "generated_at_utc": "2026-04-21T21:30:47Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Microsoft Word - 00_EILT_2021_Sommario",
+          "author": "User",
+          "subject": null,
+          "creator": "PScript5.dll Version 5.2.2",
+          "producer": "Acrobat Distiller 20.0 (Windows)",
+          "keywords": null,
+          "creation_date": "2021-01-25",
+          "mod_date": "2021-01-25"
+        },
+        "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento Methodologies, educational technologies and experiences in promoting teaching and learning skills Anna Dipace*, Alessia Scarinci** Riassunto La situazione di emergenza rinveniente dalla diffusione del Covid-19 ha deter- minato una condizione straordinaria per tutte le istituzioni formative. In questo contributo l’attenzione è focalizzata in modo particolare sull’università che ha visto migliaia di docenti improvvisamente alle prese con la necessità di adottare soluzioni di didattica a distanza per i propri studenti pur non avendo specifiche competenze ed esperienze maturate in questo ambito. Questa situazione ha messo in evidenza una serie di bisogni collegati ad una specifica domanda di formazione che interessa tanto gli aspe tti formativi quanto quelli di ricerca di- dattica che sta cercando di fornire una lettura del fenomeno al fine di alimentare una riflessione matura sul rapporto tra media, ambienti (reali o virtuali) di ap- prendimento e strategie di insegnament o. Tuttavia, da questa situazione di emergenza possono derivare situazioni inedite di riprogettazione qualificata della formazione superiore innanzitutto attraverso un aggiornamento della di- dattica universitaria e, dunque, di specifiche competenze dei propri docenti in grado di utilizzare strategie, metodi e strumenti (sia in presenza che a distanza) per favorire l’apprendimento attivo, costruttivo e interattivo. Il contributo, par- tendo dal framework di innovazione nell’alta formazione proposto da Gilly Sal- * Università degli Studi di Modena-Reggio Emilia. ** Università degli Studi di Bari. Le due Autrici hanno condiviso l’ideazione, la progettazione e lo sviluppo del saggio. Nella stesura del testo, i § Introduzione, 1 e 2 sono stati curati da Anna Dipace e i § 3 e 4 e le conclusioni sono stati curati da Alessia Scarinci. Doi: 10.3280/exioa0-2021oa11130 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": "FrancoAngeli",
+          "copyright_year": null,
+          "license_url": "http://creativecommons.org"
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Microsoft Word - 00_EILT_2021_Sommario",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": "FrancoAngeli",
+          "confidence": 0.97,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": "http://creativecommons.org",
+          "confidence": 0.9,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Formazione metodologica, tecnologie didattiche ed esperienze nella promozione delle competenze di insegnamento e apprendimento",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2021-01-25",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2021-01-25",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "pdf_value": "FrancoAngeli",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
+          "confidence": 0.97,
+          "controversial": false,
+          "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:45:56Z"
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "confidence": 0.9,
+          "controversial": false,
+          "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
+          "manual_override": true,
+          "manual_confirmed_at_utc": "2026-04-21T21:45:58Z"
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11130\\temp\\2499-507X_11130.conflicts.json"
+  }
+}
