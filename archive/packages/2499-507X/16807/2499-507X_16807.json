@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16807",
-  "scraped_at_utc": "2026-04-21T21:33:46Z",
-  "fetched_at_utc": "2026-04-21T21:33:46Z",
+  "scraped_at_utc": "2026-04-26T20:28:31Z",
+  "fetched_at_utc": "2026-04-26T20:28:31Z",
   "source_mode": "live_url",
-  "source_html_sha256": "d8bc258ff395a0f95178d751182f45e6b113f198a9bac0e3b86470991f79068e",
+  "source_html_sha256": "ff16f7efa00c621b39bf719130f4d7fccaaec1ba15787cf6768da2e2ae76f230",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -104,11 +104,6 @@
         "value": "This research explores the impact a Virtual Community of Practice (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching experiences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develop professional identity and competencies. This paper reports on part of the project engaging eight preservice or early-career teachers, two mentors, three researchers, and forty-eight secondary school pupils. Pre and post semi-structured interviews were employed to collect data, exploring the participants’ experiences and perceptions. The findings reveal significant impacts of the VCoP on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and real-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age.",
         "lang": "en",
         "source": "meta:DC.Description"
-      },
-      {
-        "value": "This research explores the impact a Virtual Community of Practice (VCoP) within the international Virtual School pilot project aimed at providing future secondary-school physics teachers with authentic teaching experiences. The Virtual School serves as a platform to connect future teachers with real schools and pupils, creating a unique educational environment to develop professional identity and competencies. This paper reports on part of the project engaging eight preservice or early-career teachers, two mentors, three researchers, and forty-eight secondary school pupils. Pre and post semi-structured interviews were employed to collect data, exploring the participants’ experiences and perceptions. The findings reveal significant impacts of the VCoP on the understanding of professional identity and the disciplinary teacher practices of participants. By participating in this digital community, they have developed expertise, bridging the gap between theoretical knowledge and real-classroom dynamics. This study highlights the potential of VCoPs to shape the training of secondary-school physics teachers, offering new avenues for teacher education in the digital age.",
-        "lang": "it",
-        "source": "meta:DC.Description"
       }
     ],
     "format": {
@@ -127,6 +122,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -160,6 +157,31 @@
         "value": "Professional identity",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Teacher education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Virtual community of practice",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Teaching physics",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Teacher competences",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Professional identity",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -264,38 +286,19 @@
         "lang": "en",
         "role": "main",
         "source": "meta:citation_title"
-      },
-      {
-        "value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
-        "lang": "en",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
-        "value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
-        "lang": "it",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Virtual School: Learning to Teach Physics in a Virtual Community of Practice",
-        "lang": "en",
-        "role": "main",
-        "source": "dom:h1.article-page__title span"
       }
     ],
     "metadata_languages": {
       "resource_language": "en",
       "title_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "en",
@@ -739,13 +742,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:33:46Z"
+      "retrieved_at_utc": "2026-04-26T20:28:31Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:28:32Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16807",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16807",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16807",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16807",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\temp\\2499-507X_16807.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:33:48Z",
+      "generated_at_utc": "2026-04-26T20:28:33Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\2499-507X_16807.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -765,7 +805,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\2499-507X_16807.pdf",
-        "generated_at_utc": "2026-04-21T21:33:48Z",
+        "generated_at_utc": "2026-04-26T20:28:33Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -841,7 +881,7 @@
           "controversial": false,
           "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:49:57Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:35:18Z"
         },
         "accepted_date": {
           "page_value": null,
@@ -861,7 +901,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:07Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2023",
@@ -881,14 +921,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:09Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "submitted_date",
+          "page_value": "2023-11-17",
+          "pdf_value": "2023-09-20",
+          "chosen_source": "pdf",
+          "applied_at_utc": "2026-04-26T20:35:18Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\temp\\2499-507X_16807.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16807\\temp\\2499-507X_16807.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "submitted_date",
+        "page_value": "2023-11-17",
+        "pdf_value": "2023-09-20",
+        "chosen_source": "pdf",
+        "applied_at_utc": "2026-04-26T20:35:18Z"
+      }
+    }
   }
 }

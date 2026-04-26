@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16821",
-  "scraped_at_utc": "2026-04-21T21:33:49Z",
-  "fetched_at_utc": "2026-04-21T21:33:49Z",
+  "scraped_at_utc": "2026-04-26T20:28:34Z",
+  "fetched_at_utc": "2026-04-26T20:28:34Z",
   "source_mode": "live_url",
-  "source_html_sha256": "bf7b709d2ac014361b3319668292839a9f165220793c174d36a583f39af8d853",
+  "source_html_sha256": "0f2e4fdc6c8cd11b3e215e8c0acd1233b8c883b92aa110edb88e09fae378e6bd",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -104,11 +104,6 @@
         "value": "The case study reports the implementation of Hybrid Blended Learning solutions in the teaching of Fundamentals of Analysis and Probability in the Computer Engineering Degree Course at the University of Padua. The teaching organization and methodology have been revised in a transformative perspective, using innovative STEM and digitally integrated approaches in blended learning mode (Ministerial Decree 289/2021). The context of the study is a cohort of 200 students, divided into two groups for organizational issues. The study analyzed data collected with different instruments: a survey administered by the lecturer and the course evaluation questionnaire required by university quality assurance standards, focusing on overall satisfaction, organizational and teaching aspects and perceived workload. In addition, data on final examination assessment were taken into account.",
         "lang": "en",
         "source": "meta:DC.Description"
-      },
-      {
-        "value": "The case study reports the implementation of Hybrid Blended Learning solutions in the teaching of Fundamentals of Analysis and Probability in the Computer Engineering Degree Course at the University of Padua. The teaching organization and methodology have been revised in a transformative perspective, using innovative STEM and digitally integrated approaches in blended learning mode (Ministerial Decree 289/2021). The context of the study is a cohort of 200 students, divided into two groups for organizational issues. The study analyzed data collected with different instruments: a survey administered by the lecturer and the course evaluation questionnaire required by university quality assurance standards, focusing on overall satisfaction, organizational and teaching aspects and perceived workload. In addition, data on final examination assessment were taken into account.",
-        "lang": "it",
-        "source": "meta:DC.Description"
       }
     ],
     "format": {
@@ -127,6 +122,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -160,6 +157,31 @@
         "value": "STEM",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Higher education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Blended Learning",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Teaching methods",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Educational technology",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "STEM",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -258,38 +280,19 @@
         "lang": "en",
         "role": "main",
         "source": "meta:citation_title"
-      },
-      {
-        "value": "Hybrid blended learning solutions in a STEM teaching of the degree course in Computer Engineering",
-        "lang": "en",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
-        "value": "Hybrid blended learning solutions in a STEM teaching of the degree course in Computer Engineering",
-        "lang": "it",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Hybrid blended learning solutions in a STEM teaching of the degree course in Computer Engineering",
-        "lang": "en",
-        "role": "main",
-        "source": "dom:h1.article-page__title span"
       }
     ],
     "metadata_languages": {
       "resource_language": "en",
       "title_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "en",
@@ -733,13 +736,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:33:49Z"
+      "retrieved_at_utc": "2026-04-26T20:28:34Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:28:36Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16821",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16821",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16821",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16821",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16821\\temp\\2499-507X_16821.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:33:59Z",
+      "generated_at_utc": "2026-04-26T20:28:37Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16821\\2499-507X_16821.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -759,7 +799,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16821\\2499-507X_16821.pdf",
-        "generated_at_utc": "2026-04-21T21:33:59Z",
+        "generated_at_utc": "2026-04-26T20:28:37Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -835,7 +875,7 @@
           "controversial": false,
           "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:15Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:35:42Z"
         },
         "accepted_date": {
           "page_value": null,
@@ -855,7 +895,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:19Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2023",
@@ -875,14 +915,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:20Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "submitted_date",
+          "page_value": "2023-11-21",
+          "pdf_value": "2023-09-26",
+          "chosen_source": "pdf",
+          "applied_at_utc": "2026-04-26T20:35:42Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16821\\temp\\2499-507X_16821.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16821\\temp\\2499-507X_16821.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "submitted_date",
+        "page_value": "2023-11-21",
+        "pdf_value": "2023-09-26",
+        "chosen_source": "pdf",
+        "applied_at_utc": "2026-04-26T20:35:42Z"
+      }
+    }
   }
 }

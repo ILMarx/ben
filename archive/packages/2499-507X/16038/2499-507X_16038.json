@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16038",
-  "scraped_at_utc": "2026-04-21T21:33:22Z",
-  "fetched_at_utc": "2026-04-21T21:33:22Z",
+  "scraped_at_utc": "2026-04-26T20:28:12Z",
+  "fetched_at_utc": "2026-04-26T20:28:12Z",
   "source_mode": "live_url",
-  "source_html_sha256": "d52884b606d613ccb6b52a37403a1075a1bcba4256d7e4bb9b425a0561726fb9",
+  "source_html_sha256": "cb25bfc2f13d576722498da087af0780a595435151ed88cf941dac47ac3f2824",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -132,6 +132,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -165,6 +167,36 @@
         "value": "università multiculturali",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "peer tutoring",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "tutor",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "university tutoring",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "training",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "tutoring in higher education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "higher education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -258,22 +290,16 @@
         "source": "meta:citation_title"
       },
       {
-        "value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
-        "lang": "it",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
         "value": "Practices and results of a proposal for university tutor training at the University of Padua",
         "lang": "en",
         "role": "alternative",
         "source": "meta:DC.Title.Alternative"
       },
       {
-        "value": "La formazione dei tutor universitari. Pratiche ed esiti della proposta formativa dell’Università di Padova",
+        "value": "Practices and results of a proposal for university tutor training at the University of Padua",
         "lang": "it",
         "role": "main",
-        "source": "dom:h1.article-page__title span"
+        "source": "locale:en_US:meta:DC.Title"
       }
     ],
     "metadata_languages": {
@@ -287,7 +313,8 @@
         "it"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "it",
@@ -736,13 +763,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:33:22Z"
+      "retrieved_at_utc": "2026-04-26T20:28:12Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:28:13Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16038",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16038",
+          "added_titles": 1,
+          "added_descriptions": 0,
+          "added_subjects": 6,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 6
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16038",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16038",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\temp\\2499-507X_16038.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:33:25Z",
+      "generated_at_utc": "2026-04-26T20:28:15Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\2499-507X_16038.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -763,7 +827,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\2499-507X_16038.pdf",
-        "generated_at_utc": "2026-04-21T21:33:25Z",
+        "generated_at_utc": "2026-04-26T20:28:15Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -857,7 +921,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:49:27Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2023",
@@ -877,14 +941,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:49:29Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "license_url",
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "chosen_source": "page",
+          "applied_at_utc": "2026-04-26T20:33:42Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\temp\\2499-507X_16038.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16038\\temp\\2499-507X_16038.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_source": "page",
+        "applied_at_utc": "2026-04-26T20:33:42Z"
+      }
+    }
   }
 }

@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
-  "scraped_at_utc": "2026-04-21T21:33:19Z",
-  "fetched_at_utc": "2026-04-21T21:33:19Z",
+  "scraped_at_utc": "2026-04-26T20:28:08Z",
+  "fetched_at_utc": "2026-04-26T20:28:08Z",
   "source_mode": "live_url",
-  "source_html_sha256": "f51980a21061a12ecbd30dfeb867c41c7be3c3491a466deda7dac5f0d68f9499",
+  "source_html_sha256": "9dcc7862cff01b44df1473c09a5cb6ea2904e83cfcb341e9cda53f3fcfe8ead7",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -110,6 +110,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -143,6 +145,31 @@
         "value": "Studenti",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Internationalization",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Globalization",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "University",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Mobility",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Students",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -240,22 +267,16 @@
         "source": "meta:citation_title"
       },
       {
-        "value": "L’Internazionalizzazione delle Università",
-        "lang": "it",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
         "value": "The Internationalization of Universities",
         "lang": "en",
         "role": "alternative",
         "source": "meta:DC.Title.Alternative"
       },
       {
-        "value": "L’Internazionalizzazione delle Università",
+        "value": "The Internationalization of Universities",
         "lang": "it",
         "role": "main",
-        "source": "dom:h1.article-page__title span"
+        "source": "locale:en_US:meta:DC.Title"
       }
     ],
     "metadata_languages": {
@@ -269,7 +290,8 @@
         "it"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "it",
@@ -708,13 +730,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:33:19Z"
+      "retrieved_at_utc": "2026-04-26T20:28:08Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:28:09Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F15084",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
+          "added_titles": 1,
+          "added_descriptions": 0,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F15084",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\temp\\2499-507X_15084.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:33:21Z",
+      "generated_at_utc": "2026-04-26T20:28:11Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\2499-507X_15084.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -733,7 +792,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\2499-507X_15084.pdf",
-        "generated_at_utc": "2026-04-21T21:33:21Z",
+        "generated_at_utc": "2026-04-26T20:28:11Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 07_Rocco.docx",
@@ -827,7 +886,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:49:22Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -847,14 +906,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:49:24Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "license_url",
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "chosen_source": "page",
+          "applied_at_utc": "2026-04-26T20:33:42Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\temp\\2499-507X_15084.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\temp\\2499-507X_15084.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_source": "page",
+        "applied_at_utc": "2026-04-26T20:33:42Z"
+      }
+    }
   }
 }

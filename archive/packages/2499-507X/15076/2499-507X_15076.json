@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076",
-  "scraped_at_utc": "2026-04-21T21:33:01Z",
-  "fetched_at_utc": "2026-04-21T21:33:01Z",
+  "scraped_at_utc": "2026-04-26T20:27:34Z",
+  "fetched_at_utc": "2026-04-26T20:27:34Z",
   "source_mode": "live_url",
-  "source_html_sha256": "18458432ba8d04f3b63535efcddbf67af6220d8c6637856123eb6920597810f7",
+  "source_html_sha256": "d904db21ed8ceb49b5f23c9b26a8b35486953923d68b443a4117368407ca2001",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -104,11 +104,6 @@
         "value": "The transformative processes that have involved the academic world for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the promotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunteer university students and the tutees are secondary school students, the results of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relationship developed entirely online.",
         "lang": "en",
         "source": "meta:DC.Description"
-      },
-      {
-        "value": "The transformative processes that have involved the academic world for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the promotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunteer university students and the tutees are secondary school students, the results of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relationship developed entirely online.",
-        "lang": "it",
-        "source": "meta:DC.Description"
       }
     ],
     "format": {
@@ -127,6 +122,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -160,6 +157,31 @@
         "value": "school demotivation",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Higher Education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Covid-19 Pandemic",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "online tutoring",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "learning loss",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "school demotivation",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -257,38 +279,19 @@
         "lang": "en",
         "role": "main",
         "source": "meta:citation_title"
-      },
-      {
-        "value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
-        "lang": "en",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
-        "value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
-        "lang": "it",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
-        "lang": "en",
-        "role": "main",
-        "source": "dom:h1.article-page__title span"
       }
     ],
     "metadata_languages": {
       "resource_language": "en",
       "title_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "en",
@@ -296,7 +299,7 @@
       ]
     },
     "internal_dates": {
-      "submitted": "2022-12-12",
+      "submitted": "2022-04-10",
       "accepted": "2022-11-10",
       "created": "2022-12-20",
       "modified": "2022-12-20",
@@ -323,8 +326,8 @@
         "field": "submitted_date",
         "page_value": "2022-12-12",
         "pdf_value": "2022-04-10",
-        "chosen_value": "2022-12-12",
-        "chosen_source": "page",
+        "chosen_value": "2022-04-10",
+        "chosen_source": "pdf",
         "discrepancy": true,
         "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
         "confidence": 0.98,
@@ -659,8 +662,8 @@
         "field": "submitted_date",
         "page_value": "2022-12-12",
         "pdf_value": "2022-04-10",
-        "chosen_value": "2022-12-12",
-        "chosen_source": "page",
+        "chosen_value": "2022-04-10",
+        "chosen_source": "pdf",
         "discrepancy": true,
         "ai_reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
         "confidence": 0.98,
@@ -732,13 +735,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:33:01Z"
+      "retrieved_at_utc": "2026-04-26T20:27:34Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:27:35Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F15076",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F15076",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\temp\\2499-507X_15076.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:33:03Z",
+      "generated_at_utc": "2026-04-26T20:27:37Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\2499-507X_15076.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -758,7 +798,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\2499-507X_15076.pdf",
-        "generated_at_utc": "2026-04-21T21:33:03Z",
+        "generated_at_utc": "2026-04-26T20:27:36Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 02_Farina.docx",
@@ -828,13 +868,13 @@
         "submitted_date": {
           "page_value": "2022-12-12",
           "pdf_value": "2022-04-10",
-          "preferred_source": "page",
-          "chosen_value": "2022-12-12",
+          "preferred_source": "pdf",
+          "chosen_value": "2022-04-10",
           "confidence": 0.98,
           "controversial": false,
           "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:47:54Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:34:35Z"
         },
         "accepted_date": {
           "page_value": null,
@@ -854,7 +894,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:47:55Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -874,14 +914,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:47:57Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "submitted_date",
+          "page_value": "2022-12-12",
+          "pdf_value": "2022-04-10",
+          "chosen_source": "pdf",
+          "applied_at_utc": "2026-04-26T20:34:35Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\temp\\2499-507X_15076.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\temp\\2499-507X_15076.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-04-10",
+        "chosen_source": "pdf",
+        "applied_at_utc": "2026-04-26T20:34:35Z"
+      }
+    }
   }
 }
