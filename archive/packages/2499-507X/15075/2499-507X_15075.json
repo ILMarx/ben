@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15075",
-  "scraped_at_utc": "2026-04-21T21:32:57Z",
-  "fetched_at_utc": "2026-04-21T21:32:57Z",
+  "scraped_at_utc": "2026-04-26T20:27:30Z",
+  "fetched_at_utc": "2026-04-26T20:27:30Z",
   "source_mode": "live_url",
-  "source_html_sha256": "7af9af902990b9c6412ee58126b2f3800c07d00cec96fdd17967e5e45d649b6f",
+  "source_html_sha256": "a445359754fed0d77e1b03113594fd2c77719a8d76cc6d26d8d5c2271f6a7485",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -126,11 +126,6 @@
         "value": "Digital media are important elements in the didactic planning and design of provisions and programmes in adult and continuing education. Based on questionnaire and interview data from organizations and umbrella organizations active in adult and continuing education in Germany, the article examines how adult educators use digital media and what reasons they give for using them. The article distinguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- and macrodidactics. Overall, didactic considerations are shifting more to the macrodidactic planning level, emphasizing the role of organizations and umbrella organizations. This is accompanied by changing demands on cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media.",
         "lang": "en",
         "source": "meta:DC.Description"
-      },
-      {
-        "value": "Digital media are important elements in the didactic planning and design of provisions and programmes in adult and continuing education. Based on questionnaire and interview data from organizations and umbrella organizations active in adult and continuing education in Germany, the article examines how adult educators use digital media and what reasons they give for using them. The article distinguishes between types of digital media, digital tools, and didactically structured digital media offerings. The analysis shows that educators use digital media in settings combining micro- and macrodidactics. Overall, didactic considerations are shifting more to the macrodidactic planning level, emphasizing the role of organizations and umbrella organizations. This is accompanied by changing demands on cooperation between planning staff and instructors. Moreover, the roles of staff expand and diversify with the use of digital media.",
-        "lang": "it",
-        "source": "meta:DC.Description"
       }
     ],
     "format": {
@@ -149,6 +144,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -182,16 +179,41 @@
         "value": "digital tools",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Digital media",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "adult and continuing education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "digitalization",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "media education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "digital tools",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
       "value": "Creative Commons Attribution - Non-Commercial - No Derivatives 4.0 License (CC BY-NC-ND 4.0)",
-      "uri": "http://creativecommons.org",
+      "uri": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
       "source": "dom:copyrightModal"
     },
     "copyright": {
-      "holder": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "holder_source": "page",
+      "holder": "FrancoAngeli",
+      "holder_source": "pdf",
       "year": 2022,
       "year_source": "page"
     },
@@ -275,38 +297,19 @@
         "lang": "en",
         "role": "main",
         "source": "meta:citation_title"
-      },
-      {
-        "value": "Digital Media in Adult and Continuing Education in Germany",
-        "lang": "en",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
-        "value": "Digital Media in Adult and Continuing Education in Germany",
-        "lang": "it",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Digital Media in Adult and Continuing Education in Germany",
-        "lang": "en",
-        "role": "main",
-        "source": "dom:h1.article-page__title span"
       }
     ],
     "metadata_languages": {
       "resource_language": "en",
       "title_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "en",
@@ -363,8 +366,8 @@
         "field": "copyright_holder",
         "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
         "pdf_value": "FrancoAngeli",
-        "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
-        "chosen_source": "page",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
         "discrepancy": true,
         "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
         "confidence": 0.97,
@@ -385,8 +388,8 @@
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
-        "chosen_value": "http://creativecommons.org",
-        "chosen_source": "pdf",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
         "discrepancy": true,
         "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
         "confidence": 0.9,
@@ -709,8 +712,8 @@
         "field": "copyright_holder",
         "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
         "pdf_value": "FrancoAngeli",
-        "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
-        "chosen_source": "page",
+        "chosen_value": "FrancoAngeli",
+        "chosen_source": "pdf",
         "discrepancy": true,
         "ai_reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
         "confidence": 0.97,
@@ -731,8 +734,8 @@
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
-        "chosen_value": "http://creativecommons.org",
-        "chosen_source": "pdf",
+        "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "chosen_source": "page",
         "discrepancy": true,
         "ai_reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
         "confidence": 0.9,
@@ -760,13 +763,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:32:57Z"
+      "retrieved_at_utc": "2026-04-26T20:27:30Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:27:31Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F15075",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15075",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F15075",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15075",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\temp\\2499-507X_15075.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:33:00Z",
+      "generated_at_utc": "2026-04-26T20:27:33Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\2499-507X_15075.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -788,7 +828,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\2499-507X_15075.pdf",
-        "generated_at_utc": "2026-04-21T21:33:00Z",
+        "generated_at_utc": "2026-04-26T20:27:33Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 01_Breitschwerdt.docx",
@@ -864,7 +904,7 @@
           "controversial": false,
           "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:47:48Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:35:04Z"
         },
         "accepted_date": {
           "page_value": null,
@@ -878,13 +918,13 @@
         "copyright_holder": {
           "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
           "pdf_value": "FrancoAngeli",
-          "preferred_source": "page",
-          "chosen_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "preferred_source": "pdf",
+          "chosen_value": "FrancoAngeli",
           "confidence": 0.97,
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:47:49Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -898,20 +938,38 @@
         "license_url": {
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
-          "preferred_source": "pdf",
-          "chosen_value": "http://creativecommons.org",
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "confidence": 0.9,
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:47:52Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "submitted_date",
+          "page_value": "2022-12-12",
+          "pdf_value": "2022-09-27",
+          "chosen_source": "pdf",
+          "applied_at_utc": "2026-04-26T20:35:04Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\temp\\2499-507X_15075.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15075\\temp\\2499-507X_15075.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "submitted_date",
+        "page_value": "2022-12-12",
+        "pdf_value": "2022-09-27",
+        "chosen_source": "pdf",
+        "applied_at_utc": "2026-04-26T20:35:04Z"
+      }
+    }
   }
 }

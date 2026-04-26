@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16826",
-  "scraped_at_utc": "2026-04-21T21:34:10Z",
-  "fetched_at_utc": "2026-04-21T21:34:10Z",
+  "scraped_at_utc": "2026-04-26T20:28:51Z",
+  "fetched_at_utc": "2026-04-26T20:28:51Z",
   "source_mode": "live_url",
-  "source_html_sha256": "4c33668a0eb3af5f3edbdd1257f26312feef381a8546b7506174ccc4754171c7",
+  "source_html_sha256": "a00af0b533fa4df1ede4fe18de6958a15294bcbe836a3eccbc8127102e8386f2",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -104,11 +104,6 @@
         "value": "This paper explores the transformative impact of flipped learning and Massive Open Online Courses (MOOCs) on higher education, specifically in the field of medieval archaeology at the University of Padova. It delves into the implementation of these innovative approaches, their effects on student performance, and the valuable insights gained from student feedback. Additionally, it highlights the global reach of MOOCs created as a complement to these courses, including their multiple functions and implications also for lifelong learning. The findings suggest that blending online and traditional teaching can create a dynamic and inclusive educational experience that caters to the needs of traditional students, professional archaeologists who want to improve their skills and competencies and enthusiasts of archaeology.",
         "lang": "en",
         "source": "meta:DC.Description"
-      },
-      {
-        "value": "This paper explores the transformative impact of flipped learning and Massive Open Online Courses (MOOCs) on higher education, specifically in the field of medieval archaeology at the University of Padova. It delves into the implementation of these innovative approaches, their effects on student performance, and the valuable insights gained from student feedback. Additionally, it highlights the global reach of MOOCs created as a complement to these courses, including their multiple functions and implications also for lifelong learning. The findings suggest that blending online and traditional teaching can create a dynamic and inclusive educational experience that caters to the needs of traditional students, professional archaeologists who want to improve their skills and competencies and enthusiasts of archaeology.",
-        "lang": "it",
-        "source": "meta:DC.Description"
       }
     ],
     "format": {
@@ -127,6 +122,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -155,6 +152,26 @@
         "value": "Reskilling",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Innovative teaching and learning, interaction",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Medieval archaeology",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Upskilling",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Reskilling",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -235,38 +252,19 @@
         "lang": "en",
         "role": "main",
         "source": "meta:citation_title"
-      },
-      {
-        "value": "Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists",
-        "lang": "en",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
-        "value": "Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists",
-        "lang": "it",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists",
-        "lang": "en",
-        "role": "main",
-        "source": "dom:h1.article-page__title span"
       }
     ],
     "metadata_languages": {
       "resource_language": "en",
       "title_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "en",
@@ -701,13 +699,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:34:10Z"
+      "retrieved_at_utc": "2026-04-26T20:28:51Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:28:52Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16826",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16826",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 4,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 4
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16826",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16826",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16826\\temp\\2499-507X_16826.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:34:36Z",
+      "generated_at_utc": "2026-04-26T20:28:54Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16826\\2499-507X_16826.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -727,7 +762,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16826\\2499-507X_16826.pdf",
-        "generated_at_utc": "2026-04-21T21:34:36Z",
+        "generated_at_utc": "2026-04-26T20:28:54Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 06_EXIOA2_2023 Arnau-DalBon.docx",
@@ -803,7 +838,7 @@
           "controversial": false,
           "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:45Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:35:25Z"
         },
         "accepted_date": {
           "page_value": null,
@@ -823,7 +858,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:46Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2023",
@@ -843,14 +878,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:50Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "submitted_date",
+          "page_value": "2023-11-21",
+          "pdf_value": "2023-09-11",
+          "chosen_source": "pdf",
+          "applied_at_utc": "2026-04-26T20:35:25Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16826\\temp\\2499-507X_16826.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16826\\temp\\2499-507X_16826.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "submitted_date",
+        "page_value": "2023-11-21",
+        "pdf_value": "2023-09-11",
+        "chosen_source": "pdf",
+        "applied_at_utc": "2026-04-26T20:35:25Z"
+      }
+    }
   }
 }

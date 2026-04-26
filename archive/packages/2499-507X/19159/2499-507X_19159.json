@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19159",
-  "scraped_at_utc": "2026-04-21T21:35:11Z",
-  "fetched_at_utc": "2026-04-21T21:35:11Z",
+  "scraped_at_utc": "2026-04-26T20:29:53Z",
+  "fetched_at_utc": "2026-04-26T20:29:53Z",
   "source_mode": "live_url",
-  "source_html_sha256": "b58af695109caf9df8390b76d7a2390677648e2b5550109a35404e1447531ddc",
+  "source_html_sha256": "a9b8543ab54f27ad6dcd7a09b1cd42165cefa62254ff7a54af91d3e2c5ffe9af",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -109,11 +109,6 @@
         "value": "Body Percussion can be an innovative method to develop various motor and cognitive skills. Can promote inclusion in education without neglecting soft skills. This type of activity favours the inclusion of all, especially disabled pupils who, being able to work as au pairs, can feel part of a group by increasing their self-esteem, with positive effects on group dynamics. Moreover, the point of view of neuroscience has further strengthened the integration of dualism mind-body according to the unifying perspective of corporeity; in this sense, some research evidence has in fact shown that you learn first and better through the body and movement, as well as through the experience and intentionality that guide the learning itself. The active teaching of Body Percussion is intertwined in a project that focuses on the whole person. The present contribution aims to outline and validate a teaching like Body Percussion, a practical activity that has theoretical foundations in Embodied Cognition; this can be a creative and effective addition to education, contributing in different ways to the learning of students, which is no longer understood as the organization of organized and pre-existing data but is an active process of building knowledge that is realized both at the individual and intra-individual level.",
         "lang": "en",
         "source": "meta:DC.Description"
-      },
-      {
-        "value": "Body Percussion can be an innovative method to develop various motor and cognitive skills. Can promote inclusion in education without neglecting soft skills. This type of activity favours the inclusion of all, especially disabled pupils who, being able to work as au pairs, can feel part of a group by increasing their self-esteem, with positive effects on group dynamics. Moreover, the point of view of neuroscience has further strengthened the integration of dualism mind-body according to the unifying perspective of corporeity; in this sense, some research evidence has in fact shown that you learn first and better through the body and movement, as well as through the experience and intentionality that guide the learning itself. The active teaching of Body Percussion is intertwined in a project that focuses on the whole person. The present contribution aims to outline and validate a teaching like Body Percussion, a practical activity that has theoretical foundations in Embodied Cognition; this can be a creative and effective addition to education, contributing in different ways to the learning of students, which is no longer understood as the organization of organized and pre-existing data but is an active process of building knowledge that is realized both at the individual and intra-individual level.",
-        "lang": "it",
-        "source": "meta:DC.Description"
       }
     ],
     "format": {
@@ -132,6 +127,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -170,6 +167,36 @@
         "value": "Education",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Body percussion",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Innovative method",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Transversal skills",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Inclusion",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Embodied cognition",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -313,38 +340,19 @@
         "lang": "en",
         "role": "main",
         "source": "meta:citation_title"
-      },
-      {
-        "value": "Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills",
-        "lang": "en",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
-        "value": "Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills",
-        "lang": "it",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills",
-        "lang": "en",
-        "role": "main",
-        "source": "dom:h1.article-page__title span"
       }
     ],
     "metadata_languages": {
       "resource_language": "en",
       "title_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "en",
@@ -442,7 +450,21 @@
       "size_bytes": 877467,
       "source": "meta:citation_pdf_url",
       "error": null
-    }
+    },
+    "manual_editorial_corrections": [
+      {
+        "code": "issue-normalisation-2024-v9-n2",
+        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "scope": "archival master metadata",
+        "issue_id": "2024-v9-n2",
+        "issue_label": "Vol. 9, No. 2 (2024)",
+        "issue_year": "2024",
+        "volume": "9",
+        "issue": "2",
+        "is_special_issue": false,
+        "note": "The article publication date is preserved as harvested. This correction records the editorial issue year/label used by the preservation site."
+      }
+    ]
   },
   "validation": {
     "openaire_profile": {
@@ -802,13 +824,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:35:11Z"
+      "retrieved_at_utc": "2026-04-26T20:29:53Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:29:54Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19159",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19159",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 6,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 6
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19159",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19159",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 6
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19159\\temp\\2499-507X_19159.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:35:13Z",
+      "generated_at_utc": "2026-04-26T20:29:56Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19159\\2499-507X_19159.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -829,7 +888,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19159\\2499-507X_19159.pdf",
-        "generated_at_utc": "2026-04-21T21:35:13Z",
+        "generated_at_utc": "2026-04-26T20:29:56Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -923,7 +982,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:51:35Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2025",
@@ -943,14 +1002,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:51:37Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "license_url",
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "chosen_source": "page",
+          "applied_at_utc": "2026-04-26T20:33:42Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19159\\temp\\2499-507X_19159.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19159\\temp\\2499-507X_19159.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_source": "page",
+        "applied_at_utc": "2026-04-26T20:33:42Z"
+      }
+    }
   }
 }

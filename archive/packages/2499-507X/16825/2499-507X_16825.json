@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16825",
-  "scraped_at_utc": "2026-04-21T21:34:06Z",
-  "fetched_at_utc": "2026-04-21T21:34:05Z",
+  "scraped_at_utc": "2026-04-26T20:28:46Z",
+  "fetched_at_utc": "2026-04-26T20:28:46Z",
   "source_mode": "live_url",
-  "source_html_sha256": "642a77a2dd8168bb1080295fb33cdfc296044c0389a3fbeaf6b8d54f719359d1",
+  "source_html_sha256": "57b9d11776a3ef1c47d231719f0565852be88f3b0c37544cc87f13ca1e698f43",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -115,11 +115,6 @@
         "value": "This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research environments, making them more aware of the design and practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student learning and improved satisfaction with the teaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teaching and learning approach based on investigation.",
         "lang": "en",
         "source": "meta:DC.Description"
-      },
-      {
-        "value": "This paper aims to describe a teaching redesign experience that took place through the introduction of the Inquiry Based Learning methodology within the course of Immunological Biotechnology included in the program of the Master’s Degree in Industrial Biotechnologies at the University of Padua. The decision to introduce this approach starts from the need to maximise and support students during the learning experience, to sustain the development of specific skills related to real-world laboratory research environments, making them more aware of the design and practical steps of the laboratory itself. The new design (and its implementation) has both enhanced student learning and improved satisfaction with the teaching. The feedback from the students also allowed us to acquire important information to work further on teaching and create more authentic and effective experiences, through a teaching and learning approach based on investigation.",
-        "lang": "it",
-        "source": "meta:DC.Description"
       }
     ],
     "format": {
@@ -138,6 +133,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -171,6 +168,31 @@
         "value": "Technologies for education",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Inquiry Based Learning",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Teaching-learning design",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Laboratory experience",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Research competences",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Technologies for education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -257,38 +279,19 @@
         "lang": "en",
         "role": "main",
         "source": "meta:citation_title"
-      },
-      {
-        "value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
-        "lang": "en",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
-        "value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
-        "lang": "it",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Inquiry Based Learning in practice to enhance an Immunological Biotechnologies laboratory experience",
-        "lang": "en",
-        "role": "main",
-        "source": "dom:h1.article-page__title span"
       }
     ],
     "metadata_languages": {
       "resource_language": "en",
       "title_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "en",
@@ -737,13 +740,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:34:05Z"
+      "retrieved_at_utc": "2026-04-26T20:28:46Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:28:47Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16825",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16825",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16825",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16825",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\temp\\2499-507X_16825.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:34:09Z",
+      "generated_at_utc": "2026-04-26T20:28:50Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\2499-507X_16825.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -764,7 +804,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\2499-507X_16825.pdf",
-        "generated_at_utc": "2026-04-21T21:34:09Z",
+        "generated_at_utc": "2026-04-26T20:28:50Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -840,7 +880,7 @@
           "controversial": false,
           "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:33Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:35:37Z"
         },
         "accepted_date": {
           "page_value": null,
@@ -860,7 +900,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:35Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2023",
@@ -880,14 +920,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:50:37Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "submitted_date",
+          "page_value": "2023-11-21",
+          "pdf_value": "2023-09-19",
+          "chosen_source": "pdf",
+          "applied_at_utc": "2026-04-26T20:35:37Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\temp\\2499-507X_16825.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16825\\temp\\2499-507X_16825.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "submitted_date",
+        "page_value": "2023-11-21",
+        "pdf_value": "2023-09-19",
+        "chosen_source": "pdf",
+        "applied_at_utc": "2026-04-26T20:35:37Z"
+      }
+    }
   }
 }

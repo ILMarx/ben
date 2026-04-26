@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13022",
-  "scraped_at_utc": "2026-04-21T21:32:05Z",
-  "fetched_at_utc": "2026-04-21T21:32:05Z",
+  "scraped_at_utc": "2026-04-26T20:26:47Z",
+  "fetched_at_utc": "2026-04-26T20:26:47Z",
   "source_mode": "live_url",
-  "source_html_sha256": "2fc76aca5c1b3d6a04eafd40bbb5f2eb006114ddcb7fda2f67f57b7cf6248106",
+  "source_html_sha256": "8fb58ab3551a3bd22303cd108829b912642cd80d665d7bccb5f73616060af4b8",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -93,11 +93,6 @@
         "value": "We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importance of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve participants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not have been conceivable and viable before the COVID-19 pandemic, as organizers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends.",
         "lang": "en",
         "source": "meta:DC.Description"
-      },
-      {
-        "value": "We present here a report about the first Italian Youth Debating Championship (IYDC, Campionato Italiano Giovanile di Debate 2021) from an organizational and management perspective. We show the complexity of the event’s implementation and the importance of managing information and communication technologies. We underscore that not only have the participants recognized that the IYDC is a powerful method to improve participants’ soft skills and active citizenship, but the European Commission and the European Parliament have officially as well. While the IYDC would not have been conceivable and viable before the COVID-19 pandemic, as organizers of informal education activities, we are convinced that this innovative educational model presented will continue to spread even after the pandemic ends.",
-        "lang": "it",
-        "source": "meta:DC.Description"
       }
     ],
     "format": {
@@ -116,6 +111,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -149,6 +146,31 @@
         "value": "Education Platformization",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Debate Methodology",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Organization of Educational Innovation",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Post-Pandemic Pedagogy",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Active Citizenship",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Education Platformization",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -231,38 +253,19 @@
         "lang": "en",
         "role": "main",
         "source": "meta:citation_title"
-      },
-      {
-        "value": "The Experience of Organizing the First Italian Youth Debating Championship",
-        "lang": "en",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
-        "value": "The Experience of Organizing the First Italian Youth Debating Championship",
-        "lang": "it",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "The Experience of Organizing the First Italian Youth Debating Championship",
-        "lang": "en",
-        "role": "main",
-        "source": "dom:h1.article-page__title span"
       }
     ],
     "metadata_languages": {
       "resource_language": "en",
       "title_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "en",
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "en",
@@ -701,13 +704,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:32:05Z"
+      "retrieved_at_utc": "2026-04-26T20:26:47Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:26:49Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13022",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13022",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13022",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13022",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\temp\\2499-507X_13022.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:32:08Z",
+      "generated_at_utc": "2026-04-26T20:26:50Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\2499-507X_13022.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -726,7 +766,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\2499-507X_13022.pdf",
-        "generated_at_utc": "2026-04-21T21:32:08Z",
+        "generated_at_utc": "2026-04-26T20:26:50Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -820,7 +860,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:46:58Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2021",
@@ -840,14 +880,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:46:59Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "license_url",
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "chosen_source": "page",
+          "applied_at_utc": "2026-04-26T20:33:42Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\temp\\2499-507X_13022.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13022\\temp\\2499-507X_13022.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_source": "page",
+        "applied_at_utc": "2026-04-26T20:33:42Z"
+      }
+    }
   }
 }

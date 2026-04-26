@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19157",
-  "scraped_at_utc": "2026-04-21T21:35:09Z",
-  "fetched_at_utc": "2026-04-21T21:35:09Z",
+  "scraped_at_utc": "2026-04-26T20:29:49Z",
+  "fetched_at_utc": "2026-04-26T20:29:49Z",
   "source_mode": "live_url",
-  "source_html_sha256": "52392822796adb2aae64481336e57b7750f137ee2464168a5247c7e181f8f7e3",
+  "source_html_sha256": "f4010cd187f99e821bbe9798f96063e8faefde13723b15008af52dc3e9ab170f",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -121,6 +121,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -154,6 +156,31 @@
         "value": "Didattica universitaria",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Abductive reasoning",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Internship",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Education practice",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Reflexive thinking",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Transformation process",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -254,22 +281,16 @@
         "source": "meta:citation_title"
       },
       {
-        "value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
-        "lang": "it",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
         "value": "Abduction and educational practice: How educators in training think",
         "lang": "en",
         "role": "alternative",
         "source": "meta:DC.Title.Alternative"
       },
       {
-        "value": "Abduzione e pratica educativa: come ragionano gli educatori in tirocinio",
+        "value": "Abduction and educational practice: How educators in training think",
         "lang": "it",
         "role": "main",
-        "source": "dom:h1.article-page__title span"
+        "source": "locale:en_US:meta:DC.Title"
       }
     ],
     "metadata_languages": {
@@ -283,7 +304,8 @@
         "it"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "it",
@@ -381,7 +403,21 @@
       "size_bytes": 841486,
       "source": "meta:citation_pdf_url",
       "error": null
-    }
+    },
+    "manual_editorial_corrections": [
+      {
+        "code": "issue-normalisation-2024-v9-n2",
+        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "scope": "archival master metadata",
+        "issue_id": "2024-v9-n2",
+        "issue_label": "Vol. 9, No. 2 (2024)",
+        "issue_year": "2024",
+        "volume": "9",
+        "issue": "2",
+        "is_special_issue": false,
+        "note": "The article publication date is preserved as harvested. This correction records the editorial issue year/label used by the preservation site."
+      }
+    ]
   },
   "validation": {
     "openaire_profile": {
@@ -727,13 +763,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:35:09Z"
+      "retrieved_at_utc": "2026-04-26T20:29:49Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:29:50Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19157",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19157",
+          "added_titles": 1,
+          "added_descriptions": 0,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19157",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19157",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\temp\\2499-507X_19157.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:35:10Z",
+      "generated_at_utc": "2026-04-26T20:29:52Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\2499-507X_19157.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -753,7 +826,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\2499-507X_19157.pdf",
-        "generated_at_utc": "2026-04-21T21:35:10Z",
+        "generated_at_utc": "2026-04-26T20:29:52Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -847,7 +920,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:51:30Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2025",
@@ -867,14 +940,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:51:32Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "license_url",
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "chosen_source": "page",
+          "applied_at_utc": "2026-04-26T20:33:42Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\temp\\2499-507X_19157.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19157\\temp\\2499-507X_19157.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_source": "page",
+        "applied_at_utc": "2026-04-26T20:33:42Z"
+      }
+    }
   }
 }
