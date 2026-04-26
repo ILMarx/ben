@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801",
-  "scraped_at_utc": "2026-04-21T21:30:03Z",
-  "fetched_at_utc": "2026-04-21T21:30:03Z",
+  "scraped_at_utc": "2026-04-26T20:24:53Z",
+  "fetched_at_utc": "2026-04-26T20:24:53Z",
   "source_mode": "live_url",
-  "source_html_sha256": "f33a91ffd2698a4c0a412a2170042d98b4154eec186b6ad353d412a511c04f89",
+  "source_html_sha256": "da204459077a701d1dd9e3c8375acc7990aab6d5c68ddbf1e2d468933ff21e5e",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -53,19 +53,19 @@
     "relatedIdentifiers": [],
     "dates": [
       {
-        "value": "2020-12-01",
+        "value": "2020-11-30",
         "dateType": "Available",
         "source": "fallback:Issued"
       },
       {
-        "value": "2020-12-01",
+        "value": "2020-11-30",
         "dateType": "Issued",
         "source": "existing"
       }
     ],
     "datesByType": {
-      "Available": "2020-12-01",
-      "Issued": "2020-12-01"
+      "Available": "2020-11-30",
+      "Issued": "2020-11-30"
     },
     "language": {
       "value": "it",
@@ -83,11 +83,6 @@
       "local_article_type": "Saggi e ricerche"
     },
     "descriptions": [
-      {
-        "value": "This article provides a chronological review of models and studies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both classic and recent literature. An emergent theme from the review is that we now have robust models, criteria, and examples of how to better assess the quality, outcomes, and impact of faculty development programs. At the same time, what often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice.",
-        "lang": "en",
-        "source": "meta:DC.Description"
-      },
       {
         "value": "This article provides a chronological review of models and studies on the evaluation of faculty development programs in the United States. The article is organized by decades, from the pre-1970s to 2020. The scope of the review, by design, is limited to a sampling of influential work, both classic and recent literature. An emergent theme from the review is that we now have robust models, criteria, and examples of how to better assess the quality, outcomes, and impact of faculty development programs. At the same time, what often is lacking are staff, time, skills, or resources to do so. This gap serves to highlight important questions for future research and practice.",
         "lang": "it",
@@ -110,6 +105,8 @@
     },
     "source": {
       "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
@@ -138,6 +135,26 @@
         "value": "literature review",
         "lang": "it",
         "source": "meta:citation_keywords"
+      },
+      {
+        "value": "evaluation",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "impact",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "faculty development",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "literature review",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -246,48 +263,29 @@
         "source": "meta:citation_title"
       },
       {
-        "value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
-        "lang": "it",
-        "role": "main",
-        "source": "meta:DC.Title"
-      },
-      {
-        "value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
-        "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
         "value": "evaluation, impact, faculty development, literature review",
         "lang": "ky",
         "role": "alternative",
         "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020)",
-        "lang": "it",
-        "role": "main",
-        "source": "dom:h1.article-page__title span"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
         "it",
-        "en",
         "ky"
       ],
       "description_literal_languages": [
-        "en",
         "it"
       ],
       "subject_literal_languages_raw": [
-        "it"
+        "it",
+        "en"
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "ky",
+        "en"
       ]
     },
     "internal_dates": {
@@ -295,8 +293,8 @@
       "accepted": null,
       "created": "2020-11-30",
       "modified": "2022-04-08",
-      "issued": "2020-12-01",
-      "available": "2020-12-01",
+      "issued": "2020-11-30",
+      "available": "2020-11-30",
       "submitted_page": "2020-11-30",
       "submitted_pdf": null,
       "accepted_page": null,
@@ -705,8 +703,24 @@
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
     "html_title": "The evaluation of faculty development programs in the United States. A fifty-year retrospective (1970s-2020) | Excellence and Innovation in Learning and Teaching - Open Access",
-    "warnings": [],
-    "warning_objects": [],
+    "warnings": [
+      "Published-date conflict: stronger page signal '2020-11-30' overrides DC.Date.issued '2020-12-01'."
+    ],
+    "warning_objects": [
+      {
+        "code": "PUBLISHED_DATE_CONFLICT",
+        "message": "Published-date conflict: stronger page signal '2020-11-30' overrides DC.Date.issued '2020-12-01'.",
+        "context": {
+          "citation_date": "2020-11-30",
+          "dom_published": "2020-11-30",
+          "dc_created": "2020-11-30",
+          "dc_issued": "2020-12-01",
+          "dc_modified": "2022-04-08"
+        },
+        "function_name": "_extract_openaire_and_internal_dates",
+        "code_snippet": "    def _extract_openaire_and_internal_dates(self, file_bundle: Dict[str, Any], interactive_resolution: bool = False, ai_config: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:\n        citation_date = iso_date(self.meta.first(\"citation_date\"))\n        dc_created = iso_date(self.meta.first(\"DC.Date.created\"))\n        dc_submitted = iso_date(self.meta.first(\"DC.Date.dateSubmitted\"))\n        dc_issued = iso_date(self.meta.first(\"DC.Date.issued\"))\n        dc_modified = iso_date(self.meta.first(\"DC.Date.modified\"))\n        dc_accepted = iso_date(self.meta.first(\"DC.Date.accepted\"))\n        dc_available = iso_date(self.meta.first(\"DC.Date.available\"))\n        dom_submitted = iso_date(self._dd_value_after_dt(\"Inviata\"))\n        dom_published = iso_date(self._dd_value_after_dt(\"Pubblicato\"))\n        pdf_dates = self._extract_pdf_editorial_dates(file_bundle)\n        page_rights = self._extract_page_rights_holder_and_year()\n\n        def choose_published_date(citation_date, dom_published, dc_created, dc_issued, dc_modified):\n            return citation_date or dom_published or dc_created or dc_issued or dc_modified\n\n        page_candidates = {\n            \"title\": self.meta.first(\"citation_title\") or self.meta.first(\"DC.Title\") or self._text(\"h1.article-page__title span\"),\n            \"submitted_date\": dc_submitted or dom_submitted,\n            \"accepted_date\": dc_accepted,\n            \"copyright_holder\": page_rights.get(\"copyright_holder_page\"),\n            \"copyright_year\": str(page_rights.get(\"copyright_year_page\")) if page_rights.get(\"copyright_year_page\") is not None else None,\n            \"license_url\": self._extract_access_rights_and_license().get(\"licenseCondition\", {}).get(\"uri\"),\n        }\n        pdf_ai_diag = self._request_ai_pdf_front_analysis(pdf_dates, page_candidates, ai_config)\n        pdf_ai_result = pdf_ai_diag.get(\"result\") if isinstance(pdf_ai_diag, dict) and pdf_ai_diag.get(\"status\") == \"ok\" else {}\n        pdf_fields = pdf_ai_result.get(\"pdf_fields\", {}) if isinstance(pdf_ai_result, dict) else {}\n        ai_resolution = pdf_ai_result.get(\"resolution\", {}) if isinstance(pdf_ai_result, dict) else {}\n\n        pdf_submitted_value = normalize_space((pdf_fields.get(\"submitted_date\") or {}).get(\"value\")) or pdf_dates.get(\"submitted_pdf\")\n        pdf_accepted_value = normalize_space((pdf_fields.get(\"accepted_date\") or {}).get(\"value\")) or pdf_dates.get(\"accepted_pdf\")\n        pdf_copyright_holder = normalize_space((pdf_fields.get(\"copyright_holder\") or {}).get(\"value\")) or pdf_dates.get(\"copyright_holder_pdf\")\n        pdf_copyright_year = normalize_space((pdf_fields.get(\"copyright_year\") or {}).get(\"value\")) or (str(pdf_dates.get(\"copyright_year_pdf\")) if pdf_dates.get(\"copyright_year_pdf\") is not None else None)\n        pdf_title_value = normalize_space((pdf_fields.get(\"title\") or {}).get(\"value\"))\n        pdf_title_allowed = bool((pdf_fields.get(\"title\") or {}).get(\"use_allowed\")) if isinstance(pdf_fields.get(\"title\"), dict) else False\n\n        strong_page_published = citation_date or dom_published or dc_created\n        if strong_page_published and dc_issued and strong_page_published != dc_issued:\n            self._warn(\n                code=\"PUBLISHED_DATE_CONFLICT\",\n                message=f\"Published-date conflict: stronger page signal '{strong_page_published}' overrides DC.Date.issued '{dc_issued}'.\",\n                function_name=\"_extract_openaire_and_internal_dates\",\n                context={\n                    \"citation_date\": citation_date,\n                    \"dom_published\": dom_published,\n                    \"dc_created\": dc_created,\n                    \"dc_issued\": dc_issued,\n                    \"dc_modified\": dc_modified,\n                },\n            )\n\n        issued = choose_published_date(\n            citation_date,\n            dom_published,\n            dc_created,\n            dc_issued,\n            dc_modified,\n        )\n        available = dc_available or issued\n        submitted_resolution = self._resolve_discrepancy(\"submitted_date\", dc_submitted or dom_submitted, pdf_submitted_value, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"submitted_date\") if isinstance(ai_resolution, dict) else None)\n        accepted_resolution = self._resolve_discrepancy(\"accepted_date\", dc_accepted, pdf_accepted_value, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"accepted_date\") if isinstance(ai_resolution, dict) else None)\n        copyright_holder_resolution = self._resolve_discrepancy(\"copyright_holder\", page_rights.get(\"copyright_holder_page\"), pdf_copyright_holder, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"copyright_holder\") if isinstance(ai_resolution, dict) else None)\n        copyright_year_resolution = self._resolve_discrepancy(\n            \"copyright_year\",\n            str(page_rights.get(\"copyright_year_page\")) if page_rights.get(\"copyright_year_page\") is not None else None,\n            pdf_copyright_year,\n            interactive_resolution,\n            prefer=\"pdf\",\n            ai_resolution=ai_resolution.get(\"copyright_year\") if isinstance(ai_resolution, dict) else None,\n        )\n        title_resolution = self._resolve_discrepancy(\n            \"title\",\n            page_candidates.get(\"title\"),\n            pdf_title_value if pdf_title_allowed or not page_candidates.get(\"title\") else None,\n            interactive_resolution,\n            prefer=\"page\",\n            ai_resolution=ai_resolution.get(\"title\") if isinstance(ai_resolution, dict) else None,\n        )\n\n        accepted = accepted_resolution.get(\"chosen_value\")\n        submitted = submitted_resolution.get(\"chosen_value\")\n\n        export_dates: List[Dict[str, Any]] = []\n        if accepted:\n            export_dates.append({\"value\": accepted, \"dateType\": \"Accepted\", \"source\": accepted_resolution.get(\"chosen_source\")})\n        if available:\n            export_dates.append({\"value\": available, \"dateType\": \"Available\", \"source\": \"meta:DC.Date.available\" if dc_available else \"fallback:Issued\"})\n        if issued:\n            export_dates.append({\"value\": issued, \"dateType\": \"Issued\", \"source\": \"meta:DC.Date.issued\" if dc_issued else \"meta:citation_date\" if citation_date else \"dom:Pubblicato\" if dom_published else \"meta:DC.Date.created\"})\n\n        export_dates = dedupe_list(export_dates)\n        dates_by_type: Dict[str, Optional[str]] = {d[\"dateType\"]: d[\"value\"] for d in export_dates}\n        if not dates_by_type.get(\"Available\") and issued:\n            dates_by_type[\"Available\"] = issued\n        internal_dates = {\n            \"submitted\": submitted,\n            \"accepted\": accepted,\n            \"created\": dc_created,\n            \"modified\": dc_modified,\n            \"issued\": issued,\n            \"available\": dates_by_type.get(\"Available\"),\n            \"submitted_page\": dc_submitted or dom_submitted,\n            \"submitted_pdf\": pdf_dates.get(\"submitted_pdf\"),\n            \"accepted_page\": dc_accepted,\n            \"accepted_pdf\": pdf_dates.get(\"accepted_pdf\"),\n        }\n        resolutions = {\n            \"title\": title_resolution,\n            \"submitted\": submitted_resolution,\n            \"accepted\": accepted_resolution,\n            \"copyright_holder\": copyright_holder_resolution,\n            \"copyright_year\": copyright_year_resolution,\n        }\n        return {\n            \"export_dates\": export_dates,\n            \"dates_by_type\": dates_by_type,\n            \"internal_dates\": internal_dates,\n            \"pdf_editorial_dates\": pdf_dates,\n            \"page_rights\": page_rights,\n            \"resolutions\": resolutions,\n            \"pdf_ai_resolution\": pdf_ai_diag,\n        }\n"
+      }
+    ],
     "ai_diagnostics": null,
     "transport": {
       "requested_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801",
@@ -715,13 +729,50 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-21T21:30:03Z"
+      "retrieved_at_utc": "2026-04-26T20:24:53Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-26T20:24:55Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10801",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 4,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 1,
+            "subjects": 4
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10801",
+          "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10801",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 1,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
     "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\temp\\2499-507X_10801.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-21T21:30:05Z",
+      "generated_at_utc": "2026-04-26T20:24:57Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\2499-507X_10801.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
@@ -740,7 +791,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\2499-507X_10801.pdf",
-        "generated_at_utc": "2026-04-21T21:30:05Z",
+        "generated_at_utc": "2026-04-26T20:24:57Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -834,7 +885,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:44:58Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -854,14 +905,32 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-21T21:45:01Z"
+          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
         }
       },
       "ai_raw": {
         "status": "skipped",
         "reason": "OPENAI_API_KEY not found"
+      },
+      "workbench": {
+        "last_pattern_resolution": {
+          "field": "license_url",
+          "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "pdf_value": "http://creativecommons.org",
+          "chosen_source": "page",
+          "applied_at_utc": "2026-04-26T20:33:42Z"
+        }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\temp\\2499-507X_10801.conflicts.json"
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10801\\temp\\2499-507X_10801.conflicts.json",
+    "workbench": {
+      "last_pattern_resolution": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "pdf_value": "http://creativecommons.org",
+        "chosen_source": "page",
+        "applied_at_utc": "2026-04-26T20:33:42Z"
+      }
+    }
   }
 }
