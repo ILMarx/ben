@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13020",
-  "scraped_at_utc": "2026-04-26T20:26:43Z",
-  "fetched_at_utc": "2026-04-26T20:26:43Z",
+  "scraped_at_utc": "2026-04-27T10:21:43Z",
+  "fetched_at_utc": "2026-04-27T10:21:43Z",
   "source_mode": "live_url",
-  "source_html_sha256": "5f14f77e9372c5905e64acebc5758d7b4b032d60b1c686b99b38fb9beb5a01e5",
+  "source_html_sha256": "c4fcda40b79ca6b0ae52e2bfe0a8b5e0d18397149c08a66860b2e76e43368aef",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "6",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -197,7 +197,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "6",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -205,7 +205,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Di Vita, A. (2021). Tutoraggio didattico tra pari a distanza: una ricerca-intervento svolta con gli studenti universitari. Excellence and Innovation in Learning and Teaching - Open Access , 6 (2). https://doi.org/10.3280/exioa2-2021oa13020",
+      "citationString": "Di Vita, A. (2021). Tutoraggio didattico tra pari a distanza: una ricerca-intervento svolta con gli studenti universitari. Excellence and Innovation in Learning and Teaching , 6 (2). https://doi.org/10.3280/exioa2-2021oa13020",
       "articleTitleEcho": "Tutoraggio didattico tra pari a distanza: una ricerca-intervento svolta con gli studenti universitari"
     },
     "audience": null,
@@ -259,22 +259,15 @@
       },
       {
         "value": "Distance peer tutoring: An intervention research with undergraduate students",
-        "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Distance peer tutoring: An intervention research with undergraduate students",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -337,7 +330,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -405,7 +398,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -481,11 +474,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -626,10 +619,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2021,
       "raw_dc_rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -668,7 +661,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -702,7 +695,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -710,7 +703,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Tutoraggio didattico tra pari a distanza: una ricerca-intervento svolta con gli studenti universitari | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Tutoraggio didattico tra pari a distanza: una ricerca-intervento svolta con gli studenti universitari | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -721,22 +714,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:26:43Z"
+      "retrieved_at_utc": "2026-04-27T10:21:43Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:26:44Z",
+      "generated_at_utc": "2026-04-27T10:21:48Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13020",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13020",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 2,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 2,
@@ -750,8 +743,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13020",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13020",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 2,
@@ -762,20 +755,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13020\\temp\\2499-507X_13020.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\13020\\2499-507X_13020.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:26:46Z",
+      "generated_at_utc": "2026-04-27T10:21:50Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13020\\2499-507X_13020.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Tutoraggio didattico tra pari a distanza: una ricerca-intervento svolta con gli studenti universitari",
         "submitted_date": "2021-09-30",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2021",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Alessandro Di Vita"
@@ -783,7 +776,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13020\\2499-507X_13020.pdf",
-        "generated_at_utc": "2026-04-26T20:26:46Z",
+        "generated_at_utc": "2026-04-27T10:21:50Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -796,6 +789,9 @@
           "mod_date": "2021-12-23"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 2 Doi: 10.3280/exioa2-2021oa13020 Tutoraggio didattico tra pari a distanza: una ricerca- intervento svolta con gli studenti universitari Distance peer tutoring: A n intervention research with undergraduate students Alessandro Di Vita* Riassunto Nell’a. a. 2020-21 è stata svolta una ricerca-intervento sul peer tutoring in am- bito universitario, ipotizzato come strumento efficace per ridu rre alcuni effetti negativi che la DAD, imposta dalla pandemia da covid-19, aveva provocato durante l’a. a. 2019-20 tra gli studenti iscritti al primo anno del corso di laurea triennale in Scienze dell’Educazione dell’Università di Palermo. 17 studentesse e 2 studenti del secondo anno di questo corso di studi, che avevano completato gli esami dell’anno precedente, dopo aver partecipato tra febbr aio e marzo ad una specifica attività formativa, da marzo a giugno 2021 hanno aiutato, ancora in modalità a distanza, 33 studentesse e 2 studenti – loro coll eghi di annualità – a procedere nella carriera recuperando il maggior numero poss ibile di esami del primo anno. L’adesione all’iniziativa è stata volontaria sia per gli studenti tutor sia per gli studenti tutorati. Agli studenti tutor l’attività svolta è stata rico- nosciuta come “tirocinio curricolare straordinario” sostitutivo del tirocinio che, per la pandemia, non si è potuto svolgere presso le strutture educative conven- zionate con l’università. Entro luglio 2021, il gruppo composto dai 35 studenti ritardatari ha sostenuto 38 esami arretrati su un totale di 57, rilevato dopo la chiusura della sessione straordinaria di febbraio; quindi sono stati recuperati i due terzi degli esami arretrati. Inoltre, a luglio 2021, in que sto gruppo di 35 destinatari dell’intervento formativo, 15 studenti hanno sosten uto tutti i sette esami previsti per il secondo anno del piano di studi, 8 ne hanno sostenuti sei e gli altri un numero variabile da due a cinque, con la prevision e di sostenere i rimanenti esami nella sessione autunnale o in quella straordina ria del secondo anno di corso. Al termine dell’attività svolta nei 19 studenti tutor è migliorata * Università degli Studi di Palermo. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "76 (DAD) anche in Università. Gli studenti più danneggiati sono stati quelli iscritti al primo anno: poiché non hanno a vuto la possibilità di conoscere in presenza una realtà del tutto nuova per loro, abituati fino a pochi mesi prima a seguire dei ritmi di studio cadenzati da verifiche mensili e sostenuti dal supporto quotidiano degli insegnanti e dei compagni di scuola, hanno trovato difficile partecipare alle lezioni online dei docenti, i quali hanno fornito scarsi feedback sulla loro com- prensione dei contenuti disciplinari in vista degli esami finali di profitto. Anche molti degli 861 studenti iscritti al primo anno del corso di laurea in Scienze dell’Educazione dell’Università degli Studi di Palermo hanno risentito della mancanza della didattica in presenza. Il dato più evidente del disagio stu- dentesco è stato rappresentato dalla percentuale del 74,3% delle matricole che al termine della sessione straordinaria dell’anno accademico 2019-2020 non aveva completato gli otto esami del primo anno: al 23,5% ne man cava 1 e al 19,4% mancavano 2 esami, mentre il restante 31,4% doveva ancora sostenere da 3 a 7 esami. Nell’a. a. 2020-2021, sempre a causa del covid-19, al ritardo n ella carriera universitaria degli studenti giunti al secondo anno di iscrizione senza aver com- pletato gli esami del primo, si è aggiunta la difficoltà di svo lgere in strutture esterne il tirocinio obbligatorio collocato al secondo anno di corso. Per risolvere questi due problemi, si è pensato di svolgere una ricerca-intervento affiancando a ogni studente ritardatario uno studente in regola con la carr iera (tutor didat- tico), che lo potesse aiutare a recuperare entro la sessione es tiva del 2021 gli esami non sostenuti durante l’anno accademico precedente. Questo tipo di aiuto è valso come tirocinio agli studenti tutor: il Collegio dei doc enti del Diparti- mento di Scienze Psicologiche, Pedagogiche, dell’Esercizio Fisico e della For- mazione dell’Ateneo palermitano, che ha approvato il progetto di ricerca e pre- disposto le condizioni per il suo svolgimento, ha scelto di non riconoscere il ruolo del tutor didattico tramite un bando specifico e una form a di pagamento delle ore proviste dal progetto, poiché il prerequisito “tiroci nio curricolare da svolgere interamente” ha fornito agli studenti in regola con gli studi l’opportu- nità “eccezionale”, a causa del COVID-19, di svolgere il loro tirocinio currico- lare partecipando come peer tutor al progetto di ricerca. L’adesione al progetto, di conseguenza, ha conferito carattere di obbligatorietà alle attività che essi hanno svolto. Nell’articolo si riportano i risultati conseguiti con la ricerca-intervento, con particolare riferimento al num ero degli esami sostenuti nell’es tate 2021 dagli studenti ritardatari, che avevano accettato di farsi aiutare nello studio dai colle- ghi universitari della stessa annualità, che a loro volta hanno dichiarato di avere compreso con maggiore profondità i contenuti delle discipline d i studio per le quali avevano già superato gli esami, dopo averli spiegati ai colleghi ritardatari. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -869,7 +865,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -877,7 +873,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2021",
@@ -897,7 +893,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -910,18 +906,89 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13020\\temp\\2499-507X_13020.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\13020\\2499-507X_13020.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Tutoraggio didattico tra pari a distanza: una ricerca-intervento svolta con gli studenti universitari",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Distance peer tutoring: An intervention research with undergraduate students",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Distance peer tutoring: An intervention research with undergraduate students",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "In academic year 2020-21 an intervention research was carried out on peer tutoring at university which was hypothesized to be an effective tool to reduce some o",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Nell’a. a. 2020-21 è stata svolta una ricerca-intervento sul peer tutoring in ambito universitario, ipotizzato come strumento efficace per ridurre alcuni effett",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

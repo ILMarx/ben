@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076",
-  "scraped_at_utc": "2026-04-26T20:27:34Z",
-  "fetched_at_utc": "2026-04-26T20:27:34Z",
+  "scraped_at_utc": "2026-04-27T10:22:35Z",
+  "fetched_at_utc": "2026-04-27T10:22:35Z",
   "source_mode": "live_url",
-  "source_html_sha256": "d904db21ed8ceb49b5f23c9b26a8b35486953923d68b443a4117368407ca2001",
+  "source_html_sha256": "a1f76dd70c87fcc72d359a99a9504e38e0a79d3b4b207a3fa1c47e33b7370abf",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -86,7 +86,7 @@
     },
     "language": {
       "value": "en",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -121,43 +121,18 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "7",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
-      {
-        "value": "Higher Education",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Covid-19 Pandemic",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "online tutoring",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "learning loss",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "school demotivation",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
       {
         "value": "Higher Education",
         "lang": "en",
@@ -209,7 +184,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "7",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -217,7 +192,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Pastori, G., & Farina, E. (2022). What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP). Excellence and Innovation in Learning and Teaching - Open Access , 7 (2). https://doi.org/10.3280/exioa2-2022oa15076",
+      "citationString": "Pastori, G., & Farina, E. (2022). What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP). Excellence and Innovation in Learning and Teaching , 7 (2). https://doi.org/10.3280/exioa2-2022oa15076",
       "articleTitleEcho": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)"
     },
     "audience": null,
@@ -290,12 +265,10 @@
         "en"
       ],
       "subject_literal_languages_raw": [
-        "it",
         "en"
       ],
       "all_literal_languages": [
-        "en",
-        "it"
+        "en"
       ]
     },
     "internal_dates": {
@@ -346,7 +319,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -414,7 +387,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -492,11 +465,11 @@
         "en"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -640,10 +613,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -682,7 +655,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -716,7 +689,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -724,7 +697,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP) | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP) | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -735,13 +708,13 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:27:34Z"
+      "retrieved_at_utc": "2026-04-27T10:22:35Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:27:35Z",
+      "generated_at_utc": "2026-04-27T10:22:36Z",
       "variants": [
         {
           "locale": "en_US",
@@ -760,12 +733,12 @@
         },
         {
           "locale": "it_IT",
-          "lang": "en",
+          "lang": "it",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F15076",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15076",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 1,
@@ -776,20 +749,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\temp\\2499-507X_15076.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\15076\\2499-507X_15076.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:27:37Z",
+      "generated_at_utc": "2026-04-27T10:22:37Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\2499-507X_15076.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
         "submitted_date": "2022-12-12",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "en",
         "creator_names": [
           "Giulia Pastori",
@@ -798,7 +771,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\2499-507X_15076.pdf",
-        "generated_at_utc": "2026-04-26T20:27:36Z",
+        "generated_at_utc": "2026-04-27T10:22:37Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 02_Farina.docx",
@@ -811,6 +784,9 @@
           "mod_date": "2022-12-19"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15076 What Worked? A Qualitative Study on the Tutor- Tutee Relationship in the Tutoring Online Program (TOP) Giulia Pastori, Elisa Farina* Abstract The transformative processes that have involved the academic wo rld for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 Pandemic. Universities, already oriented towards the p romotion of smart, sustainable, and inclusive growth, have nevertheless been called upon to rethink and reshape the services, projects and methodological approaches previously developed. The aim of this paper is to describe a qualitative study carried out within the Tutoring Online Program (TOP), designed to respond to the new demands brought to light by the pandemic. After outlining the innovative characteristics of TOP, where the tutors are volunte er university students and the tutees are secondary school students, the resu lts of the qualitative research are presented. The aim of the survey is to identify the elements which, in the perception of the tutors and tutees, may have supported, or on the contrary limited, the creation of a meaningful relati onship developed entirely online. Keywords: Higher Education, Covid-19 Pandemic, online tutoring, learning loss, school demotivation. Article submitted: 10/04/2022; accepted: 10/11/2022 Available online: 20/12/2022 * University of Milano-Bicocca. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "25 universities) for a very long period (from March to September 2 020) was, in fact, a unique event in our century that caught all those invol ved unprepared: students, teachers and families. The distance learning that was activated in order to maintain the educational relationship and learning ach ievement required not only the presence of infrastructure, PCs and other devices but also specific training in the use of I CT (Information and Communicat ion Technologies) (Pastori, Pagani, Mangiatordi & Pepe, 2021). In the face of what can be called the largest homeschooling experiment of our century, research has shown how distance learning has had a concerning impact both in terms of student learning and academic achievement (Hoffman & Miller, 2020; Kuhfeld & Tarasawa, 2020) and in relation to the social development of children and youth unable to attend school (Bhamani et al., 2020). Moreover, Distance Learning (DaD) has increased levels of educational poverty, sch ool dropout, which are directly proportional to the socioeconomic status of families (Nuzzaci, Minello, Di Genova & Madia, 2020; Bonal & González, 2021). Faced with this alarming scenario, universities have questioned themselves with respect to sustainable policies and practices to implement or reshape in light of the new social conditions, in order to support the most fragile students in terms of motivation and school learning. Some universities h ave responded by activating distance tutoring projects aimed at freshmen (Pas salacqua, Zuccoli, 2021), peer tutoring to support those students who, du e to the pandemic, have considerably slowed down their studies (Di Vita, 2 0 2 1 ) o r online supervision of internship experiences (Giuliani, 2021). Precisely within this framework, with the aim of mitigating the inequalities in educational opportunities generated by the pandemic, the “Tu toring Online Program” (TOP) project was established, characterized by distin ctive and innovative characteristics that responded to the priorities of smart, sustainable and inclusive growth described by the European Strategy 2020 (E uropean Commission, 2020). Tutoring between university and school: Tutoring Online Program To counteract growing learning loss resulting from school closu res that occurred in Italy in March 2020, the University of Harvard (Massachusetts) and Bocconi University (Milan) designed and piloted an innovative O nline Tutoring Program for Secondary School students on whom the effe cts of the pandemic have been particularly substantial, in both psychological and learning terms. After the first edition, held from April to June 2020, t wo more were launched: one started in October 2020 and ended in May 2021 and o n e i s currently underway. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "en",
         "regex_candidates": {
           "title": null,
           "submitted_date": "2022-04-10",
@@ -874,7 +850,7 @@
           "controversial": false,
           "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:34:35Z"
+          "manual_confirmed_at_utc": "2026-04-27T15:30:12Z"
         },
         "accepted_date": {
           "page_value": null,
@@ -886,7 +862,7 @@
           "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -894,7 +870,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -914,7 +890,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -927,18 +903,76 @@
           "page_value": "2022-12-12",
           "pdf_value": "2022-04-10",
           "chosen_source": "pdf",
-          "applied_at_utc": "2026-04-26T20:34:35Z"
+          "applied_at_utc": "2026-04-27T15:30:12Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15076\\temp\\2499-507X_15076.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\15076\\2499-507X_15076.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "en"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "What Worked? A Qualitative Study on the Tutor-Tutee Relationship in the Tutoring Online Program (TOP)",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The transformative processes that have involved the academic world for more than two decades have been accelerated and renewed in the wake of the Sars Covid-19 ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "values": [
+              "Higher Education",
+              "Covid-19 Pandemic",
+              "online tutoring",
+              "learning loss",
+              "school demotivation"
+            ]
+          }
+        ]
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "submitted_date",
         "page_value": "2022-12-12",
         "pdf_value": "2022-04-10",
         "chosen_source": "pdf",
-        "applied_at_utc": "2026-04-26T20:34:35Z"
+        "applied_at_utc": "2026-04-27T15:30:12Z"
       }
     }
   }

@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13019",
-  "scraped_at_utc": "2026-04-26T20:26:39Z",
-  "fetched_at_utc": "2026-04-26T20:26:38Z",
+  "scraped_at_utc": "2026-04-27T10:21:34Z",
+  "fetched_at_utc": "2026-04-27T10:21:34Z",
   "source_mode": "live_url",
-  "source_html_sha256": "c09756b43c140eb3926118451a63eb7f248049f8168164ccb283e51691239c99",
+  "source_html_sha256": "b435661ee899a844d3a1f542e70d007ea1ebf43d5f8b2a49a97476aee9f6ad93",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "6",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -202,7 +202,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "6",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -210,7 +210,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Botta, E. (2021). Percorsi secondari di una prova adattativa multilivello e valutazione formativa. Excellence and Innovation in Learning and Teaching - Open Access , 6 (2). https://doi.org/10.3280/exioa2-2021oa13019",
+      "citationString": "Botta, E. (2021). Percorsi secondari di una prova adattativa multilivello e valutazione formativa. Excellence and Innovation in Learning and Teaching , 6 (2). https://doi.org/10.3280/exioa2-2021oa13019",
       "articleTitleEcho": "Percorsi secondari di una prova adattativa multilivello e valutazione formativa"
     },
     "audience": null,
@@ -257,22 +257,15 @@
       },
       {
         "value": "Secondary paths of a multilevel adaptive test and formative assessment",
-        "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Secondary paths of a multilevel adaptive test and formative assessment",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -335,7 +328,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -403,7 +396,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -479,11 +472,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -624,10 +617,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2021,
       "raw_dc_rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -666,7 +659,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -700,7 +693,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -708,7 +701,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Percorsi secondari di una prova adattativa multilivello e valutazione formativa | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Percorsi secondari di una prova adattativa multilivello e valutazione formativa | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -719,22 +712,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:26:38Z"
+      "retrieved_at_utc": "2026-04-27T10:21:34Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:26:40Z",
+      "generated_at_utc": "2026-04-27T10:21:39Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13019",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13019",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 2,
+          "added_descriptions": 1,
           "added_subjects": 6,
           "raw_counts": {
             "title_variants": 2,
@@ -748,8 +741,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13019",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13019",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 2,
@@ -760,20 +753,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13019\\temp\\2499-507X_13019.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\13019\\2499-507X_13019.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:26:42Z",
+      "generated_at_utc": "2026-04-27T10:21:41Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13019\\2499-507X_13019.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Percorsi secondari di una prova adattativa multilivello e valutazione formativa",
         "submitted_date": "2021-09-30",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2021",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Emanuela Botta"
@@ -781,7 +774,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13019\\2499-507X_13019.pdf",
-        "generated_at_utc": "2026-04-26T20:26:42Z",
+        "generated_at_utc": "2026-04-27T10:21:41Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -794,6 +787,9 @@
           "mod_date": "2021-12-23"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 2 Doi: 10.3280/exioa2-2021oa13019 Percorsi secondari di una prova adattativa multili- vello e valutazione formativa Secondary paths of a mult ilevel adaptive test and formative assessment Emanuela Botta* Riassunto In questo articolo si illustra il processo di analisi delle risposte fornite dagli stu- denti in una prova adattativa multilivello computer based per la stima delle abilità in matematica nel grado 10 del sistema di istruzione italiano. La stima è stata ef- fettuata tramite una prova adattativa multilivello 1 - 3 - 3 costruita nell’ambito di una ricerca di dottorato in Psicologia Sociale, dello Sviluppo e della Ricerca Edu- cativa. Nella prima parte dell’articolo si descrivono la struttura della prova e il suo funzionamento, oltre ai vantaggi che essa offre rispetto a una classica prova li- neare, quali una maggiore precisione nella stima delle abilità e la possibilità di confrontare direttamente i risultati ottenuti da studenti che hanno svolto percorsi differenti. In seguito, si analizza l’andamento degli studenti in due dei percorsi secondari della prova sia per mettere in luce in quali quesiti essi hanno incontrato maggiori difficoltà, nell’ottica di una valutazione formativa, sia per indagare i mo- tivi per cui in una data fase della prova gli studenti hanno mostrato un inatteso calo nel rendimento. Nell’analisi dei risultati di una prova adattativa multilivello lo stu- dio dei percorsi secondari è di particolare interesse perché in essi ricadono gli stu- denti per i quali la stima dell’abilità varia nel passaggio da un livello all’altro ed è dunque ipotizzabile la parziale acquisizione di alcune conoscenze e abilità. Parole chiave: test adattativi, test multilivello, matematica, valutazione forma- tiva, computer based Abstract In this paper we illustrate the process of analyzing the respon ses provided by students in a computer-based multilevel adaptive test for the estimation of * Università degli Studi di Roma “La Sapienza”, Dipartimento di Psicologia dei Pro- cessi di Sviluppo e Socializzazione. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "60 A titolo esemplificativo si può considerare che nella popolazio ne studente- sca ci sono studenti con Bisogni Educativi Speciali (BES), cioè con disabilità, disturbi specifici dell’apprendimento (DSA) o svantaggio socioeconomico, lin- guistico, culturale. Secondo i dati del Ministero dell’istruzione (MI, 2020) nell’anno scolastico 2020/21 gli studenti della scuola secondaria di II grado erano 2.635.110 di cui circa il 2,96% con disabilità e circa il 7,67%, con cittadinanz a non italiana1. Il Ministero dell’istruzione (MIUR, 2019) fornisce anche i dati re lativi agli stu- denti con DSA, relativamente p erò all’anno scolastico 2017/18: nella scuola secondaria di secondo grado erano circa il 4,68% del totale. Complessivamente, al netto delle variazioni intercorse fra le due annualità considerate, circa il 16% degli studenti del grado 10 ha bisogni educativi speciali, cons iderando che da questa stima restano esclusi parte degli studenti con svantaggio socioecono- mico, linguistico, culturale. La varietà della popolazione di riferimento ha portato alla con siderazione che per stimare accuratamente le abilità degli studenti era opp ortuno costruire una prova che superasse la tradizionale struttura lineare che n on consente di stimare l’abilità del singolo alunno con una precisione soddisfacente per quella parte della popolazione che si discosta significativamente dall a media nazio- nale. Le prove lineari standardizzate, utilizzate spesso per la valutazione som- mativa o di sistema, hanno il limite di mettere tutti gli alunni di fronte alle stesse domande e di valutare il risultato ottenuto in relazione a un valore di riferi- mento, inadatto per definizione, a misurare ciò che si discosta dalla norma. In generale una prova lineare ha lunghezza fissa e tutti i soggetti rispondono alle medesime domande. Questo co mporta che molti soggetti si tr ovano a ri- spondere ad item che hanno un liv ello di difficoltà troppo alto o troppo basso rispetto al loro livello di abilità e che sono dunque poco info rmativi dal punto di vista psicometrico e contribuiscono poco alla precisione della stima dell’abi- lità del soggetto. In letteratura le prove lineari sono distinte in due tipologie, le prove centrate, in cui la prova è formata da un insieme di item la cui difficoltà è prossima a un certo livello di difficoltà stabilito a priori e le prove rettangolari, formate dallo stesso numero di item per ciascun livello di diff icoltà scelto op- portunamente all’interno di un intervallo dato (Weiss, 1985). C i si trova allora a dover scegliere se utilizzare le prove centrate, misurando mo lto bene attorno al valore centrale dell’abilità e progressivamente e rapidamente sempre peggio a mano a mano che ci si allontana da esso, o utilizzare le prov e rettangolari, misurando tutti i soggetti con un grado di precisione piuttosto basso. Inoltre, la lunghezza fissa della prova limita le possibilità di scelta degli item, riducendone 1 Valore atteso, calcolo previsionale basato sui dati delle rilevazioni sulle scuole riferiti agli anni scolastici precedenti. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -867,7 +863,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -875,7 +871,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2021",
@@ -895,7 +891,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -908,18 +904,89 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13019\\temp\\2499-507X_13019.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\13019\\2499-507X_13019.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Percorsi secondari di una prova adattativa multilivello e valutazione formativa",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Secondary paths of a multilevel adaptive test and formative assessment",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Secondary paths of a multilevel adaptive test and formative assessment",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "In this paper we illustrate the process of analyzing the responses provided by students in a computer-based multilevel adaptive test for the estimation of mathe",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "In questo articolo si illustra il processo di analisi delle risposte fornite dagli studenti in una prova adattativa multilivello computer based per la stima del",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

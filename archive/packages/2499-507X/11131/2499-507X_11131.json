@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11131",
-  "scraped_at_utc": "2026-04-26T20:25:48Z",
-  "fetched_at_utc": "2026-04-26T20:25:48Z",
+  "scraped_at_utc": "2026-04-27T10:20:27Z",
+  "fetched_at_utc": "2026-04-27T10:20:27Z",
   "source_mode": "live_url",
-  "source_html_sha256": "f554fff59dc746711f177a7d690e0c1880d76edc79d62d4b837f21c236fece4b",
+  "source_html_sha256": "28bfd016c6b80e9819f9c86729230fc4fc0d4f608d4e261250b1b4703163efc8",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -113,7 +113,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "description:dominant_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -153,15 +153,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": null,
       "issue": null,
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -241,7 +241,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": null,
       "citationIssue": null,
       "citationStartPage": null,
@@ -249,7 +249,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Ferrari, S., Mauro, I., Messina, S., Raviolo, P., & Rivoltella, P. C. (2021). E-tutoring nella didattica telematica. Pratiche di modellamento. Excellence and Innovation in Learning and Teaching - Open Access . https://doi.org/10.3280/exioa0-2021oa11131",
+      "citationString": "Ferrari, S., Mauro, I., Messina, S., Raviolo, P., & Rivoltella, P. C. (2021). E-tutoring nella didattica telematica. Pratiche di modellamento. Excellence and Innovation in Learning and Teaching . https://doi.org/10.3280/exioa0-2021oa11131",
       "articleTitleEcho": "E-tutoring nella didattica telematica. Pratiche di modellamento"
     },
     "audience": null,
@@ -297,35 +297,27 @@
       },
       {
         "value": "E-tutoring and digital teaching. Modeling practices",
-        "lang": "en",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "distance education, e-learning, e-tutoring, interactive teaching, tutorial functions",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "educazione a distanza, e-learning, e-tutoring, didattica interattiva, funzio-ni tutoriali",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "E-tutoring and digital teaching. Modeling practices",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -337,8 +329,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -389,7 +380,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -436,7 +427,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2021-special-issue",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:10Z",
         "scope": "archival master metadata",
         "issue_id": "2021-special-issue",
         "issue_label": "Special issue (2021)",
@@ -471,7 +462,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -551,11 +542,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -706,10 +697,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -748,7 +739,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -782,7 +773,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -790,7 +781,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "E-tutoring nella didattica telematica. Pratiche di modellamento | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "E-tutoring nella didattica telematica. Pratiche di modellamento | Excellence and Innovation in Learning and Teaching",
     "warnings": [
       "Published-date conflict: stronger page signal '2021-01-25' overrides DC.Date.issued '2021-01-26'."
     ],
@@ -817,22 +808,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:25:48Z"
+      "retrieved_at_utc": "2026-04-27T10:20:27Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:25:49Z",
+      "generated_at_utc": "2026-04-27T10:20:28Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11131",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11131",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 4,
@@ -846,8 +837,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11131",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11131",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -858,20 +849,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11131\\temp\\2499-507X_11131.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11131\\2499-507X_11131.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:25:51Z",
+      "generated_at_utc": "2026-04-27T10:20:30Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11131\\2499-507X_11131.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "E-tutoring nella didattica telematica. Pratiche di modellamento",
         "submitted_date": "2021-01-25",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Simona Ferrari",
@@ -883,7 +874,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11131\\2499-507X_11131.pdf",
-        "generated_at_utc": "2026-04-26T20:25:50Z",
+        "generated_at_utc": "2026-04-27T10:20:30Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 00_EILT_2021_Sommario",
@@ -896,6 +887,9 @@
           "mod_date": "2021-01-25"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue E-tutoring nella didattica telematica. Pratiche di modellamento E-tutoring and digital teaching. Modeling practices Simona Ferrari*, Irene Mauro**, Salvatore Messina***, Paolo Raviolo****, Pier Cesare Rivoltella***** Riassunto Il lavoro si propone di delineare quali evol uzioni la figura dell’e-tutor stia at- traversando nel contesto della didattica telematica alla luce dei cambiamenti che i media digitali e sociali introducono (Rivoltella, 2017; Ferrari, 2019). Re- sta fondamentale la dimensione comunicativa su cui tale ruolo si basa (Rivol- tella, 2006), che evidenzia la necessità di competenze di moderazione online, allestimento di gestione dei gruppi e animazione di online communities. All’e-tutor, in particolare, è richi esta consapevolezza sull’attività di modella- mento che svolge nei confronti dei corsisti attraverso le sue attività comunica- tive e didattiche (interattive ed erogative) all’interno dei corsi di laurea online: agevolando l’interazione tra i docenti e gli studenti, favorendo il corretto svol- gimento e monitoraggio delle attività di dattiche, supportando il corpo docente nelle attività di verifica della preparazione degli studenti, affiancando docenti e studenti nella prova finale. In questo contributo si presenta lo studio di caso svolto sul ruolo dell’e-tutor in un ateneo telematico italiano utilizzando una metodologia di analisi già validata in letteratura. * Università Cattolica del Sacro Cuore di Milano, condivide l’inquadramento con Pier Cesare Rivoltella e ha rivisto la parte dei risultati. E-mail: simona.ferrari@unicatt.it. ** Università eCampus, ha curato gli obiettivi e strumenti di ricerca. E-mail: irene.mauro@uniecampus.it. *** Università eCampus, ha curato i risultati. E-mail: salvatore.messina@uniecampus.it. **** Università eCampus, ha curato le conclusioni. E-mail: paolo.raviolo@uniecampus.it. ***** Università Cattolica del Sacro Cuore di Milano, condivide con Simona Ferrari l’in- quadramento e con Paolo Raviolo le conclusioni. Ha curato la revisione complessiva dell’articolo. E-mail: piercesare.rivoltella@unicatt.it. Doi: 10.3280/exioa0-2021oa11131 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "115 contesti di apprendimento online (McPherson & Nunes, 2004), al fine di garan- tire un efficace processo di insegnamento-apprendimento. La funzione tutoriale svolge un ruolo essenziale nella formazione basata sull’online distance learning (ODL) e nella formazione intesa nell’accezione più ampia che comprende anche l’educazi one degli adulti. Il sapere, nei per- corsi di apprendimento online, viene costruito in un contesto che presenta si- gnificative analogie con la formazione permanente (Greco, 2017), in cui la re- lazione discente-tutor-docenti diventa fondamentale. L’e-tutor, inteso come co- lui il quale « interacts directly with learners to support their learning process when they are separated from the tutor in time and place for some or all these direct interactions » (Denis, Watland, Pirotte & Verday, 2004, p. 152), deve dunque possedere competenze specifiche per gestire un approccio personaliz- zato a ogni studente e costruire in modo collaborativo un percorso specifico e adatto alle sue esigenze. Soprattutto, si rivela figura essenziale per supportare il lavoro di gruppo (Montero-Fleta & Pérez-Sabater, 2014) e per intervenire sul senso di isolamento e solitudine che g li studenti delle università che erogano solo corsi online riferiscono (Kim, 2012). Nelle università telematiche italiane (Ardizzone & Rivoltella, 2003), il pro- cesso formativo è basato su un setting didattico che presenta alcune specificità rispetto a quello delle università presen ziali; in particolare vengono introdotte precise classificazioni dei contenuti didattici (Raviolo, 2019), i tempi e i per- corsi sono estremamente personalizzati e l’età media degli studenti risulta più elevata. La didattica si organizza a due livelli: il primo improntato a didattica erogativa, il secondo a didattica interattiva. La didattica erogativa (DE), ovvero il complesso di contenuti simili all’in- segnamento frontale in aula, è incentrato sulla presentazione/illustrazione dei contenuti da parte dell’insegnante: registrazioni audio-video, conferenze Web, corsi di prestigio o varianti simili. La didattica interattiva (DI) fa riferimento, invece, a uno spettro di attività, tra cui:  interventi di insegnamento in genere sotto forma di dimostrazioni o spiega- zioni aggiuntive, presenti in FAQ, mailing list o forum Web (dimostrazioni o suggerimenti operativi su come risolvere un problema, esercizi e simili);  brevi interventi realizzati dai partecipanti (ad esempio mediante ambienti di discussione o collaborazione: forum web, blog, wiki);  e-tivities, strutturate (individuali o collaborative) in report, esercitazioni, case study, problem solving, ricerche sul web, progetti, produzione di arte- fatti (o varianti simili), realizzati dagli studenti, con relativi feedback; Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": null,
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -969,7 +963,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -977,7 +971,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -997,7 +991,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -1010,18 +1004,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11131\\temp\\2499-507X_11131.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11131\\2499-507X_11131.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "description:dominant_language_guess",
+        "hints": {
+          "pdf_body_language": null,
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "description:dominant_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "E-tutoring nella didattica telematica. Pratiche di modellamento",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "E-tutoring and digital teaching. Modeling practices",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "E-tutoring and digital teaching. Modeling practices",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "distance education, e-learning, e-tutoring, interactive teaching, tutorial functions",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "distance education, e-learning, e-tutoring, interactive teaching, tutorial functions",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "educazione a distanza, e-learning, e-tutoring, didattica interattiva, funzio-ni tutoriali",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "educazione a distanza, e-learning, e-tutoring, didattica interattiva, funzio-ni tutoriali",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The work aims to outline e-tutor’s role development in digital teaching, considering the changes that digital and social media introduce in it (Rivoltella, 2017",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Il lavoro si propone di delineare quali evoluzioni la figura dell’e-tutor stia attraversando nel contesto della didattica telematica alla luce dei cambiamenti c",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

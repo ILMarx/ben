@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16045",
-  "scraped_at_utc": "2026-04-26T20:28:27Z",
-  "fetched_at_utc": "2026-04-26T20:28:27Z",
+  "scraped_at_utc": "2026-04-27T10:23:14Z",
+  "fetched_at_utc": "2026-04-27T10:23:13Z",
   "source_mode": "live_url",
-  "source_html_sha256": "f3a777655292c3876362148ec187b7c9ce2176e88b0fd8ded90959b7e9ed9b12",
+  "source_html_sha256": "b01ed9d1d64cc0d33910d6e7cbbddc6620518a64819ce62973646b81df6b0ac4",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -96,8 +96,8 @@
       "Accepted": "2023-05-15"
     },
     "language": {
-      "value": "it",
-      "source": "meta:citation_language"
+      "value": "en",
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -113,7 +113,7 @@
     "descriptions": [
       {
         "value": "The pandemic deeply affected the curricular internship in higher education since the emergency provisions included mobility limitations and companies’ closure. Since curricular internships are often compulsory for degree attainment, the universities reacted in different ways to ensure the completion of the study programme. This article reports on the collection of data carried out in April-July 2021 in the frame of the ON-IT project about provisions adopted by universities during the worst period of the pandemic emergency. Results are discussed, and the conclusion highlights the next steps of the project development to ensure the quality of online and blended internships to support the acquisition of employability skills for remote work.",
-        "lang": "it",
+        "lang": "en",
         "source": "meta:DC.Description"
       }
     ],
@@ -132,43 +132,18 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "8",
       "issue": "1",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
-      {
-        "value": "online internship",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "work-based learning",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "hybrid models",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "employability",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "digital transformation",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
       {
         "value": "online internship",
         "lang": "en",
@@ -220,7 +195,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "8",
       "citationIssue": "1",
       "citationStartPage": null,
@@ -228,7 +203,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Paviotti, G., Aleffi, C., & Ferrara, A. (2023). Toward remote work: Online internship in time of pandemics. Excellence and Innovation in Learning and Teaching - Open Access , 8 (1). https://doi.org/10.3280/exioa1-2023oa16045",
+      "citationString": "Paviotti, G., Aleffi, C., & Ferrara, A. (2023). Toward remote work: Online internship in time of pandemics. Excellence and Innovation in Learning and Teaching , 8 (1). https://doi.org/10.3280/exioa1-2023oa16045",
       "articleTitleEcho": "Toward remote work: Online internship in time of pandemics"
     },
     "audience": null,
@@ -276,29 +251,27 @@
       "DC.Identifier": "16045",
       "url_slug": "16045"
     },
-    "resource_language": "it",
+    "resource_language": "en",
     "title_variants": [
       {
         "value": "Toward remote work: Online internship in time of pandemics",
-        "lang": "it",
+        "lang": "en",
         "role": "main",
-        "source": "meta:citation_title"
+        "source": "locale:en_US:meta:citation_title"
       }
     ],
     "metadata_languages": {
-      "resource_language": "it",
+      "resource_language": "en",
       "title_literal_languages": [
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it",
         "en"
       ],
       "all_literal_languages": [
-        "it",
         "en"
       ]
     },
@@ -350,7 +323,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -418,7 +391,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -498,11 +471,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -649,10 +622,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2023,
       "raw_dc_rights": [
-        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -691,7 +664,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -725,7 +698,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -733,7 +706,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Toward remote work: Online internship in time of pandemics | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Toward remote work: Online internship in time of pandemics | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -744,21 +717,21 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:28:27Z"
+      "retrieved_at_utc": "2026-04-27T10:23:13Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:28:28Z",
+      "generated_at_utc": "2026-04-27T10:23:15Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16045",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16045",
-          "added_titles": 0,
+          "added_titles": 1,
           "added_descriptions": 0,
           "added_subjects": 5,
           "raw_counts": {
@@ -774,7 +747,7 @@
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16045",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16045",
           "added_titles": 0,
-          "added_descriptions": 0,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 1,
@@ -785,20 +758,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16045\\temp\\2499-507X_16045.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\16045\\2499-507X_16045.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:28:30Z",
+      "generated_at_utc": "2026-04-27T10:23:16Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16045\\2499-507X_16045.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Toward remote work: Online internship in time of pandemics",
         "submitted_date": "2023-06-13",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2023",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Gigliola Paviotti",
@@ -808,7 +781,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16045\\2499-507X_16045.pdf",
-        "generated_at_utc": "2026-04-26T20:28:30Z",
+        "generated_at_utc": "2026-04-27T10:23:16Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -821,6 +794,9 @@
           "mod_date": "2023-06-19"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 1 Doi: 10.3280/exioa1-2023oa16045 Toward remote work: Online internship in time of pandemics Gigliola Paviotti *, Chiara Aleffi *, Annapia Ferrara° Abstract The pandemic deeply affected the curricular internship in highe r education since the emergency provisions i ncluded mobility limitations and companies’ closure. Since curricular internsh ips are often compulsory for degree attainment, the universities reacted in different ways to ensur e the completion of the study programme. This article reports on the collection of data carried out in April-July 2021 in the frame of the ON-IT project about provisions adopted by universities during the worst period of the pandemic emergency. Results are discussed, and the conclusion highlights the next steps of the project development to ensure the quality of online and blended internships to support the acquisition of employability skills for remote work. Keywords: online internship; work-b ased learning; hybrid models; employability; digital transformation Article submitted: 10/04/2022; accepted: 15/05/2023. Available online: 20/06/2023 1. Introduction and reasons for the experience Curricular internships in higher education were introduced almost in all European countries around the 1990s, following major reforms af ter the agreement on the Bologna Process. Since then, internships have been common in medical education since the 1920s, and in particular program mes, * University of Macerata, Department of Education, Cultural Heritage and Tourism. ° University of Pisa, Department of Agriculture, Food and Environment. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "72 Benefits and drawbacks are associated with remote work: Pretti et al. (2020) identify advantages such as flexibility, autonomy, productivity, job satisfaction, and decreased stress; among drawbacks are loss of communication, reduced support, and difficulty in work-life balance. Following work practice, online internships are likely to becom e common in the future, either as fully remote or blended/hybrid experiences. Insofar little research has investigated online internships in higher educatio n: most of the work focused on organisational and management issues, such as lack of training of supervisors (Frank and Oliver, 2012), equipment (Irwin et al ., 2021), recruiting (Jeske and Axtell, 2014; 2018), difficult work-balan ce of the intern (Allen et al., 2015; Charalampous et al., 2019). Also, some rel ational and personal issues can affect the process, e.g., difficulty in bui lding trust between the company and the intern (Irwin et al., 2021), a feeling of i solation (Teng, 2021) and the need for a high level of self-regulated learning (Dabbagh and Kitsantas, 2004) by the intern, little understanding of the com pany business culture (Jeske and Axtell, 2014). Still, the advantages are potentially very high for the involved players. Remote learning at work allows experiences that might be impossible otherwise for distance and cost reasons (Vriens et al., 2010), enabling participation in an international community (Ruggiero and Boehm, 2016). As regards skills developmen t, an online internship also can foster the acquisition of specific skills, such as digital skills, online cooperation skills, etc., and support the intern in facing the increased complexity of the digital transformation of the labour market. In Italy, remote internships, as well as remote work, is a pret ty recent phenomenon. Italy also has a le vel of digital skills of citizen s and workers far below the European average (Pedone, 2022), which hinders the shift to digital arrangements. However, as in the rest of Europe, the pandemic e xperience boosted experiences in both fields. As regards higher education , research confirms that the online internship can significantly support s kills acquisition, particularly digital and organisational skills (Altamura and Di salvo, 2022), decision-making skills (Massariello et al., 2021), self-direct career management skills (Del Gobbo et al., 2021). On the other hand, for some degrees, the digital internship was not enough to support professional skills development, as in the case of social care (Bobbo and Moretto, 2020). On this background, a European consortium composed of five univ ersities and two networks of universities and companies undertook the On line Internship in Tourism (ON-IT) project to develop an implementation model for online internships for higher e ducation institutions. The start ing point for the design was to understand how the universities dealt with the ne ed to carry out a curricular internship, which is compulsory for degree attainment. This article reports on the findings of the Italian data collection. The overall project survey Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "en",
         "regex_candidates": {
           "title": null,
           "submitted_date": "2022-04-10",
@@ -884,7 +860,7 @@
           "controversial": false,
           "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:35:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T15:30:32Z"
         },
         "accepted_date": {
           "page_value": null,
@@ -896,7 +872,7 @@
           "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -904,7 +880,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2023",
@@ -924,7 +900,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -937,18 +913,76 @@
           "page_value": "2023-06-13",
           "pdf_value": "2022-04-10",
           "chosen_source": "pdf",
-          "applied_at_utc": "2026-04-26T20:35:11Z"
+          "applied_at_utc": "2026-04-27T15:30:32Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16045\\temp\\2499-507X_16045.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\16045\\2499-507X_16045.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "en"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Toward remote work: Online internship in time of pandemics",
+            "dropped_source": "meta:citation_title",
+            "kept_source": "locale:en_US:meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The pandemic deeply affected the curricular internship in higher education since the emergency provisions included mobility limitations and companies’ closure. ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "values": [
+              "online internship",
+              "work-based learning",
+              "hybrid models",
+              "employability",
+              "digital transformation"
+            ]
+          }
+        ]
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "submitted_date",
         "page_value": "2023-06-13",
         "pdf_value": "2022-04-10",
         "chosen_source": "pdf",
-        "applied_at_utc": "2026-04-26T20:35:11Z"
+        "applied_at_utc": "2026-04-27T15:30:32Z"
       }
     }
   }

@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20585",
-  "scraped_at_utc": "2026-04-26T20:30:23Z",
-  "fetched_at_utc": "2026-04-26T20:30:23Z",
+  "scraped_at_utc": "2026-04-27T10:24:56Z",
+  "fetched_at_utc": "2026-04-27T10:24:56Z",
   "source_mode": "live_url",
-  "source_html_sha256": "81d803cf2efaa2ac602b9f12fad8d9e198dbbf849f130e71b662b4ecb2883bc9",
+  "source_html_sha256": "a4e7ffc6fd5824cbbd2f7431999c28a12da1646906ca47387571e9d17cccabf4",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -113,7 +113,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -153,15 +153,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "10",
       "issue": "1",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -241,7 +241,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "10",
       "citationIssue": "1",
       "citationStartPage": null,
@@ -249,7 +249,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Da Re, L., Mormando, G., Bonin, A., Bonelli, R., & Rattazzi, M. (2025). Un progetto innovativo per il potenziamento delle competenze trasversali in medicina. L’esperienza dell’Università degli Studi di Padova. Excellence and Innovation in Learning and Teaching - Open Access , 10 (1). https://doi.org/10.3280/exioa1-2025oa20585",
+      "citationString": "Da Re, L., Mormando, G., Bonin, A., Bonelli, R., & Rattazzi, M. (2025). Un progetto innovativo per il potenziamento delle competenze trasversali in medicina. L’esperienza dell’Università degli Studi di Padova. Excellence and Innovation in Learning and Teaching , 10 (1). https://doi.org/10.3280/exioa1-2025oa20585",
       "articleTitleEcho": "Un progetto innovativo per il potenziamento delle competenze trasversali in medicina. L’esperienza dell’Università degli Studi di Padova"
     },
     "audience": null,
@@ -302,22 +302,15 @@
       },
       {
         "value": "An innovative project for the empowerment of soft skills in medicine. The experience of the University of Padua",
-        "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "An innovative project for the empowerment of soft skills in medicine. The experience of the University of Padua",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -380,7 +373,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -448,7 +441,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -532,11 +525,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -689,10 +682,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2025,
       "raw_dc_rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -731,7 +724,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -765,7 +758,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -773,7 +766,7 @@
       "dc_article_type": "Esperienze e pratiche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Un progetto innovativo per il potenziamento delle competenze trasversali in medicina. L’esperienza dell’Università degli Studi di Padova | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Un progetto innovativo per il potenziamento delle competenze trasversali in medicina. L’esperienza dell’Università degli Studi di Padova | Excellence and Innovation in Learning and Teaching",
     "warnings": [
       "Published-date conflict: stronger page signal '2025-07-11' overrides DC.Date.issued '2025-11-17'."
     ],
@@ -800,22 +793,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:30:23Z"
+      "retrieved_at_utc": "2026-04-27T10:24:56Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:30:24Z",
+      "generated_at_utc": "2026-04-27T10:24:58Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F20585",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20585",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 2,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 2,
@@ -829,8 +822,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F20585",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20585",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 2,
@@ -841,20 +834,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20585\\temp\\2499-507X_20585.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\20585\\2499-507X_20585.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:30:26Z",
+      "generated_at_utc": "2026-04-27T10:25:00Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20585\\2499-507X_20585.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Un progetto innovativo per il potenziamento delle competenze trasversali in medicina. L’esperienza dell’Università degli Studi di Padova",
         "submitted_date": "2025-07-07",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2025",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Lorenza Da Re",
@@ -866,7 +859,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20585\\2499-507X_20585.pdf",
-        "generated_at_utc": "2026-04-26T20:30:26Z",
+        "generated_at_utc": "2026-04-27T10:24:59Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -879,6 +872,9 @@
           "mod_date": "2025-07-11"
         },
         "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20585 Un progetto innovativo pe r il potenziamento delle competenze trasversali in medicina. L’esperienza dell’Università degli Studi di Padova An innovative project for the empowerment of soft skills in medicine. The experience of the University of Padua Lorenza Da Re, Giulia Mormando, Angelica Bonin, Roberta Bonelli, Marcello Rattazzi * Riassunto L’Università di Padova ha avviato un progetto innovativo per la formazione e lo sviluppo delle competenze trasversali nel Corso di Studio (CdS) in Medicina e Chirurgia, riconoscendone il ruolo cr uciale nella professionalizzazione dei futuri medici. Un'indagine esplorativa condotta tramite un questionario ha ana- lizzato la conoscenza, l’importanza e la padronanza percepita dagli studenti ri- spetto a queste competenze. L’indagine ha evidenziato un disallineamento tra la rilevanza attribuita dai rispondenti e il livello effettivo di acquisizione, fa- cendo emergere anche differenze relative alla conoscenza del significato di al- cune competenze trasversali. I risultati sono stati valorizzati per progettare e introdurre un percorso formativo innova tivo inserito all’interno del tirocinio dedicato agli studenti del V anno del CdS in Medicina e Chirurgia, articolato in attività online e in presenza sui temi della comunicazione, teamwork, leader- ship e followership. Tale proposta mira a ridurre il divario tra teoria e pratica, migliorando la preparazione dei medici ad affrontare le sfide professionali con un approccio integrato tra competenze tecniche e trasversali. L’iniziativa si col- loca in un più ampio processo di innovazione didattica volto a promuovere una formazione capace di gestire la complessità del contesto medico contempora- neo e di contribuire alla sostenibilità e qualità della professione medica. * Università degli Studi di Padova. Il contributo è frutto del lavoro congiunto di tutti gli Autori. Tuttavia, è possibile attribuire a Giulia Mormando e Marcello Rattazzi il par. 1. e a Lorenza Da Re, Angelica Bonin e Roberta Bonelli i par. 2 e 3. Le conclusioni (par. 4) sono state elaborate congiuntamente da tutti gli Autori. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "98 aspetti leggermente diversi della stessa definizione, vi è un comune riferimento a competenze non legate a una specifica disciplina o prestazione. In generale, le competenze possono essere definite come la Capacità di far fronte a un compito, o a un insieme di compiti, riuscendo a mettere in moto (attivare) e a orchestrare (coordin are) su un piano operativo (pratico) le proprie risorse interne di natura cognitiva, affettiva e volitiva e a valorizzare quelle esterne utili e disponibili in modo valido e produttivo (Pellerey, 2006, p. 82). Sono definite invece competenze “trasversali” le conoscenze/abilità/risorse che si riferiscono all’insieme di capacità della persona che possono essere ap- plicate a svariate situazioni e contesti. Si tratta di competenze che possono quindi essere valorizzate in molteplici prestazioni o compiti in ambito perso- nale, educativo o professionale e per tutto l’arco della vita, indipendentemente da dove sono state acquisite. Tali competenze generali sono richieste per tutti i tipi di lavoro e sono la base per il raggiungimento di competenze più specifiche o tecniche. Alcuni esempi di competenze trasversali sono la leadership, la co- municazione, la risoluzione dei problemi, il lavoro di squadra e la creatività (Sá & Serpa, 2018). Discutendo un’altra prospettiva, anche l’ISFOL1 (2004, 2008) ha definito le competenze trasversali come un insieme di abilità di ampio spessore che sono implicate in numerosi tipi di compiti, dai più elementari ai più complessi, e che si esplicano in situazioni tra loro diverse e quindi ampliamente generalizzabili (Zaggia, 2018, p. 21). Si specifica poi che tali competenze so no presenti in molteplici esperienze di vita e non si limitano solo a quelle professionali. Inoltre, non sono specifica- mente legate a una particolare attività o posizione lavorativa, ma si attivano in diverse situazioni e influenzano la capacità degli individui di manifestare com- portamenti professionali competenti o esperti, oltre a facilitare il trasferimento di competenze da un contesto lavorativo a un altro. Esse consentono all’indivi- duo di sviluppare le proprie abilità in attività diverse e possono essere apprese attraverso modalità formali, informa li e non formali. Infine, possono sempre essere potenziate lungo tutto il corso dell a vita, anche attraverso specifici per- corsi formativi (Zaggia, 2018). Anche a livello internazionale il diba ttito sulle competenze trasversali è molto florido. Secondo il Cedefop (The European Centre for the Development of Vocational Training), che a sua volta riprende quanto argomentato nella Rac- comandazione del Parlamento Europeo e del Consiglio del 2006 (Parlamento 1 ISFOL: l’attuale Istituto Nazionale per l’Analisi delle Politiche Pubbliche (INAPP). Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -952,7 +948,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -960,7 +956,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:13Z"
         },
         "copyright_year": {
           "page_value": "2025",
@@ -980,7 +976,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -993,18 +989,89 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20585\\temp\\2499-507X_20585.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\20585\\2499-507X_20585.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Un progetto innovativo per il potenziamento delle competenze trasversali in medicina. L’esperienza dell’Università degli Studi di Padova",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "An innovative project for the empowerment of soft skills in medicine. The experience of the University of Padua",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "An innovative project for the empowerment of soft skills in medicine. The experience of the University of Padua",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The University of Padua has started an innovative project for the training and development of soft skills in the Degree Course in Medicine and Surgery, recogniz",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’Università di Padova ha avviato un progetto innovativo per la formazione e lo sviluppo delle competenze trasversali nel Corso di Studio (CdS) in Medicina e Ch",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

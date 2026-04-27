@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19151",
-  "scraped_at_utc": "2026-04-26T20:29:41Z",
-  "fetched_at_utc": "2026-04-26T20:29:41Z",
+  "scraped_at_utc": "2026-04-27T10:24:13Z",
+  "fetched_at_utc": "2026-04-27T10:24:13Z",
   "source_mode": "live_url",
-  "source_html_sha256": "35ba5f79db3fd74c34719f19444096a09814ad7fd46e99f68bf7b2c906a9b6bc",
+  "source_html_sha256": "785f694ddc1699f84b27a5dcb8fd087e5309ccc0ccb8d78344cd59dacdd376af",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "9",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -202,7 +202,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "9",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -210,7 +210,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Bertoli, R. (2025). Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota. Excellence and Innovation in Learning and Teaching - Open Access , 9 (2). https://doi.org/10.3280/exioa2-2024oa19151",
+      "citationString": "Bertoli, R. (2025). Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota. Excellence and Innovation in Learning and Teaching , 9 (2). https://doi.org/10.3280/exioa2-2024oa19151",
       "articleTitleEcho": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota"
     },
     "audience": null,
@@ -279,12 +279,6 @@
       {
         "value": "Perceived Self-Efficacy in Relation to the Learning Outcomes of the Degree Program in Educational Sciences: Construction and Validation of an Instrument in a Pilot Study",
         "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Perceived Self-Efficacy in Relation to the Learning Outcomes of the Degree Program in Educational Sciences: Construction and Validation of an Instrument in a Pilot Study",
-        "lang": "it",
         "role": "main",
         "source": "locale:en_US:meta:DC.Title"
       }
@@ -356,7 +350,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -403,7 +397,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2024-v9-n2",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:09Z",
         "scope": "archival master metadata",
         "issue_id": "2024-v9-n2",
         "issue_label": "Vol. 9, No. 2 (2024)",
@@ -438,7 +432,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -514,11 +508,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -659,10 +653,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2025,
       "raw_dc_rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -701,7 +695,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -735,7 +729,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -743,7 +737,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -754,22 +748,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:29:41Z"
+      "retrieved_at_utc": "2026-04-27T10:24:13Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:29:43Z",
+      "generated_at_utc": "2026-04-27T10:24:14Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19151",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19151",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 2,
+          "added_descriptions": 1,
           "added_subjects": 6,
           "raw_counts": {
             "title_variants": 2,
@@ -783,8 +777,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19151",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19151",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 2,
@@ -795,20 +789,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19151\\temp\\2499-507X_19151.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\19151\\2499-507X_19151.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:29:44Z",
+      "generated_at_utc": "2026-04-27T10:24:16Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19151\\2499-507X_19151.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
         "submitted_date": "2025-01-13",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2025",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Roberta Bertoli"
@@ -816,7 +810,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19151\\2499-507X_19151.pdf",
-        "generated_at_utc": "2026-04-26T20:29:44Z",
+        "generated_at_utc": "2026-04-27T10:24:16Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -829,6 +823,9 @@
           "mod_date": "2025-01-24"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19151 Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Vali- dazione di uno Strumento in uno Studio Pilota Perceived Self-Efficacy in Relation to the Learning Outcomes of the Degree Program in Educational Sciences: Construction and Validation of an Instrument in a Pilot Study Roberta Bertoli* Riassunto Nelle fasi di transizione della vita di ogni soggetto e in particolare con l’in- gresso nel mondo del lavoro, il percepir si competenti diventa un elemento es- senziale così come nel processo di costruzione dell’identità professionale. L’oc- casione del tirocinio per futuri educatori si configura come strumento che pro- muove competenze e permette di conoscere la specificità dei contesti lavorativi. Nel presente contributo viene presentato uno studio pilota che ha previsto la costruzione e la validazione di una scala dell’autoefficacia in relazione alle competenze attese in uscita dai CdS classe L-19. Le analisi descrittive, di di- mensionalità, di validità e di affida bilità hanno evidenziato buone proprietà dello strumento. La scala qui presentata è volta anche a promuovere negli stu- denti processi riflessivi e autovalutativi in relazione al profilo di uscita dal per- corso accademico. Parole chiave: Autoefficacia, Educatori, Learning outcomes, Tirocinio, Stu- denti universitari Abstract In the transitional phases of an individua l's life, particularly with the entry into the workforce, the perception of competence becomes a crucial element, as does the process of constructing professional identity. The opportunity provided by internships for future educators serves as a tool that promotes * Università di Parma, e-mail: roberta.bertoli@unipr.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "25 In altri studi invece si ritrova il costrutto dell’autoefficacia indagato in rela- zione a una specifica professione come, ad esempio, un ampio riferimento ri- guarda gli insegnanti, a cui sono stati dedicate diverse ricerche volte ad inda- gare l’efficacia percepita (Cardarello et al., 2016; Labone, 2004; Zobbi & Pin- tus, 2022), in relazione alle discipline che insegnano, alla gestione della classe o all’uso di tecnologie (Hoy et al., 2006), o in generale si trovano adattamenti della teacher self-efficacy scale (Biasi et al., 2014). Il costrutto dell’autoefficacia proposto da Bandura (2000) viene spiegato come la convinzione di avere le capacità di affrontare una situazione sociale o professionale, ovvero quanto i soggetti si sentono in grado di portare a termine efficacemente un compito. Esso si riferisce alle proprie capacità di organizzare e realizzare le azioni necessarie per gestire adeguatamente le situazioni in modo da raggiungere i risultati prefissati, e proprio tali convinzioni incidono su ciò che si pensa, su come ci si sente e sui processi motivazionali e di successo per- sonale (Biasi et al., 2014, p. 488). In rapporto allo sviluppo di processi metaco- gnitivi, come afferma Rosati (2018), “l’autoefficacia agisce come catalizzatore per determinare forme sempre più raffinate di controllo metacognitivo con be- nefici effetti anche sul piano dell’apprendimento” (p. 35). Secondo Bandura (1986) una variabile determinante nel processo di costru- zione dell’autoefficacia è l’esperienza sogge ttiva di chi valuta e sperimenta in prima persona il suo essere efficace. Inoltre, altri elementi importanti sono il livello elevato di percezione di controllabilità della situazione, la generalità (ov- vero il grado con cui si generalizza, si estende e si trasferisce di situazione in situazione) e la forza di convinzione dell’autoefficacia. In linea con quanto ap- pena dichiarato quindi, secondo l’orientamento originario di Bandura (1997), l’individuo non è uno spettatore passivo della volontà dell’ambiente, ma un or- ganismo attivo capace di agency, ovvero di far accadere le cose, di intervenire sulla realtà e di esercitare un potere causale (Biasi et al., 2014; Pellerey, 2021). Il senso di autoefficacia e il percorso di formazione iniziale La letteratura sul tema (Biasi et al., 2017; Mancini & Tonarelli, 2013; Ma- nuti et al., 2022) ha rilevato come ci sia una forte connessione tra il percepirsi competenti ed efficaci, l’esperienza prati ca e l’avvio di un processo di costru- zione dell’identità professionale e in relazione a questo, si ritiene che l’occa- sione del tirocinio formativo possa considerarsi un momento privilegiato in cui approfondire le competenze attese, misurandosi con queste e sentendosi poi più o meno efficaci. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -902,7 +899,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -910,7 +907,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:13Z"
         },
         "copyright_year": {
           "page_value": "2025",
@@ -930,7 +927,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -943,18 +940,89 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19151\\temp\\2499-507X_19151.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\19151\\2499-507X_19151.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Percepirsi Efficaci Rispetto al Profilo di Uscita del Cds in Scienze dell’Educazione. Costruzione e Validazione di uno Strumento in uno Studio Pilota",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "Perceived Self-Efficacy in Relation to the Learning Outcomes of the Degree Program in Educational Sciences: Construction and Validation of an Instrument in a Pi",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Perceived Self-Efficacy in Relation to the Learning Outcomes of the Degree Program in Educational Sciences: Construction and Validation of an Instrument in a Pi",
+            "dropped_source": "locale:it_IT:meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "In the transitional phases of an individual's life, particularly with the entry into the workforce, the perception of competence becomes a crucial element, as d",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Nelle fasi di transizione della vita di ogni soggetto e in particolare con l’ingresso nel mondo del lavoro, il percepirsi competenti diventa un elemento essenzi",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

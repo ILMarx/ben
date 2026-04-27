@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11128",
-  "scraped_at_utc": "2026-04-26T20:25:36Z",
-  "fetched_at_utc": "2026-04-26T20:25:36Z",
+  "scraped_at_utc": "2026-04-27T10:20:14Z",
+  "fetched_at_utc": "2026-04-27T10:20:14Z",
   "source_mode": "live_url",
-  "source_html_sha256": "50d0fde723c688f512f2867da05488769d8fa2869d9c876e78355eac90effcea",
+  "source_html_sha256": "2499878283c852133d7ed3797244278fc6a8f77c76d81477438794ca3d4da06e",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -91,7 +91,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -131,15 +131,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": null,
       "issue": null,
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -219,7 +219,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": null,
       "citationIssue": null,
       "citationStartPage": null,
@@ -227,7 +227,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Moretti, G., Morini, A. L., & Giuliani, A. (2021). La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio. Excellence and Innovation in Learning and Teaching - Open Access . https://doi.org/10.3280/exioa0-2021oa11128",
+      "citationString": "Moretti, G., Morini, A. L., & Giuliani, A. (2021). La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio. Excellence and Innovation in Learning and Teaching . https://doi.org/10.3280/exioa0-2021oa11128",
       "articleTitleEcho": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio"
     },
     "audience": null,
@@ -283,35 +283,27 @@
       },
       {
         "value": "The strategic role of the University for the improvement of the quality of educational contexts in the territory",
-        "lang": "en",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "professional development, territory, third mission, newly hired teachers, University",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "sviluppo professionale, territorio, Terza Missione, tutor neoassunti, Università",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "The strategic role of the University for the improvement of the quality of educational contexts in the territory",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -323,8 +315,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -375,7 +366,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -422,7 +413,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2021-special-issue",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:10Z",
         "scope": "archival master metadata",
         "issue_id": "2021-special-issue",
         "issue_label": "Special issue (2021)",
@@ -457,7 +448,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -533,11 +524,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -681,10 +672,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -723,7 +714,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -757,7 +748,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -765,7 +756,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio | Excellence and Innovation in Learning and Teaching",
     "warnings": [
       "Published-date conflict: stronger page signal '2021-01-25' overrides DC.Date.issued '2021-01-26'."
     ],
@@ -792,22 +783,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:25:36Z"
+      "retrieved_at_utc": "2026-04-27T10:20:14Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:25:37Z",
+      "generated_at_utc": "2026-04-27T10:20:15Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11128",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11128",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 4,
@@ -821,8 +812,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11128",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11128",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -833,20 +824,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11128\\temp\\2499-507X_11128.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11128\\2499-507X_11128.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:25:39Z",
+      "generated_at_utc": "2026-04-27T10:20:17Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11128\\2499-507X_11128.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
         "submitted_date": "2021-01-25",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Giovanni Moretti",
@@ -856,7 +847,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11128\\2499-507X_11128.pdf",
-        "generated_at_utc": "2026-04-26T20:25:39Z",
+        "generated_at_utc": "2026-04-27T10:20:17Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 00_EILT_2021_Sommario",
@@ -869,6 +860,9 @@
           "mod_date": "2021-01-25"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio The strategic role of the University for the improvement of the quality of educational contexts in the territory Giovanni Moretti, Arianna L. Morini, Arianna Giuliani* Riassunto Le università hanno progressivamente dedi cato maggiore attenzione alle atti- vità di Terza Missione (TM) (Serbati, 2014; Boffo & Moscati, 2015; Balduzzi & Vaira, 2018). La formazione continua rappresenta uno degli ambiti più inte- ressanti di TM, che implica il coinvolgimento attivo dei docenti universitari nella individuazione delle esigenze formative del territorio e nel rispondere ad esse in modo partecipato ed efficace. Il contributo presenta gli esiti di un’indagine esplorativa svolta nell’ambito del percorso formativo progettato per tre anni consecutivi dall’Università degli Studi Roma Tre in collaborazione con l’Ufficio Scolastico Regionale per il La- zio. L’indagine ha coinvolto 2390 docenti tutor dei neoassunti (Fiorucci & Mo- retti, 2019) con la finalità di consolid are le conoscenze e sviluppare le compe- tenze connesse alle previste attività di tutorato (D.M. 850/2015). I dati sono stati rilevati attraverso strumenti quali-quantitativi. La progettazione del percorso formativo ha consentito di qualificare le pratiche professionali dei tutor dei docenti neoassunti e di rafforzare il rapporto tra Uni- versità, Ufficio Scolastico Regionale e Istituzioni scolastiche della regione Lazio. Parole Chiave: sviluppo professionale, territorio, Terza Missione, tutor neoas- sunti, Università. * Università degli Studi Roma Tre. Il contributo rappresenta il risultato di un lavoro congiunto degli autori. In particolare, G. Moretti ha scritto §1 e §4, A.L. Morini ha scritto §2 e 2.1, A. Giuliani ha scritto §3. Doi: 10.3280/exioa0-2021oa11128 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "65 al proprio ruolo sociale, nell’interazione diretta con le comunità territoriali e professionali a livello locale, nazionale o internazionale. L’Università Roma Tre tra gli impegni caratterizzanti la TM, oltre a dare un contributo all'interpretazione dell’evoluzi one sociale in corso, nell’ambito del Piano integrato 2020-2022, ha approfondito in modo specifico la questione re- lativa al coinvolgimento diretto nella trasformazione dei meccanismi parteci- pativi della realtà socio-economica. Tale partecipazione implica la conoscenza approfondita delle comunità di lavoro e dei contesti sociali che, a diversi livelli di prossimità e sussidiarietà, possono dialogare ed integrarsi con la vita di Ate- neo. Questo processo appare indispensabile per favorire l’accesso agli esiti della ricerca scientifica, per facilitare il suo utilizzo pubblico e per promuovere la consapevolezza diffusa del valore sociale della formazione continua. In linea con il concetto introdotto già nella VQR 2004-2010, relativo a quella che viene definita come «apertura verso il contesto socio-economico me- diante la valorizzazione e il trasferimento delle conoscenze», Roma Tre è im- pegnata nella progettazione e realizzazione di percorsi formativi con le scuole del territorio. La formazione continua rappresenta uno degli ambiti più rilevanti di TM, che implica il coinvolgimento attivo dei docenti universitari nella indi- viduazione delle esigenze formative del territorio e nel rispondere ad esse in modo partecipato ed efficace. La progettazione di percorsi di sv iluppo professionale rivolti a docenti di scuole di ogni ordine e grado rappresenta una valida risorsa per contribuire a qualificare i contesti educativi e innovare le pratiche didattiche (Bubb & Earley, 2009; Earley & Porritt, 2014; Lucisano, 2016; Perla, 2016). Il Piano triennale per la formazione dei docenti 2016-2019 (L.107/2015) ha evidenziato l’importanza di configurare i contesti scolastici come “ambienti di apprendimento continuo”, ed ha riconosci uto il valore dei rapporti intrattenuti dalle scuole con le università, al fine di costruire un ecosistema capace di favo- rire interventi di formazione e sviluppo professionale di qualità, rispondenti ai bisogni del territorio. Il D.M. 850/2015, ha introdotto delle ulteriori e signifi- cative novità, che valorizzano la formazi one continua dei docenti e prevedono il ricorso ad attività di sviluppo professionale tra pari. Tra queste, la riconfigu- razione della cosiddetta fase di induction prevede il coinvolgimento attivo del tutor dei docenti neoassunti, figura stra tegica del middle management. Il tutor ha il compito di svolgere azioni di accompagnamento, supporto e supervisione nell’ambito dell’anno di formazione e di prova, e per questo riveste un ruolo di rilievo per la formazione in servizio del neoassunto (Bleach, 2013; Kemmis, Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -942,7 +936,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -950,7 +944,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -970,7 +964,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -983,18 +977,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11128\\temp\\2499-507X_11128.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11128\\2499-507X_11128.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La funzione strategica dell’Università per il miglioramento della qualità dei contesti educativi sul territorio",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The strategic role of the University for the improvement of the quality of educational contexts in the territory",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The strategic role of the University for the improvement of the quality of educational contexts in the territory",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "professional development, territory, third mission, newly hired teachers, University",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "professional development, territory, third mission, newly hired teachers, University",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "sviluppo professionale, territorio, Terza Missione, tutor neoassunti, Università",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "sviluppo professionale, territorio, Terza Missione, tutor neoassunti, Università",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The universities have progressively dedicated more attention to the Third Mission activities (TM) (Serbati, 2014; Boffo &amp; Moscati, 2015; Balduzzi &amp; Vair",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Le università hanno progressivamente dedicato maggiore attenzione alle attività di Terza Missione (TM) (Serbati, 2014; Boffo &amp; Moscati, 2015; Balduzzi &amp;",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10802",
-  "scraped_at_utc": "2026-04-26T20:24:58Z",
-  "fetched_at_utc": "2026-04-26T20:24:58Z",
+  "scraped_at_utc": "2026-04-27T10:19:38Z",
+  "fetched_at_utc": "2026-04-27T10:19:38Z",
   "source_mode": "live_url",
-  "source_html_sha256": "052c9a454e5b7574444543aed063ebd2eef347240af3f087754ce0ad7d20b88a",
+  "source_html_sha256": "473e3d465eae5f43a4e1ce475ae92345be879d02e1878db77261428486a68883",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -146,7 +146,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -186,15 +186,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "5",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -274,7 +274,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "5",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -282,7 +282,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Perla, L., Felisatti, E., Grion, V., Agrati, L. S., Gallelli, R., Vinci, V., … Bonelli, R. (2020). Oltre l’era Covid-19: dall’emergenza alle prospettive di sviluppo professionale. Excellence and Innovation in Learning and Teaching - Open Access , 5 (2). https://doi.org/10.3280/exioa2-2020oa10802",
+      "citationString": "Perla, L., Felisatti, E., Grion, V., Agrati, L. S., Gallelli, R., Vinci, V., … Bonelli, R. (2020). Oltre l’era Covid-19: dall’emergenza alle prospettive di sviluppo professionale. Excellence and Innovation in Learning and Teaching , 5 (2). https://doi.org/10.3280/exioa2-2020oa10802",
       "articleTitleEcho": "Oltre l’era Covid-19: dall’emergenza alle prospettive di sviluppo professionale"
     },
     "audience": null,
@@ -358,35 +358,27 @@
       },
       {
         "value": "Beyond Covid-19: From emergency to professional development perspectives",
-        "lang": "en",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "Distance learning, didactic mediation, evaluation, faculty development, CAWI survey",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "Didattica a distanza, mediazione didattica, valutazione, faculty development, indagine CAWI",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Beyond Covid-19: From emergency to professional development perspectives",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -398,8 +390,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -450,7 +441,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -518,7 +509,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -608,11 +599,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -776,10 +767,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -818,7 +809,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -852,7 +843,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -860,7 +851,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Oltre l’era Covid-19: dall’emergenza alle prospettive di sviluppo professionale | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Oltre l’era Covid-19: dall’emergenza alle prospettive di sviluppo professionale | Excellence and Innovation in Learning and Teaching",
     "warnings": [
       "Published-date conflict: stronger page signal '2020-11-30' overrides DC.Date.issued '2020-12-01'."
     ],
@@ -887,22 +878,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:24:58Z"
+      "retrieved_at_utc": "2026-04-27T10:19:38Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:25:00Z",
+      "generated_at_utc": "2026-04-27T10:19:39Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10802",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10802",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 4,
@@ -916,8 +907,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10802",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10802",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -928,20 +919,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10802\\temp\\2499-507X_10802.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10802\\2499-507X_10802.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:25:02Z",
+      "generated_at_utc": "2026-04-27T10:19:41Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10802\\2499-507X_10802.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Oltre l’era Covid-19: dall’emergenza alle prospettive di sviluppo professionale",
         "submitted_date": "2020-11-30",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Loredana Perla",
@@ -956,7 +947,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10802\\2499-507X_10802.pdf",
-        "generated_at_utc": "2026-04-26T20:25:02Z",
+        "generated_at_utc": "2026-04-27T10:19:41Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -969,6 +960,9 @@
           "mod_date": "2020-12-21"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 2 Doi: 10.3280/exioa2-2020oa10802 Oltre l’era Covid-19: dall’emergenza alle prospet- tive di sviluppo professionale Beyond Covid-19: From emergency to professional development perspectives Loredana Perla*, Ettore Felisatti**, Valentina Grion**, Laura Sara Agrati***, Rosa Gallelli*, Viviana Vinci****, Ilenia Amati*, Roberta Bonelli**^ Riassunto L’Università è entrata prepotentemente nell’era della didattica a distanza (DaD) per far fronte all’imperativo di garantire la formazione ai giovani anche nel pe- riodo di lockdown imposto a segu ito della pandemia del Covid-19 . L’espe- rienza ha costretto la docenza ad una veloce riconversione della didattica tradi- zionale all’interno di modelli di azione on line per molti di l oro sconosciuti e inusuali. Ciò ha determinato m odificazioni significative negli approcci e nelle pratiche in uso, favorendo scelte e soluzioni spesso non consid erate in prece- denza. La ricerca indaga nello specifico l’esperienza della DaD, definendone il costrutto, per far emergere le modificazioni intervenute nella pratica didattica, ponendo un’attenzione particolare alla mediazione didattica e alla valutazione, due aree considerate fondative ed emblematiche nell’azione di i nsegnamento- apprendimento. Attraverso la somministrazione di un questionario on line a cui hanno risposto 721 docenti, si evidenziano le metamorfosi inter venute nell’azione di mediazione e di valutazione. Insieme ad un aumento di interesse verso l’utilizzo di pratiche on line compaiono elementi di criticità, connessi so- * Università degli Studi di Bari Aldo Moro. ** Università degli Studi di Padova. *** Università Telematica ‘Giustino Fortunato’, Benevento. **** Università degli Studi Mediterranea di Reggio Calabria. ^ La ricerca è frutto di un progetto condiviso. Nella redazione materiale delle parti Rosa Gallelli ha scritto l’Introduzione, Loredana Perla e Ettore Felisatti le Conclusioni e pro- spettive; Laura Agrati il paragrafo 1; Valentina Grion il parag rafo 2; Viviana Vinci il paragrafo 3; Ilenia Amati il paragrafo 4; Roberta Bonelli il paragrafo 5. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "20 in Italia un trend di sviluppo ‘di nicchia’, grazie soprattutto alla sperimentazione di buone pratiche confrontate e validate in sed i scientifiche e istituzionali specifiche1. Questa tendenza si è mantenuta costante fino alla primavera 202 0, quando il D.P.C.M. del 9 marzo ha imposto alle Università la sospensione obbligatoria della frequenza in presenza dei corsi di laurea a causa dell’emergenza Covid- 19. Improvvisamente docenti e studenti universitari di tutte le sedi non telematiche si sono ritrovati co-abitanti di uno spazio didatti co da re- immaginare digitalmente in tempi brevi: il ‘terzo spazio’ (Potter & McDougall, 2017). Tale reinvenzione è stata n iente affatto semplice perché , purtroppo, il ‘terzo spazio’ è ancora vissuto, da magna pars del corpo docente accademico, come un luogo ‘altro’ rispetto a quello della mediazione tout court, richiedente una competenza ‘aggiuntiva’ e specialistica di stretta pertinen za dei tecnologi dell’istruzione e degli informatic i. In realtà, assunte nel par adigma di una didattica mediale (Damiano, 2013; Laneve, 2005; Perla, 2016; Maccario, 2017; Agrati, 2020), anche le tecnologie diventano ‘artefatti’ concettuali portatori di proprietà ( affordances) che il modello mediale fa “parlare”. Senza la mediazione didattica ‘sofisticata’ (Perla, Agrati & Vinci, 2019 ) del docente anche le affordance restano “mute”. Di qui è nato il nostro interesse specifico a indagare le metam orfosi in atto nello spazio dell’insegnamento universitario dal punto di vista dell’analisi delle pratiche di mediazione e di valutazione adottate, oltre che dell’impatto che essa potrà indurre sull’innovazione della didattica universitaria e sulla qualità degli apprendimenti degli studenti 2. Tali impatti necessitano di essere indagati con ricerche longitudinali e comparative. In questa direzione si muove la seguente indagine, finalizzata, in questo primo step, a esplorare l’esperienza che i docenti universitari italiani hanno realiz zato nella fase di riconversi one dovuta all’emergenza sanitaria Covid-19, approfondendo in particolare le forme opzionate di mediazione didattica e valutazione didattica a distanza nel periodo di emergenza sanitaria. 1 Punto di riferimento scientifico in Italia è rappresentato da ASDUNI – Associazione italiana per la promozione e lo sviluppo della didattica, dell’apprendimento e dell’in- segnamento in Università. L’Associazione – costituitasi a Padova, il 25 gennaio 2018, a seguito della sperimentazione del progetto PRODID (Felisatti & Serbati 2015, 2017) in una rete di Atenei italiani (Bari, Camerino, Catania, Firenz e, Foggia, Genova, To- rino) – ha carattere scientifico e assume come riferimenti specifici gli orientamenti pre- senti nei documenti nazionali e internazionali che puntano alla qualificazione dell’Hi- gher Education, alla valorizzazione delle politiche di Quality Assurance e al sostegno della professionalità docente anche attraverso l’impegno concreto delle istituzioni pub- bliche e delle comunità accademiche (http://www.asduni.it). 2 Le valutazioni di impatto sono, ovviamente, oggetto di ricerche successive. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -1042,7 +1036,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -1050,7 +1044,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -1070,7 +1064,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -1083,18 +1077,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10802\\temp\\2499-507X_10802.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10802\\2499-507X_10802.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Oltre l’era Covid-19: dall’emergenza alle prospettive di sviluppo professionale",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Beyond Covid-19: From emergency to professional development perspectives",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Beyond Covid-19: From emergency to professional development perspectives",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "Distance learning, didactic mediation, evaluation, faculty development, CAWI survey",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Distance learning, didactic mediation, evaluation, faculty development, CAWI survey",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "Didattica a distanza, mediazione didattica, valutazione, faculty development, indagine CAWI",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Didattica a distanza, mediazione didattica, valutazione, faculty development, indagine CAWI",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The University was rapidly pushed into the era of distance teaching and learning (Dad) to cope with the imperative to ensure training for young people even in t",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’Università è entrata prepotentemente nell’era della didattica a distanza (DaD) per far fronte all’imperativo di garantire la formazione ai giovani anche nel p",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

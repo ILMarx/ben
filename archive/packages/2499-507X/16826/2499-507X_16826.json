@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16826",
-  "scraped_at_utc": "2026-04-26T20:28:51Z",
-  "fetched_at_utc": "2026-04-26T20:28:51Z",
+  "scraped_at_utc": "2026-04-27T10:23:35Z",
+  "fetched_at_utc": "2026-04-27T10:23:35Z",
   "source_mode": "live_url",
-  "source_html_sha256": "a00af0b533fa4df1ede4fe18de6958a15294bcbe836a3eccbc8127102e8386f2",
+  "source_html_sha256": "2069c66f865625636c839a0cdeb13eb1b8ee096862190c8a0889f6714517d11d",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -86,7 +86,7 @@
     },
     "language": {
       "value": "en",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -121,38 +121,18 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "8",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
-      {
-        "value": "Innovative teaching and learning, interaction",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Medieval archaeology",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Upskilling",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Reskilling",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
       {
         "value": "Innovative teaching and learning, interaction",
         "lang": "en",
@@ -199,7 +179,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "8",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -207,7 +187,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Chavarría Arnau, A. ., & Dal Bon, C. (2023). Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists. Excellence and Innovation in Learning and Teaching - Open Access , 8 (2). https://doi.org/10.3280/exioa2-2023oa16826",
+      "citationString": "Chavarría Arnau, A. ., & Dal Bon, C. (2023). Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists. Excellence and Innovation in Learning and Teaching , 8 (2). https://doi.org/10.3280/exioa2-2023oa16826",
       "articleTitleEcho": "Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists"
     },
     "audience": null,
@@ -263,12 +243,10 @@
         "en"
       ],
       "subject_literal_languages_raw": [
-        "it",
         "en"
       ],
       "all_literal_languages": [
-        "en",
-        "it"
+        "en"
       ]
     },
     "internal_dates": {
@@ -319,7 +297,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -387,7 +365,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -464,11 +442,11 @@
         "en"
       ],
       "DC.Rights": [
-        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -604,10 +582,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2023,
       "raw_dc_rights": [
-        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -646,7 +624,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -680,7 +658,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2023 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -688,7 +666,7 @@
       "dc_article_type": "Esperienze e pratiche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -699,13 +677,13 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:28:51Z"
+      "retrieved_at_utc": "2026-04-27T10:23:35Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:28:52Z",
+      "generated_at_utc": "2026-04-27T10:23:37Z",
       "variants": [
         {
           "locale": "en_US",
@@ -724,12 +702,12 @@
         },
         {
           "locale": "it_IT",
-          "lang": "en",
+          "lang": "it",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F16826",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/16826",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 1,
@@ -740,20 +718,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16826\\temp\\2499-507X_16826.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\16826\\2499-507X_16826.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:28:54Z",
+      "generated_at_utc": "2026-04-27T10:23:38Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16826\\2499-507X_16826.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists",
         "submitted_date": "2023-11-21",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2023",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "en",
         "creator_names": [
           "Alexandra Chavarría Arnau",
@@ -762,7 +740,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16826\\2499-507X_16826.pdf",
-        "generated_at_utc": "2026-04-26T20:28:54Z",
+        "generated_at_utc": "2026-04-27T10:23:38Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 06_EXIOA2_2023 Arnau-DalBon.docx",
@@ -775,6 +753,9 @@
           "mod_date": "2023-12-11"
         },
         "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2023, 2 Doi: 10.3280/exioa2-2023oa16826 Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists Alexandra Chavarría Arnau*, Cecilia Dal Bon^ Abstract This paper explores the transformative impact of flipped learning and Massive Open Online Courses (MOOCs) on higher education, specifically i n the field of medieval archaeology at the University of Padova. It delves into the implementation of these innovativ e approaches, their effects on student performance, and the valuable insights gained from student feed back. Additionally, it highlights the global reach of MOOCs created as a complement to these courses, including their multiple functions and implications also for lifelong learning. The findings suggest that blending online an d traditional teaching can create a dynamic and inclusive educational experience that caters to the needs of traditional students, professional archaeologis ts who want to improve their skills and competencies and enthusiasts of archaeology. Keywords: innovative teaching and learning, interaction, medieval archaeology, upskilling, reskilling. Article submitted: 11/09/2023; accepted: 08/11/2023 Available online: 13/12/2023 1. Introduction: Creating hybrid learning environments The COVID-19 pandemic served as a catalyst for the adoption of online teaching tools, and even as universities returned to normality, the benefits of * Department of Cultural Heritage: Archaeology, History of Art, Cinema and Music, University of Padova, Italy. E-mail: chavarria@unipd.it. ^ Digital Learning and Multimedia Office, University of Padova, Italy. E-mail: cecilia.dalbon@unipd.it. The submission is the product of the joined effort of both authors. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "89 has also incorporated progressive and continuous assessment methods to certify learner’s proficiency in a wide range of contents and skills. A highly valuable instrument in refining and conceptualizing th is method has been the simultaneous creation of a MOOC series on medieval archaeology, currently comprising three courses. These MOOCs have played a p ivotal role in shaping the content and structure of the course by offering various activity formats for exploration. Furthermore, these MOOCs, which have the option to be incorporated as flipped learning materials within the course , have been instrumental in developing strategies for online interaction be tween the teaching staff and remote learners. In my experience, they have also illuminated the existence of a vast global community of learners, eager to engage with our lessons. This insight has sparked further reflection on the influence we could wield in the realm of lifelong education - not only limited to recrea tional access, but also with the possibility of serving to facilitate continuous professional development in our field, archaeology. Our discipline evolves rapidly, particularly in the realm of research methodologies, and it is crucial for professionals to stay abreast of these advancements. There is an increasing imperative for educational institutions to broaden their reach and offer lifelong, skills-based training to a wider audience, catering to individuals at any stage of their lives. 2. A three-step model for a flipped learning experience Since 2021, a flipped teaching method has been tested for the M edieval Archaeology course of the degree in archaeology at the Cultural Heritage Department of the University of Padova. The course is typically held i n the third year of the three-year course in archaeology (63 hours / 9 CTS), and it is mainly based on the handbook Post-Classical Archaeologies (Brog iolo & Chavarría Arnau, 2020). It started during the Covid period in the academic year 2019-2020, with approximately 70 students enrolled in Moodle, f ollowed by 100 in 2020-2021, 120 in 2021-2022, and 140 in 2022-2023. The course delves into the historical period spanning from the 5th to the 15th centuries, covering not only conventional topics like cities, countryside, trade, churches, and cemeteries but also aspects that have relevance t o both our present and future. These additional subjects open the door to discussions that transcend students’ existing knowledge levels, encompassing iss ues such as climate change, environmental shifts, dietary and health concer ns, pandemics, migrations, territorial conflicts and frontiers, local and global market dynamics, and religious diversity. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "en",
         "regex_candidates": {
           "title": null,
           "submitted_date": "2023-09-11",
@@ -838,7 +819,7 @@
           "controversial": false,
           "reason": "La prima pagina PDF riporta esplicitamente la data di submission.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:35:25Z"
+          "manual_confirmed_at_utc": "2026-04-27T15:30:43Z"
         },
         "accepted_date": {
           "page_value": null,
@@ -850,7 +831,7 @@
           "reason": "La prima pagina PDF riporta esplicitamente la data di acceptance."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -858,7 +839,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:13Z"
         },
         "copyright_year": {
           "page_value": "2023",
@@ -878,7 +859,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -891,18 +872,75 @@
           "page_value": "2023-11-21",
           "pdf_value": "2023-09-11",
           "chosen_source": "pdf",
-          "applied_at_utc": "2026-04-26T20:35:25Z"
+          "applied_at_utc": "2026-04-27T15:30:43Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\16826\\temp\\2499-507X_16826.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\16826\\2499-507X_16826.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "en"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Transforming higher education: From Flipped lessons and MOOCs to lifelong learning for archaeologists",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This paper explores the transformative impact of flipped learning and Massive Open Online Courses (MOOCs) on higher education, specifically in the field of medi",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "values": [
+              "Innovative teaching and learning, interaction",
+              "Medieval archaeology",
+              "Upskilling",
+              "Reskilling"
+            ]
+          }
+        ]
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "submitted_date",
         "page_value": "2023-11-21",
         "pdf_value": "2023-09-11",
         "chosen_source": "pdf",
-        "applied_at_utc": "2026-04-26T20:35:25Z"
+        "applied_at_utc": "2026-04-27T15:30:43Z"
       }
     }
   }

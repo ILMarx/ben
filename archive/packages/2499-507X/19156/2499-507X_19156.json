@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19156",
-  "scraped_at_utc": "2026-04-26T20:29:45Z",
-  "fetched_at_utc": "2026-04-26T20:29:45Z",
+  "scraped_at_utc": "2026-04-27T10:24:17Z",
+  "fetched_at_utc": "2026-04-27T10:24:17Z",
   "source_mode": "live_url",
-  "source_html_sha256": "b203497fc9fb3885a7ec3884bd61a415e79cd639e69c55e3d7cca6cad90ed08c",
+  "source_html_sha256": "9c547f8f1c9b2a5afa409270b770beea95602b517878a65f8221f7f889d6fd27",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "9",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -197,7 +197,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "9",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -205,7 +205,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Sicurello, R. (2025). Orientamento attivo nella transizione scuola-università-lavoro. Excellence and Innovation in Learning and Teaching - Open Access , 9 (2). https://doi.org/10.3280/exioa2-2024oa19156",
+      "citationString": "Sicurello, R. (2025). Orientamento attivo nella transizione scuola-università-lavoro. Excellence and Innovation in Learning and Teaching , 9 (2). https://doi.org/10.3280/exioa2-2024oa19156",
       "articleTitleEcho": "Orientamento attivo nella transizione scuola-università-lavoro"
     },
     "audience": null,
@@ -281,22 +281,15 @@
       },
       {
         "value": "Active orientation in the school-university-work transition",
-        "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Active orientation in the school-university-work transition",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -359,7 +352,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -406,7 +399,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2024-v9-n2",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:09Z",
         "scope": "archival master metadata",
         "issue_id": "2024-v9-n2",
         "issue_label": "Vol. 9, No. 2 (2024)",
@@ -441,7 +434,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -517,11 +510,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -662,10 +655,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2025,
       "raw_dc_rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -704,7 +697,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -738,7 +731,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -746,7 +739,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Orientamento attivo nella transizione scuola-università-lavoro | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Orientamento attivo nella transizione scuola-università-lavoro | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -757,22 +750,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:29:45Z"
+      "retrieved_at_utc": "2026-04-27T10:24:17Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:29:47Z",
+      "generated_at_utc": "2026-04-27T10:24:19Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19156",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19156",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 2,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 2,
@@ -786,8 +779,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19156",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19156",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 2,
@@ -798,20 +791,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19156\\temp\\2499-507X_19156.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\19156\\2499-507X_19156.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:29:48Z",
+      "generated_at_utc": "2026-04-27T10:24:20Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19156\\2499-507X_19156.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Orientamento attivo nella transizione scuola-università-lavoro",
         "submitted_date": "2025-01-14",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2025",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Rossana Sicurello"
@@ -819,7 +812,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19156\\2499-507X_19156.pdf",
-        "generated_at_utc": "2026-04-26T20:29:48Z",
+        "generated_at_utc": "2026-04-27T10:24:20Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -832,6 +825,9 @@
           "mod_date": "2025-01-24"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19156 Orientamento attivo nella transizione scuola-univer- sità-lavoro Active orientation in the school-university-work transition Rossana Sicurello* Riassunto Il tema dell’accompagnamento alla scelta di carriera in relazione alla fase di transizione dalla scuola all’università e al mondo del lavoro è diventato un fo- cus rilevante nel dibattito sull’orientamen to. Scegliere l’indirizzo nella scuola secondaria di secondo grado, il percorso universitario, le competenze specifiche da sviluppare o le direzioni verso cui orientare i propri sforzi di apprendimento apparentemente sembrano compiti semplici che interessano tutti i giovani adulti nei momenti di transizione e di passaggio dalla scuola all’università e dall’uni- versità al mondo del lavoro, ma non sempre è così: si tratta, infatti, di compiti di sviluppo cruciali per la costruzione della futura identità lavorativa e profes- sionale per cui non sempre le persone sono preparate e/o adeguatamente sup- portate dal contesto familiare, sociale, culturale che li circonda. Una risposta potrebbe essere l’implementazione di un sistema di supporto allo sviluppo delle Career Management Skills, ovvero quelle competenze e abilità necessarie per la gestione, esplorazione, identificazione e realizzazione delle proprie aspetta- tive a livello personale, formativo e lavorativo. Sono presentati, in tale dire- zione, i percorsi di orientamento educativo e professionale dedicati a studen- tesse e studenti di scuola secondaria di secondo grado e universitari, in linea con quanto stabilito dalle riforme PNRR per la transizione scuola-università- lavoro. Parole-chiave: orientamento, transizione, Career Management Skills, empow- erment, autodeterminazione * Università degli Studi di Palermo. Dipa rtimento di Scienze Psicologiche, Pedagog- iche, dell’Esercizio Fisico e della Formazione. E-mail: rossana.sicurello@unipa.it. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "44 professionali umanistici e ambiti professionali STEM (Scienza, Tecnologia, In- gegneria e Matematica) (Healy et al., 2017). Questa situazione ha avuto un impatto significativo sui processi di transi- zione dalla scuola, all’università, al m ondo del lavoro, influenzando i bisogni di orientamento delle giovani generazioni . Ne è derivata l’esigenza di una so- stanziale revisione dei modelli di orie ntamento per renderli più adeguati ad identificare obiettivi formativi e professionali, supportando le scelte di carriera (Forakis et al., 2020). A fronte del contesto delineato, risulta di estrema impor- tanza permettere ai giovani di gestire in maniera attiva il proprio sviluppo for- mativo e di carriera, costruendo un sistem a di formazione e di orientamento continuo che coinvolga tutte le fasi di vita dell’essere umano, in grado di atti- vare processi di conoscenza del sé e consapevolezza sulle proprie potenzialità e sui propri limiti (Illeris, 2003) e di sviluppare quelle che vengono definite Career Management Skills (CMS) o Career Competencies o Competenze Orientative. Il saggio è articolato in tre parti. Nella prima viene presentata l’importanza dello sviluppo di un sistema di orientamento e auto-orientamento costruito se- condo il costrutto delle CMS e del self-directed guidance (Federighi, Del Gobbo, & Frison, 2021) per aiutare i giovani adulti a muoversi e districarsi in maniera consapevole all’interno del quadro dell’offerta formativa e lavorativa, in modo da fornire alle studentesse e agli studenti le risorse e gli strumenti utili a muoversi all’interno della società in modo critico, sviluppando la capacità di controllo della realtà e la consapevolezza che essa può mutare (Galeotti, 2020). Nella seconda parte viene presentato il grande programma di rilancio dell’economia e dello sviluppo compl essivo dei paesi dell’eurozona, denomi- nato Next Generation EU, poi tradotto nelle diverse nazioni in molteplici Piani nazionali di ripresa e di resilienza, pr ogettati a seconda dei bisogni percepiti e delle capacità prospettiche di visione ve rso il futuro. In Italia molti finanzia- menti sono stati attribuiti alla scuola e all’università al fine di portare avanti la riforma del sistema di orientamento e l’orientamento attivo nella transizione scuola-università. Sono presentate altresì le diverse esperienze avviate in Italia in cui scuole e università sono coinvolte in prima linea nell’attivazione di di- verse proposte formative. Infine, nell’ultima parte, viene presentato una sorta di bilancio sulle riforme messe in atto negli ultimi anni e sulle diverse iniziative proposte al fine di com- prendere la loro capacità di risposta all’urgenza di adottare un paradigma che possa essere finalizzato alla promozione di processi di career learning e di ca- reer education, che aiutino la persona nella realizzazione del personale progetto di vita (Del Gobbo, Frison, Galeotti, 2021) con l’obiettivo di orientare, for- nendo sia contributi conoscitivi, ma anche e soprattutto azioni e attività forma- tive e trasversali (Savickas et al., 2009). Questo perché solo sviluppando un Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -905,7 +901,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -913,7 +909,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:13Z"
         },
         "copyright_year": {
           "page_value": "2025",
@@ -933,7 +929,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -946,18 +942,89 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19156\\temp\\2499-507X_19156.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\19156\\2499-507X_19156.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Orientamento attivo nella transizione scuola-università-lavoro",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Active orientation in the school-university-work transition",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Active orientation in the school-university-work transition",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The topic of support for career choice in relation to the transition phase from school to university and to the world of work has become a relevant focus in the",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Il tema dell’accompagnamento alla scelta di carriera in relazione alla fase di transizione dalla scuola all’università e al mondo del lavoro è diventato un focu",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

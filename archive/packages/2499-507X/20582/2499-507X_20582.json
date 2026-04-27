@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20582",
-  "scraped_at_utc": "2026-04-26T20:30:14Z",
-  "fetched_at_utc": "2026-04-26T20:30:14Z",
+  "scraped_at_utc": "2026-04-27T10:24:47Z",
+  "fetched_at_utc": "2026-04-27T10:24:47Z",
   "source_mode": "live_url",
-  "source_html_sha256": "4c816ba90c16f7f993b22e398e6cd842a3df5c0a5dbf75ff86246ca5d87ee17f",
+  "source_html_sha256": "ad6883c2f146e3801380aa2aed1dcbb5a2edfaec3e40148473fda1bb8dfcdc6b",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -79,8 +79,8 @@
       "Issued": "2025-07-11"
     },
     "language": {
-      "value": "it",
-      "source": "meta:citation_language"
+      "value": "en",
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -96,7 +96,7 @@
     "descriptions": [
       {
         "value": "The use of digital badges in education has gained popularity in recent years, offering a novel way to recognize and certify students’ competences and learning outcomes. These badges are akin to physical awards, but they can be shared online, making them accessible to potential employers and higher education institutions. A significant feature of digital badges is the detailed description of skills they represent, which enhances their transparency and value. Research has delved into the benefits and challenges of implementing digital badges, examining their impact on student motivation, learning, assessment, and best practices in design and implementation. Digital badges provide immediate feedback, thus promoting engagement and participation. They can also be “open” or “stackable,” motivating students to pursue long-term learning goals. However, the implementation of digital badges presents challenges. To ensure integrity, digital badges must have clear and reliable criteria, and stakeholders should validate their design. Good practices include student involvement in design, collaboration with industry experts, and the use of reliable technologies. This case study, as part of a master’s degree program, found that students questioned the value of badges, emphasizing that they require teacher emphasis to be motivating and do not necessarily reflect skills attained. This study aligns with students’ preference for learning without the need for tangible rewards, highlighting how badges can be complementary but not essential to the learning process. The research indicates the importance of further evaluation and improvement of digital badge implementation to maximize their educational impact.",
-        "lang": "it",
+        "lang": "en",
         "source": "meta:DC.Description"
       }
     ],
@@ -115,43 +115,18 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "10",
       "issue": "1",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
-      {
-        "value": "Digital badge",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "higher education",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "competences",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "lifelong learning",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "open learning",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
       {
         "value": "Digital badge",
         "lang": "en",
@@ -203,7 +178,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "10",
       "citationIssue": "1",
       "citationStartPage": null,
@@ -211,7 +186,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Pelizzari, F., & Ferrari, S. (2025). Utilising Digital Badges in Higher Education. A Pilot Case Study Analysing their Influence on University Students. Excellence and Innovation in Learning and Teaching - Open Access , 10 (1). https://doi.org/10.3280/exioa1-2025oa20582",
+      "citationString": "Pelizzari, F., & Ferrari, S. (2025). Utilising Digital Badges in Higher Education. A Pilot Case Study Analysing their Influence on University Students. Excellence and Innovation in Learning and Teaching , 10 (1). https://doi.org/10.3280/exioa1-2025oa20582",
       "articleTitleEcho": "Utilising Digital Badges in Higher Education. A Pilot Case Study Analysing their Influence on University Students"
     },
     "audience": null,
@@ -260,29 +235,27 @@
       "DC.Identifier": "20582",
       "url_slug": "20582"
     },
-    "resource_language": "it",
+    "resource_language": "en",
     "title_variants": [
       {
         "value": "Utilising Digital Badges in Higher Education. A Pilot Case Study Analysing their Influence on University Students",
-        "lang": "it",
+        "lang": "en",
         "role": "main",
-        "source": "meta:citation_title"
+        "source": "locale:en_US:meta:citation_title"
       }
     ],
     "metadata_languages": {
-      "resource_language": "it",
+      "resource_language": "en",
       "title_literal_languages": [
-        "it"
+        "en"
       ],
       "description_literal_languages": [
-        "it"
+        "en"
       ],
       "subject_literal_languages_raw": [
-        "it",
         "en"
       ],
       "all_literal_languages": [
-        "it",
         "en"
       ]
     },
@@ -334,7 +307,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -402,7 +375,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -480,11 +453,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -628,10 +601,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2025,
       "raw_dc_rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -670,7 +643,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -704,7 +677,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -712,7 +685,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Utilising Digital Badges in Higher Education. A Pilot Case Study Analysing their Influence on University Students | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Utilising Digital Badges in Higher Education. A Pilot Case Study Analysing their Influence on University Students | Excellence and Innovation in Learning and Teaching",
     "warnings": [
       "Published-date conflict: stronger page signal '2025-07-11' overrides DC.Date.issued '2025-11-17'."
     ],
@@ -739,21 +712,21 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:30:14Z"
+      "retrieved_at_utc": "2026-04-27T10:24:47Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:30:16Z",
+      "generated_at_utc": "2026-04-27T10:24:49Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F20582",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20582",
-          "added_titles": 0,
+          "added_titles": 1,
           "added_descriptions": 0,
           "added_subjects": 5,
           "raw_counts": {
@@ -769,7 +742,7 @@
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F20582",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/20582",
           "added_titles": 0,
-          "added_descriptions": 0,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 1,
@@ -780,20 +753,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20582\\temp\\2499-507X_20582.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\20582\\2499-507X_20582.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:30:18Z",
+      "generated_at_utc": "2026-04-27T10:24:51Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20582\\2499-507X_20582.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Utilising Digital Badges in Higher Education. A Pilot Case Study Analysing their Influence on University Students",
         "submitted_date": "2025-07-07",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2025",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Federica Pelizzari",
@@ -802,7 +775,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20582\\2499-507X_20582.pdf",
-        "generated_at_utc": "2026-04-26T20:30:18Z",
+        "generated_at_utc": "2026-04-27T10:24:51Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -815,6 +788,9 @@
           "mod_date": "2025-07-11"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 1 Doi: 10.3280/exioa1-2025oa20582 Utilising Digital Badges in Higher Education. A Pilot Case Study Analysing their Influence on University Students Federica Pelizzari, Simona Ferrari* Abstract The use of digital badges in education has gained popularity in recent years, offering a novel way to recognize and certify students’ competences and learning outcomes. These badges are akin to physical awards, but they can be shared online, making them accessible to potential employers and higher education institutions. A significant feat ure of digital badges is the detailed description of skills they represent, wh ich enhances their transparency and value. Research has delved into the benefits and challenges of implementing digital badges, examining their impact on student motivation, learning, assessment, and best practices in design and implementation. Digital badges provide immediate feedback, thus prom oting engagement a nd participation. They can also be “open” or “stackable,” motivating students to pursue long- term learning goals. However, the impl ementation of digital badges presents challenges. To ensure integrity, digita l badges must have clear and reliable criteria, and stakeholders should validate their design. Good practices include student involvement in design, collaboration with industry experts, and the use of reliable technologies. This case study, as part of a master’s degree program, found that students questioned the value of badges, emphasizing that they require teacher emphasis to be motivating and do not necessarily reflect skills attained. This study aligns with students’ preference for learning without the need for tangible rewards, highlighting how badges can be complementary but not essential to the learning process. The research indicates the importance of further evaluation and * Università Cattolica del Sacro Cuore (Italy), e-mail: federica.pelizzari@unicatt.it. The authors collaboratively developed this article. F.P. contributed to Section 1, “Introduction”, 2.2 “The Case Study and its Methodology”, 3. “Results” and 4. “Discussion and Conclusions”; S.F. authored Section 2.1 “The context of Media Education Master’s Degree”. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "67 higher education institutions, or any other interested parties. These badges often come with a comprehensive description of the skills acquired and the specific criteria that led to their awarding. Th is transparency facilitates a deeper understanding of their significance and value (Frederiksen, 2013). The emergence of digital badges has pr ompted extensive research into the potential benefits and challenges that they present. Researchers have delved into topics ranging from their influence on student motivation to their impact on the learning and assessment processes (Carey & Stefaniak, 2018). Relevant investigations have also uncovered best practices for badge design and implementation, further illuminating the potential of this innovative educational tool. One particularly noteworthy feature of digital badges is that they can recognize and validate skills ac quired by students beyond traditional educational settings (Abramovich, 2016). For instance, a digital badge can be awarded to acknowledge effective collabor ation, creativity, or proficiency in solving complex problems. This enables students to demonstrate their unique skills to a wider audience, including potential employers and institutions of higher learning (Jones et al., 2018). Moreover, scientific literature has under scored the pivotal role of digital badges in bolstering student motivatio n. These badges provide immediate and concrete feedback on student perform ance, thereby prompting heightened engagement and active participation (Hurst, 2015). Further, they can be designed to be “open” or “stackable,” allowing students to accumulate badges progressively and effectively build an increasingly advanced skill set over time. This structured progression system h as the potential to boost students’ motivation to pursue long-term learning goals (Gamrat et al., 2014). The utilization of digital badges in education offers a plethora of advantages, as elucidated by Besser and Newby (2019): ● Increased motivation and involvement: The tangible nature of digital badges constantly increases motivation and act ive participation among students in the learning process. ● Specific outcomes and visible skills: Digital badges enable students to tangibly display their skills, making them readily shareable with peers, educators, and prospective employers. ● Micro-credentials: Digital badges effectively break down complex skills into manageable units, facilitating a ta rgeted approach to learning and assessment. Digital badges are versatile tools th at have applications in various educational contexts, as described by Newby and Cheng (2020): - Validation of skills: These badges can effectively validate a broad spectrum of skills, including technical expertise, soft skills, and digital literacy. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "en",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -888,7 +864,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -896,7 +872,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:13Z"
         },
         "copyright_year": {
           "page_value": "2025",
@@ -916,7 +892,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -929,18 +905,76 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\20582\\temp\\2499-507X_20582.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\20582\\2499-507X_20582.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "en"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Utilising Digital Badges in Higher Education. A Pilot Case Study Analysing their Influence on University Students",
+            "dropped_source": "meta:citation_title",
+            "kept_source": "locale:en_US:meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The use of digital badges in education has gained popularity in recent years, offering a novel way to recognize and certify students’ competences and learning o",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "values": [
+              "Digital badge",
+              "higher education",
+              "competences",
+              "lifelong learning",
+              "open learning"
+            ]
+          }
+        ]
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

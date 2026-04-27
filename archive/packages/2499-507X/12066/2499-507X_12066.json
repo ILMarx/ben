@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12066",
-  "scraped_at_utc": "2026-04-26T20:26:12Z",
-  "fetched_at_utc": "2026-04-26T20:26:12Z",
+  "scraped_at_utc": "2026-04-27T10:21:01Z",
+  "fetched_at_utc": "2026-04-27T10:21:01Z",
   "source_mode": "live_url",
-  "source_html_sha256": "8c88a095a3d7b51a5b3e757399320b5def6b4b7617ca14041c06b359fed857ee",
+  "source_html_sha256": "d605e79003fa16f058d2ad28afec87a1c6b1a92ce8b5ada6f69ca71a3b6ea1e4",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -80,7 +80,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -115,15 +115,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "6",
       "issue": "1",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -151,31 +151,6 @@
         "value": "validazione",
         "lang": "it",
         "source": "meta:citation_keywords"
-      },
-      {
-        "value": "IBSE",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
-      },
-      {
-        "value": "didattica laboratoriale",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
-      },
-      {
-        "value": "stili di conduzione",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
-      },
-      {
-        "value": "questionario",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
-      },
-      {
-        "value": "validazione",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -203,7 +178,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "6",
       "citationIssue": "1",
       "citationStartPage": null,
@@ -211,7 +186,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Cappuccio, G., & Maniscalco, L. (2021). Costruzione e validazione del questionario DIDLab “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’approccio IBSE”. Excellence and Innovation in Learning and Teaching - Open Access , 6 (1). https://doi.org/10.3280/exioa1-2021oa12066",
+      "citationString": "Cappuccio, G., & Maniscalco, L. (2021). Costruzione e validazione del questionario DIDLab “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’approccio IBSE”. Excellence and Innovation in Learning and Teaching , 6 (1). https://doi.org/10.3280/exioa1-2021oa12066",
       "articleTitleEcho": "Costruzione e validazione del questionario DIDLab “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’approccio IBSE”"
     },
     "audience": null,
@@ -270,12 +245,10 @@
         "it"
       ],
       "subject_literal_languages_raw": [
-        "it",
-        "en"
+        "it"
       ],
       "all_literal_languages": [
-        "it",
-        "en"
+        "it"
       ]
     },
     "internal_dates": {
@@ -326,7 +299,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -394,7 +367,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -472,11 +445,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -620,10 +593,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2021,
       "raw_dc_rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -662,7 +635,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -696,7 +669,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -704,7 +677,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Costruzione e validazione del questionario DIDLab “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’approccio IBSE” | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Costruzione e validazione del questionario DIDLab “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’approccio IBSE” | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -715,22 +688,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:26:12Z"
+      "retrieved_at_utc": "2026-04-27T10:21:01Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:26:13Z",
+      "generated_at_utc": "2026-04-27T10:21:02Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F12066",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12066",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 1,
@@ -756,20 +729,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12066\\temp\\2499-507X_12066.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\12066\\2499-507X_12066.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:26:15Z",
+      "generated_at_utc": "2026-04-27T10:21:03Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12066\\2499-507X_12066.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Costruzione e validazione del questionario DIDLab “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’approccio IBSE”",
         "submitted_date": "2021-06-18",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2021",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Giuseppa Cappuccio",
@@ -778,7 +751,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12066\\2499-507X_12066.pdf",
-        "generated_at_utc": "2026-04-26T20:26:15Z",
+        "generated_at_utc": "2026-04-27T10:21:03Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -791,6 +764,9 @@
           "mod_date": "2021-06-25"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12066 Costruzione e validazione del questionario DIDLab “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’approccio IBSE” Construction and validation of the DIDLab questionnaire “Laboratory teaching: IBSE-based learning & conducting styles” Giuseppa Cappuccio * e Lucia Maniscalco* Riassunto Il presente lavoro espone gli esiti della costruzione e validazione del questiona- rio “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’ap- proccio IBSE” finalizzato a misurare il grado di conoscenza dell’approccio In- quiry-Based Science Education e lo stile di conduzione nella di dattica labora- toriale, che ha visto coinvolti 523 corsisti del corso di speci alizzazione per le attività di sostegno didattico dell’Università degli Studi di P alermo; il test di misurazione costruito è composto da 42 item suddiviso in cinque macro-aree su scala Likert a 5 punti. Dall’analisi quantitativa condotta è emerso che il questionario ha buona con- cordanza, pensato per indagare sulle conoscenze dell’approccio investigativo e migliorare lo stile di conduzione della didattica laboratoriale. Quest’ultima ri- sulta utile a facilitare l’acquisizione di una competenza in ogni ordine di scuola. Il laboratorio, infatti, rappresenta la modalità trasversale ch e promuove nello studente una preparazione completa e capace di continuo rinnova mento. Dall’analisi sono emersi risultati molto soddisfacenti per quanto riguarda l’at- tendibilità e la validità del questionario costruito. A seguito dell’analisi fatto- riale condotta sono stati estrapolati i due fattori più rappresentativi, denominati Stili di conduzione nella didattica laboratoriale e Conoscenza dell’approccio Inquiry-Based Science Education. Infine, è stata condotta un MANOVA 2 X 2 per esplorare differenze ascriv ili agli anni di servizio e al g rado di istruzione dove si presta insegnamento. Tale indagine ha rilevato una corr elazione tra la conoscenza e l’applicazione dell’approccio IBSE alla didattica laboratoriale * Università degli Studi di Palermo. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "82 giamento di passività e di estraneità che caratterizza spesso i l loro atteggia- mento di fronte alle lezioni frontali, divenendo in tal modo l’ acquisizione di conoscenze momento di apprendimento significativo (Ausubel, 1963; 2004). Il laboratorio può, quindi, rappresentare la modalità trasversale che caratte- rizza la didattica e la formazione dei futuri docenti, per prom uovere nello stu- dente una preparazione completa e capace di continuo rinnovamen to, idonea per la promozione di un apprendimento significativo ovvero in grado di creare nella stessa persona in formazione, consapevolmente ed esplicit amente, un sa- pere nuovo partendo dai concetti e dai contenuti preesistenti nella sua struttura cognitiva rendendola attraverso l’attivazione nel soggetto, “protagonista” del proprio apprendimento, processi cognitivi attivi in grado di pr odurre cono- scenze stabili e durature (Amenta, 2008; Ausubel, 2004; Pedone, 2012). La di- dattica laboratoriale diventa in tale prospettiva uno strumento di innovazione nel processo di insegnamento-apprendimento in quanto colui che apprende, il- luminato dalla teoria, diventa l’elemento centrale del percorso formativo met- tendo in atto quanto appreso dal docente e analizzando, sperime ntando e valu- tando la realtà (Cappuccio & Maniscalco, 2020). Attraverso la d idattica labo- ratoriale gli studenti hanno la possibilità di confrontarsi, di mettere in atto le abilità critiche, logiche e creative per esplorare la realtà circostante. Tutto que- sto si coniuga perfettamente con le possibilità che può offrire un laboratorio scientifico Inquiry-Based. Attraverso l’approccio Inquiry si at tua un processo di investigazione in cui colui che apprende: simula una ricerca scientifica, fa osservazioni, si pone delle domande, cerca le risposte consulta ndo, esegue esperimenti, raccoglie dati, li analizza e propone soluzioni (U zezi Gladys & Zainab, 2017). In linea con gli studi sull’Inquiry Based Science Education lo studio qui proposto illustra il processo di c ostruzione e validazione di un nuovo questio- nario (DIDLab) finalizzato alla misura del grado di conoscenza dell’approccio Inquiry e dello stile di conduzione nella didattica laboratoria le dei docenti in formazione quali metodologie da utilizzare in sinergia. La validazione del questionario DIDLab è stata altresì finalizzata alla valu- tazione delle performance dello strumento per migliorare lo stile di conduzione della didattica laboratoriale utile a facilitare l’acquisizione di una competenza. 2. Quadro teorico Gli studenti non sono delle men ti su cui ‘incidere’ concetti, m a riescono a offrire intuitivamente delle spiegazioni circa il funzionamento della realtà che li circonda. Per tale ragione è opportuno spingere verso una fo rmazione in cui gli studenti siano competenti e capaci di interagire con la con oscenza in modo Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -864,7 +840,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -872,7 +848,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2021",
@@ -892,7 +868,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -905,18 +881,76 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12066\\temp\\2499-507X_12066.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\12066\\2499-507X_12066.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Costruzione e validazione del questionario DIDLab “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’approccio IBSE”",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Il presente lavoro espone gli esiti della costruzione e validazione del questionario “La didattica Laboratoriale: apprendimenti e stili di conduzione con l’appr",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "values": [
+              "IBSE",
+              "didattica laboratoriale",
+              "stili di conduzione",
+              "questionario",
+              "validazione"
+            ]
+          }
+        ]
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

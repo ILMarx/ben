@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10813",
-  "scraped_at_utc": "2026-04-26T20:25:15Z",
-  "fetched_at_utc": "2026-04-26T20:25:15Z",
+  "scraped_at_utc": "2026-04-27T10:19:54Z",
+  "fetched_at_utc": "2026-04-27T10:19:54Z",
   "source_mode": "live_url",
-  "source_html_sha256": "687fc2dc7bd80719979cc529407b7503728743592484aa171aef211e69e179f3",
+  "source_html_sha256": "593f5a9ebe5683d438986a9de63876a959678039b893119012d12b5b5f562302",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -80,7 +80,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -120,15 +120,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "5",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -208,7 +208,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "5",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -216,7 +216,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Sanz-Manzanedo, M., & Lezcano-Barbero, F. (2020). Formazione degli insegnanti sulle TIC in Italia: una proposta formativa seguendo il modello formativo della Castiglia y León (Spagna). Excellence and Innovation in Learning and Teaching - Open Access , 5 (2). https://doi.org/10.3280/exioa2-2020oa10813",
+      "citationString": "Sanz-Manzanedo, M., & Lezcano-Barbero, F. (2020). Formazione degli insegnanti sulle TIC in Italia: una proposta formativa seguendo il modello formativo della Castiglia y León (Spagna). Excellence and Innovation in Learning and Teaching , 5 (2). https://doi.org/10.3280/exioa2-2020oa10813",
       "articleTitleEcho": "Formazione degli insegnanti sulle TIC in Italia: una proposta formativa seguendo il modello formativo della Castiglia y León (Spagna)"
     },
     "audience": null,
@@ -295,35 +295,27 @@
       },
       {
         "value": "Training of teachers on ICT in Italy: A training proposal following the training model of Castilla y León (Spain)",
-        "lang": "en",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "digital competence; ICT; distance learning; teacher training; blended learning",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "competenza digitale; TIC; didattica a distanza; formazione degli insegnanti; blended learning",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Training of teachers on ICT in Italy: A training proposal following the training model of Castilla y León (Spain)",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -335,8 +327,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -387,7 +378,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -455,7 +446,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -533,11 +524,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -683,10 +674,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -725,7 +716,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -759,7 +750,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -767,7 +758,7 @@
       "dc_article_type": "Esperienze e pratiche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Formazione degli insegnanti sulle TIC in Italia: una proposta formativa seguendo il modello formativo della Castiglia y León (Spagna) | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Formazione degli insegnanti sulle TIC in Italia: una proposta formativa seguendo il modello formativo della Castiglia y León (Spagna) | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -778,22 +769,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:25:15Z"
+      "retrieved_at_utc": "2026-04-27T10:19:54Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:25:17Z",
+      "generated_at_utc": "2026-04-27T10:19:55Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10813",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10813",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 4,
@@ -807,8 +798,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10813",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10813",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -819,20 +810,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10813\\temp\\2499-507X_10813.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10813\\2499-507X_10813.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:25:18Z",
+      "generated_at_utc": "2026-04-27T10:19:57Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10813\\2499-507X_10813.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Formazione degli insegnanti sulle TIC in Italia: una proposta formativa seguendo il modello formativo della Castiglia y León (Spagna)",
         "submitted_date": "2020-12-01",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Marta Sanz-Manzanedo",
@@ -841,7 +832,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10813\\2499-507X_10813.pdf",
-        "generated_at_utc": "2026-04-26T20:25:18Z",
+        "generated_at_utc": "2026-04-27T10:19:57Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -854,6 +845,9 @@
           "mod_date": "2020-12-01"
         },
         "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 2 Formazione degli insegnanti sulle TIC in Italia: una proposta formativa seguendo il modello formativo della Castiglia y León (Spagna) Training of teachers on ICT in Italy: A training proposal following the training model of Castilla y León (Spain) Marta Sanz-Manzanedo*, Fernando Lezcano-Barbero** Riassunto Questo articolo presenta i risultati ottenuti in un’esperienza formativa per mi- gliorare la percezione delle competenze digitali di un gruppo di docenti italiani. Per la sua messa in atto è stata progettata una formazione in modalità b-learning utilizzando strumenti gratuiti che gli insegnanti possono imple mentare in classe. Il corso ha visto la partecipazione di un gruppo di ins egnanti di una scuola secondaria di Livorno e i risultati sono stati molto positivi in quanto tutti hanno registrato un miglioramento. La pianificazione, non focalizzandoci solo sugli strumenti tecnologici, ma tenendo conto soprattutto delle attività che sa- rebbero state svolte in classe, è una delle chiavi del successo di questo tipo di proposta che potrebbe anche avere una ricaduta positiva sugli alunni. Infatti, dopo la realizzazione di questa formazione, gli insegnanti hann o in mano tutti gli strumenti per poter attivare le aule virtuali e impartire la loro materia a di- stanza. Parole chiave: competenza digitale; TIC; didattica a distanza; formazione degli insegnanti; blended learning. Abstract This article presents the results obtained in a training experience to improve the self-perception of digital skills of a group of Italian teacher s . F o r i t s implementation a training in b-learning mode has been designed using free * Universidad de Burgos (Spagna). Orcid: http://orcid.org/0000-0002-7077-9502 msm0075@alu.ubu.es. ** Universidad de Burgos (Spagna). Doi: 10.3280/exioa2-2020oa10813 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "90 In Italia, la formazione iniziale degli insegnanti prevede anch e l’inclusione delle TIC già durante lo sviluppo dell’anno di prova (Cappa, Niceforo, & Palomba, 2013; Galliani, 2009; Petrucco & Grion, 2015). Tuttavia, ci sono an- cora resistenze tra molti docenti italiani, come anche in altri paesi, ad attuare le TIC nella didattica (Farinelli, 2010), con una conseguente scar sa conoscenza tecnologica, intendendo per conoscenza tecnologica quella che g li insegnanti possiedono, o dovrebbero possedere, su come le tecnologie posso no aiutare a sviluppare il loro lavoro di insegnamento (Cabero Almenara, 2015). Infatti, di- versi studi indicano come le credenze personali dei docenti rap presentano un fattore importante, per cui quando si convincono della loro utilità, assistiamo a un’introduzione efficace della tecnologia nella didattica (Sadaf, Newby, & Ertmer, 2016). Uno strumento importante che ci fornisce una fotografia circa lo stato della formazione dei docenti europei è TALIS. Questo studio sottolinea che gli inse- gnanti tendono a partecipare maggiormente alle attività di aggiornamento pro- fessionale orientate alle materie – contenuti – su temi specifici, pedagogia della materia e argomenti pedagogici g enerali (Antonio, Sans-Martín, & Guardia- Olmos Triado, 2015). La partecipazione è meno comune nei programmi che si concentrano su co- noscenze pratiche e strumenti per affrontare situazioni specifi che nelle loro classi (MECD, 2018). Ci dice altresì che gli insegnanti spagnol i partecipano maggiormente, rispetto alla media OCSE, alle attività di ricerc a individuali e collettive. Parimenti, la partecipazione alle attività di formazione degli inse- gnanti italiani è una delle più basse dell'OCSE (75% Italia, 88% media TALIS) mostrando un calo del 10% rispetto alla relazione del 2008, ess endo la man- canza di incentivi una delle cause (MIUR, 2018). In Spagna gli insegnanti rivelano che i settori in cui hanno pi ù bisogno di sviluppo professionale sono quelli legati all’acquisizione di c ompetenze TIC applicate all’insegnamento, 14,1% in Spagna e 18,5% nella media OCSE, e all’uso di nuove tecnologie sul posto di lavoro, 14% in Spagna e 15,5% nell’OCSE, (Antonio et al., 2015; MECD, 2018). Nel caso dell’Italia, gli insegnanti rivelano che si tratta di una delle loro principali esigenze di formazione (35,9 Italia contro il 18,9% nell’uso delle tec- nologie didattiche e il 32,2% contro il 17,8% nel settore lavor ativo) (MIUR, 2014, 2018). Possiamo osservare un confronto tra i due paesi ne lla Figura 1, dove si osserva il numero di ore che i docenti dedicano in medi a alla forma- zione. Le differenze nella formazione degli insegnanti nei due paesi sono una realtà ben nota in ambito educativo. Così, nella Regione della Castill a y León (Spa- gna), la formazione continua degli insegnanti ha una lunga e co llaudata Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -927,7 +921,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -935,7 +929,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -955,7 +949,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -968,18 +962,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10813\\temp\\2499-507X_10813.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10813\\2499-507X_10813.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Formazione degli insegnanti sulle TIC in Italia: una proposta formativa seguendo il modello formativo della Castiglia y León (Spagna)",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Training of teachers on ICT in Italy: A training proposal following the training model of Castilla y León (Spain)",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Training of teachers on ICT in Italy: A training proposal following the training model of Castilla y León (Spain)",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "digital competence; ICT; distance learning; teacher training; blended learning",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "digital competence; ICT; distance learning; teacher training; blended learning",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "competenza digitale; TIC; didattica a distanza; formazione degli insegnanti; blended learning",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "competenza digitale; TIC; didattica a distanza; formazione degli insegnanti; blended learning",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This article presents the results obtained in a training experience to improve the self-perception of digital skills of a group of Italian teachers. For its imp",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Questo articolo presenta i risultati ottenuti in un’esperienza formativa per migliorare la percezione delle competenze digitali di un gruppo di docenti italiani",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

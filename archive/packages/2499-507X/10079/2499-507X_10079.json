@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10079",
-  "scraped_at_utc": "2026-04-26T20:24:45Z",
-  "fetched_at_utc": "2026-04-26T20:24:45Z",
+  "scraped_at_utc": "2026-04-27T10:19:25Z",
+  "fetched_at_utc": "2026-04-27T10:19:25Z",
   "source_mode": "live_url",
-  "source_html_sha256": "2c2150e01f615b60f7596e2ab8467ffe34dddd9125770cb78db065b0b8806275",
+  "source_html_sha256": "2b830daf0d952a0c6ffc38bc7d716a4e815a7f64944d0cc1f5b65e7e8750e0e2",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "5",
       "issue": "1",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -202,7 +202,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "5",
       "citationIssue": "1",
       "citationStartPage": null,
@@ -210,7 +210,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Di Giusto, A. (2020). Educazione emotiva e linguaggio interculturale. Excellence and Innovation in Learning and Teaching - Open Access , 5 (1). https://doi.org/10.3280/exioa1-2020oa10079",
+      "citationString": "Di Giusto, A. (2020). Educazione emotiva e linguaggio interculturale. Excellence and Innovation in Learning and Teaching , 5 (1). https://doi.org/10.3280/exioa1-2020oa10079",
       "articleTitleEcho": "Educazione emotiva e linguaggio interculturale"
     },
     "audience": null,
@@ -321,35 +321,27 @@
       },
       {
         "value": "Emotional Education and Intercultural Language",
-        "lang": "en",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "Education, emotions, intercultural context, cooperative learning, school dissatisfaction, school inclusion",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "Educazione, emozioni, scuola, contesto interculturale, apprendimento cooperativo",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Emotional Education and Intercultural Language",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -361,8 +353,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -413,7 +404,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -481,7 +472,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -557,11 +548,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -704,10 +695,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -746,7 +737,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -780,7 +771,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -788,7 +779,7 @@
       "dc_article_type": "Esperienze e pratiche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Educazione emotiva e linguaggio interculturale | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Educazione emotiva e linguaggio interculturale | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -799,22 +790,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:24:45Z"
+      "retrieved_at_utc": "2026-04-27T10:19:25Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:24:46Z",
+      "generated_at_utc": "2026-04-27T10:19:27Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10079",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10079",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 6,
           "raw_counts": {
             "title_variants": 4,
@@ -828,8 +819,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10079",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10079",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -840,20 +831,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10079\\temp\\2499-507X_10079.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10079\\2499-507X_10079.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:24:48Z",
+      "generated_at_utc": "2026-04-27T10:19:29Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10079\\2499-507X_10079.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Educazione emotiva e linguaggio interculturale",
         "submitted_date": "2020-06-24",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Anna Di Giusto"
@@ -861,7 +852,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10079\\2499-507X_10079.pdf",
-        "generated_at_utc": "2026-04-26T20:24:48Z",
+        "generated_at_utc": "2026-04-27T10:19:29Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - Sommario.docx",
@@ -874,6 +865,9 @@
           "mod_date": "2020-06-24"
         },
         "front_text_excerpt": "Esperienze e pratiche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 Educazione emotiva e linguaggio interculturale Emotional Education and Intercultural Language Anna Di Giusto* Riassunto La presente ricerca nasce dal tentativo di rispondere all’urgen za, sempre più avvertita nella scuola italiana a forte impronta multiculturale , di individuare una modalità di risposta a uno dei principi cardine dell’educaz ione, ovvero quello dell’accoglienza. Sulla linea di pensiero della Scuola di Barbiana, ri- presa e approfondita anche dal c onvegno SIPED tenutosi a Catani a nel 2014, il progetto si è proposto di dare corpo a una nuova forma di pedagogia mili- tante. Con questo termine si intende la messa in atto di una sperime ntazione volta a realizzare il principio della “rimozione degli ostacoli ” di cui parla l’articolo 3 della Carta Costituzionale, a prescindere dal qual e non si può at- tuare una concreta uguaglianza tra futuri cittadini. L’accoglienza degli studenti non italofoni è la sfida più impor tante della scuo- la di oggi e del futuro. Il presente laboratorio sulle emozioni è stato pensato per aiutare questi alunni, ma anche i loro compagni italiani, a comprendere il proprio disagio. In questo modo, si è cercato di favorire il cl ima di collabora- zione della classe. Il risultato è stato un miglioramento del rendimento scola- stico di tutti gli studenti, ma in particolare si è modificata la percezione di sé e dell’altro, favorendo la collaborazione e attenuando il livello di competitività degli studenti. Parole chiave: Educazione, emozioni, scuola, c ontesto interculturale, appren- dimento cooperativo Abstract The present research tries to respond to the urgency, increasin gly felt in the Italian school with a multicultural imprint, to identify an ans wer to one of the cardinal principles of education, namely that of hospitality. O n the line of the School of Barbiana, taken up and also deepened by the SIPED con ference * Università di Siena. DOI: 10.3280/exioa1-2020oa10079 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "94 La classe IC Grazie a un questionario iniziale, è stato possibile evidenziar e il fatto che le famiglie di origine non italiana sono formate da un solo genitore o da en- trambi impegnati per molte ore fuori casa, a causa della bassa qualifica e dell’assenza di congiunti per la gestione dei figli; questi son o spesso lasciati soli al pomeriggio, senza alcun controllo sullo studio domestico e sono così privati della possibilità di pa rtecipare ad attività culturali o sportive extrasco- lastiche (Batini & Giusti, 2015; Ulivieri, 1997). Da un ulterio re test sommini- strato alle famiglie è emersa l’assenza in questi ambienti dell a progettazione di un percorso scolastico che giunga fino al diploma o all’univ ersità, prefe- rendo un percorso formativo di ti po tecnico-professionale (Biagioli, 2005). Una recente ricerca ha messo in evidenza come questa scelta sia anche dovuta alla percezione, da parte degli studenti di origine straniera, dei licei come am- bienti ostili per chi non può dimostrare un’ottima formazione (Ulivieri, 2018). 1. Descrizione del progetto Tenuto conto del ruolo giocato dalla motivazione come motore principale e miglior alleato del progetto (Colombo, 2010), è stato deciso fi n dalla fase di progettazione di attivare in classe un sistema di tutoraggio tra discenti a rota- zione (Frabboni & Baldacci, 2004). Questa divisione dei ruoli è stata presen- tata come temporanea e soggetta a ulteriori modifiche in corso d’opera, a se- conda dei risultati via via conseguiti da tutti gli studenti. Considerato che metà classe è formata da studenti con almeno un genitore non italian o, si è avviata una riflessione sul significato del bilinguismo oggi, in un’epoca in cui sono sempre più spesso richieste una conoscenza approfondita e una p adronanza sicura di più di un idioma. In questo modo, gli alunni provenie nti dai paesi in via di sviluppo sono stati equi parati ai compagni che hanno un genitore di al- tra nazionalità europea, perché in entrambi i casi si tratta di un’ottica di com- petenza linguistica (Iori, 2005). Il laboratorio sulle emozioni si è posto l'obiettivo iniziale di permettere agli studenti di dare un nome ai sentimenti che li attraversano, aff inché venissero meno quelle dinamiche di competiz ione, tensione, disprezzo e ve rgogna che rischiavano di inficiare il delicato momento di trasformazione della classe in una comunità discente (Filliozart, 1997). Il laboratorio ha pri ma di tutto offer- to agli studenti un’ampia gamma di emozioni da analizzare, pren dendo spunto da un elenco di matrice stoica sulle passioni antiche (Vegetti, 2004), integrato dalla docente grazie ad altri studi (Di Blasio & Vitali, 2001; Goleman, 1996; Ianes, 2007). Insieme agli alunni, si è cercato di chiarire la differenza tra i Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -947,7 +941,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -955,7 +949,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -975,7 +969,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -988,18 +982,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10079\\temp\\2499-507X_10079.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10079\\2499-507X_10079.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Educazione emotiva e linguaggio interculturale",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Emotional Education and Intercultural Language",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Emotional Education and Intercultural Language",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "Education, emotions, intercultural context, cooperative learning, school dissatisfaction, school inclusion",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Education, emotions, intercultural context, cooperative learning, school dissatisfaction, school inclusion",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "Educazione, emozioni, scuola, contesto interculturale, apprendimento cooperativo",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Educazione, emozioni, scuola, contesto interculturale, apprendimento cooperativo",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The present research tries to respond to the urgency, increasingly felt in the Italian school with a multicultural imprint, to identify an answer to one of the ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La presente ricerca nasce dal tentativo di rispondere all’urgenza, sempre più avvertita nella scuola italiana a forte impronta multiculturale, di individuare un",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

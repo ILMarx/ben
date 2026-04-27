@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19149",
-  "scraped_at_utc": "2026-04-26T20:29:37Z",
-  "fetched_at_utc": "2026-04-26T20:29:37Z",
+  "scraped_at_utc": "2026-04-27T10:24:08Z",
+  "fetched_at_utc": "2026-04-27T10:24:08Z",
   "source_mode": "live_url",
-  "source_html_sha256": "90edae69f0db463121bf54cdb998a1a2d45e988165acf3b592e48b5c46fb048c",
+  "source_html_sha256": "c8755fd7c6c3e279ddeaa4ec4ead254252a531e1576bbc8e84baa33f2c4df763",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -80,7 +80,7 @@
     },
     "language": {
       "value": "en",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -115,43 +115,18 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "9",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
-      {
-        "value": "Admission test",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "State exam",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Engineering freshmen",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Quantitative research",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Prerequisites",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
       {
         "value": "Admission test",
         "lang": "en",
@@ -203,7 +178,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "9",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -211,7 +186,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Ballatore, M. G., & Tabacco, A. (2025). Determinants and Academic Performance: The Role of Prerequisites in University Achievement. Excellence and Innovation in Learning and Teaching - Open Access , 9 (2). https://doi.org/10.3280/exioa2-2024oa19149",
+      "citationString": "Ballatore, M. G., & Tabacco, A. (2025). Determinants and Academic Performance: The Role of Prerequisites in University Achievement. Excellence and Innovation in Learning and Teaching , 9 (2). https://doi.org/10.3280/exioa2-2024oa19149",
       "articleTitleEcho": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement"
     },
     "audience": null,
@@ -265,12 +240,10 @@
         "en"
       ],
       "subject_literal_languages_raw": [
-        "it",
         "en"
       ],
       "all_literal_languages": [
-        "en",
-        "it"
+        "en"
       ]
     },
     "internal_dates": {
@@ -321,7 +294,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -368,7 +341,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2024-v9-n2",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:09Z",
         "scope": "archival master metadata",
         "issue_id": "2024-v9-n2",
         "issue_label": "Vol. 9, No. 2 (2024)",
@@ -403,7 +376,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -481,11 +454,11 @@
         "en"
       ],
       "DC.Rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -629,10 +602,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2025,
       "raw_dc_rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -671,7 +644,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -705,7 +678,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -713,7 +686,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -724,13 +697,13 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:29:37Z"
+      "retrieved_at_utc": "2026-04-27T10:24:08Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:29:38Z",
+      "generated_at_utc": "2026-04-27T10:24:10Z",
       "variants": [
         {
           "locale": "en_US",
@@ -749,12 +722,12 @@
         },
         {
           "locale": "it_IT",
-          "lang": "en",
+          "lang": "it",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19149",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19149",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 1,
@@ -765,20 +738,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19149\\temp\\2499-507X_19149.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\19149\\2499-507X_19149.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:29:41Z",
+      "generated_at_utc": "2026-04-27T10:24:12Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19149\\2499-507X_19149.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
         "submitted_date": "2025-01-13",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2025",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "en",
         "creator_names": [
           "Maria Giulia Ballatore",
@@ -787,7 +760,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19149\\2499-507X_19149.pdf",
-        "generated_at_utc": "2026-04-26T20:29:40Z",
+        "generated_at_utc": "2026-04-27T10:24:12Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -800,6 +773,9 @@
           "mod_date": "2025-01-24"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19149 Determinants and Academic Performance: The Role of Prerequisites in University Achievement Maria Giulia Ballatore*, Anita Tabacco^ Abstract This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context of transformative and sustainable processes in higher education. Based on a sample of 3,739 students, the research evaluates the predictive validity of the entrance exam (Test In La ib - TIL) and the national state exam (Esame di Stato – EdS), considering va riables such as gender, geographical origin, and scholastic background. The results show a significant correlation between TIL scores and the university credits earned in the first year, highlighting the importance of the TIL in predicting academic success, while EdS scores are not correlated with performance. Students from scientific high schools and regions outside the North-West obtain higher TIL scores, indicating disparities in preparation. Gender differences also emerge: males achieve slightly higher TIL scores, wh ile females score higher on the EdS. Binary logistic and quantile regression analyses confirm the effectiveness of the TIL as a predictive tool, suggesting the need to revise orientation and admission policies to better support students’ transition from school to university. These results are crucial for refining educational strategies, better aligning students’ preparation with academic and professional demands, contributing to reducing dropout rates and improving academic success. * Dept. of Mathematical Science “G. Lagra nge”, Politecnico di Torino, Italy; e-mail: maria.ballatore@polito.it. ^ Dept. of Mathematical Science “G. Lagrange”, Politecnico di Torino, Italy This paper and the research behind are based on the collaborative efforts of all the authors. MGB: Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Original Draft, Visualization. AT: Conceptualization, Methodology, Formal analysis, Investigation, Resources, Data Curation, Writing - Review & Editing, Supervision Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "7 include the scores obtained in the university’s entrance exam, the Test In Laib (TIL), and the evaluations from the national state exam, the Esame di Stato (EdS). In addition to these academic i ndicators, this study also considers gender, geographical background, and scholastic backgroun d as moderators, following evidence from existing literature that highlights their potential influence on academic outcomes. The first-year academic performance of the students is measured by the number of university credits, Crediti Fo rmativi Universitari (CFU), earned within the first year. Additionally, the achievement of a minimum threshold of 26 CFU, required to progress to the second year, is also evaluated as a key outcome measure. By investigating these factors, this study aims to provide valuable insights into the determinants of academic succe ss in engineering education within the Italian context. The findings are expected to inform educational policies and university support programs, ultimately contributing to better alignment between students’ preparedness, academic demands, and career readiness. This alignment is crucial for enhancing student success rates, reducing dropout rates, and ensuring that students’ educati onal experiences are both productive and fulfilling, thus equipping them to naviga te and adapt to the changing demands of their professional and personal lives. The structure of this paper is as follows: Section 2 provides a review of the literature on incoming preparation and the school-to-university transition. Section 3 details the methodology, specifying the sample, dependent and independent variables’ distributions, and the statistical tools and methods of analysis employed. Section 4 presents the results, offering a comprehensive analysis of the data collected then used for the discussion in Section 5. Finally, Section 6 summarizes the key insights and suggests implications for policy, practice, and the development of strategic orientation processes that link school, university, and the labor market. 2. Incoming Preparation and the School-to-University Transition The transition from high school to university is a critical moment for students, influenced by their incoming preparation and their ability to adapt to the new academic environment. The literature highlights that effective preparation can significantly predict the academic success of university students across different countries and types of careers. For instance, Aquines Gutiérrez et al. (2022) found that entry profiles and early study habits are closely related to first-year academic performance in engineering programs, emphasizing the importance of structured preparatory activities and self- Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "en",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -873,7 +849,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -881,7 +857,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:13Z"
         },
         "copyright_year": {
           "page_value": "2025",
@@ -901,7 +877,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -914,18 +890,76 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19149\\temp\\2499-507X_19149.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\19149\\2499-507X_19149.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "en"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Determinants and Academic Performance: The Role of Prerequisites in University Achievement",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This study examines the relationship between incoming preparation and academic performance of engineering freshmen at Politecnico di Torino, within the context ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "values": [
+              "Admission test",
+              "State exam",
+              "Engineering freshmen",
+              "Quantitative research",
+              "Prerequisites"
+            ]
+          }
+        ]
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12064",
-  "scraped_at_utc": "2026-04-26T20:26:04Z",
-  "fetched_at_utc": "2026-04-26T20:26:04Z",
+  "scraped_at_utc": "2026-04-27T10:20:53Z",
+  "fetched_at_utc": "2026-04-27T10:20:53Z",
   "source_mode": "live_url",
-  "source_html_sha256": "77790acddc4d9acb6ac3a137437bf7fe02750ead192b902450f68d33ecbb0050",
+  "source_html_sha256": "8ca2f741006a266e9926d055d580f6a53d5b7c5056b2c26e9cbb14619eb6bf8b",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -124,7 +124,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -159,15 +159,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "6",
       "issue": "1",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -195,31 +195,6 @@
         "value": "università",
         "lang": "it",
         "source": "meta:citation_keywords"
-      },
-      {
-        "value": "laboratorio",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
-      },
-      {
-        "value": "scienze della formazione primaria",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
-      },
-      {
-        "value": "valutazione",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
-      },
-      {
-        "value": "università",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
-      },
-      {
-        "value": "questionario di valutazione",
-        "lang": "en",
-        "source": "locale:en_US:meta:citation_keywords"
       }
     ],
     "licenseCondition": {
@@ -247,7 +222,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "6",
       "citationIssue": "1",
       "citationStartPage": null,
@@ -255,7 +230,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Felisatti, E., Restiglian, E., Scaglia, E., Zuccoli, F., Gaetano, F., & Bonelli, R. (2021). La progettazione del Questionario di Valutazione dei Laboratori (QVL) del Corso di laurea in Scienze della Formazione Primaria. Excellence and Innovation in Learning and Teaching - Open Access , 6 (1). https://doi.org/10.3280/exioa1-2021oa12064",
+      "citationString": "Felisatti, E., Restiglian, E., Scaglia, E., Zuccoli, F., Gaetano, F., & Bonelli, R. (2021). La progettazione del Questionario di Valutazione dei Laboratori (QVL) del Corso di laurea in Scienze della Formazione Primaria. Excellence and Innovation in Learning and Teaching , 6 (1). https://doi.org/10.3280/exioa1-2021oa12064",
       "articleTitleEcho": "La progettazione del Questionario di Valutazione dei Laboratori (QVL) del Corso di laurea in Scienze della Formazione Primaria"
     },
     "audience": null,
@@ -343,12 +318,10 @@
         "it"
       ],
       "subject_literal_languages_raw": [
-        "it",
-        "en"
+        "it"
       ],
       "all_literal_languages": [
-        "it",
-        "en"
+        "it"
       ]
     },
     "internal_dates": {
@@ -399,7 +372,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -467,7 +440,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -553,11 +526,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -713,10 +686,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2021,
       "raw_dc_rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -755,7 +728,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -789,7 +762,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -797,7 +770,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "La progettazione del Questionario di Valutazione dei Laboratori (QVL) del Corso di laurea in Scienze della Formazione Primaria | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "La progettazione del Questionario di Valutazione dei Laboratori (QVL) del Corso di laurea in Scienze della Formazione Primaria | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -808,22 +781,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:26:04Z"
+      "retrieved_at_utc": "2026-04-27T10:20:53Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:26:05Z",
+      "generated_at_utc": "2026-04-27T10:20:55Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F12064",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/12064",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 1,
@@ -849,20 +822,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12064\\temp\\2499-507X_12064.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\12064\\2499-507X_12064.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:26:07Z",
+      "generated_at_utc": "2026-04-27T10:20:56Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12064\\2499-507X_12064.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "La progettazione del Questionario di Valutazione dei Laboratori (QVL) del Corso di laurea in Scienze della Formazione Primaria",
         "submitted_date": "2021-06-18",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2021",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Ettore Felisatti",
@@ -875,7 +848,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12064\\2499-507X_12064.pdf",
-        "generated_at_utc": "2026-04-26T20:26:07Z",
+        "generated_at_utc": "2026-04-27T10:20:56Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -888,6 +861,9 @@
           "mod_date": "2021-06-25"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 1 Doi: 10.3280/exioa1-2021oa12064 La progettazione del Questionario di Valutazione dei Laboratori (QVL) del Corso di laurea in Scienze della Formazione Primaria Designing of the Questionnaire for the Assessment of Workshops (QVL) of Scienze della Formazione Primaria degree courses Ettore Felisatti, Emilia Restiglian, Evelina Scaglia, Franca Zu ccoli, Federica Gaetano, Roberta Bonelli* Riassunto Un gruppo di lavoro, costituitosi all’interno del Coordinamento dei Presidenti dei CdS in Scienze della Formazione Primaria e composto da docenti, ricercatori e tutor provenienti da alcuni atenei italiani, ha costruito, seguendo una metodologia di lavoro partecipativa, un Questionario per la Valutazione dei Laboratori (QVL) di Scienze della Formazione Primaria (SFP). Lo strumento è stat o progettato a partire dalle informazioni ricavate da un’indagine somministrata ai Coordinatori dei Corsi di studio in SFP del Paese, dalle esperienze pregresse e dagli studi sui fondamenti del laboratorio dal punto di vista storico e culturale, e consente agli studenti di valutare anonimamente i laboratori ordinamentali secondo quanto de- lineato dal decreto 249/2010 1. Il questionario si articola in sezioni che contem- plano la rilevazione di molteplici aspetti dell’esperienza laboratoriale: oltre ai dati * Ettore Felisatti, Università degli Studi di Padova, ettore.felisatti@unipd.it. Emilia Restiglian, Università degli Studi di Padova, emilia.restiglian@unipd.it. Evelina Scaglia, Università di Bergamo, evelina.scaglia@unibg.it. Franca Zuccoli, Università di Milano-Bicocca, franca.zuccoli@unimib.it. Federica Gaetano, Sapienza Università di Roma, federica.gaetano@uniroma1.it. Roberta Bonelli, Università degli Studi di Padova, roberta.bonelli@phd.unipd.it. Il contributo rappresenta il risultato di un lavoro congiunto degli autori. In particolare, i paragrafi possono essere attribuiti come segue: E. Felisatti §1; E. Scaglia e F. Gaetano §2; E. Restiglian e F. Zuccoli §3; R. Bonelli §4; F. Zuccoli e E. Restiglian §5. Le con- clusioni (§6) sono state scritte insieme. 1 D.M. 10/09/2010, n. 249. Recuperato da: http://www.miur.it/documenti/universita/of- ferta_formativa/formazione_iniziale_insegnanti_corsi_uni/dm_10_092010_n.249.pdf. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "27 laurea in Scienze della Formazione Primaria sulla base dell’articolo 3, comma 2, della legge 19 novembre 1990, n. 341 e regolamentata attualm ente dal De- creto n. 249/2010, si concretizza come percorso universitario quinquennale ar- ticolato su insegnamenti, laboratori e tirocini. L’impianto tridimensionale testi- monia la progressione di un percorso teso alla costruzione di habitus intera- genti, che puntano su identità, esperienza e pratica per costruire una professio- nalità docente in grado di far fronte alle sfide educative impo ste dalla società odierna (Galliani & Felisatti, 20 01, 2005; Nigris, 2004; Zannie llo, 2008). La validità e l’efficacia del modello di formazione degli insegnanti è dimostrata da studi attestanti positivi livelli di padronanza e di qualità pr ofessionale espressi sul campo dai laureati neo-insegna nti (Mantovani & Vannini, 200 7), esito pe- raltro che si pone in linea con la ricerca a livello internazionale (OECD, 2010). Il contesto laboratoriale si qualifica come dimensione pratico- esperienziale e riflessiva di mediazione. Esso si colloca fra il capitale teorico-prospettico de- gli insegnamenti e quello promo zionale e orientativo, peculiare dell’agire pre- professionale del tirocinio; seguendo la direzione che dalla ri cerca porta al sa- pere insegnato, il laboratorio s i profila come un ambiente form ativo orientato ai processi di transposition didactique (Chevallard & Johsua, 1985) delle ma- trici disciplinari verso la costruzione delle expertises di insegnamento. Sono diversi i contributi offer ti all’analisi della metodica la boratoriale (Agrati, 2008; Damiano, 1998; Marzano & Vegliante, 2017; Mortari, 2009; Pa- parella & Perucca, 2006; Kanizsa & Gelati, 2010), ma permane comunque l’esi- genza di spingere oltre lo studio e l’analisi per precisare gli obiettivi apprendi- tivi e le competenze maturate dai partecipanti (Cardarello, 2010), riconoscendo l’importanza del loro punto di vista. Su questa linea, il Coordinamento dei Pre- sidenti dei CdS in Scienze della Formazione Primaria, sotto la guida della prof.ssa E. Nigris, nel convegno promosso a Bari nel 2017 sulla formazione iniziale degli insegnanti, ha avviato un gruppo di ricerca 2 con il compito di ana- lizzare la tematica dei laboratori e individuare possibili inte rventi di valuta- zione. Il gruppo di ricerca ha condotto il suo lavoro elaborando un progetto artico- lato su due azioni fondamentali: 2 Hanno aderito inizialmente alla proposta le Università di Bergamo, Bologna, Milano- Bicocca, Modena-Reggio, Padova, Roma “La Sapienza”, Verona. Con il coordina- mento scientifico del prof. E. Felisatti dell’Università di Pad ova, si è costituito un Gruppo di ricerca a cui hanno partecipato: N. Barbieri, R. Bone lli, C. Casaschi, L. Da Re, R. Dainese, E. Felisatti, R. Focchiatti, F. Gaetano, C. Girelli, S. Kanizsa, E. Resti- glian, E. Scaglia, P. Tonegato, F. Zuccoli. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -961,7 +937,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -969,7 +945,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2021",
@@ -989,7 +965,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -1002,18 +978,76 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\12064\\temp\\2499-507X_12064.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\12064\\2499-507X_12064.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La progettazione del Questionario di Valutazione dei Laboratori (QVL) del Corso di laurea in Scienze della Formazione Primaria",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Un gruppo di lavoro, costituitosi all’interno del Coordinamento dei Presidenti dei CdS in Scienze della Formazione Primaria e composto da docenti, ricercatori e",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "values": [
+              "laboratorio",
+              "scienze della formazione primaria",
+              "valutazione",
+              "università",
+              "questionario di valutazione"
+            ]
+          }
+        ]
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

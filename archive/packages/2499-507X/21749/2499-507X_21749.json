@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21749",
-  "scraped_at_utc": "2026-04-26T20:30:44Z",
-  "fetched_at_utc": "2026-04-26T20:30:44Z",
+  "scraped_at_utc": "2026-04-27T10:25:18Z",
+  "fetched_at_utc": "2026-04-27T10:25:18Z",
   "source_mode": "live_url",
-  "source_html_sha256": "a3f2abb1f8adfe218d07ef081b2ef8f1e79ebb5f31f465701a8fa978d6cee594",
+  "source_html_sha256": "57c154d61867d2f25f89e94adaea2ea0e31f17969725227f7fe9570a32d1b607",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -91,7 +91,7 @@
     },
     "language": {
       "value": "en",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -126,43 +126,18 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "10",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
-      {
-        "value": "Resident Orientation",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Medical Education",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Gamification",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Clinical Training",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Experiential Learning",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
       {
         "value": "Resident Orientation",
         "lang": "en",
@@ -214,7 +189,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "10",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -222,7 +197,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Pensieri, C., Saccoccia, S., & Alloni, R. (2025). Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico. Excellence and Innovation in Learning and Teaching - Open Access , 10 (2). https://doi.org/10.3280/exioa2-2025oa21749",
+      "citationString": "Pensieri, C., Saccoccia, S., & Alloni, R. (2025). Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico. Excellence and Innovation in Learning and Teaching , 10 (2). https://doi.org/10.3280/exioa2-2025oa21749",
       "articleTitleEcho": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico"
     },
     "audience": null,
@@ -279,12 +254,10 @@
         "en"
       ],
       "subject_literal_languages_raw": [
-        "it",
         "en"
       ],
       "all_literal_languages": [
-        "en",
-        "it"
+        "en"
       ]
     },
     "internal_dates": {
@@ -335,7 +308,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -403,7 +376,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -483,11 +456,11 @@
         "en"
       ],
       "DC.Rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -634,10 +607,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2025,
       "raw_dc_rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -676,7 +649,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -710,7 +683,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -718,7 +691,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -729,13 +702,13 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:30:44Z"
+      "retrieved_at_utc": "2026-04-27T10:25:18Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:30:46Z",
+      "generated_at_utc": "2026-04-27T10:25:20Z",
       "variants": [
         {
           "locale": "en_US",
@@ -754,12 +727,12 @@
         },
         {
           "locale": "it_IT",
-          "lang": "en",
+          "lang": "it",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F21749",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/21749",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 1,
@@ -770,20 +743,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21749\\temp\\2499-507X_21749.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\21749\\2499-507X_21749.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:30:48Z",
+      "generated_at_utc": "2026-04-27T10:25:21Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21749\\2499-507X_21749.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
         "submitted_date": "2025-12-21",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2025",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "en",
         "creator_names": [
           "Claudio Pensieri",
@@ -793,7 +766,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21749\\2499-507X_21749.pdf",
-        "generated_at_utc": "2026-04-26T20:30:48Z",
+        "generated_at_utc": "2026-04-27T10:25:21Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 04_Pensierietal1",
@@ -806,6 +779,9 @@
           "mod_date": "2025-12-30"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2025, 2 Doi: 10.3280/exioa2-2025oa21749 Innovating Residency Orientation Training. A Multi-Modal, Gamified Ap proach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico Claudio Pensieri*, Sabrina Saccoccia^, Rosanna Alloni° Abstract This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Po liclinico Universitario Campus Bio- Medico for newly enrolled medical residents. The program combines traditional lectures, experiential simulations, and gamified activities, including a hospital-based treasure hunt designed to bridge theoretical knowledge and practical clinical readiness. A comparativ e analysis of pre- and post-training surveys from the 2022 (n. 146 respondents) and 2024 (n. 135 respondents) cohorts revealed statistically significant improvements in technical competencies, spatial orientation, and familiarity with clinical workflows. Notably, the gamification element, particularly the “Treasure Hunt,” significantly enhanced spatial orientati on and clinical area familiarity, with 2024 participants showing greater improvement compared to 2022. While practical sessions received strong evaluations, the team-building activity (“Airplane Challenge”) scored lower than in previous years, suggesting areas for refinement. Overall, the Reside nt Day initiative demonstrates that innovative, engaging onboarding strate gies can effectively enhance early clinical integration, technical skills, and resident confidence. Experiential * Department of Human Sciences, LUMSA, Rome , Italy: E-mail: c.pensieri1@lumsa.it. The Corresponding Author is the chief contributor for the paragraphs: Background, Setting, Methods, Results, Discussion. ORCID: https://orcid.org/0000-0001-8502-2345. r.alloni@unicampus.it, is responsible for the conception and design of the article and she is chief contributor for the conclusion paragraph. ORCID: https://orcid.org/0000-0001-8877-2141. ^ Clinical Leadership team – Fondazione Policlinico Unviersitario Campus Bio-Medico, Rome, Italy. E-mail: s.saccoccia@policlinicocampus.it, writes par. Background. ORCID: https://orcid.org/0009-0009-0530-6117. ° Clinical Director FPUCBM and Università Campus Bio-Medico: Specialization School Coordination, Rome, Italy. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "71 structured orientation programs an ex travagance. They act as a bedrock, allowing trainees to gain the requisite skills as well as the right attitude and knowhow to perform their new roles. A thoughtfully prepared orientation program cultivates learning, adaptability, resilience and teamwork as well as puts into practice the institutional policies and clinical workflow s. At the same time, it incorporates communication, ethics, and work-life balance which are essential to long-term success in the medical profession. If we consider the US Emergency medi cine (EM) residency training, the first formal orientation program for incoming EM residents was started in 1976. One attempt to describe the nature of orientation programs was by Brillman (1995). Now almost all residencies offer orientation to incoming residents, but little is known about the curricular content or structure of these programs. McGrath (2017) found that more progr ams (99%) offer formal orientation and allocating more time to them. Lectures remain the most common educational activity. They found increases in the use of skills labs and specialty certifications. But they also observed in creases in time dedicated to clinical work during orientation. Only a few programs reported engaging in baseline or milestone assessments, an activity that could offer significant benefits to the residency program (McGrath, 2017). In this article, we investigate the un ique attributes and benefits of an orientation program for Italian residents undergoing specialty training. Medical institutions can enhance the orientation experience for their residents and concurrently increase the skill set, confidence, and compassion within the healthcare workforce by a pplying comprehensive and evidence- based orientation initiatives. As the population grows older, the demand for multidisciplinary teams to manage complex care has undoubtedly increased. As these teams become more integrated, the knowledge, skills, and attitudes of resident physicians to practice safe and effective care evolve (Mank, 2022). Fondazione Policlinico Universitario Campus Bio-Medico (PUCBM) is a teaching hospital having about 374 be ds and roughly 37 medical/surgical departments, which includes an emergency unit and a Hospice. From 2017, the PUCBM has this orientation course for new residents. In 2024, 25 Residency program (22 medical and 3 non-medical: Clinical Pathology and Clinical Biochemistry; Microbiology and Virology; Clinical Pharmacology and Toxicology) featuring roughly 135 new medical residents and 10 non-medical residents started in the Fondazione Policlinico Universitario Campus Bio-Medico, on ly 15% of them had their medical education in our university. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "en",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -879,7 +855,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -887,7 +863,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:13Z"
         },
         "copyright_year": {
           "page_value": "2025",
@@ -907,7 +883,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -920,18 +896,76 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\21749\\temp\\2499-507X_21749.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\21749\\2499-507X_21749.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "en"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Innovating Residency Orientation Training. A Multi-Modal, Gamified Approach to Clinical Onboarding at Fondazione Policlinico Universitario Campus Bio-Medico",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This study assesses the effectiveness of “Resident Day,” a multi-modal orientation program at Fondazione Policlinico Universitario Campus Bio-Medico for newly e",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "values": [
+              "Resident Orientation",
+              "Medical Education",
+              "Gamification",
+              "Clinical Training",
+              "Experiential Learning"
+            ]
+          }
+        ]
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

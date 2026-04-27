@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19159",
-  "scraped_at_utc": "2026-04-26T20:29:53Z",
-  "fetched_at_utc": "2026-04-26T20:29:53Z",
+  "scraped_at_utc": "2026-04-27T10:24:25Z",
+  "fetched_at_utc": "2026-04-27T10:24:25Z",
   "source_mode": "live_url",
-  "source_html_sha256": "a9b8543ab54f27ad6dcd7a09b1cd42165cefa62254ff7a54af91d3e2c5ffe9af",
+  "source_html_sha256": "499684e7ab847fe3c5c240c08cbdb183835a01d51bae1f7e9389c06b61ebc16d",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -91,7 +91,7 @@
     },
     "language": {
       "value": "en",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -126,48 +126,18 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "9",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
-      {
-        "value": "Body percussion",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Innovative method",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Transversal skills",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Inclusion",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Embodied cognition",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
-      {
-        "value": "Education",
-        "lang": "it",
-        "source": "meta:citation_keywords"
-      },
       {
         "value": "Body percussion",
         "lang": "en",
@@ -224,7 +194,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "9",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -232,7 +202,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Ambretti, A., Mazzella, M., & Cools, W. (2025). Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills. Excellence and Innovation in Learning and Teaching - Open Access , 9 (2). https://doi.org/10.3280/exioa2-2024oa19159",
+      "citationString": "Ambretti, A., Mazzella, M., & Cools, W. (2025). Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills. Excellence and Innovation in Learning and Teaching , 9 (2). https://doi.org/10.3280/exioa2-2024oa19159",
       "articleTitleEcho": "Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills"
     },
     "audience": null,
@@ -351,12 +321,10 @@
         "en"
       ],
       "subject_literal_languages_raw": [
-        "it",
         "en"
       ],
       "all_literal_languages": [
-        "en",
-        "it"
+        "en"
       ]
     },
     "internal_dates": {
@@ -407,7 +375,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -454,7 +422,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2024-v9-n2",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:09Z",
         "scope": "archival master metadata",
         "issue_id": "2024-v9-n2",
         "issue_label": "Vol. 9, No. 2 (2024)",
@@ -489,7 +457,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -570,11 +538,11 @@
         "en"
       ],
       "DC.Rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -729,10 +697,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2025,
       "raw_dc_rights": [
-        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -771,7 +739,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -805,7 +773,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2025 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -813,7 +781,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -824,13 +792,13 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:29:53Z"
+      "retrieved_at_utc": "2026-04-27T10:24:25Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:29:54Z",
+      "generated_at_utc": "2026-04-27T10:24:27Z",
       "variants": [
         {
           "locale": "en_US",
@@ -849,12 +817,12 @@
         },
         {
           "locale": "it_IT",
-          "lang": "en",
+          "lang": "it",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F19159",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/19159",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 1,
@@ -865,20 +833,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19159\\temp\\2499-507X_19159.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\19159\\2499-507X_19159.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:29:56Z",
+      "generated_at_utc": "2026-04-27T10:24:29Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19159\\2499-507X_19159.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills",
         "submitted_date": "2025-01-14",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2025",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "en",
         "creator_names": [
           "Antinea Ambretti",
@@ -888,7 +856,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19159\\2499-507X_19159.pdf",
-        "generated_at_utc": "2026-04-26T20:29:56Z",
+        "generated_at_utc": "2026-04-27T10:24:29Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -901,6 +869,9 @@
           "mod_date": "2025-01-24"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2024, 2 Doi: 10.3280/exioa2-2024oa19159 Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills Antinea Ambretti*, Mariapia Mazzella°, Wouter Cools^ Abstract Body Percussion can be an innovative me thod to develop various motor and cognitive skills. Can promote inclusion in education without neglecting soft skills. This type of activity favours the inclusion of all, especially disabled pupils who, being able to work as au pairs, can feel part of a group by increasing their self-esteem, with positive effects on group dynamics. Moreover, the point of view of neur oscience has further strengthened the integration of dualism mind-body accordin g to the unifying perspective of corporeity; in this sense, some research evidence has in fact shown that you learn first and better through the body and movement, as well as through the experience and intentionality that guide the learning itself. The active teaching of Body Percussion is intertwined in a project that focuses on the whole person. The present contribution aims to outline and validate a teaching like Body Percussion, a practical activity that has theoretical foundations in Embodied * Università Telematica Pegaso, e-mail: antinea.ambretti@unipegaso.it. ° Università di Cassino e del Lazio Meridionale, e-mail: mariapia.mazzella@unicas.it, corresponding author. ^ Vrije Universiteit Brussel, Pleinlaan 2, 1050 Brussel, Multidisciplinair Instituut Lerarenopleiding, Brussels Institute for Teacher Education; e-mail: wouter.cools@vub.be. Vrije Universiteit Brussel, Pleinlaan 2, 1050 Brussels, Belgium Research Unit on Movement and Nutrition for Health and Performance, Department of Movement and Sport Sciences, Faculty of Physical Education and Physiotherapy, e-mail: wouter.cools@vub.be. Artevelde University of Applied Scienc es, Educational Bachelor of Secondary Education, Hoogpoort 15, 9000 Gent, Belgium, e-mail: wouter.cools@arteveldehs.be. The article is the result of the joint work of all the authors. However, it is possible to attribute par. 1 - 4 - 6 to A. Ambretti A. par. 1 - 2 - 5 - 6 to M. Mazzella; the par. 3 to W. Cools who is also the scientific supervisor of the article. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "81 Numerous studies, also in the Italian context, have underlined the importance of the body and movement in the t eaching-learning process (Francesconi & Tarozzi, 2012; Paloma, Ascione & Tafu ri, 2016; Ceciliani & Tafuri, 2017; Ceciliani, 2018). The most recent didactic research guidelines emphasize the role of corporeality in teaching and learning pr ocesses, where corporeality is seen as transversal to other subjects of study, such as music. The language of music and expressive artistic languages in genera l intersect, meet body language, and become a means of expressing and raising awareness of emotions and feelings, managing discomfort and identifying creative solutions to overcome conflictual dynamics and to create inclusion. Body Percussion can be a creative and effective addition to education, contributing in different ways to st udents' learning, which is no longer understood as the organization of organi zed and pre-existing data but is an active process of knowledge constructi on that is carried out both at the individual and intra-individual level (Sibilio, 2017). 2. Body Percussion: a brief history and its potential Body Percussion is a technique, of ancient origin, which, using one's own body, allows you to reproduce sounds and rhythms. Its roots date back to prehistoric times. Humans have always used their bodies to produce sounds, such as tapping their feet to mark the rhythm of a dance or clapping their hands to create rhythms for sacred functions. There are records of this technique as early as the fifteenth and sixteenth centuries in Indonesia and Africa, it is said that black slaves deported from West Africa to America, being forbidden to use their drums and any other instrument, accompanied their songs and dances with body sounds. Its diffusion has develope d through ancient popular traditions, each with its own specificity, through out the planet. Therefore, we cannot consider the use of the body as percussion the invention of a particular musical group or someone, but a heritage of humanity, (Michelon, 2011, p. 23). Over the centuries, Body Percussion has established itself in many cultures around the world as a form of musical expression and communication. However, it is only in recent decades that Body Percussion has gained greater prominence as an art form. Keith Terry, American percussionist, dancer, and musician has taken his Body Music all over the world. Keith Terry came to Body Percussion playing drums. An accompanist for a group of tap dancers, he was encouraged by them to experiment with new ways of play ing and then began to reproduce on his body what he had learned by playing the drums. In 2008 he organized the first Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "en",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -974,7 +945,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -982,7 +953,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:13Z"
         },
         "copyright_year": {
           "page_value": "2025",
@@ -1002,7 +973,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -1015,18 +986,77 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\19159\\temp\\2499-507X_19159.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\19159\\2499-507X_19159.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "en"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Body Percussion: Active and inclusive teaching oriented to disciplinary knowledge and transversal skills",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Body Percussion can be an innovative method to develop various motor and cognitive skills. Can promote inclusion in education without neglecting soft skills. Th",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "values": [
+              "Body percussion",
+              "Innovative method",
+              "Transversal skills",
+              "Inclusion",
+              "Embodied cognition",
+              "Education"
+            ]
+          }
+        ]
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

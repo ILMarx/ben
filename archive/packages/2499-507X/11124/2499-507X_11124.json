@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11124",
-  "scraped_at_utc": "2026-04-26T20:25:19Z",
-  "fetched_at_utc": "2026-04-26T20:25:19Z",
+  "scraped_at_utc": "2026-04-27T10:19:58Z",
+  "fetched_at_utc": "2026-04-27T10:19:58Z",
   "source_mode": "live_url",
-  "source_html_sha256": "49ed882997651ba3273fc320079af9720c9398fceb022bf6c293ec57e3f84293",
+  "source_html_sha256": "d308d2a81bab777cb142ee8543205579e29b18426d5564b4b84430b46abcf060",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -78,7 +78,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -107,15 +107,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": null,
       "issue": null,
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [],
@@ -144,7 +144,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": null,
       "citationIssue": null,
       "citationStartPage": null,
@@ -152,7 +152,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Perla, L., & Vinci, V. (2021). Editoriale. Excellence and Innovation in Learning and Teaching - Open Access . https://doi.org/10.3280/exioa0-2021oa11124",
+      "citationString": "Perla, L., & Vinci, V. (2021). Editoriale. Excellence and Innovation in Learning and Teaching . https://doi.org/10.3280/exioa0-2021oa11124",
       "articleTitleEcho": "Editoriale"
     },
     "audience": null,
@@ -181,22 +181,20 @@
       },
       {
         "value": "x",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [],
       "subject_literal_languages_raw": [],
       "all_literal_languages": [
-        "it",
-        "ky"
+        "it"
       ]
     },
     "internal_dates": {
@@ -247,7 +245,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -294,7 +292,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2021-special-issue",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:09Z",
         "scope": "archival master metadata",
         "issue_id": "2021-special-issue",
         "issue_label": "Special issue (2021)",
@@ -329,7 +327,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -396,11 +394,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -483,10 +481,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -525,7 +523,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -559,7 +557,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -567,7 +565,7 @@
       "dc_article_type": "Editoriale",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Editoriale | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Editoriale | Excellence and Innovation in Learning and Teaching",
     "warnings": [
       "citation_author_institution count (1) does not match citation_author count (2); institutions paired only by shared index.",
       "Published-date conflict: stronger page signal '2021-01-25' overrides DC.Date.issued '2021-01-26'."
@@ -605,21 +603,21 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:25:19Z"
+      "retrieved_at_utc": "2026-04-27T10:19:58Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:25:21Z",
+      "generated_at_utc": "2026-04-27T10:19:59Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11124",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11124",
-          "added_titles": 0,
+          "added_titles": 2,
           "added_descriptions": 0,
           "added_subjects": 0,
           "raw_counts": {
@@ -634,7 +632,7 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11124",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11124",
-          "added_titles": 0,
+          "added_titles": 1,
           "added_descriptions": 0,
           "added_subjects": 0,
           "raw_counts": {
@@ -646,20 +644,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11124\\temp\\2499-507X_11124.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11124\\2499-507X_11124.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:25:22Z",
+      "generated_at_utc": "2026-04-27T10:20:00Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11124\\2499-507X_11124.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Editoriale",
         "submitted_date": "2021-01-25",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Loredana Perla",
@@ -668,7 +666,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11124\\2499-507X_11124.pdf",
-        "generated_at_utc": "2026-04-26T20:25:22Z",
+        "generated_at_utc": "2026-04-27T10:20:00Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 01_EILT_2021_Editoriale.docx",
@@ -681,6 +679,9 @@
           "mod_date": "2021-01-25"
         },
         "front_text_excerpt": "Editoriale Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue Loredana Perla, Viviana Vinci Faculty Development and Digital Scholarship: questioni di ricerca nell’istruzione superiore riprende ed estende i l dibattito del Convegno ASDUNI Didattica, riconoscimento professionale e innovazione in Università, svoltosi a Bari il 24 e 25 giugn o 2020, con l’obiettivo di acco gliere ricerche svolte specificatamente sul tema posto a oggetto del Convegno o vvero teorie, metodi e pratiche di qualificazione della didattica universitaria. Una fra le principali finalità delle policies internazionali nell’Higher Educa- tion è, come è noto, promuovere, riconoscere e certificare le c ompetenze pro- fessionali del docente universitario: competenze non solo di ti po traspositivo- disciplinare, ma anche pedagogico-didattico, ovvero funzionali alla messa in atto di adeguate metodologie di insegnamento, progettazione e valutazione dei contenuti (Shulman, 1987; Skelton, 2004; Biggs & Tang, 2007; Felisatti & Ser- bati 2017; Perla, 2018; Perla & Vinci, 2018a, 2018b, 2020). La docenza uni- versitaria, non riducibile a comportamenti osservabili o a microabilità rilevabili solo attraverso approcci Evidence Based Education , rappresenta un processo ideativo-creativo che si esprime in un ventaglio di competenze assai articolate, si avvale di strategie personalizzate nel corso di anni di esperienza e può essere promossa grazie a modellistiche partecipative che coinvolgano gli stessi do- centi (Perla, 2019). I profili della docenza universitaria – co nnessi alla ricerca, all’insegnamento, all’organizzazione/terza missione – sono molteplici e fra loro strutturalmente interagenti, ma necessitano di strategie di supporto e valorizza- zione. È su tale linea che sia a livello nazionale (ENQA, 2007, 2015; EC, 2013, 2017) che a livello nazionale (si pensi, ad esempio, all’indica tore AVA R1.C) si ribadisce da tempo l’importanza di assicurare la qualificazi one scientifica e pedagogica dei docenti. Molte Università – sulla base degli studi incentrati sugli effetti dei teachers’ pedagogical training (Gibbs & Coffey, 2004; Postareff, Lindblom-Ylanne & Nevgi, 2007), hanno implementato proposte formative ri- volte al personale docente attraverso la nascita di Centri univ ersitari per l’ec- cellenza nell’insegnamento o Teaching and Learning Center (Varma-Nelson & Doi: 10.3280/exioa0-2021oa11124 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "7 stico sullo stato dell’arte delle pratiche, credenze, prospettive e bisogni dei do- centi universitari, fondamentale per gettare le basi per percor si di Faculty De- velopment contestualizzati ed efficaci. Mortari, Bevilacqua, Silva e Pizzato presentano una pratica di innovazione didattica realizzata nella legal education dal Dipartimento di Scienze Giuridi- che e dal Teaching and Learning Centre (TaLC) dell’Università d i Verona, adottando la prospettiva dell’educational evaluation e, in part icolare, della va- lutazione trasformativa, attuata attraverso l’osservazione fra pari e l’analisi delle pratiche discorsive. L’articolo di Moretti, Morini e Giuliani focalizza l’attenzione su attività di terza missione svolte dall’Università; nello specifico riporta gli esiti di un’in- dagine esplorativa svolta nell’ambito del percorso formativo pr ogettato dall’Università degli Studi Roma Tre in collaborazione con l’Ufficio Scolastico Regionale per il Lazio rivolto ai docenti tutor dei docenti neoassunti in anno di prova, con la finalità di consolidare le conoscenze e sviluppar e le competenze connesse alle previste attività di tutorato. Cecchinato presenta una ricerca condotta sull’applicazione della riprogetta- zione proposta ad un insegnamento universitario attraverso l’integrazione di strategie di apprendimento sostenute dai media digitali. Il percorso di riproget- tazione ha previsto il coinvolgimento in itinere degli studenti per assicurare un feedback formativo lungo tutto lo sviluppo dell’insegnamento me diante prati- che di social annotation e di peer- and self-assessment condotte utilizzando gli ambienti online Perusall e Peergrade. Il contributo di Dipace e Scarinci si focalizza sulla necessità di riprogetta- zione didattica a cui sono stati chiamati i docenti universitari durante la pande- mia; partendo dal framework di innovazione nell’alta formazione proposto da Gilly Salmon, presenta un’analisi esplorativa sui MOOC offerti da alcune delle principali piattaforme a livello internazionale come opportunità tese a svilup- pare competenze nella progettazi one didattica in ambienti di apprendimento online. Ferrari, Mauro, Messina, Raviolo e Rivoltella propongono un lavoro che delinea le evoluzioni della figura dell’e-tutor nella didattica telematica, con ri- ferimento in particolare alle competenze comunicative e didattiche (interattive ed erogative) necessarie ad attività di moderazione online, all estimento di ge- stione dei gruppi e animazione di online communities. Il contributo presenta in particolare uno studio di caso svolto sul ruolo dell’e-tutor in un ateneo telema- tico italiano utilizzando una metodologia di analisi già validata in letteratura. Il saggio di Raffaghelli affronta il tema della “datificazione” di processi e servizi che ha caratterizzato l’università nella sua modernizza zione e, in parti- colare, nella pandemia. Il lavoro introduce un framework concet tuale che sup- Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -754,7 +755,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -762,7 +763,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -782,7 +783,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -795,18 +796,70 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11124\\temp\\2499-507X_11124.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11124\\2499-507X_11124.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": null
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Editoriale",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "x",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "x",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

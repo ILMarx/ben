@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11132",
-  "scraped_at_utc": "2026-04-26T20:25:52Z",
-  "fetched_at_utc": "2026-04-26T20:25:52Z",
+  "scraped_at_utc": "2026-04-27T10:20:31Z",
+  "fetched_at_utc": "2026-04-27T10:20:31Z",
   "source_mode": "live_url",
-  "source_html_sha256": "f7319543336ec2721829012d927b46e96b52ed86279bff5b773e7e78f4134b33",
+  "source_html_sha256": "a5ccef3af1b9ece20a414bb3390c122c30fe01e9e96950b271aaa2e3e343de38",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": null,
       "issue": null,
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -182,7 +182,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": null,
       "citationIssue": null,
       "citationStartPage": null,
@@ -190,7 +190,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Raffaghelli, J. E. (2021). “Datificazione” e istruzione superiore: verso la costruzione di un quadro competenziale per una rinnovata Digital Scholarship. Excellence and Innovation in Learning and Teaching - Open Access . https://doi.org/10.3280/exioa0-2021oa11132",
+      "citationString": "Raffaghelli, J. E. (2021). “Datificazione” e istruzione superiore: verso la costruzione di un quadro competenziale per una rinnovata Digital Scholarship. Excellence and Innovation in Learning and Teaching . https://doi.org/10.3280/exioa0-2021oa11132",
       "articleTitleEcho": "“Datificazione” e istruzione superiore: verso la costruzione di un quadro competenziale per una rinnovata Digital Scholarship"
     },
     "audience": null,
@@ -269,35 +269,27 @@
       },
       {
         "value": "Datafication and higher education: Towards a competence framework for a renewed digital scholarship",
-        "lang": "en",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "Data Literacy, Faculty Development, DIGCOMPEDU",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "alfabetizzazione dei dati, sviluppo professionale docente, didattica universitaria, DIGCOMPEDU",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Datafication and higher education: Towards a competence framework for a renewed digital scholarship",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -309,8 +301,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -361,7 +352,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -408,7 +399,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2021-special-issue",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:10Z",
         "scope": "archival master metadata",
         "issue_id": "2021-special-issue",
         "issue_label": "Special issue (2021)",
@@ -443,7 +434,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -514,11 +505,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -649,10 +640,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -691,7 +682,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -725,7 +716,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -733,7 +724,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "“Datificazione” e istruzione superiore: verso la costruzione di un quadro competenziale per una rinnovata Digital Scholarship | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "“Datificazione” e istruzione superiore: verso la costruzione di un quadro competenziale per una rinnovata Digital Scholarship | Excellence and Innovation in Learning and Teaching",
     "warnings": [
       "Published-date conflict: stronger page signal '2021-01-25' overrides DC.Date.issued '2021-01-26'."
     ],
@@ -760,22 +751,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:25:52Z"
+      "retrieved_at_utc": "2026-04-27T10:20:31Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:25:53Z",
+      "generated_at_utc": "2026-04-27T10:20:32Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11132",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11132",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 3,
           "raw_counts": {
             "title_variants": 4,
@@ -789,8 +780,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11132",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11132",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -801,20 +792,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11132\\temp\\2499-507X_11132.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11132\\2499-507X_11132.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:25:55Z",
+      "generated_at_utc": "2026-04-27T10:20:34Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11132\\2499-507X_11132.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "“Datificazione” e istruzione superiore: verso la costruzione di un quadro competenziale per una rinnovata Digital Scholarship",
         "submitted_date": "2021-01-25",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Juliana Elisa Raffaghelli"
@@ -822,7 +813,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11132\\2499-507X_11132.pdf",
-        "generated_at_utc": "2026-04-26T20:25:55Z",
+        "generated_at_utc": "2026-04-27T10:20:34Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 00_EILT_2021_Sommario",
@@ -835,6 +826,9 @@
           "mod_date": "2021-01-25"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue “Datificazione” e istruzione superiore: verso la costruzione di un quadro competenziale per una rinnovata Digital Scholarship Datafication and higher education: towards a competence framework for a renewed digital scholarship Juliana Elisa Raffaghelli* Riassunto La “datificazione” di processi e servizi è un fenomeno emergente, che sta creando una nuova forma di digital divide. Le due missioni principali dell’uni- versità sono entrate in pieno nelle dina miche della datificazione a partire dai processi di digitalizzazione che ha nno accompagnato la modernizzazione dell’università e più recentemente la pedagogia della pandemia. Il presente ar- ticolo si propone di introdurre un framework concettuale che supporti lo svi- luppo di aree di data literacy legate all’agire professionale dei docenti nella didattica universitaria. Lo studio si basa su una revisione della letteratura e fa parte di una fase iniziale di un proge tto di ricerca più ampio. Vengono quindi analizzati una serie di framework relativi alla data literacy , incluso il fra- mework europeo DigCompEdu. Quest’ultimo viene quindi adottato come base strutturale alla formulazione del qua dro di alfabetizzazione ai dati o data lite- racy, in virtù della sua centralità all’interno delle politiche europee. Il quadro che ne consegue viene discusso alla lu ce delle strategie di sviluppo professio- nale utili a configurare scenari di uso, non solo dal punto di vista tecnologico, ma anche etico ed epistemologico, entro una rinnovata Digital Scholarship o professionalità docente nell’era delle tecnologie intelligenti. Parole Chiave: alfabetizzazione dei dati, sviluppo professionale docente, didat- tica universitaria, DIGCOMPEDU * Universitat Oberta de Catalunya. Doi: 10.3280/exioa0-2021oa11132 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "129 forme di innovazione che andavano di pari passo con la digitalizzazione di pro- cessi e servizi (Daniel, 2015). Difatti, le due principali missioni nell’istruzione superiore, insegnamento e ricerca, hanno attraversato diversi processi di digi- talizzazione che via via includevano pratiche ad alta intensità di uso di dati, ovvero data-driven. Dal punto di vista dell’insegnamento, i dati raccolti sull’ap- prendimento e sui discenti su scale senza precedenti, hanno dato vita al data mining educativo e in particolare alle analitiche di apprendimento. Tali discorsi frequentemente si sostenevano su visioni tecno-deterministiche della qualità educativa e di “performance” istituzionale e politica, riferite in particolare alla costante raccolta dati per il piazzamento delle università in ranking internazio- nali (Prinsloo, 2019). Sembrava esserci , infatti, un indubbio valore negli svi- luppi proposti dalle analitiche di apprendimento per supportare le pratiche pe- dagogiche degli insegnanti e l’autoregolazione degli studenti (Ferguson, 2012; Rose, 2019). Tuttavia, le ipotesi sul potere degli algoritmi nel rappresentare complessi costrutti pedagogici spesso non trovano conferma. Inoltre, esiste un rischio relativo all’ampliamento di svantaggi sociali strutturali già esistenti tra gli studenti più vulnerabili (Perrotta & Williamson, 2018). Oltre a ciò, la mas- siccia adozione dei social media integrati con piattaforme di didattica a distanza implica nuove forme di sorveglianza e di “estrazionismo” dei dati a livello pri- vato, di cui docenti e studenti potrebbero essere completamente ignari (Manca, Caviglione & Raffaghelli, 2016; Raffaghelli, 2020c). In effetti, durante la prima fase critica della pandemia COVID19, la rincorsa alle soluzioni rapide ha dato luogo ad un fenomeno di prevalenza di tecnologie “GAMAF” (Google, Amazon, Microsoft, Apple, Facebook) senza una appro- fondita riflessione sulla concentrazione abnorme di dati e suo conseguente sfruttamento a favore delle suddette pia ttaforme private (Bozkurt et al., 2020) e a discapito di ottimi progetti di infrast ruttura nazionale (per esempio rete GARR) ed istituzionale (Moodle gestiti dagli Atenei). Si può dunque considerare che ci si muove ancora in un terreno di sabbie mobili, ancora in fase di strutturazione. Le logiche promettenti degli scenari del Big e Open Data sono state contrastate dalla necessità di un’esplorazione com- plessa e dell’applicazione di un approccio critico al problema della sorveglianza e della “datificazione” della società, propr io in virtù degli impatti diversificati tra “élite” di data-scientist e le corporazioni, attivisti e hacker, e utenti finali poco alfabetizzati ai dati (Raffaghelli, 2020b). Lo sviluppo di una competenza digitale avanzata, che includa i nuovi risvolti opportuni e critici dell’uso inten- Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -908,7 +902,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -916,7 +910,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -936,7 +930,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -949,18 +943,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11132\\temp\\2499-507X_11132.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11132\\2499-507X_11132.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "“Datificazione” e istruzione superiore: verso la costruzione di un quadro competenziale per una rinnovata Digital Scholarship",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Datafication and higher education: Towards a competence framework for a renewed digital scholarship",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Datafication and higher education: Towards a competence framework for a renewed digital scholarship",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "Data Literacy, Faculty Development, DIGCOMPEDU",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Data Literacy, Faculty Development, DIGCOMPEDU",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "alfabetizzazione dei dati, sviluppo professionale docente, didattica universitaria, DIGCOMPEDU",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "alfabetizzazione dei dati, sviluppo professionale docente, didattica universitaria, DIGCOMPEDU",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The “datafication” of processes and services is an emerging phenomenon, which is also leading to new forms of the digital divide. The university’s two main miss",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La “datificazione” di processi e servizi è un fenomeno emergente, che sta creando una nuova forma di digital divide. Le due missioni principali dell’università ",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

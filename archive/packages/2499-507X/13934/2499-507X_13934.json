@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13934",
-  "scraped_at_utc": "2026-04-26T20:27:09Z",
-  "fetched_at_utc": "2026-04-26T20:27:09Z",
+  "scraped_at_utc": "2026-04-27T10:22:06Z",
+  "fetched_at_utc": "2026-04-27T10:22:06Z",
   "source_mode": "live_url",
-  "source_html_sha256": "8786a0ca8df325fbb3392070b3314183af4305f3857ca4c8258478f577bedc98",
+  "source_html_sha256": "9f1fddd29cbfb7e84eb448380ac7dac98eb3f7b3932ec0747558ebb3b618ef06",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "7",
       "issue": "1",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -197,7 +197,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "7",
       "citationIssue": "1",
       "citationStartPage": null,
@@ -205,7 +205,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Anello, F. (2022). Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari. Excellence and Innovation in Learning and Teaching - Open Access , 7 (1). https://doi.org/10.3280/exioa1-2022oa13934",
+      "citationString": "Anello, F. (2022). Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari. Excellence and Innovation in Learning and Teaching , 7 (1). https://doi.org/10.3280/exioa1-2022oa13934",
       "articleTitleEcho": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari"
     },
     "audience": null,
@@ -284,22 +284,15 @@
       },
       {
         "value": "Cooperative Integrated Reading and Composition in Distance Learning: Examining the Effects on University Students",
-        "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Cooperative Integrated Reading and Composition in Distance Learning: Examining the Effects on University Students",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -362,7 +355,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -430,7 +423,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -506,11 +499,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -651,10 +644,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -693,7 +686,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -727,7 +720,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -735,7 +728,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -746,22 +739,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:27:09Z"
+      "retrieved_at_utc": "2026-04-27T10:22:06Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:27:10Z",
+      "generated_at_utc": "2026-04-27T10:22:07Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13934",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13934",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 2,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 2,
@@ -775,8 +768,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13934",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13934",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 2,
@@ -787,20 +780,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13934\\temp\\2499-507X_13934.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\13934\\2499-507X_13934.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:27:12Z",
+      "generated_at_utc": "2026-04-27T10:22:09Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13934\\2499-507X_13934.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
         "submitted_date": "2021-04-08",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Francesca Anello"
@@ -808,7 +801,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13934\\2499-507X_13934.pdf",
-        "generated_at_utc": "2026-04-26T20:27:11Z",
+        "generated_at_utc": "2026-04-27T10:22:09Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -821,6 +814,9 @@
           "mod_date": "2022-06-08"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 1 Doi: 10.3280/exioa1-2022oa13934 Lettura e Composizione In tegrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Stu- denti Universitari Cooperative Integrated Reading and Composition in Distance Learning: E xamining the Effects on University Students Francesca Anello * Abstract Per promuovere negli studenti la scrittura come attività consap evole e si- stematica per lo studio può risultare efficace il Cooperative Integrated Rea- ding and Composition (CIRC) Model, che si concentra sulla padronanza com- binata di strategie di comprensione e di composizione. In rapporto essenziale con la lettura, la co-costruzione di testi stimola gli studenti a esercitare molte- plici capacità: analizzare e sintetizzare, immaginare e anticip are, scegliere e selezionare, integrare e elaborare, organizzare i contenuti riguardo a situazioni comunicative e destinatari diversi. Nel presente contributo l’e sercizio delle abilità di leggere e comporre testi è stato indagato su un grup po di studenti universitari che si preparano a diventare maestri. Il programma CIRC è stato applicato in un insegnamento a distanza. Il duplice obiettivo d e l p r o g e t t o è stato di facilitare in 285 sogge tti lo studio individuale attra verso la scrittura condivisa e di accrescere in loro la consapevolezza d’uso della tecnica nelle classi di scuola primaria. Pur rimanendo su un piano esperienzi ale, che forni- sce dati non generalizzabili, l’attuazione del progetto ha cons entito di precisa- re l’adeguatezza delle procedure utilizzate. Parole chiave: composizione scritta, comprensione della lettura, insegnamen- to reciproco, apprendimento a distanza, consapevolezza. * Università degli Studi di Palermo. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "25 e di servirsene, richiama un atteggiamento di condivisione e di presa di deci- sioni autonome, di ricerca di cause e di formulazione di ipotes i, comporta la disponibilità del soggetto al dialogo. A scuola l’itinerario di conquista delle abilità di leggere per capire e di comporre testi chiari ed efficaci si presenta denso di difficol tà, che rallentano le diverse acquisizioni dell’alunno; in mancanza di interventi adeguati le pro- blematiche si riversano nei dive rsi ordini di scuola per arriva re all’università. In effetti, strutturare le idee in modo logico e corretto è un compito gravoso, come pure intrecciare in modo coerente e critico le nuove conos cenze con quelle pregresse. Una serie di rilevazioni ha evidenziato aspetti problematici ri guardo alle competenze linguistiche in lingu a scritta anche in studenti uni versitari, i quali usano frasi poco collegate tra loro, forniscono informazioni im precise, tendo- no a divagare, hanno difficoltà a utilizzare un registro formal e, commettono errori grammaticali (Sposetti, 2008; Calamai, 2012; Pugliese & Della Putta, 2017; Lubello, 2019; Polselli & Fatone, 2021). Il problema emerge con forza se gli studenti sono i futuri maes tri, che si preparano a insegnare a leggere e a scrivere ai bambini nella scuola primaria. Propriamente negli anni della scuola primaria, lo sviluppo di c apacità di lettura e scrittura è importante nel contesto dell’insegnamento e dell’uso delle lingue. Leggere e scrivere sono molto utili per l’acquisizione di una seconda lingua ed è noto che nel processo di apprendimento c’è un’alta correlazione tra lettura, comprensione e rendimento scolastico. La lettura orale, ad alta voce, è una parte standard della magg ior parte dei programmi di lettura; la ricerca ha indicato da tempo che essa ha effetti posi- tivi sulle capacità di decodifica e comprensione degli alunni ( Samuels, 1979), perché aumenta la loro capacità di decodificare in modo più automatico e gli consente di concentrare maggiormente l’attenzione (Perfetti, 19 85; Fuchs et al., 2001; Timothy et al., 2003; Stefanko, 2011). Nelle aule strutturate in modo tradizionale gli studenti riesco no a leggere molto poco. La maggior parte della lettura orale avviene in gru ppi di lettura dove un alunno legge mentre gli altri aspettano, sprecando in g ran parte il tempo dei membri del gruppo di versi dal lettore. Le opportunità che hanno gli alunni di leggere ad alta voce e ricevere feedback sono minime. Diversi studi descrittivi hanno notato un’enfasi eccessiva sull a compren- sione letterale a scapito della comprensione interpretativa e inferenziale e la mancanza di istruzioni esplicite che favoriscano le abilità di comprensione (Durkin, 1981; Brown & Palincsar, 1982). Le indagini su buoni e cattivi lettori hanno evidenziato che i lettori deboli mancano di strategie di comprensione e di controllo metacogniti vo della loro lettura e che questi deficit st rategici giocano un ruolo importante nei loro pro- Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -894,7 +890,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -902,7 +898,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -922,7 +918,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -935,18 +931,89 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13934\\temp\\2499-507X_13934.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\13934\\2499-507X_13934.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Lettura e Composizione Integrate Cooperative nella Didattica a Distanza: esaminare gli Effetti su Studenti Universitari",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Cooperative Integrated Reading and Composition in Distance Learning: Examining the Effects on University Students",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Cooperative Integrated Reading and Composition in Distance Learning: Examining the Effects on University Students",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The CIRC model, Cooperative Integrated Reading and Composition, which focuses on the combined mastery of comprehension and composition strategies, can be effect",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Per promuovere negli studenti la scrittura come attività consapevole e sistematica per lo studio può risultare efficace il Cooperative Integrated Reading and Co",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

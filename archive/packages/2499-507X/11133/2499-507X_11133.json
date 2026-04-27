@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11133",
-  "scraped_at_utc": "2026-04-26T20:25:56Z",
-  "fetched_at_utc": "2026-04-26T20:25:56Z",
+  "scraped_at_utc": "2026-04-27T10:20:35Z",
+  "fetched_at_utc": "2026-04-27T10:20:35Z",
   "source_mode": "live_url",
-  "source_html_sha256": "e1ebb4373b6ee517a5287161a7a5b09ac82d4b4c4648db5eb0287dff7f49665c",
+  "source_html_sha256": "77586e299461b98325ed74a54e70edd37862ffd4f889423c5c52ccb537cc620d",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": null,
       "issue": null,
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -177,7 +177,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": null,
       "citationIssue": null,
       "citationStartPage": null,
@@ -185,7 +185,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Lotti, A. (2021). Faculty Learning Communities e Comunità di Pratica per lo sviluppo professionale del docente. L’esperienza dell’Università di Genova. Excellence and Innovation in Learning and Teaching - Open Access . https://doi.org/10.3280/exioa0-2021oa11133",
+      "citationString": "Lotti, A. (2021). Faculty Learning Communities e Comunità di Pratica per lo sviluppo professionale del docente. L’esperienza dell’Università di Genova. Excellence and Innovation in Learning and Teaching . https://doi.org/10.3280/exioa0-2021oa11133",
       "articleTitleEcho": "Faculty Learning Communities e Comunità di Pratica per lo sviluppo professionale del docente. L’esperienza dell’Università di Genova"
     },
     "audience": null,
@@ -227,35 +227,27 @@
       },
       {
         "value": "Faculty Learning Communities and Communities of Practice for Faculty Development. The University of Genoa’s experience",
-        "lang": "en",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "Faculty Learning Communities; Community of Practice; Faculty Development",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "Faculty Learning Communities; Comunità di Pratica; Faculty Develop-ment.",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Faculty Learning Communities and Communities of Practice for Faculty Development. The University of Genoa’s experience",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -267,8 +259,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -319,7 +310,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -366,7 +357,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2021-special-issue",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:10Z",
         "scope": "archival master metadata",
         "issue_id": "2021-special-issue",
         "issue_label": "Special issue (2021)",
@@ -401,7 +392,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -471,11 +462,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -598,10 +589,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -640,7 +631,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -674,7 +665,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -682,7 +673,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Faculty Learning Communities e Comunità di Pratica per lo sviluppo professionale del docente. L’esperienza dell’Università di Genova | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Faculty Learning Communities e Comunità di Pratica per lo sviluppo professionale del docente. L’esperienza dell’Università di Genova | Excellence and Innovation in Learning and Teaching",
     "warnings": [
       "Published-date conflict: stronger page signal '2021-01-25' overrides DC.Date.issued '2021-01-26'."
     ],
@@ -709,22 +700,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:25:56Z"
+      "retrieved_at_utc": "2026-04-27T10:20:35Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:25:58Z",
+      "generated_at_utc": "2026-04-27T10:20:36Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11133",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11133",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 3,
           "raw_counts": {
             "title_variants": 4,
@@ -738,8 +729,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11133",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11133",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -750,20 +741,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11133\\temp\\2499-507X_11133.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11133\\2499-507X_11133.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:26:00Z",
+      "generated_at_utc": "2026-04-27T10:20:38Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11133\\2499-507X_11133.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Faculty Learning Communities e Comunità di Pratica per lo sviluppo professionale del docente. L’esperienza dell’Università di Genova",
         "submitted_date": "2021-01-25",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Antonella Lotti"
@@ -771,7 +762,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11133\\2499-507X_11133.pdf",
-        "generated_at_utc": "2026-04-26T20:26:00Z",
+        "generated_at_utc": "2026-04-27T10:20:38Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 00_EILT_2021_Sommario",
@@ -784,6 +775,9 @@
           "mod_date": "2021-01-25"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue Faculty Learning Communities e Comunità di Pratica per lo sviluppo professionale del docente. L’esperienza dell’Università di Genova Faculty Learning Communities and Communities of Practice for Faculty Development. The University of Genoa’s experience Antonella Lotti* Riassunto Questo articolo offre l’occasione di riflettere su cosa siano le Faculty Learning Communities (FLC) e le Comunità di Pratica (CdP) all’interno dei contesti uni- versitari, con particolare attenzione ai gruppi di docenti che si incontrano con regolarità per riflettere sulle proprie pratiche di insegnamento. Lo scopo di questo saggio è di definire cosa siano questi due tipi di gruppi di confronto e lavoro, illustrarne le origini e le caratteristiche, descrivere qualche esempio di FLC e CdP, tratteggiare le teorie di riferimento e riportare l’espe- rienza dell’Università di Genova, che realizza alcune Comunità di Pratica dal 2017, alla presenza dei risultati di un questionario somministrato a cinquanta docenti genovesi. Per concludere, e con riferimento a un articolo recente dedi- cato alle CdP per lo sviluppo delle competenze didattiche dei docenti di area medica e sanitaria, verranno riportate le dodici raccomandazioni utili per av- viare e mantenere sempre attive ed efficaci le CdP nei contesti universitari. Parole Chiave: Faculty Learning Communities; Comunità di Pratica; Faculty Development. Abstract This article offers an opportunity to reflect on what Faculty Learning Communities (FLC) and Communities of Pr actice (CoP) are within university contexts, with particular attention to groups of scholars who meet regularly to * Università di Modena e Reggio Emilia. E-mail: antonella.lotti@unimore.it. Doi: 10.3280/exioa0-2021oa11133 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "151 Nell’ambito delle attività di Faculty Development, ogni anno vengono creati due tipi di Faculty Learning Communities : quelle dedicate a un tema o a una coorte. Le FLCs organizzate per coorte sono quelle composte da un gruppo omoge- neo di partecipanti: docenti giovani, docenti a metà carriera e fine carriera, di- rettori dei dipartimenti, presidi di scuole o facoltà. Questi gruppi si occupano di insegnamento e apprendimento, e cercano di far superare il sentimento di solitudine e isolamento che spesso tocca alcuni docenti universitari nell’esple- tamento dei propri compiti didattici. Le FLCs dedicate a un tema, invece, pi anificano un programma formativo mirato a rispondere a un bisogno formativo o a un’opportunità offerta a un de- terminato corso di studio o dipartimento. Di solito sono i docenti stessi, o i tecnici amministrativi, che propongono un elenco di argomenti al direttore del programma FLCs, il quale, a sua volta, pubblica un bando aperto a tutti i docenti dell’ateneo, chiedendo agli interessati di iscriversi. Un argomento può durare un anno, o più anni, e si conclude quando il gruppo ha raggiunto i suoi obiettivi formativi. I temi affrontati in queste FLCs possono essere, ad esempio, la trasforma- zione dei corsi con approccio multicultura le, la tecnologia collaborativa, l’ap- prendimento e l’insegnamento online, il Problem Based Learning, insegnare e apprendere l’etica nei laboratori, la psicologia dell’apprendimento, insegnare in una lingua straniera, insegnare e apprendere in classi molto numerose, valu- tazione formativa e certificativa. Le FLCs, di solito, durano per un periodo che va oltre i sei mesi, sono su base volontaria, si incontrano in un ambiente che favorisce l’apprendimento, trattano progetti individuali o di gruppo, adottano il ciclo di Kolb dedicato all’apprendimento esperienziale (Kolb, 1984), sviluppano l’empatia tra i parte- cipanti, prendono le decisioni tramite il consenso, instaurano un clima di fiducia e un atteggiamento non giudicante, affr ontano anche problemi complessi, cer- cano di dare energia ai partecipanti e renderli più competenti. Le FLCs hanno ormai raggiunto una esp erienza quarantennale, sono state studiate e valutate da alcuni studiosi, i quali, oltre ad evidenziarne le ricadute sui docenti partecipanti e sui loro stud enti, sono riusciti anche a identificare quali sono i requisiti che rendono una FLC efficace (Cox, 2004). Tra le ricadute, Milton J. Cox cita:  riduzione dei problemi stress-correlati nei giovani docenti con contratti a tempo determinato, che evidenziavano isolamento e mancanza di comunità di riferimento; Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -857,7 +851,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -865,7 +859,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -885,7 +879,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -898,18 +892,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11133\\temp\\2499-507X_11133.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11133\\2499-507X_11133.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Faculty Learning Communities e Comunità di Pratica per lo sviluppo professionale del docente. L’esperienza dell’Università di Genova",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Faculty Learning Communities and Communities of Practice for Faculty Development. The University of Genoa’s experience",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Faculty Learning Communities and Communities of Practice for Faculty Development. The University of Genoa’s experience",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "Faculty Learning Communities; Community of Practice; Faculty Development",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Faculty Learning Communities; Community of Practice; Faculty Development",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "Faculty Learning Communities; Comunità di Pratica; Faculty Develop-ment.",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Faculty Learning Communities; Comunità di Pratica; Faculty Develop-ment.",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This article offers an opportunity to reflect on what Faculty Learning Communities (FLC) and Communities of Practice (CoP) are within university contexts, with ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Questo articolo offre l’occasione di riflettere su cosa siano le Faculty Learning Communities (FLC) e le Comunità di Pratica (CdP) all’interno dei contesti univ",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

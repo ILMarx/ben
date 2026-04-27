@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10075",
-  "scraped_at_utc": "2026-04-26T20:24:29Z",
-  "fetched_at_utc": "2026-04-26T20:24:29Z",
+  "scraped_at_utc": "2026-04-27T10:18:59Z",
+  "fetched_at_utc": "2026-04-27T10:18:59Z",
   "source_mode": "live_url",
-  "source_html_sha256": "a9def18d68f59ac58cf0d01667c25dd208e77ec74334de9aca58d9fee8f37b76",
+  "source_html_sha256": "b085209c9b6915a299a4046484c5bc43405f45e4501fb7249ebdc8c0fdad4ff8",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "5",
       "issue": "1",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -197,7 +197,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "5",
       "citationIssue": "1",
       "citationStartPage": null,
@@ -205,7 +205,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Zadra, C. (2020). Il tutor esterno nei PCTO (Percorsi per le Competenze Trasversali e l’Orientamento): maestro invisibile alla ricerca di circolarità fra teoria e prassi. Excellence and Innovation in Learning and Teaching - Open Access , 5 (1). https://doi.org/10.3280/exioa1-2020oa10075",
+      "citationString": "Zadra, C. (2020). Il tutor esterno nei PCTO (Percorsi per le Competenze Trasversali e l’Orientamento): maestro invisibile alla ricerca di circolarità fra teoria e prassi. Excellence and Innovation in Learning and Teaching , 5 (1). https://doi.org/10.3280/exioa1-2020oa10075",
       "articleTitleEcho": "Il tutor esterno nei PCTO (Percorsi per le Competenze Trasversali e l’Orientamento): maestro invisibile alla ricerca di circolarità fra teoria e prassi"
     },
     "audience": null,
@@ -273,34 +273,27 @@
       {
         "value": "The external tutor in PCTO (Training of Transversal Competences and Orientation): Invisible teacher in search of circularity between theory and practice",
         "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "role": "main",
+        "source": "locale:en_US:meta:DC.Title"
       },
       {
         "value": "tutorship, training for transversal competences and orientation, community of praxis, educational partnership, shadowing technique",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "tutorship, Percorsi per le Competenze Trasversali e l’Orientamento, comunità di pratica, partnership educativa, tecnica dello shadowing",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "The external tutor in PCTO (Training of Transversal Competences and Orientation): Invisible teacher in search of circularity between theory and practice",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ],
       "description_literal_languages": [
         "en",
@@ -312,8 +305,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -364,7 +356,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -432,7 +424,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -508,11 +500,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -655,10 +647,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -697,7 +689,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -731,7 +723,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -739,7 +731,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Il tutor esterno nei PCTO (Percorsi per le Competenze Trasversali e l’Orientamento): maestro invisibile alla ricerca di circolarità fra teoria e prassi | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Il tutor esterno nei PCTO (Percorsi per le Competenze Trasversali e l’Orientamento): maestro invisibile alla ricerca di circolarità fra teoria e prassi | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -750,22 +742,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:24:29Z"
+      "retrieved_at_utc": "2026-04-27T10:18:59Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:24:30Z",
+      "generated_at_utc": "2026-04-27T10:19:00Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10075",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10075",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 4,
@@ -779,8 +771,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10075",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10075",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -791,20 +783,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10075\\temp\\2499-507X_10075.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10075\\2499-507X_10075.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:24:31Z",
+      "generated_at_utc": "2026-04-27T10:19:03Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10075\\2499-507X_10075.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Il tutor esterno nei PCTO (Percorsi per le Competenze Trasversali e l’Orientamento): maestro invisibile alla ricerca di circolarità fra teoria e prassi",
         "submitted_date": "2020-06-24",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Cinzia Zadra"
@@ -812,7 +804,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10075\\2499-507X_10075.pdf",
-        "generated_at_utc": "2026-04-26T20:24:31Z",
+        "generated_at_utc": "2026-04-27T10:19:03Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - Sommario.docx",
@@ -825,6 +817,9 @@
           "mod_date": "2020-06-24"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020, 1 Il tutor esterno nei PCTO (Percorsi per le Competenze Trasversali e l’Orientamento): maestro invisibile alla ricerca di circolarità fra teoria e prassi The external tutor in PCTO (Training of Transversal Competences and Orientation): Invisible teacher in search of circularity between theory and practice Cinzia Zadra* Riassunto Questo contributo affronta la questione del ruolo dei tutor 1 d’azienda e del loro riconoscimento come agenti forma tivi all’interno del più ampio discorso sui luoghi di apprendimento work-related. Attraverso la tecnica dello shadowing e interviste in profondit à si è cercato di comprendere le esperienze dei tutor aziendali in riferimento alla co-costruzione di spazi di apprendimento e di progettazione educativa e alle richieste di quali- ficazione e partecipazione. Parole chiave: tutorship, Percorsi per le Competenze Trasversali e l’Orienta - mento, comunità di pratica, partnership educativa, tecnica dello shadowing. Abstract This contribution aims to bring the attention to the issue of the role of enterprise tutors and their recognition as educational agents within the b roader discourse on work-related learning places. * Libera Università di Bolzano-Bozen, Facoltà di Scienze della Formazione. 1 Per rendere la lettura più scorrevole si è utilizzato in tutto il testo il genere maschile intendendo, come è pratica nella lingua italiana, sia il genere maschile sia quello fem- minile. DOI: 10.3280/exioa1-2020oa10075 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "31 che si occupano di sistemi duali e di esperienze di apprendimento work-based o work-related mettono in guardia dal mero accostamento alla scuola di un nuovo luogo di apprendimento, que llo dell’impresa: questa vicinanza risulta spesso configurarsi come una sorta di coesistenza parallela pri va di spazi e di strumenti di collaborazione, sospesa e interrotta in una formale distribuzione di responsabilità e delimitazione di ruoli o funzioni (Fabbri, 2014; Bertagna, 2016; Batini & De Carlo, 2016; Fabbri & Romano, 2018). In questo contributo si propone una riflessione sulle esperienz e di tirocinio all’interno dei percorsi per le competenze trasversali e l’orie ntamento (PCTO) dalla prospettiva dei tutor aziendali. La figura di tutor esterno o aziendale è stata introdotta dalla legge della Buona Scuola (L. n. 107/2015) per raccordare le strutture aziendali e le imprese e le istituzioni scolastiche coinvolte nelle espe- rienze di alternanza scuola-lavoro che ora sono confluite nei n uovi PCTO in- trodotti con la legge di Bilancio 145/2018 (art. 1 commi da 784 a 787). Le linee guida relative alle disposizioni della legge n. 145/2018 (MIUR, 2018) mettono a fuoco l’evoluzione dei nuovi orientamenti europ ei proposti dalla New Skills Agenda for Europa del 2016, che ha portato a una riproposta delle Competenze chiave per l’apprendimento permanente (COM, 2018) e alla revisione del QCER per le lingue (Coe, 2018). Le linee guida sottolineano un rilancio della dimensione olistica della competenza con un’atte nzione partico- lare alle competenze personali e sociali comprendenti le compet enze trasver- sali: capacità di interagire e lavorare con gli altri, capacità di ri soluzione di problemi, creatività, pensiero critico, consapevolezza, resilienza e capacità di individuare le forme di orientamento e sostegno disponibili per affrontare la comple ssità e l’incertezza dei cambiamenti, preparandosi alla natura mutante delle economie moderne e delle società complesse (MIUR, 2018, p. 3). Tali competenze sono classificabili per l’alto grado di trasfer ibilità e per i processi di consapevolezza e riflessività richiesti e sottendon o una spiccata di- mensione orientativa. Le nuove disposizioni depotenzi ano i PCTO rimodulandone la dura ta: 90 ore nel triennio finale per i licei, 150 per gli istituti tecni ci e 210 per gli istituti professionali, anche se ogni scuola autonomamente può proporre i PCTO anche per periodi più estesi. Le condizioni di una effettiva collabor azione nella pro- gettazione, nella gestione e nella didattica tra le imprese e le scuole sono quindi rese strutturalmente più diffic ili anche se l’esperienza di lav oro fuori dalla scuola mantiene un valore significativo nel percorso scolastico dello studente Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -898,7 +893,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -906,7 +901,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -926,7 +921,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -939,18 +934,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10075\\temp\\2499-507X_10075.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10075\\2499-507X_10075.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Il tutor esterno nei PCTO (Percorsi per le Competenze Trasversali e l’Orientamento): maestro invisibile alla ricerca di circolarità fra teoria e prassi",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "The external tutor in PCTO (Training of Transversal Competences and Orientation): Invisible teacher in search of circularity between theory and practice",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The external tutor in PCTO (Training of Transversal Competences and Orientation): Invisible teacher in search of circularity between theory and practice",
+            "dropped_source": "locale:it_IT:meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "tutorship, training for transversal competences and orientation, community of praxis, educational partnership, shadowing technique",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "tutorship, training for transversal competences and orientation, community of praxis, educational partnership, shadowing technique",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "tutorship, Percorsi per le Competenze Trasversali e l’Orientamento, comunità di pratica, partnership educativa, tecnica dello shadowing",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "tutorship, Percorsi per le Competenze Trasversali e l’Orientamento, comunità di pratica, partnership educativa, tecnica dello shadowing",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This contribution aims to bring the attention to the issue of the role of enterprise tutors and their recognition as educational agents within the broader disco",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Questo contributo affronta la questione del ruolo dei tutor1 d’azienda e del loro riconoscimento come agenti formativi all’interno del più ampio discorso sui lu",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

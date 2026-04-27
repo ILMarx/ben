@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13018",
-  "scraped_at_utc": "2026-04-26T20:26:35Z",
-  "fetched_at_utc": "2026-04-26T20:26:35Z",
+  "scraped_at_utc": "2026-04-27T10:21:29Z",
+  "fetched_at_utc": "2026-04-27T10:21:29Z",
   "source_mode": "live_url",
-  "source_html_sha256": "f1a20f3f3adc450f92570a4881fb7b553f3b8708ea9fb5159081a6cb2cb1feb1",
+  "source_html_sha256": "4835eb528892e71dbd678fc04b27aaca6321cbd62961d8d02e22f912870a5620",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "6",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -197,7 +197,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "6",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -205,7 +205,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Pignalberi, C. (2021). La valutazione delle competenze strategiche nella didattica universitaria: un’esperienza di ricerca per autoregolare e autodirigere se stessi nello studio e nella vita. Excellence and Innovation in Learning and Teaching - Open Access , 6 (2). https://doi.org/10.3280/exioa2-2021oa13018",
+      "citationString": "Pignalberi, C. (2021). La valutazione delle competenze strategiche nella didattica universitaria: un’esperienza di ricerca per autoregolare e autodirigere se stessi nello studio e nella vita. Excellence and Innovation in Learning and Teaching , 6 (2). https://doi.org/10.3280/exioa2-2021oa13018",
       "articleTitleEcho": "La valutazione delle competenze strategiche nella didattica universitaria: un’esperienza di ricerca per autoregolare e autodirigere se stessi nello studio e nella vita"
     },
     "audience": null,
@@ -270,22 +270,15 @@
       },
       {
         "value": "Assessing strategic competencies in undergraduate teaching: A research experience for self-regulation and self-direction in study and life",
-        "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Assessing strategic competencies in undergraduate teaching: A research experience for self-regulation and self-direction in study and life",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -348,7 +341,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -416,7 +409,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -492,11 +485,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -637,10 +630,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2021,
       "raw_dc_rights": [
-        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -679,7 +672,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -713,7 +706,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2021 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -721,7 +714,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "La valutazione delle competenze strategiche nella didattica universitaria: un’esperienza di ricerca per autoregolare e autodirigere se stessi nello studio e nella vita | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "La valutazione delle competenze strategiche nella didattica universitaria: un’esperienza di ricerca per autoregolare e autodirigere se stessi nello studio e nella vita | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -732,22 +725,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:26:35Z"
+      "retrieved_at_utc": "2026-04-27T10:21:29Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:26:36Z",
+      "generated_at_utc": "2026-04-27T10:21:31Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13018",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13018",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 2,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 2,
@@ -761,8 +754,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F13018",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/13018",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 2,
@@ -773,20 +766,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13018\\temp\\2499-507X_13018.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\13018\\2499-507X_13018.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:26:38Z",
+      "generated_at_utc": "2026-04-27T10:21:33Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13018\\2499-507X_13018.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "La valutazione delle competenze strategiche nella didattica universitaria: un’esperienza di ricerca per autoregolare e autodirigere se stessi nello studio e nella vita",
         "submitted_date": "2021-09-28",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2021",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Claudio Pignalberi"
@@ -794,7 +787,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13018\\2499-507X_13018.pdf",
-        "generated_at_utc": "2026-04-26T20:26:38Z",
+        "generated_at_utc": "2026-04-27T10:21:32Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -807,6 +800,9 @@
           "mod_date": "2021-12-23"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2021, 2 Doi: 10.3280/exioa2-2021oa13018 La valutazione delle competen ze strategiche nella didattica universitaria: un’esperienza di ricerca per autoregolare e autodirigere se stessi nello studio e nella vita Assessing strategic compe tencies in undergraduate teaching: A research experience for self-regulation a n d self-direction in study and life Claudio Pignalberi* Riassunto L’articolo è incentrato sull’istruzione superiore e lo sviluppo dell’autoregolazione negli studenti universitari che sono stati protagonisti di un laboratorio per l’autovalutazione delle competenze strategiche. Dalla ricer- ca emerge che nel momento in cui allo studente viene offerta la possibilità di valutare, riflettere e potenziare le strategie di apprendimento sarà in grado di trarre la forza e la motivazi one essenziali per avere successo nello studio e nella gestione del proprio progetto di vita personale. Parole-chiave: Autoregolazione, competenze strategiche, generatività, strate - gie di apprendimento, valutazione formativa Abstract This article focuses on higher e ducation and the development of self- regulation in college students who have been involved in a work shop for the self-assessment of strategic skills. The research shows that wh en students are given the opportunity to evaluate, reflect on, and enhance thei r learning strat- egies, they will be able to derive the strength and motivation essential for suc- cess in their studies and in managing their personal life plans. Keywords: Self-regulation, strategic skills, generativity, learning stra tegies, formative assessment Articolo sottomesso: 28/09/2021; accettato: 22/11/2021 Disponibile online: 23/12/2021 * Università degli Studi Roma TRE. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "44 portunità didattiche distribuite per consentire ad insegnanti e studenti di svi- luppare le competenze strategiche e, al contempo, riconoscere e d investire nel diritto all’apprendere ad apprendere (to learn to learn). 2. La promozione di processi di autovalutazione delle competenz e strategiche D. Pelletier e R. Bujold, in un volume del 1984, sintetizzarono in modo eloquente l’importanza di riserva re nell’approccio delle compet enze il princi- pale metodo di valutazione nell’ambito specifico della didattic a universitaria con l’obiettivo di Far acquisire agli studenti una competenza che permetterà loro di analizzare, nell’immediato ma anche più tardi, a ogni bivio che si presente rà nel corso dello svolgimento del proprio orientamento, gli elementi di sé, le proprie risorse e i pro- pri limiti, e la struttura del mondo circostante con le sue str ade maestre e i tornan- ti, le sue opportunità e le sue forzature. Se in un mondo in ev oluzione non è più possibile costruire progetti a lungo termine, occorre fare prop rie le strategie a bre- ve termine, gli aggiustamenti conseguenti e la disponibilità. (p. 28) Tale metodo si sviluppa e si arricchisce grazie alla ricorsivit à tra metaco- noscenza-metacognizione-metaemotività (Schraw & Sperling-Dennison, 1994), inserendosi in un processo formativo che può “accrescere il suo valore per livelli progressivi di acquisizione da parte del soggetto, in un’ottica tra- sformativa di continua destrutturazione e strutturazione del pr oprio apprendi- mento” (Pellerey, 2018, p. 183). Le pratiche di valutazione hanno assunto grande rilevanza allo scopo di formare un soggetto capace di autodeterminarsi – ed autodiriger si – durante l’intero percorso di crescita attraverso la partecipazione, la collaborazione e la cooperazione ai processi di appre ndimento. Nell’ambito della pr ogettazione didattico-formativa, la valutazione svolge un ruolo fondamental e nelle attività di promozione e sviluppo di attitudini positive, abilità rifles sive e strategie au- toregolative coinvolte nei processi di apprendimento finalizzat e alla realizza- zione di progetti individuali che richiama il recupero della di mensione esi- stenziale, educativa e vocazionale di ogni persona. La valutazione riguarda il processo di apprendimento, il compor tamento e il rendimento nello studio e conc orre, con la sua finalità anch e formativa e at- traverso l’individuazione delle potenzialità e delle carenze di ognuno, ai pro- cessi di autovalutazione degli studenti, al miglioramento dei l ivelli di cono- Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -880,7 +876,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -888,7 +884,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2021",
@@ -908,7 +904,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -921,18 +917,89 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\13018\\temp\\2499-507X_13018.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\13018\\2499-507X_13018.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La valutazione delle competenze strategiche nella didattica universitaria: un’esperienza di ricerca per autoregolare e autodirigere se stessi nello studio e nel",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Assessing strategic competencies in undergraduate teaching: A research experience for self-regulation and self-direction in study and life",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Assessing strategic competencies in undergraduate teaching: A research experience for self-regulation and self-direction in study and life",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This article focuses on higher education and the development of self-regulation in college students who have been involved in a workshop for the self-assessment",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’articolo è incentrato sull’istruzione superiore e lo sviluppo dell’autoregolazione negli studenti universitari che sono stati protagonisti di un laboratorio p",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

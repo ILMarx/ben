@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
-  "scraped_at_utc": "2026-04-26T20:28:08Z",
-  "fetched_at_utc": "2026-04-26T20:28:08Z",
+  "scraped_at_utc": "2026-04-27T10:22:54Z",
+  "fetched_at_utc": "2026-04-27T10:22:54Z",
   "source_mode": "live_url",
-  "source_html_sha256": "9dcc7862cff01b44df1473c09a5cb6ea2904e83cfcb341e9cda53f3fcfe8ead7",
+  "source_html_sha256": "778dee347bb1368f188d6cb2987246edd5a9583578d129de171cb82852d0432f",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "7",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -197,7 +197,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "7",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -205,7 +205,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Rocco, A. (2022). L’Internazionalizzazione delle Università. Excellence and Innovation in Learning and Teaching - Open Access , 7 (2). https://doi.org/10.3280/exioa2-2022oa15084",
+      "citationString": "Rocco, A. (2022). L’Internazionalizzazione delle Università. Excellence and Innovation in Learning and Teaching , 7 (2). https://doi.org/10.3280/exioa2-2022oa15084",
       "articleTitleEcho": "L’Internazionalizzazione delle Università"
     },
     "audience": null,
@@ -268,22 +268,15 @@
       },
       {
         "value": "The Internationalization of Universities",
-        "lang": "en",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "The Internationalization of Universities",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -346,7 +339,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -414,7 +407,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -490,11 +483,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -635,10 +628,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -677,7 +670,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -711,7 +704,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -719,7 +712,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "L’Internazionalizzazione delle Università | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "L’Internazionalizzazione delle Università | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -730,22 +723,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:28:08Z"
+      "retrieved_at_utc": "2026-04-27T10:22:54Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:28:09Z",
+      "generated_at_utc": "2026-04-27T10:22:56Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F15084",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 2,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 2,
@@ -759,8 +752,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F15084",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/15084",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 1,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 2,
@@ -771,20 +764,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\temp\\2499-507X_15084.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\15084\\2499-507X_15084.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:28:11Z",
+      "generated_at_utc": "2026-04-27T10:22:57Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\2499-507X_15084.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "L’Internazionalizzazione delle Università",
         "submitted_date": "2022-12-13",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Antonietta Rocco"
@@ -792,7 +785,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\2499-507X_15084.pdf",
-        "generated_at_utc": "2026-04-26T20:28:11Z",
+        "generated_at_utc": "2026-04-27T10:22:57Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 07_Rocco.docx",
@@ -805,6 +798,9 @@
           "mod_date": "2022-12-19"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2022, 2 Doi: 10.3280/exioa2-2022oa15084 L’Internazionalizzazione delle Università The Internationalization of Universities Antonietta Rocco* Riassunto Oggi le Università sono chiamate a provvedere ad una rapida inn ovazione delle proprie competenze al fine di sostenere la competitività internazionale in una società sempre più globali zzata dai punti di vista economic o, sociale, po- litico, culturale, scientifico e tecnologico. L’internazionaliz zazione delle im- prese, l’apertura delle frontie re, le nuove tecnologie hanno in dotto gli Atenei ad adottare politiche di intern azionalizzazione che promuovono la mobilità di studenti, docenti e personale amministrativo, l’uso veicolare d elle lingue stra- niere e in particolare dell’inglese, la crescita di programmi i nternazionali di scambio, di studio e di ricerca, l’introduzione di titoli doppi, multipli e con- giunti. Ci si chiede se l’internazionalizzazione sia sempre e c omunque un elemento qualificante o possa assumere anche connotati negativi e risvolti inattesi. Si assiste ad un ripen samento della missione delle Università, come centri propulsori di progresso, sviluppo ed evoluzione. L’internazionalizzazio- ne per un Ateneo non significa dimenticare o svalutare la propr ia storia e la propria tradizione, ma al contra rio, va interpretata come una s fida per proget- tare nuove dinamiche di crescita e strategie di valorizzazione e per riqualifi- carsi come Università inclusiva e universalistica. Parole chiave: Internazionalizzazione, Globalizzazione, Università, Mobilità, Studenti. Abstract Nowadays Universities are called upon to provide for a rapid in novation of their skills in order to support international competitiveness in an increasingly globalized society from an economic, social, political, cultura l, scientific and technological point of view. The internationalization of busine sses, the * Responsabile Unità Cooperazione Internazionale, Università di Foggia. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "111 finanziarie e strumentali disponibili a legislazione vigente, di insegnamenti, di corsi di studio e di forme di selezione svolti in lingua straniera» . Gli articoli 165 e 166 del Trattato sul Funzionamento dell’Unio ne Euro- pea, al fine di sviluppare una istruzione di qualità, incentiva no la cooperazio- ne tra gli Stati membri, sostenendo ed integrando la loro azion e «nel pieno ri- spetto della responsabilità degli Stati membri per quanto riguarda il contenu- to dell’insegnamento e l’organizzazione de l sistema di istruzione, nonché del- le loro diversità culturali e linguistiche». Nelle università si registra una progressione di iniziative e p rogetti concer- nenti, oltre la promozione della mobilità di studenti, docenti e personale, sia incoming c h e outgoing, attraverso la stipulazione di accordi transnazionali, anche l’introduzione di programmi in cui si utilizza l’inglese come lingua vei- colare; l’investimento in progetti di ricerca a vasto raggio, a llo scopo di mi- gliorare il proprio profilo a livello mondiale (Altbach & Knight, 2007). In un’ottica di internazionalizzazione in senso sostanziale, e non meramen- te formale, la cifra numerica dei soggetti in mobilità in entrata o in uscita, non è indicativa del grado di internazionalizzazione di un Ateneo. Occorrerebbe invece puntare su un programma coerente di azioni volte a favorire, in termini qualitativi e non meramente quantitativi, una effettiva integra zione universita- ria e sociale, non una mera coesistenza/compresenza di soggetti , programmi, idee e culture. È stato sostenuto che l'integrazione può essere intesa in tre di- stinte accezioni: monistica, quando la cultura più forte assorb e quelle più de- boli o di minoranza; dualistica o pluralistica, quando due o pi ù gruppi di sog- getti diversi coesistono in modo indipendente ma senza interazi oni (multicul- turalismo); e interazionistica, nel caso in cui persone apparte nenti a gruppi et- nici e culturali diversi cercano, non solo di vivere pacificame nte, gli uni ac- canto agli altri, ma anche di int eragire tramite un costante sc ambio di idee, norme, valori e significati (Portera, 2013). L’internazionalizzazione dell’offerta formativa, della ricerca, dell’organizzazione, la mobilità di tutte le componenti dell’ateneo, la coope- razione, la produzione scientifica, il trasferimento di conoscenza, il potenzia- mento della comunicazione e delle reti, le politiche linguistic he (CRUI, 2015) sono elementi di profondo arricchimento professionale e persona le dell’individuo e dell’Università nella misura in cui si pongano non come sco- po, ma come mezzo per migliorare la qualità dei corsi, della ricerca, dell’accoglienza e la responsabilità sociale dell’Università. Politiche di internazionalizzazione L’internazionalizzazione dell’istruzione superiore (“IoHE” – “ Internatio- Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial – No Derivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -878,7 +874,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -886,7 +882,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -906,7 +902,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -919,18 +915,89 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\15084\\temp\\2499-507X_15084.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\15084\\2499-507X_15084.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’Internazionalizzazione delle Università",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The Internationalization of Universities",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The Internationalization of Universities",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Nowadays Universities are called upon to provide for a rapid innovation of their skills in order to support international competitiveness in an increasingly glo",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Oggi le Università sono chiamate a provvedere ad una rapida innovazione delle proprie competenze al fine di sostenere la competitività internazionale in una soc",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

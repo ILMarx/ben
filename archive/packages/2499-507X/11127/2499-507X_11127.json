@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11127",
-  "scraped_at_utc": "2026-04-26T20:25:31Z",
-  "fetched_at_utc": "2026-04-26T20:25:31Z",
+  "scraped_at_utc": "2026-04-27T10:20:09Z",
+  "fetched_at_utc": "2026-04-27T10:20:09Z",
   "source_mode": "live_url",
-  "source_html_sha256": "a0308427dec60a88d66ccd7324e2dd7c5e05ec6e0148f110c6ac71d9ecdd0c00",
+  "source_html_sha256": "09e578a7e73c33182e73c93c5cc2a0a5d0b286a1954a0e5b032ddcbfd0d28b4e",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -102,7 +102,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -142,15 +142,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": null,
       "issue": null,
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -230,7 +230,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": null,
       "citationIssue": null,
       "citationStartPage": null,
@@ -238,7 +238,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Mortari, L., Bevilacqua, A., Silva, R., & Pizzato, F. A. (2021). L’analisi delle pratiche discorsive come strumento a servizio dell’innovazione didattica nella Higher Education: un’esperienza nella legal education. Excellence and Innovation in Learning and Teaching - Open Access . https://doi.org/10.3280/exioa0-2021oa11127",
+      "citationString": "Mortari, L., Bevilacqua, A., Silva, R., & Pizzato, F. A. (2021). L’analisi delle pratiche discorsive come strumento a servizio dell’innovazione didattica nella Higher Education: un’esperienza nella legal education. Excellence and Innovation in Learning and Teaching . https://doi.org/10.3280/exioa0-2021oa11127",
       "articleTitleEcho": "L’analisi delle pratiche discorsive come strumento a servizio dell’innovazione didattica nella Higher Education: un’esperienza nella legal education"
     },
     "audience": null,
@@ -302,35 +302,27 @@
       },
       {
         "value": "The analysis of discursive practices at the service of the teaching innovation in Higher Education: A legal education experience",
-        "lang": "en",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "discursive practice, legal education, teaching innovation, faculty development, higher education",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "pratiche discorsive, educazione giuridica, innovazione didattica, faculty development, università",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "The analysis of discursive practices at the service of the teaching innovation in Higher Education: A legal education experience",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -342,8 +334,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -394,7 +385,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -441,7 +432,7 @@
     "manual_editorial_corrections": [
       {
         "code": "issue-normalisation-2021-special-issue",
-        "applied_at_utc": "2026-04-26T21:25:55Z",
+        "applied_at_utc": "2026-04-27T16:04:09Z",
         "scope": "archival master metadata",
         "issue_id": "2021-special-issue",
         "issue_label": "Special issue (2021)",
@@ -476,7 +467,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -554,11 +545,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -706,10 +697,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -748,7 +739,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -782,7 +773,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -790,7 +781,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "L’analisi delle pratiche discorsive come strumento a servizio dell’innovazione didattica nella Higher Education: un’esperienza nella legal education | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "L’analisi delle pratiche discorsive come strumento a servizio dell’innovazione didattica nella Higher Education: un’esperienza nella legal education | Excellence and Innovation in Learning and Teaching",
     "warnings": [
       "Published-date conflict: stronger page signal '2021-01-25' overrides DC.Date.issued '2021-01-26'."
     ],
@@ -817,22 +808,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:25:31Z"
+      "retrieved_at_utc": "2026-04-27T10:20:09Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:25:33Z",
+      "generated_at_utc": "2026-04-27T10:20:11Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11127",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11127",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 5,
           "raw_counts": {
             "title_variants": 4,
@@ -846,8 +837,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F11127",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/11127",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -858,20 +849,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11127\\temp\\2499-507X_11127.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11127\\2499-507X_11127.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:25:35Z",
+      "generated_at_utc": "2026-04-27T10:20:13Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11127\\2499-507X_11127.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "L’analisi delle pratiche discorsive come strumento a servizio dell’innovazione didattica nella Higher Education: un’esperienza nella legal education",
         "submitted_date": "2021-01-25",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Luigina Mortari",
@@ -882,7 +873,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11127\\2499-507X_11127.pdf",
-        "generated_at_utc": "2026-04-26T20:25:35Z",
+        "generated_at_utc": "2026-04-27T10:20:13Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": "Microsoft Word - 00_EILT_2021_Sommario",
@@ -895,6 +886,9 @@
           "mod_date": "2021-01-25"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), Special Issue L’analisi delle pratiche discorsive come strumento a servizio dell’innovazione didattica nella Higher Education: un’esperienza nella legal education The analysis of discursive practices at the service of the teaching innovation in Higher Education: a legal education experience Luigina Mortari, Alessia Bevilacqua, Roberta Silva, Fedra Alessandra Pizzato* Riassunto Più ancora che in altre aree della higher education, all’interno della legal edu- cation l’innovazione didattica è oggi finalizzata a supportare lo sviluppo di competenze riflessive, di pensiero critico e di problem solving, requisiti fonda- mentali per poter affrontare una professione in cui il grado di complessità è in netto aumento. A tale scopo, il Dipartimento di Scienze Giuridiche e il Tea- ching and Learning Center (TaLC) dell ’Università di Verona hanno avviato percorsi di innovazione didattica adottando la prospettiva dell’educational eva- luation, e in particolare della valutazione trasformativa, attuata attraverso l’os- servazione fra pari e l’analisi delle pratiche discorsive. L’obiettivo dei disposi- tivi etero-valutativi era la promozione nei docenti di processi riflessivi e meta- cognitivi finalizzati all’acquisizione di una maggiore consapevolezza rispetto ai punti di forza e di debolezza delle proprie pratiche didattiche, nonché un mi- glioramento delle pratiche stesse. Parole Chiave: pratiche discorsive, educazione giuridica, innovazione didat- tica, faculty development, università * Università degli Studi di Verona. Ai fini della valutazione accademica si attr ibuiscano a Luigina Mortari il paragrafo 2, ad Alessia Bevilacqua il paragrafo 3, a Roberta Silva il paragrafo 4, e Fedra Alessandra Pizzato il paragrafo 1. L’attribuzione della bibliografia è invece equamente divisa. Doi: 10.3280/exioa0-2021oa11127 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "47 scenari sfidanti e con gradi di complessità elevati, quali quelli legati all’eserci- zio della professione legale nei contest i contemporanei (Stuckey et al., 2007; Carasik, 2011; Rhode, 2012, Knauer, 2015). Se si considera la letteratura prodotta nell’ambito della legal education, si nota come queste considerazioni si inseriscano in un dibattito di lungo periodo che mira a ridiscutere le pratiche educative in questo specifico campo disciplinare, consi- derato da alcuni autori particolarmente conservativo sul fronte delle pratiche di- dattiche. Due pietre miliari di questo dibattito sono rappresentate dal MacCrate Report of the American Bar Association (ABA) (1992), redatto agli albori dell’era digitale, e dal più recente Educating Lawyers: Preparation for the Profession of Law, più noto come “Carnegie Report” del 2007. Quest’ultimo documento in par- ticolare ha sollevato un dibattito fecondo che non può oggi essere facilmente igno- rato (Sullivan, 2018). Sebbene alcuni dei temi evidenziati in questi rapporti siano fortemente legati al mondo statunitense in cui il dibattito stesso ha preso l’avvio, vale la pena soffermarsi anche in questa sede sulle considerazioni emerse nell’am- bito di questa decennale discussione, poiché molti dei temi affrontati risultano si- gnificativi anche in contesti molto differenti come quello europeo in generale e italiano in particolare. Anche in paesi il cui ordinamento giuridico è basato “sui codici di legge” e non sulla Common law, infatti, sono emersi problemi affini a quelli sollevati negli Stati Uniti. Anche in Italia si rilevano oggi, infatti, da un lato una percezione di scarsa efficacia dell’azione didattica tradizionale da parte dei docenti, dall’altro una diffusa insoddisfazione circa la propria capacità performa- tiva nel mondo del lavoro da parte dei giovani neolaureati. A queste considerazioni non ha fatto però finora seguito ovunque un’appro- fondita riflessione sull’innovazione nell ’insegnamento della disciplina legale. Nonostante questa percezione sia diffusa, si rileva infatti una generalizzata dif- ficoltà a mutare l’approccio didattico tradizionale (la cosiddetta didattica fron- tale) e a intraprendere una profonda revisione e modernizzazione pedagogica in vari contesti nazionali (Carasik, 2011). Tuttavia, chi voglia perseguire l’in- novazione didattica nella legal education non si trova oggi privo di guida. Dal dibattito internazionale sono emerse infatti numerose indicazioni di best prac- tices su cui basare gli interventi di mode rnizzazione didattica, a partire dalle varie skills che gli studenti devono acquisire per affrontare al meglio l’ingresso nella professione (si veda es. Stuckey et al., 2007). In particolare, tre sembrano essere gli ambiti di competenze la cui implementazione appare oggi cruciale: il primo è caratterizzato dallo sviluppo delle abilità di problem solving; il secondo dall’abitudine al pensiero critico; il terzo, invece, è legato alle capacità di inte- razione interpersonale, le cosiddette abilità socio-relazionali. Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -968,7 +962,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -976,7 +970,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -996,7 +990,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -1009,18 +1003,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\11127\\temp\\2499-507X_11127.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\11127\\2499-507X_11127.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’analisi delle pratiche discorsive come strumento a servizio dell’innovazione didattica nella Higher Education: un’esperienza nella legal education",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The analysis of discursive practices at the service of the teaching innovation in Higher Education: A legal education experience",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The analysis of discursive practices at the service of the teaching innovation in Higher Education: A legal education experience",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "discursive practice, legal education, teaching innovation, faculty development, higher education",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "discursive practice, legal education, teaching innovation, faculty development, higher education",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "pratiche discorsive, educazione giuridica, innovazione didattica, faculty development, università",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "pratiche discorsive, educazione giuridica, innovazione didattica, faculty development, università",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Even more than in other areas of higher education, teaching innovation in legal education is currently aimed at supporting the development of reflective, critic",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Più ancora che in altre aree della higher education, all’interno della legal education l’innovazione didattica è oggi finalizzata a supportare lo sviluppo di co",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }

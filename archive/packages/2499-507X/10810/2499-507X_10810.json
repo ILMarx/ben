@@ -1,9 +1,9 @@
 {
   "source_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10810",
-  "scraped_at_utc": "2026-04-26T20:25:06Z",
-  "fetched_at_utc": "2026-04-26T20:25:06Z",
+  "scraped_at_utc": "2026-04-27T10:19:46Z",
+  "fetched_at_utc": "2026-04-27T10:19:46Z",
   "source_mode": "live_url",
-  "source_html_sha256": "3728872220bb54cc3139a016a1cf2b2e566655bd6047212c59375e2f12717cb6",
+  "source_html_sha256": "8aafd8c40242206f73dc0031d299ea46a1876a936394f432d66a51ddd1f58065",
   "extractor_version": "0.7.9",
   "strategy": {
     "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
@@ -69,7 +69,7 @@
     },
     "language": {
       "value": "it",
-      "source": "meta:citation_language"
+      "source": "pdf:body_language_guess"
     },
     "publisher": {
       "value": "FrancoAngeli.it",
@@ -109,15 +109,15 @@
       "source": "dom:copyrightModal"
     },
     "source": {
-      "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
-      "journal_title_raw": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "journal_title": "Excellence and Innovation in Learning and Teaching",
+      "journal_title_raw": "Excellence and Innovation in Learning and Teaching",
       "journal_title_source": "meta:citation_journal_title",
       "journal_abbrev": "EXIOA",
       "issn": "2499-507X",
       "uri": "https://journals.francoangeli.it/index.php/exioa",
       "volume": "5",
       "issue": "2",
-      "source_string": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "source_string": "Excellence and Innovation in Learning and Teaching",
       "source_string_source": "meta:citation_journal_title"
     },
     "subjects": [
@@ -187,7 +187,7 @@
       }
     ],
     "citation": {
-      "citationTitle": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "citationTitle": "Excellence and Innovation in Learning and Teaching",
       "citationVolume": "5",
       "citationIssue": "2",
       "citationStartPage": null,
@@ -195,7 +195,7 @@
       "citationEdition": null,
       "citationConferencePlace": null,
       "citationConferenceDate": null,
-      "citationString": "Raviolo, P. (2020). Interazioni e-tutor-studenti e successo formativo: un’analisi dei dati nel contesto dell’educazione superiore online. Excellence and Innovation in Learning and Teaching - Open Access , 5 (2). https://doi.org/10.3280/exioa2-2020oa10810",
+      "citationString": "Raviolo, P. (2020). Interazioni e-tutor-studenti e successo formativo: un’analisi dei dati nel contesto dell’educazione superiore online. Excellence and Innovation in Learning and Teaching , 5 (2). https://doi.org/10.3280/exioa2-2020oa10810",
       "articleTitleEcho": "Interazioni e-tutor-studenti e successo formativo: un’analisi dei dati nel contesto dell’educazione superiore online"
     },
     "audience": null,
@@ -244,35 +244,27 @@
       },
       {
         "value": "Interactions e-tutors-students and evaluation performances: A data analysis in online higher education",
-        "lang": "en",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "learning analytics, e-learning, e-tutoring, learning outcomes evaluation",
-        "lang": "ky",
+        "lang": "it",
         "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       },
       {
         "value": "learning analytics, e-learning, e-tutoring, valutazione",
-        "lang": "ky",
-        "role": "alternative",
-        "source": "meta:DC.Title.Alternative"
-      },
-      {
-        "value": "Interactions e-tutors-students and evaluation performances: A data analysis in online higher education",
         "lang": "it",
-        "role": "main",
-        "source": "locale:en_US:meta:DC.Title"
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
       }
     ],
     "metadata_languages": {
       "resource_language": "it",
       "title_literal_languages": [
-        "it",
-        "en",
-        "ky"
+        "it"
       ],
       "description_literal_languages": [
         "en",
@@ -284,8 +276,7 @@
       ],
       "all_literal_languages": [
         "it",
-        "en",
-        "ky"
+        "en"
       ]
     },
     "internal_dates": {
@@ -336,7 +327,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -404,7 +395,7 @@
   "unmapped": {
     "raw_meta_snapshot": {
       "citation_journal_title": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "citation_journal_abbrev": [
         "EXIOA"
@@ -479,11 +470,11 @@
         "it"
       ],
       "DC.Rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access",
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching",
         ""
       ],
       "DC.Source": [
-        "Excellence and Innovation in Learning and Teaching - Open Access"
+        "Excellence and Innovation in Learning and Teaching"
       ],
       "DC.Source.ISSN": [
         "2499-507X"
@@ -618,10 +609,10 @@
       "error": null
     },
     "page_rights": {
-      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching - Open Access",
+      "copyright_holder_page": "Excellence and Innovation in Learning and Teaching",
       "copyright_year_page": 2022,
       "raw_dc_rights": [
-        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+        "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
       ]
     },
     "resolution_log": {
@@ -660,7 +651,7 @@
       },
       "copyright_holder": {
         "field": "copyright_holder",
-        "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "page_value": "Excellence and Innovation in Learning and Teaching",
         "pdf_value": "FrancoAngeli",
         "chosen_value": "FrancoAngeli",
         "chosen_source": "pdf",
@@ -694,7 +685,7 @@
     },
     "pdf_ai_resolution": null,
     "raw_dc_rights": [
-      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching - Open Access"
+      "Copyright (c) 2022 Excellence and Innovation in Learning and Teaching"
     ],
     "tdm_notice": "FrancoAngeli - All rights for Text and Data Mining (TDM), AI training, and all similar technologies are reserved.",
     "dc_context": {
@@ -702,7 +693,7 @@
       "dc_article_type": "Saggi e ricerche",
       "meta_generator": "Open Journal Systems 3.3.0.16"
     },
-    "html_title": "Interazioni e-tutor-studenti e successo formativo: un’analisi dei dati nel contesto dell’educazione superiore online | Excellence and Innovation in Learning and Teaching - Open Access",
+    "html_title": "Interazioni e-tutor-studenti e successo formativo: un’analisi dei dati nel contesto dell’educazione superiore online | Excellence and Innovation in Learning and Teaching",
     "warnings": [],
     "warning_objects": [],
     "ai_diagnostics": null,
@@ -713,22 +704,22 @@
       "content_type": "text/html; charset=utf-8",
       "last_modified_header": null,
       "etag_header": null,
-      "retrieved_at_utc": "2026-04-26T20:25:06Z"
+      "retrieved_at_utc": "2026-04-27T10:19:46Z"
     },
     "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
     "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
     "locale_sweep": {
       "enabled": true,
-      "generated_at_utc": "2026-04-26T20:25:08Z",
+      "generated_at_utc": "2026-04-27T10:19:47Z",
       "variants": [
         {
           "locale": "en_US",
-          "lang": "it",
+          "lang": "en",
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/en_US?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10810",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10810",
-          "added_titles": 1,
-          "added_descriptions": 0,
+          "added_titles": 4,
+          "added_descriptions": 1,
           "added_subjects": 4,
           "raw_counts": {
             "title_variants": 4,
@@ -742,8 +733,8 @@
           "status": "ok",
           "set_locale_url": "https://journals.francoangeli.it/index.php/exioa/user/setLocale/it_IT?source=%2Findex.php%2Fexioa%2Farticle%2Fview%2F10810",
           "final_url": "https://journals.francoangeli.it/index.php/exioa/article/view/10810",
-          "added_titles": 0,
-          "added_descriptions": 0,
+          "added_titles": 3,
+          "added_descriptions": 1,
           "added_subjects": 0,
           "raw_counts": {
             "title_variants": 4,
@@ -754,20 +745,20 @@
       ],
       "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
     },
-    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10810\\temp\\2499-507X_10810.pdf_compare.json",
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10810\\2499-507X_10810.pdf_compare.json",
     "pdf_first_page_merge": {
-      "generated_at_utc": "2026-04-26T20:25:09Z",
+      "generated_at_utc": "2026-04-27T10:19:49Z",
       "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10810\\2499-507X_10810.pdf",
       "mode": "rule_based_pdf_merge",
       "page_candidates": {
         "title": "Interazioni e-tutor-studenti e successo formativo: un’analisi dei dati nel contesto dell’educazione superiore online",
         "submitted_date": "2020-12-01",
         "accepted_date": null,
-        "copyright_holder": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "copyright_holder": "Excellence and Innovation in Learning and Teaching",
         "copyright_year": "2022",
         "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "publisher": "FrancoAngeli.it",
-        "journal_title": "Excellence and Innovation in Learning and Teaching - Open Access",
+        "journal_title": "Excellence and Innovation in Learning and Teaching",
         "resource_language": "it",
         "creator_names": [
           "Paolo Raviolo"
@@ -775,7 +766,7 @@
       },
       "pdf_first_page": {
         "pdf_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10810\\2499-507X_10810.pdf",
-        "generated_at_utc": "2026-04-26T20:25:09Z",
+        "generated_at_utc": "2026-04-27T10:19:49Z",
         "reader_available": true,
         "embedded_metadata": {
           "title": null,
@@ -788,6 +779,9 @@
           "mod_date": "2020-12-01"
         },
         "front_text_excerpt": "Saggi e ricerche Excellence and Innovation in Learning and Teaching (ISSNe 2499-507X), 2020,2 Interazioni e-tutor-studenti e successo formativo: un’analisi dei dati nel contesto dell’educazione superiore online Interactions e-tutors-students and evaluation performances: A data analysis in online higher education Paolo Raviolo * Riassunto L’articolo presenta un’analisi quantitativa dei dati nell’ambito didattico univer- sitario online. L’ipotesi di ricerca iniziale era di una correl azione positiva tra l’intensità dell’interazione tutor-studente e la valutazione finale. L’attività di analisi ha coinvolto 248 studenti e considerato 2845 interazioni. I dati hanno mostrato una correlazione debolmente negativa, falsificando l’ipotesi di par- tenza. Questo lavoro preliminare ha confermato i punti di attenzione evidenziati dalla letteratura rispetto ai learning analytics: 1) qualità e integrazione dei dati da analizzare; 2) difficile attribuzione di un senso pedagogico ai risultati delle analisi. Parole chiave: learning analytics, e-learning, e-tutoring, valutazione Abstract The article presents a quantitative data analysis in the settin g of online university teaching. The research assumed a positive correlation between the intensity of the interaction among e-tutor and students correlated with the final evaluation. The analysis involve d 248 students and considered 2845 interactions. The data showed a weakly negative correlation, thus falsifying the starting hypothesis. This preliminary work highlighted some points of attention already known in the reference literature with respect to the p redictive capabilities of data analysis for the research on learning acti vities: 1) quality * Università Telematica Ecampus, e-mail: paolo.raviolo@uniecampus.it. Doi: 10.3280/exioa2-2020oa10810 Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "58 Sulla base dei dati resi disponibili in modalità open data (dati.ustat.miur.it) dal Ministero per l’Università e la Ricerca (MIUR) nell’Anno Accademico 2018-2019 (dato più recente disponibile) gli studenti iscritti ad un Corso di Laurea in modalità telematica s ono stati più di 113 mila (pari a circa il 6,6% del totale degli iscritti all’università in Italia). Sulla base degli stessi dati, gli iscritti ad un Corso di Laurea Ma gistrale in Scienze Pedagogich e (Classe di Laurea LM85), risultavano poco più di 10 mila, di cui 2.760 (pa ri a più del 27%) iscritti ad un ateneo telematico. Gli iscritti al Corso di Laurea in Scienze Pedagogiche dell’Università Ecampus, nell’Anno Accademico in co nsidera- zione, erano 232, ovvero poco più del 10% del totale degli iscritti alle Univer- sità Telematiche e poco più del 2% del totale degli iscritti a questa classe di Laurea Magistrale in Italia. In base ai dati estratti dagli indicatori di Qualità del Corso di Laurea e aggiornati a giugno 2020 gli iscritti ai Cors i di Laurea dell’Università Telematica Ecampus sono più di 17 mila, quelli iscritti al Corso di Laurea Magistrale in oggetto sono 369. Gli studenti che hann o sostenuto l’esame di Docimologia nel corso dell’Anno Accademico 2019-2020 sono stati 248. L’insegnamento di Docimologia è erogato completamente in modalità tele- matica ed è un insegnamento caratterizzante il Corso di Laurea Magistrale, quindi viene necessariamente sostenuto da tutti gli studenti is critti al corso di studi, ad eccezione di quelli che lo hanno già sostenuto in altro Ateneo e hanno ottenuto il riconoscimento dall’apposita commissione. L’insegnamento di Docimologia ha un peso di 6 Crediti Formativi Univer- sitari (CFU) e si articola su sei moduli, ciascuno composto da 8 lezioni della durata nominale di 2 ore; complessivamente, ciascun modulo offre circa un’ora di didattica erogativa (lezioni video o audio), oltre ad esercitazioni per un carico complessivo di circa 6 ore, orientate in parte a migliorare l’a pprendimento, in parte all’autovalutazione e alla valutazione formativa con il f eedback del do- cente. Gli studenti hanno inoltre la possibilità di partecipare ai webinar del do- cente organizzati periodicamente in modalità sincrona. Gli studenti concordano con il tutor di riferimento il momento in cui iniziano la fruizione del corso e hanno a disposizione 6 appelli per sostenere l’esame in forma scritta; in alternativa possono chiedere al docente di sostenere l’esame in forma orale. 3. Ruolo dell’e-tutor Negli ultimi anni il contesto della distance education ha visto realizzarsi significativi cambiamenti. Lo sviluppo dei Virtual Learning Env ironment (VLE) e l’aumento significativo dell’offerta formativa a tutti i livelli, dai corsi Copyright © FrancoAngeli This work is released under Creative Commons Attribution - Non-Commercial - NoDerivatives License. For terms and conditions of usage please see: http://creativecommons.org",
+        "body_language_guess": "it",
         "regex_candidates": {
           "title": null,
           "submitted_date": null,
@@ -861,7 +855,7 @@
           "reason": "Valore assente in entrambe le fonti."
         },
         "copyright_holder": {
-          "page_value": "Excellence and Innovation in Learning and Teaching - Open Access",
+          "page_value": "Excellence and Innovation in Learning and Teaching",
           "pdf_value": "FrancoAngeli",
           "preferred_source": "pdf",
           "chosen_value": "FrancoAngeli",
@@ -869,7 +863,7 @@
           "controversial": false,
           "reason": "Il copyright dichiarato in prima pagina PDF è normalmente più affidabile della landing page; valori tipo autori sono sospetti.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:11Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:36:12Z"
         },
         "copyright_year": {
           "page_value": "2022",
@@ -889,7 +883,7 @@
           "controversial": false,
           "reason": "L'URL di licenza della landing page è in genere più pulito; il PDF aiuta solo se la pagina è vuota.",
           "manual_override": true,
-          "manual_confirmed_at_utc": "2026-04-26T20:33:42Z"
+          "manual_confirmed_at_utc": "2026-04-27T13:37:44Z"
         }
       },
       "ai_raw": {
@@ -902,18 +896,125 @@
           "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
           "pdf_value": "http://creativecommons.org",
           "chosen_source": "page",
-          "applied_at_utc": "2026-04-26T20:33:42Z"
+          "applied_at_utc": "2026-04-27T13:37:44Z"
         }
       }
     },
-    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\output\\2499-507X\\10810\\temp\\2499-507X_10810.conflicts.json",
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2499-507X\\10810\\2499-507X_10810.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "en"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Interazioni e-tutor-studenti e successo formativo: un’analisi dei dati nel contesto dell’educazione superiore online",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Interactions e-tutors-students and evaluation performances: A data analysis in online higher education",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Interactions e-tutors-students and evaluation performances: A data analysis in online higher education",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "learning analytics, e-learning, e-tutoring, learning outcomes evaluation",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "learning analytics, e-learning, e-tutoring, learning outcomes evaluation",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "ky",
+            "kept_lang": "it",
+            "value_preview": "learning analytics, e-learning, e-tutoring, valutazione",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "learning analytics, e-learning, e-tutoring, valutazione",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The article presents a quantitative data analysis in the setting of online university teaching. The research assumed a positive correlation between the intensit",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’articolo presenta un’analisi quantitativa dei dati nell’ambito didattico universitario online. L’ipotesi di ricerca iniziale era di una correlazione positiva ",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    },
     "workbench": {
       "last_pattern_resolution": {
         "field": "license_url",
         "page_value": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
         "pdf_value": "http://creativecommons.org",
         "chosen_source": "page",
-        "applied_at_utc": "2026-04-26T20:33:42Z"
+        "applied_at_utc": "2026-04-27T13:37:44Z"
       }
     }
   }
