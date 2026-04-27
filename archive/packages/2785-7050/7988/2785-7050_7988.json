@@ -1,0 +1,979 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7988",
+  "scraped_at_utc": "2026-04-27T18:48:27Z",
+  "fetched_at_utc": "2026-04-27T18:48:27Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "3b27691edaabe9aa6c0879bf21c9f23d3042eb4b48255bdc96384f6460f7aef7",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Francesco Vettori",
+        "nameType": "Personal",
+        "givenName": "Francesco",
+        "familyName": "Vettori",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Ricercatore | Indire"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7988",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-12-30",
+      "Issued": "2025-12-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "When writing represents a transcription of verbal language, it takes on a linear arrangement, which the structure of hypertext does not alter. Digitalisation processes have rather changed the support of writing, because the electronic one is able to reproduce thousands of texts. It has been then transformed the reading object whose novelties, hypertext included, depend above all on the functions of the medium, which are different from those of the previous writing surfaces. Hence a rethinking of the ways of reading. The following remarks arise from the findings of linguistics and particularly of sociosemiotics (Deni, 2002; Semprini, 2003; Zinna, 2004) claiming the page’s original function of score appeals to the concept of space (Farinelli, 2003, 2009). The linearity of writing, that the non-sequential structure, proper to hypertext, must in any case comply, reflects all the characteristics of the space. Instead, it can be the way of reading to transform an order from spatial to local, as demonstrated by shared reading aloud (Batini, 2022, 2023). A place has been qualified as a field of attention (Tuan, 2001), whose limits are set by the audibility of the voice. This form of reading then links the act of enunciation with that of the utterance, the text with the here and now of the context and writing with oral communication.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Quando la scrittura rappresenta una trascrizione del linguaggio verbale assume una disposizione lineare, che la struttura dell’ipertesto non altera. I processi di digitalizzazione hanno piuttosto mutato il supporto di scrittura, perché quello elettronico può riprodurre migliaia di testi. Risulta così trasformato l’oggetto di lettura, le cui novità dipendono in larga misura dalle funzioni del supporto, che sono differenti da quelle delle precedenti superfici di scrittura. Da qui un ripensamento anche dei modi di leggere. Le osservazioni che seguono nascono dai riconoscimenti della linguistica e, in particolare, della sociosemiotica (Deni, 2002; Semprini, 2003; Zinna, 2004) e argomentano come l’originaria funzione di spartito della pagina richiami il concetto di spazio (Farinelli, 2003, 2009). La linearità della scrittura, cui deve adattarsi anche la lettura non sequenziale propria dell’ipertesto, riflette tutte le caratteristiche dello spazio. A trasformare un ordine da spaziale in locale può invece essere il modo di leggere come dimostra la lettura ad alta voce condivisa (Batini, 2022, 2023). Un luogo è stato definito un campo di attenzione (Tuan, 2001), i cui limiti sono fissati dall’udibilità della voce. Questa forma di lettura affianca allora all’enunciato l’atto di enunciazione, al testo il qui ed ora del contesto, alla scrittura la comunicazione orale.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2025-05",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "ipertesto",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "spazi dello scrivere",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "modi di leggere",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "luoghi",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Hypertext",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "writing space",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "ways of reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "places",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Francesco Vettori",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7988/7448",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "2",
+      "citationStartPage": "079",
+      "citationEndPage": "089",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Vettori, F. (2025). L’ipertesto fra spazi dello scrivere e luoghi del leggere. Effetti Di Lettura / Effects of Reading , 4 (2), 079–089. https://doi.org/10.7347/EdL-02-2025-05",
+      "articleTitleEcho": "L’ipertesto fra spazi dello scrivere e luoghi del leggere"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Austin, R. P. (1938). The Stoichedon Style. Arno Press.",
+        "Barthes, R. (1976). Saggi critici. Einaudi.",
+        "Barthes, R. (1981). S/Z. Einaudi.",
+        "Batini, F. (2022). Lettura ad alta voce. Ricerche e strumenti per educatori, insegnanti e genitori. Carocci.",
+        "Batini, F. (2023). La lettura ad alta voce condivisa. Un metodo in direzione dell’equità. Il Mulino.",
+        "Benveniste, É. (2019). Last Lectures: College de France 1968 and 1969. Edinburgh University Press.",
+        "Bernardelli, A., & Pellerey, R. (1999). Il parlato e lo scritto. Bompiani.",
+        "Bettetini, G. et al. (1999). Gli spazi dell’ipertesto. Bompiani.",
+        "Bologna, C. in Lavagetto, M. (a cura di). (1996). Il testo letterario. Laterza.",
+        "Bolter, D. J. (1991). Writing space: the Computer, Hypertext, and the History of Writing. Lawrence Erlbaum Associates.",
+        "Calabrese, O. (1992) La cultura neobarocca. Laterza.",
+        "Casati, R. (2013). Contro il colonialismo digitale. Laterza.",
+        "Ciotti, F., & Roncaglia, G. (2000). Il mondo digitale. Laterza.",
+        "Dehaene, S. (2009). I neuroni della lettura, Raffaello Cortina Editore.",
+        "Deni, M. (2002). Oggetti in azione. Franco Angeli.",
+        "Derrida, J. (1998). Della Grammatologia. Jaca Book.",
+        "Farinelli, F. (2003). Geografia. Una introduzione ai modelli del mondo. Einaudi.",
+        "Farinelli, F. (2009). La crisi della ragione cartografica. Einaudi.",
+        "Ferrieri, L. (2013). Fra l’ultimo libro letto e il primo nuovo da aprire. Olschki.",
+        "Foucault, M. (1971). L’archeologia del sapere. Rizzoli.",
+        "Greimas, J. A. (1984). Del senso II. Bompiani.",
+        "Hamesse, J. (1995). Il modello della lettura nell’età della scolastica. In G. Cavallo & R. Chartier (Eds.), Storia della lettura nel mondo occidentale. Laterza.",
+        "Harris, R. (2003). La tirannia dell’alfabeto. Stampa Alternativa.",
+        "Havelock, A. (1987). Dalla A alla Z. Il Melangolo.",
+        "Hillich, I. (1996). Nella vigna del testo. Raffaello Cortina Editore.",
+        "Landow, P. D. (1992). Hypertext: The Convergence of Contemporary Critical Theory and Technology. Johns Hopkins University Press.",
+        "Longo, O. (1998). Il nuovo Golem. Laterza.",
+        "Mangen, A. et al. (2013). Reading linear texts on paper versus computer screen: Effects on reading Comprehension. International Journal of Educational Research (58), 61-68.",
+        "Marrone, G. (2010). L’invenzione del testo, Einaudi.",
+        "Marrone, G. (2022). Introduction to the Semiotics of the Text. De Gruyter Mouton.",
+        "Marrone, G., & Landowski, E. (2002). La società degli oggetti. Meltemi.",
+        "McKenzie, D. F. (1998). Bibliografia e sociologia dei testi. Sylvestre Bonnard.",
+        "McKenzie, D. F. (2002). Il passato è il prologo. Due saggi di sociologia dei testi. Sylvestre Bonnard.",
+        "McKenzie, D. F. (2003). Stampatori della mente e altri saggi. Sylvestre Bonnard.",
+        "McKenzie, D. F. (2004). Di Shakespeare e Congreve. Sylvestre Bonnard.",
+        "OECD. (2019). PISA 2018 Assessment and Analytical Framework. PISA OECD Publishing.",
+        "Petrucci, A. in Febvre, L., & Martin, H. J. (1977). La nascita del libro. Laterza.",
+        "Prosdocimi, A. (1989). Le lingue dominanti e i linguaggi locali. In G. Cavallo, P. Fedeli, & A. Giardina (Eds.), Lo spazio letterario di Roma antica, Vol. II. Salerno Editore.",
+        "Ricoeur, P. (1969). Le conflit des interpétation. Éditions du Seuil.",
+        "Roncaglia, G. (2010). La quarta rivoluzione, sei lezioni sul futuro del libro. Laterza.",
+        "Sanguineti, E. (1975). Ideologia e linguaggio. Feltrinelli.",
+        "Semprini, A. (2003). Il senso delle cose. I significati sociali e culturali degli oggetti quotidiani. Franco Angeli.",
+        "Severi, C. (2018). L’oggetto persona. Einaudi.",
+        "Svenbro, J. (2021). Le Tombeau de la cigale. Figures de l’écriture et de la lecture en Grèce ancienne. Les Belles Lettres.",
+        "Svenbro, J. (2024). Phrasikleia. Antropologia della lettura nella Grecia antica. La Vita Felice.",
+        "Tuan, Y. F. (2001). Space and Place: The Perspective of Experience. University of Minnesota Press. Zinna, A. (2004). Le interfacce degli oggetti di scrittura. Meltemi.",
+        "Zumthor, P. (1984). La presenza della voce. Il Mulino."
+      ],
+      "count": 47,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7988",
+    "article_ID": "7988",
+    "slug": "7988",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7988",
+      "url_slug": "7988"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Hypertext between spaces of writing and places of reading",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-04-15",
+      "accepted": null,
+      "created": "2025-12-30",
+      "modified": "2025-12-30",
+      "issued": "2025-12-30",
+      "available": "2025-12-30",
+      "submitted_page": "2025-04-15",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+        "pdf_value": null,
+        "chosen_value": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-15",
+        "pdf_value": null,
+        "chosen_value": "2025-04-15",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Francesco Vettori",
+        "pdf_value": null,
+        "chosen_value": "Francesco Vettori",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7988/7448",
+      "local_relative_path": "2785-7050_7988.pdf",
+      "saved": true,
+      "sha256": "980b49971d5df8f226392f9ca43cf4554fbb1cbe06a9080e62ba1501927a7625",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 789138,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Francesco Vettori"
+      ],
+      "citation_author_institution": [
+        "Ricercatore | Indire"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "L’ipertesto fra spazi dello scrivere e luoghi del leggere"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/12/30"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2025-05"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7988"
+      ],
+      "citation_keywords": [
+        "ipertesto",
+        "spazi dello scrivere",
+        "modi di leggere",
+        "luoghi"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7988/7448"
+      ],
+      "citation_reference_count": 47,
+      "DC.Date.created": [
+        "2025-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-04-15"
+      ],
+      "DC.Date.issued": [
+        "2025-12-30"
+      ],
+      "DC.Date.modified": [
+        "2025-12-30"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7988"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2025-05"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7988"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Francesco Vettori",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "L’ipertesto fra spazi dello scrivere e luoghi del leggere"
+      ],
+      "DC.Title.Alternative": [
+        "Hypertext between spaces of writing and places of reading"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Francesco Vettori"
+      ],
+      "citation_author_institution": [
+        "Ricercatore | Indire"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Francesco Vettori"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "When writing represents a transcription of verbal language, it takes on a linear arrangement, which the structure of hypertext does not alter. Digitalisation processes have rather changed the support of writing, because the electronic one is able to reproduce thousands of texts. It has been then transformed the reading object whose novelties, hypertext included, depend above all on the functions of the medium, which are different from those of the previous writing surfaces. Hence a rethinking of the ways of reading. The following remarks arise from the findings of linguistics and particularly of sociosemiotics (Deni, 2002; Semprini, 2003; Zinna, 2004) claiming the page’s original function of score appeals to the concept of space (Farinelli, 2003, 2009). The linearity of writing, that the non-sequential structure, proper to hypertext, must in any case comply, reflects all the characteristics of the space. Instead, it can be the way of reading to transform an order from spatial to local, as demonstrated by shared reading aloud (Batini, 2022, 2023). A place has been qualified as a field of attention (Tuan, 2001), whose limits are set by the audibility of the voice. This form of reading then links the act of enunciation with that of the utterance, the text with the here and now of the context and writing with oral communication.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "When writing represents a transcription of verbal language, it takes on a linear arrangement, which the structure of hypertext does not alter. Digitalisation processes have rather changed the support of writing, because the electronic one is able to reproduce thousands of texts. It has been then transformed the reading object whose novelties, hypertext included, depend above all on the functions of the medium, which are different from those of the previous writing surfaces. Hence a rethinking of the ways of reading. The following remarks arise from the findings of linguistics and particularly of sociosemiotics (Deni, 2002; Semprini, 2003; Zinna, 2004) claiming the page’s original function of score appeals to the concept of space (Farinelli, 2003, 2009). The linearity of writing, that the non-sequential structure, proper to hypertext, must in any case comply, reflects all the characteristics of the space. Instead, it can be the way of reading to transform an order from spatial to local, as demonstrated by shared reading aloud (Batini, 2022, 2023). A place has been qualified as a field of attention (Tuan, 2001), whose limits are set by the audibility of the voice. This form of reading then links the act of enunciation with that of the utterance, the text with the here and now of the context and writing with oral communication."
+          }
+        },
+        {
+          "content": "Quando la scrittura rappresenta una trascrizione del linguaggio verbale assume una disposizione lineare, che la struttura dell’ipertesto non altera. I processi di digitalizzazione hanno piuttosto mutato il supporto di scrittura, perché quello elettronico può riprodurre migliaia di testi. Risulta così trasformato l’oggetto di lettura, le cui novità dipendono in larga misura dalle funzioni del supporto, che sono differenti da quelle delle precedenti superfici di scrittura. Da qui un ripensamento anche dei modi di leggere. Le osservazioni che seguono nascono dai riconoscimenti della linguistica e, in particolare, della sociosemiotica (Deni, 2002; Semprini, 2003; Zinna, 2004) e argomentano come l’originaria funzione di spartito della pagina richiami il concetto di spazio (Farinelli, 2003, 2009). La linearità della scrittura, cui deve adattarsi anche la lettura non sequenziale propria dell’ipertesto, riflette tutte le caratteristiche dello spazio. A trasformare un ordine da spaziale in locale può invece essere il modo di leggere come dimostra la lettura ad alta voce condivisa (Batini, 2022, 2023). Un luogo è stato definito un campo di attenzione (Tuan, 2001), i cui limiti sono fissati dall’udibilità della voce. Questa forma di lettura affianca allora all’enunciato l’atto di enunciazione, al testo il qui ed ora del contesto, alla scrittura la comunicazione orale.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Quando la scrittura rappresenta una trascrizione del linguaggio verbale assume una disposizione lineare, che la struttura dell’ipertesto non altera.    I processi di digitalizzazione hanno piuttosto mutato il supporto di scrittura, perché quello elettronico può riprodurre migliaia di testi. Risulta così trasformato l’oggetto di lettura, le cui novità dipendono in larga misura dalle funzioni del supporto, che sono differenti da quelle delle precedenti superfici di scrittura.      Da qui un ripensamento anche dei modi di leggere. Le osservazioni che seguono nascono dai riconoscimenti della linguistica e, in particolare, della sociosemiotica (Deni, 2002; Semprini, 2003; Zinna, 2004) e argomentano come l’originaria funzione di spartito della pagina richiami il concetto di spazio (Farinelli, 2003, 2009). La linearità della scrittura, cui deve adattarsi anche la lettura non sequenziale propria dell’ipertesto, riflette tutte le caratteristiche dello spazio. A trasformare un ordine da spaziale in locale può invece essere il modo di leggere come dimostra la lettura ad alta voce condivisa (Batini, 2022, 2023). Un luogo è stato definito un campo di attenzione (Tuan, 2001), i cui limiti sono fissati dall’udibilità della voce. Questa forma di lettura affianca allora all’enunciato l’atto di enunciazione, al testo il qui ed ora del contesto, alla scrittura la comunicazione orale."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "ipertesto",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "ipertesto"
+          }
+        },
+        {
+          "content": "spazi dello scrivere",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "spazi dello scrivere"
+          }
+        },
+        {
+          "content": "modi di leggere",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "modi di leggere"
+          }
+        },
+        {
+          "content": "luoghi",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "luoghi"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7988/7448",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7988/7448",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7988/7448",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "Milena",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-12-29",
+        "mod_date": "2025-12-29"
+      },
+      "front_text_excerpt": "ABSTRACT When writing represents a transcription of verbal language, it takes on a linear arrangement, which the structure of hypertext does not alter. Digitalisation processes have rather changed the support of writing, because the electronic one is able to reproduce thousands of texts. It has been then transformed the reading object whose novelties, hypertext included, depend above all on the functions of the medium, which are different from those of the previous writing surfaces. Hence a rethinking of the ways of reading. The following remarks arise from the findings of linguistics and particularly of sociosemiotics (Deni, 2002; Semprini, 2003; Zinna, 2004) claiming the page’s original function of score ap- peals to the concept of space (Farinelli, 2003, 2009). The linearity of writing, that the non-sequential structure, proper to h ypertext, must in any case comply, reflects all the characteristics of the space. Instead, it can be the way of reading to transform an order from spatial to local, as demonstrated by shared reading aloud (Batini, 2022, 2023). A place has been qualified as a field of attention (T uan, 2001), whose limits are set by the audibility of the voice. This form of reading then links the act of enunciation with that of the utteranc e, the text with the here and now of the context and writing with oral communication. Keywords: hypertext, writing space, ways of reading, places Quando la scrittura rappresenta una trascrizione del linguaggio verbale assume una disposizione lineare, che la struttura dell’ ipertesto non altera. I processi di digitalizzazione hanno piuttosto mutato il supporto di scrittura, perché quello elettronico può riprodurre migliaia di testi. Risulta così trasformato l’oggetto di lettura, le cui novità dipendono in larga misura dalle funzioni del supporto, che sono differenti da quelle delle precedenti superfici di scrittura. Da qui un ripensamento anche dei modi di leggere. Le osservazioni che seguono nascono dai ricon- oscimenti della linguistica e, in particolare, della sociosemiotica (Deni, 2002; Semprini, 2003; Zinna, 2004) e argomentano come l’originaria funzione di spartito della pagina richiami il concetto di spazio (Farinelli, 2003, 2009). La linearità della scrittura, cui deve adattarsi anche la lettura non sequenziale propria dell’ipertesto, riflette tutte le caratteristiche dello spazio. A trasformare un ordine da spaz iale in locale può invece essere il modo di leggere come dimostra la lettura ad alta voce condivisa (Batini, 2022, 2023). Un luogo è stato definito un campo di attenzione (T uan, 2001), i cui limiti sono fissati dall’udibilità della voce. Questa forma di lettura affianca allora all’enunciato l’atto di enun- ciazione, al testo il qui ed ora del contesto, alla scrittura la comunicazione orale. Parole chiave: ipertesto, spazi dello scrivere, modi di leggere, luoghi Citation: Vettori, F . (2025). L ’ipertesto fra spazi dello scrivere e luoghi del leggere. Effetti di Lettura / Effects of Reading, 4(2), 79-89. https://doi.org/10.7347/EdL-02-2025-05. Corresponding Author: Francesco Vettori | f.vettori@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-05 Authorship/Attribuzioni: Francesco Vettori Francesco Vettori Ricercatore | Indire | f.vettori@indire.it Double blind peer review L ’ipertesto fra spazi dello scrivere e luoghi del leggere Hypertext between spaces of writing and places of reading Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7988\\2785-7050_7988.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Francesco Vettori",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Francesco Vettori",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+        "pdf_value": null,
+        "chosen_value": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-15",
+        "pdf_value": null,
+        "chosen_value": "2025-04-15",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Francesco Vettori",
+        "pdf_value": null,
+        "chosen_value": "Francesco Vettori",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Francesco Vettori",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "L’ipertesto fra spazi dello scrivere e luoghi del leggere | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7988",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7988",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:48:27Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:48:28Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7988",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7988",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 4,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7988",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7988",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7988\\2785-7050_7988.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:48:30Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7988\\2785-7050_7988.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+        "submitted_date": "2025-04-15",
+        "accepted_date": null,
+        "copyright_holder": "Francesco Vettori",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Francesco Vettori"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7988\\2785-7050_7988.pdf",
+        "generated_at_utc": "2026-04-27T18:48:29Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "Milena",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-12-29",
+          "mod_date": "2025-12-29"
+        },
+        "front_text_excerpt": "ABSTRACT When writing represents a transcription of verbal language, it takes on a linear arrangement, which the structure of hypertext does not alter. Digitalisation processes have rather changed the support of writing, because the electronic one is able to reproduce thousands of texts. It has been then transformed the reading object whose novelties, hypertext included, depend above all on the functions of the medium, which are different from those of the previous writing surfaces. Hence a rethinking of the ways of reading. The following remarks arise from the findings of linguistics and particularly of sociosemiotics (Deni, 2002; Semprini, 2003; Zinna, 2004) claiming the page’s original function of score ap- peals to the concept of space (Farinelli, 2003, 2009). The linearity of writing, that the non-sequential structure, proper to h ypertext, must in any case comply, reflects all the characteristics of the space. Instead, it can be the way of reading to transform an order from spatial to local, as demonstrated by shared reading aloud (Batini, 2022, 2023). A place has been qualified as a field of attention (T uan, 2001), whose limits are set by the audibility of the voice. This form of reading then links the act of enunciation with that of the utteranc e, the text with the here and now of the context and writing with oral communication. Keywords: hypertext, writing space, ways of reading, places Quando la scrittura rappresenta una trascrizione del linguaggio verbale assume una disposizione lineare, che la struttura dell’ ipertesto non altera. I processi di digitalizzazione hanno piuttosto mutato il supporto di scrittura, perché quello elettronico può riprodurre migliaia di testi. Risulta così trasformato l’oggetto di lettura, le cui novità dipendono in larga misura dalle funzioni del supporto, che sono differenti da quelle delle precedenti superfici di scrittura. Da qui un ripensamento anche dei modi di leggere. Le osservazioni che seguono nascono dai ricon- oscimenti della linguistica e, in particolare, della sociosemiotica (Deni, 2002; Semprini, 2003; Zinna, 2004) e argomentano come l’originaria funzione di spartito della pagina richiami il concetto di spazio (Farinelli, 2003, 2009). La linearità della scrittura, cui deve adattarsi anche la lettura non sequenziale propria dell’ipertesto, riflette tutte le caratteristiche dello spazio. A trasformare un ordine da spaz iale in locale può invece essere il modo di leggere come dimostra la lettura ad alta voce condivisa (Batini, 2022, 2023). Un luogo è stato definito un campo di attenzione (T uan, 2001), i cui limiti sono fissati dall’udibilità della voce. Questa forma di lettura affianca allora all’enunciato l’atto di enun- ciazione, al testo il qui ed ora del contesto, alla scrittura la comunicazione orale. Parole chiave: ipertesto, spazi dello scrivere, modi di leggere, luoghi Citation: Vettori, F . (2025). L ’ipertesto fra spazi dello scrivere e luoghi del leggere. Effetti di Lettura / Effects of Reading, 4(2), 79-89. https://doi.org/10.7347/EdL-02-2025-05. Corresponding Author: Francesco Vettori | f.vettori@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-05 Authorship/Attribuzioni: Francesco Vettori Francesco Vettori Ricercatore | Indire | f.vettori@indire.it Double blind peer review L ’ipertesto fra spazi dello scrivere e luoghi del leggere Hypertext between spaces of writing and places of reading Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "Hypertext denotes an information medium that links verbal and nonverbal information. In the follo- wing pages, I shall use the terms hypermedia and hypertext interchangeably. Electronic links connect lexias “external” to a work - say, commentary on it by another author or parallel or contrasting texts - as well as within it and thereby create text that is experienced as nonlinear, or, more properly, as mul- tilinear or multisequential. Although conventional reading habits apply within each lexia, once one leaves the shadowy bounds of any text unit, new rules and new experience apply. A ragione, secondo Landow, ciò che fa la differenza in una struttura ipertestuale non è tanto la presenza o meno di elementi multimediali quanto quella di link interni o esterni al testo originario. I link suddivi- dono infatti il testo in blocchi che, rompendo la linearità della lettura, la fanno esperire come “nonlinear, or, more properly, as multilinear or multisequential.” Questa conclusione va interpretata con attenzione perché dice che l’esperienza di lettura dell’ipertesto è data dalla non linearità o più propriamente dalla multi-linearità, cioè il suo contrario. La lettura multi- lineare e multisequenziale non nega la linearità della comunicazione scritta ma anzi la riproduce e molti- plica. Del resto, se riprendiamo la terminologia in uso per alcune forme di lettura su supporto digitale come “surfing”, “skimming” o “scanning”, tutte accentuano la sua velocità, che cresce col movimento lineare degli occhi come gli studi neurobiologici confermano (Dehaene, 2009). Anche la piuttosto recente intro- duzione del termine “deep reading” (Mangen et al., 2013), che qualifica la lettura che si compie invece sul tradizionale libro a stampa, segnala per opposizione che sullo schermo si tenderebbe a leggere in modo più veloce e disordinato e quindi superficiale. La velocità è in questo caso da riportare alla compresenza sullo schermo di elementi differenti, senza che prevalgano gli alfabetici scritti, per cui si creano confusioni fra il messaggio alfabetico e quelli di altra natura. La non linearità della lettura è qui un effetto della presenza di elementi multimediali, che rendono la pagina precettivamente molto diversa rispetto a quella del libro cartaceo. T uttavia, l’ordine assicurato da una comunicazione che avviene per linee rette trova una conferma di ben altra natura nelle osservazioni di chi si è interessato alle pratiche di lettura, che incominciarono ad esercitarsi dopo l’invenzione dell’alfabeto. Allora la questione non riguardava certo le forme del testo e le modalità che assume la sua lettura se si compie su diversi supporti ma la novità eccezionale rappresentata dall’alfabeto (Svenbro, 2024). Rispetto all’attualità, che vede una proliferazione delle forme testuali, ri - prendere alcune delle questioni sia pratiche, dovute al nuovo modo di leggere e scrivere, sia teoriche relative allo statuto del lettore e dello scrittore, che sollevò questa decisiva invenzione, permette di identificare al- cune delle caratteristiche essenziali che distinguono la notazione alfabetica, di cui le forme della testualità odierna e tutte quelle che contengono un messaggio di tipo verbale scritto devono tener conto. In un capitolo intitolato Grammata et stoicheia. Les Scholies à la Grammaire de Denys le Thrace, Jesper Svenbro (2021, pp. 149-163) spiega come i due termini apparentemente designino la stessa parola “lettera” ma in realtà si riferiscano il primo a una notazione isolata e priva di senso, il secondo a una successione ordinata di segni, secondo un tracciato lineare, tale per cui la scrittura diventa scrittura verbale e acquista senso. Oltre alla importante osservazione che un tale scrittura, allora priva di interpunzioni e spazi fra le parole, divenisse comprensibile grazie alla lettura ad alta voce, che aiutava a identificare nella successione dei segni le parole e quindi le frasi, qui importa ribadire che l’allineamento sopra una superficie piana b",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-04-15",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-04-15",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Francesco Vettori",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Francesco Vettori",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7988\\2785-7050_7988.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’ipertesto fra spazi dello scrivere e luoghi del leggere",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Hypertext between spaces of writing and places of reading",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Hypertext between spaces of writing and places of reading",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "When writing represents a transcription of verbal language, it takes on a linear arrangement, which the structure of hypertext does not alter. Digitalisation pr",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Quando la scrittura rappresenta una trascrizione del linguaggio verbale assume una disposizione lineare, che la struttura dell’ipertesto non altera. I processi ",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

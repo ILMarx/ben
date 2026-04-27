@@ -1,0 +1,1106 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6368",
+  "scraped_at_utc": "2026-04-27T18:46:18Z",
+  "fetched_at_utc": "2026-04-27T18:46:17Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "23797b8e108492af95a7d438fb81829a8c21b8e8cb58b80b62edf5746b8665ed",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Costanza Ruffini",
+        "nameType": "Personal",
+        "givenName": "Costanza",
+        "familyName": "Ruffini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "PhD student, | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Sofia Gentili",
+        "nameType": "Personal",
+        "givenName": "Sofia",
+        "familyName": "Gentili",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Teacher | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Silvia Drovandi",
+        "nameType": "Personal",
+        "givenName": "Silvia",
+        "familyName": "Drovandi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Teacher | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Silvia Niccolai",
+        "nameType": "Personal",
+        "givenName": "Silvia",
+        "familyName": "Niccolai",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Teacher | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Giada Demetri",
+        "nameType": "Personal",
+        "givenName": "Giada",
+        "familyName": "Demetri",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Teacher | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Lucia Donata Nepi",
+        "nameType": "Personal",
+        "givenName": "Lucia Donata",
+        "familyName": "Nepi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Teachers’ tutor | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Roberta Facondini",
+        "nameType": "Personal",
+        "givenName": "Roberta",
+        "familyName": "Facondini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Teachers’ tutor | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Chiara Pecini",
+        "nameType": "Personal",
+        "givenName": "Chiara",
+        "familyName": "Pecini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6368",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-30",
+      "Issued": "2023-06-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "Reading is considered a 'gymnasium' for training cognitive processes such as memory, language and Executive Functions. In preschool, when reading skills have not yet been acquired, a common parent-child activity is shared reading. Shared reading aims at encouraging children to talk while reading books through strategies such as child-centredness, processing the child's expressions, providing feedback and pauses, and evaluating the child's responses. Shared reading has long been considered a way to promote emergent literacy skills in preschoolers. One form of shared reading is dialogic reading, in which the child plays an active role by becoming co-narrator of the story. The child and adult focus on the same object, the story, which offers emotions, desires, and reflections. Recently, dialogic reading has been shown to be effective in promoting higher-level cognitive processes, such as the so-called Executive Functions (Howard et al., 2017; Ruffini et al., 2021). Taking into account the results of the Italian pilot study conducted with the illustrated book Quincey Quokka's Quest (Ruffini et al., 2021) and modelled on it, four books were developed to improve the basic executive components and the pre-requisites of learning mathematics (Umberto il gufetto, dei numeri il maghetto), reading (La giraffa Mimì e la sciarpa dell'ABC), writing (Il tucano Gilberto, uno scrittore un po' incerto) and socio-emotional competences (Lupo Selvaggio, il burlone del villaggio).",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La lettura è considerata una “palestra” per l’allenamento di processi cognitivi come la memoria, il linguaggio e le Funzioni Esecutive. Nella scuola dell’infanzia, quando le abilità di lettura non sono ancora state acquisite, una comune attività tra genitori e figli è la lettura condivisa. La lettura condivisa mira a incoraggiare i bambini a parlare mentre leggono libri attraverso strategie come il centrarsi sul bambino, elaborare le sue espressioni, fornire feedback e pause, e valutare le risposte del bambino. La lettura condivisa è da tempo considerata un modo per promuovere le abilità di alfabetizzazione emergente nei bambini in età prescolare. Una forma di lettura condivisa è la lettura dialogica, in cui il bambino gioca un ruolo attivo diventando co-narratore della storia. Il bambino e l’adulto si concentrano sullo stesso oggetto, la storia, che offre emozioni, desideri e riflessioni. Recentemente, è stato dimostrato che la lettura dialogica è efficace nel promuovere processi cognitivi di livello superiore, come le cosiddette Funzioni Esecutive (Howard et al., 2017; Ruffini et al., 2021). Tenendo conto dei risultati dello studio pilota italiano condotto con il libro illustrato “Quincey Quokka’s Ques” (Ruffini et al., 2021) e modellato su di esso, sono stati sviluppati quattro libri per migliorare le componenti esecutive di base e i prerequisiti per l’apprendimento della matematica (“Umberto il gufetto, dei numeri il maghetto”), della lettura (“La giraffa Mimì e la sciarpa dell’ABC”), della scrittura (“Il tucano Gilberto, uno scrittore un po’ incerto”) e delle competenze socio-emotive (“Lupo Selvaggio, il burlone del villaggio”).",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2023-02",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura condivisa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura dialogica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "funzioni esecutive",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "prerequisiti di apprendimento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "bambini in età prescolare",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "shared reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "dialogic reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Executive Functions",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "learning prerequisites",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "preschoolers",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6368/5539",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "1",
+      "citationStartPage": "023",
+      "citationEndPage": "031",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Ruffini, C., Gentili, S., Drovandi, S., Niccolai, S., Demetri, G., Nepi, L. D., Facondini, R., & Pecini, C. (2023). La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare. Effetti Di Lettura / Effects of Reading , 2 (1), 023–031. https://doi.org/10.7347/EdL-01-2023-02",
+      "articleTitleEcho": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Arnold, D. H., Lonigan, C. J., Whitehurst, G. J., & Epstein, J. N. (1994). Accelerating language development through picture book reading: replication and extension to a videotape training format. Journal of educational psychology, 86(2), 235. https://doi.org/10.1037/0022-0663.86.2.235",
+        "Autori, 2021",
+        "Autori, 2023",
+        "Bartolucci, M., & Batini, F. (2020). Reading aloud narrative material as a means for the student's cognitive empowerment. Mind, Brain, and Education, 14(3), 235-242. https://doi.org/10.1111/mbe.12241",
+        "Billington, J., Carroll, J., Davis, P., Healey, C., & Kinderman, P. (2012). A literature-based intervention for older people living with dementia. Perspectives in Public Health, 133(3), 165– 173. https://doi.org/10.1177/1757913912470052",
+        "Bus, A. G., Van Ijzendoorn, M. H., & Pellegrini, A. D. (1995). Joint book reading makes for success in learning to read: A meta-analysis on intergenerational transmission of literacy. Review of educational research, 65(1), 1-21. https://doi.org/10.3102/00346543065001001",
+        "Carlson, S.M. (2005). Developmentally sensitive measures of executive function in preschool children. Developmental Neuropsychology, 28, 595-616. https://doi.org/10.1207/s15326942dn2802_3",
+        "Cutler, L., & Palkovitz, R. (2020). Fathers’ shared book reading experiences: Common behaviors, frequency, predictive factors, and developmental outcomes. Marriage & Family Review, 56(2), 144-173. https://doi.org/10.1080/01494929.2019.1683119",
+        "Diamond, A. (2013). Executive functions. Annual review of psychology, 64, 135. https://doi.org/10.1146/annurev-psych-113011-143750",
+        "Fletcher, K. L., & Reese, E. (2005). Picture book reading with young children: A conceptual framework. Developmental review, 25(1), 64-103. https://doi.org/10.1016/j.dr.2004.08.009",
+        "Garon, N., Bryson, S. E., & Smith, I. M. (2008). Executive function in preschoolers: a review using an integrative framework. Psychological bulletin, 134(1), 31. https://doi.org/10.1037/0033-2909.134.1.31",
+        "Grolig, L. (2020). Shared storybook reading and oral language development: A bioecological perspective. Frontiers in Psychology, 11, 1818. https://doi.org/10.3389/fpsyg.2020.01818",
+        "Hemmeter, M. L., & Kaiser, A. P. (1994). Enhanced milieu teaching: Effects of parent-implemented language intervention. Journal of Early Intervention, 18(3), 269-289. https://doi.org/10.1177/105381519401800303",
+        "Howard, S. J., Powell, T., Vasseleu, E., Johnstone, S., & Melhuish, E. (2017). Enhancing preschoolers’ executive functions through embedding cognitive activities in shared book reading. Educational Psychology Review, 29(1), 153-174. https://doi.org/10.1007/s10648-016-9364-4",
+        "Howard, S. J., & Chadwick, S. (2015). Quincey quokka's quest: A picture book to support children's cognitive development. Cheratopia Editor.",
+        "Lonigan, C. J. (1994). Reading to preschoolers exposed: Is the emperor really naked?. Developmental review, 14(3), 303-323. https://doi.org/10.1006/drev.1994.1011",
+        "Lonigan, C. J., Anthony, J. L., Bloomfield, B. G., Dyer, S. M., & Samwel, C. S. (1999). Effects of two shared-reading interventions on emergent literacy skills of at-risk preschoolers. Journal of Early Intervention, 22(4), 306-322.",
+        "McInnes, A., Humphries, T., Hogg-Johnson, S., & Tannock, R. (2003). Listening comprehension and working memory are impaired in attention-deficit hyperactivity disorder irrespective of language impairment. Journal of abnormal child psychology, 31(4), 427–443. https://doi.org/10.1023/a:1023895602957",
+        "Miyake, A., Friedman, N. P., Emerson, M. J., Witzki, A. H., Howerter, A., & Wager, T. D. (2000). The unity and diversity of executive functions and their contributions to complex “frontal lobe” tasks: A latent variable analysis. Cognitive psychology, 41(1), 49-100. https://doi.org/10.1006/cogp.1999.0734",
+        "Moffitt, T. E., Arseneault, L., Belsky, D., Dickson, N., Hancox, R. J., Harrington, H., ... & Caspi, A. (2011). A gradient of childhood self-control predicts health, wealth, and public safety. Proceedings of the national Academy of Sciences, 108(7), 2693-2698. https://doi.org/10.1073/pnas.1010076108",
+        "Pecini, C., & Brizzolara, D. (2020). Disturbi e traiettorie atipiche del neurosviluppo. Diagnosi e intervento. McGraw-Hill Education.",
+        "Posner, M. I., & Rothbart, M. K. (2000). Developing mechanisms of self-regulation. Development and psychopathology, 12(3), 427-441. https://doi.org/10.1017/S0954579400003096",
+        "Renda, E. (2019). Leggere insieme: la lettura condivisa in età prescolare per educare al futuro. Leggere insieme, 1-93.",
+        "Scarborough, H. S., & Dobrich, W. (1994). On the efficacy of reading to preschoolers. Developmental review, 14(3), 245-302. https://doi.org/10.1006/drev.1994.1010",
+        "Tamburlini, G. (2015). Lettura condivisa in famiglia e sviluppo del cervello nel bambino. Medico e bambino, 34(8), 505-10.",
+        "Uchida, S., & Kawashima, R. (2008). Reading and solving arithmetic problems improves cognitive functions of normal aged people: A randomized controlled study. Age, 30(1), 21– 29. https://doi.org/10.1007/s11357-007-9044-x",
+        "Vygotsky, L. S. (1978). Mind in Society: the Development of Higher Psychological Processes. Cambridge, MA: Harvard University Press.",
+        "Whitehurst, G. J. (1992). Dialogic reading: An effective way to read to preschoolers.",
+        "Whitehurst, G. (2015). Dialogic Reading: an effective way to read to preschoolers.",
+        "Zelazo, P.D., Muller, U. (2002). Executive functions in typical and atypical development. In",
+        "U. Goswami (Ed.), Handbook of childhood cognitive development (pp. 445–469). Oxford:",
+        "Blackwell.",
+        "Zelazo, P.D., Muller, U., Frye D., Marcovitch S. (2003). The development of executive",
+        "function in early childhood, Monographs of the society for research in child development,",
+        ", Serial No. 274. https://doi.org/10.1111/j.0037-976x.2003.00260.x",
+        "Zelazo, P. D. (2020). Executive function and psychopathology: A neurodevelopmental perspective. Annual review of clinical psychology, 16(1), 431-454. https://doi.org/10.1146/annurev-clinpsy-072319-024242"
+      ],
+      "count": 36,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6368",
+    "article_ID": "6368",
+    "slug": "6368",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6368",
+      "url_slug": "6368"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Shared reading for the improvement of cognitive processes in preschool age",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-04-07",
+      "accepted": null,
+      "created": "2023-06-30",
+      "modified": "2024-06-25",
+      "issued": "2023-06-30",
+      "available": "2023-06-30",
+      "submitted_page": "2023-04-07",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+        "pdf_value": null,
+        "chosen_value": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-04-07",
+        "pdf_value": null,
+        "chosen_value": "2023-04-07",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6368/5539",
+      "local_relative_path": "2785-7050_6368.pdf",
+      "saved": true,
+      "sha256": "a51ee566d974d8147825f87e2be88b2e270e197385d3bb7a6db7e70e0744f375",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1891422,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Costanza Ruffini",
+        "Sofia Gentili",
+        "Silvia Drovandi",
+        "Silvia Niccolai",
+        "Giada Demetri",
+        "Lucia Donata Nepi",
+        "Roberta Facondini",
+        "Chiara Pecini"
+      ],
+      "citation_author_institution": [
+        "PhD student, | University of Florence",
+        "Teacher | University of Florence",
+        "Teacher | University of Florence",
+        "Teacher | University of Florence",
+        "Teacher | University of Florence",
+        "Teachers’ tutor | University of Florence",
+        "Teachers’ tutor | University of Florence",
+        "Associate Professor | University of Florence"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/06/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2023-02"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6368"
+      ],
+      "citation_keywords": [
+        "lettura condivisa",
+        "lettura dialogica",
+        "funzioni esecutive",
+        "prerequisiti di apprendimento",
+        "bambini in età prescolare"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6368/5539"
+      ],
+      "citation_reference_count": 36,
+      "DC.Date.created": [
+        "2023-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-04-07"
+      ],
+      "DC.Date.issued": [
+        "2023-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6368"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2023-02"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6368"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare"
+      ],
+      "DC.Title.Alternative": [
+        "Shared reading for the improvement of cognitive processes in preschool age"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Costanza Ruffini",
+        "Sofia Gentili",
+        "Silvia Drovandi",
+        "Silvia Niccolai",
+        "Giada Demetri",
+        "Lucia Donata Nepi",
+        "Roberta Facondini",
+        "Chiara Pecini"
+      ],
+      "citation_author_institution": [
+        "PhD student, | University of Florence",
+        "Teacher | University of Florence",
+        "Teacher | University of Florence",
+        "Teacher | University of Florence",
+        "Teacher | University of Florence",
+        "Teachers’ tutor | University of Florence",
+        "Teachers’ tutor | University of Florence",
+        "Associate Professor | University of Florence"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Costanza Ruffini",
+        "Sofia Gentili",
+        "Silvia Drovandi",
+        "Silvia Niccolai",
+        "Giada Demetri",
+        "Lucia Donata Nepi",
+        "Roberta Facondini",
+        "Chiara Pecini"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Reading is considered a 'gymnasium' for training cognitive processes such as memory, language and Executive Functions. In preschool, when reading skills have not yet been acquired, a common parent-child activity is shared reading. Shared reading aims at encouraging children to talk while reading books through strategies such as child-centredness, processing the child's expressions, providing feedback and pauses, and evaluating the child's responses. Shared reading has long been considered a way to promote emergent literacy skills in preschoolers. One form of shared reading is dialogic reading, in which the child plays an active role by becoming co-narrator of the story. The child and adult focus on the same object, the story, which offers emotions, desires, and reflections. Recently, dialogic reading has been shown to be effective in promoting higher-level cognitive processes, such as the so-called Executive Functions (Howard et al., 2017; Ruffini et al., 2021). Taking into account the results of the Italian pilot study conducted with the illustrated book Quincey Quokka's Quest (Ruffini et al., 2021) and modelled on it, four books were developed to improve the basic executive components and the pre-requisites of learning mathematics (Umberto il gufetto, dei numeri il maghetto), reading (La giraffa Mimì e la sciarpa dell'ABC), writing (Il tucano Gilberto, uno scrittore un po' incerto) and socio-emotional competences (Lupo Selvaggio, il burlone del villaggio).",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Reading is considered a 'gymnasium' for training cognitive processes such as memory, language and Executive Functions. In preschool, when reading skills have not yet been acquired, a common parent-child activity is shared reading. Shared reading aims at encouraging children to talk while reading books through strategies such as child-centredness, processing the child's expressions, providing feedback and pauses, and evaluating the child's responses. Shared reading has long been considered a way to promote emergent literacy skills in preschoolers. One form of shared reading is dialogic reading, in which the child plays an active role by becoming co-narrator of the story. The child and adult focus on the same object, the story, which offers emotions, desires, and reflections. Recently, dialogic reading has been shown to be effective in promoting higher-level cognitive processes, such as the so-called Executive Functions (Howard et al., 2017; Ruffini et al., 2021). Taking into account the results of the Italian pilot study conducted with the illustrated book Quincey Quokka's Quest (Ruffini et al., 2021) and modelled on it, four books were developed to improve the basic executive components and the pre-requisites of learning mathematics (Umberto il gufetto, dei numeri il maghetto), reading (La giraffa Mimì e la sciarpa dell'ABC), writing (Il tucano Gilberto, uno scrittore un po' incerto) and socio-emotional competences (Lupo Selvaggio, il burlone del villaggio)."
+          }
+        },
+        {
+          "content": "La lettura è considerata una “palestra” per l’allenamento di processi cognitivi come la memoria, il linguaggio e le Funzioni Esecutive. Nella scuola dell’infanzia, quando le abilità di lettura non sono ancora state acquisite, una comune attività tra genitori e figli è la lettura condivisa. La lettura condivisa mira a incoraggiare i bambini a parlare mentre leggono libri attraverso strategie come il centrarsi sul bambino, elaborare le sue espressioni, fornire feedback e pause, e valutare le risposte del bambino. La lettura condivisa è da tempo considerata un modo per promuovere le abilità di alfabetizzazione emergente nei bambini in età prescolare. Una forma di lettura condivisa è la lettura dialogica, in cui il bambino gioca un ruolo attivo diventando co-narratore della storia. Il bambino e l’adulto si concentrano sullo stesso oggetto, la storia, che offre emozioni, desideri e riflessioni. Recentemente, è stato dimostrato che la lettura dialogica è efficace nel promuovere processi cognitivi di livello superiore, come le cosiddette Funzioni Esecutive (Howard et al., 2017; Ruffini et al., 2021). Tenendo conto dei risultati dello studio pilota italiano condotto con il libro illustrato “Quincey Quokka’s Ques” (Ruffini et al., 2021) e modellato su di esso, sono stati sviluppati quattro libri per migliorare le componenti esecutive di base e i prerequisiti per l’apprendimento della matematica (“Umberto il gufetto, dei numeri il maghetto”), della lettura (“La giraffa Mimì e la sciarpa dell’ABC”), della scrittura (“Il tucano Gilberto, uno scrittore un po’ incerto”) e delle competenze socio-emotive (“Lupo Selvaggio, il burlone del villaggio”).",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La lettura è considerata una “palestra” per l’allenamento di processi cognitivi come la memoria, il linguaggio e le Funzioni Esecutive. Nella scuola dell’infanzia, quando le abilità di lettura non sono ancora state acquisite, una comune attività tra genitori e figli è la lettura condivisa. La lettura condivisa mira a incoraggiare i bambini a parlare mentre leggono libri attraverso strategie come il centrarsi sul bambino, elaborare le sue espressioni, fornire feedback e pause, e valutare le risposte del bambino. La lettura condivisa è da tempo considerata un modo per promuovere le abilità di alfabetizzazione emergente nei bambini in età prescolare. Una forma di lettura condivisa è la lettura dialogica, in cui il bambino gioca un ruolo attivo diventando co-narratore della storia. Il bambino e l’adulto si concentrano sullo stesso oggetto, la storia, che offre emozioni, desideri e riflessioni. Recentemente, è stato dimostrato che la lettura dialogica è efficace nel promuovere processi cognitivi di livello superiore, come le cosiddette Funzioni Esecutive (Howard et al., 2017; Ruffini et al., 2021). Tenendo conto dei risultati dello studio pilota italiano condotto con il libro illustrato “Quincey Quokka’s Ques” (Ruffini et al., 2021) e modellato su di esso, sono stati sviluppati quattro libri per migliorare le componenti esecutive di base e i prerequisiti per l’apprendimento della matematica (“Umberto il gufetto, dei numeri il maghetto”), della lettura (“La giraffa Mimì e la sciarpa dell’ABC”), della scrittura (“Il tucano Gilberto, uno scrittore un po’ incerto”) e delle competenze socio-emotive (“Lupo Selvaggio, il burlone del villaggio”)."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura condivisa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura condivisa"
+          }
+        },
+        {
+          "content": "lettura dialogica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura dialogica"
+          }
+        },
+        {
+          "content": "funzioni esecutive",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "funzioni esecutive"
+          }
+        },
+        {
+          "content": "prerequisiti di apprendimento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "prerequisiti di apprendimento"
+          }
+        },
+        {
+          "content": "bambini in età prescolare",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "bambini in età prescolare"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6368/5539",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6368/5539",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6368/5539",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2023-07-04",
+        "mod_date": "2023-07-04"
+      },
+      "front_text_excerpt": "ABSTRACT Reading is considered a 'gymnasium' for training cognitive processes such as memory, language and Executive Functions. In preschool, when reading skills have not yet been acquired, a common parent-child activity is shared reading. Shared reading aims at encouraging children to talk while reading books through strategies such as child-centredness, processing the child's expressions, providing feedback and pauses, and evaluating the child's responses. Shared reading has long been considered a way to promote emergent literacy skills in preschoolers. One form of shared reading is dialogic reading, in which the child plays an active role by becoming co-narrator of the story. The child and adult focus on the same object, the story, which offers emotions, desires, and reflec- tions. Recently, dialogic reading has been shown to be effective in promoting higher-level cognitive processes, such as the so-called Executive Functions (Howard et al., 2017; Ruffini et al., 2021). Taking into account the results of the Italian pilot study conducted with the illustrated book Quincey Quokka's Quest (Ruffini et al., 2021) and modelled on it, four books were developed to improve the basic executive components and the pre- requisites of learning mathematics ( Umberto il gufetto, dei numeri il maghetto ), reading ( La giraffa Mimì e la sciarpa dell'ABC), writing (Il tucano Gilberto, uno scrittore un po' incerto) and socio-emotional competences (Lupo Selvaggio, il burlone del villaggio). Keywords: shared reading, dialogic reading, Executive Functions, learning prerequisites, preschoolers Citation: Ruffini, C., Gentili, S., Drovandi, S., Niccolai, S., Demetri, G., Nepi, L. D., Facondini, R., & Pecini, C. (2023). Shared reading for the improvement of cognitive processes in preschool age. Effetti di Lettura / Effects of Reading, 2(1), 23-31. https://doi.org/10.7347/EdL- 01-2023-02. Corresponding Author: Costanza Ruffini | costanza.ruffini@unifi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-02 Costanza Ruffini PhD student, | University of Florence | costanza.ruffini@unifi.it Sofia Gentili T eacher | University of Florence | sofia_gent@hotmail.it Silvia Drovandi T eacher | University of Florence | silvia.drovandi@hotmail.it Silvia Niccolai T eacher | University of Florence | silvianiccolai.85@gmail.com Giada Demetri T eacher | University of Florence | giadademetri@yahoo.it Lucia Donata Nepi T eachers’ tutor | University of Florence | lucia.nepi@unifi.it Roberta Facondini T eachers’ tutor | University of Florence | robertafacondini66@gmail.com Chiara Pecini Associate Professor | University of Florence | chiara.pecini@unifi.it Double blind peer review Shared reading for the improvement of cognitive processes in preschool age La lettura condivisa per il potenziamento dei processi cognitivi in età prescolare Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6368\\2785-7050_6368.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+        "pdf_value": null,
+        "chosen_value": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-04-07",
+        "pdf_value": null,
+        "chosen_value": "2023-04-07",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6368",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6368",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:17Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:46:20Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6368",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6368",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6368",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6368",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6368\\2785-7050_6368.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:22Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6368\\2785-7050_6368.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+        "submitted_date": "2023-04-07",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Costanza Ruffini",
+          "Sofia Gentili",
+          "Silvia Drovandi",
+          "Silvia Niccolai",
+          "Giada Demetri",
+          "Lucia Donata Nepi",
+          "Roberta Facondini",
+          "Chiara Pecini"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6368\\2785-7050_6368.pdf",
+        "generated_at_utc": "2026-04-27T18:46:21Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2023-07-04",
+          "mod_date": "2023-07-04"
+        },
+        "front_text_excerpt": "ABSTRACT Reading is considered a 'gymnasium' for training cognitive processes such as memory, language and Executive Functions. In preschool, when reading skills have not yet been acquired, a common parent-child activity is shared reading. Shared reading aims at encouraging children to talk while reading books through strategies such as child-centredness, processing the child's expressions, providing feedback and pauses, and evaluating the child's responses. Shared reading has long been considered a way to promote emergent literacy skills in preschoolers. One form of shared reading is dialogic reading, in which the child plays an active role by becoming co-narrator of the story. The child and adult focus on the same object, the story, which offers emotions, desires, and reflec- tions. Recently, dialogic reading has been shown to be effective in promoting higher-level cognitive processes, such as the so-called Executive Functions (Howard et al., 2017; Ruffini et al., 2021). Taking into account the results of the Italian pilot study conducted with the illustrated book Quincey Quokka's Quest (Ruffini et al., 2021) and modelled on it, four books were developed to improve the basic executive components and the pre- requisites of learning mathematics ( Umberto il gufetto, dei numeri il maghetto ), reading ( La giraffa Mimì e la sciarpa dell'ABC), writing (Il tucano Gilberto, uno scrittore un po' incerto) and socio-emotional competences (Lupo Selvaggio, il burlone del villaggio). Keywords: shared reading, dialogic reading, Executive Functions, learning prerequisites, preschoolers Citation: Ruffini, C., Gentili, S., Drovandi, S., Niccolai, S., Demetri, G., Nepi, L. D., Facondini, R., & Pecini, C. (2023). Shared reading for the improvement of cognitive processes in preschool age. Effetti di Lettura / Effects of Reading, 2(1), 23-31. https://doi.org/10.7347/EdL- 01-2023-02. Corresponding Author: Costanza Ruffini | costanza.ruffini@unifi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-02 Costanza Ruffini PhD student, | University of Florence | costanza.ruffini@unifi.it Sofia Gentili T eacher | University of Florence | sofia_gent@hotmail.it Silvia Drovandi T eacher | University of Florence | silvia.drovandi@hotmail.it Silvia Niccolai T eacher | University of Florence | silvianiccolai.85@gmail.com Giada Demetri T eacher | University of Florence | giadademetri@yahoo.it Lucia Donata Nepi T eachers’ tutor | University of Florence | lucia.nepi@unifi.it Roberta Facondini T eachers’ tutor | University of Florence | robertafacondini66@gmail.com Chiara Pecini Associate Professor | University of Florence | chiara.pecini@unifi.it Double blind peer review Shared reading for the improvement of cognitive processes in preschool age La lettura condivisa per il potenziamento dei processi cognitivi in età prescolare Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "1.2 Le Funzioni Esecutive Le Funzioni Esecutive (FE) sono processi di controllo cognitivo necessari per affrontare un compito nuovo o complesso, quando non è più sufficiente affidarsi a risposte automatiche (Diamond, 2013). Le teorie più recenti tendono a interpretare questo dominio come costituito da componenti diverse ma interrelate (Diamond, 2013; Miyake et al., 2000). Il modello frazionato di Diamond (2013) identifica tre FE di base: inibizione, memoria di lavoro e flessibilità cognitiva. L ’inibizione consiste nella capacità di ‘resistere’ a una risposta automatica e impulsiva (inibizione della risposta) e non essere distratti da stimoli interferenti (con- trollo dell’interferenza). La memoria di lavoro consente di svolgere più operazioni mentali contempora - neamente, di riordinare e aggiornare gli elementi in memoria creando connessioni tra di essi. La flessibilità cognitiva è definita come la capacità di spostare l’attenzione da una strategia mentale all’altra, di adattarsi ai cambiamenti, di guardare la stessa cosa in modi diversi o da prospettive diverse. Le FE si sviluppano progressivamente dalla prima infanzia (Posner & Rothbart, 2000; Zelazo & Muller, 2002) e l’età prescolare è il periodo di massimo cambiamento (Carlson, 2005; Garon et al., 2008; Zelazo et al., 2003). Buone FE prescolari influiscono sulle traiettorie di sviluppo del bambino sia nel breve che nel lungo termine (Moffitt et al., 2011; Zelazo, 2020), pertanto è fondamentale promuovere interventi precoci soprattutto all’interno di contesti familiari, ad esempio a casa e a scuola. T ra gli interventi proposti per promuovere le FE, la lettura condivisa/dialogica è stata utilizzata in anni recenti anche con bambini prescolari, in quanto si tratta di un’attività ecologica e quotidiana (Bartolucci & Batini, 2020; Cutler & Palkovitz, 2020; Grolig, 2020). 1.3 Interventi di lettura condivisa/dialogica per promuovere le Funzioni Esecutive Un esempio di intervento basato sulla lettura dialogica è fornito dall’albo illustrato Quincey Quokka’s Quest (Howard & Chadwick, 2015) che racconta in rima le avventure del protagonista – Quincey – un quokka (piccolo marsupiale) sempre felice. L ’albo, oltre all’utilizzo dei principi della lettura condivisa/dialogica, ha la peculiarità di includere esercizi specifici che mirano a promuovere le FE. Nello specifico, oltre ai be- nefici favoriti dalla lettura condivisa, sono proposte attività sotto forma di giochi a difficoltà crescente, costruite appositamente per allenare una o più FE emergenti in età prescolare. Howard e collaboratori (2017) hanno indagato, attraverso tre studi, l’efficacia delle attività cognitive proposte nell’albo illustrato e mirate al potenziamento delle FE in bambini di età prescolare. Il primo studio ha indagato l’efficacia di suddette attività svolte in due diverse condizioni, in modo individuale e in gruppo. I risultati hanno evi - denziato dei miglioramenti nella flessibilità cognitiva in entrambe le condizioni. Il secondo studio ha in- dagato la differenza tra la lettura dell’albo e lo svolgimento delle attività cognitive in un contesto individuale rispetto a una condizione di controllo più attiva da parte del lettore che ha coinvolto i bambini tramite la lettura dialogica. Sono stati confermati i risultati emersi nel primo studio e sono stati, inoltre, evidenziati effetti positivi sulla memoria di lavoro. Il terzo studio ha indagato se gli effetti della lettura dell’albo illu- strato e dello svolgimento delle attività proposte cambiassero a seconda della durata dell’intervento e se tali effetti persistessero a due mesi da esso. I risultati hanno mostrato che i miglioramenti ottenuti tramite le attività su flessibilità cognitiva e memoria di lavoro non aumentano in modo uniforme durante l’inter- vento e che gli effetti positivi riscontrabili su entrambe le componenti delle FE sono maggiori nella fase iniziale dell’intervento. Nelle fasi successive i livelli raggiunti rimangono stabili, con un legge",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-04-07",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-04-07",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6368\\2785-7050_6368.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura condivisa per il potenziamento dei processi cognitivi in etaÌ€ prescolare",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Shared reading for the improvement of cognitive processes in preschool age",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Shared reading for the improvement of cognitive processes in preschool age",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Reading is considered a 'gymnasium' for training cognitive processes such as memory, language and Executive Functions. In preschool, when reading skills have no",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura è considerata una “palestra” per l’allenamento di processi cognitivi come la memoria, il linguaggio e le Funzioni Esecutive. Nella scuola dell’infanz",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

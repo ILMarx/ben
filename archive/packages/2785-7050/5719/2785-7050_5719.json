@@ -1,0 +1,946 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5719",
+  "scraped_at_utc": "2026-04-27T18:45:25Z",
+  "fetched_at_utc": "2026-04-27T18:45:25Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "0d17d72cae2b2a043108eb6fcf0f27678783935b40ff5e3b27da9176c68a7c9a",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Reading aloud to address the double inequality",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Alessio Surian",
+        "nameType": "Personal",
+        "givenName": "Alessio",
+        "familyName": "Surian",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Professor (Associate) | University Of Padova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Vanessa Candela",
+        "nameType": "Personal",
+        "givenName": "Vanessa",
+        "familyName": "Candela",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research fellow | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Maria Assunta Rutigliano",
+        "nameType": "Personal",
+        "givenName": "Maria Assunta",
+        "familyName": "Rutigliano",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research fellow | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5719",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-30",
+      "Issued": "2022-06-30"
+    },
+    "language": {
+      "value": "en",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The paper presents one exploratory single case study (Yin, 2018) involving the implementation of the Reading Aloud method in the Porta Palazzo district of the Turin municipality in North-West Italy. In general, formal education tests show ‘migrant’ pupils scoring worse than ‘natives’ in reading in most countries; this implies a double inequality that is particularly evident in Western European, Nordic, and North American countries where ‘migrant’ students in most countries have to deal with extra difficulties in both reading and subjective wellbeing (Wang, 2021). Through logbook analysis, specific attention is given to teachers observation of the effects of reading aloud practice and to ways to address reading test performance for Italian pupils with a migrant background that have shown to be significantly and consistently lower when compared with ‘native’ pupils. The narrative analysis of the teachers logbook observations provides evidence that reading aloud at school has a positive impact upon those children who are coming from families that are not used to read aloud to their children.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’articolo presenta uno studio esplorativo di un singolo caso (Yin, 2018) che riguarda l’implementazione del metodo della Lettura ad Alta Voce nel quartiere di Porta Palazzo della città di Torino, nel nord-ovest dell’Italia. In generale, i test di istruzione formale mostrano che gli studenti “migranti” ottengono punteggi peggiori dei “nativi” nella lettura, nella maggior parte dei paesi; ciò implica una doppia disuguaglianza, particolarmente evidente nei paesi dell’Europa occidentale, nordica e nordamericana, dove gli studenti “migranti” devono affrontare difficoltà aggiuntive sia nella lettura che nel benessere soggettivo (Wang, 2021). Attraverso l’analisi dei diari di bordo, si presta particolare attenzione all’osservazione degli insegnanti sugli effetti della pratica della lettura ad alta voce e ai modi per affrontare le prestazioni nei test di lettura degli studenti italiani con background migratorio, che sono risultate significativamente e costantemente inferiori rispetto agli studenti “nativi”. L’analisi narrativa delle osservazioni nei diari degli insegnanti fornisce prove che la lettura ad alta voce a scuola ha un impatto positivo su quei bambini che provengono da famiglie non abituate a leggere ad alta voce ai propri figli.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2022-06",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "1",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "competenze di alfabetizzazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "diversità culturale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "literacy skills",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "cultural diversity",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5719/4914",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "1",
+      "citationIssue": "1",
+      "citationStartPage": "076",
+      "citationEndPage": "093",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Surian , A., Candela , V., & Rutigliano , M. A. (2022). Lettura ad alta voce per affrontare la doppia disuguaglianza. Effetti Di Lettura / Effects of Reading , 1 (1), 076–093. https://doi.org/10.7347/EdL-01-2022-06",
+      "articleTitleEcho": "Reading aloud to address the double inequality"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_5719",
+    "article_ID": "5719",
+    "slug": "5719",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "5719",
+      "url_slug": "5719"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Reading aloud to address the double inequality",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Lettura ad alta voce per affrontare la doppia disuguaglianza",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-07-11",
+      "accepted": null,
+      "created": "2022-06-30",
+      "modified": "2024-06-24",
+      "issued": "2022-06-30",
+      "available": "2022-06-30",
+      "submitted_page": "2022-07-11",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Reading aloud to address the double inequality",
+        "pdf_value": null,
+        "chosen_value": "Reading aloud to address the double inequality",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5719/4914",
+      "local_relative_path": "2785-7050_5719.pdf",
+      "saved": true,
+      "sha256": "fc5013c68351622c33ad28170a0f34a37511907be11de5959e512f81946e8d6d",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 20492570,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Alessio Surian",
+        "Vanessa Candela",
+        "Maria Assunta Rutigliano"
+      ],
+      "citation_author_institution": [
+        "Professor (Associate) | University Of Padova",
+        "Research fellow | University of Perugia",
+        "Research fellow | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Reading aloud to address the double inequality"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2022/06/30"
+      ],
+      "citation_volume": [
+        "1"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2022-06"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5719"
+      ],
+      "citation_keywords": [
+        "lettura ad alta voce",
+        "competenze di alfabetizzazione",
+        "diversità culturale"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/5719/4914"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2022-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-07-11"
+      ],
+      "DC.Date.issued": [
+        "2022-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-24"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "5719"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2022-06"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5719"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "1"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 3,
+      "DC.Title": [
+        "Lettura ad alta voce per affrontare la doppia disuguaglianza"
+      ],
+      "DC.Title.Alternative": [
+        "Lettura ad alta voce per affrontare la doppia disuguaglianza"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Alessio Surian",
+        "Vanessa Candela",
+        "Maria Assunta Rutigliano"
+      ],
+      "citation_author_institution": [
+        "Professor (Associate) | University Of Padova",
+        "Research fellow | University of Perugia",
+        "Research fellow | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Alessio Surian",
+        "Vanessa Candela",
+        "Maria Assunta Rutigliano"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The paper presents one exploratory single case study (Yin, 2018) involving the implementation of the Reading Aloud method in the Porta Palazzo district of the Turin municipality in North-West Italy. In general, formal education tests show ‘migrant’ pupils scoring worse than ‘natives’ in reading in most countries; this implies a double inequality that is particularly evident in Western European, Nordic, and North American countries where ‘migrant’ students in most countries have to deal with extra difficulties in both reading and subjective wellbeing (Wang, 2021). Through logbook analysis, specific attention is given to teachers observation of the effects of reading aloud practice and to ways to address reading test performance for Italian pupils with a migrant background that have shown to be significantly and consistently lower when compared with ‘native’ pupils. The narrative analysis of the teachers logbook observations provides evidence that reading aloud at school has a positive impact upon those children who are coming from families that are not used to read aloud to their children.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The paper presents one exploratory single case study (Yin, 2018) involving the implementation of the Reading Aloud method in the Porta Palazzo district of the Turin municipality in North-West Italy. In general, formal education tests show ‘migrant’ pupils scoring worse than ‘natives’ in reading in most countries; this implies a double inequality that is particularly evident in Western European, Nordic, and North American countries where ‘migrant’ students in most countries have to deal with extra difficulties in both reading and subjective wellbeing (Wang, 2021). Through logbook analysis, specific attention is given to teachers observation of the effects of reading aloud practice and to ways to address reading test performance for Italian pupils with a migrant background that have shown to be significantly and consistently lower when compared with ‘native’ pupils. The narrative analysis of the teachers logbook observations provides evidence that reading aloud at school has a positive impact upon those children who are coming from families that are not used to read aloud to their children."
+          }
+        },
+        {
+          "content": "L’articolo presenta uno studio esplorativo di un singolo caso (Yin, 2018) che riguarda l’implementazione del metodo della Lettura ad Alta Voce nel quartiere di Porta Palazzo della città di Torino, nel nord-ovest dell’Italia. In generale, i test di istruzione formale mostrano che gli studenti “migranti” ottengono punteggi peggiori dei “nativi” nella lettura, nella maggior parte dei paesi; ciò implica una doppia disuguaglianza, particolarmente evidente nei paesi dell’Europa occidentale, nordica e nordamericana, dove gli studenti “migranti” devono affrontare difficoltà aggiuntive sia nella lettura che nel benessere soggettivo (Wang, 2021). Attraverso l’analisi dei diari di bordo, si presta particolare attenzione all’osservazione degli insegnanti sugli effetti della pratica della lettura ad alta voce e ai modi per affrontare le prestazioni nei test di lettura degli studenti italiani con background migratorio, che sono risultate significativamente e costantemente inferiori rispetto agli studenti “nativi”. L’analisi narrativa delle osservazioni nei diari degli insegnanti fornisce prove che la lettura ad alta voce a scuola ha un impatto positivo su quei bambini che provengono da famiglie non abituate a leggere ad alta voce ai propri figli.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’articolo presenta uno studio esplorativo di un singolo caso (Yin, 2018) che riguarda l’implementazione del metodo della Lettura ad Alta Voce nel quartiere di Porta Palazzo della città di Torino, nel nord-ovest dell’Italia. In generale, i test di istruzione formale mostrano che gli studenti “migranti” ottengono punteggi peggiori dei “nativi” nella lettura, nella maggior parte dei paesi; ciò implica una doppia disuguaglianza, particolarmente evidente nei paesi dell’Europa occidentale, nordica e nordamericana, dove gli studenti “migranti” devono affrontare difficoltà aggiuntive sia nella lettura che nel benessere soggettivo (Wang, 2021). Attraverso l’analisi dei diari di bordo, si presta particolare attenzione all’osservazione degli insegnanti sugli effetti della pratica della lettura ad alta voce e ai modi per affrontare le prestazioni nei test di lettura degli studenti italiani con background migratorio, che sono risultate significativamente e costantemente inferiori rispetto agli studenti “nativi”. L’analisi narrativa delle osservazioni nei diari degli insegnanti fornisce prove che la lettura ad alta voce a scuola ha un impatto positivo su quei bambini che provengono da famiglie non abituate a leggere ad alta voce ai propri figli."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce"
+          }
+        },
+        {
+          "content": "competenze di alfabetizzazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "competenze di alfabetizzazione"
+          }
+        },
+        {
+          "content": "diversità culturale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "diversità culturale"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5719/4914",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5719/4914",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5719/4914",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 16.32",
+        "producer": "QuarkXPress(R) 16.32",
+        "keywords": null,
+        "creation_date": "2022-07-20",
+        "mod_date": "2022-07-20"
+      },
+      "front_text_excerpt": "ABSTRACT The paper presents one exploratory single case study (Yin, 2018) involving the implementation of the Reading Aloud method in the Porta Palazzo district of the T urin municipality in North-West Italy. In general, formal education tests show ‘migrant’ pupils scoring worse than ‘natives’ in reading in most countries; this implies a double inequality that is particularly evident in Western European, Nordic, and North American countries where ‘migrant’ students in most countries have to deal with extra difficulties in both reading and subjective wellbeing (Wang, 2021). Through logbook analysis, specific attention is given to teachers observation of the effects of reading aloud practice and to ways to address reading test performance for Italian pupils with a migrant background that have shown to be significantly and consistently lower when compared with ‘native’ pupils. The narrative analysis of the teachers logbook observations provides evidence that reading aloud at school has a positive impact upon those children who are coming from families that are not used to read aloud to their children. Keywords: reading aloud, literacy skills, cultural diversity Citation: Surian, A., Candela, V ., & Rutigliano, M. A. (2022). Reading aloud to address the double inequality. Effetti di Lettura / Effects of Reading, 1(1), 76–93. https://doi.org/10.7347/EdL-01-2022-06 Corresponding Author: Alessio Surian | alessio.surian@unipd.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-06 Alessio Surian Professor (Associate) | University Of Padova | alessio.surian@unipd.it Vanessa Candela Research fellow | University of Perugia | vanessacandelak@gmail.com Maria Assunta Rutigliano Research fellow | University of Perugia | mariaassuntarutigliano@outlook.it Double blind peer review Reading aloud to address the double inequality* Lettura ad alta voce per affrontare la doppia disuguaglianza Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading * The introduction, abstract and interpretation of the results are attributed to A. Surian; all other parts are attributed to a j oint work by V . Candela and M.A. Rutigliano. The entire drafting of the article, the methodological process and the data analysis were carried out under the supervision of A. Surian.",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\5719\\2785-7050_5719.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Reading aloud to address the double inequality",
+        "pdf_value": null,
+        "chosen_value": "Reading aloud to address the double inequality",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Lettura ad alta voce per affrontare la doppia disuguaglianza | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5719",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5719",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:45:25Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:45:27Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5719",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5719",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 3,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5719",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5719",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5719\\2785-7050_5719.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:45:33Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5719\\2785-7050_5719.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Reading aloud to address the double inequality",
+        "submitted_date": "2022-07-11",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "en",
+        "creator_names": [
+          "Alessio Surian",
+          "Vanessa Candela",
+          "Maria Assunta Rutigliano"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5719\\2785-7050_5719.pdf",
+        "generated_at_utc": "2026-04-27T18:45:33Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 16.32",
+          "producer": "QuarkXPress(R) 16.32",
+          "keywords": null,
+          "creation_date": "2022-07-20",
+          "mod_date": "2022-07-20"
+        },
+        "front_text_excerpt": "ABSTRACT The paper presents one exploratory single case study (Yin, 2018) involving the implementation of the Reading Aloud method in the Porta Palazzo district of the T urin municipality in North-West Italy. In general, formal education tests show ‘migrant’ pupils scoring worse than ‘natives’ in reading in most countries; this implies a double inequality that is particularly evident in Western European, Nordic, and North American countries where ‘migrant’ students in most countries have to deal with extra difficulties in both reading and subjective wellbeing (Wang, 2021). Through logbook analysis, specific attention is given to teachers observation of the effects of reading aloud practice and to ways to address reading test performance for Italian pupils with a migrant background that have shown to be significantly and consistently lower when compared with ‘native’ pupils. The narrative analysis of the teachers logbook observations provides evidence that reading aloud at school has a positive impact upon those children who are coming from families that are not used to read aloud to their children. Keywords: reading aloud, literacy skills, cultural diversity Citation: Surian, A., Candela, V ., & Rutigliano, M. A. (2022). Reading aloud to address the double inequality. Effetti di Lettura / Effects of Reading, 1(1), 76–93. https://doi.org/10.7347/EdL-01-2022-06 Corresponding Author: Alessio Surian | alessio.surian@unipd.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-06 Alessio Surian Professor (Associate) | University Of Padova | alessio.surian@unipd.it Vanessa Candela Research fellow | University of Perugia | vanessacandelak@gmail.com Maria Assunta Rutigliano Research fellow | University of Perugia | mariaassuntarutigliano@outlook.it Double blind peer review Reading aloud to address the double inequality* Lettura ad alta voce per affrontare la doppia disuguaglianza Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading * The introduction, abstract and interpretation of the results are attributed to A. Surian; all other parts are attributed to a j oint work by V . Candela and M.A. Rutigliano. The entire drafting of the article, the methodological process and the data analysis were carried out under the supervision of A. Surian.",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "The project took place in the Porta Palazzo district which has one of the largest immigrant population in the city. It was supported by the Compagnia San Paolo’s ‘Riconnessioni - Educazione al futuro’ fund and by Fondazione per la Scuola. It was designed and implemented by the FISSUF Department (Philos- ophy, Social, Human and Education Sciences – Chair of Experimental Pedagogy) of the University of Pe- rugia under the supervision of Prof. Federico Batini. The project offered daily and intensive reading aloud practice by teachers for children and young people. The activities intended to: promote inclusion and foster integration in the school and social context; – fostering learning and mastery of the Italian language through exposure to narratives; – promote equity and cognitive democracy (Batini & Giusti, 2022); – improve children’s relational skills and overall wellbeing; – facilitate cognitive, emotional, psychological and identity development processes. – The Istituto Comprensivo 2 includes 4 different school sites: the Infanzia Via Beinasco Kindergarten (for children aged 3-6 years); – the Aurora and the Parini Primary Schools (for children aged 6-10 years); – the Morelli First Cycle Secondary School (for kids aged 11-13 years). – A total of 20 experimental classes (in which intensive daily read aloud training was carried out) and 7 control classes (which did not carry out any read aloud training) were involved in the project. 31 teachers participated in the project, and a total of 536 pupils from all school grades were involved: for pre-school (kindergarten): 4 classes, 6 teachers, 83 children participated; – for primary school: 12 classes, 20 teachers, 291 children. – for first cycle secondary school: 4 classes, 5 teachers, 162 children. – A large group of parents of the children have nationalities other than Italian, for a total of 29 different nationalities: Moroccan (25%), Chinese (8.58%), Senegalese (4.48%), Romanian (6.53%), Nigerian (11.01%), Egyptian (12.13%), T unisian (2.61%), Italian (11, 19%), Filipino (0.56%), Peruvian (1.68%), Bengali (9.33%), Indian (0.19%), French (0.37%), Ecuadorian (0.56%), Albanian (0, 75%), Venezuelan (0.19%), Argentinean (0.19%), Algerian (0.37%), Somali (0.19%), Macedonian (0.19%), Ivorian (1.68%), Armenian (0.19%) Pakistani (0.56%), Syrian (0.19%), Brazilian (0.37%), Cameroonian (0.19%), Polish (0.19%), Congolese (0.37%), Moldovan (0.19%) (Fig. 1a-1b). 78 Volume 1 | n. 1 | giugno 2022 | pp. 76-93 Effetti di Lettura Effects of Reading",
+        "body_language_guess": "en",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Reading aloud to address the double inequality",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Reading aloud to address the double inequality",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-07-11",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-07-11",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5719\\2785-7050_5719.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Reading aloud to address the double inequality",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "Lettura ad alta voce per affrontare la doppia disuguaglianza",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Lettura ad alta voce per affrontare la doppia disuguaglianza",
+            "dropped_source": "locale:it_IT:meta:DC.Title",
+            "kept_source": "meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The paper presents one exploratory single case study (Yin, 2018) involving the implementation of the Reading Aloud method in the Porta Palazzo district of the T",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’articolo presenta uno studio esplorativo di un singolo caso (Yin, 2018) che riguarda l’implementazione del metodo della Lettura ad Alta Voce nel quartiere di ",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

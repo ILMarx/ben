@@ -1,0 +1,978 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8015",
+  "scraped_at_utc": "2026-04-27T18:48:39Z",
+  "fetched_at_utc": "2026-04-27T18:48:39Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "0b75b212ff181a99b882a8c8a481552527a7e43d7c4e80915d3b7a433071993b",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Barbara Tirelli",
+        "nameType": "Personal",
+        "givenName": "Barbara",
+        "familyName": "Tirelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Librarian and Pedagogist | Independent Researcher"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8015",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-06-27",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-06-27",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-06-27",
+      "Issued": "2025-06-27"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "First purpose of the article is to investigate the central role of reading in the public library, considered as the best informative mediation place, and to explore the social and the relational dimensions of the library service, analysing the power of reading (particularly the power of reading aloud), especially as an educational practice, able to create empowerment of the citizens. The article explores the main aspects about reading aloud and motivation to read: the lack of early and family literacy as risk factor and the school, which often can’t convey the reading for pleasure free from teaching duties. The article wonders if reading may be really for everyone, and how it can be accessible through reading aloud, as caring and empowering practice. The article shows the possibility to learn literacy skills through read aloud stories, during an emotional and relational process, which enhance the auditory canal and draw attention from the reader to the listener. In this way, it’s possible to create an alternative reading experience to the independent and silent one, especially caring for those who struggle dealing with books. In the last part of the article is highlighted how the contemporary public library has to focus its actions upon the reading aloud activities, alongside the change in the role of the librarians, key figures in creating a real educating community",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La finalità principale dell’articolo è quella di indagare la centralità della lettura nella biblioteca pubblica, intesa come luogo della mediazione informativa per eccellenza, passando attraverso un approfondimento della dimensione sociale e relazionale del servizio bibliotecario e un’analisi del potere della lettura (in particolare quella ad alta voce), anche e soprattutto come pratica educativa, capace di generare un empowerment dei cittadini. Vengono presi in considerazione, poi, gli aspetti fondamentali che ruotano attorno alla pratica della lettura ad alta voce e alla nascita della motivazione alla lettura: la mancanza di early e family literacy come possibile fattore di rischio e la scuola, che spesso non riesce a trasmettere il piacere di leggere svincolato dalle consegne didattiche. Ci si chiede se la lettura possa essere veramente per tutti, e come riuscire a renderla accessibile attraverso un’attività di cura e potenziamento rappresentata dalla lettura ad alta voce. Viene delineata la possibilità di apprendere competenze di literacy attraverso la narrativa letta ad alta voce, in un processo affettivo e relazionale che potenzia il canale uditivo e che sposta l’attenzione da colui che legge a colui che ascolta. È possibile in questo modo generare un’esperienza di lettura alternativa a quella autonoma e silenziosa, avendo cura anche e soprattutto di coloro che hanno difficoltà ad avvicinarsi al libro. Nella parte finale dell’articolo viene evidenziato come la lettura ad alta voce rappresenti dunque l’attività principale e più efficace su cui la biblioteca pubblica contemporanea debba basare le sue azioni di educazione alla lettura, parallelamente a una trasformazione del ruolo dei bibliotecari, figure chiave nella costruzione di una comunità che possa dirsi veramente educante.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2025-07",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Biblioteca pubblica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Comunità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Motivazione alla lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Accessibilità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Public library",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Community",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Reading motivation",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Accessibility",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Barbara Tirelli",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8015/7022",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "1",
+      "citationStartPage": "095",
+      "citationEndPage": "106",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Tirelli, B. (2025). Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia. Effetti Di Lettura / Effects of Reading , 4 (1), 095–106. https://doi.org/10.7347/EdL-01-2025-07",
+      "articleTitleEcho": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Anzivino, M., & Caligaris, F. (2014). La biblioteca, fertile spazio di cittadinanza. Un terreno in cui coltivare legami, idee e azioni partecipate. Animazione Sociale, n. 218.",
+        "Anzivino, M., & Caligaris, F. (2016). Quale biblioteca per leggere il presente e costruire il futuro insieme ai cittadini? Biblioteche Oggi Trends, vol.2, n.1.",
+        "Batini, F. (2023). La leura ad alta voce condivisa. Un metodo in direzione dell’equità. Il Mulino.",
+        "Bigli, A. (2023). Leggere piano, forte, fortissimo. Come allenare alla lettura ragazzi e ragazze. Mondadori.",
+        "Cavalli N., & Pitman K., & Saint John J. (2017). La biblioteca come luogo terzo: con un contributo sugli Idea Store londinesi. Biblioteche Oggi Trends, vol. 3, n.2.",
+        "https://doi.org/10.3302/2421-3810-201702-043-1",
+        "Eleuteri, B. (2019). L’adolescente e il libro: Una proposta di indagine motivazionale di tipo qualitativo. Biblioteche Oggi, vol. 37, n.5.",
+        "https://doi.org/10.3302/0392-8586-201905-008-1",
+        "Eleuteri, B. (2020). Analfabetismo funzionale: perché, ci serve ancora saper leggere e scrivere? AIB Studi, vol. 59 (1-2).",
+        "https://doi.org/10.2426/aibstudi-11891",
+        "Eleuteri, B. (2022). Dietro il giovane lettore: un approccio interdisciplinare per comprendere la motivazione alla lettura. Biblioteche Oggi Trends, vol. 8, n.1.",
+        "https://doi.org/10.3302/2421-3810-202201-013-1",
+        "Ferrieri, L. (2020). La biblioteca che verrà. Pubblica, aperta, sociale. Editrice Bibliografica.",
+        "ISTAT. (2023). Lettura di libri e fruizione delle biblioteche - Anno 2022, report.",
+        "https://www.istat.it/wp-content/uploads/2023/05/STATISTICA_TODAY_Libri_biblioteche.pdf",
+        "Lankes, R.D. (2016). Guida alla biblioteconomia moderna. Editrice Bibliografica.",
+        "Ministero dell’Istruzione e del Merito (2012). Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo d’istruzione.",
+        "https://www.mim.gov.it/documents/20182/51310/DM+254_2012.pdf",
+        "Ministero dell’Istruzione e del Merito (2025). Nuove Indicazioni 2025, Scuola dell’infanzia e Primo ciclo di istruzione. Materiali per il dibattito pubblico.",
+        "https://www.mim.gov.it/documents/20182/0/Nuove+indicazioni+2025.pdf/cebce5de-1e1d-12de-8252-79758c00a50b?version=1.1&t=1741806754378",
+        "Oldenburg, R. (1989). The great good place: café, coffee shops, community centers, beauty parlors, general stores, bars, hangouts, and how they get you through the day. Paragon House.",
+        "Pennac, D. (1992). Come un romanzo. Feltrinelli.",
+        "Petroselli, E. (2014). Le indagini qualitative come strumento di valutazione dei servizi bibliotecari: riflessioni a margine di uno studio di caso. AIB Studi, 54(2/3).",
+        "https://doi.org/10.2426/aibstudi-9966",
+        "Solimine, G. (2014). Nuovi appunti sulla interpretazione della biblioteca pubblica. AIB Studi, 53(3). https://doi.org/10.2426/aibstudi-9132",
+        "Valentino Merletti, R. (1996). Leggere ad alta voce. Mondadori.",
+        "Wolf, M. (2007). Proust e il calamaro. Storia e scienza del cervello che legge. Vita e Pensiero."
+      ],
+      "count": 27,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8015",
+    "article_ID": "8015",
+    "slug": "8015",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8015",
+      "url_slug": "8015"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Educating for reading in the public library. Read aloud practices as accessible and democratic tools",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-04-29",
+      "accepted": null,
+      "created": "2025-06-27",
+      "modified": "2025-06-27",
+      "issued": "2025-06-27",
+      "available": "2025-06-27",
+      "submitted_page": "2025-04-29",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+        "pdf_value": null,
+        "chosen_value": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-29",
+        "pdf_value": null,
+        "chosen_value": "2025-04-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Barbara Tirelli",
+        "pdf_value": null,
+        "chosen_value": "Barbara Tirelli",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8015/7022",
+      "local_relative_path": "2785-7050_8015.pdf",
+      "saved": true,
+      "sha256": "b4e307d6417b4275b909ed137e8b017e5e1305d1a985f6deb4021d8a2f123e52",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 28530576,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Barbara Tirelli"
+      ],
+      "citation_author_institution": [
+        "Librarian and Pedagogist | Independent Researcher"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/06/27"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2025-07"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8015"
+      ],
+      "citation_keywords": [
+        "Lettura ad alta voce",
+        "Biblioteca pubblica",
+        "Comunità",
+        "Motivazione alla lettura",
+        "Accessibilità"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8015/7022"
+      ],
+      "citation_reference_count": 27,
+      "DC.Date.created": [
+        "2025-06-27"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-04-29"
+      ],
+      "DC.Date.issued": [
+        "2025-06-27"
+      ],
+      "DC.Date.modified": [
+        "2025-06-27"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8015"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2025-07"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8015"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Barbara Tirelli",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia"
+      ],
+      "DC.Title.Alternative": [
+        "Educating for reading in the public library. Read aloud practices as accessible and democratic tools"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Barbara Tirelli"
+      ],
+      "citation_author_institution": [
+        "Librarian and Pedagogist | Independent Researcher"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Barbara Tirelli"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "First purpose of the article is to investigate the central role of reading in the public library, considered as the best informative mediation place, and to explore the social and the relational dimensions of the library service, analysing the power of reading (particularly the power of reading aloud), especially as an educational practice, able to create empowerment of the citizens. The article explores the main aspects about reading aloud and motivation to read: the lack of early and family literacy as risk factor and the school, which often can’t convey the reading for pleasure free from teaching duties. The article wonders if reading may be really for everyone, and how it can be accessible through reading aloud, as caring and empowering practice. The article shows the possibility to learn literacy skills through read aloud stories, during an emotional and relational process, which enhance the auditory canal and draw attention from the reader to the listener. In this way, it’s possible to create an alternative reading experience to the independent and silent one, especially caring for those who struggle dealing with books. In the last part of the article is highlighted how the contemporary public library has to focus its actions upon the reading aloud activities, alongside the change in the role of the librarians, key figures in creating a real educating community",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "First purpose of the article is to investigate the central role of reading in the public library, considered as the best informative mediation place, and to explore the social and the relational dimensions of the library service, analysing the power of reading (particularly the power of reading aloud), especially as an educational practice, able to create empowerment of the citizens. The article explores the main aspects about reading aloud and motivation to read: the lack of early and family literacy as risk factor and the school, which often can’t convey the reading for pleasure free from teaching duties. The article wonders if reading may be really for everyone, and how it can be accessible through reading aloud, as caring and empowering practice. The article shows the possibility to learn literacy skills through read aloud stories, during an emotional and relational process, which enhance the auditory canal and draw attention from the reader to the listener. In this way, it’s possible to create an alternative reading experience to the independent and silent one, especially caring for those who struggle dealing with books. In the last part of the article is highlighted how the contemporary public library has to focus its actions upon the reading aloud activities, alongside the change in the role of the librarians, key figures in creating a real educating community"
+          }
+        },
+        {
+          "content": "La finalità principale dell’articolo è quella di indagare la centralità della lettura nella biblioteca pubblica, intesa come luogo della mediazione informativa per eccellenza, passando attraverso un approfondimento della dimensione sociale e relazionale del servizio bibliotecario e un’analisi del potere della lettura (in particolare quella ad alta voce), anche e soprattutto come pratica educativa, capace di generare un empowerment dei cittadini. Vengono presi in considerazione, poi, gli aspetti fondamentali che ruotano attorno alla pratica della lettura ad alta voce e alla nascita della motivazione alla lettura: la mancanza di early e family literacy come possibile fattore di rischio e la scuola, che spesso non riesce a trasmettere il piacere di leggere svincolato dalle consegne didattiche. Ci si chiede se la lettura possa essere veramente per tutti, e come riuscire a renderla accessibile attraverso un’attività di cura e potenziamento rappresentata dalla lettura ad alta voce. Viene delineata la possibilità di apprendere competenze di literacy attraverso la narrativa letta ad alta voce, in un processo affettivo e relazionale che potenzia il canale uditivo e che sposta l’attenzione da colui che legge a colui che ascolta. È possibile in questo modo generare un’esperienza di lettura alternativa a quella autonoma e silenziosa, avendo cura anche e soprattutto di coloro che hanno difficoltà ad avvicinarsi al libro. Nella parte finale dell’articolo viene evidenziato come la lettura ad alta voce rappresenti dunque l’attività principale e più efficace su cui la biblioteca pubblica contemporanea debba basare le sue azioni di educazione alla lettura, parallelamente a una trasformazione del ruolo dei bibliotecari, figure chiave nella costruzione di una comunità che possa dirsi veramente educante.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La finalità principale dell’articolo è quella di indagare la centralità della lettura nella biblioteca pubblica, intesa come luogo della mediazione informativa per eccellenza, passando attraverso un approfondimento della dimensione sociale e relazionale del servizio bibliotecario e un’analisi del potere della lettura (in particolare quella ad alta voce), anche e soprattutto come pratica educativa, capace di generare un empowerment dei cittadini. Vengono presi in considerazione, poi, gli aspetti fondamentali che ruotano attorno alla pratica della lettura ad alta voce e alla nascita della motivazione alla lettura: la mancanza di early e family literacy come possibile fattore di rischio e la scuola, che spesso non riesce a trasmettere il piacere di leggere svincolato dalle consegne didattiche. Ci si chiede se la lettura possa essere veramente per tutti, e come riuscire a renderla accessibile attraverso un’attività di cura e potenziamento rappresentata dalla lettura ad alta voce. Viene delineata la possibilità di apprendere competenze di literacy attraverso la narrativa letta ad alta voce, in un processo affettivo e relazionale che potenzia il canale uditivo e che sposta l’attenzione da colui che legge a colui che ascolta. È possibile in questo modo generare un’esperienza di lettura alternativa a quella autonoma e silenziosa, avendo cura anche e soprattutto di coloro che hanno difficoltà ad avvicinarsi al libro. Nella parte finale dell’articolo viene evidenziato come la lettura ad alta voce rappresenti dunque l’attività principale e più efficace su cui la biblioteca pubblica contemporanea debba basare le sue azioni di educazione alla lettura, parallelamente a una trasformazione del ruolo dei bibliotecari, figure chiave nella costruzione di una comunità che possa dirsi veramente educante."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Lettura ad alta voce"
+          }
+        },
+        {
+          "content": "Biblioteca pubblica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Biblioteca pubblica"
+          }
+        },
+        {
+          "content": "Comunità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Comunità"
+          }
+        },
+        {
+          "content": "Motivazione alla lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Motivazione alla lettura"
+          }
+        },
+        {
+          "content": "Accessibilità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Accessibilità"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8015/7022",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8015/7022",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8015/7022",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-06-26",
+        "mod_date": "2025-06-26"
+      },
+      "front_text_excerpt": "ABSTRACT First purpose of the article is to investigate the central role of reading in the public library, considered as the best inform ative mediation place, and to explore the social and the relational dimensions of the library service, analysing the power of reading (particularly the power of reading aloud), especially as an educational practice, able to create empowerment of the citizens. The article explores the main aspects about reading aloud and motivation to read: the lack of early and family literacy as risk factor and the school, which often can’t convey the reading for pleasure free from teaching duties. The article wonders if reading may be really for everyone, and how it can be accessible through reading aloud, as caring and empowering practice. The article shows the possibility to learn literacy skills through read aloud stories, during an emo- tional and relational process, which enhance the auditory canal and draw attention from the reader to the listener. In this way , it’s possible to create an alternative reading experience to the independent and silent one, especially caring for those who struggle dealing with books. In the last part of the article is highlighted how the contemporary public library has to focus its actions upon the reading aloud activities, alongside the change in the role of the librarians, key figures in creating a real educating community. Keywords: reading aloud, public library, community, reading motivation, accessibility La finalità principale dell’articolo è quella di indagare la centralità della lettura nella biblioteca pubblica, intesa come luogo della mediazione informativa per eccellenza, passando attraverso un approfondimento della dimensione sociale e relazionale del servizio bibliotecario e un’analisi del potere della lettura (in particolare quella ad alta voce), anche e soprattutto come pratica educativa, capace di generare un empowerment dei cittadini. Vengono presi in considerazione, poi, gli aspetti fondamentali che ruotano attorno alla pratica della lettura ad alta voce e alla nascita della motivazione alla lettura: la mancanza di early e family literacy come possibile fattore di rischio e la scuola, che spesso non riesce a trasmettere il piacere di leggere svincolato dalle consegne didattiche. Ci si chiede se la lettura possa essere veramente per tutti, e come riuscire a renderla accessibile attraverso un’attività di cura e potenziamento rappresentata dalla lettura ad alta voce. Viene delineata la possibilità di apprendere competenze di literacy attraverso la narrativa letta ad alta voce, in un processo affettivo e relazionale che pot enzia il canale uditivo e che sposta l’attenzione da colui che legge a colui che ascolta. È possibile in questo modo generare un’esperienza di lettura alternativa a quella autonoma e silenziosa, avendo cura anche e soprattutto di coloro che hanno difficoltà ad avvicinarsi al libro. Nella parte finale del- l’articolo viene evidenziato come la lettura ad alta voce rappresenti dunque l’attività principale e più efficace su cui la bib lioteca pubblica contemporanea debba basare le sue azioni di educazione alla lettura, parallelamente a una trasformazione del ruolo dei bibliote cari, figure chiave nella costruzione di una comunità che possa dirsi veramente educante. Parole chiave: lettura ad alta voce, biblioteca pubblica, comunità, motivazione alla lettura, accessibilità Citation: Tirelli, B. (2025). Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia. Effetti di Lettura / Effects of Reading, 4(1), 95-106. https://doi.org/10.7347/EdL-01-2025-07. Corresponding Author: Barbara Tirelli | latirelli@gmail.com Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-07 Barbara Tirelli Librarian and Pedagogist | Independent Researcher | latirelli@gmail.com Double blind peer review Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia Educating for reading in the public library. Read aloud practices as accessible and democratic tools Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8015\\2785-7050_8015.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Barbara Tirelli",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Barbara Tirelli",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+        "pdf_value": null,
+        "chosen_value": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-29",
+        "pdf_value": null,
+        "chosen_value": "2025-04-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Barbara Tirelli",
+        "pdf_value": null,
+        "chosen_value": "Barbara Tirelli",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Barbara Tirelli",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8015",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8015",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:48:39Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:48:41Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8015",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8015",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8015",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8015",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8015\\2785-7050_8015.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:48:48Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8015\\2785-7050_8015.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+        "submitted_date": "2025-04-29",
+        "accepted_date": null,
+        "copyright_holder": "Barbara Tirelli",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Barbara Tirelli"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8015\\2785-7050_8015.pdf",
+        "generated_at_utc": "2026-04-27T18:48:48Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-06-26",
+          "mod_date": "2025-06-26"
+        },
+        "front_text_excerpt": "ABSTRACT First purpose of the article is to investigate the central role of reading in the public library, considered as the best inform ative mediation place, and to explore the social and the relational dimensions of the library service, analysing the power of reading (particularly the power of reading aloud), especially as an educational practice, able to create empowerment of the citizens. The article explores the main aspects about reading aloud and motivation to read: the lack of early and family literacy as risk factor and the school, which often can’t convey the reading for pleasure free from teaching duties. The article wonders if reading may be really for everyone, and how it can be accessible through reading aloud, as caring and empowering practice. The article shows the possibility to learn literacy skills through read aloud stories, during an emo- tional and relational process, which enhance the auditory canal and draw attention from the reader to the listener. In this way , it’s possible to create an alternative reading experience to the independent and silent one, especially caring for those who struggle dealing with books. In the last part of the article is highlighted how the contemporary public library has to focus its actions upon the reading aloud activities, alongside the change in the role of the librarians, key figures in creating a real educating community. Keywords: reading aloud, public library, community, reading motivation, accessibility La finalità principale dell’articolo è quella di indagare la centralità della lettura nella biblioteca pubblica, intesa come luogo della mediazione informativa per eccellenza, passando attraverso un approfondimento della dimensione sociale e relazionale del servizio bibliotecario e un’analisi del potere della lettura (in particolare quella ad alta voce), anche e soprattutto come pratica educativa, capace di generare un empowerment dei cittadini. Vengono presi in considerazione, poi, gli aspetti fondamentali che ruotano attorno alla pratica della lettura ad alta voce e alla nascita della motivazione alla lettura: la mancanza di early e family literacy come possibile fattore di rischio e la scuola, che spesso non riesce a trasmettere il piacere di leggere svincolato dalle consegne didattiche. Ci si chiede se la lettura possa essere veramente per tutti, e come riuscire a renderla accessibile attraverso un’attività di cura e potenziamento rappresentata dalla lettura ad alta voce. Viene delineata la possibilità di apprendere competenze di literacy attraverso la narrativa letta ad alta voce, in un processo affettivo e relazionale che pot enzia il canale uditivo e che sposta l’attenzione da colui che legge a colui che ascolta. È possibile in questo modo generare un’esperienza di lettura alternativa a quella autonoma e silenziosa, avendo cura anche e soprattutto di coloro che hanno difficoltà ad avvicinarsi al libro. Nella parte finale del- l’articolo viene evidenziato come la lettura ad alta voce rappresenti dunque l’attività principale e più efficace su cui la bib lioteca pubblica contemporanea debba basare le sue azioni di educazione alla lettura, parallelamente a una trasformazione del ruolo dei bibliote cari, figure chiave nella costruzione di una comunità che possa dirsi veramente educante. Parole chiave: lettura ad alta voce, biblioteca pubblica, comunità, motivazione alla lettura, accessibilità Citation: Tirelli, B. (2025). Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia. Effetti di Lettura / Effects of Reading, 4(1), 95-106. https://doi.org/10.7347/EdL-01-2025-07. Corresponding Author: Barbara Tirelli | latirelli@gmail.com Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-07 Barbara Tirelli Librarian and Pedagogist | Independent Researcher | latirelli@gmail.com Double blind peer review Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia Educating for reading in the public library. Read aloud practices as accessible and democratic tools Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "Dunque la biblioteca può accrescere il sapere, quello che non riguarda solo le informazioni che una sopra l’altra si aggiungono, piuttosto quelle che si raggiungono attraverso collegamenti e connessioni. Una conoscenza intesa come apprendimento, o come disposizione ad apprendere, che mira ad acquisire com- petenze di information literacy, riconoscendo e comprendendo il proprio bisogno informativo, per poi sod- disfarlo. Per fare questo la biblioteca non può essere un luogo esclusivo, antidemocratico, inaccessibile. La biblioteca è per sua costituzione un luogo neutro, non stigmatizzato e non stigmatizzante. Un “luogo terzo” (Oldenburg, 1989): Il “primo luogo” è la casa dove si vive, composta dal luogo e dalle persone con cui si convive, il “secondo luogo” è il posto di lavoro, composto anche in questo caso dal luogo fisico e dalle persone. Il luogo terzo non è invece definito strettamente in base alla funzione che svolge, se non quella, più indefinita rispetto a casa e lavoro, di poter essere appunto, luogo collante della società e acceleratore di creatività e creazione di conoscenza. (Cavalli, 2017, p. 44) La biblioteca deve porsi come uno spazio, o meglio, una dimensione in cui ognuno può trovare se stesso. La sua forza risiede nel messaggio che veicola: possibilità e occasione per tutti di apprendere conoscenze e competenze, modi di essere e modi di agire. L ’identità di una biblioteca, la sua visione e la sua missione si legano ai concetti di accessibilità e democrazia. La storia e l’evoluzione delle biblioteche ci dicono che nel tempo queste sono riuscite a focalizzarsi sempre più sui cittadini, proprio nell’ottica di rendere i servizi ac- cessibili e per questo democratici. Non da ultimo con l’avvento del digitale, sono state messe in atto stra- tegie di cambiamento e innovazione che, anche nelle forme più radicali, non hanno mai negato la presenza del libro come caratteristica fondamentale che connota l’identità dell’istituzione. Proprio la centralità del libro, difesa a denti stretti anche da chi non si occupa di biblioteche perché ritenuta fondamentale nel - l’immaginario collettivo, pone la domanda su come questo possa essere utilizzato in linea con i parametri di accessibilità e democrazia. Il libro viene acquistato, classificato, catalogato, esposto, messo a scaffale, prestato e poi, finalmente, letto. La centralità del libro in biblioteca passa quindi attraverso la centralità della lettura, che non avviene per tutti allo stesso modo. Dal libro alla lettura, dalla lettura alla persona che legge: si arriva, dunque alla centralità del lettore. Ma di quale lettore si parla? Non solo di chi lo è già, ma anche di chi non lo è e potrebbe diventarlo. La biblioteca pubblica e contemporanea ha il compito di andare incontro al lettore, qualunque esso sia, di “fornire l’accesso” (Lankes, 2022, p. 82) seguendo la prima azione individuata da Lankes: offrire innanzitutto la possibilità di accedere al libro e di leggerlo, a prescindere e in virtù delle proprie caratteristiche fisiche, sociali e culturali. Porsi come un’istituzione a scaffale aperto, che favorisca lo sguardo, la ricerca e la scelta. Inizia così il processo di costruzione di relazioni che ruotano attorno al libro e alla lettura, prima fra tutte quella tra bibliotecari e cittadini perché “per poter rafforzare gli altri, noi bibliotecari abbiamo bisogno di essere potenti. Non potenti nel senso di im- porre la nostra visione agli altri, ma potenti per rendere potenti gli altri” (Lankes, 2022, p. 111). La lettura ha un potere che si esprime attraverso il potere dei bibliotecari, fatto non di imposizione ma di mediazione e raccordo. Questo permette di attuare la seconda azione individuata da Lankes, ossia fornire “istruzioni dirette” (Lankes, 2022, p. 82), guidare, consigliare, orientare. Attraverso la capacità di ascoltare e indivi- duare il bisogno, le biblioteche consegnano strumenti di potere con la lettura, favoriscono l’empowerment dei loro utenti, garantiscono il",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-04-29",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-04-29",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Barbara Tirelli",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Barbara Tirelli",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8015\\2785-7050_8015.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Educare alla lettura nella biblioteca pubblica. Pratiche di lettura ad alta voce come strumenti di accessibilità e democrazia",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Educating for reading in the public library. Read aloud practices as accessible and democratic tools",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Educating for reading in the public library. Read aloud practices as accessible and democratic tools",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "First purpose of the article is to investigate the central role of reading in the public library, considered as the best informative mediation place, and to exp",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La finalità principale dell’articolo è quella di indagare la centralità della lettura nella biblioteca pubblica, intesa come luogo della mediazione informativa ",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

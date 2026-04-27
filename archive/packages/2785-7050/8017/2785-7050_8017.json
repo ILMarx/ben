@@ -1,0 +1,1131 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8017",
+  "scraped_at_utc": "2026-04-27T18:48:50Z",
+  "fetched_at_utc": "2026-04-27T18:48:50Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "f1a0d3479a9d9c9134be987dd03b99c183ce91eeb348ceae1e28ee1bfb42da1e",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Isabella Pinto",
+        "nameType": "Personal",
+        "givenName": "Isabella",
+        "familyName": "Pinto",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research Scholar | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Michela Donatelli",
+        "nameType": "Personal",
+        "givenName": "Michela",
+        "familyName": "Donatelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research Fellow | University of Aquila"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Chiara Azzollini",
+        "nameType": "Personal",
+        "givenName": "Chiara",
+        "familyName": "Azzollini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Educator | “Fr-Agile!” Project"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Pamela Prosperi",
+        "nameType": "Personal",
+        "givenName": "Pamela",
+        "familyName": "Prosperi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Ph.D. Student | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Giulia Barbisoni",
+        "nameType": "Personal",
+        "givenName": "Giulia",
+        "familyName": "Barbisoni",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research Fellow | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Cristiano Corsini",
+        "nameType": "Personal",
+        "givenName": "Cristiano",
+        "familyName": "Corsini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Full Professor | University of Roma Tre"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8017",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-06-27",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-06-27",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-06-27",
+      "Issued": "2025-06-27"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "Within the framework defined by international and national institutional policies such as UN, European Commission and the Italian Ministry of Education; considering the mechanisms of gender socialization, as well as the role of reading as a dynamic tool for the (de)construction of identity in developing individuals, this study investigates the relationship between the practice of shared reading aloud (Batini, 2021, 2022a, 2022b) and gender stereotypes among boys and girls. The research involved a total of 97 lower secondary school students, aged between 11 and 14 years, during the 2023/2024 school year, within the educational context of Turin. The results from the administration of the “Gender Stereotype Questionnaire” (Buzón García et al., 2010) in both experimental and control classes suggest that shared read-aloud sessions may contribute to the development of socio-cultural competencies and foster a more critical attitude toward gender stereotypes, thereby promoting a culture of equity within schools.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Nel quadro delineato dalle politiche istituzionali internazionali e nazionali — quali quelle dell’ONU, della Commissione Europea e del Ministero dell’Istruzione italiano — e tenendo conto dei meccanismi di socializzazione di genere, nonché del ruolo della lettura come strumento dinamico per la (de)costruzione dell’identità nei soggetti in crescita, questo studio indaga la relazione tra la pratica della lettura ad alta voce condivisa (Batini, 2021, 2022a, 2022b) e gli stereotipi di genere tra ragazze e ragazzi. La ricerca ha coinvolto un totale di 97 studenti della scuola secondaria di primo grado, di età compresa tra gli 11 e i 14 anni, nel corso dell’anno scolastico 2023/2024, all’interno del contesto educativo torinese. I risultati derivanti dalla somministrazione del “Questionario sugli stereotipi di genere” (Buzón García et al., 2010), in classi sperimentali e di controllo, suggeriscono che le sessioni di lettura ad alta voce condivisa possano contribuire allo sviluppo di competenze socio-culturali e favorire un atteggiamento più critico nei confronti degli stereotipi di genere, promuovendo così una cultura dell’equità all’interno della scuola.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2025-04",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura ad alta voce condivisa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "stereotipi di genere",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "socializzazione di genere",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "literacy",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "scuola secondaria di primo grado",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "shared reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "gender stereotypes",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "gender socialization",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "literacy",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "lower secondary education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8017/7019",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "1",
+      "citationStartPage": "048",
+      "citationEndPage": "063",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Pinto, I., Donatelli, M., Azzollini, C., Prosperi, P., Barbisoni, G., & Corsini, C. (2025). La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino. Effetti Di Lettura / Effects of Reading , 4 (1), 048–063. https://doi.org/10.7347/EdL-01-2025-04",
+      "articleTitleEcho": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Abbatecola, E., & Stagi, L. (Eds.). (2017). Pink is the new black : Stereotipi di genere nella scuola dell’infanzia. Rosenberg & Sellier. https://books.openedition.org/res/4876.",
+        "ActionAid. (2020). L’empowerment delle donne. ActionAid. https://morethanprojects.actionaid.it/wp-content/uploads/2021/02/Rapporto-Empowerment_2020_web.pdf",
+        "Adichie, C. N. (2020). Il pericolo di un’unica storia. Einaudi.",
+        "Arace, A. (2020). Stereotipi e disuguaglianze di genere nell’istruzione scolastica. Minorigiustizia, 3, 23–32. https://doi.org/10.3280/MG2020-003003",
+        "Atwell, N., & Merkel, A. A. (2016). The reading zone: how to help kids become passionate, skilled, habitual, critical readers. Scholastic Inc.",
+        "Balter, L., & Tamis-LeMonda, C. S. (Eds.). (2006). Child psychology: a handbook of contemporary issues. Psychology Press.",
+        "Bartolucci, M., & Batini, F. (2020). Reading Aloud Narrative Material as a Means for the Student’s Cognitive Empowerment. Mind, Brain, and Education, 14(3), 235–242. https://doi.org/10.1111/mbe.12241",
+        "Batini, F. (2011). Comprendere la differenza: verso una pedagogia dell’identità sessuale. Armando.",
+        "Batini, F. (2016). Insegnare e valutare per competenze. Loescher.",
+        "Batini, F. (2018). Leggimi ancora: lettura ad alta voce e Life Skills. Giunti scuola.",
+        "Batini, F. (Eds.) (2021). Ad alta Voce. La lettura che fa bene a tutti. Giunti.",
+        "Batini, F. (2022a). Strategie e tecniche per leggere ad alta voce a scuola; 16 suggerimenti per insegnanti del primo e del secondo ciclo. FrancoAngeli.",
+        "Batini, F. (2022b). Lettura ad alta voce: ricerche e strumenti per educatori, insegnanti e genitori. Carocci.",
+        "Batini, F. (2023a). Come Biancaneve? Modelli educativi di genere impliciti nelle fiabe classiche: Modelli educativi di genere impliciti nelle fiabe classiche. Women&Education, 1, 060–064. https://doi.org/10.7346/-we-I-01-23_12",
+        "Batini, F. (2023b). L’assenza dell’educazione sessuale: lezioni dal lockdown. In G. Burgio & A. G. Lopez (Eds.), Pedagogia di genere. Percorsi di ricerca contemporanei. FrancoAngeli.",
+        "Batini, F. (2023c). ‘Principesse e cavalieri’? Rappresentazione non dicotomiche e genderiste nella letteratura per young adult. In I. Scierri (Eds.), Quanti generi di diversità? Promuovere nuovi linguaggi, rappresentazioni e saperi per educare alle differenze e prevenire l’omofobia e la transfobia (pp. 101–118). Firenze University Press.",
+        "Batini, F., Barbisoni, G., & Marchetta, G. (2023). Shared reading aloud as a tool to improve integration: an experiment in Porta Palazzo (Turin, Italy): J-READING Journal of Research and Didactics in Geography, 1. http://www.j-reading.org/index.php/geography/article/view/355",
+        "Batini, F., & Giusti, S. (Eds.). (2022). Strategie e tecniche per leggere ad alta voce a scuola: 16 suggerimenti per insegnanti del primo e del secondo ciclo. FrancoAngeli.",
+        "Bertoni, F. (2011). Il testo a quattro mani: per una teoria della lettura. Ledizioni.",
+        "Biemmi, I. (2017). Educazione sessista : Stereotipi di genere nei libri delle elementari. Rosenberg & Sellier. https://books.openedition.org/res/4626",
+        "Biemmi, I., & Leonelli, S. (Eds.). (2016). Gabbie di genere: Retaggi sessisti e scelte formative. Rosenberg & Sellier. https://books.openedition.org/res/4758-",
+        "Bigler, R. S., & Liben, L. S. (1992). Cognitive Mechanisms in Children’s Gender Stereotyping: Theoretical and Educational Implications of a Cognitive-Based Intervention. Child Development, 63(6), 1351. https://doi.org/10.2307/1131561",
+        "Blakemore, J. E. O., Berenbaum, S. A., & Liben, L. S. (2013). Gender Development. Psychology Press. https://doi.org/10.4324/9780203889756",
+        "Bourdieu, P. (2009). Il dominio maschile. Feltrinelli.",
+        "Braidotti, R. (1998). Figurazioni del nomadismo: «homelessness» e «rootlessness» nella teoria sociale e politica contemporanea. Ácoma. Rivista Internazionale di Studi Nordamericani, 5(1), 43–63.",
+        "Briadotti, R. (2002). Nuovi soggetti nomadi. Luca Sossella.",
+        "Britzman, D. P. (1995). Is there a queer pedagogy? Or, stop reading straight. Educational Theory, 45(2), 151–165. https://doi.org/10.1111/j.1741-5446.1995.00151.x",
+        "Busselle, R., & Bilandzic, H. (2009). Measuring Narrative Engagement. Media Psychology, 12(4), 321–347. https://doi.org/10.1080/15213260903287259",
+        "Butler, J. (2013). Questione di genere: il femminismo e la sovversione dell’identità. Laterza.",
+        "Buzón García, O., García Pérez, R., Ruiz Pinto, E., & Quiñones Delgado, C. J. (2010). Disposition of primary and secondary school students towards gender equality. Investigaciones Multidisciplinares En Género, Universidad de Sevilla, 135–147.",
+        "Castoldi, M. (2021). Costruire il curricolo d’istituto. Carocci.",
+        "Cellerino, M. (2023). La lettura ad alta voce condivisa. Shared reading aloud. Atti del Primo Convegno Scientifico Internazionale. Perugia, 1-2 dicembre 2022. In F. Batini & G. Marchetta (Eds.). Ad alta voce Porta Palazzo: note sull’esperienza dell’Istituto Comprensivo Torino II/ «Ad alta voce Porta Palazzo: notes on the experience of shared reading aloud at the IC Torino II». Pensa MultiMedia.",
+        "Cerbara, L., Ciancimino, G., & Tintori, A. (2022). Are We Still a Sexist Society? Primary Socialisation and Adherence to Gender Roles in Childhood. International Journal of Environmental Research and Public Health, 19(6). https://doi.org/10.3390/ijerph19063408",
+        "Cerbara, L., Ciancimino, G., & Tintori, A. (2023). Lo stato dell’adolescenza 2023. Indagine nazionale su atteggiamenti e comportamenti di studentesse e studenti di scuole pubbliche secondarie di secondo grado (No. Working papers n. 135). Consiglio Nazionale delle Ricerche – Istituto di Ricerche sulla Popolazione e le Politiche Sociali.",
+        "Commissione Europea. (2020). Comunicazione della commissione al parlamento europeo, al consiglio, al comitato economico e sociale europeo e al comitato delle regioni. Un’Unione dell’uguaglianza: la strategia per la parità di genere 2020-2025. https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A52020DC0152",
+        "Connell, R. (2011). Questioni di genere. Il Mulino.",
+        "Corsini, C., & Scierri, I. (2016). Differenze di genere nell’editoria scolastica: indagine empirica sui sussidiari dei linguaggi per la scuola primaria. Nuova cultura.",
+        "Crespi, I. (2008). Processi di socializzazione e identità di genere: teorie e modelli a confronto. FrancoAngeli.",
+        "Dal Passo, F., & Laurenti, A. (2017). La scuola italiana. Le riforme del sistema scolastico dal 1848 ad oggi. Novalogos.",
+        "De Mauro, T. (2010). La cultura degli italiani. Laterza.",
+        "DECRETO LEGISLATIVO 19 febbraio 2004, n. 59, Definizione delle norme generali relative alla scuola dell’infanzia e al primo ciclo dell’istruzione, a norma dell’articolo 1 della legge 28 marzo 2003, n. 53. - ALLEGATO C",
+        "Eco, U. (2021). Lector in fabula: la cooperazione interpretativa nei testi narrativi. La nave di Teseo.",
+        "European Institute for Gender Equality. (s.d.). Gender Equality Index 2023. https://eige.europa.eu/gender-equality-index/2023",
+        "Ferrante, E. (2016). La frantumaglia. E/O.",
+        "Fierli, E., Franchi, G., Lancia, G., Marini, S., & Associazione Soluzioni comunicative studi servizi editoriali. (2015). Leggere senza stereotipi: percorsi educativi 0-6 anni per figurarsi il futuro. Settenove.",
+        "Fiorucci, M., Mattiacci, G., & De Carlo, M. E. (2023). Lettura ad alta voce a scuola e inclusione. Un’indagine preliminare con focus group sulla percezione degli insegnanti di scuola elementare del progetto «Leggere: Forte! Ad Alta Voce Fa Crescere l’Intelligenza» in Toscana. Mizar. Costellazioni di pensieri, 2(19), 78–106. https://doi.org/10.1285/I24995835V2023N19P78",
+        "Gee, J. P. (2015). Literacy and education. Routledge.",
+        "Ghigi, R. (2019). Fare la differenza: educazione di genere dalla prima infanzia all’età adulta. Il Mulino.",
+        "Gianini Belotti, E. (1978). Sessismo nei libri per bambini. Feltrinelli.",
+        "Ginzburg, C. (1979). Spie. Radici di un paradigma indiziario. In Crisi della ragione. Nuovi modelli nel rapporto tra sapere e attività umane (pp. 57–106). Einaudi.",
+        "Giusti, S., & Batini, F. (Eds.). (2021). Tecniche per la lettura ad alta voce: 27 suggerimenti per la fascia 0-6 anni. Franco Angeli.",
+        "Green, M. C., & Brock, T. C. (2000). The role of transportation in the persuasiveness of public narratives. Journal of Personality and Social Psychology, 79(5), 701–721. https://doi.org/10.1037/0022-3514.79.5.701.",
+        "Iser, W. (1972). Der implizite Leser: Kommunikationsformen des Romans von Bunyan bis Beckett. Fink.",
+        "Iser, W. (1987). L’atto della lettura: una teoria della risposta estetica. Il Mulino.",
+        "Kress, G. R. (2003). Literacy in the new media age. Routledge.",
+        "Lameiras M, Rodríguez Y. (2002). Assessment of modern sexism in young people. International Journal of Social Psychology, 17(2), 119–127. https://doi.org/10.1174/021347402320007555",
+        "Lorber, J. (2022). Oltre il gender i nuovi paradossi dell’identità. Il Mulino.",
+        "Martin, C. L., & Ruble, D. N. (2010). Patterns of Gender Development. Annual Review of Psychology, 61(1), 353–381. https://doi.org/10.1146/annurev.psych.093008.100511",
+        "Martin, K. A. (1998). Becoming a Gendered Body: Practices of Preschools. American Sociological Review, 63(4), 494–511. https://doi.org/10.2307/2657264",
+        "Mazzara, B. M. (2010). Stereotipi e pregiudizi. Il Mulino.",
+        "Ministero dell’Istruzione (2012). Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo di istruzione. https://www.miur.gov.it/documents/20182/51310/DM+254_2012.pdf.",
+        "Ministero dell’Istruzione (2015a). Piano Nazionale Scuola Digitale. https://www.miur.gov.it/documents/20182/0/Piano+Nazionale+Scuola+Digitale.pdf.",
+        "Ministero dell’Istruzione (2015b). Linee Guida Nazionali per l’Educazione alla Parità tra i Sessi e alla Prevenzione della Violenza di Genere. https://www.miur.gov.it/documents/20182/0/Linee+Guida+Nazionali+Educazione+Parit%C3%A0+Prevenzione+Violenza+Genere.pdf",
+        "Ministero dell’Istruzione (2017). Piano Nazionale per l’Educazione al Rispetto. https://www.miur.gov.it/documents/20182/0/Piano+Nazionale+per+l%27Educazione+al+Rispetto.pdf.",
+        "MIUR. (2012). Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo di istruzione. Le Monnier.",
+        "Mosconi, N. (2017). Le femmine sono brave solo a scuola? In L. Laufer & F. Rochefort (Eds.), Che cos’è il genere? F. Angeli.",
+        "Murphy, P. K., Wilkinson, I. A. G., Soter, A. O., Hennessey, M. N., & Alexander, J. F. (2009). Examining the effects of classroom discussion on students’ comprehension of text: A meta-analysis. Journal of Educational Psychology, 101(3), 740–764. https://doi.org/10.1037/a0015576",
+        "Nelson, T. D. (Eds.). (2016). Handbook of prejudice, stereotyping, and discrimination (Second edition). Psychology Press, Taylor & Francis Group.",
+        "OECD. (2007). OECD Annual Report 2007. OECD. https://doi.org/10.1787/annrep-2007-en",
+        "Pace, R. (1986). Immagini maschili e femminili nei testi per le elementari (Presidenza del Consiglio dei Ministri).",
+        "Paechter, C., Toft, A., & Carlile, A. (2021). Non-binary young people and schools: pedagogical insights from a small-scale interview study. Pedagogy, Culture & Society, 29(5), 695–713. https://doi.org/10.1080/14681366.2021.1912160",
+        "Piccone Stella, S., & Saraceno, C. (Eds.). (2000). Genere: la costruzione sociale del femminile e del maschile. Il Mulino.",
+        "Pinto I., Prosperi P., Corsini C. (2024). Lettura ad alta voce e stereotipi di genere nella Scuola Secondaria di Primo Grado. Una comparazione tra i casi di “Lettrici e Lettori Forti” Parma e “Ad Alta Voce - Capo di Leuca”. In Batini, F. (Eds.) La lettura ad alta voce condivisa. Shared reading aloud Atti del Secondo Convegno Scientifico Internazionale Perugia. Pensa Multimedia, pp. 183–202.",
+        "Pollack, W. S. (1998). Real boys: rescuing our sons from the myths of boyhood (1st ed). Random House.",
+        "Risman, B. J. (2012). Gender as a Social Structure: Crossing Disciplinary Boundaries to Advance Science and Equality. AG About Gender - International Journal of Gender Studies, V. 1, 494–511. https://doi.org/10.15167/2279-5057/AG.2012.1.2.29",
+        "Risman, B. J. (2018). Where the millennials will take us: a new generation wrestles with the gender structure. Oxford University Press.",
+        "Ros-gamón, S., Alguacil, M., Escamilla-Fajardo, P., & Pérez-Campos, C. Y. (2021). Analysis of perceptions related to gender stereotypes in secondary education – a gender comparison. Journal of Physical Education and Sport, 21(05).",
+        "Rossetti, S. (2015). Didattica, editoria e pari opportunità di genere nella scuola italiana. I castelli di Yale online, V. III, 69–87. https://doi.org/10.15160/2282-5460/1145.",
+        "Rossini, V. (2019). Bullismo e stereotipi di genere. Uno studio esplorativo in una scuola secondaria pugliese. In Elia G., Polenghi S., Rossini V. (Eds.). La scuola tra saperi e valori etico-sociali. Politiche culturali e pratiche educative. Pensa Multimedia. pp. 769-781.",
+        "Ruble, D. N., Martin, C. L., & Berenbaum, S. A. (2006). Gender development. In N. Eisenberg (Eds.), Handbook of child psychology: Vol 3. Social, emotional, and personality development (pp. 858–932). Wiley.",
+        "Ruspini, E. (2017). Le identità di genere (2a ed). Carocci.",
+        "Santrock, J. W. (Eds.). (2021). Psicologia dello sviluppo. McGraw Hill.",
+        "Sax, L. (2005). Why gender matters: What parents and teachers need to know about the emerging science of sex differences. Doubleday.",
+        "Scierri, I. D. M. (2017). Stereotipi di genere nei sussidiari di lettura per la scuola primaria. AG About Gender - Rivista internazionale di studi di genere, V. 6, extrascolastici e familiari. https://doi.org/10.15167/2279-5057/AG2017.6.12.438",
+        "Scurati, C. (2002). Il curricolo: costruzione e problemi. In F. Cambi (Eds). La progettazione curricolare nella scuola contemporanea. Carocci.",
+        "Semi, G. (2009). Il mercato come spazio di relazione e di conflittualità interetnica (Porta Palazzo - Torino). In M. Sanfilippo & P. Corti (Eds.), Storia d’Italia. Annali 24. Migrazioni (1. ed, pp. 637–652). Einaudi.",
+        "Serafini, F., & Giorgis, C. (2003). Reading aloud and beyond: fostering the intellectual life with older readers. Heinemann.",
+        "Seveso, G. (2017). Differenze di genere e libri per l’infanzia: riflessioni sugli stereotipi di genere nei libri scolastici italiani [Diferenças de gênero e livros para a infância: reflexões sobre os estereótipos de gênero nos livros escolares italianos] (Gender differences and books for children: reflections on gender stereotypes in italian Schoolbooks). Crítica Educativa, 2(2), 107. https://doi.org/10.22476/revcted.v2i2.100.",
+        "Signorella, M. L., Bigler, R. S., & Liben, L. S. (1993). Developmental Differences in Children′s Gender Schemata about Others: A Meta-analytic Review. Developmental Review, 13(2), 147–183. https://doi.org/10.1006/drev.1993.1007.",
+        "Szpunar, G., Sposetti, P., & Marini, S. (2017). Lettura ad alta voce e stereotipi di genere nella prima infanzia. Riflessioni su un’esperienza educativa. Lifelong Lifewide Learning, 13(29), 13–30. https://doi.org/10.19241/lll.v13i29.64",
+        "Ulivieri, S. (Eds.). (2007). Educazione al femminile: una storia da scoprire. Guerini scientifica.",
+        "United Nations. (2015). Transforming our world: the 2030 Agenda for Sustainable Development: Sustainable Development Knowledge Platform. https://sustainabledevelopment.un.org/post2015/transformingourworld",
+        "West, C. & Zimmerman, D.H. (1987). Doing Gender. Gender and Society, 1(29), 125–151. https://www.jstor.org/stable/189945",
+        "West, C. & Zimmerman, D.H. (2009). Accounting for Doing Gender. Gender and Society, 23(19) 112–122. https://www.jstor.org/stable/20676758."
+      ],
+      "count": 94,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8017",
+    "article_ID": "8017",
+    "slug": "8017",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8017",
+      "url_slug": "8017"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "- Shared reading aloud and gender stereotypes in the educational context of 11–14-year-olds: an exploratory case study of “Ad Alta Voce” in Turin",
+        "lang": "en",
+        "role": "main",
+        "source": "locale:en_US:meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-04-28",
+      "accepted": null,
+      "created": "2025-06-27",
+      "modified": "2025-06-27",
+      "issued": "2025-06-27",
+      "available": "2025-06-27",
+      "submitted_page": "2025-04-28",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+        "pdf_value": null,
+        "chosen_value": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-28",
+        "pdf_value": null,
+        "chosen_value": "2025-04-28",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+        "pdf_value": null,
+        "chosen_value": "Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8017/7019",
+      "local_relative_path": "2785-7050_8017.pdf",
+      "saved": true,
+      "sha256": "930187c0585914994ce2d656d72eeaae2c6bb189718055968fbe01712fe0d076",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 17922235,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Isabella Pinto",
+        "Michela Donatelli",
+        "Chiara Azzollini",
+        "Pamela Prosperi",
+        "Giulia Barbisoni",
+        "Cristiano Corsini"
+      ],
+      "citation_author_institution": [
+        "Research Scholar | University of Perugia",
+        "Research Fellow | University of Aquila",
+        "Educator | “Fr-Agile!” Project",
+        "Ph.D. Student | University of Perugia",
+        "Research Fellow | University of Perugia",
+        "Full Professor | University of Roma Tre"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/06/27"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2025-04"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8017"
+      ],
+      "citation_keywords": [
+        "lettura ad alta voce condivisa",
+        "stereotipi di genere",
+        "socializzazione di genere",
+        "literacy",
+        "scuola secondaria di primo grado"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8017/7019"
+      ],
+      "citation_reference_count": 94,
+      "DC.Date.created": [
+        "2025-06-27"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-04-28"
+      ],
+      "DC.Date.issued": [
+        "2025-06-27"
+      ],
+      "DC.Date.modified": [
+        "2025-06-27"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8017"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2025-04"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8017"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino"
+      ],
+      "DC.Title.Alternative": [
+        "- Shared reading aloud and gender stereotypes in the educational context of 11–14-year-olds: an exploratory case study of “Ad Alta Voce” in Turin"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Isabella Pinto",
+        "Michela Donatelli",
+        "Chiara Azzollini",
+        "Pamela Prosperi",
+        "Giulia Barbisoni",
+        "Cristiano Corsini"
+      ],
+      "citation_author_institution": [
+        "Research Scholar | University of Perugia",
+        "Research Fellow | University of Aquila",
+        "Educator | “Fr-Agile!” Project",
+        "Ph.D. Student | University of Perugia",
+        "Research Fellow | University of Perugia",
+        "Full Professor | University of Roma Tre"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Isabella Pinto",
+        "Michela Donatelli",
+        "Chiara Azzollini",
+        "Pamela Prosperi",
+        "Giulia Barbisoni",
+        "Cristiano Corsini"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Within the framework defined by international and national institutional policies such as UN, European Commission and the Italian Ministry of Education; considering the mechanisms of gender socialization, as well as the role of reading as a dynamic tool for the (de)construction of identity in developing individuals, this study investigates the relationship between the practice of shared reading aloud (Batini, 2021, 2022a, 2022b) and gender stereotypes among boys and girls. The research involved a total of 97 lower secondary school students, aged between 11 and 14 years, during the 2023/2024 school year, within the educational context of Turin. The results from the administration of the “Gender Stereotype Questionnaire” (Buzón García et al., 2010) in both experimental and control classes suggest that shared read-aloud sessions may contribute to the development of socio-cultural competencies and foster a more critical attitude toward gender stereotypes, thereby promoting a culture of equity within schools.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Within the framework defined by international and national institutional policies such as UN, European Commission and the Italian Ministry of Education; considering the mechanisms of gender socialization, as well as the role of reading as a dynamic tool for the (de)construction of identity in developing individuals, this study investigates the relationship between the practice of shared reading aloud (Batini, 2021, 2022a, 2022b) and gender stereotypes among boys and girls. The research involved a total of 97 lower secondary school students, aged between 11 and 14 years, during the 2023/2024 school year, within the educational context of Turin. The results from the administration of the “Gender Stereotype Questionnaire” (Buzón García et al., 2010) in both experimental and control classes suggest that shared read-aloud sessions may contribute to the development of socio-cultural competencies and foster a more critical attitude toward gender stereotypes, thereby promoting a culture of equity within schools."
+          }
+        },
+        {
+          "content": "Nel quadro delineato dalle politiche istituzionali internazionali e nazionali — quali quelle dell’ONU, della Commissione Europea e del Ministero dell’Istruzione italiano — e tenendo conto dei meccanismi di socializzazione di genere, nonché del ruolo della lettura come strumento dinamico per la (de)costruzione dell’identità nei soggetti in crescita, questo studio indaga la relazione tra la pratica della lettura ad alta voce condivisa (Batini, 2021, 2022a, 2022b) e gli stereotipi di genere tra ragazze e ragazzi. La ricerca ha coinvolto un totale di 97 studenti della scuola secondaria di primo grado, di età compresa tra gli 11 e i 14 anni, nel corso dell’anno scolastico 2023/2024, all’interno del contesto educativo torinese. I risultati derivanti dalla somministrazione del “Questionario sugli stereotipi di genere” (Buzón García et al., 2010), in classi sperimentali e di controllo, suggeriscono che le sessioni di lettura ad alta voce condivisa possano contribuire allo sviluppo di competenze socio-culturali e favorire un atteggiamento più critico nei confronti degli stereotipi di genere, promuovendo così una cultura dell’equità all’interno della scuola.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Nel quadro delineato dalle politiche istituzionali internazionali e nazionali — quali quelle dell’ONU, della Commissione Europea e del Ministero dell’Istruzione italiano — e tenendo conto dei meccanismi di socializzazione di genere, nonché del ruolo della lettura come strumento dinamico per la (de)costruzione dell’identità nei soggetti in crescita, questo studio indaga la relazione tra la pratica della lettura ad alta voce condivisa (Batini, 2021, 2022a, 2022b) e gli stereotipi di genere tra ragazze e ragazzi. La ricerca ha coinvolto un totale di 97 studenti della scuola secondaria di primo grado, di età compresa tra gli 11 e i 14 anni, nel corso dell’anno scolastico 2023/2024, all’interno del contesto educativo torinese. I risultati derivanti dalla somministrazione del “Questionario sugli stereotipi di genere” (Buzón García et al., 2010), in classi sperimentali e di controllo, suggeriscono che le sessioni di lettura ad alta voce condivisa possano contribuire allo sviluppo di competenze socio-culturali e favorire un atteggiamento più critico nei confronti degli stereotipi di genere, promuovendo così una cultura dell’equità all’interno della scuola."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura ad alta voce condivisa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce condivisa"
+          }
+        },
+        {
+          "content": "stereotipi di genere",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "stereotipi di genere"
+          }
+        },
+        {
+          "content": "socializzazione di genere",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "socializzazione di genere"
+          }
+        },
+        {
+          "content": "literacy",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "literacy"
+          }
+        },
+        {
+          "content": "scuola secondaria di primo grado",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "scuola secondaria di primo grado"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8017/7019",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8017/7019",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8017/7019",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-06-26",
+        "mod_date": "2025-06-26"
+      },
+      "front_text_excerpt": "ABSTRACT Within the framework defined by international and national institutional policies such as UN, European Commission and the Italian Ministry of Education; considering the mechanisms of gender socialization, as well as the role of reading as a dynamic tool for the (de) construction of identity in developing individuals, this study investigates the relationship between the practice of shared reading aloud (B atini, 2021, 2022a, 2022b) and gender stereotypes among boys and girls. The research involved a total of 97 lower secondary school students, aged between 11 and 14 years, during the 2023/2024 school year, within the educational context of T urin. The results from the administration of the “Gender Stereotype Questionnaire” (Buzón García et al., 2010) in both experimental and control classes suggest that shar ed read- aloud sessions may contribute to the development of socio-cultural competencies and foster a more critical attitude toward gender stereotypes, thereby promoting a culture of equity within schools. Keywords: shared reading aloud, gender stereotypes, gender socialization, literacy, lower secondary school Nel quadro delineato dalle politiche istituzionali internazionali e nazionali — quali quelle dell’ONU, della Commissione Europea e del Min- istero dell’Istruzione italiano — e tenendo conto dei meccanismi di socializzazione di genere, nonché del ruolo della lettura come strumento dinamico per la (de)costruzione dell’identità nei soggetti in crescita, questo studio indaga la relazione tra la pratica della lettura ad alta voce condivisa (Batini, 2021, 2022a, 2022b) e gli stereotipi di genere tra ragazze e ragazzi. La ricerca ha coinvolto un totale di 9 7 studenti della scuola secondaria di primo grado, di età compresa tra gli 11 e i 14 anni, nel corso dell’anno scolastico 2023/2024, all’interno del contesto educativo torinese. I risultati derivanti dalla somministrazione del “Questionario sugli stereotipi di genere” (Buzón García et al., 2010), in classi sperimentali e di controllo, suggeriscono che le sessioni di lettura ad alta voce condivisa possano contribuire allo sviluppo di competenze socio-culturali e favorire un atteggiamento più critico nei confronti degli stereotipi di genere, promuovendo così una cultura dell’equità all- ’interno della scuola. Parole chiave: lettura ad alta voce condivisa, stereotipi di genere, socializzazione di genere, literacy, scuola secondaria di primo grado Citation: Pinto, I., Donatelli, M., Azzollini, C., Prosperi, P ., Barbisoni, G., & Corsini, C. (2025). La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a T orino. Effetti di Lettura / Effects of Reading, 4(1), 48-63. https://doi.org/10.7347/EdL-01-2025-04. Corresponding Author: Isabella Pinto | isabellapinto_giuris@hotmail.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-04 Authorship/Attribuzioni: Il presente contributo è frutto dell’opera collettiva di autore e autrici. T uttavia, ai fini dell’attribuzione delle sue singol e parti, si precisa che sono da attribuire a Isabella Pinto paragrafo 1.3 e 1.4, Michela Donatelli paragrafo 1 e 1.2, Chiara Azzollini paragrafo 2.1, Pamela Prosperi paragrafo 2, Giulia Barbisoni paragrafo 2.2 e 3, Cristiano Corsini paragrafo 4, il paragrafo 5 è frutto della discussione collettiva di autrici e autore. Funding/Finanziamento: La ricerca qui presentata è parte del progetto ALOUD! Read aloud to prevent early school leaving and promote equity of learning opportunities, finanziato dall’Unione Europea – Next Generation EU, nell’ambito del Bando PNRR 2022. Principal Investigator: Federico Batini. CUP: J53D23011380006; Codice progetto: 2022HH4XNP . Isabella Pinto Research Scholar | University of Perugia | isabellapinto_giuris@hotmail.it Michela Donatelli Research Fellow | University of Aquila | michela.donatelli@univaq.it Chiara Azzollini Educator | “Fr-Agile!” Project | azzollini.chiara@gmail.com Pamela Prosperi Ph.D. Student | University of Perugia | pprosperi33@gmail.com Giulia Barbisoni Research Fellow | University of Perugia | barbisoni.g@gmail.com Cristiano Corsini Full Professor | University of Roma T re | cristiano.corsini@uniroma3.it Double blind peer review La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a T orino Shared reading aloud and gender stereotypes in the educational context of 11–14-year-olds: an exploratory case study of “Ad Alta Voce” in T urin Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8017\\2785-7050_8017.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+        "pdf_value": null,
+        "chosen_value": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-28",
+        "pdf_value": null,
+        "chosen_value": "2025-04-28",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+        "pdf_value": null,
+        "chosen_value": "Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8017",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8017",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:48:50Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:48:53Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8017",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8017",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8017",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8017",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8017\\2785-7050_8017.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:48:58Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8017\\2785-7050_8017.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+        "submitted_date": "2025-04-28",
+        "accepted_date": null,
+        "copyright_holder": "Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Isabella Pinto",
+          "Michela Donatelli",
+          "Chiara Azzollini",
+          "Pamela Prosperi",
+          "Giulia Barbisoni",
+          "Cristiano Corsini"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8017\\2785-7050_8017.pdf",
+        "generated_at_utc": "2026-04-27T18:48:58Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-06-26",
+          "mod_date": "2025-06-26"
+        },
+        "front_text_excerpt": "ABSTRACT Within the framework defined by international and national institutional policies such as UN, European Commission and the Italian Ministry of Education; considering the mechanisms of gender socialization, as well as the role of reading as a dynamic tool for the (de) construction of identity in developing individuals, this study investigates the relationship between the practice of shared reading aloud (B atini, 2021, 2022a, 2022b) and gender stereotypes among boys and girls. The research involved a total of 97 lower secondary school students, aged between 11 and 14 years, during the 2023/2024 school year, within the educational context of T urin. The results from the administration of the “Gender Stereotype Questionnaire” (Buzón García et al., 2010) in both experimental and control classes suggest that shar ed read- aloud sessions may contribute to the development of socio-cultural competencies and foster a more critical attitude toward gender stereotypes, thereby promoting a culture of equity within schools. Keywords: shared reading aloud, gender stereotypes, gender socialization, literacy, lower secondary school Nel quadro delineato dalle politiche istituzionali internazionali e nazionali — quali quelle dell’ONU, della Commissione Europea e del Min- istero dell’Istruzione italiano — e tenendo conto dei meccanismi di socializzazione di genere, nonché del ruolo della lettura come strumento dinamico per la (de)costruzione dell’identità nei soggetti in crescita, questo studio indaga la relazione tra la pratica della lettura ad alta voce condivisa (Batini, 2021, 2022a, 2022b) e gli stereotipi di genere tra ragazze e ragazzi. La ricerca ha coinvolto un totale di 9 7 studenti della scuola secondaria di primo grado, di età compresa tra gli 11 e i 14 anni, nel corso dell’anno scolastico 2023/2024, all’interno del contesto educativo torinese. I risultati derivanti dalla somministrazione del “Questionario sugli stereotipi di genere” (Buzón García et al., 2010), in classi sperimentali e di controllo, suggeriscono che le sessioni di lettura ad alta voce condivisa possano contribuire allo sviluppo di competenze socio-culturali e favorire un atteggiamento più critico nei confronti degli stereotipi di genere, promuovendo così una cultura dell’equità all- ’interno della scuola. Parole chiave: lettura ad alta voce condivisa, stereotipi di genere, socializzazione di genere, literacy, scuola secondaria di primo grado Citation: Pinto, I., Donatelli, M., Azzollini, C., Prosperi, P ., Barbisoni, G., & Corsini, C. (2025). La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a T orino. Effetti di Lettura / Effects of Reading, 4(1), 48-63. https://doi.org/10.7347/EdL-01-2025-04. Corresponding Author: Isabella Pinto | isabellapinto_giuris@hotmail.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-04 Authorship/Attribuzioni: Il presente contributo è frutto dell’opera collettiva di autore e autrici. T uttavia, ai fini dell’attribuzione delle sue singol e parti, si precisa che sono da attribuire a Isabella Pinto paragrafo 1.3 e 1.4, Michela Donatelli paragrafo 1 e 1.2, Chiara Azzollini paragrafo 2.1, Pamela Prosperi paragrafo 2, Giulia Barbisoni paragrafo 2.2 e 3, Cristiano Corsini paragrafo 4, il paragrafo 5 è frutto della discussione collettiva di autrici e autore. Funding/Finanziamento: La ricerca qui presentata è parte del progetto ALOUD! Read aloud to prevent early school leaving and promote equity of learning opportunities, finanziato dall’Unione Europea – Next Generation EU, nell’ambito del Bando PNRR 2022. Principal Investigator: Federico Batini. CUP: J53D23011380006; Codice progetto: 2022HH4XNP . Isabella Pinto Research Scholar | University of Perugia | isabellapinto_giuris@hotmail.it Michela Donatelli Research Fellow | University of Aquila | michela.donatelli@univaq.it Chiara Azzollini Educator | “Fr-Agile!” Project | azzollini.chiara@gmail.com Pamela Prosperi Ph.D. Student | University of Perugia | pprosperi33@gmail.com Giulia Barbisoni Research Fellow | University of Perugia | barbisoni.g@gmail.com Cristiano Corsini Full Professor | University of Roma T re | cristiano.corsini@uniroma3.it Double blind peer review La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a T orino Shared reading aloud and gender stereotypes in the educational context of 11–14-year-olds: an exploratory case study of “Ad Alta Voce” in T urin Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "sitata: una sperimentazione didattica condotta con il metodo della lettura ad alta voce condivisa (Batini, 2022a, 2022b), in cui si mobilitano categorie binarie. Da questo punto di vista si è riproposto il new gender paradox perché “dietro l’apparente cancellazione di un rigido binarismo di genere” può celarsi “il perdurare del potere maschile e del privilegio patriarcale”, per cui per arrivare a “degenderizzare” bisogna prima essere “consapevoli del gendering” (Lorber, 2022). Coerentemente con questo aporetico presupposto si sono at- tivate le categorie del maschile e del femminile, evitando al contempo di assumere una prospettiva essen - zialista, a vantaggio di una concezione del genere come costrutto socio-culturale, passibile quindi di interventi trasformativi. 1.2 La socializzazione e gli stereotipi di genere Le interpretazioni socioculturali relative alle differenze tra uomini e donne possono essere ricondotte a due grandi dimensioni e dunque alla distinzione tra sesso e genere. Con il primo termine si intende la na- tura biologica dei caratteri differenti preposti alla riproduzione, mentre con il secondo si indicano processi e modalità di comportamento che rendono i corpi sessuati culturalmente situati entro una divisione di ruoli differentemente distribuiti tra maschile e femminile (Piccone Stella & Saraceno, 1996; Ruspini, 2009; West & Zimmermann, 2009). Il genere permette di concepire il processo di costruzione sociale di definizione, rappresentazione e riproduzione di aspettative e comportamenti legati a una concezione binaria tra ciò che è inteso e percepito come adeguato all’essere donna o uomo. Relazionale, socialmente definito e passibile di modifiche nel tempo e nello spazio, il genere è una variabile strutturale dalla capacità classi- ficatoria e storicamente sovra-gerarchizzata in senso maschile. Intrattiene una relazione gerarchica entro universi di dominio, asimmetrie e disuguaglianze multilivello tra donne e uomini: basti pensare alla divi- sione sessuale del lavoro e ai suoi meccanismi tipici come la segregazione occupazionale; all’emotività cor- retta o disdicevole da esternare; alla sfera del potere, fisico e simbolico; infine, all’ambito culturale e discorsivo in cui maschilità e femminilità, nelle loro differenziazioni, sono oggetti di discorso continua - mente evocati e rappresentati (Connell, 2011; Ghigi, 2019). Ciò contribuisce a fare del genere una potente variabile situata all’incrocio tra produzione e riproduzione sociale entro i cui poli vi è l’oscillazione dal maschile al femminile che si esplica in un rapporto sociale gerarchico percepito molto spesso come “natu- rale”, andando ad incidere anche con la formazione delle strutture cognitive (Ruspini, 2009). In questa prospettiva si instaura un rapporto di dominio che viene iscritto “in una natura biologica che altro non è per parte sua se non una costruzione sociale naturalizzata” (Bourdieu, 2009, p. 32), tacitamente trasmesso nei processi di socializzazione entro un percorso di interiorizzazione di norme, valori e credenze culturali in cui l’individuo è inserito, fornendo elementi utili all’attore sociale affinché possa agire nel pro- prio mondo di appartenenza secondo i ruoli e le aspettative socialmente richieste (Crespi, 2008; Ghigi, 2019). Il processo di introiezione tende a obliare le ragioni sociali che lo producono e permette un assor- bimento delle norme percepite come naturali. Esse si declinano in posture e atteggiamenti che vengono di volta in volta sanzionati o approvati eleggendo la socializzazione a garante “della riuscita del processo di trasformazione delle caratteristiche biologiche in comportamenti a esse appropriati; dalla ‘natura’ in ‘con- formità e adattamento’” (Ruspini, 2009, p. 72). La socializzazione al genere è dunque “un percorso rischioso che coinvolge fattori strutturali, relazionali e culturali, si confronta con le condizioni sociali e le aspettative individuali e societarie, all’interno di una società caratteriz",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-04-28",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-04-28",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Isabella Pinto, Michela Donatelli, Chiara Azzollini, Pamela Prosperi, Giulia Barbisoni, Cristiano Corsini",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8017\\2785-7050_8017.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura ad alta voce condivisa e gli stereotipi di genere nel contesto educativo 11-14 anni: uno studio esplorativo del caso di “Ad Alta Voce” a Torino",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "- Shared reading aloud and gender stereotypes in the educational context of 11–14-year-olds: an exploratory case study of “Ad Alta Voce” in Turin",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "- Shared reading aloud and gender stereotypes in the educational context of 11–14-year-olds: an exploratory case study of “Ad Alta Voce” in Turin",
+            "dropped_source": "locale:it_IT:meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Within the framework defined by international and national institutional policies such as UN, European Commission and the Italian Ministry of Education; conside",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Nel quadro delineato dalle politiche istituzionali internazionali e nazionali — quali quelle dell’ONU, della Commissione Europea e del Ministero dell’Istruzione",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

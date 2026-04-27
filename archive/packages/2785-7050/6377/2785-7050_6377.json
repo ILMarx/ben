@@ -1,0 +1,949 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6377",
+  "scraped_at_utc": "2026-04-27T18:46:23Z",
+  "fetched_at_utc": "2026-04-27T18:46:23Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "00698f28cf6eba4ee6aaca20b01ba8742b6a58afc0177d344e49388809eb04e5",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Visible and invisible aspects of embodied reading",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Maretta Sidiropoulou",
+        "nameType": "Personal",
+        "givenName": "Maretta",
+        "familyName": "Sidiropoulou",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Department of Education Sciences in Early Childhood, Democritus University of Thrace, Alexandroupolis"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6377",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-30",
+      "Issued": "2023-06-30"
+    },
+    "language": {
+      "value": "en",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The aim of this paper is to contribute to a holistic theoretical understanding of reading. It provides an outline of reading as an embodied experience because, apart from being a mental activity, it is also a specific activity of the body. In particular, this paper adopts an ethnographic approach to carry out a detailed investigation of forms of reading activity in Greece. It identifies aspects of reading relating to books, the activity itself and the spaces in which it occurs, shifting attention to forms of reading that are often unnoticed or suppressed by established representations of the practice of reading in ev-eryday life. It also draws attention to the way in which readers find meaning through everyday reading practices in contrast or in line with the dominant discourse. The above findings reinforce the discus-sion of a wider signification of reading, at a time when the reading landscape is continually being en-riched with digital means, the traditional medium of books is expanding, and the concept of the reader is changing.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’obiettivo di questo articolo è contribuire a una comprensione teorica olistica della lettura. Fornisce una panoramica della lettura come esperienza incarnata, poiché oltre a essere un’attività mentale, è anche una pratica fisica. In particolare, questo articolo adotta un approccio etnografico per condurre un’indagine dettagliata sulle diverse forme di attività di lettura in Grecia. Identifica aspetti della lettura relativi ai libri, all'attività stessa e agli spazi in cui essa si svolge, spostando l’attenzione su forme di lettura che spesso passano inosservate o vengono soppresse dalle rappresentazioni consolidate della pratica della lettura nella vita quotidiana. Inoltre, evidenzia come i lettori trovino significato attraverso le pratiche di lettura quotidiane, sia in contrasto che in armonia con il discorso dominante. I risultati menzionati rafforzano la discussione su una più ampia significazione della lettura, in un momento in cui il panorama della lettura si arricchisce continuamente con mezzi digitali, il medium tradizionale dei libri si espande e il concetto di lettore si evolve.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2023-08",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura incarnata",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "piacere della lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pratiche di lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "approccio etnografico",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "embodied reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading pleasure",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading practices",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "ethnographic approach",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6377/5545",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "1",
+      "citationStartPage": "092",
+      "citationEndPage": "100",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Sidiropoulou, M. (2023). Aspetti visibili e invisibili della lettura incarnata. Effetti Di Lettura / Effects of Reading , 2 (1), 092–100. https://doi.org/10.7347/EdL-01-2023-08",
+      "articleTitleEcho": "Visible and invisible aspects of embodied reading"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Barthes, R. (1977). Image Music Text (S. Heath, Trans.). London: Fontana Press, Harper Collins.",
+        "Barthes, R., (2005). Απόλαυση, Γραφή, Ανάγνωση [Pleasure, writing, reading] (A. Korkas, Trans.) Athens: by Plethron publications.",
+        "Barton, D., and Hamilton M., (1998). Local Literacies: Reading and Writing in One Community. London: Routledge.",
+        "Bayard, P., (2008). Πώς να μιλάμε για βιβλία που δεν έχουμε διαβάσει [How to Talk About Books You Haven’t Read] (E. Lupaki, Trans.). Athens: Pataki publications.",
+        "Besnier, N., (2000). Literacy. Journal of Linguistic Anthropology, 9, 137-139.",
+        "Bollman, S., (2007). Επικίνδυνες οι γυναίκες που διαβάζουν [Women Who Read Are Dangerous], ( P.Tsinari, Trans). Athens Potamos publications.",
+        "Certeau, de, M., (2010). Επινοώντας την καθημερινή πρακτική, Η πολύτροπη τέχνη του πράττειν [The Invention of the Everyday, Arts of Making] (K. Kapsampeli, Trans.). Athens: Smili publications.",
+        "Douglas, M., (2006). Καθαρότητα και κίνδυνος : μια ανάλυση των εννοιών της μιαρότητας και του ταμπού [Purity and Danger: An analysis of the concepts of pollution and taboo] (Α. Hatzouli, Trans.). Athens: Athens, Polytropon",
+        "Holbrook, J. (2001). The Reading of Books. Reprint. New York: University of Illinois Press.",
+        "Madden, R. (2010). Being Ethnographic-A Guide to the Theory and Practice of Ethnography. London: Sage Publications Ltd.",
+        "Makrynioti, D., (Ed). (2004). Τα όρια του σώματος, διεπιστημονικές προσεγγίσεις [The limits of the body, interdisciplinary approaches]. Athens: Nisos publications.",
+        "Manguel, A., (1997). Η ιστορία της ανάγνωσης [A history of reading] (L. Kalovrynas, Trans.). Athens: Livani publications.",
+        "Nancy, J.L. (2009). On the Commerce of Thinking-Of Books and Bookstores. Trans. David Wills. New York: Fordham University Press.",
+        "Perec, G., (2005). Σκέψη/ Ταξινόμηση [Thought/ Classification] (L. Tsirimokou Trans). Athens: Agra publications.",
+        "Schoenfeldt, M. (2003). Reading Bodies. In Sharpe K. and Zwicker S. (eds), Reading, Society and Politics in Early Modern England (pp. 215-244). Cambridge: Cambridge University Press.",
+        "Seremetakis N, (2008). Παλιννόστηση Αισθήσεων, Αντίληψη και Μνήμη ως Υλική Κουλτούρα στη Σύγχρονη Εποχή [Restoration of Senses, Perception and Memory as Material Culture in the Modern Era] (3rd ed.). Athens: Pedio Publications.",
+        "Sidiropoulou, M., (2015). Η ανάγνωση ως πολιτισμική κατασκευή- Τρόποι διαπραγμάτευσης στη χρήση των βιβλίων [Reading as a cultural construction: negotiations of the use of books] (Unpublished doctoral thesis). University of the Aegean. https://www.didaktorika.gr/eadd/handle/10442/35744"
+      ],
+      "count": 17,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6377",
+    "article_ID": "6377",
+    "slug": "6377",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6377",
+      "url_slug": "6377"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Visible and invisible aspects of embodied reading",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Aspetti visibili e invisibili della lettura incarnata",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-03-29",
+      "accepted": null,
+      "created": "2023-06-30",
+      "modified": "2024-06-25",
+      "issued": "2023-06-30",
+      "available": "2023-06-30",
+      "submitted_page": "2023-03-29",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Visible and invisible aspects of embodied reading",
+        "pdf_value": null,
+        "chosen_value": "Visible and invisible aspects of embodied reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-03-29",
+        "pdf_value": null,
+        "chosen_value": "2023-03-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6377/5545",
+      "local_relative_path": "2785-7050_6377.pdf",
+      "saved": true,
+      "sha256": "2a8c46193a6a1e010f017d3351c22c54694418e42f505b2162cf37f769c4115f",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1898502,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Maretta Sidiropoulou"
+      ],
+      "citation_author_institution": [
+        "Department of Education Sciences in Early Childhood, Democritus University of Thrace, Alexandroupolis"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Visible and invisible aspects of embodied reading"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2023/06/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2023-08"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6377"
+      ],
+      "citation_keywords": [
+        "lettura incarnata",
+        "piacere della lettura",
+        "pratiche di lettura",
+        "approccio etnografico"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6377/5545"
+      ],
+      "citation_reference_count": 17,
+      "DC.Date.created": [
+        "2023-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-03-29"
+      ],
+      "DC.Date.issued": [
+        "2023-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6377"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2023-08"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6377"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "Aspetti visibili e invisibili della lettura incarnata"
+      ],
+      "DC.Title.Alternative": [
+        "Aspetti visibili e invisibili della lettura incarnata"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Maretta Sidiropoulou"
+      ],
+      "citation_author_institution": [
+        "Department of Education Sciences in Early Childhood, Democritus University of Thrace, Alexandroupolis"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Maretta Sidiropoulou"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The aim of this paper is to contribute to a holistic theoretical understanding of reading. It provides an outline of reading as an embodied experience because, apart from being a mental activity, it is also a specific activity of the body. In particular, this paper adopts an ethnographic approach to carry out a detailed investigation of forms of reading activity in Greece. It identifies aspects of reading relating to books, the activity itself and the spaces in which it occurs, shifting attention to forms of reading that are often unnoticed or suppressed by established representations of the practice of reading in ev-eryday life. It also draws attention to the way in which readers find meaning through everyday reading practices in contrast or in line with the dominant discourse. The above findings reinforce the discus-sion of a wider signification of reading, at a time when the reading landscape is continually being en-riched with digital means, the traditional medium of books is expanding, and the concept of the reader is changing.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The aim of this paper is to contribute to a holistic theoretical understanding of reading. It provides an outline of reading as an embodied experience because, apart from being a mental activity, it is also a specific activity of the body. In particular, this paper adopts an ethnographic approach to carry out a detailed investigation of forms of reading activity in Greece. It identifies aspects of reading relating to books, the activity itself and the spaces in which it occurs, shifting attention to forms of reading that are often unnoticed or suppressed by established representations of the practice of reading in ev-eryday life. It also draws attention to the way in which readers find meaning through everyday reading practices in contrast or in line with the dominant discourse. The above findings reinforce the discus-sion of a wider signification of reading, at a time when the reading landscape is continually being en-riched with digital means, the traditional medium of books is expanding, and the concept of the reader is changing."
+          }
+        },
+        {
+          "content": "L’obiettivo di questo articolo è contribuire a una comprensione teorica olistica della lettura. Fornisce una panoramica della lettura come esperienza incarnata, poiché oltre a essere un’attività mentale, è anche una pratica fisica. In particolare, questo articolo adotta un approccio etnografico per condurre un’indagine dettagliata sulle diverse forme di attività di lettura in Grecia. Identifica aspetti della lettura relativi ai libri, all'attività stessa e agli spazi in cui essa si svolge, spostando l’attenzione su forme di lettura che spesso passano inosservate o vengono soppresse dalle rappresentazioni consolidate della pratica della lettura nella vita quotidiana. Inoltre, evidenzia come i lettori trovino significato attraverso le pratiche di lettura quotidiane, sia in contrasto che in armonia con il discorso dominante. I risultati menzionati rafforzano la discussione su una più ampia significazione della lettura, in un momento in cui il panorama della lettura si arricchisce continuamente con mezzi digitali, il medium tradizionale dei libri si espande e il concetto di lettore si evolve.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’obiettivo di questo articolo è contribuire a una comprensione teorica olistica della lettura. Fornisce una panoramica della lettura come esperienza incarnata, poiché oltre a essere un’attività mentale, è anche una pratica fisica. In particolare, questo articolo adotta un approccio etnografico per condurre un’indagine dettagliata sulle diverse forme di attività di lettura in Grecia. Identifica aspetti della lettura relativi ai libri, all'attività stessa e agli spazi in cui essa si svolge, spostando l’attenzione su forme di lettura che spesso passano inosservate o vengono soppresse dalle rappresentazioni consolidate della pratica della lettura nella vita quotidiana. Inoltre, evidenzia come i lettori trovino significato attraverso le pratiche di lettura quotidiane, sia in contrasto che in armonia con il discorso dominante. I risultati menzionati rafforzano la discussione su una più ampia significazione della lettura, in un momento in cui il panorama della lettura si arricchisce continuamente con mezzi digitali, il medium tradizionale dei libri si espande e il concetto di lettore si evolve."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura incarnata",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura incarnata"
+          }
+        },
+        {
+          "content": "piacere della lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "piacere della lettura"
+          }
+        },
+        {
+          "content": "pratiche di lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pratiche di lettura"
+          }
+        },
+        {
+          "content": "approccio etnografico",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "approccio etnografico"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6377/5545",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6377/5545",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6377/5545",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2023-07-04",
+        "mod_date": "2023-07-04"
+      },
+      "front_text_excerpt": "ABSTRACT The aim of this paper is to contribute to a holistic theoretical understanding of reading. It provides an outline of reading as an embodied experience because, apart from being a mental activity, it is also a specific activity of the body. In particular, this paper adopts an ethnographic approach to carry out a detailed investigation of forms of reading activity in Greece. It identifies aspects of reading relating to books, the activity itself and the spaces in which it occurs, shifting attention to forms of reading that are often unnoticed or suppressed by established representations of the practice of reading in ev- eryday life. It also draws attention to the way in which readers find meaning through everyday reading practices in contrast or in line with the dominant discourse. The above findings reinforce the discus- sion of a wider signification of reading, at a time when the reading landscape is continually being en- riched with digital means, the traditional medium of books is expanding, and the concept of the reader is changing. Keywords: embodied reading, reading pleasure, reading practices, ethnographic approach Citation: Sidiropoulou, M. (2023). Visible and invisible aspects of embodied reading. Effetti di Lettura / Effects of Reading, 2(1), 92-100. https://doi.org/10.7347/EdL-01-2023-08. Corresponding Author: Maretta Sidiropoulou | masidiro@psed.duth.gr Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-08 Maretta Sidiropoulou Assistant Professor | Democritus University of Thrace | masidiro@psed.duth.gr Double blind peer review Visible and invisible aspects of embodied reading Aspetti visibili e invisibili della lettura incarnata Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6377\\2785-7050_6377.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Visible and invisible aspects of embodied reading",
+        "pdf_value": null,
+        "chosen_value": "Visible and invisible aspects of embodied reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-03-29",
+        "pdf_value": null,
+        "chosen_value": "2023-03-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Aspetti visibili e invisibili della lettura incarnata | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6377",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6377",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:23Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:46:25Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6377",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6377",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 4,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6377",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6377",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6377\\2785-7050_6377.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:27Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6377\\2785-7050_6377.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Visible and invisible aspects of embodied reading",
+        "submitted_date": "2023-03-29",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "en",
+        "creator_names": [
+          "Maretta Sidiropoulou"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6377\\2785-7050_6377.pdf",
+        "generated_at_utc": "2026-04-27T18:46:26Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2023-07-04",
+          "mod_date": "2023-07-04"
+        },
+        "front_text_excerpt": "ABSTRACT The aim of this paper is to contribute to a holistic theoretical understanding of reading. It provides an outline of reading as an embodied experience because, apart from being a mental activity, it is also a specific activity of the body. In particular, this paper adopts an ethnographic approach to carry out a detailed investigation of forms of reading activity in Greece. It identifies aspects of reading relating to books, the activity itself and the spaces in which it occurs, shifting attention to forms of reading that are often unnoticed or suppressed by established representations of the practice of reading in ev- eryday life. It also draws attention to the way in which readers find meaning through everyday reading practices in contrast or in line with the dominant discourse. The above findings reinforce the discus- sion of a wider signification of reading, at a time when the reading landscape is continually being en- riched with digital means, the traditional medium of books is expanding, and the concept of the reader is changing. Keywords: embodied reading, reading pleasure, reading practices, ethnographic approach Citation: Sidiropoulou, M. (2023). Visible and invisible aspects of embodied reading. Effetti di Lettura / Effects of Reading, 2(1), 92-100. https://doi.org/10.7347/EdL-01-2023-08. Corresponding Author: Maretta Sidiropoulou | masidiro@psed.duth.gr Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-08 Maretta Sidiropoulou Assistant Professor | Democritus University of Thrace | masidiro@psed.duth.gr Double blind peer review Visible and invisible aspects of embodied reading Aspetti visibili e invisibili della lettura incarnata Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "Through the thematic areas the analysis delves into tangible expressions of reading, such as personal ex - periences or memories, and examines the relationships that reading fosters. Furthermore, it investigates how the meaning of reading evolves experientially throughout the lives of the individuals being studied. Some of the main areas explored in the interviews were the following: values and attitudes related to read- ing, reading practices, books (as objects/content), reading spaces and autobiographical histories regarding reading and books. The interview data in many cases revealed new thematic areas and concepts such as «New T echnologies in relation to traditional reading», «Book ownership» and «Relationship between books and religious practices». 3. Reading positions “How do you read?” I asked Nikiphoros, a 50-year-old academic. “What? I open and read! I sit and read.” The interviewee’s reaction was completely spontaneous, and almost expressed a sense of bewilderment that the answer to my question was so self-evident. Actions may appear automatic, fixed, routine and ‘natural’, and yet a book can be neither open nor closed; it is always somewhere in between (Nancy, 2009, p. 2). Reading is first and foremost non-reading: it is a voluntary act of non-acquisition or closure of all the books that could potentially have been chosen (Bayard, 2008, p. 29). These words draw attention to the remarkable capacity of books to be read on any page, regardless of where they are opened (Bayard, 2008). If we consider that the dynamics of reading are to be found somewhere between opening and closing a book, in the middle space between ‘opening’ and ‘reading’ and whatever comes between ‘sitting’ and ‘reading’, then the scope of the subject matter is vast. Daily life, with its micro-practices that seep through the cracks and crevices of official culture (Seremetakis, 2008) appears to divulge some of the secrets of reading through the narratives of the interviewees. Reading positions are clearly linked with the context and environment in which each instance of reading occurs. It could be argued that on some level reading functions as a bodily contract. As they pick up their book, readers are perhaps thinking that considerable time will be spent on this activity. They try to find either a comfortable position so that they can enjoy the content of the book, in the case of reading as a leisure activity, or an efficient position for studying or working. The search for a position that does not strain the reader, given the time that will be devoted to this activity, ensures that the time spent reading will be productive or extended. In the narrative of 35-year-old Victor, a teacher, we see that this may be a conscious effort: “I normally read sitting down, but I think that I manage to read longest when I am lying down”. The purpose of reading determines the forms of reading. In the narratives of the interviewees it is possible to distinguish two basic forms of reading – ‘relaxed’ and ‘serious’ reading – around which partial forms of reading revolve. Different types of reading follow different patterns in terms of bodily position. One could say that one of the characteristic features of reading is that, after several hours spent engaged in this activity, it reminds the reader of a need for greater comfort. Thus, readers try to facilitate this activity or extend their reading time by limiting their fatigue to the intellectual level. In order to do so, they select comfortable seating or desks and armchairs that allow for greater relaxation, and try to find spaces that are suitable for reading. I struggle to find the right combination of seating, distance between my hands and the table, head position…I find sitting down extremely tiring and I haven’t discovered how my chair and desk should be. At that coffee shop I’d found the perfect environment…I mean, the way the table and chairs were, it was very comfortable for me… (Antonis, 31 years old, PhD ca",
+        "body_language_guess": "en",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Visible and invisible aspects of embodied reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Visible and invisible aspects of embodied reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-03-29",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-03-29",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6377\\2785-7050_6377.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Visible and invisible aspects of embodied reading",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "Aspetti visibili e invisibili della lettura incarnata",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Aspetti visibili e invisibili della lettura incarnata",
+            "dropped_source": "locale:it_IT:meta:DC.Title",
+            "kept_source": "meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The aim of this paper is to contribute to a holistic theoretical understanding of reading. It provides an outline of reading as an embodied experience because, ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’obiettivo di questo articolo è contribuire a una comprensione teorica olistica della lettura. Fornisce una panoramica della lettura come esperienza incarnata,",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

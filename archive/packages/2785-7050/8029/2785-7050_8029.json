@@ -1,0 +1,876 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8029",
+  "scraped_at_utc": "2026-04-27T18:49:32Z",
+  "fetched_at_utc": "2026-04-27T18:49:32Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "b47643089d349af93f900bd3a86738adb45816e350c573fa72bfb37216aba534",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Arianna Lodovica Morini",
+        "nameType": "Personal",
+        "givenName": "Arianna Lodovica",
+        "familyName": "Morini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | University of Roma Tre"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8029",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-06-27",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-06-27",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-06-27",
+      "Issued": "2025-06-27"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The contribution delves into the theme of reading motivation among young adults. National sector-specific research has long shown that a decline in engagement with reading practices is particularly evident at the end of upper secondary education. In Italy, readers are few and concentrated within specific age groups. The aim of the research was to explore what young adults understand by “reading motivation” in order to identify strategies and practices that can support lifelong reading habits and the pleasure of reading. The study involved students from upper secondary schools and university students enrolled in the XXX, coming from various degree programs. The research is exploratory in nature and was based on a non-probabilistic convenience sample. A total of 1,371 individuals participated. Data were collected using a semi-structured questionnaire that investigated reading habits and the meaning attributed to the concept of reading motivation. Data analysis was conducted through a bottom-up thematic analysis, which enabled the development of a multidimensional categorical model of reading motivation. The outcomes of the study aim to contribute to the scientific debate on teaching strategies and best practices that can positively support the development of informed readers who can maintain their interest in and enjoyment of reading over time.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il contributo approfondisce il tema della motivazione alla lettura dei giovani adulti. Le ricerche nazionali di settore evidenziano come la disaffezione nelle pratiche di lettura sia particolarmente evidente alla fine del secondo ciclo di istruzione. In Italia, i lettori sono pochi e concentrati in fasce d'età specifiche. Lo scopo della ricerca è esplorare cosa intendono i giovani adulti per “motivazione alla lettura” al fine di identificare, in prospettiva, strategie e pratiche che possano favorire abitudini di lettura permanenti. Lo studio ha coinvolto studenti della scuola secondaria di secondo grado e studenti universitari iscritti al Dipartimento di Scienze della Formazione dell’Università Roma Tre, provenienti da vari corsi di laurea. La ricerca è di natura esplorativa e si è basata su un campione di convenienza non probabilistico. Hanno partecipato in totale 1.371 studenti. I dati sono stati rilevati utilizzando un questionario semi-strutturato che indaga sulle abitudini di lettura e sul significato attribuito al concetto di motivazione alla lettura. L'analisi dei dati è stata condotta attraverso un'analisi tematica bottom-up, che ha permesso lo sviluppo di un modello categoriale multidimensionale sulla motivazione alla lettura. I risultati dello studio mirano a contribuire al dibattito scientifico sulle strategie didattiche e sulle migliori pratiche in grado di supportare lo sviluppo di lettori consapevoli, capaci di mantenere nel tempo il loro interesse per la lettura.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2025-01",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Arianna Lodavica Morini",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8029/7016",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "1",
+      "citationStartPage": "006",
+      "citationEndPage": "018",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Morini, A. L. (2025). La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa. Effetti Di Lettura / Effects of Reading , 4 (1), 006–018. https://doi.org/10.7347/EdL-01-2025-01",
+      "articleTitleEcho": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Batini, F., Barbisoni, G., Bartolucci, M., & Toti, G. (2023). Validazione della DAL: una scala per rilevare la disposizione alla lettura. RICERCHE PEDAGOGICHE, 57(228-229), 99-127.",
+        "Batini, F., Castellana, G., & Barbisoni, G. (2024). Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura. Effetti di lettura, 3(2), 6-19.",
+        "Baker, L., Dreher, M. J., & Guthrie, J. T. (Eds.). (2000). Engaging young readers: Promoting achievement and motivation. Guilford Press.",
+        "Blyseth, A. R. (2015). A phenomenological study of adult reading motivation. Liberty University.",
+        "Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative research in psychology, 3(2), 77-101.",
+        "Bozgun, K., & Can, F. (2023). The Associations between Metacognitive Reading Strategies and Critical Reading Self-Efficacy: Mediation of Reading Motivation. International Journal on Social and Education Sciences, 5(1), 51-65.",
+        "Codling, R. M., Gambrell, L. B., Mazzoni, S. A., & Palmer, B. M. (1996). Assessing motivation to read. The Reading Teacher, 49(1), 518-533.",
+        "Cremin, T. (2014). Reading teachers: Teachers who read and readers who teach. In Building communities of engaged readers (pp. 67-88). Routledge.",
+        "Davis, M. H., Tonks, S. M., Hock, M., Wang, W., & Rodriguez, A. (2018). A review of reading motivation scales. Reading Psychology, 39(2), 121-187.",
+        "Deci, E. L., & Ryan, R. M. (1985). Intrinsic motivation and self-determination in human behavior, Plenum.",
+        "Gale, N.K., Heath G., Cameron, E., Rashid, S., & Redwood, S. (2013). Using the framework method",
+        "for the analysis of qualitative data in multi-disciplinary health research. BMC Medical Research",
+        "Methodology, 13, 117.",
+        "Gambrell, L. B. (1995). Assessing motivation to read, National Reading Research Center.",
+        "Ghaith, G., & Harkous, S. (2024). Exploring the Interplay Between Reading Proficiency, the Dimensions of Adult Reading Motivation, and the Academic Achievement of a Diverse Cohort of EFL College Learners. Reading Psychology, 45, 601 - 616.",
+        "Griffin, R., & Mindrila, D. (2023). Teacher Reading Motivation: Factors and Latent Profiles. Literacy Research and Instruction, 63, 42-78.",
+        "ISTAT (2023). Produzione e lettura di libri in Italia. Anno 2022. Disponibile in: https://www.istat.it/it/files// 2022/12/REPORT_PRODUZIONE_E_LETTURA_LIBRI_2021.pdf",
+        "Kambara, H., Chen, P. Y., Adachi, S., & Lin, Y. C. (2021). Validating the adult motivation for reading scale with Japanese college students. International Journal of Educational Research, 108, 101752.",
+        "Merga, M. (2017). What motivates avid readers to maintain a regular reading habit in adulthood?. The Australian Journal of Language and Literacy, 40, 146-156.",
+        "Öztürk, M. B., & Aydogmus, M. (2021). Relational Assessment of Metacognitive Reading Strategies and Reading Motivation. International Journal of Progressive Education, 17(1), 357-375.",
+        "Palabıyık, E. (2024). Development Of Adult Reading Motivation Scale: A Validity And Reliability Study. Turkish Research Journal of Academic Social Science, 7(1), 59-66.",
+        "Savaşkan, V., & Özdemir, A. (2017). Determining the Variables That Affect the Reading Motivation of Educational Faculty Students. Educational Research Review, 12, 660-676.",
+        "Schaffner, E., Schiefele, U., & Ulferts, H. (2013). Reading amount as a mediator of the effects of intrinsic and extrinsic reading motivation on reading comprehension. Reading Research Quarterly, 48(4), 369-385.",
+        "Schutte, N. S., & Malouff, J. M. (2007). Dimensions of reading motivation: Development of an adult reading motivation scale. Reading psychology, 28(5), 469-489.",
+        "Wigfield, A., & Guthrie, J. T. (1997). Relations of children's motivation for reading to the amount and breadth or their reading. Journal of educational psychology, 89(3), 420-432.",
+        "Wigfield, A., Guthrie, J. T., Tonks, S., & Perencevich, K. C. (2004). Children's motivation for reading: Domain specificity and instructional influences. The journal of educational research, 97(6), 299-310."
+      ],
+      "count": 26,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8029",
+    "article_ID": "8029",
+    "slug": "8029",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8029",
+      "url_slug": "8029"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Young adult reading motivation: outcomes of an exploratory research",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-04-30",
+      "accepted": null,
+      "created": "2025-06-27",
+      "modified": "2025-06-27",
+      "issued": "2025-06-27",
+      "available": "2025-06-27",
+      "submitted_page": "2025-04-30",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+        "pdf_value": null,
+        "chosen_value": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-30",
+        "pdf_value": null,
+        "chosen_value": "2025-04-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Arianna Lodavica Morini",
+        "pdf_value": null,
+        "chosen_value": "Arianna Lodavica Morini",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8029/7016",
+      "local_relative_path": "2785-7050_8029.pdf",
+      "saved": true,
+      "sha256": "a18cbe5bb6443adb0b43c58ed5a3a72581e09c2b615f2e611d4e7abe6f497959",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 3271877,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Arianna Lodovica Morini"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | University of Roma Tre"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/06/27"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2025-01"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8029"
+      ],
+      "citation_keywords": [],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8029/7016"
+      ],
+      "citation_reference_count": 26,
+      "DC.Date.created": [
+        "2025-06-27"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-04-30"
+      ],
+      "DC.Date.issued": [
+        "2025-06-27"
+      ],
+      "DC.Date.modified": [
+        "2025-06-27"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8029"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2025-01"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8029"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Arianna Lodavica Morini",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 0,
+      "DC.Title": [
+        "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa"
+      ],
+      "DC.Title.Alternative": [
+        "Young adult reading motivation: outcomes of an exploratory research"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Arianna Lodovica Morini"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | University of Roma Tre"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Arianna Lodovica Morini"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The contribution delves into the theme of reading motivation among young adults. National sector-specific research has long shown that a decline in engagement with reading practices is particularly evident at the end of upper secondary education. In Italy, readers are few and concentrated within specific age groups. The aim of the research was to explore what young adults understand by “reading motivation” in order to identify strategies and practices that can support lifelong reading habits and the pleasure of reading. The study involved students from upper secondary schools and university students enrolled in the XXX, coming from various degree programs. The research is exploratory in nature and was based on a non-probabilistic convenience sample. A total of 1,371 individuals participated. Data were collected using a semi-structured questionnaire that investigated reading habits and the meaning attributed to the concept of reading motivation. Data analysis was conducted through a bottom-up thematic analysis, which enabled the development of a multidimensional categorical model of reading motivation. The outcomes of the study aim to contribute to the scientific debate on teaching strategies and best practices that can positively support the development of informed readers who can maintain their interest in and enjoyment of reading over time.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The contribution delves into the theme of reading motivation among young adults. National sector-specific research has long shown that a decline in engagement with reading practices is particularly evident at the end of upper secondary education. In Italy, readers are few and concentrated within specific age groups. The aim of the research was to explore what young adults understand by “reading motivation” in order to identify strategies and practices that can support lifelong reading habits and the pleasure of reading. The study involved students from upper secondary schools and university students enrolled in the XXX, coming from various degree programs. The research is exploratory in nature and was based on a non-probabilistic convenience sample. A total of 1,371 individuals participated. Data were collected using a semi-structured questionnaire that investigated reading habits and the meaning attributed to the concept of reading motivation. Data analysis was conducted through a bottom-up thematic analysis, which enabled the development of a multidimensional categorical model of reading motivation.\nThe outcomes of the study aim to contribute to the scientific debate on teaching strategies and best practices that can positively support the development of informed readers who can maintain their interest in and enjoyment of reading over time."
+          }
+        },
+        {
+          "content": "Il contributo approfondisce il tema della motivazione alla lettura dei giovani adulti. Le ricerche nazionali di settore evidenziano come la disaffezione nelle pratiche di lettura sia particolarmente evidente alla fine del secondo ciclo di istruzione. In Italia, i lettori sono pochi e concentrati in fasce d'età specifiche. Lo scopo della ricerca è esplorare cosa intendono i giovani adulti per “motivazione alla lettura” al fine di identificare, in prospettiva, strategie e pratiche che possano favorire abitudini di lettura permanenti. Lo studio ha coinvolto studenti della scuola secondaria di secondo grado e studenti universitari iscritti al Dipartimento di Scienze della Formazione dell’Università Roma Tre, provenienti da vari corsi di laurea. La ricerca è di natura esplorativa e si è basata su un campione di convenienza non probabilistico. Hanno partecipato in totale 1.371 studenti. I dati sono stati rilevati utilizzando un questionario semi-strutturato che indaga sulle abitudini di lettura e sul significato attribuito al concetto di motivazione alla lettura. L'analisi dei dati è stata condotta attraverso un'analisi tematica bottom-up, che ha permesso lo sviluppo di un modello categoriale multidimensionale sulla motivazione alla lettura. I risultati dello studio mirano a contribuire al dibattito scientifico sulle strategie didattiche e sulle migliori pratiche in grado di supportare lo sviluppo di lettori consapevoli, capaci di mantenere nel tempo il loro interesse per la lettura.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il contributo approfondisce il tema della motivazione alla lettura dei giovani adulti. Le ricerche nazionali di settore evidenziano come la disaffezione nelle pratiche di lettura sia particolarmente evidente alla fine del secondo ciclo di istruzione. In Italia, i lettori sono pochi e concentrati in fasce d'età specifiche. Lo scopo della ricerca è esplorare cosa intendono i giovani adulti per “motivazione alla lettura” al fine di identificare, in prospettiva, strategie e pratiche che possano favorire abitudini di lettura permanenti. Lo studio ha coinvolto studenti della scuola secondaria di secondo grado e studenti universitari iscritti al Dipartimento di Scienze della Formazione dell’Università Roma Tre, provenienti da vari corsi di laurea. La ricerca è di natura esplorativa e si è basata su un campione di convenienza non probabilistico. Hanno partecipato in totale 1.371 studenti. I dati sono stati rilevati utilizzando un questionario semi-strutturato che indaga sulle abitudini di lettura e sul significato attribuito al concetto di motivazione alla lettura. L'analisi dei dati è stata condotta attraverso un'analisi tematica bottom-up, che ha permesso lo sviluppo di un modello categoriale multidimensionale sulla motivazione alla lettura. I risultati dello studio mirano a contribuire al dibattito scientifico sulle strategie didattiche e sulle migliori pratiche in grado di supportare lo sviluppo di lettori consapevoli, capaci di mantenere nel tempo il loro interesse per la lettura."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8029/7016",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8029/7016",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8029/7016",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-06-26",
+        "mod_date": "2025-06-26"
+      },
+      "front_text_excerpt": "ABSTRACT The contribution delves into the theme of reading motivation among young adults. National sector-specific research has long shown that a decline in engagement with reading practices is particularly evident at the end of upper secondary education. In Italy, readers are few and concentrated within specific age groups. The aim of the research was to explore what young adults understand by “reading motiva tion” in order to identify strategies and practices that can support lifelong reading habits and the pleasure of reading. The study invo lved students from upper secondary schools and university students enrolled in the Department of Education Science (Roma T re University), coming from various degree programs. The research is exploratory in nature and was based on a non-probabilistic convenience sample. A total of 1,371 individuals participated. Data were collected using a semi-structured questionnaire that investigated reading habits and the meaning attributed to the concept of reading motivation. Data analysis was conducted through a bottom-up thematic analysis, which enabled the development of a multidimensional categorical model of reading motivation. The outcomes of the study aim to contribute to the scientific debate on teaching strategies and best practices that can positively support the development of informed readers who can maintain their interest in reading over time. Keywords: adult reading motivation, young adult reader, book reading frequency, exploratory research; reading practice Il contributo approfondisce il tema della motivazione alla lettura dei giovani adulti. Le ricerche nazionali di settore evidenziano come la dis- affezione nelle pratiche di lettura sia particolarmente evidente alla fine del secondo ciclo di istruzione. In Italia, i lettori sono pochi e concentrati in fasce d'età specifiche. Lo scopo della ricerca è esplorare cosa intendono i giovani adulti per “motivazione alla lettura” al fine di identificare, in prospettiva, strategie e pratiche che possano favorire abitudini di lettura permanenti. Lo studio ha coinvolto studenti della scuola secondaria di secondo grado e studenti universitari iscritti al Dipartimento di Scienze della Formazione dell’Università Roma T re, provenienti da vari corsi di laurea. La ricerca è di natura esplorativa e si è basata su un campione di convenienza non probabilistico. Hanno partecipato in totale 1.371 studenti. I dati sono stati rilevati utilizzando un questionario semi-strutturato che indaga sulle abitudini di lettura e sul significato at- tribuito al concetto di motivazione alla lettura. L'analisi dei dati è stata condotta attraverso un'analisi tematica bottom-up, che ha permesso lo sviluppo di un modello categoriale multidimensionale sulla motivazione alla lettura. I risultati dello studio mirano a contribuire al dibattito scientifico sulle strategie didattiche e sulle migliori pratiche in grado di supportare lo sviluppo di lettori consapevoli, capaci di mantenere nel tempo il loro interesse per la lettura. Parole chiave: motivazione alla lettura degli adulti, giovani adulti lettori, frequenza di lettura di libri, ricerca esplorativa, pratiche di let- tura Citation: Morini, A. L. (2025). La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa. Effetti di Lettura / Effects of Reading, 4(1), 6-18. https://doi.org/10.7347/EdL-01-2025-01. Corresponding Author: Arianna Lodovica Morini | arianna.morini@uniroma3.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-01 Arianna Lodovica Morini Associate Professor | University of Roma T re | arianna.morini@uniroma3.it Double blind peer review La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa Young adult reading motivation: outcomes of an exploratory research Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8029\\2785-7050_8029.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Arianna Lodavica Morini",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Arianna Lodavica Morini",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+        "pdf_value": null,
+        "chosen_value": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-30",
+        "pdf_value": null,
+        "chosen_value": "2025-04-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Arianna Lodavica Morini",
+        "pdf_value": null,
+        "chosen_value": "Arianna Lodavica Morini",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Arianna Lodavica Morini",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8029",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8029",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:49:32Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:49:33Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8029",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8029",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 0
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8029",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8029",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 0
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8029\\2785-7050_8029.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:49:36Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8029\\2785-7050_8029.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+        "submitted_date": "2025-04-30",
+        "accepted_date": null,
+        "copyright_holder": "Arianna Lodavica Morini",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Arianna Lodovica Morini"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8029\\2785-7050_8029.pdf",
+        "generated_at_utc": "2026-04-27T18:49:36Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-06-26",
+          "mod_date": "2025-06-26"
+        },
+        "front_text_excerpt": "ABSTRACT The contribution delves into the theme of reading motivation among young adults. National sector-specific research has long shown that a decline in engagement with reading practices is particularly evident at the end of upper secondary education. In Italy, readers are few and concentrated within specific age groups. The aim of the research was to explore what young adults understand by “reading motiva tion” in order to identify strategies and practices that can support lifelong reading habits and the pleasure of reading. The study invo lved students from upper secondary schools and university students enrolled in the Department of Education Science (Roma T re University), coming from various degree programs. The research is exploratory in nature and was based on a non-probabilistic convenience sample. A total of 1,371 individuals participated. Data were collected using a semi-structured questionnaire that investigated reading habits and the meaning attributed to the concept of reading motivation. Data analysis was conducted through a bottom-up thematic analysis, which enabled the development of a multidimensional categorical model of reading motivation. The outcomes of the study aim to contribute to the scientific debate on teaching strategies and best practices that can positively support the development of informed readers who can maintain their interest in reading over time. Keywords: adult reading motivation, young adult reader, book reading frequency, exploratory research; reading practice Il contributo approfondisce il tema della motivazione alla lettura dei giovani adulti. Le ricerche nazionali di settore evidenziano come la dis- affezione nelle pratiche di lettura sia particolarmente evidente alla fine del secondo ciclo di istruzione. In Italia, i lettori sono pochi e concentrati in fasce d'età specifiche. Lo scopo della ricerca è esplorare cosa intendono i giovani adulti per “motivazione alla lettura” al fine di identificare, in prospettiva, strategie e pratiche che possano favorire abitudini di lettura permanenti. Lo studio ha coinvolto studenti della scuola secondaria di secondo grado e studenti universitari iscritti al Dipartimento di Scienze della Formazione dell’Università Roma T re, provenienti da vari corsi di laurea. La ricerca è di natura esplorativa e si è basata su un campione di convenienza non probabilistico. Hanno partecipato in totale 1.371 studenti. I dati sono stati rilevati utilizzando un questionario semi-strutturato che indaga sulle abitudini di lettura e sul significato at- tribuito al concetto di motivazione alla lettura. L'analisi dei dati è stata condotta attraverso un'analisi tematica bottom-up, che ha permesso lo sviluppo di un modello categoriale multidimensionale sulla motivazione alla lettura. I risultati dello studio mirano a contribuire al dibattito scientifico sulle strategie didattiche e sulle migliori pratiche in grado di supportare lo sviluppo di lettori consapevoli, capaci di mantenere nel tempo il loro interesse per la lettura. Parole chiave: motivazione alla lettura degli adulti, giovani adulti lettori, frequenza di lettura di libri, ricerca esplorativa, pratiche di let- tura Citation: Morini, A. L. (2025). La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa. Effetti di Lettura / Effects of Reading, 4(1), 6-18. https://doi.org/10.7347/EdL-01-2025-01. Corresponding Author: Arianna Lodovica Morini | arianna.morini@uniroma3.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-01 Arianna Lodovica Morini Associate Professor | University of Roma T re | arianna.morini@uniroma3.it Double blind peer review La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa Young adult reading motivation: outcomes of an exploratory research Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "altri spazi in cui viene praticata o promossa la lettura può incidere sul futuro dei lettori. Naturalmente nei contesti formativi pratiche didattiche di qualità possono contribuire a contrastare alcune variabili fisse, come quelle socio-culturali di appartenenza o i livelli di istruzione (Sava kan & Özdemir, 2017). Sembra dunque importante che educatori, insegnanti e l’insieme delle figure coinvolte nei processi for- mativi siano consapevoli dell’importanza di promuovere fin dalla prima infanzia il piacere della lettura e di farlo avvalendosi di un modello integrato di educazione alla lettura che sia flessibile e diacronico (Moretti, 2017; Moretti & Morini, 2023). Ciò significa conoscere le strategie e le pratiche che possono essere in - trodotte gradualmente per familiarizzare con i libri e successivamente consolidare abitudini di lettura per formare lettori che non perdano nel tempo la capacità e il piacere di leggere (Mascia, 2023). Questo studio intende porsi in continuità con quello sviluppato da Merga nel 2017 in Australia colle- zionando i dati nell’ambito dell’International Study of Avid Book Readers (2015), con il coinvolgimento di 1.022 partecipanti, considerati lettori adulti appassionati di libri. La ricerca di Merga ha contribuito ad estendere la riflessione sulle dimensioni che possono influenzare il coinvolgimento delle persone nelle pra- tiche di lettura una volta concluso l’iter scolastico facendo emergere da un’analisi qualitativa nove fattori: l’assunzione di punti di vista differenti; la conoscenza; lo sviluppo personale; lo stimolo mentale; l’abitu- dine, il divertimento e il piacere; l’evasione e la salute mentale; i libri come amici; l’immaginazione e l’ispi- razione creativa; la scrittura, la lingua e il vocabolario. L ’analisi dei risultati è stata comparata da Merga con quanto emerso da due studi precedenti. Il primo è quello di Schutte e Malouff (2007) che hanno svi- luppato la scala definita Adult Motivation for Reading Scale, finalizzata a misurare quattro dimensioni prin- cipali: Lettura come parte di sé; Efficacia della lettura; Leggere per il riconoscimento; Leggere per andare bene in altri ambiti. Il secondo studio è il lavoro svolto da Blyseth (2015), che ha condotto uno studio di tipo fenomenologico dimostrando la possibilità di applicare la Self-Determination Theory (SDT) di Ryan e Deci (1985) nella motivazione alla lettura degli adulti, descrivendo i fattori che influenzano le esperienze di lettura, le abitudini e i comportamenti di lettura e il desiderio di leggere dei giovani adulti (dai 18 ai 24 anni). In particolare sono stati individuati: il fattore del sé in relazione alle esperienze di lettura; il fattore delle altre persone in relazione alle esperienze di lettura; il fattore dell’insegnamento e dell’apprendimento in relazione alle esperienze di lettura. 2. Strumenti e metodi della ricerca L ’obiettivo della ricerca è approfondire cosa intendono i giovani adulti per motivazione alla lettura, al fine di individuare le strategie e le pratiche che possono favorire l’abitudine di lettura e il piacere di leggere per tutta la vita, soprattutto nel periodo a partire dai 19 anni in cui si manifesta una disaffezione generale nei confronti della pratica di lettura (ISTAT , 2023). La ricerca ha coinvolto studenti della scuola secondaria di secondo grado e studenti universitari fre - quentanti il Dipartimento di Scienze della Formazione dell’Università Roma T re, provenienti da differenti corsi di laurea. La ricerca è di tipo esplorativo e si è avvalsa di un campione di convenienza non probabi- listico. In totale sono stati coinvolti 1.371 studenti. È stato somministrato un questionario semi-strutturato per approfondire il profilo di giovane adulto lettore. Nello specifico è stato domandato il numero di libri letti nell’arco dell’ultimo anno per fini non di studio o di lavoro. Per questa domanda si è tenuto conto della classificazione proposta dall’indagine ISTAT sui lettori che differenzia tra ",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-04-30",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-04-30",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Arianna Lodavica Morini",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Arianna Lodavica Morini",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8029\\2785-7050_8029.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La motivazione alla lettura dei giovani adulti: esiti di una ricerca esplorativa",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Young adult reading motivation: outcomes of an exploratory research",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Young adult reading motivation: outcomes of an exploratory research",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The contribution delves into the theme of reading motivation among young adults. National sector-specific research has long shown that a decline in engagement w",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Il contributo approfondisce il tema della motivazione alla lettura dei giovani adulti. Le ricerche nazionali di settore evidenziano come la disaffezione nelle p",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

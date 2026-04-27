@@ -1,0 +1,1031 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6358",
+  "scraped_at_utc": "2026-04-27T18:46:07Z",
+  "fetched_at_utc": "2026-04-27T18:46:07Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "976c8089d6d88e849108510a8919a1d0d96e6572ad29016d5284fd397c69fe09",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni.",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Raffaele Dicataldo",
+        "nameType": "Personal",
+        "givenName": "Raffaele",
+        "familyName": "Dicataldo",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research fellow | Department of Developmental Psychology and Socialization | University of Padua |"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Irene Leo",
+        "nameType": "Personal",
+        "givenName": "Irene",
+        "familyName": "Leo",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | Department of Developmental Psychology and Socialization | University of Padua |"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Maja Roch",
+        "nameType": "Personal",
+        "givenName": "Maja",
+        "familyName": "Roch",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | Department of Developmental Psychology and Socialization | University of Padua |"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6358",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-30",
+      "Issued": "2023-06-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "Reading aloud is one of the most important activities that parents, teachers and/or educators can do with children in different educational settings since promotes oral language development. In recent years, several evidences suggest that integrating movement into cognitive tasks can be effective for learning due to its cognitive and physiological effects. According to Embodied Cognition, the mind is connected to the body, as are thoughts, emotions, actions, and sensations. If cognition involves the body, it is reasonable to assume that language learning does as well. \"Readings in Motion\" research project aims to investigate whether multimodal exposure (language context supported by movement) to target words found in stories read to children during read-aloud activities supports the acquisition of new words in preschoolers. This pilot project involved 50 boys and girls (15 F) with an average age of 57 months (ds = 10.4). Prior to the intervention, participants' lexical and motor skills were assessed through the TFL and the PDMS-2. The intervention was developed in 4 sessions. In each session, a story containing 6 target words: 2 words accompanied by gestures not associated with meaning, 2 accompanied by ges-tures associated with meaning, and 2 without gestures, was read aloud. Children's ability to recognize target words was assessed at T0 and T2 through two ad hoc tests. Results of this pilot study provide an indication of facilitation in the acquisition of new words during read aloud activities if these are accompanied by a semantically related gesture supporting the hypothesis that integrating motor ac-tivities into a language learning task, seems particularly effective for learning.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La lettura ad alta voce è una delle attività più importanti che genitori, insegnanti e/o educatori possono fare con i bambini in diversi contesti educativi, poiché promuove lo sviluppo del linguaggio orale. Negli ultimi anni, diverse evidenze suggeriscono che integrare il movimento nei compiti cognitivi possa essere efficace per l’apprendimento grazie ai suoi effetti cognitivi e fisiologici. Secondo la teoria della Cognizione Incarnata, la mente è connessa al corpo, così come i pensieri, le emozioni, le azioni e le sensazioni. Se la cognizione coinvolge il corpo, è ragionevole supporre che anche l’apprendimento del linguaggio lo faccia. Il progetto di ricerca “Letture in Movimento” mira a indagare se l’esposizione multimodale (contesto linguistico supportato dal movimento) a parole target trovate nelle storie lette ai bambini durante le attività di lettura ad alta voce supporti l’acquisizione di nuove parole nei bambini in età prescolare. Il presente progetto pilota ha coinvolto 50 bambini (15 femmine) con un’età media di 57 mesi (ds = 10.4). Prima dell’intervento, le competenze lessicali e motorie dei partecipanti sono state valutate attraverso il TFL e il PDMS-2. L’intervento è stato sviluppato in 4 sessioni. In ciascuna sessione, è stata letta ad alta voce una storia contenente 6 parole target: 2 parole accompagnate da gesti non associati al significato, 2 accompagnate da gesti associati al significato e 2 senza gesti. La capacità dei bambini di riconoscere le parole target è stata valutata a T0 e T2 attraverso due test ad hoc. I risultati di questo studio pilota indicano una facilitazione nell’acquisizione di nuove parole durante le attività di lettura ad alta voce se queste sono accompagnate da un gesto semanticamente correlato, supportando l’ipotesi che integrare attività motorie in un compito di apprendimento linguistico sembri particolarmente efficace per l’apprendimento.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2023-03",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Vocabolario",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Apprendimento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Gesti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Cognizione corporea",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Bambini in età prescolare",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Vocabulary",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Learning",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Gesturing",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Embodied cognition",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Preschool children",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6358/5540",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "1",
+      "citationStartPage": "032",
+      "citationEndPage": "043",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Dicataldo, R., Leo, I., & Roch, M. (2023). L’utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni. Effetti Di Lettura / Effects of Reading , 2 (1), 032–043. https://doi.org/10.7347/EdL-01-2023-03",
+      "articleTitleEcho": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni."
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Barsalou, L. W. (1999). Perceptual symbol systems. Behavioral and Brain Sciences, 22(4), 577-660.",
+        "Brooks, R., & Meltzoff, A. N. (2008). Infant gaze following and pointing predict accelerated vocabulary growth through two years of age: A longitudinal, growth curve modeling study. Journal of Child Language, 35(1), 207-220.",
+        "Chomsky, N. (2009). On the Goals of Linguistic Theory. In Syntactic Structures (pp. 49-60). De Gruyter Mouton.",
+        "Decety, J., Grezes, J., Costes, N., Perani, D., Jeannerod, M., Procyk, E., & Fazio, F. (1997). Brain activity during observation of actions. Influence of action content and subject's strategy. Brain: a Journal of Neurology, 120(10), 1763-1777.",
+        "Deckner, D. F., Adamson, L. B., & Bakeman, R. (2006). Child and maternal contributions to shared reading: Effects on language and literacy development. Journal of Applied Developmental Psychology, 27(1), 31-41.",
+        "Dicataldo, R., & Roch, M. (2020). Are the effects of variation in quantity of daily bilingual exposure and socioeconomic status on language and cognitive abilities independent in preschool children?. International journal of Environmental Research and Public Health, 17(12), 4570.",
+        "Dicataldo, R., & Roch, M. (2022). How Does Toddlers’ Engagement in Literacy Activities Influence Their Language Abilities?. International Journal of Environmental Research and Public Health, 19(1), 526.",
+        "Dicataldo, R., Rowe, M. L., & Roch, M. (2022). “Let’s Read Together”, a Parent-Focused Intervention on Dialogic Book Reading to Improve Early Language and Literacy Skills in Preschool Children. Children, 9(8), 1149-1162.",
+        "Dickinson, D. K., Griffith, J. A., Golinkoff, R. M., & Hirsh-Pasek, K. (2012). How reading books fosters language development around the world. Child Development Research, 1-15.",
+        "Duursma, E., Augustyn, M., & Zuckerman, B. (2008). Reading aloud to children: the evidence. Archives of Disease in Childhood, 93(7), 554-557",
+        "Glenberg, A. M. (2008). Embodiment for education. In Handbook of Cognitive Science (pp. 355-372). Elsevier.",
+        "Goldin-Meadow, S., Nusbaum, H., Kelly, S. D., & Wagner, S. (2001). Explaining math: Gesturing lightens the load. Psychological Science, 12(6), 516-522.",
+        "Hart, B., & Risley, T. R. (2003). The early catastrophe. Education Review, 17(1), 110-130.",
+        "Hillman, C. H., Castelli, D. M., & Buck, S. M. (2005). Aerobic fitness and neurocognitive function in healthy preadolescent children. Medicine and Science in Sports and Exercise, 37, 1967–1974.",
+        "Hoff, E., & Naigles, L. (2002). How children use input to acquire a lexicon. Child Development, 73(2), 418-433.",
+        "Hoff, E., Core, C., Place, S., Rumiche, R., Señor, M., & Parra, M. (2012). Dual language exposure and early bilingual development. Journal of Child Language, 39(1), 1-27.",
+        "Hogan, T., Bridges, M. S., Justice, L. M., & Cain, K. (2011). Increasing higher-level language skills to improve reading comprehension.",
+        "Hostetter, A. B., & Alibali, M. W. (2008). Visible embodiment: Gestures as simulated action. Psychonomic Bulletin & Review, 15, 495-514.",
+        "Huffman, L. C., Mehlinger, S. L., Kerivan, A. S., Cavanaugh, D. A., Lippitt, J., & Moyo, O. (2001). Off to a Good Start: Research on the Risk Factors for Early School Problems and Selected Federal Policies Affecting Children's Social and Emotional Development and Their Readiness for School.",
+        "Iverson, J. M. (2010). Developing language in a developing body: The relationship between motor development and language development. Journal of Child Language, 37(2), 229-261.",
+        "Karmiloff-Smith, A. (2006). The tortuous route from genes to behavior: A neuroconstructivist approach. Cognitive, Affective, & Behavioral Neuroscience, 6(1), 9-17.",
+        "Lindemann, O., Stenneken, P., Van Schie, H. T., & Bekkering, H. (2006). Semantic activation in action planning. Journal of Experimental Psychology: Human Perception and Performance, 32(3), 633.",
+        "Manti, F., Giovannone, F., Ciancaleoni, M., De Vita, G., Fioriello, F., Gigliotti, F., & Sogos, C. (2023). Psychometric Properties and Validation of the Italian Version of Ages & Stages Questionnaires Third Edition. International Journal of Environmental Research and Public Health, 20(6), 5014.",
+        "Maouene, J., Hidaka, S., & Smith, L. B. (2008). Body parts and early‐learned verbs. Cognitive Science, 32(7), 1200-1216.",
+        "Maouene, J., Sethuraman, N., Maoene, M., & Smith, L. B. (2010, August). An Embodied Account of Argument Structure Development. In Annual Meeting of the Berkeley Linguistics Society (Vol. 36, No. 1, pp. 261-275).",
+        "Mavilidi, M. F., Okely, A. D., Chandler, P., Cliff, D. P., & Paas, F. (2015). Effects of integrated physical exercises and gestures on preschool children’s foreign language vocabulary learning. Educational Psychology Review, 27, 413-426.",
+        "Merton, R. K. (1973). The sociology of science: Theoretical and empirical investigations. University of Chicago press.",
+        "Novack, M. A., Congdon, E. L., Hemani-Lopez, N., & Goldin-Meadow, S. (2014). From action to abstraction: Using the hands to learn math. Psychological Science, 25(4), 903-910.",
+        "Opel, A., Ameer, S. S., & Aboud, F. E. (2009). The effect of preschool dialogic reading on vocabulary among rural Bangladeshi children. International Journal of Educational Research, 48(1), 12-20.",
+        "Paas, F., & Sweller, J. (2012). An evolutionary upgrade of cognitive load theory: Using the human motor system and collaboration to support the learning of complex cognitive tasks. Educational Psychology Review, 24, 27-45.",
+        "Ping, R., & Goldin‐Meadow, S. (2010). Gesturing saves cognitive resources when talking about nonpresent objects. Cognitive Science, 34(4), 602-619.",
+        "Rahn, N. L., Coogle, C. G., & Storie, S. (2016). Preschool children’s use of thematic vocabulary during dialogic reading and activity-based intervention. The Journal of Special Education, 50(2), 98-108.",
+        "Ramey, C. T., & Ramey, S. L. (1998). Early intervention and early experience. American psychologist, 53(2), 109-131.",
+        "Romeo, R. R., Leonard, J. A., Robinson, S. T., West, M. R., Mackey, A. P., Rowe, M. L., & Gabrieli, J. D. (2018). Beyond the 30-million-word gap: Children’s conversational exposure is associated with language-related brain function. Psychological Science, 29(5), 700-710.",
+        "Rowe, M. L., Leech, K. A., & Cabrera, N. (2017). Going beyond input quantity: Wh‐questions matter for toddlers' language and cognitive development. Cognitive Science, 41, 162-179.",
+        "Sclaunich, M. (2012). La lettura ad alta voce come possibile strumento per promuovere l'incontro tra bambino e libro fin dalla prima infanzia. Lifelong Lifewide Learning, 8(20), 1-11.",
+        "Sénéchal, M., & LeFevre, J. A. (2002). Parental involvement in the development of children’s reading skill: A five‐year longitudinal study. Child Development, 73(2), 445-460.",
+        "Sim, S., & Berthelsen, D. (2014). Shared book reading by parents with young children: Evidence-based practice. Australasian Journal of Early Childhood, 39(1), 50-55.",
+        "Thordardottir, E. (2015). The relationship between bilingual exposure and morphosyntactic development. International Journal of Speech-language Pathology, 17(2), 97-114.",
+        "Tomporowski, P. D., Davis, C. L., Miller, P. H., & Naglieri, J. A. (2008). Exercise and children’s intelligence, cognition, and academic achievement. Educational Psychology review, 20, 111-131.",
+        "Toumpaniari, K., Loyens, S., Mavilidi, M. F., & Paas, F. (2015). Preschool children’s foreign language vocabulary learning by embodying words through physical activity and gesturing. Educational Psychology Review, 27, 445-456.",
+        "Trofatter, C., Kontra, C., Beilock, S., & Goldin-Meadow, S. (2015). Gesturing has a larger impact on problem-solving than action, even when action is accompanied by words. Language, Cognition and Neuroscience, 30(3), 251-260.",
+        "Vicari, S., Marotta, L., & Luci, A. (2007). TFL Test Fono-lessicale: Valutazione delle abilità lessicali in età prescolare. Edizioni Erickson.",
+        "Walsh, B. A. (2008). Review of Research: Quantity, Quality, Children's Characteristics, and Vocabulary Learning. Childhood Education, 84(3), 163-166.",
+        "Zwaan, R. A., & Taylor, L. J. (2006). Seeing, acting, understanding: motor resonance in language comprehension. Journal of Experimental Psychology: General, 135(1), 1-15."
+      ],
+      "count": 45,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6358",
+    "article_ID": "6358",
+    "slug": "6358",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6358",
+      "url_slug": "6358"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni.",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "The use of complex gestures as support for the acquisition of new words during read aloud activities. A pilot study with 3- to 5-year-old children",
+        "lang": "en",
+        "role": "main",
+        "source": "locale:en_US:meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-03-24",
+      "accepted": null,
+      "created": "2023-06-30",
+      "modified": "2024-06-25",
+      "issued": "2023-06-30",
+      "available": "2023-06-30",
+      "submitted_page": "2023-03-24",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni.",
+        "pdf_value": null,
+        "chosen_value": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni.",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-03-24",
+        "pdf_value": null,
+        "chosen_value": "2023-03-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6358/5540",
+      "local_relative_path": "2785-7050_6358.pdf",
+      "saved": true,
+      "sha256": "2d4fa7659c657a9333c0d188c3544e876a1e2e24765ff78aa9a429b4a43eb07c",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 2640177,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Raffaele Dicataldo",
+        "Irene Leo",
+        "Maja Roch"
+      ],
+      "citation_author_institution": [
+        "Research fellow | Department of Developmental Psychology and Socialization | University of Padua |",
+        "Associate Professor | Department of Developmental Psychology and Socialization | University of Padua |",
+        "Associate Professor | Department of Developmental Psychology and Socialization | University of Padua |"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni."
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/06/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2023-03"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6358"
+      ],
+      "citation_keywords": [
+        "Vocabolario",
+        "Apprendimento",
+        "Gesti",
+        "Cognizione corporea",
+        "Bambini in età prescolare"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6358/5540"
+      ],
+      "citation_reference_count": 45,
+      "DC.Date.created": [
+        "2023-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-03-24"
+      ],
+      "DC.Date.issued": [
+        "2023-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6358"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2023-03"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6358"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni."
+      ],
+      "DC.Title.Alternative": [
+        "The use of complex gestures as support for the acquisition of new words during read aloud activities. A pilot study with 3- to 5-year-old children"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Raffaele Dicataldo",
+        "Irene Leo",
+        "Maja Roch"
+      ],
+      "citation_author_institution": [
+        "Research fellow | Department of Developmental Psychology and Socialization | University of Padua |",
+        "Associate Professor | Department of Developmental Psychology and Socialization | University of Padua |",
+        "Associate Professor | Department of Developmental Psychology and Socialization | University of Padua |"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Raffaele Dicataldo",
+        "Irene Leo",
+        "Maja Roch"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Reading aloud is one of the most important activities that parents, teachers and/or educators can do with children in different educational settings since promotes oral language development. In recent years, several evidences suggest that integrating movement into cognitive tasks can be effective for learning due to its cognitive and physiological effects. According to Embodied Cognition, the mind is connected to the body, as are thoughts, emotions, actions, and sensations. If cognition involves the body, it is reasonable to assume that language learning does as well. \"Readings in Motion\" research project aims to investigate whether multimodal exposure (language context supported by movement) to target words found in stories read to children during read-aloud activities supports the acquisition of new words in preschoolers. This pilot project involved 50 boys and girls (15 F) with an average age of 57 months (ds = 10.4). Prior to the intervention, participants' lexical and motor skills were assessed through the TFL and the PDMS-2. The intervention was developed in 4 sessions. In each session, a story containing 6 target words: 2 words accompanied by gestures not associated with meaning, 2 accompanied by ges-tures associated with meaning, and 2 without gestures, was read aloud. Children's ability to recognize target words was assessed at T0 and T2 through two ad hoc tests. Results of this pilot study provide an indication of facilitation in the acquisition of new words during read aloud activities if these are accompanied by a semantically related gesture supporting the hypothesis that integrating motor ac-tivities into a language learning task, seems particularly effective for learning.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Reading aloud is one of the most important activities that parents, teachers and/or educators can do with children in different educational settings since promotes oral language development. In recent years, several evidences suggest that integrating movement into cognitive tasks can be effective for learning due to its cognitive and physiological effects. According to Embodied Cognition, the mind is connected to the body, as are thoughts, emotions, actions, and sensations. If cognition involves the body, it is reasonable to assume that language learning does as well. \"Readings in Motion\" research project aims to investigate whether multimodal exposure (language context supported by movement) to target words found in stories read to children during read-aloud activities supports the acquisition of new words in preschoolers. This pilot project involved 50 boys and girls (15 F) with an average age of 57 months (ds = 10.4). Prior to the intervention, participants' lexical and motor skills were assessed through the TFL and the PDMS-2. The intervention was developed in 4 sessions. In each session, a story containing 6 target words: 2 words accompanied by gestures not associated with meaning, 2 accompanied by ges-tures associated with meaning, and 2 without gestures, was read aloud. Children's ability to recognize target words was assessed at T0 and T2 through two ad hoc tests. Results of this pilot study provide an indication of facilitation in the acquisition of new words during read aloud activities if these are accompanied by a semantically related gesture supporting the hypothesis that integrating motor ac-tivities into a language learning task, seems particularly effective for learning."
+          }
+        },
+        {
+          "content": "La lettura ad alta voce è una delle attività più importanti che genitori, insegnanti e/o educatori possono fare con i bambini in diversi contesti educativi, poiché promuove lo sviluppo del linguaggio orale. Negli ultimi anni, diverse evidenze suggeriscono che integrare il movimento nei compiti cognitivi possa essere efficace per l’apprendimento grazie ai suoi effetti cognitivi e fisiologici. Secondo la teoria della Cognizione Incarnata, la mente è connessa al corpo, così come i pensieri, le emozioni, le azioni e le sensazioni. Se la cognizione coinvolge il corpo, è ragionevole supporre che anche l’apprendimento del linguaggio lo faccia. Il progetto di ricerca “Letture in Movimento” mira a indagare se l’esposizione multimodale (contesto linguistico supportato dal movimento) a parole target trovate nelle storie lette ai bambini durante le attività di lettura ad alta voce supporti l’acquisizione di nuove parole nei bambini in età prescolare. Il presente progetto pilota ha coinvolto 50 bambini (15 femmine) con un’età media di 57 mesi (ds = 10.4). Prima dell’intervento, le competenze lessicali e motorie dei partecipanti sono state valutate attraverso il TFL e il PDMS-2. L’intervento è stato sviluppato in 4 sessioni. In ciascuna sessione, è stata letta ad alta voce una storia contenente 6 parole target: 2 parole accompagnate da gesti non associati al significato, 2 accompagnate da gesti associati al significato e 2 senza gesti. La capacità dei bambini di riconoscere le parole target è stata valutata a T0 e T2 attraverso due test ad hoc. I risultati di questo studio pilota indicano una facilitazione nell’acquisizione di nuove parole durante le attività di lettura ad alta voce se queste sono accompagnate da un gesto semanticamente correlato, supportando l’ipotesi che integrare attività motorie in un compito di apprendimento linguistico sembri particolarmente efficace per l’apprendimento.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La lettura ad alta voce è una delle attività più importanti che genitori, insegnanti e/o educatori possono fare con i bambini in diversi contesti educativi, poiché promuove lo sviluppo del linguaggio orale. Negli ultimi anni, diverse evidenze suggeriscono che integrare il movimento nei compiti cognitivi possa essere efficace per l’apprendimento grazie ai suoi effetti cognitivi e fisiologici. Secondo la teoria della Cognizione Incarnata, la mente è connessa al corpo, così come i pensieri, le emozioni, le azioni e le sensazioni. Se la cognizione coinvolge il corpo, è ragionevole supporre che anche l’apprendimento del linguaggio lo faccia. Il progetto di ricerca “Letture in Movimento” mira a indagare se l’esposizione multimodale (contesto linguistico supportato dal movimento) a parole target trovate nelle storie lette ai bambini durante le attività di lettura ad alta voce supporti l’acquisizione di nuove parole nei bambini in età prescolare. Il presente progetto pilota ha coinvolto 50 bambini (15 femmine) con un’età media di 57 mesi (ds = 10.4). Prima dell’intervento, le competenze lessicali e motorie dei partecipanti sono state valutate attraverso il TFL e il PDMS-2. L’intervento è stato sviluppato in 4 sessioni. In ciascuna sessione, è stata letta ad alta voce una storia contenente 6 parole target: 2 parole accompagnate da gesti non associati al significato, 2 accompagnate da gesti associati al significato e 2 senza gesti. La capacità dei bambini di riconoscere le parole target è stata valutata a T0 e T2 attraverso due test ad hoc. I risultati di questo studio pilota indicano una facilitazione nell’acquisizione di nuove parole durante le attività di lettura ad alta voce se queste sono accompagnate da un gesto semanticamente correlato, supportando l’ipotesi che integrare attività motorie in un compito di apprendimento linguistico sembri particolarmente efficace per l’apprendimento."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Vocabolario",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Vocabolario"
+          }
+        },
+        {
+          "content": "Apprendimento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Apprendimento"
+          }
+        },
+        {
+          "content": "Gesti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Gesti"
+          }
+        },
+        {
+          "content": "Cognizione corporea",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Cognizione corporea"
+          }
+        },
+        {
+          "content": "Bambini in età prescolare",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Bambini in età prescolare"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6358/5540",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6358/5540",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6358/5540",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2023-07-04",
+        "mod_date": "2023-07-04"
+      },
+      "front_text_excerpt": "ABSTRACT Reading aloud is one of the most important activities that parents, teachers and/or educators can do with children in different educational settings since promotes oral language development. In recent years, several evidences suggest that integrating movement into cognitive tasks can be effective for learning due to its cognitive and physiological effects. According to Embodied Cognition, the mind is connected to the body, as are thoughts, emotions, actions, and sensations. If cognition involves the body, it is reasonable to assume that language learning does as well. \"Readings in Motion\" research project aims to investigate whether multimodal exposure (language context supported by movement) to target words found in stories read to children during read-aloud activities supports the acquisition of new words in preschoolers. This pilot project involved 50 boys and girls (15 F) with an average age of 57 months (ds = 10.4). Prior to the intervention, participants' lexical and motor skills were assessed through the TFL and the PDMS-2. The intervention was developed in 4 sessions. In each session, a story containing 6 target words: 2 words accompanied by gestures not associated with meaning, 2 accompanied by ges- tures associated with meaning, and 2 without gestures, was read aloud. Children's ability to recognize target words was assessed at T0 and T2 through two ad hoc tests. Results of this pilot study provide an indication of facilitation in the acquisition of new words during read aloud activities if these are accompanied by a semantically related gesture supporting the hypothesis that integrating motor ac- tivities into a language learning task, seems particularly effective for learning. Keywords: Vocabulary, Learning, Gesturing, Embodied cognition, Preschool children Citation: Dicataldo, R., Leo, I., & Roch, M. (2023). The use of complex gestures as support for the acquisition of new words during read aloud activities. A pilot study with 3- to 5-year-old children. Effetti di Lettura / Effects of Reading, 2 (1), 32-43. https://doi.org/10.7347/EdL-01-2023-03. Corresponding Author: Raffaele Dicataldo | raffaele.dicataldo@unipd.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-03 Raffaele Dicataldo Research fellow | Department of Developmental Psychology and Socialization | University of Padua | raffaele.dicataldo@unipd.it Irene Leo Associate Professor | Department of Developmental Psychology and Socialization | University of Padua | irene.leo@unipd.it Maja Roch Associate Professor | Department of Developmental Psychology and Socialization | University of Padua | maja.roch@unipd.it Double blind peer review The use of complex gestures as support for the acquisition of new words during read aloud activities. A pilot study with 3- to 5-year-old children L ’utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6358\\2785-7050_6358.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni.",
+        "pdf_value": null,
+        "chosen_value": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni.",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-03-24",
+        "pdf_value": null,
+        "chosen_value": "2023-03-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni. | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6358",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6358",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:07Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:46:09Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6358",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6358",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6358",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6358",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6358\\2785-7050_6358.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:11Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6358\\2785-7050_6358.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni.",
+        "submitted_date": "2023-03-24",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Raffaele Dicataldo",
+          "Irene Leo",
+          "Maja Roch"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6358\\2785-7050_6358.pdf",
+        "generated_at_utc": "2026-04-27T18:46:11Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2023-07-04",
+          "mod_date": "2023-07-04"
+        },
+        "front_text_excerpt": "ABSTRACT Reading aloud is one of the most important activities that parents, teachers and/or educators can do with children in different educational settings since promotes oral language development. In recent years, several evidences suggest that integrating movement into cognitive tasks can be effective for learning due to its cognitive and physiological effects. According to Embodied Cognition, the mind is connected to the body, as are thoughts, emotions, actions, and sensations. If cognition involves the body, it is reasonable to assume that language learning does as well. \"Readings in Motion\" research project aims to investigate whether multimodal exposure (language context supported by movement) to target words found in stories read to children during read-aloud activities supports the acquisition of new words in preschoolers. This pilot project involved 50 boys and girls (15 F) with an average age of 57 months (ds = 10.4). Prior to the intervention, participants' lexical and motor skills were assessed through the TFL and the PDMS-2. The intervention was developed in 4 sessions. In each session, a story containing 6 target words: 2 words accompanied by gestures not associated with meaning, 2 accompanied by ges- tures associated with meaning, and 2 without gestures, was read aloud. Children's ability to recognize target words was assessed at T0 and T2 through two ad hoc tests. Results of this pilot study provide an indication of facilitation in the acquisition of new words during read aloud activities if these are accompanied by a semantically related gesture supporting the hypothesis that integrating motor ac- tivities into a language learning task, seems particularly effective for learning. Keywords: Vocabulary, Learning, Gesturing, Embodied cognition, Preschool children Citation: Dicataldo, R., Leo, I., & Roch, M. (2023). The use of complex gestures as support for the acquisition of new words during read aloud activities. A pilot study with 3- to 5-year-old children. Effetti di Lettura / Effects of Reading, 2 (1), 32-43. https://doi.org/10.7347/EdL-01-2023-03. Corresponding Author: Raffaele Dicataldo | raffaele.dicataldo@unipd.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-03 Raffaele Dicataldo Research fellow | Department of Developmental Psychology and Socialization | University of Padua | raffaele.dicataldo@unipd.it Irene Leo Associate Professor | Department of Developmental Psychology and Socialization | University of Padua | irene.leo@unipd.it Maja Roch Associate Professor | Department of Developmental Psychology and Socialization | University of Padua | maja.roch@unipd.it Double blind peer review The use of complex gestures as support for the acquisition of new words during read aloud activities. A pilot study with 3- to 5-year-old children L ’utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "della stessa nella prima infanzia (Dicataldo et al., 2022; Sénéchal & LeFevre, 2002; Walsh, 2008). Uno degli aspetti molto rilevanti nel determinare una buona lettura condivisa è la quantità di interazione tra adulto e bambino/a. La quantità di interazione è fortemente associata alla traiettoria di acquisizione del linguaggio dei bambini e delle bambine: una maggiore quantità di interazione e di aggiustamenti da parte dell’adulto durante l’interazione favoriscono l’apprendimento dei bambini e delle bambine e producono un vantaggio linguistico duraturo (Dicataldo et al., 2022; Walsh, 2008). La convinzione è che sia l’inte - razione durante la lettura ad alta voce di libri a facilitare le abilità linguistiche dei bambini e delle bambine e a promuoverne migliori risultati linguistici, e non la frequenza delle attività (Batini et al., 2020). Interventi educativi, sviluppati in passato, che invitavano i caregivers a leggere più frequentemente ai bambini e alle bambine e ad utilizzare strategie più interattive durante la lettura ad alta voce hanno riportato benefici per il linguaggio orale dei bambini e delle bambine, per l’alfabetizzazione emergente (Sim & Ber- thelsen, 2014; Rahn et al., 2016), e in particolare per il vocabolario (Opel et al., 2009; Dicataldo et al., 2022). Durante la lettura ad alta voce è possibile favorire l’accrescimento del vocabolario dei bambini e delle bambine utilizzando determinate strategie educative, spesso anche in modo combinato, che si carat- terizzano prevalentemente per l’utilizzo di istruzioni esplicite e/o implicite. L ’istruzione esplicita enfatizza le strategie per insegnare direttamente nuovi vocaboli mentre l’istruzione implicita prevede l’insegnamento di vocaboli nuovi nel contesto di un’attività più ampia. Questi metodi offrono l’opportunità di stimolare l’apprendimento e lo sviluppo del linguaggio, ed in particolare del vocabolario, dei bambini e delle bambine (Batini & Giusti, 2021). 1.2 L ’uso dei gesti nella lettura ad alta voce Negli ultimi anni, diverse evidenze sembrano suggerire che l’integrazione del movimento in compiti co - gnitivi può essere efficace per l’apprendimento grazie ai suoi effetti cognitivi e fisiologici. È sempre più evidente che la gestualità e il movimento hanno effetti positivi sull’apprendimento in diversi compiti co- gnitivi, come la matematica e il linguaggio (Novack et al. 2014; T rofatter et al. 2015). L ’acquisizione del linguaggio, nello specifico, prevede un’alta componente senso motoria (Iverson, 2010; Leonard & Hill, 2014; Maouene et al., 2008, 2010) ed è per questo che in letteratura sono presenti alcuni esempi di inter- venti che integrano nel compito di apprendimento le tipiche strategie per l’acquisizione di nuove parole con l’uso di movimenti e/o gesti. Secondo Hostetter e Alibali (2008), i movimenti del corpo come i gesti complessi possono facilitare l’acquisizione e il recupero di elementi lessicali mentali. Il quadro teorico utilizzato per spiegare gli effetti positivi di questo tipo attività che integrano anche aspetti corporei sull’apprendimento è quello dell’Embodied Cognition (di seguito EC, cognizione incar- nata) – fulcro delle teorie che enfatizzano il ruolo di funzioni sensoriali e motorie nella cognizione – se- condo il quale la mente è connessa al corpo così come lo sono i pensieri, le emozioni, le azioni e le sensazioni (Barsalou, 1999). L ’EC presuppone che i processi cognitivi siano fondati sulla percezione e sull’azione. Ad oggi ci sono ampie evidenze a favore del quadro dell’EC che provengono dalla ricerca psicologica in diversi ambiti, come la ricerca sulla semantica dell’azione (Lindemann et al. 2006), sulla comprensione linguistica (Zwaan & Taylor 2006) e dalle neuroscienze (Glenberg et al. 2008). Queste ricerche dimostrano che i processi visivi e motori del cervello sono attivi durante l’esecuzione di compiti cognitivi come la lettura, la comprensione, l’aritmetica mentale e la risoluzione di problemi, mentre i codici semanti",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni.",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 anni.",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-03-24",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-03-24",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6358\\2785-7050_6358.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L'utilizzo di gesti complessi come supporto per l’acquisizione di parole nuove durante attività di lettura ad alta voce. Studio pilota con bambini dai 3 ai 5 an",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "The use of complex gestures as support for the acquisition of new words during read aloud activities. A pilot study with 3- to 5-year-old children",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The use of complex gestures as support for the acquisition of new words during read aloud activities. A pilot study with 3- to 5-year-old children",
+            "dropped_source": "locale:it_IT:meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Reading aloud is one of the most important activities that parents, teachers and/or educators can do with children in different educational settings since promo",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura ad alta voce è una delle attività più importanti che genitori, insegnanti e/o educatori possono fare con i bambini in diversi contesti educativi, poi",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

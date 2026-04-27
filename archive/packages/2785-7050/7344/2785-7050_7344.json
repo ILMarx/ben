@@ -1,0 +1,929 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7344",
+  "scraped_at_utc": "2026-04-27T18:47:44Z",
+  "fetched_at_utc": "2026-04-27T18:47:44Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "2559d33fb691422af5bbf7ebe9602f714c8f7355e0f87096cfa26fa27a847e5f",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Chiara Pierini",
+        "nameType": "Personal",
+        "givenName": "Chiara",
+        "familyName": "Pierini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Independent researcher"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Simone Giusti",
+        "nameType": "Personal",
+        "givenName": "Simone",
+        "familyName": "Giusti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Senior researcher | Università degli Studi di Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7344",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2024-05-29",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2024-05-29",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2024-05-29",
+      "Issued": "2024-05-29"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The article examines the role of the language-literature teacher in the field of shared read aloud literature didactics and the impact of this transdisciplinary didactics on his or her professionalism. The investigation, conducted by means of a questionnaire, involved teachers who participated in an action-research aimed at practising reading aloud in first- and second-cycle schools.The teachers who took part in the survey, most of whom have been working in schools for some time, showed themselves to be aware of the inadequacy and ineffectiveness of traditional literary teaching methods and expressed a desire for a didactic renewal of their discipline. In particular, the study confirmed two significant data: the importance of adequate knowledge that the teacher must possess, or acquire, regarding literature dedicated to young people and the lack of training opportunities, pertaining to this competence, during the course of study.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’articolo esamina il ruolo dell'insegnante di lingua e letteratura nel campo della didattica condivisa della lettura ad alta voce e l'impatto di questa didattica transdisciplinare sulla sua professionalità. L'indagine, condotta tramite un questionario, ha coinvolto insegnanti che hanno partecipato a una ricerca-azione finalizzata alla pratica della lettura ad alta voce nelle scuole di primo e secondo ciclo. Gli insegnanti che hanno partecipato al sondaggio, la maggior parte dei quali lavora nelle scuole da tempo, hanno dimostrato di essere consapevoli dell'insufficienza e dell'inefficacia dei metodi tradizionali di insegnamento letterario ed hanno espresso il desiderio di un rinnovamento didattico della loro disciplina. In particolare, lo studio ha confermato due dati significativi: l'importanza della conoscenza adeguata che l'insegnante deve possedere, o acquisire, riguardo la letteratura dedicata ai giovani e la mancanza di opportunità formative, relative a questa competenza, durante il percorso di studi.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2024-05",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "3",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura ad alta voce condivisa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "didattica della letteratura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "shared reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "didactics of literature",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Chiara Pierini, Simone Giusti",
+      "holder_source": "page",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7344/6285",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "3",
+      "citationIssue": "1",
+      "citationStartPage": "053",
+      "citationEndPage": "063",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Pierini, C., & Giusti, S. (2024). La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria. Effetti Di Lettura / Effects of Reading , 3 (1), 053–063. https://doi.org/10.7347/EdL-01-2024-05",
+      "articleTitleEcho": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7344",
+    "article_ID": "7344",
+    "slug": "7344",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7344",
+      "url_slug": "7344"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Shared reading aloud: the case of the literature teacher in the secondary school",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-07-02",
+      "accepted": null,
+      "created": "2024-05-29",
+      "modified": "2024-07-02",
+      "issued": "2024-05-29",
+      "available": "2024-05-29",
+      "submitted_page": "2024-07-02",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+        "pdf_value": null,
+        "chosen_value": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-07-02",
+        "pdf_value": null,
+        "chosen_value": "2024-07-02",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Chiara Pierini, Simone Giusti",
+        "pdf_value": null,
+        "chosen_value": "Chiara Pierini, Simone Giusti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7344/6285",
+      "local_relative_path": "2785-7050_7344.pdf",
+      "saved": true,
+      "sha256": "64c10f939adf1001389a475981f2fe78d1b92887008f3beb3bd52cd2d25500cd",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 251642,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Chiara Pierini",
+        "Simone Giusti"
+      ],
+      "citation_author_institution": [
+        "Independent researcher",
+        "Senior researcher | Università degli Studi di Siena"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/05/29"
+      ],
+      "citation_volume": [
+        "3"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2024-05"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7344"
+      ],
+      "citation_keywords": [
+        "lettura ad alta voce",
+        "lettura ad alta voce condivisa",
+        "didattica della letteratura"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7344/6285"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2024-05-29"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-07-02"
+      ],
+      "DC.Date.issued": [
+        "2024-05-29"
+      ],
+      "DC.Date.modified": [
+        "2024-07-02"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7344"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2024-05"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7344"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Chiara Pierini, Simone Giusti",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "3"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 3,
+      "DC.Title": [
+        "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria"
+      ],
+      "DC.Title.Alternative": [
+        "Shared reading aloud: the case of the literature teacher in the secondary school"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Chiara Pierini",
+        "Simone Giusti"
+      ],
+      "citation_author_institution": [
+        "Independent researcher",
+        "Senior researcher | Università degli Studi di Siena"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Chiara Pierini",
+        "Simone Giusti"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The article examines the role of the language-literature teacher in the field of shared read aloud literature didactics and the impact of this transdisciplinary didactics on his or her professionalism. The investigation, conducted by means of a questionnaire, involved teachers who participated in an action-research aimed at practising reading aloud in first- and second-cycle schools.The teachers who took part in the survey, most of whom have been working in schools for some time, showed themselves to be aware of the inadequacy and ineffectiveness of traditional literary teaching methods and expressed a desire for a didactic renewal of their discipline. In particular, the study confirmed two significant data: the importance of adequate knowledge that the teacher must possess, or acquire, regarding literature dedicated to young people and the lack of training opportunities, pertaining to this competence, during the course of study.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The article examines the role of the language-literature teacher in the field of shared read aloud literature didactics and the impact of this transdisciplinary didactics on his or her professionalism. The investigation, conducted by means of a questionnaire, involved teachers who participated in an action-research aimed at practising reading aloud in first- and second-cycle schools.The teachers who took part in the survey, most of whom have been working in schools for some time, showed themselves to be aware of the inadequacy and ineffectiveness of traditional literary teaching methods and expressed a desire for a didactic renewal of their discipline. In particular, the study confirmed two significant data: the importance of adequate knowledge that the teacher must possess, or acquire, regarding literature dedicated to young people and the lack of training opportunities, pertaining to this competence, during the course of study."
+          }
+        },
+        {
+          "content": "L’articolo esamina il ruolo dell'insegnante di lingua e letteratura nel campo della didattica condivisa della lettura ad alta voce e l'impatto di questa didattica transdisciplinare sulla sua professionalità. L'indagine, condotta tramite un questionario, ha coinvolto insegnanti che hanno partecipato a una ricerca-azione finalizzata alla pratica della lettura ad alta voce nelle scuole di primo e secondo ciclo. Gli insegnanti che hanno partecipato al sondaggio, la maggior parte dei quali lavora nelle scuole da tempo, hanno dimostrato di essere consapevoli dell'insufficienza e dell'inefficacia dei metodi tradizionali di insegnamento letterario ed hanno espresso il desiderio di un rinnovamento didattico della loro disciplina. In particolare, lo studio ha confermato due dati significativi: l'importanza della conoscenza adeguata che l'insegnante deve possedere, o acquisire, riguardo la letteratura dedicata ai giovani e la mancanza di opportunità formative, relative a questa competenza, durante il percorso di studi.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’articolo esamina il ruolo dell'insegnante di lingua e letteratura nel campo della didattica condivisa della lettura ad alta voce e l'impatto di questa didattica transdisciplinare sulla sua professionalità. L'indagine, condotta tramite un questionario, ha coinvolto insegnanti che hanno partecipato a una ricerca-azione finalizzata alla pratica della lettura ad alta voce nelle scuole di primo e secondo ciclo. Gli insegnanti che hanno partecipato al sondaggio, la maggior parte dei quali lavora nelle scuole da tempo, hanno dimostrato di essere consapevoli dell'insufficienza e dell'inefficacia dei metodi tradizionali di insegnamento letterario ed hanno espresso il desiderio di un rinnovamento didattico della loro disciplina. In particolare, lo studio ha confermato due dati significativi: l'importanza della conoscenza adeguata che l'insegnante deve possedere, o acquisire, riguardo la letteratura dedicata ai giovani e la mancanza di opportunità formative, relative a questa competenza, durante il percorso di studi."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce"
+          }
+        },
+        {
+          "content": "lettura ad alta voce condivisa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce condivisa"
+          }
+        },
+        {
+          "content": "didattica della letteratura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "didattica della letteratura"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7344/6285",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7344/6285",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7344/6285",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2024-07-02",
+        "mod_date": "2024-07-02"
+      },
+      "front_text_excerpt": "ABSTRACT The article examines the role of the language-literature teacher in the field of shared read aloud literature didactics and the impact of this transdisciplinary didactics on his or her professionalism. The investigation, conducted by means of a questionnaire, involved teachers who participated in an action-research aimed at practising reading aloud in first- and second-cycle schools. The teachers who took part in the survey, most of whom have been working in schools for some time, showed themselves to be aware of the inadequacy and ineffectiveness of traditional literary teaching methods and expressed a desire for a didactic renewal of their discipline. I n particular, the study confirmed two significant data: the importance of adequate knowledge that the teacher must possess, or acquir e, regarding literature dedicated to young people and the lack of training opportunities, pertaining to this competence, during the course of study . Keywords: reading aloud, shared reading aloud, didactics of literature L ’articolo esamina il ruolo dell'insegnante di lingua e letteratura nel campo della didattica condivisa della lettura ad alta voce e l'impatto di questa didattica transdisciplinare sulla sua professionalità. L'indagine, condotta tramite un questionario, ha coinvolto insegnanti che hanno partecipato a una ricerca-azione finalizzata alla pratica della lettura ad alta voce nelle scuole di primo e secondo ciclo. Gli insegnanti che hanno partecipato al sondaggio, la maggior parte dei quali lavora nelle scuole da tempo, hanno dimostrato di esser e con- sapevoli dell'insufficienza e dell'inefficacia dei metodi tradizionali di insegnamento letterario ed hanno espresso il desiderio di un rinno vamento didattico della loro disciplina. In particolare, lo studio ha confermato due dati significativi: l'importanza della conoscenza adeguata che l'in- segnante deve possedere, o acquisire, riguardo la letteratura dedicata ai giovani e la mancanza di opportunità formative, relativ e a questa com- petenza, durante il percorso di studi. Parole chiave: lettura ad alta voce, lettura ad alta voce condivisa, didattica della letteratura Citation: Pierini, C., & Giusti, S. (2024).La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria. Effetti di Lettura / Effects of Reading, 3(1), 53-63. https://doi.org/10.7347/EdL-01-2024-05. Corresponding Author: Simone Giusti | simone.giusti@unisi.it Authorship: Il presente contributo è frutto della collaborazione tra gli autori. Ai soli fini dell’identificazione delle parti, laddove ri - chiesto, si precisa che sono da attribuire a Chiara Pierini i paragrafi 2, 3, 4, 5 e a Simone Giusti il paragrafo 1. Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2024-05 Chiara Pierini Independent researcher | chiara.pierini@gmail.com Simone Giusti Senior researcher | Università degli Studi di Siena | simone.giusti@unisi.it Double blind peer review La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria Shared reading aloud: the case of the literature teacher in the secondary school Volume 3 | n. 1 | giugno 2024 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7344\\2785-7050_7344.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Chiara Pierini, Simone Giusti",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Chiara Pierini, Simone Giusti",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+        "pdf_value": null,
+        "chosen_value": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-07-02",
+        "pdf_value": null,
+        "chosen_value": "2024-07-02",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Chiara Pierini, Simone Giusti",
+        "pdf_value": null,
+        "chosen_value": "Chiara Pierini, Simone Giusti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Chiara Pierini, Simone Giusti",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7344",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7344",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:47:44Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:47:46Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7344",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7344",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 3,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7344",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7344",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7344\\2785-7050_7344.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:47:47Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7344\\2785-7050_7344.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+        "submitted_date": "2024-07-02",
+        "accepted_date": null,
+        "copyright_holder": "Chiara Pierini, Simone Giusti",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Chiara Pierini",
+          "Simone Giusti"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7344\\2785-7050_7344.pdf",
+        "generated_at_utc": "2026-04-27T18:47:47Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2024-07-02",
+          "mod_date": "2024-07-02"
+        },
+        "front_text_excerpt": "ABSTRACT The article examines the role of the language-literature teacher in the field of shared read aloud literature didactics and the impact of this transdisciplinary didactics on his or her professionalism. The investigation, conducted by means of a questionnaire, involved teachers who participated in an action-research aimed at practising reading aloud in first- and second-cycle schools. The teachers who took part in the survey, most of whom have been working in schools for some time, showed themselves to be aware of the inadequacy and ineffectiveness of traditional literary teaching methods and expressed a desire for a didactic renewal of their discipline. I n particular, the study confirmed two significant data: the importance of adequate knowledge that the teacher must possess, or acquir e, regarding literature dedicated to young people and the lack of training opportunities, pertaining to this competence, during the course of study . Keywords: reading aloud, shared reading aloud, didactics of literature L ’articolo esamina il ruolo dell'insegnante di lingua e letteratura nel campo della didattica condivisa della lettura ad alta voce e l'impatto di questa didattica transdisciplinare sulla sua professionalità. L'indagine, condotta tramite un questionario, ha coinvolto insegnanti che hanno partecipato a una ricerca-azione finalizzata alla pratica della lettura ad alta voce nelle scuole di primo e secondo ciclo. Gli insegnanti che hanno partecipato al sondaggio, la maggior parte dei quali lavora nelle scuole da tempo, hanno dimostrato di esser e con- sapevoli dell'insufficienza e dell'inefficacia dei metodi tradizionali di insegnamento letterario ed hanno espresso il desiderio di un rinno vamento didattico della loro disciplina. In particolare, lo studio ha confermato due dati significativi: l'importanza della conoscenza adeguata che l'in- segnante deve possedere, o acquisire, riguardo la letteratura dedicata ai giovani e la mancanza di opportunità formative, relativ e a questa com- petenza, durante il percorso di studi. Parole chiave: lettura ad alta voce, lettura ad alta voce condivisa, didattica della letteratura Citation: Pierini, C., & Giusti, S. (2024).La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria. Effetti di Lettura / Effects of Reading, 3(1), 53-63. https://doi.org/10.7347/EdL-01-2024-05. Corresponding Author: Simone Giusti | simone.giusti@unisi.it Authorship: Il presente contributo è frutto della collaborazione tra gli autori. Ai soli fini dell’identificazione delle parti, laddove ri - chiesto, si precisa che sono da attribuire a Chiara Pierini i paragrafi 2, 3, 4, 5 e a Simone Giusti il paragrafo 1. Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2024-05 Chiara Pierini Independent researcher | chiara.pierini@gmail.com Simone Giusti Senior researcher | Università degli Studi di Siena | simone.giusti@unisi.it Double blind peer review La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria Shared reading aloud: the case of the literature teacher in the secondary school Volume 3 | n. 1 | giugno 2024 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "2. Metodo L ’indagine si è basata sulla somministrazione di un questionario volto a indagare alcuni aspetti relativi al ruolo dell’insegnante di area linguistico-letteraria e alle sue percezioni riguardo ad argomenti specifici. L ’ambito di ricerca è stato quindi circoscritto alle scuole secondarie di primo e secondo grado, compren- denti la fascia di età 11-18 anni, generalmente meno interessata dalla ricerca sulla lettura ad alta voce, anche a livello internazionale. Il questionario analizzato di seguito è stato somministrato attraverso il ser- vizio Moduli Google, ed è stato inviato per posta elettronica a tutte e tutti gli insegnanti delle scuole se- condarie di primo e di secondo grado delle sei Zone per l’Educazione e l’Istruzione coinvolte nelle attività di lettura ad alta voce e che, quindi, avevano potuto fruire di un corso di formazione sul metodo e di bi- bliografie di opere da leggere in classe. La somministrazione è avvenuta a partire dal mese di gennaio 2023 (primo invio del questionario, 17 gennaio 2023) e le risposte compilate, in totale quarantotto (con varia- zioni a seconda della domanda posta), sono pervenute in un arco di tempo di circa un mese (prima risposta ricevuta il 17 gennaio 2023; ultima risposta ricevuta il 18 febbraio 2023). Il modulo è articolato in diciannove domande formulate secondo modalità mista: risposta multipla, scala Likert e domande aperte. Le domande sono state raccolte in due macro-sezioni. Nel primo gruppo, costituito da cinque domande, sono raccolte informazioni generali riguardanti la disciplina, il grado di scuola e l’area geografica di insegnamento, gli anni di servizio e il ruolo che l’insegnante ha svolto o svolge nel progetto (1-5). Dopo questo primo inquadramento, i quesiti proposti nella seconda parte sono volti ad approfondire diversi filoni di indagine: in primo luogo, sondare l’opinione degli e delle insegnanti su alcuni degli effetti della lettura ad alta voce sulla propria azione didattica e sul proprio rapporto con la let- teratura e con la lettura, indipendentemente dall’area disciplinare di appartenenza (6-10,15). Successiva- mente, si è chiesto loro di riportare le proprie osservazioni riguardo a specifici effetti della lettura ad alta voce sulle dinamiche relazionali tra pari e tra il gruppo dei discenti e il/la docente (11-12). Si è inoltre cer- cato di capire se il progetto abbia aperto una collaborazione o abbia migliorato quella esistente con colleghi di discipline diverse (13) e l’influenza di alcuni elementi sul proprio approccio alla lettura ad alta voce (14). In seguito, sono stati raccolti i pareri sulla corrispondenza degli obiettivi che la pratica intende rag- giungere con quanto richiesto dalla normativa attualmente in vigore in Italia, quale sia il principale apporto della ricerca-azione al proprio ordine di scuola e su possibili miglioramenti da apportare al progetto (16- 18). Infine, ogni docente ha riportato la sua particolare esperienza riguardo a un caso significativo che ha potuto osservare durante l’applicazione del progetto (19). 3. Risultati Oltre l’81% dei e delle docenti che hanno risposto al questionario afferiscono all’area umanistica, poco meno dell’11% ad altre aree e circa il 4% all’insegnamento di sostegno. Del totale, il 35% possiede oltre 20 anni di servizio, il 25% tra i 5 e i 10 anni, il 18% tra i 10 e i 15 anni, il 12% tra i 15 e i 20 anni e solo l’8% ha svolto da 1 a 5 anni di servizio. Oltre l’81% degli intervistati proviene da scuole secondarie di primo grado mentre poco più del 18% da quelle secondarie di secondo grado (Licei, Istituti Professionali, Istituti T ecnici). 55 Volume 3 | n. 1 | giugno 2024 | pp. 53-63Effetti di Lettura Effects of Reading",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-07-02",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-07-02",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Chiara Pierini, Simone Giusti",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Chiara Pierini, Simone Giusti",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7344\\2785-7050_7344.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura ad alta voce condivisa: il caso dell’insegnante di lettere nella scuola secondaria",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Shared reading aloud: the case of the literature teacher in the secondary school",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Shared reading aloud: the case of the literature teacher in the secondary school",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The article examines the role of the language-literature teacher in the field of shared read aloud literature didactics and the impact of this transdisciplinary",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’articolo esamina il ruolo dell'insegnante di lingua e letteratura nel campo della didattica condivisa della lettura ad alta voce e l'impatto di questa didatti",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

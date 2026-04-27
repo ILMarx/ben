@@ -1,0 +1,1021 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8379",
+  "scraped_at_utc": "2026-04-27T18:49:43Z",
+  "fetched_at_utc": "2026-04-27T18:49:43Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "60c5aa72dd4ee8bb6a4bef4043d1001c6fcd7d45d076103fa07a7da08d2974ba",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Francesca Anello",
+        "nameType": "Personal",
+        "givenName": "Francesca",
+        "familyName": "Anello",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor of Didactics and Special Pedagogy | Department of Psychology, Educational Science and Human Movement | University of Palermo (Italy) |"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alice Levantino",
+        "nameType": "Personal",
+        "givenName": "Alice",
+        "familyName": "Levantino",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Special Education Teacher | Ministry of Education (Italy)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8379",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-12-30",
+      "Issued": "2025-12-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "Reading comprehension is a key tool for solving a mathematical problem. Before mobilizing a set of mathematical skills, it is essential that students construct an adequate semantic representation of the text-problem, to start the problem-solving process effectively and consciously. To mediate the gap between the two processes of comprehension and problem-solving, we chose to employ Spaced Learning, a teaching methodology that leverages some scientifically validated memory principles. Spaced Learning makes learning more meaningful, long-lasting and engaging because it transcends the rigid organization of lessons characterized by long and often impractical timeframes, which do not reflect the way the brain learns. According to the case study, integrated by a pre-experimental study, we structured and implemented a teaching intervention in a primary school classroom. The aim of the project was to promote children’s reading comprehension text so they could solve mathematical problems; the activities were planned and conducted using active breaks, as required by Spaced Learning. The quantitative analysis of the learning outcomes shows the positive effects of the proposed and developed action, while recognizing many limitations and critical issues.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La comprensione in lettura è un accesso privilegiato alla risoluzione di un problema di matematica. Prima di mobilitare una serie di competenze matematiche, è fondamentale che l’alunno costruisca una adeguata rappresentazione semantica del testo-problema, per avviare il processo di problem solving in modo efficace e consapevole. Per mediare tra i due processi di comprensione e di problem solving, abbiamo scelto di usare lo Spaced Learning, una metodologia didattica che sfrutta i principi sulla memoria scientificamente validati. Lo Spaced Learning rende l’apprendimento più significativo e duraturo, più coinvolgente, perché supera la rigida organizzazione della lezione caratterizzata da tempi lunghi e spesso poco funzionali, che non rispecchiano il modo in cui il cervello apprende. Secondo lo studio di caso, integrato da uno studio pre-sperimentale, abbiamo strutturato e realizzato un intervento didattico in una classe di scuola primaria. L’obiettivo del progetto è stato quello di promuovere nei bambini le loro capacità di leggere e comprendere il testo per risolvere problemi di matematica; le attività sono state pianificate e condotte con le pause attive, così come prevede lo Spaced Learning. L’analisi quantitativa dei risultati di apprendimento mostra gli effetti positivi dell’azione ipotizzata e sviluppata, nella consapevolezza di molti limiti e criticità.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2025-02",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "comprensione del testo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "soluzione di problemi matematici",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Spaced Learning",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "neuroscienze",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "studio di caso",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading comprehension",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "mathematical problem solving",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Spaced Learning",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "neuroscience",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "case study",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Francesca Anello, Alice Levantino",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8379/7445",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "2",
+      "citationStartPage": "025",
+      "citationEndPage": "044",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Anello, F., & Levantino, A. (2025). Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning. Effetti Di Lettura / Effects of Reading , 4 (2), 025–044. https://doi.org/10.7347/EdL-02-2025-02",
+      "articleTitleEcho": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Anello, F. (2019). Esercizi di lettura e scrittura. Sviluppo di abilità di pensiero critico nella scuola primaria. Pensa Multimedia.",
+        "Anello, F. (2024). Spaced Learning. In G. Ferrara & F. Anello (Eds.), Spaced Learning nella scuola primaria. Sperimentazione didattica tra competenze di base, attività motorie, inclusione (pp. 31–54). FrancoAngeli.",
+        "Blair, C., & Razza, R. P. (2007). Relating Effortful Control, Executive Function, and False Belief Understanding to Emerging Math and Literacy Ability in Kindergarten. Child Development, 78(2), 647–680. https://doi.org/10.1111/j.1467-8624.2007.01019.x",
+        "Brousseau, G. (1986). Fondements et méthodes de la didactique des mathématiques. Recherches En Didactique Des Mathématiques, 7(2), 33–115.",
+        "Cain, K., Barnes, M. A., Bryant, P. E., & Oakhill, J. V. (2001). Comprehension Skill, Inference-Making Ability, and the Relation to Knowledge. Memory & Cognition, 29(6), 850–859. https://doi.org/10.3758/BF03196414",
+        "Cain, K., Oakhill, J., & Bryant, P. (2004). Children's Reading Comprehension Ability: Concurrent Prediction by Working Memory, Verbal Ability, and Component Skills. Journal of Educational Psychology, 96(1), 31–42.",
+        "Capobianco, R. (2021). Innovazione didattica e neuroeducazione ai tempi del Covid-19: La sperimentazione dello Spaced Learning (SL). Giornale Italiano di Educazione alla Salute, Sport e Didattica Inclusiva, 5(2), 178–186. https://doi.org/10.32043/gsd.v5i2.380",
+        "Caprino, F., Garzia, M., Tosi, L., & Moscato, G. (2016). Avanguardie educative: Linee guida per l’implementazione dell’idea “Spaced learning (Apprendimento intervallato)”. Indire.",
+        "Cardarello, R., & Bertolini, C. (2020). Didattiche della comprensione del testo. Metodi e strumenti per la scuola primaria. Carocci.",
+        "Carpenter, S. K., Cepeda, N. J., Rohrer, D., Kang, S. H., & Pashler, H. (2012). Using Spacing to Enhance Diverse Forms of Learning: Review of Recent Research and Implications for Instruction. Educational Psychology Review, 24, 369–378. https://doi.org/10.1007/s10648-012-9205-z",
+        "Carretti, B., Borella, E., Cornoldi, C., & De Beni, R. (2009). Role of Working Memory in Explaining the Performance of Individuals with Specific Reading Comprehension Difficulties: A Meta-Analysis. Learning and Individual Differences, 19(2), 246–251. https://doi.org/10.1016/j.lindif.2008.10.002",
+        "Cummins, D. D. (1991). Children’s Interpretations of Arithmetic Word Problems. Cognition and Instruction, 8(3), 261–289. https://doi.org/10.1207/s1532690xci0803_2",
+        "Cummins, D. D., Kintsch, W., Reusser, K., & Weimer, R. (1988). The Role of Understanding in Solving Word Problems. Cognitive Psychology, 20(4), 405–438. https://doi.org/10.1016/0010-0285(88)90011-4",
+        "D’Amore, B. (2002). La ricerca in Didattica della Matematica come Epistemologia dell’apprendimento della Matematica. Scuola & Città, 4, 56–82.",
+        "D’Amore, B. (2014). Il problema di matematica nella pratica didattica. Digital Index.",
+        "D’Amore, B., & Martini, B. (1997). Contratto didattico, modelli mentali e modelli intuitivi nella risoluzione di problemi scolastici standard. La matematica e la sua didattica, 2, 150–175.",
+        "Dehaene, S. (2007). Les Neurones de la lecture. Éditions Odile Jacob.",
+        "Demartini, S., & Sbaragli, S. (2019). La porta di entrata per la comprensione di un problema: la lettura del testo. Didattica della matematica. Dalla ricerca alle pratiche d’aula, 5, 9–43. https://doi.org/10.33683/ddm.18.5.1",
+        "Di Paola, B. & Giannola, A. (2024). Effetti dello Spaced Learning sull’apprendimento matematico di base. In G. Ferrara & F. Anello (Eds.), Spaced Learning nella scuola primaria. Sperimentazione didattica tra competenze di base, attività motorie, inclusione (pp. 170–197). FrancoAngeli.",
+        "Ebbinghaus, H. (1913). Memory: A Contribution to Experimental Psychology. Columbia University.",
+        "Fields, R. D. (2005). Making Memories Stick. Scientific American, 292(2), 75–81. https://www.jstor.org/stable/26060881",
+        "Franchini, E., Lemmo, A., & Sbaragli, S. (2017). Il ruolo della comprensione del testo nel processo di matematizzazione e modellizzazione. Didattica della matematica. Dalla ricerca alle pratiche d’aula, 1, 38–63. https://doi.org/10.33683/ddm.17.1.3",
+        "Garzia, M., & Pianese, E. (2020). Formare nelle piccole scuole. Formazione & Insegnamento. Rivista internazionale di Scienze dell’educazione e della formazione, 18(3), 233–243. https://doi.org/10.7346/-feis-XVIII-01-20_20",
+        "Hofstadter, D., & Sander, E. (2013). Surfaces and Essences: Analogy as the Fuel and Fire of Thinking. Basic Books.",
+        "Kang, S. H. K. (2016). Spaced Repetition Promotes Efficient and Effective learning: Policy Implications for Instruction. Policy Insights from the Behavioral and Brain Sciences, 3(1), 12–19. https://doi.org/10.1177/2372732215624708",
+        "Kelley, P. (2007). Making Minds: What's Wrong with Education - and What Should We Do About it?. Routledge.",
+        "Kelley, P., & Whatson, T. (2013). Making Long-Term Memories in Minutes: A Spaced Learning Pattern from Memory Research in Education. Frontiers in Human Neuroscience, 589(7), 1–9. https://doi.org/10.3389/fnhum.2013.00589",
+        "Kendeou, P., Broek, P., Helder, A., & Karlsson, J. (2014). A Cognitive View of Reading Comprehension: Implications for Reading Difficulties. Learning Disabilities Research & Practice, 29(1), 10–16. https://doi.org/10.1111/ldrp.12025",
+        "Kintsch, W. (1998). Comprehension: A Paradigm for Cognition. Cambridge University Press.",
+        "Kintsch, W., & van Dijk, T. A. (1978). Toward a Model of Text Comprehension and Production. Psychological Review, 85(5), 363–394. https://doi.org/10.1037/0033-295X.85.5.363",
+        "Kramár, E. A., Babayan, A. H., Gavin, C. F., Cox, C. D., Jafari, M., Gall, C. M., Rumbaugh, G., & Lynch, G. (2012). Synaptic Evidence for the Efficacy of Spaced Learning. Proceedings of the National Academy of Sciences of the United States of America, 109(13), 5121–5126. https://doi.org/10.1073/pnas.1120700109",
+        "Lucangeli, D., Tressoldi, P. E., & Cendron, M. (2003). SPM - Abilità di soluzione dei problemi matematici. Erickson.",
+        "Lumbelli, L. (2009). La comprensione come problema. Il punto di vista cognitivo. Laterza.",
+        "Menichetti, L., & Bertolini, C. (2019). La prova qualitativa per la valutazione della capacità di riassunto: il Summary Qualitative Assessment (SQA). In A. Calvani & L. Chiappetta Cajola (Eds.), Strategie per la comprensione del testo. L’efficacia del Reciprocal Teaching (pp. 431–462). SApIE.",
+        "Merrill, M. D. (2002). First Principles of Instruction. Educational Technology, Research and Development, 50(3), 43–59. https://doi.org/10.1007/BF02505024",
+        "Nobile, A. (2023). Nuova pedagogia della letteratura giovanile. Scholé.",
+        "Oakhill, J., Cain, K., & Elbro, C. (2014). Understanding and Teaching Reading Comprehension. Routledge.",
+        "OECD (2013). PISA 2012 Assessment and Analytical Framework: Mathematics, Reading, Science, Problem Solving and Financial Literacy. OECD Publishing.",
+        "Oliverio, A. (2018). Attenzione e apprendimento: conoscere come si sviluppa e funziona il cervello può migliorare l’attenzione e l’apprendimento nelle scuole. RELAdEI. Revista Latinoamericana de Educación Infantil, 7(1), 61–66.",
+        "Perfetti, C. A., Landi, N., & Oakhill, J. (2005). The Acquisition of Reading Comprehension Skill. In M.J. Snowling, & C. Hulme (Eds.), The Science of Reading: A Handbook (pp. 227–247). Blackwell Publishing.",
+        "Phonapichat, P., Wongwanich, S., & Sujiva, S. (2014). An Analysis of Elementary School Students’ Difficulties in Mathematical Problem Solving. Procedia - Social and Behavioral Sciences, 116, 3169–3174. https://doi.org/10.1016/j.sbspro.2014.01.728",
+        "Proudfoot, D. E. (2016). The Effect of a Reading Comprehension Software Program on Student Achievement in Mathematics. The International Journal of Cognitive Research in Science, Engineering and Education, 4(1), 39–47. https://doi.org/10.5937/IJCRSEE1601039P",
+        "Radvansky, G. A., Zwaan, R. A., Curiel, J. M., & Copeland, D. E. (2001). Situation Models and Aging. Psychology and Aging, 16(1), 145–160. https://doi.org/10.1037/0882-7974.16.1.145",
+        "Roccella, M. (2019). Neuropsichiatria dell’infanzia e dell’adolescenza. Piccin.",
+        "Savage, R., Lavers, N., & Pillay, V. (2007). Working Memory and Reading Difficulties: What we Know and what we Don’t Know about the Relationship. Educational Psychology Review, 19(2), 185–221. https://doi.org/10.1007/s10648-006-9024-1",
+        "Scharf, M. T., Woo, N. H., Lattal, K. M., Young, J. Z., Nguyen, P. V., & Abel, T. (2002). Protein Synthesis is Required for the Enhancement of Long-Term Potentiation and Long-Term Memory by Spaced Training. Journal of Neurophysiology, 87(6), 2770–2777. https://doi.org/10.1152/jn.2002.87.6.2770",
+        "Schoenfeld, A. H. (1992). Learning to Think Mathematically: Problem Solving, Metacognition, and Sense-Making in Mathematics. In D.A. Grouws (Ed.), Handbook of Research on Mathematics Teaching and Learning (pp. 334–370). Macmillan.",
+        "Siegel, L. (1994). Working Memory and Reading: A Life-Span Perspective. International Journal of Behavioral Development, 17(1), 109–124. https://doi.org/10.1177/016502549401700107",
+        "Trinchero, R., & Piacenza, S. (2020). Un percorso formativo alla comprensione del testo matematico, dai 5 ai 14 anni. Didattica Della Matematica. Dalla Ricerca Alle Pratiche d’aula, 7, 50–74. https://doi.org/10.33683/ddm.20.7.3",
+        "Ulu, M. (2017). The Effect of Reading Comprehension and Problem-Solving Strategies on Classifying Elementary 4th Grade Students with High and Low Problem-Solving Success. Journal of Education and Training Studies, 5(6), 88–95. https://doi.org/10.11114/jets.v5i6.2391",
+        "Versteeg, M., Hendriks, R. A., Thomas, A., Ommering, B. W. C., & Steendijk, P. (2020). Conceptualising Spaced Learning in Health Professions Education: A Scoping Review. Medical Education, 54, 205–216. https://doi.org/10.1111/medu.14025",
+        "Wolf, M. (2018). Reader, Come Home: The Reading Brain in a Digital World. Harper.",
+        "Zan, R. (2016). I problemi di matematica. Difficoltà di comprensione e formulazione del testo. Carocci Faber."
+      ],
+      "count": 53,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8379",
+    "article_ID": "8379",
+    "slug": "8379",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8379",
+      "url_slug": "8379"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Improving children’s skills to read, understand and solve mathematical problems through Spaced Learning",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-10-01",
+      "accepted": null,
+      "created": "2025-12-30",
+      "modified": "2025-12-30",
+      "issued": "2025-12-30",
+      "available": "2025-12-30",
+      "submitted_page": "2025-10-01",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+        "pdf_value": null,
+        "chosen_value": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-10-01",
+        "pdf_value": null,
+        "chosen_value": "2025-10-01",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Francesca Anello, Alice Levantino",
+        "pdf_value": null,
+        "chosen_value": "Francesca Anello, Alice Levantino",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8379/7445",
+      "local_relative_path": "2785-7050_8379.pdf",
+      "saved": true,
+      "sha256": "03c9b433152e9b387404822e8be5fa61ab0d0431acff4503230fa5c24f6e3e51",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1044980,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Francesca Anello",
+        "Alice Levantino"
+      ],
+      "citation_author_institution": [
+        "Associate Professor of Didactics and Special Pedagogy | Department of Psychology, Educational Science and Human Movement | University of Palermo (Italy) |",
+        "Special Education Teacher | Ministry of Education (Italy)"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/12/30"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2025-02"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8379"
+      ],
+      "citation_keywords": [
+        "comprensione del testo",
+        "soluzione di problemi matematici",
+        "Spaced Learning",
+        "neuroscienze",
+        "studio di caso"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8379/7445"
+      ],
+      "citation_reference_count": 53,
+      "DC.Date.created": [
+        "2025-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-10-01"
+      ],
+      "DC.Date.issued": [
+        "2025-12-30"
+      ],
+      "DC.Date.modified": [
+        "2025-12-30"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8379"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2025-02"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8379"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Francesca Anello, Alice Levantino",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning"
+      ],
+      "DC.Title.Alternative": [
+        "Improving children’s skills to read, understand and solve mathematical problems through Spaced Learning"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Francesca Anello",
+        "Alice Levantino"
+      ],
+      "citation_author_institution": [
+        "Associate Professor of Didactics and Special Pedagogy | Department of Psychology, Educational Science and Human Movement | University of Palermo (Italy) |",
+        "Special Education Teacher | Ministry of Education (Italy)"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Francesca Anello",
+        "Alice Levantino"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Reading comprehension is a key tool for solving a mathematical problem. Before mobilizing a set of mathematical skills, it is essential that students construct an adequate semantic representation of the text-problem, to start the problem-solving process effectively and consciously. To mediate the gap between the two processes of comprehension and problem-solving, we chose to employ Spaced Learning, a teaching methodology that leverages some scientifically validated memory principles. Spaced Learning makes learning more meaningful, long-lasting and engaging because it transcends the rigid organization of lessons characterized by long and often impractical timeframes, which do not reflect the way the brain learns. According to the case study, integrated by a pre-experimental study, we structured and implemented a teaching intervention in a primary school classroom. The aim of the project was to promote children’s reading comprehension text so they could solve mathematical problems; the activities were planned and conducted using active breaks, as required by Spaced Learning. The quantitative analysis of the learning outcomes shows the positive effects of the proposed and developed action, while recognizing many limitations and critical issues.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Reading comprehension is a key tool for solving a mathematical problem. Before mobilizing a set of mathematical skills, it is essential that students construct an adequate semantic representation of the text-problem, to start the problem-solving process effectively and consciously. To mediate the gap between the two processes of comprehension and problem-solving, we chose to employ Spaced Learning, a teaching methodology that leverages some scientifically validated memory principles. Spaced Learning makes learning more meaningful, long-lasting and engaging because it transcends the rigid organization of lessons characterized by long and often impractical timeframes, which do not reflect the way the brain learns. According to the case study, integrated by a pre-experimental study, we structured and implemented a teaching intervention in a primary school classroom. The aim of the project was to promote children’s reading comprehension text so they could solve mathematical problems; the activities were planned and conducted using active breaks, as required by Spaced Learning. The quantitative analysis of the learning outcomes shows the positive effects of the proposed and developed action, while recognizing many limitations and critical issues."
+          }
+        },
+        {
+          "content": "La comprensione in lettura è un accesso privilegiato alla risoluzione di un problema di matematica. Prima di mobilitare una serie di competenze matematiche, è fondamentale che l’alunno costruisca una adeguata rappresentazione semantica del testo-problema, per avviare il processo di problem solving in modo efficace e consapevole. Per mediare tra i due processi di comprensione e di problem solving, abbiamo scelto di usare lo Spaced Learning, una metodologia didattica che sfrutta i principi sulla memoria scientificamente validati. Lo Spaced Learning rende l’apprendimento più significativo e duraturo, più coinvolgente, perché supera la rigida organizzazione della lezione caratterizzata da tempi lunghi e spesso poco funzionali, che non rispecchiano il modo in cui il cervello apprende. Secondo lo studio di caso, integrato da uno studio pre-sperimentale, abbiamo strutturato e realizzato un intervento didattico in una classe di scuola primaria. L’obiettivo del progetto è stato quello di promuovere nei bambini le loro capacità di leggere e comprendere il testo per risolvere problemi di matematica; le attività sono state pianificate e condotte con le pause attive, così come prevede lo Spaced Learning. L’analisi quantitativa dei risultati di apprendimento mostra gli effetti positivi dell’azione ipotizzata e sviluppata, nella consapevolezza di molti limiti e criticità.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La comprensione in lettura è un accesso privilegiato alla risoluzione di un problema di matematica. Prima di mobilitare una serie di competenze matematiche, è fondamentale che l’alunno costruisca una adeguata rappresentazione semantica del testo-problema, per avviare il processo di problem solving in modo efficace e consapevole. Per mediare tra i due processi di comprensione e di problem solving, abbiamo scelto di usare lo Spaced Learning, una metodologia didattica che sfrutta i principi sulla memoria scientificamente validati. Lo Spaced Learning rende l’apprendimento più significativo e duraturo, più coinvolgente, perché supera la rigida organizzazione della lezione caratterizzata da tempi lunghi e spesso poco funzionali, che non rispecchiano il modo in cui il cervello apprende. Secondo lo studio di caso, integrato da uno studio pre-sperimentale, abbiamo strutturato e realizzato un intervento didattico in una classe di scuola primaria. L’obiettivo del progetto è stato quello di promuovere nei bambini le loro capacità di leggere e comprendere il testo per risolvere problemi di matematica; le attività sono state pianificate e condotte con le pause attive, così come prevede lo Spaced Learning. L’analisi quantitativa dei risultati di apprendimento mostra gli effetti positivi dell’azione ipotizzata e sviluppata, nella consapevolezza di molti limiti e criticità."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "comprensione del testo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "comprensione del testo"
+          }
+        },
+        {
+          "content": "soluzione di problemi matematici",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "soluzione di problemi matematici"
+          }
+        },
+        {
+          "content": "Spaced Learning",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Spaced Learning"
+          }
+        },
+        {
+          "content": "neuroscienze",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "neuroscienze"
+          }
+        },
+        {
+          "content": "studio di caso",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "studio di caso"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8379/7445",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8379/7445",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8379/7445",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "Milena",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-12-29",
+        "mod_date": "2025-12-29"
+      },
+      "front_text_excerpt": "ABSTRACT Reading comprehension is a key tool for solving a mathematical problem. Before mobilizing a set of mathematical skills, it is e ssential that students construct an adequate semantic representation of the text-problem, to start the problem-solving process effectively and consciously. T o mediate the gap between the two processes of comprehension and problem-solving, we chose to employ Spaced Learning, a teachi ng methodology that leverages some scientifically validated memory principles. Spaced Learning makes learning more meaningful, long-lasting and engaging because it transcends the rigid organization of lessons characterized by long and often impractical timeframes, wh ich do not reflect the way the brain learns. According to the case study, integrated by a pre-experimental study, we structured and implemented a teaching intervention in a primary school classroom. The aim of the project was to promote children’s reading comprehension text so they could solve mathematical problems; the activities were planned and conducted using active breaks, as required by Spaced Learning. The quant itative analysis of the learning outcomes shows the positive effects of the proposed and developed action, while recognizing many limit ations and critical issues. Keywords: reading comprehension, mathematical problem solving, Spaced Learning, case study, pre-experimental investigation La comprensione in lettura è un accesso privilegiato alla risoluzione di un problema di matematica. Prima di mobilitare una serie di competenze matematiche, è fondamentale che l’alunno costruisca una adeguata rappresentazione semantica del testo-problema, per avviare il processo di problem solving in modo efficace e consapevole. Per mediare tra i due processi di comprensione e di problem solving, abbiamo sc elto di usare lo Spaced Learning, una metodologia didattica che sfrutta i principi sulla memoria scientificamente validati. Lo Spaced Learning rende l’apprendimento più significativo e duraturo, più coinvolgente, perché supera la rigida organizzazione della lezione caratteriz zata da tempi lunghi e spesso poco funzionali, che non rispecchiano il modo in cui il cervello apprende. Secondo lo studio di caso, integrato da uno studio pre-sperimentale, abbiamo strutturato e realizzato un intervento didattico in una classe di scuola primaria. L ’obiettivo del pr ogetto è stato quello di promuovere nei bambini le loro capacità di leggere e comprendere il testo per risolvere problemi di matematica; le at tività sono state pianificate e condotte con le pause attive, così come prevede lo Spaced Learning. L ’analisi quantitativa dei risultati di apprendimento mostra gli effetti positivi dell’azione ipotizzata e sviluppata, nella consapevolezza di molti limiti e criticità. Parole chiave: comprensione del testo, soluzione di problemi matematici, Spaced Learning, studio di caso, indagine pre-sperimentale Citation: Anello, F ., & Levantino, A. (2025). Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning. Effetti di Lettura / Effects of Reading, 4(2), 25-44. https://doi.org/10.7347/EdL-02-2025-02. Corresponding Author: Francesca Anello | francesca.anello@unipa.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-02 Authorship/Attribuzioni: Il contributo rappresenta il risultato di un lavoro congiunto degli Autori, tuttavia Francesca Anello ha scritto i § 1, 2, 4 e 5 e Alice Levantino i § 3 e 6. Francesca Anello Associate Professor of Didactics and Special Pedagogy | Department of Psychology, Educational Science and Human Movement | University of Palermo (Italy) | francesca.anello@unipa.it Alice Levantino Special Education T eacher | Ministry of Education (Italy) | alicelevantino@cadutidicefalonia.net Double blind peer review Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning Improving children’s skills to read, understand and solve mathematical problems through Spaced Learning Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8379\\2785-7050_8379.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Francesca Anello, Alice Levantino",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Francesca Anello, Alice Levantino",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+        "pdf_value": null,
+        "chosen_value": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-10-01",
+        "pdf_value": null,
+        "chosen_value": "2025-10-01",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Francesca Anello, Alice Levantino",
+        "pdf_value": null,
+        "chosen_value": "Francesca Anello, Alice Levantino",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Francesca Anello, Alice Levantino",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8379",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8379",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:49:43Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:49:45Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8379",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8379",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8379",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8379",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8379\\2785-7050_8379.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:49:46Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8379\\2785-7050_8379.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+        "submitted_date": "2025-10-01",
+        "accepted_date": null,
+        "copyright_holder": "Francesca Anello, Alice Levantino",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Francesca Anello",
+          "Alice Levantino"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8379\\2785-7050_8379.pdf",
+        "generated_at_utc": "2026-04-27T18:49:46Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "Milena",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-12-29",
+          "mod_date": "2025-12-29"
+        },
+        "front_text_excerpt": "ABSTRACT Reading comprehension is a key tool for solving a mathematical problem. Before mobilizing a set of mathematical skills, it is e ssential that students construct an adequate semantic representation of the text-problem, to start the problem-solving process effectively and consciously. T o mediate the gap between the two processes of comprehension and problem-solving, we chose to employ Spaced Learning, a teachi ng methodology that leverages some scientifically validated memory principles. Spaced Learning makes learning more meaningful, long-lasting and engaging because it transcends the rigid organization of lessons characterized by long and often impractical timeframes, wh ich do not reflect the way the brain learns. According to the case study, integrated by a pre-experimental study, we structured and implemented a teaching intervention in a primary school classroom. The aim of the project was to promote children’s reading comprehension text so they could solve mathematical problems; the activities were planned and conducted using active breaks, as required by Spaced Learning. The quant itative analysis of the learning outcomes shows the positive effects of the proposed and developed action, while recognizing many limit ations and critical issues. Keywords: reading comprehension, mathematical problem solving, Spaced Learning, case study, pre-experimental investigation La comprensione in lettura è un accesso privilegiato alla risoluzione di un problema di matematica. Prima di mobilitare una serie di competenze matematiche, è fondamentale che l’alunno costruisca una adeguata rappresentazione semantica del testo-problema, per avviare il processo di problem solving in modo efficace e consapevole. Per mediare tra i due processi di comprensione e di problem solving, abbiamo sc elto di usare lo Spaced Learning, una metodologia didattica che sfrutta i principi sulla memoria scientificamente validati. Lo Spaced Learning rende l’apprendimento più significativo e duraturo, più coinvolgente, perché supera la rigida organizzazione della lezione caratteriz zata da tempi lunghi e spesso poco funzionali, che non rispecchiano il modo in cui il cervello apprende. Secondo lo studio di caso, integrato da uno studio pre-sperimentale, abbiamo strutturato e realizzato un intervento didattico in una classe di scuola primaria. L ’obiettivo del pr ogetto è stato quello di promuovere nei bambini le loro capacità di leggere e comprendere il testo per risolvere problemi di matematica; le at tività sono state pianificate e condotte con le pause attive, così come prevede lo Spaced Learning. L ’analisi quantitativa dei risultati di apprendimento mostra gli effetti positivi dell’azione ipotizzata e sviluppata, nella consapevolezza di molti limiti e criticità. Parole chiave: comprensione del testo, soluzione di problemi matematici, Spaced Learning, studio di caso, indagine pre-sperimentale Citation: Anello, F ., & Levantino, A. (2025). Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning. Effetti di Lettura / Effects of Reading, 4(2), 25-44. https://doi.org/10.7347/EdL-02-2025-02. Corresponding Author: Francesca Anello | francesca.anello@unipa.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-02 Authorship/Attribuzioni: Il contributo rappresenta il risultato di un lavoro congiunto degli Autori, tuttavia Francesca Anello ha scritto i § 1, 2, 4 e 5 e Alice Levantino i § 3 e 6. Francesca Anello Associate Professor of Didactics and Special Pedagogy | Department of Psychology, Educational Science and Human Movement | University of Palermo (Italy) | francesca.anello@unipa.it Alice Levantino Special Education T eacher | Ministry of Education (Italy) | alicelevantino@cadutidicefalonia.net Double blind peer review Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning Improving children’s skills to read, understand and solve mathematical problems through Spaced Learning Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "Lo Spaced Learning sostiene il problem solving in quanto migliora l’efficienza con cui la memoria di lavoro gestisce le informazioni complesse e rafforza la capacità di recuperare e applicare le conoscenze in modo flessibile. L ’ottimizzazione della memoria di lavoro e il potenziamento del recupero delle informa- zioni sono cruciali per la risoluzione dei problemi; lo SL rende la memoria disponibile per compiti cogni- tivamente impegnativi. Secondo la strategia di ricerca dello studio di caso, abbiamo strutturato e realizzato un intervento pre- sperimentale di 40 ore, gennaio-maggio 2025, in una classe quarta di scuola primaria di Palermo. La pro- posta didattica ha mirato allo sviluppo della capacità di comprendere il testo come competenza trasversale e sovraordinata rispetto alla risoluzione dei problemi. I 18 bambini partecipanti all’indagine, di età compresa tra gli 8 e i 9 anni, hanno svolto attività di let- tura, comprensione e risoluzione dei problemi di matematica, alternando la lezione con pause, durante le quali hanno eseguito movimenti corporei riferibili a componenti visivo-gestuali della LIS (Lingua Italiana dei Segni). All’interno dello studio di caso, per la natura esplorativa dell’indagine, abbiamo scelto di usare il modello pre-sperimentale. L ’obiettivo principale è stato quello di raccogliere dati preliminari in un contesto reale, piuttosto che stabilire relazioni causali definitive. La scelta è stata influenzata anche da vincoli pratici: la limitata possibilità di utilizzare metodi qualitativi più complessi e dispendiosi in termini di tempo. Siamo consapevoli che il numero ridotto di soggetti non permette di trarre robuste inferenze dall’analisi statistica. Dunque, questa ricerca ha caratteristiche del case study e dello studio sperimentale. È uno studio di caso per il numero di soggetti e l’analisi delle risposte in un contesto specifico. È un’indagine pre-speri - mentale perché prevede un intervento (trattamento) e una misurazione dei risultati (pre-test e post-test su un unico gruppo), nel tentativo di esplorare una relazione causale. Gli esiti di apprendimento sono brevemente presentati e discussi, proprio per mostrare i potenziali effetti dell’azione alternativa ed annoverarne le problematicità. 2. Quadro teorico Negli ultimi decenni, rilevazioni nazionali ed indagini internazionali hanno evidenziato che gli studenti italiani incontrano difficoltà a risolvere i problemi, non tanto per carenze nelle conoscenze o nelle abilità matematiche, quanto per una limitata capacità di interpretare il testo e costruire una rappresentazione mentale della situazione1. I limiti della comprensione del testo scritto, emersi anche in recenti studi italiani (Zan, 2016; Demartini & Sbaragli, 2019; Cardarello & Bertolini, 2020), sono un ostacolo allo sviluppo logico-matematico dei bambini perché capire ciò che si legge è una capacità chiave per il successo nella risoluzione di problemi matematici. Le eventuali carenze nelle conoscenze e nelle capacità inferenziali producono nei bambini difficoltà nel risolvere i problemi. Per arrivare alla soluzione, sono necessarie “operazioni testuali” quali l’individuazione delle informazioni rilevanti, il richiamo delle conoscenze acquisite, l’elaborazione di ipotesi e il controllo della loro validità. Inoltre, è essenziale la riflessione su ciò che si sta facendo. Lo scopo principale dell’insegnamento della matematica è quello di consentire agli alunni di risolvere problemi nella vita quotidiana, di sviluppare competenze di problem solving. Le difficoltà nella compren- sione dei problemi matematici incidono negativamente sul processo di problem solving. Il modello di Pólya è un approccio euristico e sistematico alla risoluzione dei problemi (Schoenfeld, 1 https://www.invalsi.it/invalsi/index.php 27 Volume 4 | n. 2 | dicembre 2025 | pp. 25-44Effetti di Lettura Effects of Reading",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-10-01",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-10-01",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Francesca Anello, Alice Levantino",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Francesca Anello, Alice Levantino",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8379\\2785-7050_8379.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Migliorare le capacità dei bambini di leggere, comprendere e risolvere problemi di matematica con lo Spaced Learning",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Improving children’s skills to read, understand and solve mathematical problems through Spaced Learning",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Improving children’s skills to read, understand and solve mathematical problems through Spaced Learning",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Reading comprehension is a key tool for solving a mathematical problem. Before mobilizing a set of mathematical skills, it is essential that students construct ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La comprensione in lettura è un accesso privilegiato alla risoluzione di un problema di matematica. Prima di mobilitare una serie di competenze matematiche, è f",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

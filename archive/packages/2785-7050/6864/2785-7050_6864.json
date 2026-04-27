@@ -1,0 +1,981 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6864",
+  "scraped_at_utc": "2026-04-27T18:46:58Z",
+  "fetched_at_utc": "2026-04-27T18:46:58Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "2146a9d482001347168fdd6dbe07ada478141ebd7a64230153985b2b0aed28a1",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Paola Baioni",
+        "nameType": "Personal",
+        "givenName": "Paola",
+        "familyName": "Baioni",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Ph.D, Adjunct Professor of Italian Literature | Department of Philosophy and Education Sciences | University of Turin"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alessandra Sala",
+        "nameType": "Personal",
+        "givenName": "Alessandra",
+        "familyName": "Sala",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Scholarship Researcher | Department of Philosophy and Education Sciences | University of Turin"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6864",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-12-30",
+      "Issued": "2023-12-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The purpose of this contribution is to provide an overview of the brain processes that support reading skills, considering as well the difficulties that may impede a fully developed reading competence. We therefore address the biological and cultural origins of the neural circuits underlying the faculties of reading and writing from the perspective of neuroscience, and in particular Maryanne Wolf’s theories and findings, a world renowned cognitive neuro-scientist: starting from her essays Proust and the squid. The story and science of the reading brain (Wolf, 2009) and Reader, come home: the reading brain in a digital world (Wolf, 2018), we explore the vast implications that reading aloud produces on children in their first five years of life, referring specifically to early (or emergent) literacy development, as well as the impact that deep reading produces at multiple levels (cognitive, intellectual, emotional, affective and creative). Wolf introduces the concept of deep reading, referring to the ability of engaging with a text in a thoughtful, critical, and reflective way in order for the reader to make inferences from what they’ve read, but also to conceive new thoughts (Wolf, 2018, pp. 60–68): this capacity appears to be prerogative of the “expert reader”, and by exploring the stages that ideally lead to such profile, attention is paid to risk factors that may hinder reading progress, especially in situations of language deprivation and possible learning disabilities, such as dyslexia. Eventually, we consider the risks de-riving from excessive exposure to digital devices in the development of the executive functions, in-cluding attention, which is essential for analyzing and understanding complex texts.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Lo scopo di questo contributo è fornire una panoramica dei processi cerebrali che supportano le competenze di lettura, considerando anche le difficoltà che possono impedire lo sviluppo completo di una competenza di lettura. Vengono quindi affrontate le origini biologiche e culturali dei circuiti neurali che sostengono le capacità di lettura e scrittura dal punto di vista delle neuroscienze, in particolare secondo le teorie e le scoperte di Maryanne Wolf, una neuroscienziata cognitiva di fama mondiale: partendo dai suoi saggi “Proust and the squid. The story and science of the reading brain” (Wolf, 2009) e “Reader, come home: the reading brain in a digital world” (Wolf, 2018), esploriamo le ampie implicazioni che la lettura ad alta voce produce sui bambini nei loro primi cinque anni di vita, facendo riferimento specificamente allo sviluppo della letteratura emergente (o precoce), così come l’impatto che la lettura profonda produce a vari livelli (cognitivo, intellettuale, emotivo, affettivo e creativo). Wolf introduce il concetto di lettura profonda, riferendosi alla capacità di interagire con un testo in modo ponderato, critico e riflessivo al fine di trarre inferenze da ciò che si è letto, ma anche di concepire nuovi pensieri (Wolf, 2018, pp. 60-68): questa capacità sembra essere prerogativa del “lettore esperto”, ed esplorando le fasi che idealmente conducono a tale profilo, si presta attenzione ai fattori di rischio che possono ostacolare il progresso nella lettura, specialmente in situazioni di privazione linguistica e possibili disturbi dell’apprendimento, come la dislessia. Infine, vengono considerati i rischi derivanti dall’eccessiva esposizione ai dispositivi digitali nello sviluppo delle funzioni esecutive, compresa l’attenzione, che è essenziale per analizzare e comprendere testi complessi.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2023-04",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "abilità di lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "alfabetizzazione emergente",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Maryanne Wolf, arricchimento del vocabolario",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "dislessia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading skills",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "emergent literacy",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Maryanne Wolf",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "vocabulary enrichment",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "dyslexia",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6864/6054",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "2",
+      "citationStartPage": "044",
+      "citationEndPage": "058",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Baioni, P., & Sala, A. (2023). Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf. Effetti Di Lettura / Effects of Reading , 2 (2), 044–058. https://doi.org/10.7347/EdL-02-2023-04",
+      "articleTitleEcho": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Ardissino, E. (2021). Poesie e storie per costruire un lessico scientifico a 3-6 anni. In E. Ardissino, F. Bosc (a cura di), Curiosare, sperimentare, dire. Lessico e conoscenze scientifiche nella scuola dell’infanzia (181–200). Franco Cesati Editore.",
+        "Ardissino, E. (2017). Lettura e letteratura. In E. Ardissino (a cura di), Insegnare a apprendere italiano nella scuola dell’infanzia e primaria (pp. 3–20). Mondadori Università.",
+        "Ardissino, E. (a cura di) (2010). Leggere poesia. 50 proposte didattiche per la scuola primaria. Erickson.",
+        "Batini, F. (2021). La lettura ad alta voce, per lo sviluppo del linguaggio, la comprensione di sé, degli altri, del mondo: la lettura ad alta voce come atto di cura. In V. Alastra, Cura di sé cura dell'altro e Humanities (pp.159–172). Pensa Multimedia.",
+        "Bortolotti, E., Zanon, F. (2006). Quando leggere diventa difficile. Il ruolo della didattica. Carocci editore.",
+        "Bosc, F. (2019). Poesia e lessico nella scuola primaria: primi risultati di un progetto. Italiano LinguaDue, 11(1), 443–452. https://doi.org/10.13130/2037-3597/11861",
+        "Coggi, C. (2015). Favorire il successo a scuola: il Programma Fenix dall’infanzia alla secondaria. Pensa Multimedia.",
+        "Commissione Europea, Agenzia esecutiva per l'istruzione, gli audiovisivi e la cultura (EACEA P9 Eurydice) (2011). Insegnare a leggere in Europa: contesti, politiche e pratiche. https://eurydice.indire.it/wp-content/uploads/2017/06/Teaching_reading_IT.pdf",
+        "Dallari, M. (2021). La zattera della bellezza. Per traghettare il principio di piacere nell’avventura educativa. Il Margine.",
+        "Dehaene, S. (2009). I neuroni della lettura. Raffaello Cortina Editore.",
+        "Decreto ministeriale n° 254 del 16 novembre 2012. Indicazioni nazionali per il curricolo della scuola dell'infanzia e del primo ciclo d'istruzione. Gazzetta Ufficiale n. 30 del 5 febbraio 2013. https://www.gazzettaufficiale.it/eli/id/2013/02/05/13G00034/sg",
+        "Fioroni, F. (2013). Neuroscienze e lettura. ENTHYMEMA, (8), 223–229. https://doi.org/10.13130/2037-2426/3039",
+        "Gilkerson, J., Richards, J. A., Warren, S. F., Montgomery, J. K., Greenwood, C. R., Oller, D., Hansen, J. H. L. and Paul, T. D. (2017). Mapping the Early Language Environment Using All-Day Recordings and Automated Analysis. American Journal of Speech-Language Pathology, 26(2), 248-265. https://doi.org/10.1044/2016_AJSLP-15-0169",
+        "Haverlock, E. A. (1976). Origins of Western Literacy. Four Lectures delivered at the Ontario Institute for Studies in Education, Toronto, March 25–28, 1974, Toronto: Ontario Institute for Studies in Education.",
+        "LEGGE n. 170, 8 ottobre 2010, Nuove norme in materia di disturbi specifici di apprendimento in ambito scolastico. Gazzetta Ufficiale N. 244 del 18 Ottobre 2010. https://www.istruzione.it/esame_di_stato/Primo_Ciclo/normativa/allegati/legge170_10.pdf",
+        "Negri, M. (2020). L’avventura del lettore: la letteratura come esperienza. In L. Cantatore, N. Galli Laforest, G. Grilli, M. Negri, G. Piccinini, I. Tondardini, E. Varrà, In cerca di guai. Studiare la letteratura per l’infanzia (205–251). Edizioni Junior.",
+        "Olson, D. (1977). From Utterance to Text: The Bias of Language in Speech and Writing. Harvard Educational Review 47 (3), (pp. 257–281), https://doi.org/10.17763/haer.47.3.8840364413869005",
+        "Pennac, D. (2008). Diario di scuola, Giangiacomo Feltrinelli Editore.",
+        "Pinto, G., Bigozzi, L. (a cura di) (2002). Laboratorio di lettura e scrittura. Percorsi precoci per la consapevolezza fonologica, testuale e pragmatica. Edizioni Erickson.",
+        "Platone, Bonazzi, M. (traduzione e cura di) (2011). Fedro. Einaudi Editore.",
+        "Pontecorvo, C. (1991). Dalla costruzione del sistema di scrittura all’attività dello scrivere. In Orsolini, M. e Pontecorvo, C. (a cura di), La costruzione del testo scritto nei bambini (pp. 29–53). La Nuova Italia.",
+        "Sala, A. (2023, settembre). Il ruolo della lettura ad alta voce nell’alfabetizzazione emergente. Implicazioni cognitive ed emotive delle storie nello sviluppo linguistico. Rivista Infanzia n. 3 (luglio/settembre), pp. 40–45. http://www.rivistainfanzia.it",
+        "Terrusi, M. (2011). Leggere il visibile: il mondo figurato delle pagine. Forma e poetica dei libri per la prima infanzia. In E. Beseghi, G. Grilli (a cura di), La letteratura invisibile. Infanzia e libri per bambini (143–164). Carocci editore.",
+        "Todorov, T. (2008). La letteratura in pericolo, Garzanti.",
+        "Wolf, M. (2009). Proust e il calamaro. Storia e scienza del cervello che legge. Vita e Pensiero.",
+        "Wolf, M. (2018). Lettore, vieni a casa. Il cervello che legge in un mondo digitale. Vita e pensiero."
+      ],
+      "count": 26,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6864",
+    "article_ID": "6864",
+    "slug": "6864",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6864",
+      "url_slug": "6864"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "The neurobiological, cognitive and cultural implications of the brain learning to read: an overview starting from the studies of Maryanne Wolf",
+        "lang": "en",
+        "role": "main",
+        "source": "locale:en_US:meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-11-09",
+      "accepted": null,
+      "created": "2023-12-30",
+      "modified": "2024-06-25",
+      "issued": "2023-12-30",
+      "available": "2023-12-30",
+      "submitted_page": "2023-11-09",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+        "pdf_value": null,
+        "chosen_value": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-09",
+        "pdf_value": null,
+        "chosen_value": "2023-11-09",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6864/6054",
+      "local_relative_path": "2785-7050_6864.pdf",
+      "saved": true,
+      "sha256": "f78c654b385ab0647b000eb903b28ed4139bebd8e714b082e4cace72547ff17d",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 2646456,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Paola Baioni",
+        "Alessandra Sala"
+      ],
+      "citation_author_institution": [
+        "Ph.D, Adjunct Professor of Italian Literature | Department of Philosophy and Education Sciences | University of Turin",
+        "Scholarship Researcher | Department of Philosophy and Education Sciences | University of Turin"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/12/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2023-04"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6864"
+      ],
+      "citation_keywords": [
+        "abilità di lettura",
+        "alfabetizzazione emergente",
+        "Maryanne Wolf, arricchimento del vocabolario",
+        "dislessia"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6864/6054"
+      ],
+      "citation_reference_count": 26,
+      "DC.Date.created": [
+        "2023-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-11-09"
+      ],
+      "DC.Date.issued": [
+        "2023-12-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6864"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2023-04"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6864"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf"
+      ],
+      "DC.Title.Alternative": [
+        "The neurobiological, cognitive and cultural implications of the brain learning to read: an overview starting from the studies of Maryanne Wolf"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Paola Baioni",
+        "Alessandra Sala"
+      ],
+      "citation_author_institution": [
+        "Ph.D, Adjunct Professor of Italian Literature | Department of Philosophy and Education Sciences | University of Turin",
+        "Scholarship Researcher | Department of Philosophy and Education Sciences | University of Turin"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Paola Baioni",
+        "Alessandra Sala"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The purpose of this contribution is to provide an overview of the brain processes that support reading skills, considering as well the difficulties that may impede a fully developed reading competence. We therefore address the biological and cultural origins of the neural circuits underlying the faculties of reading and writing from the perspective of neuroscience, and in particular Maryanne Wolf’s theories and findings, a world renowned cognitive neuro-scientist: starting from her essays Proust and the squid. The story and science of the reading brain (Wolf, 2009) and Reader, come home: the reading brain in a digital world (Wolf, 2018), we explore the vast implications that reading aloud produces on children in their first five years of life, referring specifically to early (or emergent) literacy development, as well as the impact that deep reading produces at multiple levels (cognitive, intellectual, emotional, affective and creative). Wolf introduces the concept of deep reading, referring to the ability of engaging with a text in a thoughtful, critical, and reflective way in order for the reader to make inferences from what they’ve read, but also to conceive new thoughts (Wolf, 2018, pp. 60–68): this capacity appears to be prerogative of the “expert reader”, and by exploring the stages that ideally lead to such profile, attention is paid to risk factors that may hinder reading progress, especially in situations of language deprivation and possible learning disabilities, such as dyslexia. Eventually, we consider the risks de-riving from excessive exposure to digital devices in the development of the executive functions, in-cluding attention, which is essential for analyzing and understanding complex texts.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The purpose of this contribution is to provide an overview of the brain processes that support reading skills, considering as well the difficulties that may impede a fully developed reading competence. We therefore address the biological and cultural origins of the neural circuits underlying the faculties of reading and writing from the perspective of neuroscience, and in particular Maryanne Wolf’s theories and findings, a world renowned cognitive neuro-scientist: starting from her essays Proust and the squid. The story and science of the reading brain (Wolf, 2009) and Reader, come home: the reading brain in a digital world (Wolf, 2018), we explore the vast implications that reading aloud produces on children in their first five years of life, referring specifically to early (or emergent) literacy development, as well as the impact that deep reading produces at multiple levels (cognitive, intellectual, emotional, affective and creative). Wolf introduces the concept of deep reading, referring to the ability of engaging with a text in a thoughtful, critical, and reflective way in order for the reader to make inferences from what they’ve read, but also to conceive new thoughts (Wolf, 2018, pp. 60–68): this capacity appears to be prerogative of the “expert reader”, and by exploring the stages that ideally lead to such profile, attention is paid to risk factors that may hinder reading progress, especially in situations of language deprivation and possible learning disabilities, such as dyslexia. Eventually, we consider the risks de-riving from excessive exposure to digital devices in the development of the executive functions, in-cluding attention, which is essential for analyzing and understanding complex texts."
+          }
+        },
+        {
+          "content": "Lo scopo di questo contributo è fornire una panoramica dei processi cerebrali che supportano le competenze di lettura, considerando anche le difficoltà che possono impedire lo sviluppo completo di una competenza di lettura. Vengono quindi affrontate le origini biologiche e culturali dei circuiti neurali che sostengono le capacità di lettura e scrittura dal punto di vista delle neuroscienze, in particolare secondo le teorie e le scoperte di Maryanne Wolf, una neuroscienziata cognitiva di fama mondiale: partendo dai suoi saggi “Proust and the squid. The story and science of the reading brain” (Wolf, 2009) e “Reader, come home: the reading brain in a digital world” (Wolf, 2018), esploriamo le ampie implicazioni che la lettura ad alta voce produce sui bambini nei loro primi cinque anni di vita, facendo riferimento specificamente allo sviluppo della letteratura emergente (o precoce), così come l’impatto che la lettura profonda produce a vari livelli (cognitivo, intellettuale, emotivo, affettivo e creativo). Wolf introduce il concetto di lettura profonda, riferendosi alla capacità di interagire con un testo in modo ponderato, critico e riflessivo al fine di trarre inferenze da ciò che si è letto, ma anche di concepire nuovi pensieri (Wolf, 2018, pp. 60-68): questa capacità sembra essere prerogativa del “lettore esperto”, ed esplorando le fasi che idealmente conducono a tale profilo, si presta attenzione ai fattori di rischio che possono ostacolare il progresso nella lettura, specialmente in situazioni di privazione linguistica e possibili disturbi dell’apprendimento, come la dislessia. Infine, vengono considerati i rischi derivanti dall’eccessiva esposizione ai dispositivi digitali nello sviluppo delle funzioni esecutive, compresa l’attenzione, che è essenziale per analizzare e comprendere testi complessi.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Lo scopo di questo contributo è fornire una panoramica dei processi cerebrali che supportano le competenze di lettura, considerando anche le difficoltà che possono impedire lo sviluppo completo di una competenza di lettura. Vengono quindi affrontate le origini biologiche e culturali dei circuiti neurali che sostengono le capacità di lettura e scrittura dal punto di vista delle neuroscienze, in particolare secondo le teorie e le scoperte di Maryanne Wolf, una neuroscienziata cognitiva di fama mondiale: partendo dai suoi saggi “Proust and the squid. The story and science of the reading brain” (Wolf, 2009) e “Reader, come home: the reading brain in a digital world” (Wolf, 2018), esploriamo le ampie implicazioni che la lettura ad alta voce produce sui bambini nei loro primi cinque anni di vita, facendo riferimento specificamente allo sviluppo della letteratura emergente (o precoce), così come l’impatto che la lettura profonda produce a vari livelli (cognitivo, intellettuale, emotivo, affettivo e creativo). Wolf introduce il concetto di lettura profonda, riferendosi alla capacità di interagire con un testo in modo ponderato, critico e riflessivo al fine di trarre inferenze da ciò che si è letto, ma anche di concepire nuovi pensieri (Wolf, 2018, pp. 60-68): questa capacità sembra essere prerogativa del “lettore esperto”, ed esplorando le fasi che idealmente conducono a tale profilo, si presta attenzione ai fattori di rischio che possono ostacolare il progresso nella lettura, specialmente in situazioni di privazione linguistica e possibili disturbi dell’apprendimento, come la dislessia. Infine, vengono considerati i rischi derivanti dall’eccessiva esposizione ai dispositivi digitali nello sviluppo delle funzioni esecutive, compresa l’attenzione, che è essenziale per analizzare e comprendere testi complessi."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "abilità di lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "abilità di lettura"
+          }
+        },
+        {
+          "content": "alfabetizzazione emergente",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "alfabetizzazione emergente"
+          }
+        },
+        {
+          "content": "Maryanne Wolf, arricchimento del vocabolario",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Maryanne Wolf, arricchimento del vocabolario"
+          }
+        },
+        {
+          "content": "dislessia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "dislessia"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6864/6054",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6864/6054",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6864/6054",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2024-01-29",
+        "mod_date": "2024-01-29"
+      },
+      "front_text_excerpt": "ABSTRACT The purpose of this contribution is to provide an overview of the brain processes that support reading skills, considering as well the difficulties that may impede a fully developed reading competence. We therefore address the biological and cultural origins of the neural circuits underlying the faculties of reading and writing from the perspective of neuroscience, and in particular Maryanne Wolf’s theories and findings, a world renowned cognitive neuro-scientist: starting from her essays Proust and the squid. The story and science of the reading brain (Wolf, 2009) and Reader, come home: the reading brain in a digital world (Wolf, 2018), we explore the vast implications that reading aloud produces on chil- dren in their first five years of life, referring specifically to early (or emergent) literacy development, as well as the impact that deep reading produces at multiple levels (cognitive, intellectual, emotional, affective and creative). Wolf introduces the concept of deep reading, referring to the ability of engaging with a text in a thoughtful, critical, and reflective way in order for the reader to make inferences from what they’ve read, but also to conceive new thoughts (Wolf, 2018, pp. 60–68): this capacity appears to be prerogative of the “expert reader”, and by exploring the stages that ideally lead to such profile, attention is paid to risk factors that may hinder reading progress, especially in situations of language deprivation and possible learning disabilities, such as dyslexia. Eventually, we consider the risks de - riving from excessive exposure to digital devices in the development of the executive functions, in - cluding attention, which is essential for analyzing and understanding complex texts. Keywords: reading skills, emergent literacy, Maryanne Wolf, vocabulary enrichment, dyslexia Citation: Baioni, P ., & Sala, A. (2023). The neurobiological, cognitive and cultural implications of the brain learning to read: an overview starting from the studies of Maryanne Wolf. Effetti di Lettura / Effects of Reading, 2(2), 44-58. https://doi.org/10.7347/EdL-02-2023-04. Corresponding Author: Paola Baioni | paola.baioni@unito.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-04 Authorship: Il presente contributo può essere attribuito per i paragrafi 1, 2 e 3 a Paola Baioni; per i paragrafi 4, 5, 6 e 7 ad Alessan- dra Sala. Paola Baioni Ph.D, Adjunct Professor of Italian Literature | Department of Philosophy and Education Sciences | University of T urin | paola.baioni@unito.it Alessandra Sala Scholarship Researcher | Department of Philosophy and Education Sciences | University of T urin | alessandra.sala@unito.it Double blind peer review The neurobiological, cognitive and cultural implications of the brain learning to read: an overview starting from the studies of Maryanne Wolf Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6864\\2785-7050_6864.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+        "pdf_value": null,
+        "chosen_value": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-11-09",
+        "pdf_value": null,
+        "chosen_value": "2023-11-09",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6864",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6864",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:58Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:47:00Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6864",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6864",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6864",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6864",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6864\\2785-7050_6864.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:47:02Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6864\\2785-7050_6864.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+        "submitted_date": "2023-11-09",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Paola Baioni",
+          "Alessandra Sala"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6864\\2785-7050_6864.pdf",
+        "generated_at_utc": "2026-04-27T18:47:02Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2024-01-29",
+          "mod_date": "2024-01-29"
+        },
+        "front_text_excerpt": "ABSTRACT The purpose of this contribution is to provide an overview of the brain processes that support reading skills, considering as well the difficulties that may impede a fully developed reading competence. We therefore address the biological and cultural origins of the neural circuits underlying the faculties of reading and writing from the perspective of neuroscience, and in particular Maryanne Wolf’s theories and findings, a world renowned cognitive neuro-scientist: starting from her essays Proust and the squid. The story and science of the reading brain (Wolf, 2009) and Reader, come home: the reading brain in a digital world (Wolf, 2018), we explore the vast implications that reading aloud produces on chil- dren in their first five years of life, referring specifically to early (or emergent) literacy development, as well as the impact that deep reading produces at multiple levels (cognitive, intellectual, emotional, affective and creative). Wolf introduces the concept of deep reading, referring to the ability of engaging with a text in a thoughtful, critical, and reflective way in order for the reader to make inferences from what they’ve read, but also to conceive new thoughts (Wolf, 2018, pp. 60–68): this capacity appears to be prerogative of the “expert reader”, and by exploring the stages that ideally lead to such profile, attention is paid to risk factors that may hinder reading progress, especially in situations of language deprivation and possible learning disabilities, such as dyslexia. Eventually, we consider the risks de - riving from excessive exposure to digital devices in the development of the executive functions, in - cluding attention, which is essential for analyzing and understanding complex texts. Keywords: reading skills, emergent literacy, Maryanne Wolf, vocabulary enrichment, dyslexia Citation: Baioni, P ., & Sala, A. (2023). The neurobiological, cognitive and cultural implications of the brain learning to read: an overview starting from the studies of Maryanne Wolf. Effetti di Lettura / Effects of Reading, 2(2), 44-58. https://doi.org/10.7347/EdL-02-2023-04. Corresponding Author: Paola Baioni | paola.baioni@unito.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-04 Authorship: Il presente contributo può essere attribuito per i paragrafi 1, 2 e 3 a Paola Baioni; per i paragrafi 4, 5, 6 e 7 ad Alessan- dra Sala. Paola Baioni Ph.D, Adjunct Professor of Italian Literature | Department of Philosophy and Education Sciences | University of T urin | paola.baioni@unito.it Alessandra Sala Scholarship Researcher | Department of Philosophy and Education Sciences | University of T urin | alessandra.sala@unito.it Double blind peer review The neurobiological, cognitive and cultural implications of the brain learning to read: an overview starting from the studies of Maryanne Wolf Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "patrimonio della letteratura per l’infanzia, gli insegnanti hanno dalla loro parte un repertorio di storie la cui ricchezza linguistica affascina anche gli ascoltatori più piccoli. Basti pensare alla poesia (non solo a quella per bambini, ma anche alla poesia d’autore), un genere che dalla bellezza delle sue sonorità trae la sua specificità (Ardissino, 2010, p. 33), per trovare una valida alleata nell’arricchimento del lessico, anche quando questo non viene compreso immediatamente nella sua totalità. In riferimento a ciò, Franca Bosc sottolinea: La poesia si presta a migliorare il lessico perché la parola dei poeti è scelta, varia e ricca ed è anche ar- ricchente dal punto di vista umano ed emozionale, favorisce lo sviluppo dell’empatia (di cui c’è molto bisogno oggi per prevenire bullismo e altre forme di devianza), è un genere che piace ai bambini, anche quando non si presenta di immediata comprensione. Essa favorisce la creatività e l’immaginazione, ma anche il pensiero (Bosc, 2019, p. 444). Nella poesia è il suono, prima del significato, a saper comunicare intimamente ai lettori (o agli ascol - tatori) di ogni età qualcosa di originale, tanto piacevole quanto misterioso; e anche quando la poesia può non essere seguita o compresa nella sua totalità, molti sono i frammenti che si propagherebbero dalla sua lettura, lasciando all’innata sensibilità verso la lingua madre il compito creativo di rammendare lacune o strappi della comprensione. A questo proposito, Erminia Ardissino cita il racconto emblematico di Do - menico Starnone nello studio di Pianto antico di Carducci, dove “i bei vermigli fior” per lui e i suoi com- pagni erano “piccoli vermi comodamente posati sui fiori di melograno” (Starnone, 1998, p. 11, in Ardissino, 2021, p. 184). Ardissino continua dicendo che tale incomprensione ... non ha impedito a Starnone di diventare scrittore e dare il suo contributo culturale all’Italia di oggi. Forse anche lo studio di Pianto antico gli ha fornito gli strumenti lessicali che lo hanno accompagnato nella vita professionale (Ardissino, 2021, p. 184). L ’apprendimento lessicale è dunque uno degli aspetti chiave che influenzano l’apprendimento formale della lettura e che ne supporteranno le fasi successive, fino all’ideale raggiungimento di un tipo di lettura profonda, conditio sine qua non per poter approcciare un testo complesso in maniera riflessiva e critica; tra le difficoltà che possono ostacolarne il raggiungimento, si citano nel testo situazioni di deprivazione lin - guistica, disturbi specifici dell’apprendimento e un’esposizione massiva ai mezzi digitali, la cui ipertestualità, soprattutto nei primi anni di vita, può influenzare negativamente la formazione dei processi di attenzione e memoria (Wolf, 2018, pp. 103-114). Come si vedrà in modo più approfondito, il cervello umano, pur non essendo fatto per la lettura, vi si riconverte grazie alla sua innata plasticità (Fioroni, 2013, p. 225), proprietà che tuttavia può giocare a suo sfavore nel caso di un cervello continuamente esposto a stimoli immediati e costanti sui quali plasmarsi. Per comprendere meglio i rischi, è tuttavia necessario partire dalle basi neurobiologiche del cervello che impara a leggere. 2. Significati neurobiologici dei processi di lettura Se dunque non siamo stati progettati per leggere, nel senso che non esistono strutture cerebrali specifiche né geni deputati a tale funzione (Wolf, 2009, p. 9), com’è possibile l’esistenza del cervello che legge? Da un punto di vista neurobiologico, il cervello umano può essere definito attraverso l’espressione informatica di “architettura aperta, per descrivere un sistema sufficientemente versatile per cambiare – o riorganizzarsi – al fine di rispondere a richieste in trasformazione” (Wolf, 2009, p. 11). Alla base del suo funzionamento 46 Volume 2 | n. 2 | dicembre 2023 | pp. 44-58Effetti di Lettura Effects of Reading",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-11-09",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-11-09",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6864\\2785-7050_6864.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Le implicazioni neurobiologiche, cognitive e culturali del cervello che impara a leggere: una panoramica a partire dagli studi di Maryanne Wolf",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "The neurobiological, cognitive and cultural implications of the brain learning to read: an overview starting from the studies of Maryanne Wolf",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The neurobiological, cognitive and cultural implications of the brain learning to read: an overview starting from the studies of Maryanne Wolf",
+            "dropped_source": "locale:it_IT:meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The purpose of this contribution is to provide an overview of the brain processes that support reading skills, considering as well the difficulties that may imp",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Lo scopo di questo contributo è fornire una panoramica dei processi cerebrali che supportano le competenze di lettura, considerando anche le difficoltà che poss",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

@@ -1,0 +1,912 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5716",
+  "scraped_at_utc": "2026-04-27T18:44:55Z",
+  "fetched_at_utc": "2026-04-27T18:44:55Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "ddb03ee96fd6a87da898521dd9c7574a511c83fc9774ff3930bebc49e9400d1a",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Reading your way to yourself",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Mitchell Green",
+        "nameType": "Personal",
+        "givenName": "Mitchell",
+        "familyName": "Green",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Full professor | University of Connecticut (USA)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5716",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-30",
+      "Issued": "2022-06-30"
+    },
+    "language": {
+      "value": "en",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "Many readers of literature are convinced that engagement with it provides insight into the human condition, as well as helping them to become better people. This conviction turns out to be more controversial than it appears, and arguments as well as experimental studies have been marshalled supporting both sides of the debate. That debate has however focused on literature’s capacity to pro-vide knowledge of the world around us. Recent developments in Philosophy have instead highlighted distinctive features of understanding in contrast to knowledge, and in this essay I argue that a ne-glected aspect of literature’s epistemic power is its ability to provide understanding, and in particular self-understanding as we reflect on our reactions to the narratives that make up the core of our enga-gement with literature.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Molti lettori di letteratura sono convinti che il loro impegno con essa offra una comprensione della condizione umana, oltre ad aiutarli a diventare persone migliori. Questa convinzione si rivela essere più controversa di quanto sembri: argomenti e studi sperimentali sono stati presentati a supporto di entrambe le parti del dibattito. Tale dibattito si è tuttavia concentrato sulla capacità della letteratura di fornire conoscenza del mondo che ci circonda. Sviluppi recenti in filosofia hanno invece evidenziato alcune caratteristiche distintive della comprensione rispetto alla conoscenza. Nel presente saggio si sostiene che un aspetto trascurato del potere epistemico della letteratura sia la sua capacità di fornire comprensione e, in particolare, auto-comprensione mentre riflettiamo sulle nostre reazioni alle narrazioni, che costituiscono il cuore del nostro impegno con la letteratura.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2022-03",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "1",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "comprensione di sé",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "narrazioni",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "self-understanding",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "narratives",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5716/4911",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "1",
+      "citationIssue": "1",
+      "citationStartPage": "030",
+      "citationEndPage": "034",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Green , M. (2022). Leggere: la tua strada verso te stesso. Effetti Di Lettura / Effects of Reading , 1 (1), 030–034. https://doi.org/10.7347/EdL-01-2022-03",
+      "articleTitleEcho": "Reading your way to yourself"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_5716",
+    "article_ID": "5716",
+    "slug": "5716",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "5716",
+      "url_slug": "5716"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Reading your way to yourself",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Leggere: la tua strada verso te stesso",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-07-11",
+      "accepted": null,
+      "created": "2022-06-30",
+      "modified": "2024-06-24",
+      "issued": "2022-06-30",
+      "available": "2022-06-30",
+      "submitted_page": "2022-07-11",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Reading your way to yourself",
+        "pdf_value": null,
+        "chosen_value": "Reading your way to yourself",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5716/4911",
+      "local_relative_path": "2785-7050_5716.pdf",
+      "saved": true,
+      "sha256": "d27e1418835f03fe679d27497ab09e4e84eaa32db6ad256f87fb6944d289e960",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1783237,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Mitchell Green"
+      ],
+      "citation_author_institution": [
+        "Full professor | University of Connecticut (USA)"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Reading your way to yourself"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2022/06/30"
+      ],
+      "citation_volume": [
+        "1"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2022-03"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5716"
+      ],
+      "citation_keywords": [
+        "lettura",
+        "comprensione di sé",
+        "narrazioni"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/5716/4911"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2022-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-07-11"
+      ],
+      "DC.Date.issued": [
+        "2022-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-24"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "5716"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2022-03"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5716"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "1"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 3,
+      "DC.Title": [
+        "Leggere: la tua strada verso te stesso"
+      ],
+      "DC.Title.Alternative": [
+        "Leggere: la tua strada verso te stesso"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Mitchell Green"
+      ],
+      "citation_author_institution": [
+        "Full professor | University of Connecticut (USA)"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Mitchell Green"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Many readers of literature are convinced that engagement with it provides insight into the human condition, as well as helping them to become better people. This conviction turns out to be more controversial than it appears, and arguments as well as experimental studies have been marshalled supporting both sides of the debate. That debate has however focused on literature’s capacity to pro-vide knowledge of the world around us. Recent developments in Philosophy have instead highlighted distinctive features of understanding in contrast to knowledge, and in this essay I argue that a ne-glected aspect of literature’s epistemic power is its ability to provide understanding, and in particular self-understanding as we reflect on our reactions to the narratives that make up the core of our enga-gement with literature.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Many readers of literature are convinced that engagement with it provides insight into the human condition, as well as helping them to become better people. This conviction turns out to be more controversial than it appears, and arguments as well as experimental studies have been marshalled supporting both sides of the debate. That debate has however focused on literature’s capacity to pro-vide knowledge of the world around us. Recent developments in Philosophy have instead highlighted distinctive features of understanding in contrast to knowledge, and in this essay I argue that a ne-glected aspect of literature’s epistemic power is its ability to provide understanding, and in particular self-understanding as we reflect on our reactions to the narratives that make up the core of our enga-gement with literature."
+          }
+        },
+        {
+          "content": "Molti lettori di letteratura sono convinti che il loro impegno con essa offra una comprensione della condizione umana, oltre ad aiutarli a diventare persone migliori. Questa convinzione si rivela essere più controversa di quanto sembri: argomenti e studi sperimentali sono stati presentati a supporto di entrambe le parti del dibattito. Tale dibattito si è tuttavia concentrato sulla capacità della letteratura di fornire conoscenza del mondo che ci circonda. Sviluppi recenti in filosofia hanno invece evidenziato alcune caratteristiche distintive della comprensione rispetto alla conoscenza. Nel presente saggio si sostiene che un aspetto trascurato del potere epistemico della letteratura sia la sua capacità di fornire comprensione e, in particolare, auto-comprensione mentre riflettiamo sulle nostre reazioni alle narrazioni, che costituiscono il cuore del nostro impegno con la letteratura.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Molti lettori di letteratura sono convinti che il loro impegno con essa offra una comprensione della condizione umana, oltre ad aiutarli a diventare persone migliori. Questa convinzione si rivela essere più controversa di quanto sembri: argomenti e studi sperimentali sono stati presentati a supporto di entrambe le parti del dibattito. Tale dibattito si è tuttavia concentrato sulla capacità della letteratura di fornire conoscenza del mondo che ci circonda. Sviluppi recenti in filosofia hanno invece evidenziato alcune caratteristiche distintive della comprensione rispetto alla conoscenza. Nel presente saggio si sostiene che un aspetto trascurato del potere epistemico della letteratura sia la sua capacità di fornire comprensione e, in particolare, auto-comprensione mentre riflettiamo sulle nostre reazioni alle narrazioni, che costituiscono il cuore del nostro impegno con la letteratura."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura"
+          }
+        },
+        {
+          "content": "comprensione di sé",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "comprensione di sé"
+          }
+        },
+        {
+          "content": "narrazioni",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "narrazioni"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5716/4911",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5716/4911",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5716/4911",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 16.32",
+        "producer": "QuarkXPress(R) 16.32",
+        "keywords": null,
+        "creation_date": "2022-07-20",
+        "mod_date": "2022-07-20"
+      },
+      "front_text_excerpt": "ABSTRACT Many readers of literature are convinced that engagement with it provides insight into the human condition, as well as helping them to become better people. This conviction turns out to be more controversial than it appears, and arguments as well as experimental studies have been marshalled supporting both sides of the debate. That debate has however focused on literature’s capacity to pro- vide knowledge of the world around us. Recent developments in Philosophy have instead highlighted distinctive features of understanding in contrast to knowledge, and in this essay I argue that a ne - glected aspect of literature’s epistemic power is its ability to provide understanding, and in particular self-understanding as we reflect on our reactions to the narratives that make up the core of our enga- gement with literature. Keywords: reading, self-understanding, narratives Citation: Green, M. (2022). Reading your way to yourself. Effetti di Lettura / Effects of Reading, 1(1), 30–34. https://doi.org/10.7347/EdL- 01-2022-03. Corresponding Author: Mitchell Green | mitchell.green@uconn.edu Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-03 Mitchell Green Full professor | University of Connecticut (USA) mitchell.green@uconn.edu Double blind peer review Reading your way to yourself Leggere: la tua strada verso te stesso Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\5716\\2785-7050_5716.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Reading your way to yourself",
+        "pdf_value": null,
+        "chosen_value": "Reading your way to yourself",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Leggere: la tua strada verso te stesso | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5716",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5716",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:44:55Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:44:57Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5716",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5716",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 3,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5716",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5716",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5716\\2785-7050_5716.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:44:59Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5716\\2785-7050_5716.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Reading your way to yourself",
+        "submitted_date": "2022-07-11",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "en",
+        "creator_names": [
+          "Mitchell Green"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5716\\2785-7050_5716.pdf",
+        "generated_at_utc": "2026-04-27T18:44:59Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 16.32",
+          "producer": "QuarkXPress(R) 16.32",
+          "keywords": null,
+          "creation_date": "2022-07-20",
+          "mod_date": "2022-07-20"
+        },
+        "front_text_excerpt": "ABSTRACT Many readers of literature are convinced that engagement with it provides insight into the human condition, as well as helping them to become better people. This conviction turns out to be more controversial than it appears, and arguments as well as experimental studies have been marshalled supporting both sides of the debate. That debate has however focused on literature’s capacity to pro- vide knowledge of the world around us. Recent developments in Philosophy have instead highlighted distinctive features of understanding in contrast to knowledge, and in this essay I argue that a ne - glected aspect of literature’s epistemic power is its ability to provide understanding, and in particular self-understanding as we reflect on our reactions to the narratives that make up the core of our enga- gement with literature. Keywords: reading, self-understanding, narratives Citation: Green, M. (2022). Reading your way to yourself. Effetti di Lettura / Effects of Reading, 1(1), 30–34. https://doi.org/10.7347/EdL- 01-2022-03. Corresponding Author: Mitchell Green | mitchell.green@uconn.edu Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-03 Mitchell Green Full professor | University of Connecticut (USA) mitchell.green@uconn.edu Double blind peer review Reading your way to yourself Leggere: la tua strada verso te stesso Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "mind, such as the feel of a grassy lawn you walked across this morning, or a scene from the movie you watched last night. These items of conscious experience are not difficult to know about: either you’re aware of them by virtue of their being a focus of your attention, or you can become aware of them with brief reflection. That is, it is not terribly difficult to achieve knowledge of our current conscious experience. Following Köppe and Langkau (2017), let’s use the term ‘self-knowledge’ to refer to our knowledge of those mental phenomena that make up our conscious experience at a given time or over time. More challenging than achieving self-knowledge is the project of coming to appreciate those of our emotions that last a long time (such as long-held resentments or wishes), as well as many of our character traits. These may be difficult to acknowledge due to their posing threats to our conception of ourselves. For instance, I’d like to think of myself as an easy-going and generous person, but then the resentment that a particular co-worker provokes in me had better be kept out of view so that my self-conception is not challenged. From what we have said about understanding, it will emerge that the project of self-understanding consists in coming to appreciate how our various behaviors, tendencies thereto, and chronic affective re- sponses to the world hang together in a unified whole. As such it will also give us some handle on what we would do in hypothetical situations that are not too far-removed from those we are in. So conceived, self-understanding is harder to attain than self-knowledge. We might seek self-under - standing through a long course of psychotherapy. Many people however lack the time and financial means for such an undertaking. We might instead seek self-understanding by talking to our friends, particularly those who are insightful, patient, and honest enough to tell us things we might not want to hear. Yet a third option is to seek such self-understanding by paying attention to our responses to works of fiction such as novels and short stories. In spite of their being populated by fictional characters, we may find our- selves admiring one character for his patience and fortitude (such as Gabriel Oak in Far from Madding Crowd), detest another for their hypocrisy (such as Lord Darlington in Remains of the Day), and even feel jealous of a third for their cleverness (such as the cook Chichibio in The Decameron). May such experiences be clues on a path to self-understanding? 3. Reading about others to understand yourself Here are some examples suggesting an affirmative answer. In Jane Eyre, the eponymous heroine has dis - covered that two sisters that had recently cared for her in a time of crisis are her cousins. Jane wishes to show her appreciation for their compassion as well as commemorate their new relationship. She now de- scribes to their ascetic brother how she will welcome them to the home they will share: My first aim will be to clean down… Moor House from chamber to cellar; my next to rub it up with bees-wax, oil, and an indefinite number of cloths, till it glitters again; my third, to arrange every chair, table, bed, carpet, with mathematical precision; afterwards I shall… keep up good fires in every room; and lastly, the two days preceding that on which your sisters are expected will be devoted…to such a beating of eggs, sorting of currants, grating of spices, compounding of Christmas cakes, chopping up of materials for mince-pies, and solemnising of other culinary rites, as words can convey but an inad- equate notion of to the uninitiated like you. My purpose, in short, is to have all things in an absolutely perfect state of readiness for Diana and Mary before next Thursday; and my ambition is to give them a beau-ideal of a welcome when they come (Bronte, Jane Eyre, Ch. 34). I have read Jane Eyre several times, and in each case the above passage produces a strong emotion. This is not merely because",
+        "body_language_guess": "en",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Reading your way to yourself",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Reading your way to yourself",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-07-11",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-07-11",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5716\\2785-7050_5716.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Reading your way to yourself",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "Leggere: la tua strada verso te stesso",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Leggere: la tua strada verso te stesso",
+            "dropped_source": "locale:it_IT:meta:DC.Title",
+            "kept_source": "meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Many readers of literature are convinced that engagement with it provides insight into the human condition, as well as helping them to become better people. Thi",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Molti lettori di letteratura sono convinti che il loro impegno con essa offra una comprensione della condizione umana, oltre ad aiutarli a diventare persone mig",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

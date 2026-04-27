@@ -1,0 +1,1022 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7129",
+  "scraped_at_utc": "2026-04-27T18:47:15Z",
+  "fetched_at_utc": "2026-04-27T18:47:15Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "5c8e8b98018d1aa953fcff8ba0a7cb0fea5fe8ae9fb676168648f71bdd801e4e",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Laura Ceccacci",
+        "nameType": "Personal",
+        "givenName": "Laura",
+        "familyName": "Ceccacci",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Équipe formative territoriali, Ministero dell'Istruzione e del Merito"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7129",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2024-05-29",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2024-05-29",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2024-05-29",
+      "Issued": "2024-05-29"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The alliance between paper-based books and generative Artificial Intelligence (AI) is the focus of a paper that recounts the professional experience of a teacher trainer. Numerous studies document that the reduction of paper-based reading practice has a negative impact on students' text comprehension skills. This evidence directly challenges the educational world, both on the teaching and training side, to create a dialogue between traditional text reading practices and the digital ecosystem. The potential of generative AI offers great opportunities. Several local and national training activities have taken place over the past two years. Proposals have been submitted for workshop training courses to develop teachers' digital pedagogical skills that can be replicated in classrooms to enhance students' reading experiences, making them more enjoyable, interesting and intellectually stimulating through the integration of generative AI tools. The paper documents the experiences aimed at facilitating a dialogue between AI and book-form in teaching practice, with reference also to the reception and satisfaction of teachers. The detailed steps for implementing and replicating the workshops are presented, along with reference scenarios and explanations of the methodologies, strategies, and tools that can be adopted. An articulated repertoire of free online resources is also provided.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’articolo si concentra sull’integrazione tra libro cartaceo e intelligenza artificiale (IA) generativa, evidenziando l’esperienza di una formatrice nel contesto educativo. Numerosi studi indicano che la diminuzione dell’uso del libro cartaceo influisce negativamente sulle competenze di comprensione del testo degli studenti. Questa constatazione solleva sfide significative per il mondo della scuola, sia in termini di insegnamento che di formazione, spingendo verso un dialogo tra le tradizionali pratiche di lettura e l’ambiente digitale. L’IA generativa offre ampie opportunità, e il contributo esplora il suo potenziale nel contesto della promozione delle competenze pedagogiche digitali tra gli insegnanti. Nel corso di un biennio, sono stati svolti diversi interventi formativi laboratoriali rivolti a insegnanti locali e nazionali, proponendo attività replicabili in classe per potenziare le esperienze di lettura degli studenti, rendendole più stimolanti intellettualmente e integrando strumenti basati sull’IA generativa. L’articolo documenta le esperienze condotte, mostrando come l’IA e il libro tradizionale possano dialogare efficacemente nelle pratiche didattiche. Vengono presentati dettagliatamente i passaggi per l’implementazione e la riproduzione dei laboratori, illustrando scenari di riferimento, metodologie, strategie e strumenti utilizzabili. Sono inclusi anche un repertorio articolato di risorse online gratuite per supportare l’attuazione di queste iniziative educative innovative.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2024-03",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "3",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "formazione docenti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pratiche didattiche",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "istruzione basata su evidenze",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "formazione degli insegnanti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "intelligenza artificiale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura aumentata",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pratiche di insegnamento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Evidence Based Education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "teacher training",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "artificial intelligence",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "augmented reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "teaching practices",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7129/6283",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "3",
+      "citationIssue": "1",
+      "citationStartPage": "029",
+      "citationEndPage": "039",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Ceccacci, L. (2024). Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa. Effetti Di Lettura / Effects of Reading , 3 (1), 029–039. https://doi.org/10.7347/EdL-01-2024-03",
+      "articleTitleEcho": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Anderson, L. W., & Krathwohl, D. R. (eds.) (2001). A taxonomy for learning, teaching, and assessing: A revision of Bloom's taxonomy of educational objectives. New York: Longman.",
+        "Batini, F. (ed.) (2023). La lettura ad alta voce condivisa. Un metodo in direzione dell'equità. Il Mulino.",
+        "Batini, F. (2022). Lettura ad alta voce. Ricerche e strumenti per educatori, insegnanti e genitori. Roma: Carocci.",
+        "Batini, F. (2011). Storie, futuro e controllo. Le narrazioni come strumento di costruzione del futuro. Liguori.",
+        "Batini, F., Brizioli, I., Mancini, A., Susta, M., & Scierri, I. D. M. (2021). Lettura e comprensione: una revisione sistematica della letteratura. Ricerche di Pedagogia e Didattica. Journal of Theories and Research in Education, 16(1), 79-86.",
+        "Batini, F. & Giusti, S. (Cur.). (2009). Le storie siamo noi. Gestire le scelte e costruire la propria vita con le narrazioni. Liguori.",
+        "Ben-Yehudah, G., & Eshet Alkalai, Y. (2021). Print versus digital reading comprehension tests: does the congruency of study and test medium matter?. British Journal of Educational Technology, 52(1), 426-440. https://doi.org/10.1111/bjet.13014",
+        "Biagioli, R. (2019). I metodi narrativi per la professionalizzazione degli educatori. Lifelong, Lifewide Learning, 15, 23-34. https://doi.org/10.19241/lll.v15i34.238",
+        "Bocconi, S., Earp, J., & Panesi, S. (2018). DigCompEdu. Il quadro di riferimento europeo sulle competenze digitali dei docenti. Istituto per le Tecnologie Didattiche, CNR.",
+        "Bochicchio, F. (2012). I bisogni di formazione. Teorie e pratiche. Carocci.",
+        "Bonaiuti, G., Calvani, A., Menichetti, L. & Vivanet, G. (2017). Le tecnologie educative. Criteri per una scelta basata su evidenze. Carocci.",
+        "Ceccacci, L. (2021). Challenge to assessment in distance learning: notes from a humanities teachers’ training in secondary school. Formazione & Insegnamento - European Journal of Research on Education and Teaching, 19(2), 218-227. https://doi.org/10.7346/-fei-XIX-02-21_21",
+        "Ceccacci, L. (2020a). La scuola dell’Infanzia alla prova dei LEAD: l’esperienza del territorio marchigiano. Media Education, 11(2), 163-169. https://doi.org/10.36253/me-9644 ISSN 2038-3010",
+        "Ceccacci, L. (2020b). Narrazione di un percorso di formazione durante il lockdown: la DAD del territorio marchigiano. Lifelong, Lifewide Learning, 17(36), 176-185. https://doi.org/10.19241/lll.v16i36.556 ISSN 2279-9001",
+        "Centro per il libro e la lettura CEPELL (2021), Libro bianco sulla lettura e i consumi culturali in Italia (2020-2021).",
+        "https://cepell.it/wp-content/uploads/2021/07/CEPELL-Libro-bianco-sulla-lettura-2021-digitale.pdf",
+        "Castoldi, M., Rucci, A., Visone, M.R. (2023). Per educare al comprendere. UTET.",
+        "Cerri, R. (Cur.). (2012). Quando il territorio fa scuola. Da un'indagine sulle pluriclassi a un'idea di scuola. FrancoAngeli.",
+        "Cudini, S. & Morganti, M. (2002). Scuola e territorio. Come attivare e promuovere progetti con le comunità locali. FrancoAngeli.",
+        "Di Blas, N., Fabbri, M., & Ferrari, L. (2018). Il modello TPACK nella formazione delle competenze digitali dei docenti. Normative ministeriali e implicazioni pedagogiche. Italian Journal of Educational Technology, 1, 24-38.",
+        "Fondazione Luigi Einaudi (FLE) (2023). Il valore imprescindibile di carta e penna nei processi di apprendimento, paper 18-07-2023 https://www.fondazioneluigieinaudi.it/wp-content/uploads/2023/07/paper-Il-valore-imprescindibile-di-carta-e-penna-nei-processi-di-apprendimento.pdf",
+        "Forum del libro (2019). Progetto The Living Book – Linee-guida. https://thelivinglibrary.eu/downloads/it/Linee_Guida_The_Living_Book_IT.pdf",
+        "IFLA, I. F. of L. A. and I., & UNESCO, U. N. E. S. and C. O. (2022). Manifesto IFLA-UNESCO delle biblioteche pubbliche 2022. AIB Studi, 62(2), 431–434. https://doi.org/10.2426/aibstudi-10097",
+        "Istituto nazionale per la valutazione del sistema educativo di istruzione e di formazione (Invalsi). (2022). Rapporto Invalsi 2022. https://bit.ly/3yCjdON",
+        "Istituto nazionale di statistica (ISTAT)(2023). Comunicato stampa Lettura di libri e fruizione delle biblioteche.18 maggio 2023. https://www.istat.it/it/archivio/284591",
+        "Lichtner, M. (2003). La qualità delle azioni formative. Criteri di valutazione tra esigenze di funzionalità e costruzione del significato. FrancoAngeli.",
+        "Mittiga, S. (2018). Il valore educativo del digital storytelling. Media Education, 9(2), 308-328.",
+        "Mughini, E., & Panzavolta, S. (Eds.). (2021). MLTV: Making Learning and Thinking Visible: rendere visibili pensiero e apprendimento. Carocci.",
+        "Nardi, A. (2022a). Lettura su schermo e processi cognitivi: superare le dicotomie per continuare a leggere. AIB studi, 62(2), 397-417. DOI 10.2426/aibstudi-13626 https://aibstudi.aib.it/article/view/13626/329",
+        "Nardi, A. (2022b). Il lettore 'distratto': Leggere e comprendere nell’epoca degli schermi digitali. Firenze University Press. https://flore.unifi.it/retrieve/e398c382-1b1c-179a-e053-3705fe0a4cff/26455%20%281%29.pdf",
+        "Nardi, A., Bartolini, R., Anchini, A., & Pestellini, F. (2023). Leggere e scrivere tra digitale e cartaceo.: La voce degli studenti. Effetti di lettura/Effects of reading, 2(1), 076-091.",
+        "Organization for Economic Co-operation and Development (2021). 21st-Century Readers: Developing Literacy Skills in a Digital World. OECD Publishing. https://doi.org/10.1787/a83d84cb-en",
+        "Organization for Economic Co-operation and Development (2019). PISA 2018 Results. Combined Executive Summaries Volume I, II & III. OECD Publishing.",
+        "Raccomandazione del Consiglio (RCUE), del 22 maggio 2018, relativa alle competenze chiave per l’apprendimento permanente (Testo rilevante ai fini del SEE.). (2018). Gazzetta ufficiale, C 189, 1-13. CELEX: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018H0604(01)[legislation]",
+        "Roncaglia, G. (2023). L'architetto e l'oracolo. Forme digitali del sapere da Wikipedia a ChatGPT. Laterza.",
+        "Roncaglia, G. (2022). Letture aumentate, fra rete e intermedialità. AIB Studi, 61(3), 603–609. https://doi.org/10.2426/aibstudi-13360",
+        "Roncaglia, G. (2021). Oltre il libro: le frontiere del testo digitale. In E. Barbieri (Ed.), Imago librorum. Mille anni di forme del libro in Europa (pp. 93-100). Leo S. Olschki Editore.",
+        "Roncaglia, G. (2020a). L'età della frammentazione: cultura del libro e scuola digitale. Gius. Laterza & Figli Spa.",
+        "Roncaglia, G. (2020b). Cosa succede a settembre. Scuola e didattica a distanza ai tempi del Covid-19, Bari-Roma, Laterza.",
+        "Società per l’Apprendimento e l’Istruzione informate da Evidenza (2017). Manifesto S.Ap.I.E. Orizzonti della ricerca scientifica in educazione. Come raccordare ricerca e decisione didattica. URL: http://www.sapie.it/index.php/it/chi-siamo/manifesto",
+        "Sidoti, E. & Di Carlo, D. (2020). La pratica narrativa per una formazione del sé nei luoghi di lavoro. Formazione lavoro persona, 31, 98-108. https://forperlav.unibg.it/index.php/fpl/article/view/480",
+        "Vivanet, G. (2014). Che cos'è l'Evidence Based Education. Roma: Carocci.",
+        "Vuorikari Rina, R., Kluzer, S., & Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens-With new examples of knowledge, skills and attitudes (No. JRC128415). Joint Research Centre (Seville site)."
+      ],
+      "count": 43,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7129",
+    "article_ID": "7129",
+    "slug": "7129",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7129",
+      "url_slug": "7129"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Augmented reading experiences with Artificial Intelligence: training paths for teachers from a narrative point of view",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-03-28",
+      "accepted": null,
+      "created": "2024-05-29",
+      "modified": "2024-07-02",
+      "issued": "2024-05-29",
+      "available": "2024-05-29",
+      "submitted_page": "2024-03-28",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+        "pdf_value": null,
+        "chosen_value": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-03-28",
+        "pdf_value": null,
+        "chosen_value": "2024-03-28",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7129/6283",
+      "local_relative_path": "2785-7050_7129.pdf",
+      "saved": true,
+      "sha256": "c27c6a803c12d4cbd8866c5aac1bba2d2795ec4f68961dd338fb8888a65d92ce",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 182121,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Laura Ceccacci"
+      ],
+      "citation_author_institution": [
+        "Équipe formative territoriali, Ministero dell'Istruzione e del Merito"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/05/29"
+      ],
+      "citation_volume": [
+        "3"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2024-03"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7129"
+      ],
+      "citation_keywords": [
+        "formazione docenti",
+        "pratiche didattiche",
+        "istruzione basata su evidenze",
+        "formazione degli insegnanti",
+        "intelligenza artificiale",
+        "lettura aumentata",
+        "pratiche di insegnamento"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7129/6283"
+      ],
+      "citation_reference_count": 43,
+      "DC.Date.created": [
+        "2024-05-29"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-03-28"
+      ],
+      "DC.Date.issued": [
+        "2024-05-29"
+      ],
+      "DC.Date.modified": [
+        "2024-07-02"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7129"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2024-03"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7129"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "3"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 7,
+      "DC.Title": [
+        "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa"
+      ],
+      "DC.Title.Alternative": [
+        "Augmented reading experiences with Artificial Intelligence: training paths for teachers from a narrative point of view"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Laura Ceccacci"
+      ],
+      "citation_author_institution": [
+        "Équipe formative territoriali, Ministero dell'Istruzione e del Merito"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Laura Ceccacci"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The alliance between paper-based books and generative Artificial Intelligence (AI) is the focus of a paper that recounts the professional experience of a teacher trainer. Numerous studies document that the reduction of paper-based reading practice has a negative impact on students' text comprehension skills. This evidence directly challenges the educational world, both on the teaching and training side, to create a dialogue between traditional text reading practices and the digital ecosystem. The potential of generative AI offers great opportunities. Several local and national training activities have taken place over the past two years. Proposals have been submitted for workshop training courses to develop teachers' digital pedagogical skills that can be replicated in classrooms to enhance students' reading experiences, making them more enjoyable, interesting and intellectually stimulating through the integration of generative AI tools. The paper documents the experiences aimed at facilitating a dialogue between AI and book-form in teaching practice, with reference also to the reception and satisfaction of teachers. The detailed steps for implementing and replicating the workshops are presented, along with reference scenarios and explanations of the methodologies, strategies, and tools that can be adopted. An articulated repertoire of free online resources is also provided.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The alliance between paper-based books and generative Artificial Intelligence (AI) is the focus of a paper that recounts the professional experience of a teacher trainer. Numerous studies document that the reduction of paper-based reading practice has a negative impact on students' text comprehension skills. This evidence directly challenges the educational world, both on the teaching and training side, to create a dialogue between traditional text reading practices and the digital ecosystem. The potential of generative AI offers great opportunities. Several local and national training activities have taken place over the past two years. Proposals have been submitted for workshop training courses to develop teachers' digital pedagogical skills that can be replicated in classrooms to enhance students' reading experiences, making them more enjoyable, interesting and intellectually stimulating through the integration of generative AI tools. The paper documents the experiences aimed at facilitating a dialogue between AI and book-form in teaching practice, with reference also to the reception and satisfaction of teachers. The detailed steps for implementing and replicating the workshops are presented, along with reference scenarios and explanations of the methodologies, strategies, and tools that can be adopted. An articulated repertoire of free online resources is also provided. "
+          }
+        },
+        {
+          "content": "L’articolo si concentra sull’integrazione tra libro cartaceo e intelligenza artificiale (IA) generativa, evidenziando l’esperienza di una formatrice nel contesto educativo. Numerosi studi indicano che la diminuzione dell’uso del libro cartaceo influisce negativamente sulle competenze di comprensione del testo degli studenti. Questa constatazione solleva sfide significative per il mondo della scuola, sia in termini di insegnamento che di formazione, spingendo verso un dialogo tra le tradizionali pratiche di lettura e l’ambiente digitale. L’IA generativa offre ampie opportunità, e il contributo esplora il suo potenziale nel contesto della promozione delle competenze pedagogiche digitali tra gli insegnanti. Nel corso di un biennio, sono stati svolti diversi interventi formativi laboratoriali rivolti a insegnanti locali e nazionali, proponendo attività replicabili in classe per potenziare le esperienze di lettura degli studenti, rendendole più stimolanti intellettualmente e integrando strumenti basati sull’IA generativa. L’articolo documenta le esperienze condotte, mostrando come l’IA e il libro tradizionale possano dialogare efficacemente nelle pratiche didattiche. Vengono presentati dettagliatamente i passaggi per l’implementazione e la riproduzione dei laboratori, illustrando scenari di riferimento, metodologie, strategie e strumenti utilizzabili. Sono inclusi anche un repertorio articolato di risorse online gratuite per supportare l’attuazione di queste iniziative educative innovative.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’articolo si concentra sull’integrazione tra libro cartaceo e intelligenza artificiale (IA) generativa, evidenziando l’esperienza di una formatrice nel contesto educativo. Numerosi studi indicano che la diminuzione dell’uso del libro cartaceo influisce negativamente sulle competenze di comprensione del testo degli studenti. Questa constatazione solleva sfide significative per il mondo della scuola, sia in termini di insegnamento che di formazione, spingendo verso un dialogo tra le tradizionali pratiche di lettura e l’ambiente digitale. L’IA generativa offre ampie opportunità, e il contributo esplora il suo potenziale nel contesto della promozione delle competenze pedagogiche digitali tra gli insegnanti. Nel corso di un biennio, sono stati svolti diversi interventi formativi laboratoriali rivolti a insegnanti locali e nazionali, proponendo attività replicabili in classe per potenziare le esperienze di lettura degli studenti, rendendole più stimolanti intellettualmente e integrando strumenti basati sull’IA generativa. L’articolo documenta le esperienze condotte, mostrando come l’IA e il libro tradizionale possano dialogare efficacemente nelle pratiche didattiche. Vengono presentati dettagliatamente i passaggi per l’implementazione e la riproduzione dei laboratori, illustrando scenari di riferimento, metodologie, strategie e strumenti utilizzabili. Sono inclusi anche un repertorio articolato di risorse online gratuite per supportare l’attuazione di queste iniziative educative innovative."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "formazione docenti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "formazione docenti"
+          }
+        },
+        {
+          "content": "pratiche didattiche",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pratiche didattiche"
+          }
+        },
+        {
+          "content": "istruzione basata su evidenze",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "istruzione basata su evidenze"
+          }
+        },
+        {
+          "content": "formazione degli insegnanti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "formazione degli insegnanti"
+          }
+        },
+        {
+          "content": "intelligenza artificiale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "intelligenza artificiale"
+          }
+        },
+        {
+          "content": "lettura aumentata",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura aumentata"
+          }
+        },
+        {
+          "content": "pratiche di insegnamento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pratiche di insegnamento"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7129/6283",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7129/6283",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7129/6283",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2024-07-02",
+        "mod_date": "2024-07-02"
+      },
+      "front_text_excerpt": "ABSTRACT The alliance between paper-based books and generative Artificial Intelligence (AI) is the focus of a paper that recounts the professional ex- perience of a teacher trainer. Numerous studies document that the reduction of paper-based reading practice has a negative impact on students' text comprehension skills. This evidence directly challenges the educational world, both on the teaching and training side, to create a dialogue between traditional text reading practices and the digital ecosystem. The potential of generative AI offers great opportunities. Several local and national training activities have taken place over the past two years. Proposals have been submitted for workshop training courses to develop teachers' digital pedagogical skills that can be replicated in classrooms to enhance students' reading experiences, making them more enjoyable, interesting and intellectually stimulating through the integration of generative AI tools. The paper documents the experiences aimed at facilitating a dialogue between AI and book-form in teaching practice, with reference also to the reception and satisfaction of teachers. The detailed steps for implementing and replicating the workshops are presented, along with reference scenarios and explanations of the methodologies, strategies, and tools that can be adopted. An articulated repertoire of fr ee online resources is also provided. Keywords: evidence-based education, teacher training, artificial intelligence, augmented reading, teaching practices L ’articolo si concentra sull’integrazione tra libro cartaceo e intelligenza artificiale (IA) generativa, evidenziando l’esperienza di una formatrice nel contesto educativo. Numerosi studi indicano che la diminuzione dell’uso del libro cartaceo influisce negativamente sulle competenz e di comprensione del testo degli studenti. Questa constatazione solleva sfide significative per il mondo della scuola, sia in termini di insegnamento che di formazione, spingendo verso un dialogo tra le tradizionali pratiche di lettura e l’ambiente digitale. L ’IA generativa offr e ampie oppor- tunità, e il contributo esplora il suo potenziale nel contesto della promozione delle competenze pedagogiche digitali tra gli insegnanti. N el corso di un biennio, sono stati svolti diversi interventi formativi laboratoriali rivolti a insegnanti locali e nazionali, proponendo attività r ep- licabili in classe per potenziare le esperienze di lettura degli studenti, rendendole più stimolanti intellettualmente e integrando str umenti basati sull’IA generativa. L ’articolo documenta le esperienze condotte, mostrando come l’IA e il libro tradizionale possano dialogar e efficace- mente nelle pratiche didattiche. Vengono presentati dettagliatamente i passaggi per l’implementazione e la riproduzione dei laboratori, illus- trando scenari di riferimento, metodologie, strategie e strumenti utilizzabili. Sono inclusi anche un repertorio articolato di risorse online gratuite per supportare l’attuazione di queste iniziative educative innovative. Parole chiave: istruzione basata su evidenze, formazione degli insegnanti, intelligenza artificiale, lettura aumentata, pratiche di insegna - mento Citation: Ceccacci, L. (2024). Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa. Effetti di Lettura / Effects of Reading, 3(1), 29-39. https://doi.org/10.7347/EdL-01-2024-03. Corresponding Author: Laura Ceccacci | lauraceccacci3@gmail.com Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2024-03 Laura Ceccacci Équipe formative territoriali |Ministero dell’Istruzione e del Merito | lauraceccacci3@gmail.com Double blind peer review Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa Augmented reading experiences with Artificial Intelligence: training paths for teachers from a narrative point of view Volume 3 | n. 1 | giugno 2024 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7129\\2785-7050_7129.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+        "pdf_value": null,
+        "chosen_value": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-03-28",
+        "pdf_value": null,
+        "chosen_value": "2024-03-28",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7129",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7129",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:47:15Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:47:16Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7129",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7129",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7129",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7129",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 7
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7129\\2785-7050_7129.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:47:17Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7129\\2785-7050_7129.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+        "submitted_date": "2024-03-28",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Laura Ceccacci"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7129\\2785-7050_7129.pdf",
+        "generated_at_utc": "2026-04-27T18:47:17Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2024-07-02",
+          "mod_date": "2024-07-02"
+        },
+        "front_text_excerpt": "ABSTRACT The alliance between paper-based books and generative Artificial Intelligence (AI) is the focus of a paper that recounts the professional ex- perience of a teacher trainer. Numerous studies document that the reduction of paper-based reading practice has a negative impact on students' text comprehension skills. This evidence directly challenges the educational world, both on the teaching and training side, to create a dialogue between traditional text reading practices and the digital ecosystem. The potential of generative AI offers great opportunities. Several local and national training activities have taken place over the past two years. Proposals have been submitted for workshop training courses to develop teachers' digital pedagogical skills that can be replicated in classrooms to enhance students' reading experiences, making them more enjoyable, interesting and intellectually stimulating through the integration of generative AI tools. The paper documents the experiences aimed at facilitating a dialogue between AI and book-form in teaching practice, with reference also to the reception and satisfaction of teachers. The detailed steps for implementing and replicating the workshops are presented, along with reference scenarios and explanations of the methodologies, strategies, and tools that can be adopted. An articulated repertoire of fr ee online resources is also provided. Keywords: evidence-based education, teacher training, artificial intelligence, augmented reading, teaching practices L ’articolo si concentra sull’integrazione tra libro cartaceo e intelligenza artificiale (IA) generativa, evidenziando l’esperienza di una formatrice nel contesto educativo. Numerosi studi indicano che la diminuzione dell’uso del libro cartaceo influisce negativamente sulle competenz e di comprensione del testo degli studenti. Questa constatazione solleva sfide significative per il mondo della scuola, sia in termini di insegnamento che di formazione, spingendo verso un dialogo tra le tradizionali pratiche di lettura e l’ambiente digitale. L ’IA generativa offr e ampie oppor- tunità, e il contributo esplora il suo potenziale nel contesto della promozione delle competenze pedagogiche digitali tra gli insegnanti. N el corso di un biennio, sono stati svolti diversi interventi formativi laboratoriali rivolti a insegnanti locali e nazionali, proponendo attività r ep- licabili in classe per potenziare le esperienze di lettura degli studenti, rendendole più stimolanti intellettualmente e integrando str umenti basati sull’IA generativa. L ’articolo documenta le esperienze condotte, mostrando come l’IA e il libro tradizionale possano dialogar e efficace- mente nelle pratiche didattiche. Vengono presentati dettagliatamente i passaggi per l’implementazione e la riproduzione dei laboratori, illus- trando scenari di riferimento, metodologie, strategie e strumenti utilizzabili. Sono inclusi anche un repertorio articolato di risorse online gratuite per supportare l’attuazione di queste iniziative educative innovative. Parole chiave: istruzione basata su evidenze, formazione degli insegnanti, intelligenza artificiale, lettura aumentata, pratiche di insegna - mento Citation: Ceccacci, L. (2024). Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa. Effetti di Lettura / Effects of Reading, 3(1), 29-39. https://doi.org/10.7347/EdL-01-2024-03. Corresponding Author: Laura Ceccacci | lauraceccacci3@gmail.com Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2024-03 Laura Ceccacci Équipe formative territoriali |Ministero dell’Istruzione e del Merito | lauraceccacci3@gmail.com Double blind peer review Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa Augmented reading experiences with Artificial Intelligence: training paths for teachers from a narrative point of view Volume 3 | n. 1 | giugno 2024 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "Senza pretesa di affrontare in modo sistematico ed esaustivo un tema così articolato come quello del rapporto tra parola su carta e parola su schermo, è possibile profilare un percorso di superamento della contrapposizione (Nardi et al., 2023; Nardi, 2022b; Roncaglia, 2021), in cui l’apparente antagonismo tra supporti evolve in una collaborazione, all’interno di uno specifico settore: quello dell’istruzione e della formazione dei docenti. Il digitale, proprio in virtù delle sue caratteristiche, può incrementare la diffusione della parola scritta su carta, promuovendo la lettura tradizionale, in una sorta di alleanza tra buono e utile. La realizzazione di questa aspirazione è rintracciabile in luoghi molto attrattivi, spazi fisici concreti e tangibili, che dialogano con il virtuale, e in cui analogico e digitale coesistono: le biblioteche scolastiche innovative. Sono ambienti caratterizzati da colore, luminosità, ampiezza, flessibilità e comodità, ma la più forte discontinuità con le biblioteche tradizionali risiede nel libero e agevolato accesso ai testi: non sono infatti presenti tra libro e lettore barriere, grate o serrature. I libri sono invitanti e a portata di mano. Le biblioteche scolastiche innovative nascono all’interno del Piano nazionale scuola digitale3 (azione n. 24): il Ministero dell’Istruzione, con un finanziamento di 10 milioni di euro, ne ha realizzate 1.000 in tutto il territorio nazionale, riqualificando ambienti preesistenti, promuovendone nuove modalità d’uso e collegandovi nuovi servizi, tra cui l’uso della rete e degli strumenti digitali come strumento di promozione della lettura. Questa linea di indirizzo è stata rafforzata dal PNRR 4, che ha già erogato fondi per la trasformazione in tutt’Italia di almeno 100.000 ambienti scolastici, includendo quindi anche le biblioteche, in spazi di apprendimento innovativi. Nel Piano Scuola 4.05 si trova riferimento esplicito alla “promozione della scrit- tura e della lettura con le tecnologie digitali”. T ra le misure di accompagnamento, nel 2021 è stata istituita una cabina di regia per il Piano nazionale per la promozione della lettura a scuola6, per proporre linee di azione anche sulla valorizzazione delle bi- blioteche scolastiche, e, per gestire le iniziative in modo coerente, sono stati organizzati corsi a livello re- gionale per referenti scolastici ed è stata creata una rete di biblioteche scolastiche innovative7. T ra le azioni dell’Indire, su questa linea è in campo il progetto Avanguardie Biblioeducative8. 3. Lettura ed ecosistema digitale: le strategie Numerose sono le iniziative realizzate nel contesto nazionale dal Centro per il libro e la lettura 9 che si muovono nei versanti sia dell’educazione che della promozione della lettura10 per contrastarne il progressivo calo11, con specifico focus sui giovani lettori. Le nuove generazioni, che leggono di più rispetto agli adulti, amano sempre le narrazioni, ma preferiscono fruirle per immagini, con ritmi veloci e in formati brevi. La lettura è prevalentemente frammentata, superficiale e “distratta” (Nardi et al., 2023; Nardi, 2022a, 2022b; Roncaglia, 2020a), di qualità inferiore. I lettori migliori sono quelli che utilizzano più frequentemente il 3 Si veda https://scuoladigitale.istruzione.it/pnsd/. 4 Si veda https://pnrr.istruzione.it/. 5 Si veda https://pnrr.istruzione.it/wp-content/uploads/2022/07/PIANO_SCUOLA_4.0_VERSIONE_GRAFICA.pdf. 6 Si veda https://www.istruzione.it/biblioteche-scolastiche-innovative/piano-lettura.html. 7 Si veda https://www.bibliotecheinnovative.it/link-utili/. 8 Si veda https://www.indire.it/2023/12/05/avanguardie-educative-webinar-read-more-venti-minuti-per-leggere-in-liberta- a-scuola12-dicembre/. 9 Si veda in particolare la sezione Progetti https://cepell.it/. 10 Per i risultati provvisori di uno studio comparativo sugli effetti di varie tipologie di intervento si veda il paper presentato al Salone del libro il 20 maggio 2023 https://cepell.it/le-pratiche-di-promozione-della-l",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-03-28",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-03-28",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7129\\2785-7050_7129.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Esperienze di lettura aumentate con l’Intelligenza Artificiale: percorsi formativi per docenti in una prospettiva narrativa",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Augmented reading experiences with Artificial Intelligence: training paths for teachers from a narrative point of view",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Augmented reading experiences with Artificial Intelligence: training paths for teachers from a narrative point of view",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The alliance between paper-based books and generative Artificial Intelligence (AI) is the focus of a paper that recounts the professional experience of a teache",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’articolo si concentra sull’integrazione tra libro cartaceo e intelligenza artificiale (IA) generativa, evidenziando l’esperienza di una formatrice nel contest",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

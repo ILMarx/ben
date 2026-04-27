@@ -1,0 +1,904 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7600",
+  "scraped_at_utc": "2026-04-27T18:47:58Z",
+  "fetched_at_utc": "2026-04-27T18:47:58Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "2d0a7e2b5e58f5bd82135d27560ca290a79770ca0c1f41482da4689aeffe0263",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Federico Batini",
+        "nameType": "Personal",
+        "givenName": "Federico",
+        "familyName": "Batini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Giusi Castellana",
+        "nameType": "Personal",
+        "givenName": "Giusi",
+        "familyName": "Castellana",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Researcher | University of Roma Tre"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Giulia Barbisoni",
+        "nameType": "Personal",
+        "givenName": "Giulia",
+        "familyName": "Barbisoni",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research Scholar | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7600",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2024-12-31",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2024-12-31",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2024-12-31",
+      "Issued": "2024-12-31"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "This study aims to present the validation and standardization process of a revised version of the DAL scale to assess reading disposition (Batini et al., 2023). Disposition to reading is understood here as an individual feeling that can influence behavior selection and serve as a predictive factor for future behaviour. The domain investigated is that of reading for pleasure, enjoyed in one's free time for recreational and self-care purposes, in explicit connection with the educational practices enacted in the school context. The scale consists of three dimensions: the cognitive factor (ideas, beliefs, or opinions), the affective factor (emotional condition characterizing attitude), and the conative factor (behavioral tendency to act for or against). The initial drafting of the scale and the pilot study involved 816 respondents aged 11–19 years and produced a version with 92 items distributed across the three factors mentioned above. The current study presents the findings of a new administration to a sample of 1,371 students, confirming a tripartite factorial structure with a total of 45 items. Exploratory and confirmatory factor analyses conducted on these data reveal a good model fit, with CFI and TLI fit indices close to .95, SRMR and RMSEA values below .05, and excellent reliability values for the three scales.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Questo studio si propone di presentare il processo di validazione e standardizzazione della versione rivista della scala DAL per la rilevazione della disposizione alla lettura (Batini, et al. 2023). La disposizione alla lettura viene qui intesa come sentimento individuale che può influenzare la selezione di un comportamento e configurarsi come fattore predittivo di condotte adottate in futuro. L’ambito indagato è quello della lettura per piacere, fruita nel proprio tempo libero, con finalità ricreativa e per la cura di sé, in esplicito collegamento con le pratiche didattiche agite nel contesto scolastico. La scala risulta articolata in tre dimensioni: la componente cognitiva (idee, credenze o opinioni), quella affettiva (condizione emotiva che caratterizza l’atteggiamento) e quella conativa (tendenza comportamentale ad agire a favore o contro). La stesura iniziale della scala e lo studio pilota ha visto il coinvolgimento di 816 rispondenti di età compresa fra 11-19 anni e prodotto una versione di 92 items, distribuiti nei 3 fattori citati. Lo studio attuale presenta gli esiti della nuova somministrazione a un campione di 1371 studenti che conferma una struttura fattoriale tripartitica su un totale di 45 item. L’analisi fattoriale esplorativa e confermativa condotte su questi dati mettono in luce un buon adattamento del modello con indici di fit CFI e TLI, prossimi a .95, valori dell’SRMR e dell’RMSEA al di sotto di 0.05 e eccellenti valori di affidabilità delle tre scale.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2024-01",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "3",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "autovalutazione, lettura, disposizione alla lettura, preadolescenti e adolescenti, validazione e standardizzazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Self-assessment, reading, reading disposition, preadolescents and adolescents, validation and standardization",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Federico Batini, Giusi Castellana, Giulia Barbisoni",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7600/6785",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "3",
+      "citationIssue": "2",
+      "citationStartPage": "006",
+      "citationEndPage": "019",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Batini, F., Castellana, G., & Barbisoni, G. (2024). Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura. Effetti Di Lettura / Effects of Reading , 3 (2), 006–019. https://doi.org/10.7347/EdL-02-2024-01",
+      "articleTitleEcho": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7600",
+    "article_ID": "7600",
+    "slug": "7600",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7600",
+      "url_slug": "7600"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Validation and Standardisation of the Final Version of the DAL Scale for Measuring Reading Disposition",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-11-06",
+      "accepted": null,
+      "created": "2024-12-31",
+      "modified": "2025-01-20",
+      "issued": "2024-12-31",
+      "available": "2024-12-31",
+      "submitted_page": "2024-11-06",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+        "pdf_value": null,
+        "chosen_value": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-11-06",
+        "pdf_value": null,
+        "chosen_value": "2024-11-06",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Federico Batini, Giusi Castellana, Giulia Barbisoni",
+        "pdf_value": null,
+        "chosen_value": "Federico Batini, Giusi Castellana, Giulia Barbisoni",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7600/6785",
+      "local_relative_path": "2785-7050_7600.pdf",
+      "saved": true,
+      "sha256": "48c467f668e1a3c3e1691ba60b49b28d474ed8c728a396e1eedba5bdd65b13ac",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 6771658,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Federico Batini",
+        "Giusi Castellana",
+        "Giulia Barbisoni"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | University of Perugia",
+        "Researcher | University of Roma Tre",
+        "Research Scholar | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/12/31"
+      ],
+      "citation_volume": [
+        "3"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2024-01"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7600"
+      ],
+      "citation_keywords": [
+        "autovalutazione, lettura, disposizione alla lettura, preadolescenti e adolescenti, validazione e standardizzazione"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7600/6785"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2024-12-31"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-11-06"
+      ],
+      "DC.Date.issued": [
+        "2024-12-31"
+      ],
+      "DC.Date.modified": [
+        "2025-01-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7600"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2024-01"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7600"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Federico Batini, Giusi Castellana, Giulia Barbisoni",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "3"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 1,
+      "DC.Title": [
+        "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura"
+      ],
+      "DC.Title.Alternative": [
+        "Validation and Standardisation of the Final Version of the DAL Scale for Measuring Reading Disposition"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Federico Batini",
+        "Giusi Castellana",
+        "Giulia Barbisoni"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | University of Perugia",
+        "Researcher | University of Roma Tre",
+        "Research Scholar | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": []
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This study aims to present the validation and standardization process of a revised version of the DAL scale to assess reading disposition (Batini et al., 2023). Disposition to reading is understood here as an individual feeling that can influence behavior selection and serve as a predictive factor for future behaviour. The domain investigated is that of reading for pleasure, enjoyed in one's free time for recreational and self-care purposes, in explicit connection with the educational practices enacted in the school context. The scale consists of three dimensions: the cognitive factor (ideas, beliefs, or opinions), the affective factor (emotional condition characterizing attitude), and the conative factor (behavioral tendency to act for or against). The initial drafting of the scale and the pilot study involved 816 respondents aged 11–19 years and produced a version with 92 items distributed across the three factors mentioned above. The current study presents the findings of a new administration to a sample of 1,371 students, confirming a tripartite factorial structure with a total of 45 items. Exploratory and confirmatory factor analyses conducted on these data reveal a good model fit, with CFI and TLI fit indices close to .95, SRMR and RMSEA values below .05, and excellent reliability values for the three scales.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This study aims to present the validation and standardization process of a revised version of the DAL scale to assess reading disposition (Batini et al., 2023). Disposition to reading is understood here as an individual feeling that can influence behavior selection and serve as a predictive factor for future behaviour. The domain investigated is that of reading for pleasure, enjoyed in one's free time for recreational and self-care purposes, in explicit connection with the educational practices enacted in the school context. The scale consists of three dimensions: the cognitive factor (ideas, beliefs, or opinions), the affective factor (emotional condition characterizing attitude), and the conative factor (behavioral tendency to act for or against).\r\nThe initial drafting of the scale and the pilot study involved 816 respondents aged 11–19 years and produced a version with 92 items distributed across the three factors mentioned above. The current study presents the findings of a new administration to a sample of 1,371 students, confirming a tripartite factorial structure with a total of 45 items. Exploratory and confirmatory factor analyses conducted on these data reveal a good model fit, with CFI and TLI fit indices close to .95, SRMR and RMSEA values below .05, and excellent reliability values for the three scales."
+          }
+        },
+        {
+          "content": "Questo studio si propone di presentare il processo di validazione e standardizzazione della versione rivista della scala DAL per la rilevazione della disposizione alla lettura (Batini, et al. 2023). La disposizione alla lettura viene qui intesa come sentimento individuale che può influenzare la selezione di un comportamento e configurarsi come fattore predittivo di condotte adottate in futuro. L’ambito indagato è quello della lettura per piacere, fruita nel proprio tempo libero, con finalità ricreativa e per la cura di sé, in esplicito collegamento con le pratiche didattiche agite nel contesto scolastico. La scala risulta articolata in tre dimensioni: la componente cognitiva (idee, credenze o opinioni), quella affettiva (condizione emotiva che caratterizza l’atteggiamento) e quella conativa (tendenza comportamentale ad agire a favore o contro). La stesura iniziale della scala e lo studio pilota ha visto il coinvolgimento di 816 rispondenti di età compresa fra 11-19 anni e prodotto una versione di 92 items, distribuiti nei 3 fattori citati. Lo studio attuale presenta gli esiti della nuova somministrazione a un campione di 1371 studenti che conferma una struttura fattoriale tripartitica su un totale di 45 item. L’analisi fattoriale esplorativa e confermativa condotte su questi dati mettono in luce un buon adattamento del modello con indici di fit CFI e TLI, prossimi a .95, valori dell’SRMR e dell’RMSEA al di sotto di 0.05 e eccellenti valori di affidabilità delle tre scale.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Questo studio si propone di presentare il processo di validazione e standardizzazione della versione rivista della scala DAL per la rilevazione della disposizione alla lettura (Batini, et al. 2023). La disposizione alla lettura viene qui intesa come sentimento individuale che può influenzare la selezione di un comportamento e configurarsi come fattore predittivo di condotte adottate in futuro. L’ambito indagato è quello della lettura per piacere, fruita nel proprio tempo libero, con finalità ricreativa e per la cura di sé, in esplicito collegamento con le pratiche didattiche agite nel contesto scolastico. La scala risulta articolata in tre dimensioni: la componente cognitiva (idee, credenze o opinioni), quella affettiva (condizione emotiva che caratterizza l’atteggiamento) e quella conativa (tendenza comportamentale ad agire a favore o contro).\r\nLa stesura iniziale della scala e lo studio pilota ha visto il coinvolgimento di 816 rispondenti di età compresa fra 11-19 anni e prodotto una versione di 92 items, distribuiti nei 3 fattori citati. Lo studio attuale presenta gli esiti della nuova somministrazione a un campione di 1371 studenti che conferma una struttura fattoriale tripartitica su un totale di 45 item. L’analisi fattoriale esplorativa e confermativa condotte su questi dati mettono in luce un buon adattamento del modello con indici di fit CFI e TLI, prossimi a .95, valori dell’SRMR e dell’RMSEA al di sotto di 0.05 e eccellenti valori di affidabilità delle tre scale."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "autovalutazione, lettura, disposizione alla lettura, preadolescenti e adolescenti, validazione e standardizzazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "autovalutazione, lettura, disposizione alla lettura, preadolescenti e adolescenti, validazione e standardizzazione"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7600/6785",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7600/6785",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7600/6785",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-01-20",
+        "mod_date": "2025-01-20"
+      },
+      "front_text_excerpt": "ABSTRACT This study aims to present the validation and standardization process of a revised version of the DAL scale to assess reading d isposition (Batini et al., 2023). Disposition to reading is understood here as an individual feeg that can influence behavior selection and serve as a pre- dictive factor for future behaviour. The domain investigated is that of reading for pleasure, enjoyed in one's free time for re creational and self-care purposes, in explicit connection with the educational practices enacted in the school context. The scale consists of three dimensions: the cognitive factor (ideas, beliefs, or opinions), the affective factor (emotional condition characterizing attitude), and the conative factor (behavioral tendency to act for or against). The initial drafting of the scale and the pilot study involved 816 respondents age d 11–19 years and produced a version with 92 items distributed across the three factors mentioned above. The current study presents the findings of a new administration to a sample of 1,371 students, confirming a tripartite factorial structure with a total of 45 items. Exploratory and confirmatory factor analyses conducted on these data reveal a good model fit, with CFI and TLI fit indices close to .95, SRMR and RMSEA values below .05, and excellent reliability values for the three scales. Keywords: Self-assessment, reading, reading disposition, preadolescents and adolescents, validation and standardization Questo studio si propone di presentare il processo di validazione e standardizzazione della versione rivista della scala DAL per la rilevazione della disposizione alla lettura (Batini, et al. 2023). La disposizione alla lettura viene qui intesa come sentimento individuale che può influenzare la selezione di un comportamento e configurarsi come fattore predittivo di condotte adottate in futuro. L ’ambito indagato è que llo della lettura per piacere, fruita nel proprio tempo libero, con finalità ricreativa e per la cura di sé, in esplicito collegamento con le pratiche didattiche agite nel contesto scolastico. La scala risulta articolata in tre dimensioni: la componente cognitiva (idee, credenze o opinioni), quella affettiva (condizione emotiva che caratterizza l’atteggiamento) e quella conativa (tendenza comportamentale ad agire a favore o contro). La stesura iniziale della scala e lo studio pilota ha visto il coinvolgimento di 816 rispondenti di età compresa fra 11-19 anni e prodotto una versione di 92 item, distribuiti nei 3 fattori citati. Lo studio attuale presenta gli esiti della nuova somministrazione a un campione di 1371 studenti che conferma una struttura fattoriale tripartitica su un totale di 45 item. L ’analisi fattoriale esplorativa e confermativa condott e su questi dati mettono in luce un buon adattamento del modello con indici di fit CFI e TLI, prossimi a .95, valori dell’SRMR e dell’RMSEA al d i sotto di 0.05 ed eccellenti valori di affidabilità delle tre scale. Parole chiave: autovalutazione, lettura, disposizione alla lettura, preadolescenti e adolescenti, validazione e standardizzazione Citation: Batini, F ., Castellana, G., & Barbisoni, G. (2024). Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura. Effetti di Lettura / Effects of Reading, 3(2), 6-19. https://doi.org/10.7347/EdL-02-2024-01. Corresponding Author: Federico Batini | federico.batini@unipg.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2024-01 Authorship/Attribuzioni: Il contributo è redatto nell’ambito delle attività del PRIN “Aloud! Reading aloud to stop the decline of reading literacy in the secondary schools (middle school)” (cfr. Nota 2). Federico Batini, PI del PRIN ha ideato la scala e ha lavorato con student i e studentesse per la sua prima stesura. Giulia Barbisoni ha partecipato ai lavori fin dalla prima validazione. Giusi Castellana ha fornito consulenz a esterna per la prima validazione ed ha attivamente partecipato alla seconda. I dati sono stati raccolti nell’ambito del PRIN. Autore e autrici ringr aziano i co-autori del primo contributo (Batini et al., 2023) di validazione e Paolo Di Nicola per la collaborazione al lavoro di revisione e riduzione della scala per ottenere la seconda versione. Per l’attribuzione dei paragrafi, nonostante l’articolo sia frutto evidente del lavoro di lungo termine di un gruppo di ricerca e la redazione abbia avuto il contributo di tutti, possono essere attribuiti: a Federico Batini i paragrafi 1, 3, 4, e 5, a Giusi Castellana i paragrafi 4.1, 4.2, 4.3, a Giulia Barbisoni i paragrafi 2 e 4.4. Federico Batini Associate Professor | University of Perugia | federico.batini@unipg.it Giusi Castellana Researcher | University of Roma T re | giuseppina.castellana@uniroma3.it Giulia Barbisoni Research Scholar | University of Perugia | giulia.barbisoni@collaboratori.unipg.it Double blind peer review Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura Validation and Standardisation of the Final Version of the DAL Scale for Assessing Reading Disposition Volume 3 | n. 2 | dicembre 2024 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7600\\2785-7050_7600.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Federico Batini, Giusi Castellana, Giulia Barbisoni",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Federico Batini, Giusi Castellana, Giulia Barbisoni",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+        "pdf_value": null,
+        "chosen_value": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-11-06",
+        "pdf_value": null,
+        "chosen_value": "2024-11-06",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Federico Batini, Giusi Castellana, Giulia Barbisoni",
+        "pdf_value": null,
+        "chosen_value": "Federico Batini, Giusi Castellana, Giulia Barbisoni",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Federico Batini, Giusi Castellana, Giulia Barbisoni",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7600",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7600",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:47:58Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:48:00Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7600",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7600",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 1,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 1
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7600",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7600",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 1
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7600\\2785-7050_7600.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:48:03Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7600\\2785-7050_7600.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+        "submitted_date": "2024-11-06",
+        "accepted_date": null,
+        "copyright_holder": "Federico Batini, Giusi Castellana, Giulia Barbisoni",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Federico Batini",
+          "Giusi Castellana",
+          "Giulia Barbisoni"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7600\\2785-7050_7600.pdf",
+        "generated_at_utc": "2026-04-27T18:48:02Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-01-20",
+          "mod_date": "2025-01-20"
+        },
+        "front_text_excerpt": "ABSTRACT This study aims to present the validation and standardization process of a revised version of the DAL scale to assess reading d isposition (Batini et al., 2023). Disposition to reading is understood here as an individual feeg that can influence behavior selection and serve as a pre- dictive factor for future behaviour. The domain investigated is that of reading for pleasure, enjoyed in one's free time for re creational and self-care purposes, in explicit connection with the educational practices enacted in the school context. The scale consists of three dimensions: the cognitive factor (ideas, beliefs, or opinions), the affective factor (emotional condition characterizing attitude), and the conative factor (behavioral tendency to act for or against). The initial drafting of the scale and the pilot study involved 816 respondents age d 11–19 years and produced a version with 92 items distributed across the three factors mentioned above. The current study presents the findings of a new administration to a sample of 1,371 students, confirming a tripartite factorial structure with a total of 45 items. Exploratory and confirmatory factor analyses conducted on these data reveal a good model fit, with CFI and TLI fit indices close to .95, SRMR and RMSEA values below .05, and excellent reliability values for the three scales. Keywords: Self-assessment, reading, reading disposition, preadolescents and adolescents, validation and standardization Questo studio si propone di presentare il processo di validazione e standardizzazione della versione rivista della scala DAL per la rilevazione della disposizione alla lettura (Batini, et al. 2023). La disposizione alla lettura viene qui intesa come sentimento individuale che può influenzare la selezione di un comportamento e configurarsi come fattore predittivo di condotte adottate in futuro. L ’ambito indagato è que llo della lettura per piacere, fruita nel proprio tempo libero, con finalità ricreativa e per la cura di sé, in esplicito collegamento con le pratiche didattiche agite nel contesto scolastico. La scala risulta articolata in tre dimensioni: la componente cognitiva (idee, credenze o opinioni), quella affettiva (condizione emotiva che caratterizza l’atteggiamento) e quella conativa (tendenza comportamentale ad agire a favore o contro). La stesura iniziale della scala e lo studio pilota ha visto il coinvolgimento di 816 rispondenti di età compresa fra 11-19 anni e prodotto una versione di 92 item, distribuiti nei 3 fattori citati. Lo studio attuale presenta gli esiti della nuova somministrazione a un campione di 1371 studenti che conferma una struttura fattoriale tripartitica su un totale di 45 item. L ’analisi fattoriale esplorativa e confermativa condott e su questi dati mettono in luce un buon adattamento del modello con indici di fit CFI e TLI, prossimi a .95, valori dell’SRMR e dell’RMSEA al d i sotto di 0.05 ed eccellenti valori di affidabilità delle tre scale. Parole chiave: autovalutazione, lettura, disposizione alla lettura, preadolescenti e adolescenti, validazione e standardizzazione Citation: Batini, F ., Castellana, G., & Barbisoni, G. (2024). Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura. Effetti di Lettura / Effects of Reading, 3(2), 6-19. https://doi.org/10.7347/EdL-02-2024-01. Corresponding Author: Federico Batini | federico.batini@unipg.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2024-01 Authorship/Attribuzioni: Il contributo è redatto nell’ambito delle attività del PRIN “Aloud! Reading aloud to stop the decline of reading literacy in the secondary schools (middle school)” (cfr. Nota 2). Federico Batini, PI del PRIN ha ideato la scala e ha lavorato con student i e studentesse per la sua prima stesura. Giulia Barbisoni ha partecipato ai lavori fin dalla prima validazione. Giusi Castellana ha fornito consulenz a esterna per la prima validazione ed ha attivamente partecipato alla seconda. I dati sono stati raccolti nell’ambito del PRIN. Autore e autrici ringr aziano i co-autori del primo contributo (Batini et al., 2023) di validazione e Paolo Di Nicola per la collaborazione al lavoro di revisione e riduzione della scala per ottenere la seconda versione. Per l’attribuzione dei paragrafi, nonostante l’articolo sia frutto evidente del lavoro di lungo termine di un gruppo di ricerca e la redazione abbia avuto il contributo di tutti, possono essere attribuiti: a Federico Batini i paragrafi 1, 3, 4, e 5, a Giusi Castellana i paragrafi 4.1, 4.2, 4.3, a Giulia Barbisoni i paragrafi 2 e 4.4. Federico Batini Associate Professor | University of Perugia | federico.batini@unipg.it Giusi Castellana Researcher | University of Roma T re | giuseppina.castellana@uniroma3.it Giulia Barbisoni Research Scholar | University of Perugia | giulia.barbisoni@collaboratori.unipg.it Double blind peer review Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura Validation and Standardisation of the Final Version of the DAL Scale for Assessing Reading Disposition Volume 3 | n. 2 | dicembre 2024 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "Si è optato per la scelta del costrutto della “disposizione” – anziché di quello di “motivazione alla lettura” (Davis et al. 2018; Baker & Wigfield, 1999; Wigfield & Guthrie, 1995), prevalente nella letteratura sul- l’argomento – in quanto quest’ultima si riferisce principalmente a esperienze di lettura che non sempre sono associate a significative esperienze autonome. Occorre qui inserire una distinzione cruciale: la moti- vazione si connette a comportamenti già vissuti e alla loro ripetizione, la disposizione implica soprattutto atteggiamenti verso comportamenti futuri e potenziali. La “disposizione alla lettura” (reading attitude) può essere quindi definita come la percezione individuale e l’atteggiamento mentale che una persona nutre nei confronti dell’atto di leggere e che esprime un’apertura e un interesse verso la lettura come attività. McKenna, Kear ed Ellsworth (1995) caratterizzano la dispo- sizione alla lettura come sistema di sentimenti che spingono un allievo ad avvicinarsi o evitare una situa - zione di lettura, ponendo l’accento sugli aspetti emotivi e sul coinvolgimento personale associati alla pratica del leggere. Secondo questi due autori, gli atteggiamenti e le emozioni verso la lettura possono influenzare in modo significativo la motivazione, la partecipazione e l’impegno nel processo stesso. Altri studiosi, come T omlinson e Lynch-Brown (2007), identificano la disposizione alla lettura come una sintesi di interesse, motivazione e atteggiamento positivo, sottolineando che sviluppare un interesse autentico nei confronti dell’attività di lettura, una motivazione intrinseca e una visione ottimista relativa all’esperienza letteraria siano elementi cruciali per favorire un impegno e un apprendimento efficaci. Sulla base della teoria dell’elaborazione delle informazioni e della teoria dell’azione razionale proposte da Eagly e Chaiken (1993), le disposizioni emergono attraverso il processo di valutazione e attribuzione di significato. In questo contesto, la “disposizione” si configura come una tendenza che si manifesta valu- tando una specifica entità (la lettura, in questo caso) con un certo grado di favore o sfavore, e che condiziona le scelte comportamentali future del soggetto, come la selezione del materiale di lettura, la frequenza e la durata delle sessioni di lettura, nonché l’approccio generale alla pratica (Bastug, 2014). La disposizione, pertanto, è caratterizzata da un certo grado di intensità e una valenza che può variare da positiva a negativa, influenzando le decisioni individuali di agire o meno in relazione a un particolare oggetto o situazione (Summers, 1977). La “disposizione alla lettura” riveste quindi un’importanza cruciale nell’ambito delle iniziative per promuovere la lettura e per stimolare un coinvolgimento e una fruizione duraturi dell’attività letteraria. È da osservare che il grado di disposizione positiva o negativa nei confronti della lettura può variare a seconda del tipo di materiale, dell’obiettivo e della tipologia di contenuto analizzato (McKenna et al. 1995; 2012). Alcuni individui potrebbero, ad esempio, manifestare una maggiore predisposizione verso la lettura di opere narrative, mentre potrebbero rivelare un atteggiamento meno favorevole nei confronti di testi tecnici o accademici. Analogamente, la percezione dello scopo della lettura incide sulla disposizione: se percepita come un compito obbligatorio, potrebbe generare un atteggiamento negativo; viceversa, se vista come opportunità di svago e scoperta, potrebbe suscitare una disposizione positiva. Pertanto, la “disposizione alla lettura” non è un concetto statico, ma è suscettibile di variazione in base al contesto e alle preferenze individuali. La comprensione di questi elementi costitutivi e dei fattori influenzanti la disposizione alla lettura risulta funzionale per la formulazione di interventi educativi efficaci che mirino a favorire un atteggiamento positivo verso il leggere. Le definizioni sopra citate offrono ulter",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-11-06",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-11-06",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Federico Batini, Giusi Castellana, Giulia Barbisoni",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Federico Batini, Giusi Castellana, Giulia Barbisoni",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7600\\2785-7050_7600.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Validazione e standardizzazione della versione definitiva della scala DAL per la rilevazione della disposizione alla lettura",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Validation and Standardisation of the Final Version of the DAL Scale for Measuring Reading Disposition",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Validation and Standardisation of the Final Version of the DAL Scale for Measuring Reading Disposition",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This study aims to present the validation and standardization process of a revised version of the DAL scale to assess reading disposition (Batini et al., 2023).",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Questo studio si propone di presentare il processo di validazione e standardizzazione della versione rivista della scala DAL per la rilevazione della disposizio",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

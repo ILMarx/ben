@@ -1,0 +1,1040 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6000",
+  "scraped_at_utc": "2026-04-27T18:45:34Z",
+  "fetched_at_utc": "2026-04-27T18:45:34Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "3ca004f78e1bf17a1abb97db9e4c8289ae1c19796d2cf96d72f899a79c4620a8",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Federico Palmisani",
+        "nameType": "Personal",
+        "givenName": "Federico",
+        "familyName": "Palmisani",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Lecturer in Neuroscience, Exeter University"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Camilla Stefanini",
+        "nameType": "Personal",
+        "givenName": "Camilla",
+        "familyName": "Stefanini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Fellow teacher in physiological psychology, University of Genova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Luca Baldovino",
+        "nameType": "Personal",
+        "givenName": "Luca",
+        "familyName": "Baldovino",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "TNPEE, Interdisciplinary clinic IV Novembre, Alessandria, Italy"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Simone Loprete",
+        "nameType": "Personal",
+        "givenName": "Simone",
+        "familyName": "Loprete",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Professor in Physiological Psychology, University of Genova"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6000",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-01-04",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-01-04",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-01-04",
+      "Issued": "2023-01-04"
+    },
+    "language": {
+      "value": "en",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "Due to covid-19 pandemic, in February 2020 Italian government decided to take action in order to reduce physical contact and contain the spread of the virus; among the other measures, face-to-face teaching was suspended. All along 2020 and for the major part of 2021 online teaching replaced face-to-face teaching. Teachers and parents were unprepared for this kind of didactic activities and online modality varied during the lockdown months and among different schools.&nbsp; Different studies analyzed the outcome of these online modalities, mostly on pathological samples (Baschenis et al., 2021).&nbsp; We conducted a longitudinal study in order to investigate whether online teaching had a negative effect on reading skills development in Italian children typical readers. We recruited forty-nine children from a primary school in Alessandria (Piedmont, Italy) and assessed their reading skills before (T1) and after (T2) covid-19 pandemic. All children with learning disabilities, cognitive and sensory impairments were excluded from our sample. Children attended third grade at T1 and fifth grade at T2. We evaluated reading speed, accuracy and comprehension; data from existing literature has been used to confront our sample with the population of children typical readers. We compared the results obtained at T1 and T2; our findings show that our sample reached the expected improvement in reading fluency. The subjects obtained a significant improvement in reading comprehension as well, but existing data are insufficient to determine if the improvement reached by our sample is the same as expected. Therefore, we can state that online teaching has not worsened reading skills development in typical readers.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "A causa della pandemia di covid-19, nel febbraio 2020 il governo italiano ha deciso di intervenire per ridurre i contatti fisici e contenere la diffusione del virus; tra le varie misure, è stato sospeso l’insegnamento in presenza. Durante tutto il 2020 e per la maggior parte del 2021, l’insegnamento online ha sostituito quello in presenza. Insegnanti e genitori non erano preparati a questo tipo di attività didattica e la modalità online variava nei mesi di lockdown e tra le diverse scuole. Diversi studi hanno analizzato gli effetti di queste modalità online, principalmente su campioni clinici (Baschenis et al., 2021). Il contributo presenta uno studio longitudinale condotto per verificare se l’insegnamento online avesse avuto un effetto negativo sullo sviluppo delle abilità di lettura nei bambini italiani lettori tipici. A tal fine sono state valutate le abilità di lettura di quarantanove bambini – frequentanti una scuola primaria di Alessandria (Piemonte, Italia) – prima (T1) e dopo (T2) la pandemia di covid-19. Sono stati esclusi dal campione i bambini con disturbi di apprendimento, deficit cognitivi e sensoriali. I bambini frequentavano la classe terza a T1 e la classe quinta a T2. Sono state valutate la velocità di lettura, l’accuratezza e la comprensione; successivamente i dati della presente ricerca sono stati confrontati con quelli della popolazione di bambini lettori tipici presenti nella letteratura esistente. Confrontando i risultati ottenuti a T1 e T2, i risultati mostrano che il campione ha raggiunto il miglioramento atteso nella fluidità di lettura. I soggetti hanno ottenuto anche un miglioramento significativo nella comprensione della lettura, tuttavia i dati esistenti non sono sufficienti per determinare se il miglioramento raggiunto dal campione sia quello atteso. Pertanto, è possibile affermare che l’insegnamento online non ha peggiorato lo sviluppo delle abilità di lettura nei lettori tipici.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2022-01",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "1",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "covid 19",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "abilità di lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "comprensione del testo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "rapidità di lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "didattica a distanza",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "covid19",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading skills",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading comprehension",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading speed",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "distance learning",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "online teaching",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading development",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6000/5255",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "1",
+      "citationIssue": "2",
+      "citationStartPage": "005",
+      "citationEndPage": "014",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Palmisani, F., Stefanini, C., Baldovino, L., & Loprete, S. (2023). Effetti della pandemia da covid-19 e della Didattica a Distanza (DAD) sulle abilità di lettura in bambini normo-lettori. Effetti Di Lettura / Effects of Reading , 1 (2), 005–014. https://doi.org/10.7347/EdL-02-2022-01",
+      "articleTitleEcho": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6000",
+    "article_ID": "6000",
+    "slug": "6000",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6000",
+      "url_slug": "6000"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Effetti della pandemia da covid-19 e della Didattica a Distanza (DAD) sulle abilità di lettura in bambini normo-lettori",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-10-13",
+      "accepted": null,
+      "created": "2023-01-04",
+      "modified": "2024-06-25",
+      "issued": "2023-01-04",
+      "available": "2023-01-04",
+      "submitted_page": "2022-10-13",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+        "pdf_value": null,
+        "chosen_value": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-10-13",
+        "pdf_value": null,
+        "chosen_value": "2022-10-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6000/5255",
+      "local_relative_path": "2785-7050_6000.pdf",
+      "saved": true,
+      "sha256": "231a0627df6c8c636214e3103dbcfb0ff74143793dfb5129511f94e9b4090f5a",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 6396815,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    },
+    "manual_editorial_corrections": [
+      {
+        "code": "issue-normalisation-2022-v1-n2",
+        "applied_at_utc": "2026-04-27T19:26:01Z",
+        "scope": "archival master metadata",
+        "issue_id": "2022-v1-n2",
+        "issue_label": "Vol. 1, No. 2 (2022)",
+        "issue_year": "2022",
+        "volume": "1",
+        "issue": "2",
+        "note": "The article publication date is preserved as harvested. This correction records the editorial issue year/label used by the preservation site."
+      }
+    ]
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Federico Palmisani",
+        "Camilla Stefanini",
+        "Luca Baldovino",
+        "Simone Loprete"
+      ],
+      "citation_author_institution": [
+        "Associate Lecturer in Neuroscience, Exeter University",
+        "Fellow teacher in physiological psychology, University of Genova",
+        "TNPEE, Interdisciplinary clinic IV Novembre, Alessandria, Italy",
+        "Professor in Physiological Psychology, University of Genova"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2022"
+      ],
+      "citation_volume": [
+        "1"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2022-01"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6000"
+      ],
+      "citation_keywords": [
+        "covid 19",
+        "abilità di lettura",
+        "comprensione del testo",
+        "rapidità di lettura",
+        "didattica a distanza"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6000/5255"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2023-01-04"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-10-13"
+      ],
+      "DC.Date.issued": [
+        "2022-12-31"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6000"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2022-01"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6000"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "1"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Effetti della pandemia da covid-19 e della Didattica a Distanza (DAD) sulle abilità di lettura in bambini normo-lettori"
+      ],
+      "DC.Title.Alternative": [
+        "Effetti della pandemia da covid-19 e della Didattica a Distanza (DAD) sulle abilità di lettura in bambini normo-lettori"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Federico Palmisani",
+        "Camilla Stefanini",
+        "Luca Baldovino",
+        "Simone Loprete"
+      ],
+      "citation_author_institution": [
+        "Associate Lecturer in Neuroscience, Exeter University",
+        "Fellow teacher in physiological psychology, University of Genova",
+        "TNPEE, Interdisciplinary clinic IV Novembre, Alessandria, Italy",
+        "Professor in Physiological Psychology, University of Genova"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Federico Palmisani",
+        "Camilla Stefanini",
+        "Luca Baldovino",
+        "Simone Loprete"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Due to covid-19 pandemic, in February 2020 Italian government decided to take action in order to reduce physical contact and contain the spread of the virus; among the other measures, face-to-face teaching was suspended. All along 2020 and for the major part of 2021 online teaching replaced face-to-face teaching. Teachers and parents were unprepared for this kind of didactic activities and online modality varied during the lockdown months and among different schools.&nbsp; Different studies analyzed the outcome of these online modalities, mostly on pathological samples (Baschenis et al., 2021).&nbsp; We conducted a longitudinal study in order to investigate whether online teaching had a negative effect on reading skills development in Italian children typical readers. We recruited forty-nine children from a primary school in Alessandria (Piedmont, Italy) and assessed their reading skills before (T1) and after (T2) covid-19 pandemic. All children with learning disabilities, cognitive and sensory impairments were excluded from our sample. Children attended third grade at T1 and fifth grade at T2. We evaluated reading speed, accuracy and comprehension; data from existing literature has been used to confront our sample with the population of children typical readers. We compared the results obtained at T1 and T2; our findings show that our sample reached the expected improvement in reading fluency. The subjects obtained a significant improvement in reading comprehension as well, but existing data are insufficient to determine if the improvement reached by our sample is the same as expected. Therefore, we can state that online teaching has not worsened reading skills development in typical readers.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Due to covid-19 pandemic, in February 2020 Italian government decided to take action in order to reduce physical contact and contain the spread of the virus; among the other measures, face-to-face teaching was suspended. All along 2020 and for the major part of 2021 online teaching replaced face-to-face teaching. Teachers and parents were unprepared for this kind of didactic activities and online modality varied during the lockdown months and among different schools.&nbsp; Different studies analyzed the outcome of these online modalities, mostly on pathological samples (Baschenis et al., 2021).&nbsp; We conducted a longitudinal study in order to investigate whether online teaching had a negative effect on reading skills development in Italian children typical readers. We recruited forty-nine children from a primary school in Alessandria (Piedmont, Italy) and assessed their reading skills before (T1) and after (T2) covid-19 pandemic. All children with learning disabilities, cognitive and sensory impairments were excluded from our sample. Children attended third grade at T1 and fifth grade at T2. We evaluated reading speed, accuracy and comprehension; data from existing literature has been used to confront our sample with the population of children typical readers. We compared the results obtained at T1 and T2; our findings show that our sample reached the expected improvement in reading fluency. The subjects obtained a significant improvement in reading comprehension as well, but existing data are insufficient to determine if the improvement reached by our sample is the same as expected. Therefore, we can state that online teaching has not worsened reading skills development in typical readers."
+          }
+        },
+        {
+          "content": "A causa della pandemia di covid-19, nel febbraio 2020 il governo italiano ha deciso di intervenire per ridurre i contatti fisici e contenere la diffusione del virus; tra le varie misure, è stato sospeso l’insegnamento in presenza. Durante tutto il 2020 e per la maggior parte del 2021, l’insegnamento online ha sostituito quello in presenza. Insegnanti e genitori non erano preparati a questo tipo di attività didattica e la modalità online variava nei mesi di lockdown e tra le diverse scuole. Diversi studi hanno analizzato gli effetti di queste modalità online, principalmente su campioni clinici (Baschenis et al., 2021). Il contributo presenta uno studio longitudinale condotto per verificare se l’insegnamento online avesse avuto un effetto negativo sullo sviluppo delle abilità di lettura nei bambini italiani lettori tipici. A tal fine sono state valutate le abilità di lettura di quarantanove bambini – frequentanti una scuola primaria di Alessandria (Piemonte, Italia) – prima (T1) e dopo (T2) la pandemia di covid-19. Sono stati esclusi dal campione i bambini con disturbi di apprendimento, deficit cognitivi e sensoriali. I bambini frequentavano la classe terza a T1 e la classe quinta a T2. Sono state valutate la velocità di lettura, l’accuratezza e la comprensione; successivamente i dati della presente ricerca sono stati confrontati con quelli della popolazione di bambini lettori tipici presenti nella letteratura esistente. Confrontando i risultati ottenuti a T1 e T2, i risultati mostrano che il campione ha raggiunto il miglioramento atteso nella fluidità di lettura. I soggetti hanno ottenuto anche un miglioramento significativo nella comprensione della lettura, tuttavia i dati esistenti non sono sufficienti per determinare se il miglioramento raggiunto dal campione sia quello atteso. Pertanto, è possibile affermare che l’insegnamento online non ha peggiorato lo sviluppo delle abilità di lettura nei lettori tipici.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "A causa della pandemia di covid-19, nel febbraio 2020 il governo italiano ha deciso di intervenire per ridurre i contatti fisici e contenere la diffusione del virus; tra le varie misure, è stato sospeso l’insegnamento in presenza. Durante tutto il 2020 e per la maggior parte del 2021, l’insegnamento online ha sostituito quello in presenza. Insegnanti e genitori non erano preparati a questo tipo di attività didattica e la modalità online variava nei mesi di lockdown e tra le diverse scuole. Diversi studi hanno analizzato gli effetti di queste modalità online, principalmente su campioni clinici (Baschenis et al., 2021). Il contributo presenta uno studio longitudinale condotto per verificare se l’insegnamento online avesse avuto un effetto negativo sullo sviluppo delle abilità di lettura nei bambini italiani lettori tipici. A tal fine sono state valutate le abilità di lettura di quarantanove bambini – frequentanti una scuola primaria di Alessandria (Piemonte, Italia) – prima (T1) e dopo (T2) la pandemia di covid-19. Sono stati esclusi dal campione i bambini con disturbi di apprendimento, deficit cognitivi e sensoriali. I bambini frequentavano la classe terza a T1 e la classe quinta a T2. Sono state valutate la velocità di lettura, l’accuratezza e la comprensione; successivamente i dati della presente ricerca sono stati confrontati con quelli della popolazione di bambini lettori tipici presenti nella letteratura esistente. Confrontando i risultati ottenuti a T1 e T2, i risultati mostrano che il campione ha raggiunto il miglioramento atteso nella fluidità di lettura. I soggetti hanno ottenuto anche un miglioramento significativo nella comprensione della lettura, tuttavia i dati esistenti non sono sufficienti per determinare se il miglioramento raggiunto dal campione sia quello atteso. Pertanto, è possibile affermare che l’insegnamento online non ha peggiorato lo sviluppo delle abilità di lettura nei lettori tipici."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "covid 19",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "covid 19"
+          }
+        },
+        {
+          "content": "abilità di lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "abilità di lettura"
+          }
+        },
+        {
+          "content": "comprensione del testo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "comprensione del testo"
+          }
+        },
+        {
+          "content": "rapidità di lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "rapidità di lettura"
+          }
+        },
+        {
+          "content": "didattica a distanza",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "didattica a distanza"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6000/5255",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6000/5255",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6000/5255",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2023-01-06",
+        "mod_date": "2023-01-06"
+      },
+      "front_text_excerpt": "ABSTRACT Due to the covid-19 pandemic, in February 2020 the Italian government decided to take action in order to reduce physical contact and contain the spread of the virus; among the other measures, face- to-face teaching was suspended. All along 2020 and for the major part of 2021 online teaching re - placed face-to-face teaching. T eachers and parents were unprepared for this kind of didactic activities and online modality varied during the lockdown months and among different schools. Different studies analysed the outcome of these online modalities, mostly on pathological samples (Baschenis et al., 2021). We conducted a research study in order to investigate whether online teaching had a negative effect on development of reading skills in Italian children typical readers. We recruited forty- nine children from a primary school in Alessandria (Piedmont, Italy) and assessed their reading skills before (T1) and after (T2) the pandemic. All children with learning disabilities, cognitive and sensory impairments were excluded from our group. Children attended third grade at T1 and fifth grade at T2. We evaluated reading speed, accuracy and comprehension; data from existing literature has been used to confront our participants with the population of children typical readers. We compared the results obtained at T1 and T2; our findings show that our group reached the expected improvement in reading fluency. The subjects obtained a significant improvement in reading comprehension as well, but existing data are insufficient to determine if the improvement reached by our group is the same as expected. Therefore, we can state that online teaching has not worsened the development of reading skills in our group of typical readers. Keywords: covid-19, reading skills, reading development, reading comprehension, distance learn- ing, online teaching Citation: Palmisani, F ., Stefanini, C., Baldovino, L., & Loprete, S. (2022). The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children. Effetti di Lettura / Effects of Reading, 1(2), 5–14. https://doi.org/10.7347/EdL-02-2022-01. Corresponding Author: Federico Palmisani | f.palmisani@exeter.ac.uk Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2022-01 Federico Palmisani Associate Lecturer in Neuroscience | University of Exeter | f.palmisani@exeter.ac.uk Camilla Stefanini T eaching Fellow in Physiological Psychology | University of Genova | camilla.stefanini95@gmail.com Luca Baldovino TNPEE, Alessandria | lucabaldovino19@gmail.com Simone Loprete Professor in Physiological Phsycology | University of Genova | simoneloprete82@gmail.com Double blind peer review The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children Effetti della pandemia da covid-19 e della Didattica a Distanza (DAD) sulle abilità di lettura in bambini normo-lettori Volume 1 | n. 2 | dicembre 2022 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6000\\2785-7050_6000.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+        "pdf_value": null,
+        "chosen_value": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-10-13",
+        "pdf_value": null,
+        "chosen_value": "2022-10-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Effetti della pandemia da covid-19 e della Didattica a Distanza (DAD) sulle abilità di lettura in bambini normo-lettori | Effetti di lettura / Effects of reading",
+    "warnings": [
+      "Published-date conflict: stronger page signal '2023-01-04' overrides DC.Date.issued '2022-12-31'."
+    ],
+    "warning_objects": [
+      {
+        "code": "PUBLISHED_DATE_CONFLICT",
+        "message": "Published-date conflict: stronger page signal '2023-01-04' overrides DC.Date.issued '2022-12-31'.",
+        "context": {
+          "citation_date": null,
+          "dom_published": null,
+          "dc_created": "2023-01-04",
+          "dc_issued": "2022-12-31",
+          "dc_modified": "2024-06-25"
+        },
+        "function_name": "_extract_openaire_and_internal_dates",
+        "code_snippet": "    def _extract_openaire_and_internal_dates(self, file_bundle: Dict[str, Any], interactive_resolution: bool = False, ai_config: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:\n        citation_date = iso_date(self.meta.first(\"citation_date\"))\n        dc_created = iso_date(self.meta.first(\"DC.Date.created\"))\n        dc_submitted = iso_date(self.meta.first(\"DC.Date.dateSubmitted\"))\n        dc_issued = iso_date(self.meta.first(\"DC.Date.issued\"))\n        dc_modified = iso_date(self.meta.first(\"DC.Date.modified\"))\n        dc_accepted = iso_date(self.meta.first(\"DC.Date.accepted\"))\n        dc_available = iso_date(self.meta.first(\"DC.Date.available\"))\n        dom_submitted = iso_date(self._dd_value_after_dt(\"Inviata\"))\n        dom_published = iso_date(self._dd_value_after_dt(\"Pubblicato\"))\n        pdf_dates = self._extract_pdf_editorial_dates(file_bundle)\n        page_rights = self._extract_page_rights_holder_and_year()\n\n        def choose_published_date(citation_date, dom_published, dc_created, dc_issued, dc_modified):\n            return citation_date or dom_published or dc_created or dc_issued or dc_modified\n\n        page_candidates = {\n            \"title\": self.meta.first(\"citation_title\") or self.meta.first(\"DC.Title\") or self._text(\"h1.article-page__title span\"),\n            \"submitted_date\": dc_submitted or dom_submitted,\n            \"accepted_date\": dc_accepted,\n            \"copyright_holder\": page_rights.get(\"copyright_holder_page\"),\n            \"copyright_year\": str(page_rights.get(\"copyright_year_page\")) if page_rights.get(\"copyright_year_page\") is not None else None,\n            \"license_url\": self._extract_access_rights_and_license().get(\"licenseCondition\", {}).get(\"uri\"),\n        }\n        pdf_ai_diag = self._request_ai_pdf_front_analysis(pdf_dates, page_candidates, ai_config)\n        pdf_ai_result = pdf_ai_diag.get(\"result\") if isinstance(pdf_ai_diag, dict) and pdf_ai_diag.get(\"status\") == \"ok\" else {}\n        pdf_fields = pdf_ai_result.get(\"pdf_fields\", {}) if isinstance(pdf_ai_result, dict) else {}\n        ai_resolution = pdf_ai_result.get(\"resolution\", {}) if isinstance(pdf_ai_result, dict) else {}\n\n        pdf_submitted_value = normalize_space((pdf_fields.get(\"submitted_date\") or {}).get(\"value\")) or pdf_dates.get(\"submitted_pdf\")\n        pdf_accepted_value = normalize_space((pdf_fields.get(\"accepted_date\") or {}).get(\"value\")) or pdf_dates.get(\"accepted_pdf\")\n        pdf_copyright_holder = normalize_space((pdf_fields.get(\"copyright_holder\") or {}).get(\"value\")) or pdf_dates.get(\"copyright_holder_pdf\")\n        pdf_copyright_year = normalize_space((pdf_fields.get(\"copyright_year\") or {}).get(\"value\")) or (str(pdf_dates.get(\"copyright_year_pdf\")) if pdf_dates.get(\"copyright_year_pdf\") is not None else None)\n        pdf_title_value = normalize_space((pdf_fields.get(\"title\") or {}).get(\"value\"))\n        pdf_title_allowed = bool((pdf_fields.get(\"title\") or {}).get(\"use_allowed\")) if isinstance(pdf_fields.get(\"title\"), dict) else False\n\n        strong_page_published = citation_date or dom_published or dc_created\n        if strong_page_published and dc_issued and strong_page_published != dc_issued:\n            self._warn(\n                code=\"PUBLISHED_DATE_CONFLICT\",\n                message=f\"Published-date conflict: stronger page signal '{strong_page_published}' overrides DC.Date.issued '{dc_issued}'.\",\n                function_name=\"_extract_openaire_and_internal_dates\",\n                context={\n                    \"citation_date\": citation_date,\n                    \"dom_published\": dom_published,\n                    \"dc_created\": dc_created,\n                    \"dc_issued\": dc_issued,\n                    \"dc_modified\": dc_modified,\n                },\n            )\n\n        issued = choose_published_date(\n            citation_date,\n            dom_published,\n            dc_created,\n            dc_issued,\n            dc_modified,\n        )\n        available = dc_available or issued\n        submitted_resolution = self._resolve_discrepancy(\"submitted_date\", dc_submitted or dom_submitted, pdf_submitted_value, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"submitted_date\") if isinstance(ai_resolution, dict) else None)\n        accepted_resolution = self._resolve_discrepancy(\"accepted_date\", dc_accepted, pdf_accepted_value, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"accepted_date\") if isinstance(ai_resolution, dict) else None)\n        copyright_holder_resolution = self._resolve_discrepancy(\"copyright_holder\", page_rights.get(\"copyright_holder_page\"), pdf_copyright_holder, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"copyright_holder\") if isinstance(ai_resolution, dict) else None)\n        copyright_year_resolution = self._resolve_discrepancy(\n            \"copyright_year\",\n            str(page_rights.get(\"copyright_year_page\")) if page_rights.get(\"copyright_year_page\") is not None else None,\n            pdf_copyright_year,\n            interactive_resolution,\n            prefer=\"pdf\",\n            ai_resolution=ai_resolution.get(\"copyright_year\") if isinstance(ai_resolution, dict) else None,\n        )\n        title_resolution = self._resolve_discrepancy(\n            \"title\",\n            page_candidates.get(\"title\"),\n            pdf_title_value if pdf_title_allowed or not page_candidates.get(\"title\") else None,\n            interactive_resolution,\n            prefer=\"page\",\n            ai_resolution=ai_resolution.get(\"title\") if isinstance(ai_resolution, dict) else None,\n        )\n\n        accepted = accepted_resolution.get(\"chosen_value\")\n        submitted = submitted_resolution.get(\"chosen_value\")\n\n        export_dates: List[Dict[str, Any]] = []\n        if accepted:\n            export_dates.append({\"value\": accepted, \"dateType\": \"Accepted\", \"source\": accepted_resolution.get(\"chosen_source\")})\n        if available:\n            export_dates.append({\"value\": available, \"dateType\": \"Available\", \"source\": \"meta:DC.Date.available\" if dc_available else \"fallback:Issued\"})\n        if issued:\n            export_dates.append({\"value\": issued, \"dateType\": \"Issued\", \"source\": \"meta:DC.Date.issued\" if dc_issued else \"meta:citation_date\" if citation_date else \"dom:Pubblicato\" if dom_published else \"meta:DC.Date.created\"})\n\n        export_dates = dedupe_list(export_dates)\n        dates_by_type: Dict[str, Optional[str]] = {d[\"dateType\"]: d[\"value\"] for d in export_dates}\n        if not dates_by_type.get(\"Available\") and issued:\n            dates_by_type[\"Available\"] = issued\n        internal_dates = {\n            \"submitted\": submitted,\n            \"accepted\": accepted,\n            \"created\": dc_created,\n            \"modified\": dc_modified,\n            \"issued\": issued,\n            \"available\": dates_by_type.get(\"Available\"),\n            \"submitted_page\": dc_submitted or dom_submitted,\n            \"submitted_pdf\": pdf_dates.get(\"submitted_pdf\"),\n            \"accepted_page\": dc_accepted,\n            \"accepted_pdf\": pdf_dates.get(\"accepted_pdf\"),\n        }\n        resolutions = {\n            \"title\": title_resolution,\n            \"submitted\": submitted_resolution,\n            \"accepted\": accepted_resolution,\n            \"copyright_holder\": copyright_holder_resolution,\n            \"copyright_year\": copyright_year_resolution,\n        }\n        return {\n            \"export_dates\": export_dates,\n            \"dates_by_type\": dates_by_type,\n            \"internal_dates\": internal_dates,\n            \"pdf_editorial_dates\": pdf_dates,\n            \"page_rights\": page_rights,\n            \"resolutions\": resolutions,\n            \"pdf_ai_resolution\": pdf_ai_diag,\n        }\n"
+      }
+    ],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6000",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6000",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:45:34Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:45:36Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6000",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6000",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 7,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 7
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6000",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6000",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6000\\2785-7050_6000.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:45:40Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6000\\2785-7050_6000.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+        "submitted_date": "2022-10-13",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "en",
+        "creator_names": [
+          "Federico Palmisani",
+          "Camilla Stefanini",
+          "Luca Baldovino",
+          "Simone Loprete"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6000\\2785-7050_6000.pdf",
+        "generated_at_utc": "2026-04-27T18:45:40Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2023-01-06",
+          "mod_date": "2023-01-06"
+        },
+        "front_text_excerpt": "ABSTRACT Due to the covid-19 pandemic, in February 2020 the Italian government decided to take action in order to reduce physical contact and contain the spread of the virus; among the other measures, face- to-face teaching was suspended. All along 2020 and for the major part of 2021 online teaching re - placed face-to-face teaching. T eachers and parents were unprepared for this kind of didactic activities and online modality varied during the lockdown months and among different schools. Different studies analysed the outcome of these online modalities, mostly on pathological samples (Baschenis et al., 2021). We conducted a research study in order to investigate whether online teaching had a negative effect on development of reading skills in Italian children typical readers. We recruited forty- nine children from a primary school in Alessandria (Piedmont, Italy) and assessed their reading skills before (T1) and after (T2) the pandemic. All children with learning disabilities, cognitive and sensory impairments were excluded from our group. Children attended third grade at T1 and fifth grade at T2. We evaluated reading speed, accuracy and comprehension; data from existing literature has been used to confront our participants with the population of children typical readers. We compared the results obtained at T1 and T2; our findings show that our group reached the expected improvement in reading fluency. The subjects obtained a significant improvement in reading comprehension as well, but existing data are insufficient to determine if the improvement reached by our group is the same as expected. Therefore, we can state that online teaching has not worsened the development of reading skills in our group of typical readers. Keywords: covid-19, reading skills, reading development, reading comprehension, distance learn- ing, online teaching Citation: Palmisani, F ., Stefanini, C., Baldovino, L., & Loprete, S. (2022). The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children. Effetti di Lettura / Effects of Reading, 1(2), 5–14. https://doi.org/10.7347/EdL-02-2022-01. Corresponding Author: Federico Palmisani | f.palmisani@exeter.ac.uk Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2022-01 Federico Palmisani Associate Lecturer in Neuroscience | University of Exeter | f.palmisani@exeter.ac.uk Camilla Stefanini T eaching Fellow in Physiological Psychology | University of Genova | camilla.stefanini95@gmail.com Luca Baldovino TNPEE, Alessandria | lucabaldovino19@gmail.com Simone Loprete Professor in Physiological Phsycology | University of Genova | simoneloprete82@gmail.com Double blind peer review The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children Effetti della pandemia da covid-19 e della Didattica a Distanza (DAD) sulle abilità di lettura in bambini normo-lettori Volume 1 | n. 2 | dicembre 2022 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "classrooms. We used data from literature (Cornoldi et al., 2016) as a normative group for both T1 and T2. We looked for significant changes in reading fluency between T1 and T2 and we confronted our results with the improvement rate that was expected with a typical face-to-face teaching. 2. Materials and Methods 2.1 Participants and procedures Forty-nine (n = 27 females) typical readers were enrolled from two different classes in a private primary school in Alessandria, Italy; like most of the Italian private institutes, the socio-economic background of the children of our group is considered middle-high. At the time of the first assessment (T1) children were attending third grade, while at T2 they were attending fifth grade. We did not evaluate children in fourth grade, because during that time teaching was still blended, half online and half in-class. T eachers of the two different classes did not follow specific didactic protocols, and did not receive any specific training to face online teaching. In each class there was one appointed main teacher. The main teachers of the two classes which participated in our study had the same Intended Learning Outcomes (ILO) for their students, despite no specific didactic program was put in action. In order to conduct an appropriate analysis, we tested the same group of students at T1 and T2. All the children who performed below 2 Standard Devi- ation (SD) in a task of reading fluency were not included in the present study, as well as all the children with cognitive or sensory impairment; six children were excluded for these reasons from the original sample of fifty-five children. The mean age at T1 was 8.48 years, SD = .5 (min = 8, max = 9). The mean age at T2 was 10.48, SD = .5 (min = 10, max = 11). Tab. 1 and Tab. 2 describe the anagraphic of the participants to our study. Table 1. Number of participants Table 2. Age at T1 and T2 The subjects were assessed with three reading tasks, as stated below, at T1 (February 2020) and at T2 (February 2022). Children were attending third grade at T1 and fifth grade at T2: at that age children typically read through a lexical path and reading impairments should already have emerged if present. During 2021 teaching and learning modalities were still affected by covid-19 pandemic; when more than one positive case per class was spotted, face-to-face teaching was suspended and the online modality was N Female 27 Male 22 49 Min Max M SD Age T1 8 9 8.48 .5 Age T2 10 11 10.48 .5 7 Volume 1 | n. 2 | dicembre 2022 | pp. 5-14Effetti di Lettura Effects of Reading",
+        "body_language_guess": "en",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-10-13",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-10-13",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6000\\2785-7050_6000.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The effects of covid-19 pandemic and Distance Learning on reading skills in typical readers children: a longitudinal study",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "Effetti della pandemia da covid-19 e della Didattica a Distanza (DAD) sulle abilità di lettura in bambini normo-lettori",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Effetti della pandemia da covid-19 e della Didattica a Distanza (DAD) sulle abilità di lettura in bambini normo-lettori",
+            "dropped_source": "locale:it_IT:meta:DC.Title",
+            "kept_source": "meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Due to covid-19 pandemic, in February 2020 Italian government decided to take action in order to reduce physical contact and contain the spread of the virus; am",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "A causa della pandemia di covid-19, nel febbraio 2020 il governo italiano ha deciso di intervenire per ridurre i contatti fisici e contenere la diffusione del v",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

@@ -1,0 +1,1096 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8446",
+  "scraped_at_utc": "2026-04-27T18:49:52Z",
+  "fetched_at_utc": "2026-04-27T18:49:52Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "d38c7922a72636a0cbbbd734ad37e6c367adf0391ebf3e681c6f85e2939a0e89",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Loredana Camizzi",
+        "nameType": "Personal",
+        "givenName": "Loredana",
+        "familyName": "Camizzi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Ricercatrice | INDIRE"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Rachele Borgi",
+        "nameType": "Personal",
+        "givenName": "Rachele",
+        "familyName": "Borgi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Collaboratrice tecnica di Ricerca | INDIRE"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Beatrice Marconi",
+        "nameType": "Personal",
+        "givenName": "Beatrice",
+        "familyName": "Marconi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Assegnista di ricerca| INDIRE"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Andrea Nardi",
+        "nameType": "Personal",
+        "givenName": "Andrea",
+        "familyName": "Nardi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Ricercatore| INDIRE"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Francesco Perrone",
+        "nameType": "Personal",
+        "givenName": "Francesco",
+        "familyName": "Perrone",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Collaboratore tecnico di Ricerca | INDIRE"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Leyla Vahedi",
+        "nameType": "Personal",
+        "givenName": "Leyla",
+        "familyName": "Vahedi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Assegnista di ricerca| INDIRE"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8446",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-12-30",
+      "Issued": "2025-12-30"
+    },
+    "language": {
+      "value": "en",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "This contribution presents an organizational and educational model for the practice of reading for pleasure in schools, developed within the educational policy Leggere: Forte!. The model integrates reading aloud, independent reading, and peer conversations, emphasizing both the central role of the student and the professional expertise of the reading teacher. Structured on multiple levels – from the classroom to the educational community – it promotes inclusive reading environments, sustainable routines, bibliodiversity, and family involvement. The opinions gathered from teachers, educators, and school leaders, along with the analysis of classroom reading documentation, enabled us to convey a complex and systemic vision of the practice of reading for pleasure and to develop it into a proposal for its dissemination and integration within the educational system.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "In questo contributo viene presentato un modello organizzativo e didattico per la pratica della lettura per piacere a scuola, sviluppato nell’ambito della politica educativa Leggere: Forte!. Il modello si fonda sull’integrazione tra lettura ad alta voce, lettura autonoma e conversazioni tra pari, valorizzando la centralità dello studente e la professionalità del docente lettore. Articolato su più livelli – dalla classe alla comunità educante – promuove ambienti di lettura inclusivi, routine sostenibili, bibliovarietà e coinvolgimento delle famiglie. Le opinioni raccolte tra docenti, educatori e dirigenti e l’analisi della documentazione della lettura realizzata nelle classi ha consentito di restituire una visione complessa e sistemica della pratica di lettura per piacere e di farne una proposta per la diffusione e il radicamento nel sistema educativo e di istruzione.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2025-04",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura per piacere",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pedagogia della lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "comunità scolastica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "sviluppo professionale dei docenti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading for pleasure",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading pedagogy",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "school community",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "teacher professional development",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": null,
+      "holder_source": "none",
+      "year": null,
+      "year_source": "none"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8446/7447",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "2",
+      "citationStartPage": "064",
+      "citationEndPage": "078",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Camizzi, L., Borgi, R., Marconi, B., Nardi, A., Perrone, F., & Vahedi, L. (2025). La lettura per piacere in Leggere: Forte!. Verso un modello per la pratica. Effetti Di Lettura / Effects of Reading , 4 (2), 064–078. https://doi.org/10.7347/EdL-02-2025-04",
+      "articleTitleEcho": "Reading for pleasure in Leggere: Forte!: towards a framework for practice"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Altet, M. (2012). L’apporto dell’analisi plurale dalle pratiche didattiche alla co-formazione degli insegnanti. In P. C. Rivoltella & P. G. Rossi (Eds.), L’agire didattico (pp. 291–312), La Scuola.",
+        "Agresti, A., & Finlay, B. (2009). Statistica per le scienze sociali. Pearson.",
+        "Band, B. (2022). Equality, diversity and inclusion in the school library. In C. Roche, B. Band, N. Cavender, L. Chambers, A. Everall, E. Krajewski, & S. Pavey (Eds.), Creating a school library with impact: A beginner’s guide (pp. 97–112). Facet Publishing.",
+        "Batini, F. (Ed.). (2021). Un anno di Leggere: Forte! in Toscana, l’esperienza di una ricerca-azione. FrancoAngeli.",
+        "Batini, F. (Ed.). (2023). La lettura ad alta voce condivisa. Il Mulino.",
+        "Batini, F., & De Carlo, M. E. (2025). Shared Reading Aloud. In T. Cremin & S. McGeown (Eds.), Reading for Pleasure: International Perspectives (pp. 125–137). Routledge.",
+        "Batini, F., & Giusti, S. (2008). L’orientamento narrativo a scuola. Lavorare sulle competenze per l’orientamento dalla scuola dell'infanzia all'educazione degli adulti. Erickson.",
+        "Batini, F., & Giusti, S. (Eds.) (2021). Tecniche per la lettura ad alta voce. 27 suggerimenti per la fascia 0-6 anni. FrancoAngeli.",
+        "Batini, F., & Giusti, S. (Eds.). (2022). Strategie e tecniche per leggere ad alta voce a scuola. 16 suggerimenti per insegnanti del primo e del secondo ciclo. FrancoAngeli.",
+        "Borgi, R., Camizzi, L., Chellini, C., & Morani, R. M. (2023). La lettura ad alta voce e i docenti. Sviluppo professionale e cambiamento della pratica didattica nell'esperienza di Leggere Forte!. Carocci.",
+        "Borgi, R. (in press). L’azione di accompagnamento alle scuole per l’attuazione di Leggere: Forte! Regione Toscana, Leggere: Forte! La Toscana che legge dal nido alla scuola superiore.",
+        "Cardarello, R., & Mazza, E. (2005). Piacere di leggere a scuola: una rilevazione empirica. In E. Bardulla & N. Paparella (Eds.), La ricerca didattica nei contesti formali, non formali, informali: Atti del 4. Congresso scientifico: Gallipoli, 19–21 settembre 2002 (pp. 233–271). Monolite.",
+        "Chambers, A. (2015). Il lettore infinito. Equilibri.",
+        "Cremin, T. (2020). Teachers as readers and writers. In V. Bowers (Ed.), Debates in primary education (pp. 243–253). Routledge.",
+        "Cremin, T. (2023). Insegnanti che leggono e lettura ad alta voce. In F. Batini (Ed.), La lettura ad alta voce condivisa (pp. 79–101). Il Mulino.",
+        "Cremin, T., Hendry, H., Rodríguez León, L., & Kucirkova, N. (Eds.). (2022). Reading teachers: Nurturing reading for pleasure. Routledge.",
+        "Cremin, T., & McGeown, S. (Eds.). (2025). Reading for pleasure: International perspectives. Routledge.",
+        "Cremin, T., Mottram, M., Powell, S., Collins, F. M., & Safford, K. (2014). Building communities of engaged readers: Reading for pleasure. Routledge.",
+        "Cremin, T., & Scholes, L. (2024). Reading for pleasure: scrutinising the evidence base – benefits, tensions and recommendations. Language and Education, 38(4), 537–559. https://doi.org/10.1080/09500782.2024.2324948",
+        "D’Addario, M. (2017). Coaching ontologico (4ª ed.). Babelcube Incorporated.",
+        "de Jong, P. F., & Leseman, P. P. M. (2001a). How important is home literacy for acquiring literacy in school?. In L. Verhoeven & C. E. Snow (Eds.), Literacy and motivation: Reading engagement in individuals and groups (pp. 71–93). Lawrence Erlbaum Associates.",
+        "de Jong, P. F., & Leseman, P. P. M. (2001b). Lasting effects of home literacy on reading achievement in school. Journal of School Psychology, 39(5), 389–414. https://doi.org/10.1016/S0022-4405(01)00080-2",
+        "Detti, E. (1987). Il piacere di leggere. La Nuova Italia.",
+        "Errazuriz, M. C., & Davison, O. (2023). Perceptions of excellent teachers of different disciplines about the role of the school library and their ways of using it: Opportunities to form reading communities in the school. Journal of Higher Education Theory and Practice, 23(12), 185–199.",
+        "Ferrieri, L., & Innocenti, P. (1995). Il piacere di leggere. Teoria e pratica della lettura. Unicopli.",
+        "Gramantieri, N., Piccinini, G., & Tontardini, I. (Eds.). (2025). Come fanno le lische a diventare lisce: Parola, poesia, infanzia. Edizioni Junior.",
+        "In territorio selvaggio: adolescenti e libri per adulti. (2025). Hamelin, 54. https://hamelin.net/prodotto/hamelin-54-libri-per-adulti/",
+        "International Federation of Library Associations and Institutions, & UNESCO. (2025, April 25). IFLA/UNESCO school library manifesto 2025. International Federation of Library Associations and Institutions.",
+        "Ivey, G., & Friddle, K. (2025). Agency within pleasure reading. In T. Cremin & S. McGeown (Eds.). (2025). Reading for pleasure: International perspectives (pp. 94–109). Routledge.",
+        "Kranich, N. (2006). The civic mission of school libraries. Knowledge Quest, 34(4), 10–17.",
+        "Kucirkova, N., & Cremin, T. (2020). Children reading for pleasure in the digital age: Mapping reader engagement. SAGE Publications.",
+        "Lee, P. C. (2024). Transitioning elementary school libraries to joint-use spaces: Insights from organizational learning. IFLA Journal, 50(3), 605–619. https://doi.org/10.1177/03400352241266151",
+        "Mangione, G. R. J., & Pieri, M. (2021). La biblioteca scolastica nel progetto educativo della piccola scuola: Analisi qualitative sulla base di framework emergenti. In G. R. J. Mangione, G. Cannella, & F. De Santis (Eds.), Piccole scuole, scuole di prossimità. Dimensioni, strumenti e percorsi emergenti (pp. 809–1050). INDIRE.",
+        "Marchi, M. (2020). Io leggo. Incontri, paesaggi, meraviglie nel mondo dei libri e della lettura. In B. Campolmi, A. Di Credito & N. Vretenar (Eds.), Chi ben comincia… Parlare-scrivere-leggere a scuola (pp. 31–46), Movimento di cooperazione educativa, Asterios.",
+        "Marconi, B., & Vahedi, L. (in press). La pratica di lettura nella documentazione di docenti ed educatori. Regione Toscana, Leggere: Forte! La Toscana che legge dal nido alla scuola superiore.",
+        "Mascia, T. (2023). Pedagogia del leggere per piacere: Il ruolo della motivazione e l’identità del lettore. Pedagogia più Didattica, 9(1), 133–143.",
+        "Merga, M. K., & Mason, S. (2019). Building a school reading culture: Teacher librarians’ perceptions of enabling and constraining factors. Australian Journal of Education, 63(2), 173–189. https://doi.org/10.1177/0004944119844544",
+        "MIBACT/MEF. (2020). Legge 13 febbraio 2020, n. 15. Disposizioni per la promozione e il sostegno della lettura.",
+        "Mills, K. A., Unsworth, L., & Scholes, L. (2022). Literacy for digital futures: Mind, body, text. Routledge.",
+        "Mol, S. E., & Bus, A. G. (2011). To Read or Not to Read: A Meta-Analysis of Print Exposure From Infancy to Early Adulthood. Psychological Bulletin, 137(2), 267–296.",
+        "OECD. (2001). School libraries and resource centers. OECD Publishing.",
+        "Payne, A. C., Whitehurst, G. J., & Angell, A. L. (1994). The role of home literacy environment in the development of language ability in preschool children from low-income families. Early Childhood Research Quarterly, 9(3–4), 427–440. https://doi.org/10.1016/0885-2006(94)90018-3",
+        "Pribesh, S., Gavigan, K., & Dickinson, G. (2011). The access gap: Poverty and characteristics of school library media centers. The Library Quarterly, 81(2), 143–160. https://doi.org/10.1086/658868",
+        "Ramonda, C. (2013). La biblioteca per ragazzi. Editrice bibliografica.",
+        "Rodriguez-Leon, L., Hulston, S. J., Hendry, H., & Cremin, T. (2025). Informal book talk: how casual conversations support enjoyment of reading. In T. Cremin & S. McGeown (Eds.), Reading for pleasure: International perspectives (pp. 111–124). Routledge. https://doi.org/10.4324/9781003519003-11",
+        "Silva, C., & Lencioni, E. (2023). L’importanza della lettura nell’epoca della digital transformation: una proposta per la formazione universitaria dell’educatore socio-pedagogico. Nuova Secondaria, 9, 266–278.",
+        "Silva, C. M., & Prisco, G. (2025). La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”. Effetti di Lettura / Effects of Reading, 4(1), 117–128. https://doi.org/10.7347/EdL-01-2025-09",
+        "Simpson, A., & Cremin, T. (2022). Responsible reading: Children’s literature and social justice. Education Sciences, 12(4), 264. https://doi.org/10.3390/educsci12040264",
+        "Strauss, A., & Corbin, J. (1990), Basics of qualitative research: Grounded Theory Procedures and Techniques. Sage.",
+        "Teruggi, L. A. (2019). Leggere e scrivere a scuola: dalla ricerca alla didattica. Carocci.",
+        "UNESCO. (2004). The plurality of literacy and its implications for policies and programs: Position paper. United Nations Educational, Scientific and Cultural Organization, Education Sector.",
+        "Vahedi, L. (2018). Leggere prima di leggere: albi illustrati e libri app nell’età prescolare. AIB.",
+        "Valentino Merletti, R. (1996). Leggere ad alta voce, Mondadori.",
+        "Varrà, E. (2018). La regola e il gioco: impossibile non essere multimediali. Hamelin, 18(45), 98–117.",
+        "Wolf, M. (2019). Lettore, vieni a casa: il cervello che legge in un mondo digitale. Biblioteche oggi.",
+        "Zipes, J. (2002). Oltre il giardino: L’inquietante successo della letteratura per l’infanzia da Pinocchio a Harry Potter. Mondadori.",
+        "Sitografia",
+        "https://www.regione.toscana.it/scuola/speciali/leggereforte",
+        "https://leggereforte.indire.it/",
+        "Vademecum di Leggere: Forte!: https://leggereforte.indire.it/pluginfile.php/6894/block_lambdacb/content/Vademecum%20LF.pdf?time=1759851261651 (link active on 05/12/2025 at 7.00 p.m.)."
+      ],
+      "count": 60,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8446",
+    "article_ID": "8446",
+    "slug": "8446",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8446",
+      "url_slug": "8446"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "La lettura per piacere in Leggere: Forte!. Verso un modello per la pratica.",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-10-15",
+      "accepted": null,
+      "created": "2025-12-30",
+      "modified": "2025-12-30",
+      "issued": "2025-12-30",
+      "available": "2025-12-30",
+      "submitted_page": "2025-10-15",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+        "pdf_value": null,
+        "chosen_value": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-10-15",
+        "pdf_value": null,
+        "chosen_value": "2025-10-15",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8446/7447",
+      "local_relative_path": "2785-7050_8446.pdf",
+      "saved": true,
+      "sha256": "d02e4f961beafe676befa2f2771aab08efbd5291a3cd8f4c7727b665961c549f",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 214471,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Loredana Camizzi",
+        "Rachele Borgi",
+        "Beatrice Marconi",
+        "Andrea Nardi",
+        "Francesco Perrone",
+        "Leyla Vahedi"
+      ],
+      "citation_author_institution": [
+        "Ricercatrice | INDIRE",
+        "Collaboratrice tecnica di Ricerca | INDIRE",
+        "Assegnista di ricerca| INDIRE",
+        "Ricercatore| INDIRE",
+        "Collaboratore tecnico di Ricerca | INDIRE",
+        "Assegnista di ricerca| INDIRE"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Reading for pleasure in Leggere: Forte!: towards a framework for practice"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2025/12/30"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2025-04"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8446"
+      ],
+      "citation_keywords": [
+        "lettura per piacere",
+        "lettura ad alta voce",
+        "pedagogia della lettura",
+        "comunità scolastica",
+        "sviluppo professionale dei docenti"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8446/7447"
+      ],
+      "citation_reference_count": 60,
+      "DC.Date.created": [
+        "2025-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-10-15"
+      ],
+      "DC.Date.issued": [
+        "2025-12-30"
+      ],
+      "DC.Date.modified": [
+        "2025-12-30"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8446"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2025-04"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8446"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "La lettura per piacere in Leggere: Forte!. Verso un modello per la pratica."
+      ],
+      "DC.Title.Alternative": [
+        "La lettura per piacere in Leggere: Forte!. Verso un modello per la pratica."
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Loredana Camizzi",
+        "Rachele Borgi",
+        "Beatrice Marconi",
+        "Andrea Nardi",
+        "Francesco Perrone",
+        "Leyla Vahedi"
+      ],
+      "citation_author_institution": [
+        "Ricercatrice | INDIRE",
+        "Collaboratrice tecnica di Ricerca | INDIRE",
+        "Assegnista di ricerca| INDIRE",
+        "Ricercatore| INDIRE",
+        "Collaboratore tecnico di Ricerca | INDIRE",
+        "Assegnista di ricerca| INDIRE"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Loredana Camizzi",
+        "Rachele Borgi",
+        "Beatrice Marconi",
+        "Andrea Nardi",
+        "Francesco Perrone",
+        "Leyla Vahedi"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This contribution presents an organizational and educational model for the practice of reading for pleasure in schools, developed within the educational policy Leggere: Forte!. The model integrates reading aloud, independent reading, and peer conversations, emphasizing both the central role of the student and the professional expertise of the reading teacher. Structured on multiple levels – from the classroom to the educational community – it promotes inclusive reading environments, sustainable routines, bibliodiversity, and family involvement. The opinions gathered from teachers, educators, and school leaders, along with the analysis of classroom reading documentation, enabled us to convey a complex and systemic vision of the practice of reading for pleasure and to develop it into a proposal for its dissemination and integration within the educational system.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This contribution presents an organizational and educational model for the practice of reading for pleasure in schools, developed within the educational policy Leggere: Forte!. The model integrates reading aloud, independent reading, and peer conversations, emphasizing both the central role of the student and the professional expertise of the reading teacher. Structured on multiple levels – from the classroom to the educational community – it promotes inclusive reading environments, sustainable routines, bibliodiversity, and family involvement. The opinions gathered from teachers, educators, and school leaders, along with the analysis of classroom reading documentation, enabled us to convey a complex and systemic vision of the practice of reading for pleasure and to develop it into a proposal for its dissemination and integration within the educational system."
+          }
+        },
+        {
+          "content": "In questo contributo viene presentato un modello organizzativo e didattico per la pratica della lettura per piacere a scuola, sviluppato nell’ambito della politica educativa Leggere: Forte!. Il modello si fonda sull’integrazione tra lettura ad alta voce, lettura autonoma e conversazioni tra pari, valorizzando la centralità dello studente e la professionalità del docente lettore. Articolato su più livelli – dalla classe alla comunità educante – promuove ambienti di lettura inclusivi, routine sostenibili, bibliovarietà e coinvolgimento delle famiglie. Le opinioni raccolte tra docenti, educatori e dirigenti e l’analisi della documentazione della lettura realizzata nelle classi ha consentito di restituire una visione complessa e sistemica della pratica di lettura per piacere e di farne una proposta per la diffusione e il radicamento nel sistema educativo e di istruzione.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "In questo contributo viene presentato un modello organizzativo e didattico per la pratica della lettura per piacere a scuola, sviluppato nell’ambito della politica educativa Leggere: Forte!. Il modello si fonda sull’integrazione tra lettura ad alta voce, lettura autonoma e conversazioni tra pari, valorizzando la centralità dello studente e la professionalità del docente lettore. Articolato su più livelli – dalla classe alla comunità educante – promuove ambienti di lettura inclusivi, routine sostenibili, bibliovarietà e coinvolgimento delle famiglie. Le opinioni raccolte tra docenti, educatori e dirigenti e l’analisi della documentazione della lettura realizzata nelle classi ha consentito di restituire una visione complessa e sistemica della pratica di lettura per piacere e di farne una proposta per la diffusione e il radicamento nel sistema educativo e di istruzione."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura per piacere",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura per piacere"
+          }
+        },
+        {
+          "content": "lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce"
+          }
+        },
+        {
+          "content": "pedagogia della lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pedagogia della lettura"
+          }
+        },
+        {
+          "content": "comunità scolastica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "comunità scolastica"
+          }
+        },
+        {
+          "content": "sviluppo professionale dei docenti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "sviluppo professionale dei docenti"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8446/7447",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8446/7447",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8446/7447",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "Milena",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-12-29",
+        "mod_date": "2025-12-29"
+      },
+      "front_text_excerpt": "ABSTRACT This contribution presents an organizational and educational model for the practice of reading for pleasure in schools, developed within the educational policy Leggere: Forte!. The model integrates reading aloud, independent reading, and peer conversations, emphasizing both the central role of the student and the professional expertise of the reading teacher. Structured on multiple levels – from the classroom to the educational community – it promotes inclusive reading environments, sustainable routines, bibliodiversity, and family involveme nt. The opinions gathered from teachers, educators, and school leaders, along with the analysis of classroom reading documentation, enabled us to convey a complex and systemic vision of the practice of reading for pleasure and to develop it into a proposal for its dissemination and in- tegration within the educational system. Keywords: reading for pleasure, reading aloud, reading pedagogy, school community, teacher professional development In questo contributo viene presentato un modello organizzativo e didattico per la pratica della lettura per piacere a scuola, sviluppato nel- l’ambito della politica educativa Leggere: Forte!. Il modello si fonda sull’integrazione tra lettura ad alta voce, lettura autonoma e conversazioni tra pari, valorizzando la centralità dello studente e la professionalità del docente lettore. Articolato su più livelli – dalla classe alla comunità educante – promuove ambienti di lettura inclusivi, routine sostenibili, bibliovarietà e coinvolgimento delle famiglie. Le opinioni raccolte da docenti, educatori e dirigenti e l’analisi della documentazione della lettura realizzata nelle classi ha consentito di restituire una visione complessa e sistemica della pratica di lettura per piacere e di farne una proposta per la diffusione e il radicamento nel sistema educativo e di istruzione. Parole chiave: lettura per piacere, lettura ad alta voce, pedagogia della lettura, comunità scolastica, sviluppo professionale dei docenti Citation: Camizzi, L., Borgi, R., Marconi, B., Nardi, A., Perrone, F ., & Vahedi, L. (2025). Reading for pleasure in Leggere: Forte!. To- wards a framework for practice. Effetti di Lettura / Effects of Reading, 4(2), 64-78. https://doi.org/10.7347/EdL-02-2025-04. Corresponding Author: Loredana Camizzi | l.camizzi@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-04 Authorship/Attribuzioni: Loredana Camizzi: Introduction, par. 2, Conclusions. Rachele Borgi: par. 4. Beatrice Marconi: par. 3.1. Andrea Nardi: par. 1 and 6. Francesco Perrone: par. 5. Leyla Vahedi: par. 3.2. Loredana Camizzi Ricercatrice | INDIRE| l.camizzi@indire.it Rachele Borgi Collaboratrice tecnica di Ricerca | INDIRE| r.borgi@indire.it Beatrice Marconi Assegnista di ricerca| INDIRE| b.marconi@indire.it Andrea Nardi Ricercatore| INDIRE| a.nardi@indire.it Francesco Perrone Collaboratore tecnico di Ricerca | INDIRE| f.perrone@indire.it Leyla Vahedi Assegnista di ricerca| INDIRE| l.vahedi@indire.it Double blind peer review Reading for pleasure in Leggere: Forte! T owards a framework for practice La lettura per piacere in Leggere: Forte! Verso un modello per la pratica Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8446\\2785-7050_8446.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": null,
+      "copyright_year_page": null,
+      "raw_dc_rights": [
+        "Copyright (c) 2025",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+        "pdf_value": null,
+        "chosen_value": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-10-15",
+        "pdf_value": null,
+        "chosen_value": "2025-10-15",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La lettura per piacere in Leggere: Forte!. Verso un modello per la pratica. | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8446",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8446",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:49:52Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:49:54Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8446",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8446",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8446",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8446",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8446\\2785-7050_8446.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:49:55Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8446\\2785-7050_8446.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+        "submitted_date": "2025-10-15",
+        "accepted_date": null,
+        "copyright_holder": null,
+        "copyright_year": null,
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "en",
+        "creator_names": [
+          "Loredana Camizzi",
+          "Rachele Borgi",
+          "Beatrice Marconi",
+          "Andrea Nardi",
+          "Francesco Perrone",
+          "Leyla Vahedi"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8446\\2785-7050_8446.pdf",
+        "generated_at_utc": "2026-04-27T18:49:55Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "Milena",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-12-29",
+          "mod_date": "2025-12-29"
+        },
+        "front_text_excerpt": "ABSTRACT This contribution presents an organizational and educational model for the practice of reading for pleasure in schools, developed within the educational policy Leggere: Forte!. The model integrates reading aloud, independent reading, and peer conversations, emphasizing both the central role of the student and the professional expertise of the reading teacher. Structured on multiple levels – from the classroom to the educational community – it promotes inclusive reading environments, sustainable routines, bibliodiversity, and family involveme nt. The opinions gathered from teachers, educators, and school leaders, along with the analysis of classroom reading documentation, enabled us to convey a complex and systemic vision of the practice of reading for pleasure and to develop it into a proposal for its dissemination and in- tegration within the educational system. Keywords: reading for pleasure, reading aloud, reading pedagogy, school community, teacher professional development In questo contributo viene presentato un modello organizzativo e didattico per la pratica della lettura per piacere a scuola, sviluppato nel- l’ambito della politica educativa Leggere: Forte!. Il modello si fonda sull’integrazione tra lettura ad alta voce, lettura autonoma e conversazioni tra pari, valorizzando la centralità dello studente e la professionalità del docente lettore. Articolato su più livelli – dalla classe alla comunità educante – promuove ambienti di lettura inclusivi, routine sostenibili, bibliovarietà e coinvolgimento delle famiglie. Le opinioni raccolte da docenti, educatori e dirigenti e l’analisi della documentazione della lettura realizzata nelle classi ha consentito di restituire una visione complessa e sistemica della pratica di lettura per piacere e di farne una proposta per la diffusione e il radicamento nel sistema educativo e di istruzione. Parole chiave: lettura per piacere, lettura ad alta voce, pedagogia della lettura, comunità scolastica, sviluppo professionale dei docenti Citation: Camizzi, L., Borgi, R., Marconi, B., Nardi, A., Perrone, F ., & Vahedi, L. (2025). Reading for pleasure in Leggere: Forte!. To- wards a framework for practice. Effetti di Lettura / Effects of Reading, 4(2), 64-78. https://doi.org/10.7347/EdL-02-2025-04. Corresponding Author: Loredana Camizzi | l.camizzi@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-04 Authorship/Attribuzioni: Loredana Camizzi: Introduction, par. 2, Conclusions. Rachele Borgi: par. 4. Beatrice Marconi: par. 3.1. Andrea Nardi: par. 1 and 6. Francesco Perrone: par. 5. Leyla Vahedi: par. 3.2. Loredana Camizzi Ricercatrice | INDIRE| l.camizzi@indire.it Rachele Borgi Collaboratrice tecnica di Ricerca | INDIRE| r.borgi@indire.it Beatrice Marconi Assegnista di ricerca| INDIRE| b.marconi@indire.it Andrea Nardi Ricercatore| INDIRE| a.nardi@indire.it Francesco Perrone Collaboratore tecnico di Ricerca | INDIRE| f.perrone@indire.it Leyla Vahedi Assegnista di ricerca| INDIRE| l.vahedi@indire.it Double blind peer review Reading for pleasure in Leggere: Forte! T owards a framework for practice La lettura per piacere in Leggere: Forte! Verso un modello per la pratica Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "Fig 1. Organizational and Pedagogical Framework for Reading for Pleasure in Schools (Leggere: Forte! Vademecum, Regione T oscana, in press) – Graphics created by Luca Librandi (INDIRE). The following sections examine the dimensions of the framework, drawing on relevant literature and data from the research carried out on reading practices within LF . The data come from multiple research tools used over the years to: Analyse the impact of LF on teaching practices and school organization through the collection of tea-– chers’ and school leaders’ opinions (semi-structured questionnaires and focus groups). Four question- naires were administered, with responses from 1,198 teachers and educators and 156 school leaders (Borgi et al., 2023). Monitor the teaching training actions during the 2023/24 and 2024/25 school years through two semi-– structured questionnaires completed by a total of 604 participants. Monitor the coaching activities supporting schools in embedding reading into their educational systems:– semi-structured questionnaires for school leaders and teachers (140 respondents) and 44 narrative re- ports written by the coaches 2 who worked with schools. Analyse teachers’ and educators’ documentation of reading practices through narrative reflection diaries– (551 documents for 2023/24 and 300 for 2024/25, still under analysis). 2 Coaches are teachers or other professional figures with expertise in reading and school improvement processes. They are selected and trained by INDIRE to support schools in systematising reading practices. 66 Volume 4 | n. 2 | dicembre 2025 | pp. 64-78Effetti di Lettura Effects of Reading",
+        "body_language_guess": "en",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-10-15",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-10-15",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_year": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8446\\2785-7050_8446.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Reading for pleasure in Leggere: Forte!: towards a framework for practice",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "La lettura per piacere in Leggere: Forte!. Verso un modello per la pratica.",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "La lettura per piacere in Leggere: Forte!. Verso un modello per la pratica.",
+            "dropped_source": "locale:it_IT:meta:DC.Title",
+            "kept_source": "meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This contribution presents an organizational and educational model for the practice of reading for pleasure in schools, developed within the educational policy ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "In questo contributo viene presentato un modello organizzativo e didattico per la pratica della lettura per piacere a scuola, sviluppato nell’ambito della polit",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

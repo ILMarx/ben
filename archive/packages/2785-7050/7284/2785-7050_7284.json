@@ -1,0 +1,931 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7284",
+  "scraped_at_utc": "2026-04-27T18:47:23Z",
+  "fetched_at_utc": "2026-04-27T18:47:23Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "aed091b0e9eb94c7790b7c273388c2ef4939de9413d3036fb1c6a5d64190170c",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Tactile picture books as universal mediators: issues of accessibility",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Moira Sannipoli",
+        "nameType": "Personal",
+        "givenName": "Moira",
+        "familyName": "Sannipoli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | Università of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7284",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2024-05-29",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2024-05-29",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2024-05-29",
+      "Issued": "2024-05-29"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The focus on reading aloud in the early years of life has activated avenues of research and study related to the dimension of accessibility. If reading is a right, conditions must be built so that this opportunity can be demanded and experienced by all children, even when they have Special Educational Needs. This contribution intends to focus on tactile books, which are characterized by raised illustrations made of different materials and textures and text written in both Braille and enlarged characters. These texts are created to meet the needs of blind and visually impaired children and need to be produced with special haptic characteristics in mind, which are necessary for them to be adapted to the reading needs of blind children. Reading them becomes an indispensable source of knowledge, experimentation, play, school and social integration. However, the richness of their invoice today allows them to be placed as universal mediators, usable by all children in different school and life contexts. Indeed, they respond pertinently to the principles of Universal Design for Learning and to the possibility of being texts capable of providing multiple means of representation, action and expression, and involvement. The biggest critical issue facing this new challenge is the publishing industry, which is struggling to bear the costs and is now trying to activate, through specific national and international competitions, the participation and active involvement of parents, teachers and educators not only in terms of production but also in terms of awareness and information.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La focalizzazione sulla lettura ad alta voce nei primi anni di vita ha attivato linee di ricerca e studi legati alla dimensione dell’accessibilità. Se la lettura è un diritto, devono essere create condizioni perché questa opportunità possa essere richiesta e sperimentata da tutti i bambini, anche quando hanno Bisogni Educativi Speciali (BES). Questo contributo intende concentrarsi sui libri tattili, caratterizzati da illustrazioni in rilievo realizzate con materiali e texture diverse e testi scritti sia in Braille che in caratteri ingranditi. Questi testi sono creati per rispondere alle esigenze dei bambini ciechi e ipovedenti e devono essere prodotti tenendo presenti speciali caratteristiche tattili, necessarie per adattarli alle esigenze di lettura dei bambini non vedenti. Leggerli diventa una fonte indispensabile di conoscenza, sperimentazione, gioco, integrazione scolastica e sociale. Tuttavia, la ricchezza della loro realizzazione consente oggi di posizionarli come mediatori universali, utilizzabili da tutti i bambini in diversi contesti scolastici e di vita. Infatti, essi rispondono in modo pertinente ai principi dell’Universal Design for Learning e alla possibilità di essere testi capaci di fornire molteplici modalità di rappresentazione, azione ed espressione, e coinvolgimento. La principale difficoltà che si trova di fronte a questa nuova sfida è l’industria editoriale, che fatica a sostenere i costi e sta cercando ora di attivare, attraverso specifici concorsi nazionali e internazionali, la partecipazione e il coinvolgimento attivo di genitori, insegnanti ed educatori, non solo in termini di produzione ma anche di sensibilizzazione e informazione.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2024-01",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "3",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura condivisa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "libri tattili",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "accessibilità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "editoria tattile",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "shared reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "tactile picture books",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "accessibility",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "tactile publishing",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7284/6281",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "3",
+      "citationIssue": "1",
+      "citationStartPage": "005",
+      "citationEndPage": "013",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Sannipoli, M. (2024). I libri tattili illustrati come mediatori universali: questioni di accessibilità. Effetti Di Lettura / Effects of Reading , 3 (1), 005–013. https://doi.org/10.7347/EdL-01-2024-01",
+      "articleTitleEcho": "Tactile picture books as universal mediators: issues of accessibility"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7284",
+    "article_ID": "7284",
+    "slug": "7284",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7284",
+      "url_slug": "7284"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Tactile picture books as universal mediators: issues of accessibility",
+        "lang": "it",
+        "role": "main",
+        "source": "locale:it_IT:meta:citation_title"
+      },
+      {
+        "value": "I libri tattili illustrati come mediatori universali: questioni di accessibilità",
+        "lang": "it",
+        "role": "main",
+        "source": "locale:it_IT:meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-05-29",
+      "accepted": null,
+      "created": "2024-05-29",
+      "modified": "2024-07-02",
+      "issued": "2024-05-29",
+      "available": "2024-05-29",
+      "submitted_page": "2024-05-29",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Tactile picture books as universal mediators: issues of accessibility",
+        "pdf_value": null,
+        "chosen_value": "Tactile picture books as universal mediators: issues of accessibility",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-05-29",
+        "pdf_value": null,
+        "chosen_value": "2024-05-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7284/6281",
+      "local_relative_path": "2785-7050_7284.pdf",
+      "saved": true,
+      "sha256": "66050763ed4ddfa20737edda3e6158ab65cb661c4015268babbd1e07740ebbde",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1869475,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Moira Sannipoli"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | Università of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Tactile picture books as universal mediators: issues of accessibility"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2024/05/29"
+      ],
+      "citation_volume": [
+        "3"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2024-01"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7284"
+      ],
+      "citation_keywords": [
+        "lettura condivisa",
+        "libri tattili",
+        "accessibilità",
+        "editoria tattile"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7284/6281"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2024-05-29"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-05-29"
+      ],
+      "DC.Date.issued": [
+        "2024-05-29"
+      ],
+      "DC.Date.modified": [
+        "2024-07-02"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7284"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2024-01"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7284"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "3"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "I libri tattili illustrati come mediatori universali: questioni di accessibilità"
+      ],
+      "DC.Title.Alternative": [
+        "I libri tattili illustrati come mediatori universali: questioni di accessibilità"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Moira Sannipoli"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | Università of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Moira Sannipoli"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The focus on reading aloud in the early years of life has activated avenues of research and study related to the dimension of accessibility. If reading is a right, conditions must be built so that this opportunity can be demanded and experienced by all children, even when they have Special Educational Needs. This contribution intends to focus on tactile books, which are characterized by raised illustrations made of different materials and textures and text written in both Braille and enlarged characters. These texts are created to meet the needs of blind and visually impaired children and need to be produced with special haptic characteristics in mind, which are necessary for them to be adapted to the reading needs of blind children. Reading them becomes an indispensable source of knowledge, experimentation, play, school and social integration. However, the richness of their invoice today allows them to be placed as universal mediators, usable by all children in different school and life contexts. Indeed, they respond pertinently to the principles of Universal Design for Learning and to the possibility of being texts capable of providing multiple means of representation, action and expression, and involvement. The biggest critical issue facing this new challenge is the publishing industry, which is struggling to bear the costs and is now trying to activate, through specific national and international competitions, the participation and active involvement of parents, teachers and educators not only in terms of production but also in terms of awareness and information.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The focus on reading aloud in the early years of life has activated avenues of research and study related to the dimension of accessibility. If reading is a right, conditions must be built so that this opportunity can be demanded and experienced by all children, even when they have Special Educational Needs. This contribution intends to focus on tactile books, which are characterized by raised illustrations made of different materials and textures and text written in both Braille and enlarged characters. These texts are created to meet the needs of blind and visually impaired children and need to be produced with special haptic characteristics in mind, which are necessary for them to be adapted to the reading needs of blind children. Reading them becomes an indispensable source of knowledge, experimentation, play, school and social integration. However, the richness of their invoice today allows them to be placed as universal mediators, usable by all children in different school and life contexts. Indeed, they respond pertinently to the principles of Universal Design for Learning and to the possibility of being texts capable of providing multiple means of representation, action and expression, and involvement. The biggest critical issue facing this new challenge is the publishing industry, which is struggling to bear the costs and is now trying to activate, through specific national and international competitions, the participation and active involvement of parents, teachers and educators not only in terms of production but also in terms of awareness and information."
+          }
+        },
+        {
+          "content": "La focalizzazione sulla lettura ad alta voce nei primi anni di vita ha attivato linee di ricerca e studi legati alla dimensione dell’accessibilità. Se la lettura è un diritto, devono essere create condizioni perché questa opportunità possa essere richiesta e sperimentata da tutti i bambini, anche quando hanno Bisogni Educativi Speciali (BES). Questo contributo intende concentrarsi sui libri tattili, caratterizzati da illustrazioni in rilievo realizzate con materiali e texture diverse e testi scritti sia in Braille che in caratteri ingranditi. Questi testi sono creati per rispondere alle esigenze dei bambini ciechi e ipovedenti e devono essere prodotti tenendo presenti speciali caratteristiche tattili, necessarie per adattarli alle esigenze di lettura dei bambini non vedenti. Leggerli diventa una fonte indispensabile di conoscenza, sperimentazione, gioco, integrazione scolastica e sociale. Tuttavia, la ricchezza della loro realizzazione consente oggi di posizionarli come mediatori universali, utilizzabili da tutti i bambini in diversi contesti scolastici e di vita. Infatti, essi rispondono in modo pertinente ai principi dell’Universal Design for Learning e alla possibilità di essere testi capaci di fornire molteplici modalità di rappresentazione, azione ed espressione, e coinvolgimento. La principale difficoltà che si trova di fronte a questa nuova sfida è l’industria editoriale, che fatica a sostenere i costi e sta cercando ora di attivare, attraverso specifici concorsi nazionali e internazionali, la partecipazione e il coinvolgimento attivo di genitori, insegnanti ed educatori, non solo in termini di produzione ma anche di sensibilizzazione e informazione.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La focalizzazione sulla lettura ad alta voce nei primi anni di vita ha attivato linee di ricerca e studi legati alla dimensione dell’accessibilità. Se la lettura è un diritto, devono essere create condizioni perché questa opportunità possa essere richiesta e sperimentata da tutti i bambini, anche quando hanno Bisogni Educativi Speciali (BES). Questo contributo intende concentrarsi sui libri tattili, caratterizzati da illustrazioni in rilievo realizzate con materiali e texture diverse e testi scritti sia in Braille che in caratteri ingranditi. Questi testi sono creati per rispondere alle esigenze dei bambini ciechi e ipovedenti e devono essere prodotti tenendo presenti speciali caratteristiche tattili, necessarie per adattarli alle esigenze di lettura dei bambini non vedenti. Leggerli diventa una fonte indispensabile di conoscenza, sperimentazione, gioco, integrazione scolastica e sociale. Tuttavia, la ricchezza della loro realizzazione consente oggi di posizionarli come mediatori universali, utilizzabili da tutti i bambini in diversi contesti scolastici e di vita. Infatti, essi rispondono in modo pertinente ai principi dell’Universal Design for Learning e alla possibilità di essere testi capaci di fornire molteplici modalità di rappresentazione, azione ed espressione, e coinvolgimento. La principale difficoltà che si trova di fronte a questa nuova sfida è l’industria editoriale, che fatica a sostenere i costi e sta cercando ora di attivare, attraverso specifici concorsi nazionali e internazionali, la partecipazione e il coinvolgimento attivo di genitori, insegnanti ed educatori, non solo in termini di produzione ma anche di sensibilizzazione e informazione."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura condivisa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura condivisa"
+          }
+        },
+        {
+          "content": "libri tattili",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "libri tattili"
+          }
+        },
+        {
+          "content": "accessibilità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "accessibilità"
+          }
+        },
+        {
+          "content": "editoria tattile",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "editoria tattile"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7284/6281",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7284/6281",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7284/6281",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2024-07-02",
+        "mod_date": "2024-07-02"
+      },
+      "front_text_excerpt": "ABSTRACT The focus on reading aloud in the early years of life has activated avenues of research and study related to the dimension of a ccessibility. If reading is a right, conditions must be built so that this opportunity can be demanded and experienced by all children, even when they have Special Educational Needs. This contribution intends to focus on tactile books, which are characterized by raised illustrations made of different material s and textures and text written in both Braille and enlarged characters. These texts are created to meet the needs of blind and visually impaired children and need to be produced with special haptic characteristics in mind, which are necessary for them to be adapted to the reading need s of blind children. Reading them becomes an indispensable source of knowledge, experimentation, play, school and social integration. However, the richness of their invoice today allows them to be placed as universal mediators, usable by all children in different school and life contexts. In- deed, they respond pertinently to the principles of Universal Design for Learning and to the possibility of being texts capable of providing multiple means of representation, action and expression, and involvement. The biggest critical issue facing this new challenge is the publishing industry, which is struggling to bear the costs and is now trying to activate, through specific national and international comp etitions, the participation and active involvement of parents, teachers and educators not only in terms of production but also in terms of awareness and information. Keywords: shared reading, tactile picture books, accessibility, tactile publishing La focalizzazione sulla lettura ad alta voce nei primi anni di vita ha attivato linee di ricerca e studi legati alla dimensione dell’accessibilità. Se la lettura è un diritto, devono essere create condizioni perché questa opportunità possa essere richiesta e sperimentata da tut ti i bambini, anche quando hanno Bisogni Educativi Speciali (BES). Questo contributo intende concentrarsi sui libri tattili, caratterizzati da illustrazioni in rilievo realizzate con materiali e texture diverse e testi scritti sia in Braille che in caratteri ingranditi. Questi testi sono creati per rispondere alle esigenze dei bambini ciechi e ipovedenti e devono essere prodotti tenendo presenti speciali caratteristiche tattili, necessarie per adattarli alle esigenze di lettura dei bambini non vedenti. Leggerli diventa una fonte indispensabile di conoscenza, sperimentazione, gioco, integrazione scolastica e sociale. T uttavia, la ricchezza della loro realizzazione consente oggi di posizionarli come mediatori universali, utilizzabili da tutti i bambini in diversi contesti scolastici e di vita. Infatti, essi rispondono in modo pertinente ai principi dell’Universal Design for Learning e alla possibilità di essere testi capaci di fornire molteplici modalità di rappresentazione, azione ed espressione, e coinvolgimento. La principale difficoltà che si trova di fronte a questa nuova sfida è l’industria editoriale, che fatica a sostenere i costi e sta cercando ora di attivare, attraverso specifici concorsi nazionali e internazionali, la partecipazione e il coinvolgimento attivo di genitori, insegnanti ed educator i, non solo in termini di produzione ma anche di sensibilizzazione e informazione. Parole chiave: lettura condivisa, libri tattili, accessibilità, editoria tattile Citation: Sannipoli, M. (2024). I libri tattili illustrati come mediatori universali: questioni di accessibilità. Effetti di Lettura / Effects of Reading, 3(1), 05-13. https://doi.org/10.7347/EdL-01-2024-01. Corresponding Author: Moira Sannipoli | moira.sannipoli@unipg.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2024-01 Moira Sannipoli Associate Professor | Università of Perugia | moira.sannipoli@unipg.it Double blind peer review I libri tattili illustrati come mediatori universali: questioni di accessibilità Tactile picture books as universal mediators: issues of accessibility Volume 3 | n. 1 | giugno 2024 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7284\\2785-7050_7284.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Tactile picture books as universal mediators: issues of accessibility",
+        "pdf_value": null,
+        "chosen_value": "Tactile picture books as universal mediators: issues of accessibility",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-05-29",
+        "pdf_value": null,
+        "chosen_value": "2024-05-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "I libri tattili illustrati come mediatori universali: questioni di accessibilità | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7284",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7284",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:47:23Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:47:25Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7284",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7284",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 4,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7284",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7284",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7284\\2785-7050_7284.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:47:27Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7284\\2785-7050_7284.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Tactile picture books as universal mediators: issues of accessibility",
+        "submitted_date": "2024-05-29",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "en",
+        "creator_names": [
+          "Moira Sannipoli"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7284\\2785-7050_7284.pdf",
+        "generated_at_utc": "2026-04-27T18:47:27Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2024-07-02",
+          "mod_date": "2024-07-02"
+        },
+        "front_text_excerpt": "ABSTRACT The focus on reading aloud in the early years of life has activated avenues of research and study related to the dimension of a ccessibility. If reading is a right, conditions must be built so that this opportunity can be demanded and experienced by all children, even when they have Special Educational Needs. This contribution intends to focus on tactile books, which are characterized by raised illustrations made of different material s and textures and text written in both Braille and enlarged characters. These texts are created to meet the needs of blind and visually impaired children and need to be produced with special haptic characteristics in mind, which are necessary for them to be adapted to the reading need s of blind children. Reading them becomes an indispensable source of knowledge, experimentation, play, school and social integration. However, the richness of their invoice today allows them to be placed as universal mediators, usable by all children in different school and life contexts. In- deed, they respond pertinently to the principles of Universal Design for Learning and to the possibility of being texts capable of providing multiple means of representation, action and expression, and involvement. The biggest critical issue facing this new challenge is the publishing industry, which is struggling to bear the costs and is now trying to activate, through specific national and international comp etitions, the participation and active involvement of parents, teachers and educators not only in terms of production but also in terms of awareness and information. Keywords: shared reading, tactile picture books, accessibility, tactile publishing La focalizzazione sulla lettura ad alta voce nei primi anni di vita ha attivato linee di ricerca e studi legati alla dimensione dell’accessibilità. Se la lettura è un diritto, devono essere create condizioni perché questa opportunità possa essere richiesta e sperimentata da tut ti i bambini, anche quando hanno Bisogni Educativi Speciali (BES). Questo contributo intende concentrarsi sui libri tattili, caratterizzati da illustrazioni in rilievo realizzate con materiali e texture diverse e testi scritti sia in Braille che in caratteri ingranditi. Questi testi sono creati per rispondere alle esigenze dei bambini ciechi e ipovedenti e devono essere prodotti tenendo presenti speciali caratteristiche tattili, necessarie per adattarli alle esigenze di lettura dei bambini non vedenti. Leggerli diventa una fonte indispensabile di conoscenza, sperimentazione, gioco, integrazione scolastica e sociale. T uttavia, la ricchezza della loro realizzazione consente oggi di posizionarli come mediatori universali, utilizzabili da tutti i bambini in diversi contesti scolastici e di vita. Infatti, essi rispondono in modo pertinente ai principi dell’Universal Design for Learning e alla possibilità di essere testi capaci di fornire molteplici modalità di rappresentazione, azione ed espressione, e coinvolgimento. La principale difficoltà che si trova di fronte a questa nuova sfida è l’industria editoriale, che fatica a sostenere i costi e sta cercando ora di attivare, attraverso specifici concorsi nazionali e internazionali, la partecipazione e il coinvolgimento attivo di genitori, insegnanti ed educator i, non solo in termini di produzione ma anche di sensibilizzazione e informazione. Parole chiave: lettura condivisa, libri tattili, accessibilità, editoria tattile Citation: Sannipoli, M. (2024). I libri tattili illustrati come mediatori universali: questioni di accessibilità. Effetti di Lettura / Effects of Reading, 3(1), 05-13. https://doi.org/10.7347/EdL-01-2024-01. Corresponding Author: Moira Sannipoli | moira.sannipoli@unipg.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2024-01 Moira Sannipoli Associate Professor | Università of Perugia | moira.sannipoli@unipg.it Double blind peer review I libri tattili illustrati come mediatori universali: questioni di accessibilità Tactile picture books as universal mediators: issues of accessibility Volume 3 | n. 1 | giugno 2024 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "dalla possibilità di toccare ed esplorare immagini in rilievo. Questa opportunità di fatto sollecita il poten- ziamento percettivo, anche in ambito di motricità fine, la comprensione dei concetti spaziali e, al tempo stesso, alimenta la curiosità di esplorazione. “Leggendo le immagini tattili, il bambino imparerà ad associare la situazione rappresentata con la sua esperienza reale, arrivando gradualmente a comprendere il concetto di simbolo iconico. In tal senso, quindi, i libri tattili si rivelano uno strumento prezioso per lo sviluppo cognitivo, in quanto rinforzano la capacità di rappresentazione mentale. Si configurano, insomma, come un vero e proprio strumento di apprendimento che deve comunque essere proposto in un contesto ludico, in cui il bambino si diverte e partecipa con gioia e interesse all’attività” (Piccardi, 2011, p. 3). T enendo conto dell’importanza dell’educazione all’immagine e al tatto, come testi devono rispondere a due criteri: la personalizzazione e l’aderenza ad alcuni specifici criteri di costruzione (Mascle et al., 2022, 2023). Philippe Claudet (2009) propone a questo riguardo una distinzione tra un’immagine tattile da un’immagine aptica. La prima è un’immagine visuale a rilievo mentre la seconda è un’immagine concepita nella modalità tattile da persone non vedenti. Le prime regalano solo un’esperienza percettiva; le secondo permettono di conoscere. Per quanto riguarda il primo aspetto devono essere proposti al bambino secondo un percorso graduale e progressivo che tenga conto delle abilità, dei tempi e delle competenze crescenti dei bambini. In questa direzione si suggerisce che i primi testi da proporre sono i cosiddetti “Libri Realtà”. Non sono testi esistenti in commercio ma progettati e costruiti da genitori e educatori, tenendo proprio conto dell’identità del bambino, degli oggetti reali che incontra nella sua quotidianità e che sperimenta come tridimensionali. Superato questo step possono essere introdotti libri tattili illustrati ad alta somiglianza che possono intrec- ciare oggetti concreti con immagini tattili similari al reale, capaci di stimolare la dimensione maggiormente evocativa. Per quanto riguarda i criteri di costruzione è importante fare una specifica riflessione. Sicuramente que- sta tipologia di libri ha un carattere universale e in ottica inclusiva andrebbe proprio sollecitato un utilizzo più condiviso possibile. Perché però possa essere accessibile ad un bambino con deficit visivo devono essere costruiti nel rispetto di specifiche esigenze percettive (Bonanoni, 2004; Polato, 2020). Il primo criterio riguarda la forma: le figure che caratterizzano l’illustrazione devono essere semplificate, riconoscibili per intero dalle mani di un bambino o con una guida di un adulto, non devono essere so - vrapposte, ma allineate e distanziate a sufficienza. Si invita, nella prima infanzia, a proporre una visione frontale nella rappresentazione dello schema corporeo e laterale per gli animali. In tutte le rappresentazioni si sconsiglia l’utilizzo di particolari inutili e fuorvianti. Per quanto riguarda la tessitura, si consiglia di usare tessiture e materiali diversi, gradevoli da toccare, densi di significati da un punto di vista percettivo. In questo senso si scoraggia l’utilizzo della stessa texture per rappresentare immagini vicine ma distinte. La soglia minima di percezione della linea in rilievo è di ½ mm di altezza e ½ mm di larghezza, ma per discriminare facilmente la figura dallo sfondo è opportuno usare spessori di almeno 1 mm. In merito alla posizione, gli elementi devono essere collocati secondo un criterio di ordine spaziale che permetta una lettura d’insieme dell’immagine, utilizzando le due mani aperte. Quando si ritiene opportuno è necessario rappresentare la linea di terra non solo per contestualizzare maggiormente gli elementi raffi - gurati, ma soprattutto per sostenerne l’esplorazione. In merito alle dimensioni, per favorire una rappresentazione maggiormente reale, è neces",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Tactile picture books as universal mediators: issues of accessibility",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Tactile picture books as universal mediators: issues of accessibility",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-05-29",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-05-29",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7284\\2785-7050_7284.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Tactile picture books as universal mediators: issues of accessibility",
+            "dropped_source": "meta:citation_title",
+            "kept_source": "locale:it_IT:meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "I libri tattili illustrati come mediatori universali: questioni di accessibilità",
+            "dropped_source": "meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "I libri tattili illustrati come mediatori universali: questioni di accessibilità",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The focus on reading aloud in the early years of life has activated avenues of research and study related to the dimension of accessibility. If reading is a rig",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La focalizzazione sulla lettura ad alta voce nei primi anni di vita ha attivato linee di ricerca e studi legati alla dimensione dell’accessibilità. Se la lettur",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

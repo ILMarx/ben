@@ -1,0 +1,1034 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8400",
+  "scraped_at_utc": "2026-04-27T18:49:47Z",
+  "fetched_at_utc": "2026-04-27T18:49:47Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "e6c992223abd5c5bb4f476acd3a8699688451b720eae28e0ecc702a3f8c70116",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Jessica Pipitone",
+        "nameType": "Personal",
+        "givenName": "Jessica",
+        "familyName": "Pipitone",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Teacher | Sant’Anna Comprehensive School"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Silvia Della Rocca",
+        "nameType": "Personal",
+        "givenName": "Silvia Della",
+        "familyName": "Rocca",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "PhD Student | Department of Education, Languages, Intercultures, Literatures and Psychology, University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Anna Paola Fallaci",
+        "nameType": "Personal",
+        "givenName": "Anna Paola",
+        "familyName": "Fallaci",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "PhD Student | Learning Sciences and Digital Technologies, University of Modena and Reggio Emilia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Christian Tarchi",
+        "nameType": "Personal",
+        "givenName": "Christian",
+        "familyName": "Tarchi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | Department of Education, Languages, Intercultures, Literatures and Psychology, University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8400",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-12-30",
+      "Issued": "2025-12-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The development of technical and academic vocabulary in preschool age is essential for linguistic growth and is predictive of future competence in understanding disciplinary texts. This study explores the impact of including scientific terms in oral narrative texts, comparing two methods: a version with integrated definitions of technical terms and one without explanations, given before reading. Twenty pre-school children (age M = 5.6 years, SD = 0.33; 35% F) were divided into two groups, homogeneous in terms of age and language level, corresponding to the two intervention conditions. Vocabulary knowledge was assessed before and after the intervention through individual tests of lexical recognition and comprehension. The results show that both groups significantly improved their knowledge of the scientific vocabulary presented, but the group exposed to the narrative with definitions performed better in visual recognition, word-image association, and active and contextual use of the terms learned. These data suggest that integrating definitions into storytelling enhances technical vocabulary learning. The study provides useful guidelines for designing language interventions in pre-school, highlighting and demonstrating that storytelling and reading can be important resources that serve as effective vehicles for introducing scientific concepts and promoting early disciplinary literacy.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Lo sviluppo del vocabolario scientifico in età prescolare può essere molto importante per lo sviluppo linguistico ed è predittivo per la competenza di comprensione del testo. Il presente studio esplora l’impatto dell’inserimento di termini scientifici in una narrazione rivolta a bambini dell’ultimo anno della scuola dell’infanzia, confrontando due modalità: una versione con definizioni integrate dei termini e una priva di spiegazioni interne (date precedentemente alla lettura). Venti bambini (età M = 5.6 anni, DS = 0.33, 35% F), sono stati suddivisi in due gruppi, omogenei per età e livello linguistico, corrispondenti alle due condizioni di intervento. La conoscenza del vocabolario è stata valutata pre e post intervento tramite prove individuali di riconoscimento e comprensione lessicale. I risultati suggeriscono che entrambi i gruppi hanno migliorato significativamente la conoscenza dei vocaboli scientifici presentati, ma il gruppo esposto alla narrazione con definizioni ha ottenuto prestazioni superiori nel riconoscimento visivo, nell’associazione parola-immagine e nella comprensione dei termini all’interno dei testi. Questi dati suggeriscono che l’integrazione di definizioni nel racconto potenzia l’apprendimento del lessico tecnico. Lo studio, pur esplorativo, fornisce indicazioni utili per la progettazione di interventi linguistici nella scuola dell’infanzia, evidenziando che narrazione e lettura possono rappresentare risorse importanti per introdurre concetti scientifici e promuovere l’alfabetizzazione disciplinare precoce.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2025-01",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "scuola dell’infanzia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "vocabolario tecnico e scientifico",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "alfabetizzazione disciplinare",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "alfabetizzazione emergente",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "kindergarten",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "technical and scientific vocabulary",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "disciplinary literacy",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "early disciplinary literacy",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8400/7443",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "2",
+      "citationStartPage": "005",
+      "citationEndPage": "024",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Pipitone, J., Della Rocca, S., Fallaci, A. P., & Tarchi, C. (2025). L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia. Effetti Di Lettura / Effects of Reading , 4 (2), 005–024. https://doi.org/10.7347/EdL-02-2025-01",
+      "articleTitleEcho": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Beck, I. L., McKeown, M. G., & Kucan, L. (2002). Bringing words to life: Robust vocabulary instruction. Guilford Press.",
+        "Biemiller, A. (2005). Vocabulary development and instruction: A prerequisite for school learning. In E. H. Hiebert & M. L. Kamil (Eds.), Teaching and learning vocabulary: Bringing research to practice (pp. 28–55). Lawrence Erlbaum Associates.",
+        "Biemiller, A., & Boote, C. (2006). An effective method for building meaning vocabulary in primary grades. Journal of Educational Psychology, 98(1), 44–62. https://doi.org/10.1037/0022-0663.98.1.44",
+        "Bruner, J. (1986). Actual minds, possible worlds. Harvard University Press.",
+        "Cervetti, G. N., & Wright, T. S. (2022). A systematic review of the research on vocabulary instruction that impacts text comprehension. Review of Educational Research, 92(1), 92–125.",
+        "Cervetti, G. N., Fitzgerald, M. S., Hiebert, E. H., & Hebert, M. (2023). Meta-analysis examining the impact of vocabulary instruction on vocabulary knowledge and skill. Reading Psychology, 44(6), 672–709. https://doi.org/10.1080/02702711.2023.2179146",
+        "Cervetti, G. N., Wright, T. S., Hwang, H., Wang, Y., & Ball, D. L. (2022). Prioritizing disciplinary knowledge and vocabulary in early childhood science education. Journal of Literacy Research, 54(1), 5–29. https://doi.org/10.1177/1086296X211062173",
+        "Dunn, L. M., & Dunn, D. M. (2007). Peabody Picture Vocabulary Test (4th ed.). Pearson Assessments.",
+        "Fitzgerald, J., Relyea, J. E., & Elmore, J. (2021). Academic vocabulary volume in elementary grades disciplinary textbooks. Reading Research Quarterly, 56(4), 665–688. https://doi.org/10.1002/rrq.406",
+        "Gini G., Benelli B., & Belacchi C. (2004). Children’s definitional skills and their relations with metalinguistic awareness and school achievement. European Journal of School Psychology, 2, 239–267.",
+        "Hart, B., & Risley, T. R. (1995). Meaningful differences in the everyday experience of young American children. Paul H. Brookes Publishing.",
+        "Henschel, S., Heppt, B., & Hardy, I. (2023). Structure and associations of science vocabulary, general academic vocabulary, and science knowledge. The Journal of Educational Research, 116(6), 356–370. https://doi.org/10.1080/00220671.2023.2269545",
+        "Heppt, B., Olczyk, M., & Volodina, A. (2022). Number of books at home as an indicator of socioeconomic status: Examining its extensions and their incremental validity for academic achievement. European Journal of Psychology of Education, 37, 943–964. https://doi.org/10.1007/s10212-022-00616-4",
+        "Hjetland, H. N., Brinchmann, E. I., Scherer, R., Hulme, C., & Melby-Lervåg, M. (2020). Preschool pathways to reading comprehension: A systematic meta-analytic review. Educational Research Review, 28, 100287. https://doi.org/10.1016/j.edurev.2020.100323",
+        "Isbell, R., Sobol, J., Lindauer, L., & Lowrance, A. (2004). The effects of storytelling and story reading on the oral language complexity and story comprehension of young children. Early Childhood Education Journal, 32(3), 157–163. https://doi.org/10.1023/B:ECEJ.0000048967.94189.a3",
+        "Jago, L. S., Monaghan, P., Alcock, K., & Cain, K. (2025). The effect of preschool vocabulary and grammar on early reading comprehension and word reading: A systematic review and meta-analysis. Educational Research Review, 100680. https://doi.org/10.1016/j.edurev.2025.100680",
+        "Kuhn, D. (2010). Teaching and learning science as argument. Science Education, 94(5), 810–824.",
+        "Lane, H. B., & Allen, S. A. (2010). The vocabulary‐rich classroom: Modeling sophisticated word use to promote word consciousness and vocabulary growth. The Reading Teacher, 63(5), 362–370. https://doi.org/10.1598/RT.63.5.2",
+        "Lemke, J. L. (1990). Talking science: Language, learning, and values. Ablex Publishing.",
+        "Mayer, R. E. (2009). Multimedia learning (2nd ed.). Cambridge University Press.",
+        "MIUR. Ministero dell’Istruzione, dell’Università e della Ricerca. (2012). Indicazioni nazionali per il curricolo della scuola dell’infanzia e del primo ciclo di istruzione. http://www.indicazioninazionali.it",
+        "Nagy, W. E., & Townsend, D. (2012). Words as tools: Learning academic vocabulary as language acquisition. Reading Research Quarterly, 47(1), 91–108. https://doi.org/10.1002/RRQ.011",
+        "Neumann, M. M. (2018). Using tablets and apps to enhance emergent literacy skills in young children. Early Childhood Research Quarterly, 42, 239–246. https://doi.org/10.1016/j.ecresq.2017.10.006",
+        "Neuman, S. B., & Wright, T. S. (2014). The magic of words: Teaching academic vocabulary in the early childhood classroom. American Educator, 38(2), 4–13. https://files.eric.ed.gov/fulltext/EJ1043701.pdf",
+        "Osborne, J. (2014). Teaching scientific practices: Meeting the challenge of change. Journal of Science Teacher Education, 25(2), 177–196.",
+        "Schuth, E., Köhne, J., & Weinert, S. (2017). The influence of academic vocabulary knowledge on school performance. Learning and Individual Differences, 55, 53–63. https://doi.org/10.1016/j.lindif.2017.03.005",
+        "Silverman, R. D., & Hines, S. J. (2009). The effects of multimedia-enhanced instruction on the vocabulary of English-language learners and non-English-language learners in pre-kindergarten through second grade. Journal of Educational Psychology, 101(2), 305–314. https://doi.org/10.1037/a0014217",
+        "Snow, C. E., & Uccelli, P. (2009). The challenge of academic language. In D. R. Olson & N. Torrance (Eds.), The Cambridge handbook of literacy (pp. 112–133). Cambridge University Press.",
+        "Toub, T. S., Hassinger-Das, B., Nesbitt, K. T., Ilgaz, H., Weisberg, D. S., Hirsh-Pasek, K., ... & Dickinson, D. K. (2018). The language of play: Developing preschool vocabulary through play following shared book-reading. Early Childhood Research Quarterly, 45, 1-17. https://doi.org/10.1016/j.ecresq.2018.01.010",
+        "Volodina, A., Weinert, S., & Mursin, K. (2020). Development of academic vocabulary across primary school age: Differential growth and influential factors for German monolinguals and language minority learners. Journal for Educational Research Online, 12(1), 115–137.",
+        "Vygotskij, L. S. (1990). Pensiero e linguaggio. Laterza. (Ed. or. 1934)",
+        "Wright, T. S., & Cervetti, G. N. (2017). A systematic review of the research on vocabulary instruction that impacts text comprehension. Review of Educational Research, 87(3), 418–448. https://doi.org/10.3102/0034654317699496"
+      ],
+      "count": 32,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8400",
+    "article_ID": "8400",
+    "slug": "8400",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8400",
+      "url_slug": "8400"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "The importance of technical and scientific vocabulary for reading: a pilot study in kindergarten",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-10-08",
+      "accepted": null,
+      "created": "2025-12-30",
+      "modified": "2025-12-30",
+      "issued": "2025-12-30",
+      "available": "2025-12-30",
+      "submitted_page": "2025-10-08",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+        "pdf_value": null,
+        "chosen_value": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-10-08",
+        "pdf_value": null,
+        "chosen_value": "2025-10-08",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+        "pdf_value": null,
+        "chosen_value": "Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8400/7443",
+      "local_relative_path": "2785-7050_8400.pdf",
+      "saved": true,
+      "sha256": "b0c000f025b11df4518ca7e71389d4dfe1f449682ace3f8636b38361e7b609fe",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 421259,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Jessica Pipitone",
+        "Silvia Della Rocca",
+        "Anna Paola Fallaci",
+        "Christian Tarchi"
+      ],
+      "citation_author_institution": [
+        "Teacher | Sant’Anna Comprehensive School",
+        "PhD Student | Department of Education, Languages, Intercultures, Literatures and Psychology, University of Florence",
+        "PhD Student | Learning Sciences and Digital Technologies, University of Modena and Reggio Emilia",
+        "Associate Professor | Department of Education, Languages, Intercultures, Literatures and Psychology, University of Florence"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/12/30"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2025-01"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8400"
+      ],
+      "citation_keywords": [
+        "scuola dell’infanzia",
+        "vocabolario tecnico e scientifico",
+        "lettura ad alta voce",
+        "alfabetizzazione disciplinare",
+        "alfabetizzazione emergente"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8400/7443"
+      ],
+      "citation_reference_count": 32,
+      "DC.Date.created": [
+        "2025-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-10-08"
+      ],
+      "DC.Date.issued": [
+        "2025-12-30"
+      ],
+      "DC.Date.modified": [
+        "2025-12-30"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8400"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2025-01"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8400"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia"
+      ],
+      "DC.Title.Alternative": [
+        "The importance of technical and scientific vocabulary for reading: a pilot study in kindergarten"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Jessica Pipitone",
+        "Silvia Della Rocca",
+        "Anna Paola Fallaci",
+        "Christian Tarchi"
+      ],
+      "citation_author_institution": [
+        "Teacher | Sant’Anna Comprehensive School",
+        "PhD Student | Department of Education, Languages, Intercultures, Literatures and Psychology, University of Florence",
+        "PhD Student | Learning Sciences and Digital Technologies, University of Modena and Reggio Emilia",
+        "Associate Professor | Department of Education, Languages, Intercultures, Literatures and Psychology, University of Florence"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Jessica Pipitone",
+        "Silvia Della Rocca",
+        "Anna Paola Fallaci",
+        "Christian Tarchi"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The development of technical and academic vocabulary in preschool age is essential for linguistic growth and is predictive of future competence in understanding disciplinary texts. This study explores the impact of including scientific terms in oral narrative texts, comparing two methods: a version with integrated definitions of technical terms and one without explanations, given before reading. Twenty pre-school children (age M = 5.6 years, SD = 0.33; 35% F) were divided into two groups, homogeneous in terms of age and language level, corresponding to the two intervention conditions. Vocabulary knowledge was assessed before and after the intervention through individual tests of lexical recognition and comprehension. The results show that both groups significantly improved their knowledge of the scientific vocabulary presented, but the group exposed to the narrative with definitions performed better in visual recognition, word-image association, and active and contextual use of the terms learned. These data suggest that integrating definitions into storytelling enhances technical vocabulary learning. The study provides useful guidelines for designing language interventions in pre-school, highlighting and demonstrating that storytelling and reading can be important resources that serve as effective vehicles for introducing scientific concepts and promoting early disciplinary literacy.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The development of technical and academic vocabulary in preschool age is essential for linguistic growth and is predictive of future competence in understanding disciplinary texts. This study explores the impact of including scientific terms in oral narrative texts, comparing two methods: a version with integrated definitions of technical terms and one without explanations, given before reading. Twenty pre-school children (age M = 5.6 years, SD = 0.33; 35% F) were divided into two groups, homogeneous in terms of age and language level, corresponding to the two intervention conditions. Vocabulary knowledge was assessed before and after the intervention through individual tests of lexical recognition and comprehension. The results show that both groups significantly improved their knowledge of the scientific vocabulary presented, but the group exposed to the narrative with definitions performed better in visual recognition, word-image association, and active and contextual use of the terms learned. These data suggest that integrating definitions into storytelling enhances technical vocabulary learning. The study provides useful guidelines for designing language interventions in pre-school, highlighting and demonstrating that storytelling and reading can be important resources that serve as effective vehicles for introducing scientific concepts and promoting early disciplinary literacy."
+          }
+        },
+        {
+          "content": "Lo sviluppo del vocabolario scientifico in età prescolare può essere molto importante per lo sviluppo linguistico ed è predittivo per la competenza di comprensione del testo. Il presente studio esplora l’impatto dell’inserimento di termini scientifici in una narrazione rivolta a bambini dell’ultimo anno della scuola dell’infanzia, confrontando due modalità: una versione con definizioni integrate dei termini e una priva di spiegazioni interne (date precedentemente alla lettura). Venti bambini (età M = 5.6 anni, DS = 0.33, 35% F), sono stati suddivisi in due gruppi, omogenei per età e livello linguistico, corrispondenti alle due condizioni di intervento. La conoscenza del vocabolario è stata valutata pre e post intervento tramite prove individuali di riconoscimento e comprensione lessicale. I risultati suggeriscono che entrambi i gruppi hanno migliorato significativamente la conoscenza dei vocaboli scientifici presentati, ma il gruppo esposto alla narrazione con definizioni ha ottenuto prestazioni superiori nel riconoscimento visivo, nell’associazione parola-immagine e nella comprensione dei termini all’interno dei testi. Questi dati suggeriscono che l’integrazione di definizioni nel racconto potenzia l’apprendimento del lessico tecnico. Lo studio, pur esplorativo, fornisce indicazioni utili per la progettazione di interventi linguistici nella scuola dell’infanzia, evidenziando che narrazione e lettura possono rappresentare risorse importanti per introdurre concetti scientifici e promuovere l’alfabetizzazione disciplinare precoce.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Lo sviluppo del vocabolario scientifico in età prescolare può essere molto importante per lo sviluppo linguistico ed è predittivo per la competenza di comprensione del testo. Il presente studio esplora l’impatto dell’inserimento di termini scientifici in una narrazione rivolta a bambini dell’ultimo anno della scuola dell’infanzia, confrontando due modalità: una versione con definizioni integrate dei termini e una priva di spiegazioni interne (date precedentemente alla lettura). Venti bambini (età M = 5.6 anni, DS = 0.33, 35% F), sono stati suddivisi in due gruppi, omogenei per età e livello linguistico, corrispondenti alle due condizioni di intervento. La conoscenza del vocabolario è stata valutata pre e post intervento tramite prove individuali di riconoscimento e comprensione lessicale. I risultati suggeriscono che entrambi i gruppi hanno migliorato significativamente la conoscenza dei vocaboli scientifici presentati, ma il gruppo esposto alla narrazione con definizioni ha ottenuto prestazioni superiori nel riconoscimento visivo, nell’associazione parola-immagine e nella comprensione dei termini all’interno dei testi. Questi dati suggeriscono che l’integrazione di definizioni nel racconto potenzia l’apprendimento del lessico tecnico. Lo studio, pur esplorativo, fornisce indicazioni utili per la progettazione di interventi linguistici nella scuola dell’infanzia, evidenziando che narrazione e lettura possono rappresentare risorse importanti per introdurre concetti scientifici e promuovere l’alfabetizzazione disciplinare precoce."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "scuola dell’infanzia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "scuola dell’infanzia"
+          }
+        },
+        {
+          "content": "vocabolario tecnico e scientifico",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "vocabolario tecnico e scientifico"
+          }
+        },
+        {
+          "content": "lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce"
+          }
+        },
+        {
+          "content": "alfabetizzazione disciplinare",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "alfabetizzazione disciplinare"
+          }
+        },
+        {
+          "content": "alfabetizzazione emergente",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "alfabetizzazione emergente"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8400/7443",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8400/7443",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8400/7443",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-12-23",
+        "mod_date": "2025-12-23"
+      },
+      "front_text_excerpt": "ABSTRACT The development of technical and academic vocabulary in preschool age is essential for linguistic growth and is predictive of future competence in understanding disciplinary texts. This study explores the impact of including scientific terms in oral narrative texts, comparing two methods: a version with integrated definitions of technical terms and one without explanations, given before reading. T wenty pr e-school children (age M = 5.6 years, SD = 0.33; 35% F) were divided into two groups, homogeneous in terms of age and language level, corr esponding to the two intervention conditions. Vocabulary knowledge was assessed before and after the intervention through individual tests of lexical recognition and comprehension. The results show that both groups significantly improved their knowledge of the scientific vocabular y pre- sented, but the group exposed to the narrative with definitions performed better in visual recognition, word-image association, and activ e and contextual use of the terms learned. These data suggest that integrating definitions into storytelling enhances technical v ocabular y learning. The study provides useful guidelines for designing language interventions in pre-school, highlighting and demonstrating that sto- rytelling and reading can be important resources that serve as effective vehicles for introducing scientific concepts and promoting early dis- ciplinary literacy. Keywords: kindergarten, technical and scientific vocabulary, reading aloud, disciplinary literacy, early disciplinary literacy Lo sviluppo del vocabolario scientifico in età prescolare può essere molto importante per lo sviluppo linguistico ed è predittivo per la com - petenza di comprensione del testo. Il presente studio esplora l’impatto dell’inserimento di termini scientifici in una narrazione riv olta a bambini dell’ultimo anno della scuola dell’infanzia, confrontando due modalità: una versione con definizioni integrate dei termini e una priva di spiegazioni interne (date precedentemente alla lettura). Venti bambini (età M = 5.6 anni, DS = 0.33, 35% F), sono stati suddivisi in due gruppi, omogenei per età e livello linguistico, corrispondenti alle due condizioni di intervento. La conoscenza del vocabolario è stata v a- lutata pre e post intervento tramite prove individuali di riconoscimento e comprensione lessicale. I risultati suggeriscono che entrambi i gruppi hanno migliorato significativamente la conoscenza dei vocaboli scientifici presentati, ma il gruppo esposto alla narrazione con defin- izioni ha ottenuto prestazioni superiori nel riconoscimento visivo, nell’associazione parola-immagine e nella comprensione dei termini all- ’interno dei testi. Questi dati suggeriscono che l’integrazione di definizioni nel racconto potenzia l’apprendimento del lessico tecnico . Lo studio, pur esplorativo, fornisce indicazioni utili per la progettazione di interventi linguistici nella scuola dell’infanzia, evidenziando che nar- razione e lettura possono rappresentare risorse importanti per introdurre concetti scientifici e promuovere l’alfabetizzazione disciplinar e pre- coce. Parole chiave: scuola dell’infanzia, vocabolario tecnico e scientifico, lettura ad alta voce, alfabetizzazione disciplinare, al fabetizzazione emergente Citation: Pipitone, J., Della Rocca, S., Fallaci, A. P ., & Tarchi, C. (2025). L ’importanza del lessico scientifico per la lettura: uno studio pilota nella scuola dell’infanzia. Effetti di Lettura / Effects of Reading, 4(2), 5-24. https://doi.org/10.7347/EdL-02-2025-01. Corresponding Author: Silvia Della Rocca | silvia.dellarocca@unifi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-01 Authorship/Attribuzioni: JP (Data curation, Investigation, Resources, Writing - original draft, Writing - review and editing), SDR (Data curation, Formal analysis, Writing - original draft, Writing - review and editing), APF (Formal analysis, Writing - review and editing), CT (Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Supervision, Writing - review and editing). Funding/Finanziamento: N/A Jessica Pipitone T eacher | Sant’Anna Comprehensive School | jessica.pipitone@edu.unifi.it Silvia Della Rocca PhD Student | Department of Education, Languages, Intercultures, Litera- tures and Psychology, University of Florence | silvia.dellarocca@unifi.it Anna Paola Fallaci PhD Student | Learning Sciences and Digital T echnologies, University of Modena and Reggio Emilia | annapaola.fallaci@studenti.unimore.it Christian Tarchi Associate Professor | Department of Education, Languages, Intercultures, Li- teratures and Psychology, University of Florence | christian.tarchi@unifi.it Double blind peer review L ’importanza del lessico scientifico per la lettura: uno studio pilota nella scuola dell’infanzia The importance of technical and scientific vocabulary for reading: a pilot study in kindergarten Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8400\\2785-7050_8400.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+        "pdf_value": null,
+        "chosen_value": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-10-08",
+        "pdf_value": null,
+        "chosen_value": "2025-10-08",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+        "pdf_value": null,
+        "chosen_value": "Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8400",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8400",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:49:47Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:49:49Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8400",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8400",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8400",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8400",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8400\\2785-7050_8400.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:49:50Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8400\\2785-7050_8400.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+        "submitted_date": "2025-10-08",
+        "accepted_date": null,
+        "copyright_holder": "Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Jessica Pipitone",
+          "Silvia Della Rocca",
+          "Anna Paola Fallaci",
+          "Christian Tarchi"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8400\\2785-7050_8400.pdf",
+        "generated_at_utc": "2026-04-27T18:49:50Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-12-23",
+          "mod_date": "2025-12-23"
+        },
+        "front_text_excerpt": "ABSTRACT The development of technical and academic vocabulary in preschool age is essential for linguistic growth and is predictive of future competence in understanding disciplinary texts. This study explores the impact of including scientific terms in oral narrative texts, comparing two methods: a version with integrated definitions of technical terms and one without explanations, given before reading. T wenty pr e-school children (age M = 5.6 years, SD = 0.33; 35% F) were divided into two groups, homogeneous in terms of age and language level, corr esponding to the two intervention conditions. Vocabulary knowledge was assessed before and after the intervention through individual tests of lexical recognition and comprehension. The results show that both groups significantly improved their knowledge of the scientific vocabular y pre- sented, but the group exposed to the narrative with definitions performed better in visual recognition, word-image association, and activ e and contextual use of the terms learned. These data suggest that integrating definitions into storytelling enhances technical v ocabular y learning. The study provides useful guidelines for designing language interventions in pre-school, highlighting and demonstrating that sto- rytelling and reading can be important resources that serve as effective vehicles for introducing scientific concepts and promoting early dis- ciplinary literacy. Keywords: kindergarten, technical and scientific vocabulary, reading aloud, disciplinary literacy, early disciplinary literacy Lo sviluppo del vocabolario scientifico in età prescolare può essere molto importante per lo sviluppo linguistico ed è predittivo per la com - petenza di comprensione del testo. Il presente studio esplora l’impatto dell’inserimento di termini scientifici in una narrazione riv olta a bambini dell’ultimo anno della scuola dell’infanzia, confrontando due modalità: una versione con definizioni integrate dei termini e una priva di spiegazioni interne (date precedentemente alla lettura). Venti bambini (età M = 5.6 anni, DS = 0.33, 35% F), sono stati suddivisi in due gruppi, omogenei per età e livello linguistico, corrispondenti alle due condizioni di intervento. La conoscenza del vocabolario è stata v a- lutata pre e post intervento tramite prove individuali di riconoscimento e comprensione lessicale. I risultati suggeriscono che entrambi i gruppi hanno migliorato significativamente la conoscenza dei vocaboli scientifici presentati, ma il gruppo esposto alla narrazione con defin- izioni ha ottenuto prestazioni superiori nel riconoscimento visivo, nell’associazione parola-immagine e nella comprensione dei termini all- ’interno dei testi. Questi dati suggeriscono che l’integrazione di definizioni nel racconto potenzia l’apprendimento del lessico tecnico . Lo studio, pur esplorativo, fornisce indicazioni utili per la progettazione di interventi linguistici nella scuola dell’infanzia, evidenziando che nar- razione e lettura possono rappresentare risorse importanti per introdurre concetti scientifici e promuovere l’alfabetizzazione disciplinar e pre- coce. Parole chiave: scuola dell’infanzia, vocabolario tecnico e scientifico, lettura ad alta voce, alfabetizzazione disciplinare, al fabetizzazione emergente Citation: Pipitone, J., Della Rocca, S., Fallaci, A. P ., & Tarchi, C. (2025). L ’importanza del lessico scientifico per la lettura: uno studio pilota nella scuola dell’infanzia. Effetti di Lettura / Effects of Reading, 4(2), 5-24. https://doi.org/10.7347/EdL-02-2025-01. Corresponding Author: Silvia Della Rocca | silvia.dellarocca@unifi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-01 Authorship/Attribuzioni: JP (Data curation, Investigation, Resources, Writing - original draft, Writing - review and editing), SDR (Data curation, Formal analysis, Writing - original draft, Writing - review and editing), APF (Formal analysis, Writing - review and editing), CT (Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Supervision, Writing - review and editing). Funding/Finanziamento: N/A Jessica Pipitone T eacher | Sant’Anna Comprehensive School | jessica.pipitone@edu.unifi.it Silvia Della Rocca PhD Student | Department of Education, Languages, Intercultures, Litera- tures and Psychology, University of Florence | silvia.dellarocca@unifi.it Anna Paola Fallaci PhD Student | Learning Sciences and Digital T echnologies, University of Modena and Reggio Emilia | annapaola.fallaci@studenti.unimore.it Christian Tarchi Associate Professor | Department of Education, Languages, Intercultures, Li- teratures and Psychology, University of Florence | christian.tarchi@unifi.it Double blind peer review L ’importanza del lessico scientifico per la lettura: uno studio pilota nella scuola dell’infanzia The importance of technical and scientific vocabulary for reading: a pilot study in kindergarten Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "didattiche significative rappresenta una leva fondamentale per il successo educativo e formativo (Cervetti et al., 2022). Il vocabolario scientifico non si limita a nominare gli oggetti o le azioni, ma contribuisce a strutturare le relazioni concettuali, sviluppando nel bambino capacità di classificazione, previsione e argomentazione (Lemke, 1990). Secondo Beck e colleghi (2002) le parole possono essere classificate in tre livelli: parole di uso quotidiano (Tier 1), parole accademiche di uso generale (Tier 2) e parole strettamente scientifiche (Tier 3). Queste ultime, benché meno frequenti in età prescolare, sono cruciali per l’apprendimento sco- lastico e la comprensione di testi espositivi e scientifici. Heppt e colleghi (2022) hanno individuato nella disponibilità di libri, nella frequenza di lettura con- divisa e nella qualità delle interazioni verbali adulto-bambino predittori rilevanti del vocabolario e del ren- dimento scolastico, evidenziando l’incidenza dell’ambiente familiare e socio-educativo sugli input linguistici. La scuola dell’infanzia può quindi svolgere un ruolo di compensazione linguistica, offrendo esperienze narrative mirate e intenzionali, capaci di promuovere una precoce alfabetizzazione scientifica. Fitzgerald e colleghi (2021) hanno evidenziato che i libri di testo delle scuole primarie contengono livelli molto variabili di vocabolario scientifico, rendendo ancora più importante l’avvio di esperienze di alfabe- tizzazione disciplinare già in età prescolare. Pertanto, l’insegnamento intenzionale del vocabolario scientifico con percorsi didattici precoci e ben strutturati rappresenta un'importante strategia per colmare le disu- guaglianze educative e promuovere il successo formativo (Hart & Risley, 1995; Biemiller, 2005; Cervetti et al., 2022). 2.2. Efficacia del vocabolario scientifico per l’apprendimento Numerose evidenze empiriche hanno mostrato che la padronanza del vocabolario scientifico è fortemente correlata al rendimento scolastico e che differenze precoci nell’esposizione a tale lessico possono generare disuguaglianze stabili nel tempo (Schuth et al., 2017). In particolare, studi empirici supportano il ruolo predittivo del vocabolario in età prescolare nello sviluppo della competenza di comprensione del testo, sottolineando l’importanza di esperienze linguistiche precoci, intenzionali e mirate (Jago et al., 2025; Hje- tland et al., 2020). La meta-analisi condotta da Jago e colleghi (2025) mostra che un vocabolario ampio e vario acquisito in età prescolare è fondamentale per la futura comprensione, in quanto favorisce l’abilità di decodificare e integrare informazioni complesse, sostenendo l’inferenza di significati impliciti e la con- nessione tra informazioni testuali diverse. Queste competenze, in particolare, sono fondamentali all’inizio dell’istruzione formale. Analogamente, Hjetland e colleghi (2020) evidenziano che le differenze individuali nelle competenze lessicali precoci si riflettono direttamente sulle abilità di comprensione successiva, sot- tolineando come il vocabolario formi un percorso di sviluppo linguistico che conduce in modo diretto alla comprensione scritta. Gli interventi mirati a incrementare il lessico scientifico in età prescolare pro - ducono effetti duraturi, migliorando la comprensione e l’integrazione di concetti complessi in testi disci- plinari (Hjetland et al., 2020). Inoltre, l’inserimento del vocabolario scientifico nei testi narrativi è efficace soprattutto quando accom- pagnato da definizioni esplicite. Wright e Cervetti (2017) sottolineano che tali definizioni, dette “intra- narrative”, sono capaci di guidare il bambino verso una comprensione chiara e contestualizzata del significato, rendendo accessibili concetti complessi e favorendo la comprensione generale del testo e la memorizzazione del lessico scientifico (Cervetti et al., 2022). Anche la meta-analisi di Cervetti e colleghi (2023) mostra come interventi lessicali integrati nella lettura ad alta voce ",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-10-08",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-10-08",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Jessica Pipitone, Silvia Della Rocca, Anna Paola Fallaci, Christian Tarchi",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8400\\2785-7050_8400.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’Importanza del lessico scientifico per la Lettura: uno studio pilota nella scuola dell’infanzia",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The importance of technical and scientific vocabulary for reading: a pilot study in kindergarten",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The importance of technical and scientific vocabulary for reading: a pilot study in kindergarten",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The development of technical and academic vocabulary in preschool age is essential for linguistic growth and is predictive of future competence in understanding",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Lo sviluppo del vocabolario scientifico in età prescolare può essere molto importante per lo sviluppo linguistico ed è predittivo per la competenza di comprensi",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

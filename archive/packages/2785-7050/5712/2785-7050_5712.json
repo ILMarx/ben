@@ -1,0 +1,862 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5712",
+  "scraped_at_utc": "2026-04-27T18:44:42Z",
+  "fetched_at_utc": "2026-04-27T18:44:42Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "f3f364915d321a9505fefb8b837f8ecf0ee4799441172b8b04afe917494657e5",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Indice",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Technical Staff",
+        "nameType": "Personal",
+        "givenName": "Technical",
+        "familyName": "Staff",
+        "nameIdentifiers": [],
+        "affiliations": [],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5712",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-07-11",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-07-11",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-07-11",
+      "Issued": "2022-07-11"
+    },
+    "language": {
+      "value": "it",
+      "source": "article:language"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Indice"
+    },
+    "descriptions": [
+      {
+        "value": "Indice",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": null,
+      "identifierType": null,
+      "source": null
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "1",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Indice",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5712/4959",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "1",
+      "citationIssue": "1",
+      "citationStartPage": "001",
+      "citationEndPage": "004",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Staff, T. (2022). Indice. Effetti Di Lettura / Effects of Reading , 1 (1), 001–004. Recuperato da https://ojs.pensamultimedia.it/index.php/edl/article/view/5712",
+      "articleTitleEcho": "Indice"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_5712",
+    "article_ID": "5712",
+    "slug": "5712",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "5712",
+      "url_slug": "5712"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Indice",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-07-11",
+      "accepted": null,
+      "created": "2022-07-11",
+      "modified": "2022-07-28",
+      "issued": "2022-07-11",
+      "available": "2022-07-11",
+      "submitted_page": "2022-07-11",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Indice",
+        "pdf_value": null,
+        "chosen_value": "Indice",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5712/4959",
+      "local_relative_path": "2785-7050_5712.pdf",
+      "saved": true,
+      "sha256": "7f41459a566f86f99993718522fe671dec4b0d1d06834b89ea486795d5c30a1a",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 2377133,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [
+        "Resource Identifier"
+      ],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Technical Staff"
+      ],
+      "citation_author_institution": [],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Indice"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2022/07/11"
+      ],
+      "citation_volume": [
+        "1"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5712"
+      ],
+      "citation_keywords": [
+        "Indice"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/5712/4959"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2022-07-11"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-07-11"
+      ],
+      "DC.Date.issued": [
+        "2022-06-30"
+      ],
+      "DC.Date.modified": [
+        "2022-07-28"
+      ],
+      "DC.Description_count": 3,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "5712"
+      ],
+      "DC.Identifier.DOI": [],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5712"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "1"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 1,
+      "DC.Title": [
+        "Indice"
+      ],
+      "DC.Title.Alternative": [],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Indice"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Technical Staff"
+      ],
+      "citation_author_institution": [],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Technical Staff"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": ""
+          }
+        },
+        {
+          "content": "",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "fr",
+            "content": ""
+          }
+        },
+        {
+          "content": "Indice",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Indice"
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Indice",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Indice"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5712/4959",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5712/4959",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5712/4959",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 16.32",
+        "producer": "QuarkXPress(R) 16.32",
+        "keywords": null,
+        "creation_date": "2022-07-20",
+        "mod_date": "2022-07-20"
+      },
+      "front_text_excerpt": "Effetti di LetturaEffetti di Lettura Effects of Reading Volume 1 | n. 1 | giugno 2022 Rivista semestrale",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\5712\\2785-7050_5712.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Indice",
+        "pdf_value": null,
+        "chosen_value": "Indice",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Indice",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Indice | Effetti di lettura / Effects of reading",
+    "warnings": [
+      "Published-date conflict: stronger page signal '2022-07-11' overrides DC.Date.issued '2022-06-30'.",
+      "Campo mandatory mancante secondo lo schema OpenAIRE: Resource Identifier"
+    ],
+    "warning_objects": [
+      {
+        "code": "PUBLISHED_DATE_CONFLICT",
+        "message": "Published-date conflict: stronger page signal '2022-07-11' overrides DC.Date.issued '2022-06-30'.",
+        "context": {
+          "citation_date": "2022-07-11",
+          "dom_published": null,
+          "dc_created": "2022-07-11",
+          "dc_issued": "2022-06-30",
+          "dc_modified": "2022-07-28"
+        },
+        "function_name": "_extract_openaire_and_internal_dates",
+        "code_snippet": "    def _extract_openaire_and_internal_dates(self, file_bundle: Dict[str, Any], interactive_resolution: bool = False, ai_config: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:\n        citation_date = iso_date(self.meta.first(\"citation_date\"))\n        dc_created = iso_date(self.meta.first(\"DC.Date.created\"))\n        dc_submitted = iso_date(self.meta.first(\"DC.Date.dateSubmitted\"))\n        dc_issued = iso_date(self.meta.first(\"DC.Date.issued\"))\n        dc_modified = iso_date(self.meta.first(\"DC.Date.modified\"))\n        dc_accepted = iso_date(self.meta.first(\"DC.Date.accepted\"))\n        dc_available = iso_date(self.meta.first(\"DC.Date.available\"))\n        dom_submitted = iso_date(self._dd_value_after_dt(\"Inviata\"))\n        dom_published = iso_date(self._dd_value_after_dt(\"Pubblicato\"))\n        pdf_dates = self._extract_pdf_editorial_dates(file_bundle)\n        page_rights = self._extract_page_rights_holder_and_year()\n\n        def choose_published_date(citation_date, dom_published, dc_created, dc_issued, dc_modified):\n            return citation_date or dom_published or dc_created or dc_issued or dc_modified\n\n        page_candidates = {\n            \"title\": self.meta.first(\"citation_title\") or self.meta.first(\"DC.Title\") or self._text(\"h1.article-page__title span\"),\n            \"submitted_date\": dc_submitted or dom_submitted,\n            \"accepted_date\": dc_accepted,\n            \"copyright_holder\": page_rights.get(\"copyright_holder_page\"),\n            \"copyright_year\": str(page_rights.get(\"copyright_year_page\")) if page_rights.get(\"copyright_year_page\") is not None else None,\n            \"license_url\": self._extract_access_rights_and_license().get(\"licenseCondition\", {}).get(\"uri\"),\n        }\n        pdf_ai_diag = self._request_ai_pdf_front_analysis(pdf_dates, page_candidates, ai_config)\n        pdf_ai_result = pdf_ai_diag.get(\"result\") if isinstance(pdf_ai_diag, dict) and pdf_ai_diag.get(\"status\") == \"ok\" else {}\n        pdf_fields = pdf_ai_result.get(\"pdf_fields\", {}) if isinstance(pdf_ai_result, dict) else {}\n        ai_resolution = pdf_ai_result.get(\"resolution\", {}) if isinstance(pdf_ai_result, dict) else {}\n\n        pdf_submitted_value = normalize_space((pdf_fields.get(\"submitted_date\") or {}).get(\"value\")) or pdf_dates.get(\"submitted_pdf\")\n        pdf_accepted_value = normalize_space((pdf_fields.get(\"accepted_date\") or {}).get(\"value\")) or pdf_dates.get(\"accepted_pdf\")\n        pdf_copyright_holder = normalize_space((pdf_fields.get(\"copyright_holder\") or {}).get(\"value\")) or pdf_dates.get(\"copyright_holder_pdf\")\n        pdf_copyright_year = normalize_space((pdf_fields.get(\"copyright_year\") or {}).get(\"value\")) or (str(pdf_dates.get(\"copyright_year_pdf\")) if pdf_dates.get(\"copyright_year_pdf\") is not None else None)\n        pdf_title_value = normalize_space((pdf_fields.get(\"title\") or {}).get(\"value\"))\n        pdf_title_allowed = bool((pdf_fields.get(\"title\") or {}).get(\"use_allowed\")) if isinstance(pdf_fields.get(\"title\"), dict) else False\n\n        strong_page_published = citation_date or dom_published or dc_created\n        if strong_page_published and dc_issued and strong_page_published != dc_issued:\n            self._warn(\n                code=\"PUBLISHED_DATE_CONFLICT\",\n                message=f\"Published-date conflict: stronger page signal '{strong_page_published}' overrides DC.Date.issued '{dc_issued}'.\",\n                function_name=\"_extract_openaire_and_internal_dates\",\n                context={\n                    \"citation_date\": citation_date,\n                    \"dom_published\": dom_published,\n                    \"dc_created\": dc_created,\n                    \"dc_issued\": dc_issued,\n                    \"dc_modified\": dc_modified,\n                },\n            )\n\n        issued = choose_published_date(\n            citation_date,\n            dom_published,\n            dc_created,\n            dc_issued,\n            dc_modified,\n        )\n        available = dc_available or issued\n        submitted_resolution = self._resolve_discrepancy(\"submitted_date\", dc_submitted or dom_submitted, pdf_submitted_value, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"submitted_date\") if isinstance(ai_resolution, dict) else None)\n        accepted_resolution = self._resolve_discrepancy(\"accepted_date\", dc_accepted, pdf_accepted_value, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"accepted_date\") if isinstance(ai_resolution, dict) else None)\n        copyright_holder_resolution = self._resolve_discrepancy(\"copyright_holder\", page_rights.get(\"copyright_holder_page\"), pdf_copyright_holder, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"copyright_holder\") if isinstance(ai_resolution, dict) else None)\n        copyright_year_resolution = self._resolve_discrepancy(\n            \"copyright_year\",\n            str(page_rights.get(\"copyright_year_page\")) if page_rights.get(\"copyright_year_page\") is not None else None,\n            pdf_copyright_year,\n            interactive_resolution,\n            prefer=\"pdf\",\n            ai_resolution=ai_resolution.get(\"copyright_year\") if isinstance(ai_resolution, dict) else None,\n        )\n        title_resolution = self._resolve_discrepancy(\n            \"title\",\n            page_candidates.get(\"title\"),\n            pdf_title_value if pdf_title_allowed or not page_candidates.get(\"title\") else None,\n            interactive_resolution,\n            prefer=\"page\",\n            ai_resolution=ai_resolution.get(\"title\") if isinstance(ai_resolution, dict) else None,\n        )\n\n        accepted = accepted_resolution.get(\"chosen_value\")\n        submitted = submitted_resolution.get(\"chosen_value\")\n\n        export_dates: List[Dict[str, Any]] = []\n        if accepted:\n            export_dates.append({\"value\": accepted, \"dateType\": \"Accepted\", \"source\": accepted_resolution.get(\"chosen_source\")})\n        if available:\n            export_dates.append({\"value\": available, \"dateType\": \"Available\", \"source\": \"meta:DC.Date.available\" if dc_available else \"fallback:Issued\"})\n        if issued:\n            export_dates.append({\"value\": issued, \"dateType\": \"Issued\", \"source\": \"meta:DC.Date.issued\" if dc_issued else \"meta:citation_date\" if citation_date else \"dom:Pubblicato\" if dom_published else \"meta:DC.Date.created\"})\n\n        export_dates = dedupe_list(export_dates)\n        dates_by_type: Dict[str, Optional[str]] = {d[\"dateType\"]: d[\"value\"] for d in export_dates}\n        if not dates_by_type.get(\"Available\") and issued:\n            dates_by_type[\"Available\"] = issued\n        internal_dates = {\n            \"submitted\": submitted,\n            \"accepted\": accepted,\n            \"created\": dc_created,\n            \"modified\": dc_modified,\n            \"issued\": issued,\n            \"available\": dates_by_type.get(\"Available\"),\n            \"submitted_page\": dc_submitted or dom_submitted,\n            \"submitted_pdf\": pdf_dates.get(\"submitted_pdf\"),\n            \"accepted_page\": dc_accepted,\n            \"accepted_pdf\": pdf_dates.get(\"accepted_pdf\"),\n        }\n        resolutions = {\n            \"title\": title_resolution,\n            \"submitted\": submitted_resolution,\n            \"accepted\": accepted_resolution,\n            \"copyright_holder\": copyright_holder_resolution,\n            \"copyright_year\": copyright_year_resolution,\n        }\n        return {\n            \"export_dates\": export_dates,\n            \"dates_by_type\": dates_by_type,\n            \"internal_dates\": internal_dates,\n            \"pdf_editorial_dates\": pdf_dates,\n            \"page_rights\": page_rights,\n            \"resolutions\": resolutions,\n            \"pdf_ai_resolution\": pdf_ai_diag,\n        }\n"
+      },
+      {
+        "code": "MISSING_MANDATORY_RESOURCE_IDENTIFIER",
+        "message": "Campo mandatory mancante secondo lo schema OpenAIRE: Resource Identifier",
+        "context": {
+          "field_name": "Resource Identifier"
+        },
+        "function_name": "_extract_openaire_validation",
+        "code_snippet": "    def _extract_openaire_validation(self, article_payload: Dict[str, Any]) -> Dict[str, Any]:\n        if not self.openaire_schema_tree:\n            return {\"schema_loaded\": False, \"missing_mandatory\": [], \"compatibility_notes\": [], \"notes\": []}\n\n        missing: List[str] = []\n        fields = self.openaire_schema_tree.get(\"fields\", [])\n        field_lookup = {f.get(\"field\"): f for f in fields}\n\n        def present(value: Any) -> bool:\n            if value is None or value == \"\":\n                return False\n            if isinstance(value, list):\n                return len(value) > 0\n            if isinstance(value, dict):\n                return any(present(v) for v in value.values())\n            return True\n\n        presence_map = {\n            \"Title\": article_payload[\"title\"].get(\"datacite:title\"),\n            \"Creator\": article_payload.get(\"creators\"),\n            \"Publication Date\": article_payload.get(\"datesByType\", {}).get(\"Issued\"),\n            \"Resource Type\": article_payload.get(\"resourceType\"),\n            \"Resource Identifier\": article_payload.get(\"resourceIdentifier\"),\n            \"Access Rights\": article_payload.get(\"accessRights\"),\n        }\n        for field_name, value in presence_map.items():\n            field_def = field_lookup.get(field_name)\n            if field_def and field_def.get(\"requirement\") == \"M\" and not present(value):\n                missing.append(field_name)\n                self._warn(\n                    code=f\"MISSING_MANDATORY_{field_name.upper().replace(' ', '_')}\",\n                    message=f\"Campo mandatory mancante secondo lo schema OpenAIRE: {field_name}\",\n                    function_name=\"_extract_openaire_validation\",\n                    context={\"field_name\": field_name},\n                )\n\n        compatibility_notes: List[str] = []\n        date_types = [d.get(\"dateType\") for d in article_payload.get(\"dates\", [])]\n        invalid_types = [t for t in date_types if t not in {\"Accepted\", \"Available\", \"Issued\"}]\n        if invalid_types:\n            compatibility_notes.append(f\"Sono presenti dateType fuori dal profilo export desiderato: {invalid_types}\")\n            self._warn(\n                code=\"EXPORT_DATE_TYPES_OUTSIDE_PROFILE\",\n                message=f\"Sono presenti dateType fuori dal profilo export desiderato: {invalid_types}\",\n                function_name=\"_extract_openaire_validation\",\n                context={\"date_types\": date_types},\n            )\n        if not article_payload.get(\"datesByType\", {}).get(\"Available\") and article_payload.get(\"datesByType\", {}).get(\"Issued\"):\n            compatibility_notes.append(\"Available era assente ed è stato colmato con Issued.\")\n\n        return {\n            \"schema_loaded\": True,\n            \"schema_profile_name\": self.openaire_schema_tree.get(\"profile\"),\n            \"missing_mandatory\": missing,\n            \"compatibility_notes\": compatibility_notes,\n            \"notes\": [\n                \"Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.\",\n                \"The JSON may retain richer internal data outside the direct OpenAIRE export slice.\",\n            ],\n        }\n"
+      }
+    ],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5712",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5712",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:44:42Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:44:44Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5712",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5712",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 1,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 1
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5712",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5712",
+          "added_titles": 0,
+          "added_descriptions": 0,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 1,
+            "descriptions": 1,
+            "subjects": 1
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5712\\2785-7050_5712.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:44:46Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5712\\2785-7050_5712.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Indice",
+        "submitted_date": "2022-07-11",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Technical Staff"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5712\\2785-7050_5712.pdf",
+        "generated_at_utc": "2026-04-27T18:44:45Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 16.32",
+          "producer": "QuarkXPress(R) 16.32",
+          "keywords": null,
+          "creation_date": "2022-07-20",
+          "mod_date": "2022-07-20"
+        },
+        "front_text_excerpt": "Effetti di LetturaEffetti di Lettura Effects of Reading Volume 1 | n. 1 | giugno 2022 Rivista semestrale",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading DIRETTORE SCIENTIFICO / EDITOR-IN-CHIEF DIRETTRICI DI REDAZIONE / MANAGING EDITORS Maria Ermelinda De Carlo | Università degli Studi di Perugia, IT | ermelinda.decarlo@unipg.it Irene Dora Maria Scierri | Università degli Studi di Firenze, IT | irene.scierri@unifi.it REDATTRICI / EDITORIAL STAFF Giulia Barbisoni | Università degli Studi di Perugia, IT Benedetta D’Autilia | Università degli Studi di Perugia, IT Giulia Toti | Università degli Studi di Perugia, IT COMITATO SCIENTIFICO / SCIENTIFIC COMMITTEE Federico Batini | Università degli Studi di Perugia, IT Chiara Bertolini | Università degli Studi di Modena e Reggio Emilia, IT Cristina Caracchini | Western University, CA Roberta Cardarello | Università degli Studi di Modena e Reggio Emilia, IT Emanuele Castano | Università degli Studi di T rento, IT Cristiano Corsini | Università degli Studi Roma T re, IT Fabio D’Andrea | Università degli Studi di Perugia, IT Nicola Genga | Cepell, IT Simone Giusti | Università degli Studi di Siena, IT Andrea Lombardinilo | Università degli Studi “Gabriele D'Annunzio” Chieti–Pescara, IT Giovanni Moretti | Università degli Studi Roma T re, IT Michèle Petit | CNRS, FR Patrizia Sposetti | Sapienza Università di Roma, IT Giordana Szpunar | Sapienza Università di Roma, IT Federico Batini | Università degli Studi di Perugia | Piazza Giuseppe Ermini - 06123 Perugia - ITALY | federico.batini@unipg.it",
+        "body_language_guess": null,
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Indice",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Indice",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-07-11",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-07-11",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5712\\2785-7050_5712.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "article:language",
+        "hints": {
+          "pdf_body_language": null,
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": null
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "article:language",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Indice",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Indice",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "values": [
+              "Indice"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

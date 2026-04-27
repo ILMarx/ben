@@ -1,0 +1,1084 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6125",
+  "scraped_at_utc": "2026-04-27T18:45:56Z",
+  "fetched_at_utc": "2026-04-27T18:45:56Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "60e8641f3099babfd2579d7113a82f9ce611b4490aee3d7703aba8a1143126b2",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Andrea Nardi",
+        "nameType": "Personal",
+        "givenName": "Andrea",
+        "familyName": "Nardi",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Rudi Bartolini",
+        "nameType": "Personal",
+        "givenName": "Rudi",
+        "familyName": "Bartolini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Alessandra Anichini",
+        "nameType": "Personal",
+        "givenName": "Alessandra",
+        "familyName": "Anichini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Senior researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Francesca Pestellini",
+        "nameType": "Personal",
+        "givenName": "Francesca",
+        "familyName": "Pestellini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6125",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-30",
+      "Issued": "2023-06-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "This paper describes a study conducted by the Indire research group on Media Education in the framework of a project launched in the academic year 2020/21, in collaboration with the IC “Ugo Amaldi” of Cadeo and Pontenure. The working group carried out a reflection on the design and self-production of digital textbooks for lower secondary schools. The school involved in the research has been engaged in the Avanguardie Educative Movement since 2014, first as the lead school of the Idea Integration of digital educational content/textbooks and then as a “hub regional school”. In view of redesigning the textbooks self-produced by teachers in some curricular disciplines, including Geog-raphy, Music, Art and Italian, the need arose to investigate the students’ relationship with paper and digital educational tools used in reading and writing activities, as well as their preferences and per-ceptions in using those tools. It was then decided to survey the pupils’ study habits and preferences for use, with the aim of obtaining useful directions for redesigning self-produced textbooks. The sur-vey was administered to 308 students for the purpose of investigating, in particular, i) the students’ modes of study; ii) how the students use digital and paper tools in their home study activities; and iii) the use of digital and paper tools in the context of educational activities carried out at school. The survey’s results are here presented and discussed.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Questo articolo descrive uno studio condotto dal gruppo di ricerca Indire sulla Media Education nell’ambito di un progetto avviato nell’anno accademico 2020/21, in collaborazione con l’IC “Ugo Amaldi” di Cadeo e Pontenure. Il gruppo di lavoro ha avviato una riflessione sulla progettazione e l’autoproduzione di libri di testo digitali per le scuole secondarie di primo grado. La scuola coinvolta nella ricerca è impegnata nel Movimento Avanguardie Educative dal 2014, prima come scuola capofila dell’Idea Integrazione di contenuti/materiali didattici digitali e poi come “scuola polo regionale”. In vista della riprogettazione dei libri di testo autoprodotti dai docenti in alcune discipline curricolari, tra cui Geografia, Musica, Arte e Italiano, è emersa la necessità di indagare il rapporto degli studenti con gli strumenti didattici cartacei e digitali utilizzati nelle attività di lettura e scrittura, così come le loro preferenze e percezioni nell’uso di tali strumenti. Si è quindi deciso di sondare le abitudini di studio e le preferenze d’uso degli studenti, con l’obiettivo di ottenere indicazioni utili per la riprogettazione dei libri di testo autoprodotti. Il sondaggio è stato somministrato a 308 studenti con lo scopo di indagare, in particolare, i) le modalità di studio degli studenti; ii) come gli studenti utilizzano strumenti digitali e cartacei nelle loro attività di studio a casa; e iii) l’uso di strumenti digitali e cartacei nel contesto delle attività educative svolte a scuola. I risultati del sondaggio vengono presentati e discussi.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2023-07",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Lettura digitale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "scrittura digitale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "e-libri di testo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pratiche di studio",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "voce degli studenti",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Digital reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "digital writing",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "e-textbooks",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "study practices",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "student voice",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6125/5544",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "1",
+      "citationStartPage": "076",
+      "citationEndPage": "091",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Nardi, A., Bartolini, R., Anichini, A., & Pestellini, F. (2023). Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti. Effetti Di Lettura / Effects of Reading , 2 (1), 076–091. https://doi.org/10.7347/EdL-01-2023-07",
+      "articleTitleEcho": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Ackerman, R., & Goldsmith, M. (2011). Metacognitive regulation of text learning: On screen versus on paper. Journal Of Experimental Psychology: Applied, 17(1), 18-32.",
+        "https://doi.org/10.1037/a0022086",
+        "Anichini, A. (2015). Riscritture digitali e libri di testo. Form@re - Open Journal Per La Formazione in Rete, 15(1), 73-86. https://doi.org/10.13128/formare-15439",
+        "Associazione italiana editori (2020a). Indagine conoscitiva 7^ Commissione Senato impatto del digitale sui processi di apprendimento, Senato della Repubblica.",
+        "Associazione italiana editori (2020b). Audizione di rappresentanti dell’Associazione italiana editori (AIE). In: Indagine conoscitiva sull’impatto del digitale sugli studenti, con particolare riferimento ai processi di apprendimento. Resoconto stenografico 185a seduta, 22 settembre 2020.",
+        "Baron, N. S. (2015). Words onscreen. Oxford University Press.",
+        "Baron, N. S., Calixte R. M., & Havewala, M. (2017). The persistence of print among university students: An exploratory study. Telematics and Informatics, 34(5), 590-",
+        "https://doi.org/10.1016/j.tele.2016.11.008",
+        "Baron, N. S., & Mangen, A. (2021). Doing the reading: The decline of long-form reading in higher education. Poetics Today, 42(2), 253-279. https://doi.org/10.1215/03335372-8883248",
+        "Ben-Yehudah, G., & Eshet‐Alkalai, Y. (2021). Print versus digital reading comprehension tests: does the congruency of study and test medium matter?. British Journal of Educational Technology, 52(1), 426-440. https://doi.org/10.1111/bjet.13014",
+        "Centro per il libro e la cultura-Associazione italiana editori (2021). Dall’emergenza a un piano per la ripartenza: libro bianco sulla lettura e i consumi culturali in Italia (2020-2021). https://bit.ly/3ylpQUa",
+        "Clarke, A. E. (2005). Situational Analysis: Grounded Theory After the Postmodern Turn. Sage.",
+        "Clinton, V. (2019). Reading from paper compared to screens: A systematic review and",
+        "meta-analysis. Journal of Research in Reading, 42(2), 288-325. https://doi.org/10.1111/1467-9817.12269",
+        "Delgado, P., Vargas, C., Ackerman, R., & Salmerón, L. (2018). Don’t throw away your printed books: A meta-analysis on the effects of reading media on comprehension. Educational Research Review, 25, 23-38. https://doi.org/10.1016/j.edurev.2018.09.003",
+        "Evolution of reading in the age of digitisation (E-READ). 2019. Stavanger Declaration on the Future of Reading. http://ereadcost.eu/stavanger-declaration",
+        "Furenes, M. I., Kucirkova, N., & Bus, A. (2021). A Comparison of Children’s",
+        "Reading on Paper Versus Screen: A Meta-Analysis. Review of Educational Research, 91(4), 483-517. https://doi.org/10.3102/0034654321998074",
+        "Glaser, B. G., & Strauss, A. L. (1967). The Discovery of Grounded Theory: Strategies of Qualitative Research. Aldine de Gruyter.",
+        "Gui, M., Gerosa, T., & Alessandra, V. (2021). La competenza digitale degli studenti nella secondaria di I e II grado. Report, Centro di Ricerca Benessere Digitale. https://bit.ly/3csXOR0",
+        "Halamish, V., & Elbaz, E. (2020). Children’s reading comprehension and",
+        "metacomprehension on screen versus on paper. Computers & Education, 145, Article",
+        "https://doi.org/10.1016/j.compedu.2019.103737",
+        "Istituto nazionale di statistica (2019). La produzione e lettura di libri in Italia 2018.",
+        "Istituto nazionale di statistica (2021). La produzione e lettura di libri in Italia 2019.",
+        "Istituto nazionale per la valutazione del sistema educativo di istruzione e di formazione, (2022). Rapporto Invalsi 2022. Invalsi, 2022, https://bit.ly/3yCjdON",
+        "Jerrim, J., & Moss, G. (2019). The link between fiction and teenagers’ reading skills: International evidence from the OECD PISA study. British Educational Research Journal , 45(1), 181-200. https://doi.org/10.1002/berj.3498",
+        "Kong, Y., Seo, Y. S., & Zhai, L. (2018). Comparison of reading performance on screen",
+        "and on paper: A meta-analysis. Computers & Education, 123, 138-149.",
+        "https://doi.org/10.1016/j.compedu.2018.05.005",
+        "Kovac, M., & Van der Weel, A. (2018). Reading in a post-textual era. First Monday, 23(10). https://doi.org/10.5210/fm.v23i10.9416",
+        "Kovac, M., & Van der Weel, A. (2020). Paper versus screen reading: what difference",
+        "does it make?. In Å. Hegdal (Ed.), Paper and Digital. Current research into the effectiveness of learning materials (pp. 9-12). International Publishers Association.",
+        "Mangen, A., & Velay, J.-L., (2010). Digitizing literacy: Reflections on the haptics of writing. In M. H. Zadeh (Ed.), Advances in haptics (pp. 385–402). IN-TECH.",
+        "Mangen, A., Walgermo, B. R., & Brønnick. K. (2013). Reading linear texts on",
+        "paper versus computer screens: effects on reading comprehension. International Journal",
+        "of Educational Research, 58, 61-68. https://doi.org/10.1016/j.ijer.2012.12.002",
+        "Mangen, A., & van der Weel, A. (2016). The evolution of reading in the age of",
+        "digitization: an integrative framework for reading research. Literacy, 50(3), 116-124.",
+        "https://doi.org/10.1111/lit.12086",
+        "Meishar-Tal, H., & Shonfeld, M. (2018). Students’ writing and reading preferences in a paperless classroom. Interact. Learn. Environ, 27, 908-918.",
+        "Mizrachi, D., Salaz, A. M., Kurbanoglu, S., Boustany, J., and on behalf of the",
+        "ARFIS Research Group (2018). Academic reading format preferences and behaviors",
+        "among university students worldwide: A comparative survey analysis. PLoS ONE, 13(5),",
+        "e0197444. https://doi.org/10.1371/journal.pone.0197444",
+        "Nardi, A. (2015). Lettura digitale vs lettura tradizionale: implicazioni cognitive e stato",
+        "della ricerca. Form@re – Open Journal per la Formazione in Rete, 1(15), 7-29. https://doi.org/10.13128/formare-15434",
+        "Nardi, A. (2022). Lettura su schermo e processi cognitivi: superare le dicotomie per continuare a leggere. AIB Studi, 62(2), 397-417. https://doi.org/10.2426/aibstudi-13626",
+        "Organization for Economic Co-operation and Development (2019). PISA 2018 Results. Combined Executive Summaries Volume I, II & III. Paris: OECD Publishing.",
+        "Organization for Economic Co-operation and Development (2015). Students, Computers and Learning: Making the Connection. OECD Publishing. https://doi.org/10.1787/9789264239555-en",
+        "Organization for Economic Co-operation and Development (2021a). 21st-Century Readers: Developing Literacy Skills in a Digital World. OECD Publishing. https://doi.org/10.1787/a83d84cb-en",
+        "Organization for Economic Co-operation and Development (2021b). OECD 21st-century readers: Developing literacy skills in a digital world – webinar OECD (2021).",
+        "Pariser, E. (2011). The Filter Bubble: What the Internet Is Hiding from You. Penguin Books.",
+        "Roncaglia, G. (2021). Oltre il libro: le frontiere del testo digitale. In E. Barbieri (Ed.), Imago librorum. Mille anni di forme del libro in Europa (pp. 93-100). Leo S. Olschki Editore.",
+        "Salmerón, L., Strømsø, H.I., Kammerer, Y., Stadtler, M., & van den Broek,",
+        "P. (2018). Comprehension processes in digital reading. In M. Barzillai, J.",
+        "Thomson, S. Schroeder, & P. van den Broek (Eds.), Learning to read in a digital world (pp",
+        "-120). Amsterdam: John Benjamins",
+        "Salmerón, L., Strømsø, H.I., Kammerer, Y., Stadtler, M., & van den Broek,",
+        "P. (2018). Comprehension processes in digital reading. In M. Barzillai, J.",
+        "Thomson, S. Schroeder, & P. van den Broek (Eds.), Learning to read in a digital world (pp",
+        "-120). Amsterdam: John Benjamins",
+        "Salmerón, L., Strømsø, H.I., Kammerer, Y., Stadtler, M., & van den Broek,",
+        "P. (2018). Comprehension processes in digital reading. In M. Barzillai, J.",
+        "Thomson, S. Schroeder, & P. van den Broek (Eds.), Learning to read in a digital world (pp",
+        "-120). John Benjamins.",
+        "Sidi, Y., Shpigelman, M., Zalmanov, H., & Ackerman, R. (2017). Understanding",
+        "metacognitive inferiority on screen by exposing cues for depth of processing. Learning",
+        "and Instruction, 51, 61-73. https://doi.org/10.1016/j.learninstruc.2017.01.002",
+        "Singer, L. M., & Alexander, P. (2017). Reading on Paper and Digitally: What the Past Decades of Empirical Research Reveal. Review of Educational Research, 87(6), 1007-",
+        "https://doi.org/10.3102/0034654317722961",
+        "Solimine, G. (2019). La lettura e il suo contesto: i dati analizzati con il grandangolo, AIB studi, 58(3), 427-437. https://doi.org/10.2426/aibstudi-11886",
+        "Sunstein, C. R. (2009). Republic.com 2.0. Princeton University Press.",
+        "Tarozzi, M. (2008). Che cos’è la grounded theory. Carocci.",
+        "Torppa, M., Niemi, P., Vasalampi, K., Lerkkanen, M.-K., Tolvanen, A., & Poikkeus, A.-M. (2020). Leisure Reading (But Not Any Kind) and Reading Comprehension Support Each Other : A Longitudinal Study Across Grades 1 and 9. Child Development, 91(3), 876-900. https://doi.org/10.1111/cdev.13241",
+        "Tveit, Å., & Mangen, A. (2014). A joker in the class: Teenage readers' attitudes and",
+        "preferences to reading on different devices. Library & Information Science Research, 36(3-",
+        ", 179-184. https://doi.org/10.1016/j.lisr.2014.08.001",
+        "Zarocostas, J. (2020). How to fight an infodemic. The Lancet, 395(10225), 676. https://doi.org/10.1016/S0140-6736(20)30461-X",
+        "van der Weel, A., & Mangen, A. (2022). Textual reading in digitised classrooms: Reflections on reading beyond the internet. International Journal of Educational Research, 115, 102036.",
+        "Wolf, M. (2018). Lettore, vieni a casa. Il cervello che legge in un mondo digitale. Vita e Pensiero.",
+        "Wolf, M. (2022). The future of literacy in a digital culture: promise and perils”. In M. Suárez-Orozco & C. Suárez-Orozco (Eds.), A Global Compact for a Time of Crisis (pp. 286-300). Columbia University Press. https://doi.org/10.7312/suar20434-019"
+      ],
+      "count": 82,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6125",
+    "article_ID": "6125",
+    "slug": "6125",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6125",
+      "url_slug": "6125"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Reading and writing between digital and paper. : The students' voice",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-01-03",
+      "accepted": null,
+      "created": "2023-06-30",
+      "modified": "2024-06-25",
+      "issued": "2023-06-30",
+      "available": "2023-06-30",
+      "submitted_page": "2023-01-03",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+        "pdf_value": null,
+        "chosen_value": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-01-03",
+        "pdf_value": null,
+        "chosen_value": "2023-01-03",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6125/5544",
+      "local_relative_path": "2785-7050_6125.pdf",
+      "saved": true,
+      "sha256": "af7ab073c832356eb29543cd7b6df8a662f9e6949d5523ddad76f416858c8460",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 2122878,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Andrea Nardi",
+        "Rudi Bartolini",
+        "Alessandra Anichini",
+        "Francesca Pestellini"
+      ],
+      "citation_author_institution": [
+        "Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE)",
+        "Researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE)",
+        "Senior researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE)",
+        "Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE)"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/06/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2023-07"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6125"
+      ],
+      "citation_keywords": [
+        "Lettura digitale",
+        "scrittura digitale",
+        "e-libri di testo",
+        "pratiche di studio",
+        "voce degli studenti"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6125/5544"
+      ],
+      "citation_reference_count": 82,
+      "DC.Date.created": [
+        "2023-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-01-03"
+      ],
+      "DC.Date.issued": [
+        "2023-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6125"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2023-07"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6125"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti"
+      ],
+      "DC.Title.Alternative": [
+        "Reading and writing between digital and paper. : The students' voice"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Andrea Nardi",
+        "Rudi Bartolini",
+        "Alessandra Anichini",
+        "Francesca Pestellini"
+      ],
+      "citation_author_institution": [
+        "Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE)",
+        "Researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE)",
+        "Senior researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE)",
+        "Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE)"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Andrea Nardi",
+        "Rudi Bartolini",
+        "Alessandra Anichini",
+        "Francesca Pestellini"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This paper describes a study conducted by the Indire research group on Media Education in the framework of a project launched in the academic year 2020/21, in collaboration with the IC “Ugo Amaldi” of Cadeo and Pontenure. The working group carried out a reflection on the design and self-production of digital textbooks for lower secondary schools. The school involved in the research has been engaged in the Avanguardie Educative Movement since 2014, first as the lead school of the Idea Integration of digital educational content/textbooks and then as a “hub regional school”. In view of redesigning the textbooks self-produced by teachers in some curricular disciplines, including Geog-raphy, Music, Art and Italian, the need arose to investigate the students’ relationship with paper and digital educational tools used in reading and writing activities, as well as their preferences and per-ceptions in using those tools. It was then decided to survey the pupils’ study habits and preferences for use, with the aim of obtaining useful directions for redesigning self-produced textbooks. The sur-vey was administered to 308 students for the purpose of investigating, in particular, i) the students’ modes of study; ii) how the students use digital and paper tools in their home study activities; and iii) the use of digital and paper tools in the context of educational activities carried out at school. The survey’s results are here presented and discussed.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This paper describes a study conducted by the Indire research group on Media Education in the framework of a project launched in the academic year 2020/21, in collaboration with the IC “Ugo Amaldi” of Cadeo and Pontenure. The working group carried out a reflection on the design and self-production of digital textbooks for lower secondary schools. The school involved in the research has been engaged in the Avanguardie Educative Movement since 2014, first as the lead school of the Idea Integration of digital educational content/textbooks and then as a “hub regional school”. In view of redesigning the textbooks self-produced by teachers in some curricular disciplines, including Geog-raphy, Music, Art and Italian, the need arose to investigate the students’ relationship with paper and digital educational tools used in reading and writing activities, as well as their preferences and per-ceptions in using those tools. It was then decided to survey the pupils’ study habits and preferences for use, with the aim of obtaining useful directions for redesigning self-produced textbooks. The sur-vey was administered to 308 students for the purpose of investigating, in particular, i) the students’ modes of study; ii) how the students use digital and paper tools in their home study activities; and iii) the use of digital and paper tools in the context of educational activities carried out at school. The survey’s results are here presented and discussed."
+          }
+        },
+        {
+          "content": "Questo articolo descrive uno studio condotto dal gruppo di ricerca Indire sulla Media Education nell’ambito di un progetto avviato nell’anno accademico 2020/21, in collaborazione con l’IC “Ugo Amaldi” di Cadeo e Pontenure. Il gruppo di lavoro ha avviato una riflessione sulla progettazione e l’autoproduzione di libri di testo digitali per le scuole secondarie di primo grado. La scuola coinvolta nella ricerca è impegnata nel Movimento Avanguardie Educative dal 2014, prima come scuola capofila dell’Idea Integrazione di contenuti/materiali didattici digitali e poi come “scuola polo regionale”. In vista della riprogettazione dei libri di testo autoprodotti dai docenti in alcune discipline curricolari, tra cui Geografia, Musica, Arte e Italiano, è emersa la necessità di indagare il rapporto degli studenti con gli strumenti didattici cartacei e digitali utilizzati nelle attività di lettura e scrittura, così come le loro preferenze e percezioni nell’uso di tali strumenti. Si è quindi deciso di sondare le abitudini di studio e le preferenze d’uso degli studenti, con l’obiettivo di ottenere indicazioni utili per la riprogettazione dei libri di testo autoprodotti. Il sondaggio è stato somministrato a 308 studenti con lo scopo di indagare, in particolare, i) le modalità di studio degli studenti; ii) come gli studenti utilizzano strumenti digitali e cartacei nelle loro attività di studio a casa; e iii) l’uso di strumenti digitali e cartacei nel contesto delle attività educative svolte a scuola. I risultati del sondaggio vengono presentati e discussi.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Questo articolo descrive uno studio condotto dal gruppo di ricerca Indire sulla Media Education nell’ambito di un progetto avviato nell’anno accademico 2020/21, in collaborazione con l’IC “Ugo Amaldi” di Cadeo e Pontenure. Il gruppo di lavoro ha avviato una riflessione sulla progettazione e l’autoproduzione di libri di testo digitali per le scuole secondarie di primo grado. La scuola coinvolta nella ricerca è impegnata nel Movimento Avanguardie Educative dal 2014, prima come scuola capofila dell’Idea Integrazione di contenuti/materiali didattici digitali e poi come “scuola polo regionale”. In vista della riprogettazione dei libri di testo autoprodotti dai docenti in alcune discipline curricolari, tra cui Geografia, Musica, Arte e Italiano, è emersa la necessità di indagare il rapporto degli studenti con gli strumenti didattici cartacei e digitali utilizzati nelle attività di lettura e scrittura, così come le loro preferenze e percezioni nell’uso di tali strumenti. Si è quindi deciso di sondare le abitudini di studio e le preferenze d’uso degli studenti, con l’obiettivo di ottenere indicazioni utili per la riprogettazione dei libri di testo autoprodotti. Il sondaggio è stato somministrato a 308 studenti con lo scopo di indagare, in particolare, i) le modalità di studio degli studenti; ii) come gli studenti utilizzano strumenti digitali e cartacei nelle loro attività di studio a casa; e iii) l’uso di strumenti digitali e cartacei nel contesto delle attività educative svolte a scuola. I risultati del sondaggio vengono presentati e discussi."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Lettura digitale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Lettura digitale"
+          }
+        },
+        {
+          "content": "scrittura digitale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "scrittura digitale"
+          }
+        },
+        {
+          "content": "e-libri di testo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "e-libri di testo"
+          }
+        },
+        {
+          "content": "pratiche di studio",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pratiche di studio"
+          }
+        },
+        {
+          "content": "voce degli studenti",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "voce degli studenti"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6125/5544",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6125/5544",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6125/5544",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2023-07-04",
+        "mod_date": "2023-07-04"
+      },
+      "front_text_excerpt": "ABSTRACT This paper describes a study conducted by the Indire research group on Media Education in the framework of a project launched in the academic year 2020/21, in collaboration with the IC “Ugo Amaldi” of Cadeo and Pontenure. The working group carried out a reflection on the design and self- production of digital textbooks for lower secondary schools. The school involved in the research has been engaged in the Avanguardie Educative Movement since 2014, first as the lead school of the Idea Integration of digital educational content/textbooks and then as a “hub regional school”. In view of redesigning the textbooks self-produced by teachers in some curricular disciplines, including Geog- raphy, Music, Art and Italian, the need arose to investigate the students’ relationship with paper and digital educational tools used in reading and writing activities, as well as their preferences and per - ceptions in using those tools. It was then decided to survey the pupils’ study habits and preferences for use, with the aim of obtaining useful directions for redesigning self-produced textbooks. The sur- vey was administered to 308 students for the purpose of investigating, in particular, i) the students’ modes of study; ii) how the students use digital and paper tools in their home study activities; and iii) the use of digital and paper tools in the context of educational activities carried out at school. The survey’s results are here presented and discussed. Keywords: Digital reading, digital writing, e-textbooks, study practices, student voice Citation: Nardi, A., Bartolini, R., Anichini, A., & Pestellini, F . (2023). Reading and writing between digital and paper. The students’ voice. Effetti di Lettura / Effects of Reading, 2(1), 76-91. https://doi.org/10.7347/EdL-01-2023-07. Corresponding Author: Andrea Nardi | a.nardi@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-07 Andrea Nardi Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE) | a.nardi@indire.it Rudi Bartolini Researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE) | r.bartolini@indire.it Alessandra Anichini Senior researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE) | a.anichini@indire.it Francesca Pestellini Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE) | f.pestellini@indire.it * Il presente contributo può essere attribuito per i paragrafi 2, 5 e 6 ad Andrea Nardi; per i paragrafi 3, 4.1 e 4.2 a Rudi Bartolini; per i paragrafi 1 e 4.4 ad Alessandra Anichini; per il paragrafo 4.3 a Francesca Pestellini Double blind peer review Reading and writing between digital and paper. The students’ voice Leggere e scrivere tra digitale e cartaceo. La voce degli studenti* Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6125\\2785-7050_6125.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+        "pdf_value": null,
+        "chosen_value": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-01-03",
+        "pdf_value": null,
+        "chosen_value": "2023-01-03",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6125",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6125",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:45:56Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:45:58Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6125",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6125",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6125",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6125",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6125\\2785-7050_6125.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:00Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6125\\2785-7050_6125.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+        "submitted_date": "2023-01-03",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Andrea Nardi",
+          "Rudi Bartolini",
+          "Alessandra Anichini",
+          "Francesca Pestellini"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6125\\2785-7050_6125.pdf",
+        "generated_at_utc": "2026-04-27T18:46:00Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2023-07-04",
+          "mod_date": "2023-07-04"
+        },
+        "front_text_excerpt": "ABSTRACT This paper describes a study conducted by the Indire research group on Media Education in the framework of a project launched in the academic year 2020/21, in collaboration with the IC “Ugo Amaldi” of Cadeo and Pontenure. The working group carried out a reflection on the design and self- production of digital textbooks for lower secondary schools. The school involved in the research has been engaged in the Avanguardie Educative Movement since 2014, first as the lead school of the Idea Integration of digital educational content/textbooks and then as a “hub regional school”. In view of redesigning the textbooks self-produced by teachers in some curricular disciplines, including Geog- raphy, Music, Art and Italian, the need arose to investigate the students’ relationship with paper and digital educational tools used in reading and writing activities, as well as their preferences and per - ceptions in using those tools. It was then decided to survey the pupils’ study habits and preferences for use, with the aim of obtaining useful directions for redesigning self-produced textbooks. The sur- vey was administered to 308 students for the purpose of investigating, in particular, i) the students’ modes of study; ii) how the students use digital and paper tools in their home study activities; and iii) the use of digital and paper tools in the context of educational activities carried out at school. The survey’s results are here presented and discussed. Keywords: Digital reading, digital writing, e-textbooks, study practices, student voice Citation: Nardi, A., Bartolini, R., Anichini, A., & Pestellini, F . (2023). Reading and writing between digital and paper. The students’ voice. Effetti di Lettura / Effects of Reading, 2(1), 76-91. https://doi.org/10.7347/EdL-01-2023-07. Corresponding Author: Andrea Nardi | a.nardi@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-07 Andrea Nardi Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE) | a.nardi@indire.it Rudi Bartolini Researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE) | r.bartolini@indire.it Alessandra Anichini Senior researcher | National Institute For Documentation, Innovation And Educational Research (INDIRE) | a.anichini@indire.it Francesca Pestellini Research assistant | National Institute For Documentation, Innovation And Educational Research (INDIRE) | f.pestellini@indire.it * Il presente contributo può essere attribuito per i paragrafi 2, 5 e 6 ad Andrea Nardi; per i paragrafi 3, 4.1 e 4.2 a Rudi Bartolini; per i paragrafi 1 e 4.4 ad Alessandra Anichini; per il paragrafo 4.3 a Francesca Pestellini Double blind peer review Reading and writing between digital and paper. The students’ voice Leggere e scrivere tra digitale e cartaceo. La voce degli studenti* Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "pregresse di lettura (Delgado et al., 2018); l’eterogeneità dei testi utilizzati per i test in termini di genere, formato, tipologia, lunghezza, complessità, tempo a disposizione per le prove (Singer & Alexander, 2017); la diversità dei dispositivi di lettura impiegati per le rilevazioni in termini di affordance, design, usabilità ed ergonomia cognitiva (Nardi, 2015); i diversi atteggiamenti, abitudini e preferenze di lettura dei parte- cipanti (van der Weel & Mangen, 2022); il problema di interpretare dati che provengono da studi svolti perlopiù in ambienti controllati e non in condizioni di lettura che si avrebbero in situazioni di vita reale fuori dalle circostanze sperimentali (Kovac & van der Weel, 2020). Inoltre, molte delle prove di lettura in ambiente digitale, comprese quelle OCSE/PISA, non analizzano quel tipo di lettura prolungata di testi lunghi, lineari, espositivi che avviene, ad esempio, quando studiamo per diverse ore consecutive, e non conosciamo gli effetti sulla comprensione quando la lunghezza dei testi aumenta oltre le poche righe nor- malmente somministrate nei test (van der Weel & Mangen, 2022). T uttavia, i risultati delle ricerche con- dotte in questo campo vengono spesso decontestualizzati dalle condizioni sperimentali, presentati di un modo semplicistico e riassunti in dispute del tipo “è meglio leggere su carta o in digitale”. Questo approccio parte però da un’errata contrapposizione tra le due esperienze di lettura e andrebbe sostituito con un’analisi che cerchi di superare queste dicotomie (Nardi, 2022; Roncaglia, 2021). Fatte queste dovute premesse, non possiamo però esimerci da un’indagine che cerchi di capire “cosa stiamo perdendo e cosa stiamo guadagnando” nella transizione dalla lettura tradizionalmente intesa alla lettura che passa sempre più sovente attraverso gli schermi digitali. Con le dovute precauzioni, dobbiamo quindi rilevare come tutte le sintesi degli studi più affidabili e pertinenti pubblicate finora (Clinton, 2019; Delgado et al., 2018; E-READ, 2019; Furenes et al., 2021; Kong et al., 2018; Singer & Alexander, 2017) siano giunte alle medesime conclusioni, ovvero che: quando non si leggono testi informativi brevi come news, aggiornamenti, post ma testi più lunghi, complessi, cognitivamente ed emotivamente più impegna- tivi, la comprensione tende ad essere migliore se si legge su carta rispetto alla lettura in digitale. Ciò spinge a ritenere ancora il medium cartaceo come il mezzo migliore per comprendere a fondo un testo, memo - rizzare ed estrarne nuove informazioni (E-READ, 2019). Questo «effetto di inferiorità dello schermo» (Ben-Yehudah & Eshet-Alkalai, 2021) viene attribuito ad una serie di fattori: l’esposizione ai soli testi di- gitali non sarebbe sufficiente per diventare lettori esperti nel nuovo contesto digitale (Salmerón et al., 2018); si registra negli ultimi venti anni un progressivo deterioramento delle performance di lettura dovuto alla maggior esposizione dei giovani lettori al mezzo digitale (Kovac & van der Weel, 2020); i lettori online mostrano un’autoregolazione meno efficace (Sidi et al., 2017) e la tendenza a sovrastimare le proprie com- petenze/prestazioni di lettura sullo schermo perché associano il medium cartaceo alla lettura attenta di testi rilevanti e quello digitale alla decodifica rapida di testi meno importanti (Ackerman & Goldsmith, 2011; Halamish & Elbaz, 2020); si ipotizza un possibile trasferimento di alcune pratiche cognitive inefficaci – tempi di attenzione più brevi, abitudini di lettura più frammentate, minore profondità di coinvolgimento con il testo, analisi superficiale, scarsa calibrazione cognitiva e conservazione delle informazioni – dalla lettura digitale a quella tradizionale (Kovac & Van der Weel, 2018; Wolf, 2018). Allo stesso tempo le indagini internazionali ci informano che maggiore/più frequente è l’uso della tec- nologia digitale in classe, peggiori sono le performance degli studenti ai test di lettura digitale e che chi stud",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-01-03",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-01-03",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6125\\2785-7050_6125.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Leggere e scrivere tra digitale e cartaceo. : La voce degli studenti",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading and writing between digital and paper. : The students' voice",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading and writing between digital and paper. : The students' voice",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This paper describes a study conducted by the Indire research group on Media Education in the framework of a project launched in the academic year 2020/21, in c",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Questo articolo descrive uno studio condotto dal gruppo di ricerca Indire sulla Media Education nell’ambito di un progetto avviato nell’anno accademico 2020/21,",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

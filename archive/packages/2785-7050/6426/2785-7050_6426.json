@@ -1,0 +1,952 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6426",
+  "scraped_at_utc": "2026-04-27T18:46:32Z",
+  "fetched_at_utc": "2026-04-27T18:46:32Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "41b3ccab1336cc198f89bb1cc167aee8cce02e5d0cc49f6e2bee45ea4ff00a94",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Elisa Maia",
+        "nameType": "Personal",
+        "givenName": "Elisa",
+        "familyName": "Maia",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research Fellow | Department of Human, Legal and Economic Sciences | Telematic University “Leonardo da Vinci”"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6426",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-30",
+      "Issued": "2023-06-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The reading group, a methodology for promoting reading experienced mainly in non-formal contexts, is configured as a free, social and participatory experience linked to text sharing and negotiation of meaning, capable not only of enhancing deep reading skills, but also to develop the social and citizenship skills of the subjects involved. From a theoretical and practical point of view, the reading group is configured as a space characterized by a constant tension between the individual and social dimensions (Gavazzi, 2019). Intrinsically connoted in educational terms, the reading group is based on the practice of shared reading, which develops according to relational, participatory and social trajectories, recognizing the negotiation of meanings as a characterizing aspect (Di Carlo, 2021). With a view to promoting reading and combating educational poverty in the territories, the Erasmus+ EU-Reading Circles project has identified in the reading group a transformative device for intervention in communities for the promotion of literacy, an essential objective for the prevention of exclusion cultural and social. The project, which took place between 2020 and 2023, involved universities, libraries and associations from Spain (lead partner), Italy, France, Greece and Poland. EU-Reading Circles has identified an innovative strategic choice in the active involvement of the educational community. The experience that has developed in Abruzzo, thanks to EU-Reading Circles, calls for an analysis of the \"reading circle\" as an incubator of connections between school and territory, as well as a space for the exchange of experiences and good practices between subjects who identify reading group the design feature of an engaged educating community, with a view to the co-responsibility of the various local training agencies, in the creation of more literate and inclusive environments.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il gruppo di lettura, una metodologia per promuovere la lettura sperimentata principalmente in contesti non formali, si configura come un’esperienza libera, sociale e partecipativa legata alla condivisione del testo e alla negoziazione del significato, capace non solo di potenziare le competenze di lettura profonda, ma anche di sviluppare le competenze sociali e di cittadinanza dei soggetti coinvolti. Da un punto di vista teorico e pratico, il gruppo di lettura si configura come uno spazio caratterizzato da una tensione costante tra le dimensioni individuali e sociali (Gavazzi, 2019). Intrinsecamente connotato in termini educativi, il gruppo di lettura si basa sulla pratica della lettura condivisa, che si sviluppa secondo traiettorie relazionali, partecipative e sociali, riconoscendo la negoziazione dei significati come un aspetto caratterizzante (Di Carlo, 2021). Con l’obiettivo di promuovere la lettura e combattere la povertà educativa nei territori, il progetto Erasmus+ EU-Reading Circles ha individuato nel gruppo di lettura un dispositivo trasformativo per l’intervento nelle comunità per la promozione dell’alfabetizzazione, un obiettivo essenziale per la prevenzione dell’esclusione culturale e sociale. Il progetto, che si è svolto tra il 2020 e il 2023, ha coinvolto università, biblioteche e associazioni di Spagna (partner capofila), Italia, Francia, Grecia e Polonia. EU-Reading Circles ha identificato una scelta strategica innovativa nel coinvolgimento attivo della comunità educativa. L’esperienza sviluppatasi in Abruzzo, grazie a EU-Reading Circles, richiede un’analisi del “circolo di lettura” come incubatore di connessioni tra scuola e territorio, nonché come spazio per lo scambio di esperienze e buone pratiche tra soggetti che identificano nel gruppo di lettura la caratteristica progettuale di una comunità educante impegnata, con una visione di corresponsabilità delle varie agenzie formative locali, nella creazione di ambienti più alfabetizzati e inclusivi.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2023-05",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "promozione della lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "inclusione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "gruppi di lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "educazione comunitaria",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Promoting reding",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "inclusion",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading groups",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "community education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6426/5542",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "1",
+      "citationStartPage": "055",
+      "citationEndPage": "063",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Maia, E. (2023). L’esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante. Effetti Di Lettura / Effects of Reading , 2 (1), 055–063. https://doi.org/10.7347/EdL-01-2023-05",
+      "articleTitleEcho": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Associazione Italiana Editori. (2019). Sfida al futuro: la lettura e la capacità di competere del Paese. Materiali di discussione. Milano: Ediser srl.",
+        "Chambers, A. (2011). Siamo quello che leggiamo. Crescere tra lettura e letteratura. Modena: EquiLibri.",
+        "Conclusioni del Consiglio del 12 maggio 2009 su un quadro strategico per la cooperazione europea nel settore dell'istruzione e della formazione («ET 2020») (28 maggio 2009). https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:52009XG0528(01)&from=IT.",
+        "Consiglio europeo di Lisbona 23 e 24 marzo 2000. Conclusioni della Presidenza (23 e 24 marzo 2000). https://www.europarl.europa.eu/summits/lis1_it.htm#a.",
+        "Di Carlo, C. (2021). Gruppo di lettura. Roma: Associazione Italiana Biblioteche.",
+        "Directorate – General for Educarion. Youth, Sport and Culture (European Commission). (2014). EU high level of experts on literacy. Final report, September 2012. https://op.europa.eu/en/publication-detail/-/publication/96d782cc-7cad-4389-869a-bbc8e15e5aeb.",
+        "Ferrieri, L. (2006). La lettura condivisa. Alcune ipotesi di lavoro. In Presentazione alla conferenza Se son gruppi leggeranno. La lettura condivisa. http://laletturanonostante.it/wp-content/uploads/2019/06/La-lettura-condivisa.-Relazione-per-Arco.pdf.",
+        "Ferrieri, L. (2012). Il lettore “comune” e la lettura in comune. Biblioteche oggi, 30(12), 25-37.",
+        "Gavazzi, L. (2019). I gruppi di lettura. Come, dove e perché leggere insieme. Milano: Editrice Bibliografica.",
+        "Gavazzi, L. (2023). Le voci dei lettori. Come creare (e condurre) un gruppo di lettura inclusivo. Milano: Editrice Bibliografica.",
+        "Mortari, L. (2006). La pratica dell’aver cura. Milano: Bruno Mondadori.",
+        "Mortati, L. (2008). Educare alla cittadinanza partecipata. Milano: Bruno Mondadori.",
+        "Roveda, A. (2015). Educazione alla lettura, questione speciale. Andersen, XXXIV(320), 9.",
+        "Sannipoli, M. (2019). Le povertà educative tra condizioni e situazioni: verso una possibile lettura coevolutiva. In M. Amadini, S. Ferrari, & S. Polenghi (A cura di), Comunità e corresponsabilità educativa. Soggetti, compiti e strategie (pp. 95-106). Lecce: Pensa MultiMedia.",
+        "Spoldi, R. (2006). Gruppi di lettura: un’occasione da non perdere. Biblioteche oggi, 24(7), 23-27.",
+        "Tramma, S. (2015). Pedagogia della contemporaneità. Roma: Carocci.",
+        "Ufficio Studi e Analisi. Agenzia Nazionale Erasmus+ Indire. (2020). Erasmus+ in breve. Cooperazione per l’innovazione e lo scambio di buone pratiche nell’educazione degli adulti. Call 2020. https://www.erasmusplus.it/wp-content/uploads/2021/09/Erasmus_in-breve_KA2_EDA_2020.pdf.",
+        "Wenger, E. (2006). Comunità di pratica. Apprendimento, significato e identità. Milano: Raffaello Cortina.",
+        "Zizioli, E. (2017). I tesori della lettura sull’isola. Una pratica di cittadinanza possibile. Roma: Sinnos."
+      ],
+      "count": 19,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6426",
+    "article_ID": "6426",
+    "slug": "6426",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6426",
+      "url_slug": "6426"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "The Erasmus+ project \"EU-Reading Circles\" experience in Abruzzo. The reading group as a strategic element of the educational community",
+        "lang": "en",
+        "role": "main",
+        "source": "locale:en_US:meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-04-06",
+      "accepted": null,
+      "created": "2023-06-30",
+      "modified": "2024-06-25",
+      "issued": "2023-06-30",
+      "available": "2023-06-30",
+      "submitted_page": "2023-04-06",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+        "pdf_value": null,
+        "chosen_value": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-04-06",
+        "pdf_value": null,
+        "chosen_value": "2023-04-06",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6426/5542",
+      "local_relative_path": "2785-7050_6426.pdf",
+      "saved": true,
+      "sha256": "c6439bc9241e720f70ddfa61423a5f90d1f637e472c37f7c70b2a706a94babe4",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1872753,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Elisa Maia"
+      ],
+      "citation_author_institution": [
+        "Research Fellow | Department of Human, Legal and Economic Sciences | Telematic University “Leonardo da Vinci”"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/06/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2023-05"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6426"
+      ],
+      "citation_keywords": [
+        "promozione della lettura",
+        "inclusione",
+        "gruppi di lettura",
+        "educazione comunitaria"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6426/5542"
+      ],
+      "citation_reference_count": 19,
+      "DC.Date.created": [
+        "2023-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-04-06"
+      ],
+      "DC.Date.issued": [
+        "2023-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6426"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2023-05"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6426"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante"
+      ],
+      "DC.Title.Alternative": [
+        "The Erasmus+ project \"EU-Reading Circles\" experience in Abruzzo. The reading group as a strategic element of the educational community"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Elisa Maia"
+      ],
+      "citation_author_institution": [
+        "Research Fellow | Department of Human, Legal and Economic Sciences | Telematic University “Leonardo da Vinci”"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Elisa Maia"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The reading group, a methodology for promoting reading experienced mainly in non-formal contexts, is configured as a free, social and participatory experience linked to text sharing and negotiation of meaning, capable not only of enhancing deep reading skills, but also to develop the social and citizenship skills of the subjects involved. From a theoretical and practical point of view, the reading group is configured as a space characterized by a constant tension between the individual and social dimensions (Gavazzi, 2019). Intrinsically connoted in educational terms, the reading group is based on the practice of shared reading, which develops according to relational, participatory and social trajectories, recognizing the negotiation of meanings as a characterizing aspect (Di Carlo, 2021). With a view to promoting reading and combating educational poverty in the territories, the Erasmus+ EU-Reading Circles project has identified in the reading group a transformative device for intervention in communities for the promotion of literacy, an essential objective for the prevention of exclusion cultural and social. The project, which took place between 2020 and 2023, involved universities, libraries and associations from Spain (lead partner), Italy, France, Greece and Poland. EU-Reading Circles has identified an innovative strategic choice in the active involvement of the educational community. The experience that has developed in Abruzzo, thanks to EU-Reading Circles, calls for an analysis of the \"reading circle\" as an incubator of connections between school and territory, as well as a space for the exchange of experiences and good practices between subjects who identify reading group the design feature of an engaged educating community, with a view to the co-responsibility of the various local training agencies, in the creation of more literate and inclusive environments.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The reading group, a methodology for promoting reading experienced mainly in non-formal contexts, is configured as a free, social and participatory experience linked to text sharing and negotiation of meaning, capable not only of enhancing deep reading skills, but also to develop the social and citizenship skills of the subjects involved. From a theoretical and practical point of view, the reading group is configured as a space characterized by a constant tension between the individual and social dimensions (Gavazzi, 2019). Intrinsically connoted in educational terms, the reading group is based on the practice of shared reading, which develops according to relational, participatory and social trajectories, recognizing the negotiation of meanings as a characterizing aspect (Di Carlo, 2021). With a view to promoting reading and combating educational poverty in the territories, the Erasmus+ EU-Reading Circles project has identified in the reading group a transformative device for intervention in communities for the promotion of literacy, an essential objective for the prevention of exclusion cultural and social. The project, which took place between 2020 and 2023, involved universities, libraries and associations from Spain (lead partner), Italy, France, Greece and Poland. EU-Reading Circles has identified an innovative strategic choice in the active involvement of the educational community. The experience that has developed in Abruzzo, thanks to EU-Reading Circles, calls for an analysis of the \"reading circle\" as an incubator of connections between school and territory, as well as a space for the exchange of experiences and good practices between subjects who identify reading group the design feature of an engaged educating community, with a view to the co-responsibility of the various local training agencies, in the creation of more literate and inclusive environments."
+          }
+        },
+        {
+          "content": "Il gruppo di lettura, una metodologia per promuovere la lettura sperimentata principalmente in contesti non formali, si configura come un’esperienza libera, sociale e partecipativa legata alla condivisione del testo e alla negoziazione del significato, capace non solo di potenziare le competenze di lettura profonda, ma anche di sviluppare le competenze sociali e di cittadinanza dei soggetti coinvolti. Da un punto di vista teorico e pratico, il gruppo di lettura si configura come uno spazio caratterizzato da una tensione costante tra le dimensioni individuali e sociali (Gavazzi, 2019). Intrinsecamente connotato in termini educativi, il gruppo di lettura si basa sulla pratica della lettura condivisa, che si sviluppa secondo traiettorie relazionali, partecipative e sociali, riconoscendo la negoziazione dei significati come un aspetto caratterizzante (Di Carlo, 2021). Con l’obiettivo di promuovere la lettura e combattere la povertà educativa nei territori, il progetto Erasmus+ EU-Reading Circles ha individuato nel gruppo di lettura un dispositivo trasformativo per l’intervento nelle comunità per la promozione dell’alfabetizzazione, un obiettivo essenziale per la prevenzione dell’esclusione culturale e sociale. Il progetto, che si è svolto tra il 2020 e il 2023, ha coinvolto università, biblioteche e associazioni di Spagna (partner capofila), Italia, Francia, Grecia e Polonia. EU-Reading Circles ha identificato una scelta strategica innovativa nel coinvolgimento attivo della comunità educativa. L’esperienza sviluppatasi in Abruzzo, grazie a EU-Reading Circles, richiede un’analisi del “circolo di lettura” come incubatore di connessioni tra scuola e territorio, nonché come spazio per lo scambio di esperienze e buone pratiche tra soggetti che identificano nel gruppo di lettura la caratteristica progettuale di una comunità educante impegnata, con una visione di corresponsabilità delle varie agenzie formative locali, nella creazione di ambienti più alfabetizzati e inclusivi.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il gruppo di lettura, una metodologia per promuovere la lettura sperimentata principalmente in contesti non formali, si configura come un’esperienza libera, sociale e partecipativa legata alla condivisione del testo e alla negoziazione del significato, capace non solo di potenziare le competenze di lettura profonda, ma anche di sviluppare le competenze sociali e di cittadinanza dei soggetti coinvolti. Da un punto di vista teorico e pratico, il gruppo di lettura si configura come uno spazio caratterizzato da una tensione costante tra le dimensioni individuali e sociali (Gavazzi, 2019). Intrinsecamente connotato in termini educativi, il gruppo di lettura si basa sulla pratica della lettura condivisa, che si sviluppa secondo traiettorie relazionali, partecipative e sociali, riconoscendo la negoziazione dei significati come un aspetto caratterizzante (Di Carlo, 2021). Con l’obiettivo di promuovere la lettura e combattere la povertà educativa nei territori, il progetto Erasmus+ EU-Reading Circles ha individuato nel gruppo di lettura un dispositivo trasformativo per l’intervento nelle comunità per la promozione dell’alfabetizzazione, un obiettivo essenziale per la prevenzione dell’esclusione culturale e sociale. Il progetto, che si è svolto tra il 2020 e il 2023, ha coinvolto università, biblioteche e associazioni di Spagna (partner capofila), Italia, Francia, Grecia e Polonia. EU-Reading Circles ha identificato una scelta strategica innovativa nel coinvolgimento attivo della comunità educativa. L’esperienza sviluppatasi in Abruzzo, grazie a EU-Reading Circles, richiede un’analisi del “circolo di lettura” come incubatore di connessioni tra scuola e territorio, nonché come spazio per lo scambio di esperienze e buone pratiche tra soggetti che identificano nel gruppo di lettura la caratteristica progettuale di una comunità educante impegnata, con una visione di corresponsabilità delle varie agenzie formative locali, nella creazione di ambienti più alfabetizzati e inclusivi."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "promozione della lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "promozione della lettura"
+          }
+        },
+        {
+          "content": "inclusione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "inclusione"
+          }
+        },
+        {
+          "content": "gruppi di lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "gruppi di lettura"
+          }
+        },
+        {
+          "content": "educazione comunitaria",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "educazione comunitaria"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6426/5542",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6426/5542",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6426/5542",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2023-07-04",
+        "mod_date": "2023-07-04"
+      },
+      "front_text_excerpt": "ABSTRACT The reading group, a methodology for promoting reading experienced mainly in non-formal contexts, is configured as a free, social and participatory experience linked to text sharing and negotiation of meaning, capable not only of enhancing deep reading skills, but also to develop the social and cit - izenship skills of the subjects involved. From a theoretical and practical point of view, the reading group is configured as a space characterized by a constant tension between the individual and social dimensions (Gavazzi, 2019). Intrinsically connoted in educational terms, the reading group is based on the practice of shared reading, which develops according to relational, participatory and social trajectories, recognizing the negotiation of meanings as a characterizing aspect (Di Carlo, 2021). With a view to promoting reading and combating educational poverty in the territories, the Erasmus+ EU-Reading Circles project has identified in the reading group a transformative device for interven- tion in communities for the promotion of literacy, an essential objective for the prevention of exclusion cultural and social. The project, which took place between 2020 and 2023, involved universities, libraries and associations from Spain (lead partner), Italy, France, Greece and Poland. EU-Reading Circles has identified an innovative strategic choice in the active involvement of the educational community. The experience that has developed in Abruzzo, thanks to EU-Reading Circles, calls for an analysis of the \"reading circle\" as an incubator of connections between school and territory, as well as a space for the exchange of experiences and good practices between subjects who identify reading group the design feature of an engaged educating community, with a view to the co-responsibility of the various local training agencies, in the creation of more literate and inclusive environments. Keywords: promoting reading, inclusion, reading groups, community education Citation: Maia, E. (2023). The Erasmus+ project “EU-Reading Circles” experience in Abruzzo. The reading group as a strategic element of the educational community. Effetti di Lettura / Effects of Reading, 2(1), 55-63. https://doi.org/10.7347/EdL-01-2023-05. Corresponding Author: Elisa Maia | e.maia@unidav.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-05 Elisa Maia Research Fellow | Department of Human, Legal and Economic Sciences | T elematic University “Leonardo da Vinci” | e.maia@unidav.it Double blind peer review The Erasmus+ project “EU-Reading Circles” experience in Abruzzo. The reading group as a strategic element of the educational community L ’esperienza del progetto Erasmus+ “EU-Reading Circles” in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6426\\2785-7050_6426.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+        "pdf_value": null,
+        "chosen_value": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-04-06",
+        "pdf_value": null,
+        "chosen_value": "2023-04-06",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6426",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6426",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:32Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:46:34Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6426",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6426",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 4,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6426",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6426",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6426\\2785-7050_6426.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:36Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6426\\2785-7050_6426.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+        "submitted_date": "2023-04-06",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Elisa Maia"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6426\\2785-7050_6426.pdf",
+        "generated_at_utc": "2026-04-27T18:46:36Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2023-07-04",
+          "mod_date": "2023-07-04"
+        },
+        "front_text_excerpt": "ABSTRACT The reading group, a methodology for promoting reading experienced mainly in non-formal contexts, is configured as a free, social and participatory experience linked to text sharing and negotiation of meaning, capable not only of enhancing deep reading skills, but also to develop the social and cit - izenship skills of the subjects involved. From a theoretical and practical point of view, the reading group is configured as a space characterized by a constant tension between the individual and social dimensions (Gavazzi, 2019). Intrinsically connoted in educational terms, the reading group is based on the practice of shared reading, which develops according to relational, participatory and social trajectories, recognizing the negotiation of meanings as a characterizing aspect (Di Carlo, 2021). With a view to promoting reading and combating educational poverty in the territories, the Erasmus+ EU-Reading Circles project has identified in the reading group a transformative device for interven- tion in communities for the promotion of literacy, an essential objective for the prevention of exclusion cultural and social. The project, which took place between 2020 and 2023, involved universities, libraries and associations from Spain (lead partner), Italy, France, Greece and Poland. EU-Reading Circles has identified an innovative strategic choice in the active involvement of the educational community. The experience that has developed in Abruzzo, thanks to EU-Reading Circles, calls for an analysis of the \"reading circle\" as an incubator of connections between school and territory, as well as a space for the exchange of experiences and good practices between subjects who identify reading group the design feature of an engaged educating community, with a view to the co-responsibility of the various local training agencies, in the creation of more literate and inclusive environments. Keywords: promoting reading, inclusion, reading groups, community education Citation: Maia, E. (2023). The Erasmus+ project “EU-Reading Circles” experience in Abruzzo. The reading group as a strategic element of the educational community. Effetti di Lettura / Effects of Reading, 2(1), 55-63. https://doi.org/10.7347/EdL-01-2023-05. Corresponding Author: Elisa Maia | e.maia@unidav.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-05 Elisa Maia Research Fellow | Department of Human, Legal and Economic Sciences | T elematic University “Leonardo da Vinci” | e.maia@unidav.it Double blind peer review The Erasmus+ project “EU-Reading Circles” experience in Abruzzo. The reading group as a strategic element of the educational community L ’esperienza del progetto Erasmus+ “EU-Reading Circles” in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "basso livello di alfabetizzazione, la quale alimenta irrimediabilmente un circuito di riproduzione dell’esclu- sione sociale. La promozione della lettura, allora, dovrebbe essere collocata in uno specifico quadro di po- licy, nell’ottica di un rinnovamento culturale che coinvolga una pluralità di attori (tra cui esperti e decisori pubblici), che attribuisce alla literacy una funzione strategica nello sviluppo comunitario e sociale. Un’in- dicazione, questa, da considerarsi in stretta relazione con una delle successive, che sollecita ad accrescere la partecipazione e l’inclusione dei cittadini e delle cittadine. In coerenza con queste premesse, il progetto ha individuato due target primari: il Gruppo Target Uno: composto da ricercatori, operatori e rappresentanti delle diverse organizzazioni – del partenariato, che hanno avuto il ruolo di incontrarsi periodicamente per la condivisione, lo scambio, la documentazione e l’implementazione di buone pratiche di promozione della lettura; il Gruppo Target Due: formato da cittadini adulti provenienti da contesti sociali e culturali eterogenei, – appartenenti alle comunità di riferimento del progetto, poco abituati e motivati alla lettura e che sono stati coinvolti nelle iniziative territoriali, con il fine di accompagnare e sostenere gradualmente un loro maggiore interesse nei confronti di tale attività. I gruppi di lettura, nel progetto “EU-Reading Circles”, sono stati individuati quali dispositivi privilegiati di promozione della lettura, poiché – in quanto “forme di associazionismo che mettono esplicitamente la lettura al centro della propria ragion d’essere” (Spoldi, 2006, p. 23) – essi possono costituire una risorsa preziosa per l’incoraggiamento di forme di lettura condivisa incentrate sulle dimensioni della socialità e del riconoscimento reciproco. Inoltre, nella multidimensionalità che connota le possibili configurazioni e strategie dei gruppi di lettura (Gavazzi, 2019), i membri del partenariato di “EU-Reading Circles” hanno individuato un terreno particolarmente fertile e stimolante per l’individuazione e lo scambio di buone pratiche che andassero nelle direzioni auspicate dal progetto. La prima fase di attuazione di “EU-Reading Circles” ha previsto due momenti salienti: la realizzazione e la condivisione, a livello transnazionale, di una mappatura dei gruppi di lettura presenti – sui territori di riferimento di ciascun paese coinvolto; workshop e momenti di formazione rivolti al Gruppo Target Uno, con l’obiettivo principale di diffon-– dere e approfondire le buone prassi relative alla promozione della lettura. La seconda fase del progetto, infine, ha previsto la realizzazione di attività di promozione delle compe- tenze di literacy tra i membri del Gruppo Target Due, grazie alla costruzione di alleanze significative tra i due gruppi target dei paesi partner. In generale “EU-Reading Circles” ha prodotto risultati particolarmente significativi rispetto alla socia- lizzazione delle pratiche di lettura emerse nella fase di condivisione delle buone prassi a livello transnazionale e nei momenti formativi curati dai diversi paesi. Un esito incoraggiante, inoltre, è stato quello relativo al- l’attivazione delle comunità educanti (grazie al coinvolgimento di amministrazioni locali, istituzioni sco- lastiche, biblioteche e associazionismo) rispetto alle riflessioni circa l’individuazione di strategie efficaci per la promozione della lettura e la diffusione di nuovi spazi partecipativi per i cittadini sui territori, come i gruppi di lettura appunto. 3. Il gruppo di lettura: una pratica democratica per l’inclusione La lettura riveste un ruolo strategico nella società contemporanea, poiché strettamente correlata al capitale umano, cioè all’insieme di conoscenze, abilità e competenze che favoriscono e agevolano il benessere per- 57 Volume 2 | n. 1 | giugno 2023 | pp. 55-63Effetti di Lettura Effects of Reading",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-04-06",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-04-06",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6426\\2785-7050_6426.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L'esperienza del progetto Erasmus+ \"EU-Reading Circles\" in Abruzzo. Il gruppo di lettura come elemento strategico della comunità educante",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "The Erasmus+ project \"EU-Reading Circles\" experience in Abruzzo. The reading group as a strategic element of the educational community",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The Erasmus+ project \"EU-Reading Circles\" experience in Abruzzo. The reading group as a strategic element of the educational community",
+            "dropped_source": "locale:it_IT:meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The reading group, a methodology for promoting reading experienced mainly in non-formal contexts, is configured as a free, social and participatory experience l",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Il gruppo di lettura, una metodologia per promuovere la lettura sperimentata principalmente in contesti non formali, si configura come un’esperienza libera, soc",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

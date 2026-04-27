@@ -1,0 +1,1001 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5715",
+  "scraped_at_utc": "2026-04-27T18:44:51Z",
+  "fetched_at_utc": "2026-04-27T18:44:51Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "8266b71c5490eaed7a2239ae3e81a2b5c7629ad6849680fc578081f5d1b46f52",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Jean-François Massol",
+        "nameType": "Personal",
+        "givenName": "Jean-François",
+        "familyName": "Massol",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Professeur émérite | UMR LITT&ARTS – Equipe LITEXTRA (Littératures, Expériences, TransmissionCNRS et université Grenoble Alpes"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5715",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-30",
+      "Issued": "2022-06-30"
+    },
+    "language": {
+      "value": "fr",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The contribution proposes an excursus on the development of models for analysing and commenting on literary texts, from the biographies of authors to those of a structuralist matrix such as linguistic, narratological or rhetorical figure-based models, up to the reflection on subjective reading that has determined a didactic perspective. Three more recent reception models are presented: the historical-aesthetic model, concerned with the different readers who subsequently actualise works; the semi-ological model, which emphasises the textual palimpsest (model reader) that everyone must respect; and finally the model developed by Michel Picard, focused on ‘the real reader’. The latter approach utilises game theories and Freudian psychoanalysis and places the experience of reading literary texts under the sign of the plurality of instances: the 'reader' who remains present to the world he perceives at the edge of the book space or through the sounds and scents that reach him from the outside world; the 'reader' who allows himself to be drawn into his memories and fantasies by the represen-tations and forms of the texts; and the 'reader' who enacts a diversified reflection. The focus of the contribution, however, is on the rise of the subject-reader paradigm, of which not only a comprehensive review is provided, but also experiences, trends, research and limitations. This orientation recognises the primary role in literary analysis of the 'empirical reader', who becomes a true teaching paradigm, a new way of conceiving the teaching of literature.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La contribution propose un excursus sur le développement de modèles pour analyser et commenter les textes littéraires, allant des biographies d'auteurs à ceux d'une matrice structuraliste tels que les modèles linguistiques, narratologiques ou fondés sur les figures rhétoriques, jusqu'à la réflexion sur la lecture subjective qui a déterminé une perspective didactique. Trois modèles de réception plus récents sont présentés : le modèle historico-esthétique, qui s'intéresse aux différents lecteurs qui actualisent les œuvres par la suite ; le modèle sémiologique, qui met l'accent sur le palimpseste textuel (lecteur modèle) que chacun doit respecter ; et enfin le modèle développé par Michel Picard, axé sur le « lecteur réel ». Cette dernière approche utilise les théories du jeu et la psychanalyse freudienne et place l'expérience de la lecture de textes littéraires sous le signe de la pluralité des instances : le « lecteur » qui reste présent au monde qu'il perçoit au bord de l'espace du livre ou à travers les sons et les odeurs qui lui parviennent de l'extérieur ; le « lecteur » qui se laisse entraîner dans ses souvenirs et ses fantasmes par les représentations et les formes des textes ; et le « lecteur » qui réalise une réflexion diversifiée. L'accent de la contribution est cependant mis sur l'essor du paradigme du sujet-lecteur, dont non seulement une revue complète est fournie, mais aussi des expériences, des tendances, des recherches et des limitations. Cette orientation reconnaît le rôle primordial dans l'analyse littéraire du « lecteur empirique », qui devient un véritable paradigme d'enseignement, une nouvelle façon de concevoir l'enseignement de la littérature.",
+        "lang": "fr",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2022-02",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "1",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettore",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "letteratura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "paradigma didattico",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "modelli testuali",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "soggetto-lettore",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "analisi letteraria",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lecteur",
+        "lang": "en",
+        "source": "locale:en_US:dom:section.item.keywords"
+      },
+      {
+        "value": "littérature",
+        "lang": "en",
+        "source": "locale:en_US:dom:section.item.keywords"
+      },
+      {
+        "value": "paradigme didactique",
+        "lang": "en",
+        "source": "locale:en_US:dom:section.item.keywords"
+      },
+      {
+        "value": "modèles textuels",
+        "lang": "en",
+        "source": "locale:en_US:dom:section.item.keywords"
+      },
+      {
+        "value": "sujet-lecteur",
+        "lang": "en",
+        "source": "locale:en_US:dom:section.item.keywords"
+      },
+      {
+        "value": "analyse",
+        "lang": "en",
+        "source": "locale:en_US:dom:section.item.keywords"
+      },
+      {
+        "value": "littéraire",
+        "lang": "en",
+        "source": "locale:en_US:dom:section.item.keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": null,
+      "holder_source": "none",
+      "year": null,
+      "year_source": "none"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5715/4981",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "1",
+      "citationIssue": "1",
+      "citationStartPage": "017",
+      "citationEndPage": "029",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Massol , J.-F. (2022). Il soggetto lettore-scrittore: breve storia francese di un paradigma didattico contemporaneo. Effetti Di Lettura / Effects of Reading , 1 (1), 017–029. https://doi.org/10.7347/EdL-01-2022-02",
+      "articleTitleEcho": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_5715",
+    "article_ID": "5715",
+    "slug": "5715",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "5715",
+      "url_slug": "5715"
+    },
+    "resource_language": "fr",
+    "title_variants": [
+      {
+        "value": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+        "lang": "fr",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Il soggetto lettore-scrittore: breve storia francese di un paradigma didattico contemporaneo",
+        "lang": "fr",
+        "role": "main",
+        "source": "meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "fr",
+      "title_literal_languages": [
+        "fr"
+      ],
+      "description_literal_languages": [
+        "en",
+        "fr"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "fr",
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-07-11",
+      "accepted": null,
+      "created": "2022-06-30",
+      "modified": "2024-06-24",
+      "issued": "2022-06-30",
+      "available": "2022-06-30",
+      "submitted_page": "2022-07-11",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+        "pdf_value": null,
+        "chosen_value": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5715/4981",
+      "local_relative_path": "2785-7050_5715.pdf",
+      "saved": true,
+      "sha256": "c67a710b94b14d65216fc377da2f17882fd70439cb7dc85768c8ee15c132f064",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1968767,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Jean-François Massol"
+      ],
+      "citation_author_institution": [
+        "Professeur émérite | UMR LITT&ARTS – Equipe LITEXTRA (Littératures, Expériences, TransmissionCNRS et université Grenoble Alpes"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain"
+      ],
+      "citation_language": [
+        "fr"
+      ],
+      "citation_date": [
+        "2022/06/30"
+      ],
+      "citation_volume": [
+        "1"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2022-02"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5715"
+      ],
+      "citation_keywords": [
+        "lettore",
+        "letteratura",
+        "paradigma didattico",
+        "modelli testuali",
+        "soggetto-lettore",
+        "analisi letteraria"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/5715/4981"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2022-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-07-11"
+      ],
+      "DC.Date.issued": [
+        "2022-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-24"
+      ],
+      "DC.Description_count": 3,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "5715"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2022-02"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5715"
+      ],
+      "DC.Language": [
+        "fr"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "1"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 6,
+      "DC.Title": [
+        "Il soggetto lettore-scrittore: breve storia francese di un paradigma didattico contemporaneo"
+      ],
+      "DC.Title.Alternative": [
+        "Il soggetto lettore-scrittore: breve storia francese di un paradigma didattico contemporaneo"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Jean-François Massol"
+      ],
+      "citation_author_institution": [
+        "Professeur émérite | UMR LITT&ARTS – Equipe LITEXTRA (Littératures, Expériences, TransmissionCNRS et université Grenoble Alpes"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Jean-François Massol"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The contribution proposes an excursus on the development of models for analysing and commenting on literary texts, from the biographies of authors to those of a structuralist matrix such as linguistic, narratological or rhetorical figure-based models, up to the reflection on subjective reading that has determined a didactic perspective. Three more recent reception models are presented: the historical-aesthetic model, concerned with the different readers who subsequently actualise works; the semi-ological model, which emphasises the textual palimpsest (model reader) that everyone must respect; and finally the model developed by Michel Picard, focused on ‘the real reader’. The latter approach utilises game theories and Freudian psychoanalysis and places the experience of reading literary texts under the sign of the plurality of instances: the 'reader' who remains present to the world he perceives at the edge of the book space or through the sounds and scents that reach him from the outside world; the 'reader' who allows himself to be drawn into his memories and fantasies by the represen-tations and forms of the texts; and the 'reader' who enacts a diversified reflection. The focus of the contribution, however, is on the rise of the subject-reader paradigm, of which not only a comprehensive review is provided, but also experiences, trends, research and limitations. This orientation recognises the primary role in literary analysis of the 'empirical reader', who becomes a true teaching paradigm, a new way of conceiving the teaching of literature.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The contribution proposes an excursus on the development of models for analysing and commenting on literary texts, from the biographies of authors to those of a structuralist matrix such as linguistic, narratological or rhetorical figure-based models, up to the reflection on subjective reading that has determined a didactic perspective. Three more recent reception models are presented: the historical-aesthetic model, concerned with the different readers who subsequently actualise works; the semi-ological model, which emphasises the textual palimpsest (model reader) that everyone must respect; and finally the model developed by Michel Picard, focused on ‘the real reader’. The latter approach utilises game theories and Freudian psychoanalysis and places the experience of reading literary texts under the sign of the plurality of instances: the 'reader' who remains present to the world he perceives at the edge of the book space or through the sounds and scents that reach him from the outside world; the 'reader' who allows himself to be drawn into his memories and fantasies by the represen-tations and forms of the texts; and the 'reader' who enacts a diversified reflection. The focus of the contribution, however, is on the rise of the subject-reader paradigm, of which not only a comprehensive review is provided, but also experiences, trends, research and limitations. This orientation recognises the primary role in literary analysis of the 'empirical reader', who becomes a true teaching paradigm, a new way of conceiving the teaching of literature."
+          }
+        },
+        {
+          "content": "La contribution propose un excursus sur le développement de modèles pour analyser et commenter les textes littéraires, allant des biographies d'auteurs à ceux d'une matrice structuraliste tels que les modèles linguistiques, narratologiques ou fondés sur les figures rhétoriques, jusqu'à la réflexion sur la lecture subjective qui a déterminé une perspective didactique. Trois modèles de réception plus récents sont présentés : le modèle historico-esthétique, qui s'intéresse aux différents lecteurs qui actualisent les œuvres par la suite ; le modèle sémiologique, qui met l'accent sur le palimpseste textuel (lecteur modèle) que chacun doit respecter ; et enfin le modèle développé par Michel Picard, axé sur le « lecteur réel ». Cette dernière approche utilise les théories du jeu et la psychanalyse freudienne et place l'expérience de la lecture de textes littéraires sous le signe de la pluralité des instances : le « lecteur » qui reste présent au monde qu'il perçoit au bord de l'espace du livre ou à travers les sons et les odeurs qui lui parviennent de l'extérieur ; le « lecteur » qui se laisse entraîner dans ses souvenirs et ses fantasmes par les représentations et les formes des textes ; et le « lecteur » qui réalise une réflexion diversifiée. L'accent de la contribution est cependant mis sur l'essor du paradigme du sujet-lecteur, dont non seulement une revue complète est fournie, mais aussi des expériences, des tendances, des recherches et des limitations. Cette orientation reconnaît le rôle primordial dans l'analyse littéraire du « lecteur empirique », qui devient un véritable paradigme d'enseignement, une nouvelle façon de concevoir l'enseignement de la littérature.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "fr",
+            "content": "La contribution propose un excursus sur le développement de modèles pour analyser et commenter les textes littéraires, allant des biographies d'auteurs à ceux d'une matrice structuraliste tels que les modèles linguistiques, narratologiques ou fondés sur les figures rhétoriques, jusqu'à la réflexion sur la lecture subjective qui a déterminé une perspective didactique. Trois modèles de réception plus récents sont présentés : le modèle historico-esthétique, qui s'intéresse aux différents lecteurs qui actualisent les œuvres par la suite ; le modèle sémiologique, qui met l'accent sur le palimpseste textuel (lecteur modèle) que chacun doit respecter ; et enfin le modèle développé par Michel Picard, axé sur le « lecteur réel ». Cette dernière approche utilise les théories du jeu et la psychanalyse freudienne et place l'expérience de la lecture de textes littéraires sous le signe de la pluralité des instances : le « lecteur » qui reste présent au monde qu'il perçoit au bord de l'espace du livre ou à travers les sons et les odeurs qui lui parviennent de l'extérieur ; le « lecteur » qui se laisse entraîner dans ses souvenirs et ses fantasmes par les représentations et les formes des textes ; et le « lecteur » qui réalise une réflexion diversifiée. L'accent de la contribution est cependant mis sur l'essor du paradigme du sujet-lecteur, dont non seulement une revue complète est fournie, mais aussi des expériences, des tendances, des recherches et des limitations. Cette orientation reconnaît le rôle primordial dans l'analyse littéraire du « lecteur empirique », qui devient un véritable paradigme d'enseignement, une nouvelle façon de concevoir l'enseignement de la littérature.\n "
+          }
+        },
+        {
+          "content": "The contribution proposes an excursus on the development of models for analysing and commenting on literary texts, from the biographies of authors to those of a structuralist matrix such as linguistic, narratological or rhetorical figure-based models, up to the reflection on subjective reading that has determined a didactic perspective. Three more recent reception models are presented: the historical-aesthetic model, concerned with the different readers who subsequently actualise works; the semi-ological model, which emphasises the textual palimpsest (model reader) that everyone must respect; and finally the model developed by Michel Picard, focused on ‘the real reader’. The latter approach utilises game theories and Freudian psychoanalysis and places the experience of reading literary texts under the sign of the plurality of instances: the 'reader' who remains present to the world he perceives at the edge of the book space or through the sounds and scents that reach him from the outside world; the 'reader' who allows himself to be drawn into his memories and fantasies by the represen-tations and forms of the texts; and the 'reader' who enacts a diversified reflection. The focus of the contribution, however, is on the rise of the subject-reader paradigm, of which not only a comprehensive review is provided, but also experiences, trends, research and limitations. This orientation recognises the primary role in literary analysis of the 'empirical reader', who becomes a true teaching paradigm, a new way of conceiving the teaching of literature.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "The contribution proposes an excursus on the development of models for analysing and commenting on literary texts, from the biographies of authors to those of a structuralist matrix such as linguistic, narratological or rhetorical figure-based models, up to the reflection on subjective reading that has determined a didactic perspective. Three more recent reception models are presented: the historical-aesthetic model, concerned with the different readers who subsequently actualise works; the semi-ological model, which emphasises the textual palimpsest (model reader) that everyone must respect; and finally the model developed by Michel Picard, focused on ‘the real reader’. The latter approach utilises game theories and Freudian psychoanalysis and places the experience of reading literary texts under the sign of the plurality of instances: the 'reader' who remains present to the world he perceives at the edge of the book space or through the sounds and scents that reach him from the outside world; the 'reader' who allows himself to be drawn into his memories and fantasies by the represen-tations and forms of the texts; and the 'reader' who enacts a diversified reflection. The focus of the contribution, however, is on the rise of the subject-reader paradigm, of which not only a comprehensive review is provided, but also experiences, trends, research and limitations. This orientation recognises the primary role in literary analysis of the 'empirical reader', who becomes a true teaching paradigm, a new way of conceiving the teaching of literature."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettore",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettore"
+          }
+        },
+        {
+          "content": "letteratura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "letteratura"
+          }
+        },
+        {
+          "content": "paradigma didattico",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "paradigma didattico"
+          }
+        },
+        {
+          "content": "modelli testuali",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "modelli testuali"
+          }
+        },
+        {
+          "content": "soggetto-lettore",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "soggetto-lettore"
+          }
+        },
+        {
+          "content": "analisi letteraria",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "analisi letteraria"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5715/4981",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5715/4981",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5715/4981",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 16.32",
+        "producer": "QuarkXPress(R) 16.32",
+        "keywords": null,
+        "creation_date": "2022-07-28",
+        "mod_date": "2022-07-28"
+      },
+      "front_text_excerpt": "ABSTRACT The contribution proposes an excursus on the development of models for analysing and commenting on literary texts, from the biographies of authors to those of a structuralist matrix such as linguistic, narratological or rhetorical figure-based models, up to the reflection on subjective reading that has determined a didactic perspective. Three more recent reception models are presented: the historical- aesthetic model, concerned with the different readers who subsequently actualise works; the semi - ological model, which emphasises the textual palimpsest (model reader) that everyone must respect; and finally the model developed by Michel Picard, focused on ‘the real reader’. The latter approach utilises game theories and Freudian psychoanalysis and places the experience of reading literary texts under the sign of the plurality of instances: the 'reader' who remains present to the world he perceives at the edge of the book space or through the sounds and scents that reach him from the outside world; the 'reader' who allows himself to be drawn into his memories and fantasies by the represen- tations and forms of the texts; and the 'reader' who enacts a diversified reflection. The focus of the contribution, however, is on the rise of the subject-reader paradigm, of which not only a comprehensive review is provided, but also experiences, trends, research and limitations. This orientation recognises the primary role in literary analysis of the 'empirical reader', who becomes a true teaching paradigm, a new way of conceiving the teaching of literature. Keywords: reader, literature, didactic paradigm, textual models, subject-reader, literary analysis Citation: Massol, J.-F . (2022). Le sujet lecteur-scripteur: brève histoire française d’un paradigme didactique contemporain. Effetti di Lettura / Effects of Reading, 1(1), 17–29. https://doi.org/10.7347/EdL-01-2022-02. Corresponding Author: Jean-François Massol | jean-francois.massol@univ-grenoble-alpes.fr Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-02 Jean-François Massol Professeur émérite | UMR LITT&ARTS – Equipe LITEXTRA (Littératures, Expériences, T ransmission CNRS et université Grenoble Alpes | jean-francois.massol@univ-grenoble-alpes.fr Double blind peer review Le sujet lecteur-scripteur: brève histoire française d’un paradigme didactique contemporain Il soggetto lettore-scrittore: Breve storia francese di un paradigma didattico contemporaneo Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\5715\\2785-7050_5715.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": null,
+      "copyright_year_page": null,
+      "raw_dc_rights": [
+        "Copyright (c) 2022",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+        "pdf_value": null,
+        "chosen_value": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Il soggetto lettore-scrittore: breve storia francese di un paradigma didattico contemporaneo | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5715",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5715",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:44:51Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:44:53Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5715",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5715",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 7,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 7
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5715",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5715",
+          "added_titles": 2,
+          "added_descriptions": 2,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 6
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5715\\2785-7050_5715.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:44:54Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5715\\2785-7050_5715.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+        "submitted_date": "2022-07-11",
+        "accepted_date": null,
+        "copyright_holder": null,
+        "copyright_year": null,
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "fr",
+        "creator_names": [
+          "Jean-François Massol"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5715\\2785-7050_5715.pdf",
+        "generated_at_utc": "2026-04-27T18:44:54Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 16.32",
+          "producer": "QuarkXPress(R) 16.32",
+          "keywords": null,
+          "creation_date": "2022-07-28",
+          "mod_date": "2022-07-28"
+        },
+        "front_text_excerpt": "ABSTRACT The contribution proposes an excursus on the development of models for analysing and commenting on literary texts, from the biographies of authors to those of a structuralist matrix such as linguistic, narratological or rhetorical figure-based models, up to the reflection on subjective reading that has determined a didactic perspective. Three more recent reception models are presented: the historical- aesthetic model, concerned with the different readers who subsequently actualise works; the semi - ological model, which emphasises the textual palimpsest (model reader) that everyone must respect; and finally the model developed by Michel Picard, focused on ‘the real reader’. The latter approach utilises game theories and Freudian psychoanalysis and places the experience of reading literary texts under the sign of the plurality of instances: the 'reader' who remains present to the world he perceives at the edge of the book space or through the sounds and scents that reach him from the outside world; the 'reader' who allows himself to be drawn into his memories and fantasies by the represen- tations and forms of the texts; and the 'reader' who enacts a diversified reflection. The focus of the contribution, however, is on the rise of the subject-reader paradigm, of which not only a comprehensive review is provided, but also experiences, trends, research and limitations. This orientation recognises the primary role in literary analysis of the 'empirical reader', who becomes a true teaching paradigm, a new way of conceiving the teaching of literature. Keywords: reader, literature, didactic paradigm, textual models, subject-reader, literary analysis Citation: Massol, J.-F . (2022). Le sujet lecteur-scripteur: brève histoire française d’un paradigme didactique contemporain. Effetti di Lettura / Effects of Reading, 1(1), 17–29. https://doi.org/10.7347/EdL-01-2022-02. Corresponding Author: Jean-François Massol | jean-francois.massol@univ-grenoble-alpes.fr Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-02 Jean-François Massol Professeur émérite | UMR LITT&ARTS – Equipe LITEXTRA (Littératures, Expériences, T ransmission CNRS et université Grenoble Alpes | jean-francois.massol@univ-grenoble-alpes.fr Double blind peer review Le sujet lecteur-scripteur: brève histoire française d’un paradigme didactique contemporain Il soggetto lettore-scrittore: Breve storia francese di un paradigma didattico contemporaneo Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "fabula (1985) sont deux manières excellemment construites théoriquement de concevoir l’activité, l’une, marquée par la dimension historique, s’intéressant aux différents lecteurs qui actualisent successivement les œuvres, l’autre, d’orientation sémiologique, mettant l’accent sur les programmations textuelles (lecteur modèle) que tout un chacun se doit de respecter. Mais c’est une troisième conception, tout autant solide théoriquement, qui sera à l’origine de la réflexion didactique ici présentée, celle développée par Michel Picard. Ayant organisé un colloque pour réfléchir aux spécificités de ‘la lecture littéraire’ (Picard, 1986), le chercheur donne une illustration précise de cette pratique en s’intéressant au lecteur réel. Pour décrire l’activité de celui-ci, il a recours aux théories du jeu et à la psychanalyse freudienne (La lecture comme jeu, 1989). Ce faisant, il inscrit l’expérience de lecture des textes littéraires sous le signe de la pluralité: pour lui, trois instances sont à l’œuvre, le ‘liseur’ qui reste encore présent au monde qu’il perçoit à la lisière de l’espace du livre ou à travers les sons et les parfums qui lui parviennent du monde extérieur; le ‘lu’ qui se laisse attirer en ses souvenirs et ses fantasmes par les représentations et les formes des textes; le ‘lectant’ qui met en œuvre une réflexion diversifiée. On le voit, ces trois instances peuvent être rapprochées de celles de la psyché freudienne, le ‘lu’ renvoyant au ‘ça’, le ‘lectant’ au ‘surmoi’ et le ‘liseur’ au ‘moi’. Elles permet- tent surtout à M. Picard de définir ce qu’est pour lui une véritable lecture, ne faisant l’économie d’aucune des instances, mais jouant des interprétations propres des textes dans lesquelles chacune intervient. On ajoutera que, pour l’auteur de l’essai, cette reconnaissance de la lecture comme jeu implique d’imaginer une ‘nouvelle pédagogie de la lecture’ (Picard, 1989, p. 308) sur laquelle il ne propose cependant que quelques remarques très générales la fin de son essai. La perspective est bien là cependant. Pour diverses raisons, en particulier le refus de délaisser le texte pour évoquer sa lecture, cette modéli- sation séduit peu les chercheurs en littérature. En revanche, d’autres chercheurs qui ont en ligne de mire les pratiques scolaires s’y intéressent particulièrement. La lecture comme jeu reste une référence fondatrice de la didactique de la littérature, alors discipline émergente. 3. Un contexte et ses potentialités Pour comprendre dans une perspective française la fondation de cette nouvelle discipline et ses nécessités, il faut revenir au contexte institutionnel et aux ouvertures que celui-ci va créer. En 1991, le ministre Jospin de l’Education nationale de François Mitterrand regroupe, dans des Instituts universitaires de formation des maîtres (IUFM) nouvellement créés, la formation des enseignants du premier degré et celle des ensei- gnants du second degré et induit des harmonisations entre les deux systèmes. Déclaré universitaire, ce nouveau dispositif institutionnel a besoin de s’appuyer sur des recherches dans les Sciences de l’Education et les didactiques disciplinaires. Or, pour la discipline Français, c’est une didactique d’obédience fonda - mentalement linguistique qui se trouve alors développée, – même si, pour le second degré, existent déjà des recherches comme celles sur les ateliers d’écriture menées à Grenoble par Claudette Oriol-Boyer (1980). Pour les linguistes s’occupant de didactique, d’ailleurs, la littérature n’offre qu’un ensemble de textes pas plus intéressants à considérer que les textes fonctionnels de divers genres (règles du jeu et recettes, docu - ments informatifs, argumentations de différentes catégories…). Mais les enseignants-chercheurs qui connaissent bien les enjeux idéologiques et éthiques qu’offre la lecture des œuvres patrimoniales et contem- poraines et souhaitent défendre leur place dans le système d’enseignement réagissent. A partir de premiers travaux comme les enquêtes",
+        "body_language_guess": "fr",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-07-11",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-07-11",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_year": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5715\\2785-7050_5715.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "fr",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "fr",
+          "article_language": "fr",
+          "internal_resource_language": "fr",
+          "description_language_guess": "fr"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "fr",
+        "original_internal_language": "fr",
+        "chosen_language": "fr",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "fr",
+            "value_preview": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "fr",
+            "value_preview": "Le sujet lecteur-scripteur: brève histoire française d'un paradigme didactique contemporain",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "fr",
+            "value_preview": "Il soggetto lettore-scrittore: breve storia francese di un paradigma didattico contemporaneo",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "fr",
+            "value_preview": "Il soggetto lettore-scrittore: breve storia francese di un paradigma didattico contemporaneo",
+            "dropped_source": "locale:it_IT:meta:DC.Title",
+            "kept_source": "meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The contribution proposes an excursus on the development of models for analysing and commenting on literary texts, from the biographies of authors to those of a",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "fr",
+            "value_preview": "La contribution propose un excursus sur le développement de modèles pour analyser et commenter les textes littéraires, allant des biographies d'auteurs à ceux d",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "fr",
+            "value_preview": "La contribution propose un excursus sur le développement de modèles pour analyser et commenter les textes littéraires, allant des biographies d'auteurs à ceux d",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

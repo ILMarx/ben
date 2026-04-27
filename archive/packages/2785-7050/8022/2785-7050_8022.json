@@ -1,0 +1,1022 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8022",
+  "scraped_at_utc": "2026-04-27T18:49:12Z",
+  "fetched_at_utc": "2026-04-27T18:49:12Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "1ec022f9828e11fd771f9f7a3df63266647460bda8033720a44d5468dfa39d31",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Maria Rita Mancaniello",
+        "nameType": "Personal",
+        "givenName": "Maria Rita",
+        "familyName": "Mancaniello",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | University of Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Chiara Carletti",
+        "nameType": "Personal",
+        "givenName": "Chiara",
+        "familyName": "Carletti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research Fellow | University of Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8022",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-06-27",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-06-27",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-06-27",
+      "Issued": "2025-06-27"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "In an age marked by complexity, uncertainty, and a widespread crisis of meaning, education is increasingly called upon to promote not only disciplinary knowledge but also critical, creative and emotional competencies, essential for young people to navigate the contemporary world. This paper examines the educational potential of reading aloud, combined with the intentional use of irony as a pedagogical strategy for cultivating Life Skills (WHO, 1994), including empathy, emotional regulation, problem-solving and responsible decision-making. Drawing on national and international research highlighting the effectiveness of reading aloud as an educational practice, the paper presents a Participatory Action Research (PAR) initiative conducted by the University of Siena within the framework of the regional educational policy “Reading: Aloud! Makes You Smarter”. The proposed model restores the school’s role as a generative space for meaning-making, supporting the development of autonomy, self-determination and the construction of a personal life project during adolescence. Irony – conceived as a critical and multifaceted lens on reality – emerges as a key educational resource for fostering reflective and creative thinking and for enabling young people to engage meaningfully with a fluid and ever-changing world. Preliminary findings from the PAR pathway confirm the effectiveness of this approach not only in enhancing Life Skills, but also in counteracting school disengagement and youth discomfort, offering new pedagogical perspectives for an education centered on personal growth and social responsibility",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "In un’epoca caratterizzata da complessità, incertezza e crisi di senso, l’educazione è chiamata a promuovere nei giovani non solo conoscenze disciplinari, ma anche competenze critiche, creative ed emotive, fondamentali per orientarsi nel mondo contemporaneo. Questo articolo esplora il potenziale educativo della lettura ad alta voce integrata con l’uso consapevole dell’ironia, intesa come dispositivo formativo per coltivare le Life Skills (WHO, 1994), tra cui l’empatia, la gestione delle emozioni, il problem-solving e la capacità di prendere decisioni consapevoli. A partire dai risultati di studi nazionali e internazionali sull’efficacia della lettura ad alta voce come pratica educativa, viene presentato un percorso di Ricerca-Azione Partecipativa (RAP) promosso dall’Università di Siena nell’ambito della politica educativa regionale toscana “Leggere: Forte! Fa crescere l’intelligenza”. Si propone un modello innovativo che restituisce alla scuola il ruolo di spazio generativo di senso, capace di promuovere nei giovani l’autonomia, l’autodeterminazione e la costruzione del proprio progetto di vita. L’ironia, concepita come lente critica e plurale sulla realtà, si rivela una risorsa fondamentale per sviluppare nel soggetto competenze riflessive e creative, orientandolo consapevolmente in un mondo incerto, fluido e in continua trasformazione. I risultati preliminari del percorso confermano l’efficacia di tale approccio non solo nel rafforzare le Life Skills, ma anche nel contrastare fenomeni di disaffezione scolastica e disagio giovanile, offrendo nuove prospettive pedagogiche per una formazione centrata sulla crescita personale e sulla responsabilità sociale.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2025-08",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "ironia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "competenze di vita",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "adolescenza",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "dispersione scolastica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "irony",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "life skills",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "adolescence",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "dropout",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Chiara Carletti, Maria Rita Mancaniello",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8022/7023",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "1",
+      "citationStartPage": "107",
+      "citationEndPage": "116",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Mancaniello, M. R., & Carletti, C. (2025). Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza. Effetti Di Lettura / Effects of Reading , 4 (1), 107–116. https://doi.org/10.7347/EdL-01-2025-08",
+      "articleTitleEcho": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Albright, L.K. (2002). Bringing the Ice Maiden to life: Engaging adolescents in learning through picture book read-alouds in content areas. Journal of Adolescent & Adult Literacy, 45, 418–428.",
+        "Albright, L.K. and Ariail, M. (2005), Tapping the Potential of Teacher Read-Alouds in Middle Schools. Journal of Adolescent & Adult Literacy, 48: 582-591. https://doi.org/10.1598/JAAL.48.7.4",
+        "Alfano G. & Colangelo C. (2018). Il testo del desiderio: Letteratura e psicanalisi. Roma: Carocci.",
+        "Alvermann, D.E. (2001). Reading adolescents' reading identities: Looking back to see ahead. Journal of Adolescent & Adult Literacy, 44, 676–690.",
+        "Alvermann, D.E. (2002). Effective literacy instruction for adolescents. Journal of Literacy Research, 34, 189–208.",
+        "Batini, F. (2018). Leggimi ancora. Lettura ad alta voce e Life Skills. Firenze: Giunti.",
+        "Batini, F. (2019). Leggere ad alta voce. Metodi e strategie per costruire competenze per la vita. Firenze: Giunti.",
+        "Batini, F. (a cura di). (2021). Un anno di Leggere: Forte! in Toscana. Milano: FrancoAngeli",
+        "Batini, F. (2022). Lettura ad alta voce. Ricerche e strumenti per educatori, insegnanti e genitori. Roma: Carocci.",
+        "Batini, F. (2023). La lettura ad alta voce condivisa. Un metodo in direzione dell’equità. Bologna: Il Mulino.",
+        "Batini, F., & Corsini, C. (2024). Prevenire la dispersione scolastica con la lettura ad alta voce condivisa nelle scuole secondarie di primo grado. Cadmo, 1, 45–60.",
+        "Batini, F., D’Autilia, B., Barbisoni, G., Toti, G., Reading Aloud and the Use of CAS-2 Battery to Assess Cognitive Skills Improvement, Education Research International, 2024, 8868497, 10 pages, 2024. https://doi.org/10.1155/2024/8868497",
+        "Bauman, Z. (2008). Vita liquida. Roma-Bari: Laterza.",
+        "Bauman Z. (2009). Vite di corsa. Come salvarsi dalla tirannia dell’effimero. Bologna: Il Mulino.",
+        "Bauman, Z. (2011). Modernità liquida. Roma-Bari: Laterza.",
+        "Benasayag M., Schmit, G. (2004). L’epoca delle passioni tristi. Bologna: Feltrinelli.",
+        "Boda, G., Mosiello, F. (2005). Life Skills: il pensiero critico. Roma: Carocci.",
+        "Borgi, R., Camizzi, L., Chellini, C., Morani, R.M. (2023). La lettura ad alta voce e i docenti. Roma: Carocci.",
+        "Cambi, F. (2006). Abitare il disincanto. Una pedagogia per il postmoderno. Novara: Utet Università.",
+        "Cambi, F. (2018). Formarsi con il riso. Studi Sulla Formazione/Open Journal of Education, 21(1), 67-73.",
+        "Cambi, F. & Giambalvo, E., (a cura di). (2008). Formarsi nell’ironia. Un modello postmoderno, Palermo: Sellerio Editore.",
+        "Cambi, F. & Pinto Minerva, F. (2023). Governare l’età della tecnica. Il ruolo chiave della formazione. Milano-Udine: Mimesis.",
+        "Cardona Russo, T. (2017). Le peripezie dell’ironia. Sull’arte del rovesciamento discorsivo. Milano: Meltemi.",
+        "Carletti, C. (2024). Il ruolo dell’ironia nella formazione dell’adolescente. Una categoria pedagogica per abitare la complessità. Lecce: Pensa MultiMedia.",
+        "Carletti, C. (2021). Educate to the future. Irony in complexity times. In Ricerche Di Pedagogia E Didattica. Journal of Theories and Research in Education, 16(1), 217–227. https://doi.org/10.6092/issn.1970-2221/11737",
+        "Cavallo, S. (2017). Ironia: un fenomeno retorico nel contesto didattico. Collectanea Philologica, (20), 137-151. https://doi.org/10.187 -78/1733-0319.20.11",
+        "Censis (2024). 58° Rapporto sulla situazione sociale del Paese 2024. Milano: Franco Angeli.",
+        "Citarella, E. (2023). Alla ricerca dell’alunno perduto. Prevenzione e cura della dispersione scolastica. Trento: Erickson.",
+        "De Bono, E. (2001). Creatività e pensiero laterale. Milano: Bur Rizzoli.",
+        "Erikson, E.H. (1968). Identity: youth and crisis. New York: Norton & Company.",
+        "Fisher, D., Flood, J., Lapp, D. and Frey, N. (2004), Interactive Read-Alouds: Is There a Common Set of Implementation Practices?. The Reading Teacher, 58: 8-17. https://doi.org/10.1598/RT.58.1.1",
+        "Giannini, L. (2017). Adolescenza. Età delle Esplosioni. Livorno: Erasmo.",
+        "Girard R., (2012). Geometrie del desiderio. Milano: Raffaello Cortina.",
+        "Lumbelli, L. (2009). La comprensione come problema. Il punto di vista cognitivo. Roma-Bari: Laterza.",
+        "Mancaniello, M.R. (2018). Per una pedagogia dell’adolescenza: società complessa e paesaggi della metamorfosi identitaria. Lecce: Pensa MultiMedia.",
+        "Mancaniello, M.R. (2025). Formarsi in un clima di classe collaborativo: le metodologie partecipative per promuovere l’agio dell’apprendimento e prevenire le forme di disagio relazionale nella scuola dell’adolescenza. Nuova Secondaria, 42(6), 141-153.",
+        "Mancaniello, M.R. & Carletti, C. (2024). Lo Sviluppo del proprio progetto di vita in adolescenza: pratiche di lettura, tra desiderio e ironia. In Shared reading aloud, La lettura ad alta voce condivisa. Atti del secondo convegno scientifico internazionale. Lecce: Pensa Multimedia.",
+        "Marcuse, H. (1966). Eros e civiltà. Torino: Einaudi.",
+        "Mariani, A., Cambi, F., Gioisi, M., Sarsini, D. (2017). Pedagogia generale. Identità, percorsi, funzione. Roma: Carocci.",
+        "Marmocchi, P., Dall’Aglio, C., Zannini, M. (2004) (Eds.). Educare le life skills. Come promuovere le abilità psico-sociali e affettive secondo l’organizzazione Mondiale della Sanità. Trento: Erickson.",
+        "Mol, S. E., & Bus, A. G. (2011). To read or not to read: a meta-analysis of print exposure from infancy to early adulthood. Psychological bulletin, 137(2), 267–296. https://doi.org/10.1037/a0021890",
+        "Morani, R.M (2023). Lettura ad alta voce e comprensione. In R.T Bruno (a cura di). Fare scuola con le storie. Esperienze di educazione alla lettura in classe. Trento: Erickson, pp. 369-73",
+        "Morin, E. (2000), La testa ben fatta. Riforma dell’insegnamento e riforma del pensiero. Milano: Raffaello Cortina.",
+        "Orefice, P. (2006). La ricerca azione partecipativa. Teoria e pratiche. Vol.1: La creazione dei saperi nell’educazione di comunità per lo sviluppo locale. Napoli: Liguori.",
+        "Pellai, A., Tamborini, B. (2021). Destinazione Vita. Life skills: il bagaglio essenziale per affrontare il viaggio più importante. Milano: Mondadori.",
+        "Recalcati, M. (2019). Le nuove melanconie. Destini del desiderio nel tempo ipermoderno. Milano: Raffaello Cortina Editore.",
+        "Salvato, R. (2024). La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive. Effetti di Lettura / Effects of Reading, 3(2), 30-35. https://doi.org/10.7347/EdL-02-2024-03.",
+        "Sclavi, M. (2003). Arte di ascoltare e mondi possibili: come si esce dalle cornici di cui siamo parte. Milano: Bruno Mondadori.",
+        "Schrijvers, M., Janssen, T., Fialho, O., De Maeyer, S., & Rijlaarsdam, G. (2019b). Transformative Dialogic LiteratureTeaching fosters adolescents’ insight into human nature motivation. Learning and Instruction, 63, Article 101216. https://doi.org/10.1016/j.learninstruc.2019.101216",
+        "Scierri, I. D. M, Bartolucci, M., & Salvato, R. (Eds.). (2018). Lettura e dispersione. Milano: FrancoAngeli.",
+        "Striano, M. (2012). Riflessione e riflessività. In P.C. Rivoltella, P. G. Rossi (a cura di). L’agire didattica. Brescia: Editrice La Scuola, pp. 349-62.",
+        "World Health Organization. (2021). Adolescent mental health. https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health",
+        "World Health Organization (2020). Guidelines on mental health promotive and preventive interventions for adolescents: helping adolescents thrive. Geneva: World Health Organization; 2020. Licence: CC BY-NC-SA 3.0 IGO.",
+        "World Health Organization (WHO), United Nations Children’s Fund (UNICEF). (2021). Helping adolescents thrive toolkit: strategies to promote and protect adolescent mental health and reduce self-harm and other risk behaviours. Geneva: World Health Organization and the United Nations Children’s Fund (UNICEF).",
+        "World Health Organization. Division of Mental Health. (‎1994)‎. Life skills education for children and adolescents in schools. Pt. 1, Introduction to life skills for psychosocial competence. Pt. 2, Guidelines to facilitate the development and implementation of life skills programmes, 2nd rev. World Health Organization. https://iris.who.int/handle/10665/63552"
+      ],
+      "count": 55,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8022",
+    "article_ID": "8022",
+    "slug": "8022",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8022",
+      "url_slug": "8022"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Cultivating imagination and critical thinking through irony in read-aloud practices: a pathway to developing Life Skills during adolescence",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-04-30",
+      "accepted": null,
+      "created": "2025-06-27",
+      "modified": "2025-06-27",
+      "issued": "2025-06-27",
+      "available": "2025-06-27",
+      "submitted_page": "2025-04-30",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+        "pdf_value": null,
+        "chosen_value": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-30",
+        "pdf_value": null,
+        "chosen_value": "2025-04-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Chiara Carletti, Maria Rita Mancaniello",
+        "pdf_value": null,
+        "chosen_value": "Chiara Carletti, Maria Rita Mancaniello",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8022/7023",
+      "local_relative_path": "2785-7050_8022.pdf",
+      "saved": true,
+      "sha256": "c33742977de0bbaea7ffc5340376cbb14964bbb70acb9f1afe5f328946aeff08",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1914400,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Maria Rita Mancaniello",
+        "Chiara Carletti"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | University of Siena",
+        "Research Fellow | University of Siena"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/06/27"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2025-08"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8022"
+      ],
+      "citation_keywords": [
+        "lettura ad alta voce",
+        "ironia",
+        "competenze di vita",
+        "adolescenza",
+        "dispersione scolastica"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8022/7023"
+      ],
+      "citation_reference_count": 55,
+      "DC.Date.created": [
+        "2025-06-27"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-04-30"
+      ],
+      "DC.Date.issued": [
+        "2025-06-27"
+      ],
+      "DC.Date.modified": [
+        "2025-06-27"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8022"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2025-08"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8022"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Chiara Carletti, Maria Rita Mancaniello",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza"
+      ],
+      "DC.Title.Alternative": [
+        "Cultivating imagination and critical thinking through irony in read-aloud practices: a pathway to developing Life Skills during adolescence"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Maria Rita Mancaniello",
+        "Chiara Carletti"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | University of Siena",
+        "Research Fellow | University of Siena"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Chiara Carletti"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "In an age marked by complexity, uncertainty, and a widespread crisis of meaning, education is increasingly called upon to promote not only disciplinary knowledge but also critical, creative and emotional competencies, essential for young people to navigate the contemporary world. This paper examines the educational potential of reading aloud, combined with the intentional use of irony as a pedagogical strategy for cultivating Life Skills (WHO, 1994), including empathy, emotional regulation, problem-solving and responsible decision-making. Drawing on national and international research highlighting the effectiveness of reading aloud as an educational practice, the paper presents a Participatory Action Research (PAR) initiative conducted by the University of Siena within the framework of the regional educational policy “Reading: Aloud! Makes You Smarter”. The proposed model restores the school’s role as a generative space for meaning-making, supporting the development of autonomy, self-determination and the construction of a personal life project during adolescence. Irony – conceived as a critical and multifaceted lens on reality – emerges as a key educational resource for fostering reflective and creative thinking and for enabling young people to engage meaningfully with a fluid and ever-changing world. Preliminary findings from the PAR pathway confirm the effectiveness of this approach not only in enhancing Life Skills, but also in counteracting school disengagement and youth discomfort, offering new pedagogical perspectives for an education centered on personal growth and social responsibility",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "In an age marked by complexity, uncertainty, and a widespread crisis of meaning, education is increasingly called upon to promote not only disciplinary knowledge but also critical, creative and emotional competencies, essential for young people to navigate the contemporary world. This paper examines the educational potential of reading aloud, combined with the intentional use of irony as a pedagogical strategy for cultivating Life Skills (WHO, 1994), including empathy, emotional regulation, problem-solving and responsible decision-making. Drawing on national and international research highlighting the effectiveness of reading aloud as an educational practice, the paper presents a Participatory Action Research (PAR) initiative conducted by the University of Siena within the framework of the regional educational policy “Reading: Aloud! Makes You Smarter”. The proposed model restores the school’s role as a generative space for meaning-making, supporting the development of autonomy, self-determination and the construction of a personal life project during adolescence. Irony – conceived as a critical and multifaceted lens on reality – emerges as a key educational resource for fostering reflective and creative thinking and for enabling young people to engage meaningfully with a fluid and ever-changing world. Preliminary findings from the PAR pathway confirm the effectiveness of this approach not only in enhancing Life Skills, but also in counteracting school disengagement and youth discomfort, offering new pedagogical perspectives for an education centered on personal growth and social responsibility"
+          }
+        },
+        {
+          "content": "In un’epoca caratterizzata da complessità, incertezza e crisi di senso, l’educazione è chiamata a promuovere nei giovani non solo conoscenze disciplinari, ma anche competenze critiche, creative ed emotive, fondamentali per orientarsi nel mondo contemporaneo. Questo articolo esplora il potenziale educativo della lettura ad alta voce integrata con l’uso consapevole dell’ironia, intesa come dispositivo formativo per coltivare le Life Skills (WHO, 1994), tra cui l’empatia, la gestione delle emozioni, il problem-solving e la capacità di prendere decisioni consapevoli. A partire dai risultati di studi nazionali e internazionali sull’efficacia della lettura ad alta voce come pratica educativa, viene presentato un percorso di Ricerca-Azione Partecipativa (RAP) promosso dall’Università di Siena nell’ambito della politica educativa regionale toscana “Leggere: Forte! Fa crescere l’intelligenza”. Si propone un modello innovativo che restituisce alla scuola il ruolo di spazio generativo di senso, capace di promuovere nei giovani l’autonomia, l’autodeterminazione e la costruzione del proprio progetto di vita. L’ironia, concepita come lente critica e plurale sulla realtà, si rivela una risorsa fondamentale per sviluppare nel soggetto competenze riflessive e creative, orientandolo consapevolmente in un mondo incerto, fluido e in continua trasformazione. I risultati preliminari del percorso confermano l’efficacia di tale approccio non solo nel rafforzare le Life Skills, ma anche nel contrastare fenomeni di disaffezione scolastica e disagio giovanile, offrendo nuove prospettive pedagogiche per una formazione centrata sulla crescita personale e sulla responsabilità sociale.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "In un’epoca caratterizzata da complessità, incertezza e crisi di senso, l’educazione è chiamata a promuovere nei giovani non solo conoscenze disciplinari, ma anche competenze critiche, creative ed emotive, fondamentali per orientarsi nel mondo contemporaneo. Questo articolo esplora il potenziale educativo della lettura ad alta voce integrata con l’uso consapevole dell’ironia, intesa come dispositivo formativo per coltivare le Life Skills (WHO, 1994), tra cui l’empatia, la gestione delle emozioni, il problem-solving e la capacità di prendere decisioni consapevoli. A partire dai risultati di studi nazionali e internazionali sull’efficacia della lettura ad alta voce come pratica educativa, viene presentato un percorso di Ricerca-Azione Partecipativa (RAP) promosso dall’Università di Siena nell’ambito della politica educativa regionale toscana “Leggere: Forte! Fa crescere l’intelligenza”. Si propone un modello innovativo che restituisce alla scuola il ruolo di spazio generativo di senso, capace di promuovere nei giovani l’autonomia, l’autodeterminazione e la costruzione del proprio progetto di vita. L’ironia, concepita come lente critica e plurale sulla realtà, si rivela una risorsa fondamentale per sviluppare nel soggetto competenze riflessive e creative, orientandolo consapevolmente in un mondo incerto, fluido e in continua trasformazione. I risultati preliminari del percorso confermano l’efficacia di tale approccio non solo nel rafforzare le Life Skills, ma anche nel contrastare fenomeni di disaffezione scolastica e disagio giovanile, offrendo nuove prospettive pedagogiche per una formazione centrata sulla crescita personale e sulla responsabilità sociale."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce"
+          }
+        },
+        {
+          "content": "ironia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "ironia"
+          }
+        },
+        {
+          "content": "competenze di vita",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "competenze di vita"
+          }
+        },
+        {
+          "content": "adolescenza",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "adolescenza"
+          }
+        },
+        {
+          "content": "dispersione scolastica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "dispersione scolastica"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8022/7023",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8022/7023",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8022/7023",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-06-26",
+        "mod_date": "2025-06-26"
+      },
+      "front_text_excerpt": "ABSTRACT In an age marked by complexity, uncertainty, and a widespread crisis of meaning, education is increasingly called upon to promote not only disciplinary knowledge but also critical, creative and emotional competencies, essential for young people to navigate the contemporary world. This paper examines the educational potential of reading aloud, combined with the intentional use of irony as a pedagogical strategy for cul- tivating Life Skills (WHO, 1994), including empathy, emotional regulation, problem-solving and responsible decision-making. Drawing on national and international research highlighting the effectiveness of reading aloud as an educational practice, the paper presents a Participatory Action Research (PAR) initiative conducted by the University of Siena within the framework of the regional educational policy “ Reading: Aloud! Makes You Smarter”. The proposed model restores the school’s role as a generative space for meaning-making, supporting the devel- opment of autonomy, self-determination and the construction of a personal life project during adolescence. Irony – conceived as a critical and multifaceted lens on reality – emerges as a key educational resource for fostering reflective and creative thinking and for enabling young people to engage meaningfully with a fluid and ever-changing world. Preliminary findings from the PAR pathway confirm the effectiveness of this approach not only in enhancing Life Skills, but also in counteracting school disengagement and youth discomfort, offering new ped- agogical perspectives for an education centered on personal growth and social responsibility. Keywords: reading aloud, irony, life skills, adolescence, dropout In un’epoca caratterizzata da complessità, incertezza e crisi di senso, l’educazione è chiamata a promuovere nei giovani non solo conoscenze disciplinari, ma anche competenze critiche, creative ed emotive, fondamentali per orientarsi nel mondo contemporaneo. Questo articolo es- plora il potenziale educativo della lettura ad alta voce integrata con l’uso consapevole dell’ironia, intesa come dispositivo f ormativo per coltivare le Life Skills (WHO, 1994), tra cui l’empatia, la gestione delle emozioni, il problem-solving e la capacità di prendere decisioni con- sapevoli. A partire dai risultati di studi nazionali e internazionali sull’efficacia della lettura ad alta voce come pratica educativa, viene presentato un percorso di Ricerca-Azione Partecipativa (RAP) promosso dall’Università di Siena nell’ambito della politica educativa regionale toscana “Leggere: Forte! Fa crescere l’intelligenza”. Si propone un modello innovativo che restituisce alla scuola il ruolo di spazio generativo di senso, capace di promuovere nei giovani l’autonomia, l’autodeterminazione e la costruzione del proprio progetto di vita. L ’ironia, concepita come lente critica e plurale sulla realtà, si rivela una risorsa fondamentale per sviluppare nel soggetto competenze riflessive e creative, orientandolo consapevolmente in un mondo incerto, fluido e in continua trasformazione. I risultati preliminari del percorso confermano l’efficacia di tale approccio non solo nel rafforzare le Life Skills, ma anche nel contrastare fenomeni di disaffezione scolastica e disagio giovanile, offrendo nuove prospettive pedagogiche per una formazione centrata sulla crescita personale e sulla responsabilità sociale. Parole chiave: lettura ad alta voce, ironia, competenze di vita, adolescenza, dropout Citation: Mancaniello, M. R., & Carletti, C. (2025). Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza. Effetti di Lettura / Effects of Reading, 4 (1), 107-116. https://doi.org/10.7347/EdL-01-2025-08. Corresponding Author: Chiara Carletti | chiara.carletti@unisi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-08 Authorship/Attribuzioni: Il presente lavoro è frutto di una riflessione condivisa degli autori. L ’introduzione e le conclusioni sono state elaborate da Maria Rita Mancaniello e Chiara Carletti, i paragrafi 2 e 5 sono stati elaborati da Maria Rita Mancaniello, mentre i paragrafi 3 e 4 da Chiara Car- letti. Maria Rita Mancaniello Associate Professor | University of Siena | mariarita.mancaniello@unisi.it Chiara Carletti Research Fellow | University of Siena | chiara.carletti@unisi.it Double blind peer review Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza Cultivating imagination and critical thinking through irony in read-aloud practices: a pathway to developing Life Skills during adolescence Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8022\\2785-7050_8022.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Chiara Carletti, Maria Rita Mancaniello",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Chiara Carletti, Maria Rita Mancaniello",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+        "pdf_value": null,
+        "chosen_value": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-30",
+        "pdf_value": null,
+        "chosen_value": "2025-04-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Chiara Carletti, Maria Rita Mancaniello",
+        "pdf_value": null,
+        "chosen_value": "Chiara Carletti, Maria Rita Mancaniello",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Chiara Carletti, Maria Rita Mancaniello",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8022",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8022",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:49:12Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:49:14Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8022",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8022",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8022",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8022",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8022\\2785-7050_8022.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:49:16Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8022\\2785-7050_8022.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+        "submitted_date": "2025-04-30",
+        "accepted_date": null,
+        "copyright_holder": "Chiara Carletti, Maria Rita Mancaniello",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Maria Rita Mancaniello",
+          "Chiara Carletti"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8022\\2785-7050_8022.pdf",
+        "generated_at_utc": "2026-04-27T18:49:16Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-06-26",
+          "mod_date": "2025-06-26"
+        },
+        "front_text_excerpt": "ABSTRACT In an age marked by complexity, uncertainty, and a widespread crisis of meaning, education is increasingly called upon to promote not only disciplinary knowledge but also critical, creative and emotional competencies, essential for young people to navigate the contemporary world. This paper examines the educational potential of reading aloud, combined with the intentional use of irony as a pedagogical strategy for cul- tivating Life Skills (WHO, 1994), including empathy, emotional regulation, problem-solving and responsible decision-making. Drawing on national and international research highlighting the effectiveness of reading aloud as an educational practice, the paper presents a Participatory Action Research (PAR) initiative conducted by the University of Siena within the framework of the regional educational policy “ Reading: Aloud! Makes You Smarter”. The proposed model restores the school’s role as a generative space for meaning-making, supporting the devel- opment of autonomy, self-determination and the construction of a personal life project during adolescence. Irony – conceived as a critical and multifaceted lens on reality – emerges as a key educational resource for fostering reflective and creative thinking and for enabling young people to engage meaningfully with a fluid and ever-changing world. Preliminary findings from the PAR pathway confirm the effectiveness of this approach not only in enhancing Life Skills, but also in counteracting school disengagement and youth discomfort, offering new ped- agogical perspectives for an education centered on personal growth and social responsibility. Keywords: reading aloud, irony, life skills, adolescence, dropout In un’epoca caratterizzata da complessità, incertezza e crisi di senso, l’educazione è chiamata a promuovere nei giovani non solo conoscenze disciplinari, ma anche competenze critiche, creative ed emotive, fondamentali per orientarsi nel mondo contemporaneo. Questo articolo es- plora il potenziale educativo della lettura ad alta voce integrata con l’uso consapevole dell’ironia, intesa come dispositivo f ormativo per coltivare le Life Skills (WHO, 1994), tra cui l’empatia, la gestione delle emozioni, il problem-solving e la capacità di prendere decisioni con- sapevoli. A partire dai risultati di studi nazionali e internazionali sull’efficacia della lettura ad alta voce come pratica educativa, viene presentato un percorso di Ricerca-Azione Partecipativa (RAP) promosso dall’Università di Siena nell’ambito della politica educativa regionale toscana “Leggere: Forte! Fa crescere l’intelligenza”. Si propone un modello innovativo che restituisce alla scuola il ruolo di spazio generativo di senso, capace di promuovere nei giovani l’autonomia, l’autodeterminazione e la costruzione del proprio progetto di vita. L ’ironia, concepita come lente critica e plurale sulla realtà, si rivela una risorsa fondamentale per sviluppare nel soggetto competenze riflessive e creative, orientandolo consapevolmente in un mondo incerto, fluido e in continua trasformazione. I risultati preliminari del percorso confermano l’efficacia di tale approccio non solo nel rafforzare le Life Skills, ma anche nel contrastare fenomeni di disaffezione scolastica e disagio giovanile, offrendo nuove prospettive pedagogiche per una formazione centrata sulla crescita personale e sulla responsabilità sociale. Parole chiave: lettura ad alta voce, ironia, competenze di vita, adolescenza, dropout Citation: Mancaniello, M. R., & Carletti, C. (2025). Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza. Effetti di Lettura / Effects of Reading, 4 (1), 107-116. https://doi.org/10.7347/EdL-01-2025-08. Corresponding Author: Chiara Carletti | chiara.carletti@unisi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-08 Authorship/Attribuzioni: Il presente lavoro è frutto di una riflessione condivisa degli autori. L ’introduzione e le conclusioni sono state elaborate da Maria Rita Mancaniello e Chiara Carletti, i paragrafi 2 e 5 sono stati elaborati da Maria Rita Mancaniello, mentre i paragrafi 3 e 4 da Chiara Car- letti. Maria Rita Mancaniello Associate Professor | University of Siena | mariarita.mancaniello@unisi.it Chiara Carletti Research Fellow | University of Siena | chiara.carletti@unisi.it Double blind peer review Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza Cultivating imagination and critical thinking through irony in read-aloud practices: a pathway to developing Life Skills during adolescence Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "apparenti, problematizzare stereotipi e promuovere una postura cognitiva flessibile e plurale, indispensabile per abitare la complessità del mondo contemporaneo (Cambi 2006, 2018; Cambi & Giambalvo, 2008; Carletti, 2024). In questo articolo si intende, dunque, esplorare come la lettura ad alta voce, integrata con pratiche iro- niche consapevoli, possa costituire un dispositivo educativo per promuovere l’immaginazione, il pensiero critico, l’empatia e le principali Life Skills negli adolescenti, contribuendo così a costruire percorsi di vita ricchi di senso, autonomi e resilienti. 2. Lettura ad alta voce come spazio educativo trasformativo La pratica della lettura ad alta voce si configura oggi come un autentico spazio educativo trasformativo, capace di agire in profondità sulle dimensioni cognitive, socio-emotive e relazionali dell’adolescente. Nu- merosi studi nazionali e internazionali hanno evidenziato come la lettura ad alta voce, praticata con con- tinuità e intenzionalità pedagogica, sia in grado di potenziare non solo le competenze linguistiche, ma anche l’autoefficacia, la regolazione emotiva, il pensiero critico e la capacità empatica (Albright & Ariail, 2005; Batini, 2018, 2019, 2022, 2023; Batini & Corsini, 2024; Batini et al., 2024; Mol & Bus, 2011). Sul piano cognitivo, la lettura ad alta voce favorisce l’ampliamento del vocabolario, il miglioramento della comprensione del testo e lo sviluppo di competenze inferenziali, prerequisiti fondamentali per l’accesso a un pensiero complesso e riflessivo (Morani, 2023). Rispetto alla lettura silenziosa, quella condivisa per- mette inoltre di rallentare il ritmo, soffermarsi sulle sfumature linguistiche ed emotive dei testi, favorendo così una rielaborazione più profonda dei contenuti e un’acquisizione più consapevole del significato (Batini et al., 2024). Dal punto di vista socio-emotivo, la lettura ad alta voce agisce come un potente dispositivo di mediazione affettiva, poiché l’esperienza della narrazione condivisa crea un contesto di ascolto, risonanza e scambio emotivo, che facilita il riconoscimento e la gestione delle emozioni, promuovendo lo sviluppo dell’empatia e delle competenze relazionali (Albright, 2002; Fisher et al., 2004). Leggere ad alta voce si - gnifica, infatti, immergersi in storie che pongono i giovani a contatto con una pluralità di vissuti, valori e punti di vista, consentendo loro di esplorare il mondo interiore altrui e, nel contempo, di riflettere sulle proprie emozioni e reazioni. In tal senso, la lettura diventa non solo un’esperienza intellettuale, ma anche una pratica profondamente trasformativa sul piano identitario e relazionale. La funzione educativa della lettura ad alta voce può essere efficacemente sintetizzata attraverso le metafore dello specchio e della finestra (Mancaniello & Carletti, 2024). La lettura opera come specchio quando consente agli adolescenti di riconoscere nei personaggi e nelle situazioni narrative aspetti del proprio vissuto, delle proprie emozioni e dei propri conflitti interiori. Questo riconoscimento favorisce processi di autoesplora- zione e di costruzione dell’identità, elementi essenziali nella fase adolescenziale (Erikson, 1968). Al tempo stesso, la lettura funziona come finestra nel momento in cui apre nuovi orizzonti di senso, consentendo ai giovani di confrontarsi con realtà, culture, valori e prospettive differenti dalla propria, promuovendo così una mentalità aperta e inclusiva. La lettura ad alta voce assume, quindi, una doppia valenza: da un lato con- solida la dimensione introspettiva e il senso di sé, dall’altro stimola la capacità di decentramento cognitivo e relazionale, prerequisito per l’esercizio dell’empatia e del pensiero critico. Per tali ragioni, questa modalità di lettura si configura come una pratica educativa intrinsecamente inclusiva poiché, nel momento in cui la voce dell’adulto e l’ascolto dei ragazzi si intrecciano nella costruzione di un significato condiviso, si crea uno spazio dialo",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-04-30",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-04-30",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Chiara Carletti, Maria Rita Mancaniello",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Chiara Carletti, Maria Rita Mancaniello",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8022\\2785-7050_8022.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Coltivare immaginazione e pensiero critico attraverso l’ironia nella lettura ad alta voce: un percorso per sviluppare le Life Skills in adolescenza",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Cultivating imagination and critical thinking through irony in read-aloud practices: a pathway to developing Life Skills during adolescence",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Cultivating imagination and critical thinking through irony in read-aloud practices: a pathway to developing Life Skills during adolescence",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "In an age marked by complexity, uncertainty, and a widespread crisis of meaning, education is increasingly called upon to promote not only disciplinary knowledg",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "In un’epoca caratterizzata da complessità, incertezza e crisi di senso, l’educazione è chiamata a promuovere nei giovani non solo conoscenze disciplinari, ma an",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

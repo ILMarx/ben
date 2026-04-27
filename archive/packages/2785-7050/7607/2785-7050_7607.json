@@ -1,0 +1,987 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7607",
+  "scraped_at_utc": "2026-04-27T18:48:09Z",
+  "fetched_at_utc": "2026-04-27T18:48:09Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "6e64e0ff6bb84e671d5033c21a5e7b91be699cbfaf55338bf9e23f4fe18fc1c7",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Lettura e organizzazioni: primi risultati di un questionario",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Paolo Di Nicola",
+        "nameType": "Personal",
+        "givenName": "Paolo Di",
+        "familyName": "Nicola",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Andrea Laudadio",
+        "nameType": "Personal",
+        "givenName": "Andrea",
+        "familyName": "Laudadio",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Head of TIM Academy & Development | TIM S.p.A., Roma"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7607",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2024-12-31",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2024-12-31",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2024-12-31",
+      "Issued": "2024-12-31"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The article examines the reading habits of TIM employees and explores the perceived effects of these habits within the workplace. A questionnaire was administered to a sample of 1027 employees distributed across Italy. The questionnaire included 18 items that assessed four main areas: the use of reading for professional development, reading for pleasure, the practice of reading aloud to children, and general reading habits. The findings reveal that while the majority of employees engage in reading primarily for pleasure, and only a small proportion use reading as a tool for professional development. However, reading for pleasure appears to offer significant benefits in the workplace, contributing to improved personal well-being, increased work performance, and enhanced interpersonal relationships among colleagues. Additionally, the study shows that reading habits are linked to educational qualifications: university graduates tend to read more frequently and report greater benefits from their reading habits. The analysis highlights the absence of significant correlations between reading for professional development and reading for pleasure, suggesting that while reading for pleasure is widely valued for its positive impact on well-being and workplace dynamics, reading for professional development may not be as deeply integrated into employees' daily work practices. Overall, the study proposes that promoting reading—especially for pleasure—within the workplace could foster greater employee well-being, improve team dynamics, and have potential implications for corporate training programs.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L'articolo esamina le abitudini di lettura dei dipendenti TIM ed esplora gli effetti percepiti di queste abitudini sul posto di lavoro. È stato somministrato un questionario a un campione di 1027 dipendenti distribuiti in tutta Italia. Il questionario comprendeva 18 item che valutavano quattro aree principali: l'uso della lettura per lo sviluppo professionale, la lettura per piacere, la pratica della lettura ad alta voce ai bambini e le abitudini generali di lettura. I risultati rivelano che la maggior parte dei dipendenti legge principalmente per piacere e solo una piccola parte utilizza la lettura come strumento di sviluppo professionale. Tuttavia, la lettura per piacere sembra offrire vantaggi significativi sul posto di lavoro, contribuendo a migliorare il benessere personale, le prestazioni lavorative e le relazioni interpersonali tra colleghi. Inoltre, lo studio mostra che le abitudini di lettura sono legate al titolo di studio: i laureati tendono a leggere più frequentemente e a riportare maggiori benefici dalle loro abitudini di lettura. L'analisi evidenzia l'assenza di correlazioni significative tra la lettura per lo sviluppo professionale e quella per il piacere, suggerendo che mentre la lettura per il piacere è ampiamente apprezzata per il suo impatto positivo sul benessere e sulle dinamiche del luogo di lavoro, la lettura per lo sviluppo professionale potrebbe non essere altrettanto profondamente integrata nelle pratiche lavorative quotidiane dei dipendenti. Nel complesso, lo studio propone che la promozione della lettura, soprattutto quella per diletto, all'interno del luogo di lavoro potrebbe favorire una un maggiore benessere dei dipendenti, migliorare le dinamiche di gruppo e avere potenziali implicazioni per i programmi di formazione aziendale.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2024-02",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "3",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "abitudini di lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura per piacere",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "benessere aziendale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "formazione aziendale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "questionario",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading habits",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reading pleasure",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "workplace well-being",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "corporate training",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "survey",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Paolo Di Nicola, Andrea Laudadio",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7607/6786",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "3",
+      "citationIssue": "2",
+      "citationStartPage": "020",
+      "citationEndPage": "029",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Di Nicola, P., & Laudadio, A. (2024). Lettura e organizzazioni: primi risultati di un questionario. Effetti Di Lettura / Effects of Reading , 3 (2), 020–029. https://doi.org/10.7347/EdL-02-2024-02",
+      "articleTitleEcho": "Lettura e organizzazioni: primi risultati di un questionario"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Batini F., Brizioli I., Mancini A., Susta M., Scierri I. D.M. (2021a), Lettura e comprensione. Una revisione sistematica della letteratura, in: Ricerche di Pedagogia e Didattica – Journal of Theories and Research in Education, ISSN 1970-2221, vol. 16, 1 (2021) - doi: doi.org/10.6092/issn.1970-2221/11509",
+        "Batini F., Luperini V., Cei E., Izzo D., Toti G. (2021b) The Association Between Reading and Emotional Development: A Systematic Review, in: Journal of Education and Training Studies Vol. 9, No. 1, gennaio 2021. doi: 10.11114/jets.v9i1.5053 https://doi.org/10.11114/jets.v9i1.5053",
+        "Batini F., D’Autilia B., Pera E., Lucchetti L., Toti G. (2020), Reading Aloud and First Language Development: A Systematic Review, in: Journal of Education and Training Studies Vol. 8, No. 12, dicembre 2020. doi: 10.11114/jets.v8i12.5047 https://doi.org/10.11114/jets.v8i12.5047",
+        "Brokerhof I.M., Ybema J.F., Bal P.M. (2020a). Illness narratives and chronic patients’ sustainable employability: The impact of positive work stories. PLOS ONE, 15(2). https://doi.org/10.1371/journal.pone.0228581",
+        "Brokerhof, I., Bal, M., & Petri, D. (2020b). Fictional Narrative Experiences and Career Identity: How Stories Influence the Dialogical Work Self. Academy of Management Proceedings, 2020(1), Article 20136. https://doi.org/10.5465/AMBPP.2020.20136abstrac",
+        "Brokerhof, I.M., Bal, M., Solinger, O., Jansen, P.J.W. (2022). The Lure of Greed Beyond the Business School Popular Wall Street Narratives and Future Work Selves. Academy of management proceedings, 2022(1). https://doi.org/10.5465/AMBPP.2022.10741abstract",
+        "De Baldini Rocha M. N. S., Ponczek V. (2011). The effects of adult literacy on earnings and employment. Economics of Education Review, 30, 755-764.",
+        "ISTAT (2023), Produzione e lettura di libri in Italia - Anno 2022, report. https://www.istat.it/wp-content/uploads/2022/12/REPORT_PRODUZIONE_E_LETTURA_LIBRI_2021.pdf",
+        "Izzo, D., Ciurnelli, B., & Carlotti , E. (2024). Promozione della lettura o educazione alla lettura? Le scelte educative delle scuole e le loro conseguenze. Effetti Di Lettura / Effects of Reading, 3(1), 014–028. https://doi.org/10.7347/EdL-01-2024-02",
+        "Mangione, S., Chakraborti, C., Staltari, G., Harrison, R., Tunkel, A.R., Liu, K.T., Cerceo, E., Voeller, M., Bedwell, W.L., Fletcher, K., Kahn, M.J. (2018) Medical Students’ Exposure to the Humanities Correlates with Positive Personal Qualities and Reduced Burnout: A Multi-Institutional U.S. Survey. j gen intern med 33, 628–634. https://doi.org/10.1007/s11606-017-4275-8",
+        "Merga, M.K. (2017). What motivates avid readers to maintain a regular reading habit in adulthood?. Australian Journal of Language and Literacy, 40, 146–156. https://doi.org/10.1007/BF03651992",
+        "Miller, P. A. (1982). Reading Demands in a High-Technology Industry. Journal of Reading, 26(2), 109–115.",
+        "Reder, S. (2010). Adult Literacy Development and Economic Growth. National Institute for Literacy.",
+        "Reder, S. (2023). Adults’ reading engagement and wellbeing in Aotearoa New Zealand. PLoS ONE 18(9). https://doi.org/10.1371/journal.pone.0286706",
+        "Rooksby, J. R. N. (2011). Text at Work. Mundane Practices of Reading in Workplaces. In M. Rouncefield, & P. Tolmie (A cura di), Ethnomethodology at Work. Ashgate.",
+        "Smith, M. C. (1990). Reading habits and attitudes of adults at different levels of education and occupation. Reading Research and Instruction, 30(1), 50–58. https://doi.org/10.1080/19388079009558033",
+        "Smith, M. C. (2000). The Real-World Reading Practices of Adults. Journal of Literacy Research, 32(1), 25-52. https://doi.org/10.1080/10862960009548063",
+        "Zhang W., Zhang, Y. & Wang J. (2022). Effect and mechanism of reading habits on physical and mental health among the elderly: Evidence from China. Frontiers of Public Health 10:1031939. doi: 10.3389/fpubh.2022.1031939",
+        "Zuilkowski, S. S., McCoy, D. C., Jonason, C., & Dowd, A. J. (2019). Relationships Among Home Literacy Behaviors, Materials, Socioeconomic Status, and Early Literacy Outcomes Across 14 Low- and Middle-Income Countries. Journal of Cross-Cultural Psychology, 50(4), 539-555. https://doi.org/10.1177/0022022119837363"
+      ],
+      "count": 19,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7607",
+    "article_ID": "7607",
+    "slug": "7607",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7607",
+      "url_slug": "7607"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Lettura e organizzazioni: primi risultati di un questionario",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Reading and corporations: first results of a questionnaire",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-11-25",
+      "accepted": null,
+      "created": "2024-12-31",
+      "modified": "2025-01-20",
+      "issued": "2024-12-31",
+      "available": "2024-12-31",
+      "submitted_page": "2024-11-25",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Lettura e organizzazioni: primi risultati di un questionario",
+        "pdf_value": null,
+        "chosen_value": "Lettura e organizzazioni: primi risultati di un questionario",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-11-25",
+        "pdf_value": null,
+        "chosen_value": "2024-11-25",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Paolo Di Nicola, Andrea Laudadio",
+        "pdf_value": null,
+        "chosen_value": "Paolo Di Nicola, Andrea Laudadio",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7607/6786",
+      "local_relative_path": "2785-7050_7607.pdf",
+      "saved": true,
+      "sha256": "8875a393f47fede8d5848d338ffe7092fc0342ff033afc2b475049592f2abfc4",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 15502237,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Paolo Di Nicola",
+        "Andrea Laudadio"
+      ],
+      "citation_author_institution": [
+        "University of Perugia",
+        "Head of TIM Academy & Development | TIM S.p.A., Roma"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Lettura e organizzazioni: primi risultati di un questionario"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/12/31"
+      ],
+      "citation_volume": [
+        "3"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2024-02"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7607"
+      ],
+      "citation_keywords": [
+        "abitudini di lettura",
+        "lettura per piacere",
+        "benessere aziendale",
+        "formazione aziendale",
+        "questionario"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7607/6786"
+      ],
+      "citation_reference_count": 19,
+      "DC.Date.created": [
+        "2024-12-31"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-11-25"
+      ],
+      "DC.Date.issued": [
+        "2024-12-31"
+      ],
+      "DC.Date.modified": [
+        "2025-01-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7607"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2024-02"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7607"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Paolo Di Nicola, Andrea Laudadio",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "3"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Lettura e organizzazioni: primi risultati di un questionario"
+      ],
+      "DC.Title.Alternative": [
+        "Reading and corporations: first results of a questionnaire"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Paolo Di Nicola",
+        "Andrea Laudadio"
+      ],
+      "citation_author_institution": [
+        "University of Perugia",
+        "Head of TIM Academy & Development | TIM S.p.A., Roma"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Paolo Di Nicola",
+        "Andrea Laudadio"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The article examines the reading habits of TIM employees and explores the perceived effects of these habits within the workplace. A questionnaire was administered to a sample of 1027 employees distributed across Italy. The questionnaire included 18 items that assessed four main areas: the use of reading for professional development, reading for pleasure, the practice of reading aloud to children, and general reading habits. The findings reveal that while the majority of employees engage in reading primarily for pleasure, and only a small proportion use reading as a tool for professional development. However, reading for pleasure appears to offer significant benefits in the workplace, contributing to improved personal well-being, increased work performance, and enhanced interpersonal relationships among colleagues. Additionally, the study shows that reading habits are linked to educational qualifications: university graduates tend to read more frequently and report greater benefits from their reading habits. The analysis highlights the absence of significant correlations between reading for professional development and reading for pleasure, suggesting that while reading for pleasure is widely valued for its positive impact on well-being and workplace dynamics, reading for professional development may not be as deeply integrated into employees' daily work practices. Overall, the study proposes that promoting reading—especially for pleasure—within the workplace could foster greater employee well-being, improve team dynamics, and have potential implications for corporate training programs.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The article examines the reading habits of TIM employees and explores the perceived effects of these habits within the workplace. A questionnaire was administered to a sample of 1027 employees distributed across Italy. The questionnaire included 18 items that assessed four main areas: the use of reading for professional development, reading for pleasure, the practice of reading aloud to children, and general reading habits. The findings reveal that while the majority of employees engage in reading primarily for pleasure, and only a small proportion use reading as a tool for professional development. However, reading for pleasure appears to offer significant benefits in the workplace, contributing to improved personal well-being, increased work performance, and enhanced interpersonal relationships among colleagues. Additionally, the study shows that reading habits are linked to educational qualifications: university graduates tend to read more frequently and report greater benefits from their reading habits. The analysis highlights the absence of significant correlations between reading for professional development and reading for pleasure, suggesting that while reading for pleasure is widely valued for its positive impact on well-being and workplace dynamics, reading for professional development may not be as deeply integrated into employees' daily work practices. Overall, the study proposes that promoting reading—especially for pleasure—within the workplace could foster greater employee well-being, improve team dynamics, and have potential implications for corporate training programs."
+          }
+        },
+        {
+          "content": "L'articolo esamina le abitudini di lettura dei dipendenti TIM ed esplora gli effetti percepiti di queste abitudini sul posto di lavoro. È stato somministrato un questionario a un campione di 1027 dipendenti distribuiti in tutta Italia. Il questionario comprendeva 18 item che valutavano quattro aree principali: l'uso della lettura per lo sviluppo professionale, la lettura per piacere, la pratica della lettura ad alta voce ai bambini e le abitudini generali di lettura. I risultati rivelano che la maggior parte dei dipendenti legge principalmente per piacere e solo una piccola parte utilizza la lettura come strumento di sviluppo professionale. Tuttavia, la lettura per piacere sembra offrire vantaggi significativi sul posto di lavoro, contribuendo a migliorare il benessere personale, le prestazioni lavorative e le relazioni interpersonali tra colleghi. Inoltre, lo studio mostra che le abitudini di lettura sono legate al titolo di studio: i laureati tendono a leggere più frequentemente e a riportare maggiori benefici dalle loro abitudini di lettura. L'analisi evidenzia l'assenza di correlazioni significative tra la lettura per lo sviluppo professionale e quella per il piacere, suggerendo che mentre la lettura per il piacere è ampiamente apprezzata per il suo impatto positivo sul benessere e sulle dinamiche del luogo di lavoro, la lettura per lo sviluppo professionale potrebbe non essere altrettanto profondamente integrata nelle pratiche lavorative quotidiane dei dipendenti. Nel complesso, lo studio propone che la promozione della lettura, soprattutto quella per diletto, all'interno del luogo di lavoro potrebbe favorire una un maggiore benessere dei dipendenti, migliorare le dinamiche di gruppo e avere potenziali implicazioni per i programmi di formazione aziendale.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L'articolo esamina le abitudini di lettura dei dipendenti TIM ed esplora gli effetti percepiti di queste abitudini sul posto di lavoro. È stato somministrato un questionario a un campione di 1027 dipendenti distribuiti in tutta Italia. Il questionario comprendeva 18 item che valutavano quattro aree principali: l'uso della lettura per lo sviluppo professionale, la lettura per piacere, la pratica della lettura ad alta voce ai bambini e le abitudini generali di lettura. I risultati rivelano che la maggior parte dei dipendenti legge principalmente per piacere e solo una piccola parte utilizza la lettura come strumento di sviluppo professionale. Tuttavia, la lettura per piacere sembra offrire vantaggi significativi sul posto di lavoro, contribuendo a migliorare il benessere personale, le prestazioni lavorative e le relazioni interpersonali tra colleghi. Inoltre, lo studio mostra che le abitudini di lettura sono legate al titolo di studio: i laureati tendono a leggere più frequentemente e a riportare maggiori benefici dalle loro abitudini di lettura. L'analisi evidenzia l'assenza di correlazioni significative tra la lettura per lo sviluppo professionale e quella per il piacere, suggerendo che mentre la lettura per il piacere è ampiamente apprezzata per il suo impatto positivo sul benessere e sulle dinamiche del luogo di lavoro, la lettura per lo sviluppo professionale potrebbe non essere altrettanto profondamente integrata nelle pratiche lavorative quotidiane dei dipendenti. Nel complesso, lo studio propone che la promozione della lettura, soprattutto quella per diletto, all'interno del luogo di lavoro potrebbe favorire una un maggiore benessere dei dipendenti, migliorare le dinamiche di gruppo e avere potenziali implicazioni per i programmi di formazione aziendale."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "abitudini di lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "abitudini di lettura"
+          }
+        },
+        {
+          "content": "lettura per piacere",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura per piacere"
+          }
+        },
+        {
+          "content": "benessere aziendale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "benessere aziendale"
+          }
+        },
+        {
+          "content": "formazione aziendale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "formazione aziendale"
+          }
+        },
+        {
+          "content": "questionario",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "questionario"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7607/6786",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7607/6786",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7607/6786",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-01-20",
+        "mod_date": "2025-01-20"
+      },
+      "front_text_excerpt": "ABSTRACT The article examines the reading habits of TIM employees and explores the perceived effects of these habits within the workplac e. A ques- tionnaire was administered to a sample of 1027 employees distributed across Italy. The questionnaire included 18 items that ass essed four main areas: the use of reading for professional development, reading for pleasure, the practice of reading aloud to children, a nd general reading habits. The findings reveal that while the majority of employees engage in reading primarily for pleasure, and only a small proportion use reading as a tool for professional development. However, reading for pleasure appears to offer significant benefits in the workplace, con- tributing to improved personal well-being, increased work performance, and enhanced interpersonal relationships among colleague s. Ad- ditionally, the study shows that reading habits are linked to educational qualifications: university graduates tend to read more frequently and report greater benefits from their reading habits. The analysis highlights the absence of significant correlations between reading for professional development and reading for pleasure, suggesting that while reading for pleasure is widely valued for its positive impact on we ll-being and workplace dynamics, reading for professional development may not be as deeply integrated into employees’ daily work practices. Overall, the study proposes that promoting reading – especially for pleasure – within the workplace could foster greater employee well-being, improve team dynamics, and have potential implications for corporate training programs. Keywords: Reading habits, workplace well-being, reading for pleasure, reading education, corporate training L ’articolo analizza le abitudini di lettura dei dipendenti di TIM ed esplora gli effetti percepiti di queste abitudini nell’ambiente di lavoro. È stato somministrato un questionario a un campione di 1027 dipendenti distribuiti su tutto il territorio italiano. Il questionario comprendeva 18 domande volte a valutare quattro aree principali: l’uso della lettura per lo sviluppo professionale, la lettura per piacere, la pratica della lettura ad alta voce ai bambini e le abitudini di lettura generali. I risultati rivelano che, mentre la maggioranza dei dipende nti legge princi- palmente per piacere, solo una piccola parte utilizza la lettura come strumento per lo sviluppo professionale. T uttavia, la lettura per piacere sembra offrire benefici significativi sul posto di lavoro, contribuendo a migliorare il benessere personale, le prestazioni lavorative e le relazioni interpersonali tra colleghi. Inoltre, lo studio mostra che le abitudini di lettura sono correlate al livello di istruzione: i l aureati tendono a leggere con maggiore frequenza e a riportare benefici più evidenti derivanti dalle loro abitudini di lettura. L ’analisi evidenzia l’assenza di cor- relazioni significative tra la lettura per lo sviluppo professionale e la lettura per piacere, suggerendo che, sebbene la lettura per piacere sia am- piamente apprezzata per il suo impatto positivo sul benessere e sulle dinamiche lavorative, la lettura per lo sviluppo professi onale potrebbe non essere altrettanto integrata nelle pratiche quotidiane dei dipendenti. Nel complesso, lo studio propone che promuovere la l ettura – so- prattutto per piacere –nel contesto lavorativo potrebbe favorire un maggiore benessere dei dipendenti, migliorare le dinamiche di squadra e avere potenziali implicazioni per i programmi di formazione aziendale. Parole chiave: Abitudini di lettura, benessere sul posto di lavoro, lettura per piacere, educazione alla lettura, formazione aziendale Citation: Di Nicola, P ., & Laudadio, A. (2024). Lettura e organizzazioni: primi risultati di un questionario. Effetti di Lettura / Effects of Reading, 3(2), 20-29. https://doi.org/10.7347/EdL-02-2024-02. Corresponding Author: Paolo Di Nicola | paolo.dinicola@dottorandi.unipg.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2024-02 Authorship/Attribuzioni: A Paolo Di Nicola sono da attribuire i paragrafi 2-3-4, ad Andrea Laudadio i paragrafi 1 e 5. Paolo Di Nicola PhD student | Università degli studi di Perugia | paolo.dinicola@dottorandi.unipg.it Andrea Laudadio Head of TIM Academy & Development | TIM S.p.A., Roma | andrea@laudadio.it Double blind peer review Lettura e organizzazioni: primi risultati di un questionario Reading and corporations: first results of a questionnaire Volume 3 | n. 2 | dicembre 2024 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7607\\2785-7050_7607.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Paolo Di Nicola, Andrea Laudadio",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Paolo Di Nicola, Andrea Laudadio",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Lettura e organizzazioni: primi risultati di un questionario",
+        "pdf_value": null,
+        "chosen_value": "Lettura e organizzazioni: primi risultati di un questionario",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-11-25",
+        "pdf_value": null,
+        "chosen_value": "2024-11-25",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Paolo Di Nicola, Andrea Laudadio",
+        "pdf_value": null,
+        "chosen_value": "Paolo Di Nicola, Andrea Laudadio",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Paolo Di Nicola, Andrea Laudadio",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Lettura e organizzazioni: primi risultati di un questionario | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7607",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7607",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:48:09Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:48:11Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7607",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7607",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7607",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7607",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7607\\2785-7050_7607.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:48:16Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7607\\2785-7050_7607.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Lettura e organizzazioni: primi risultati di un questionario",
+        "submitted_date": "2024-11-25",
+        "accepted_date": null,
+        "copyright_holder": "Paolo Di Nicola, Andrea Laudadio",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Paolo Di Nicola",
+          "Andrea Laudadio"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7607\\2785-7050_7607.pdf",
+        "generated_at_utc": "2026-04-27T18:48:16Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-01-20",
+          "mod_date": "2025-01-20"
+        },
+        "front_text_excerpt": "ABSTRACT The article examines the reading habits of TIM employees and explores the perceived effects of these habits within the workplac e. A ques- tionnaire was administered to a sample of 1027 employees distributed across Italy. The questionnaire included 18 items that ass essed four main areas: the use of reading for professional development, reading for pleasure, the practice of reading aloud to children, a nd general reading habits. The findings reveal that while the majority of employees engage in reading primarily for pleasure, and only a small proportion use reading as a tool for professional development. However, reading for pleasure appears to offer significant benefits in the workplace, con- tributing to improved personal well-being, increased work performance, and enhanced interpersonal relationships among colleague s. Ad- ditionally, the study shows that reading habits are linked to educational qualifications: university graduates tend to read more frequently and report greater benefits from their reading habits. The analysis highlights the absence of significant correlations between reading for professional development and reading for pleasure, suggesting that while reading for pleasure is widely valued for its positive impact on we ll-being and workplace dynamics, reading for professional development may not be as deeply integrated into employees’ daily work practices. Overall, the study proposes that promoting reading – especially for pleasure – within the workplace could foster greater employee well-being, improve team dynamics, and have potential implications for corporate training programs. Keywords: Reading habits, workplace well-being, reading for pleasure, reading education, corporate training L ’articolo analizza le abitudini di lettura dei dipendenti di TIM ed esplora gli effetti percepiti di queste abitudini nell’ambiente di lavoro. È stato somministrato un questionario a un campione di 1027 dipendenti distribuiti su tutto il territorio italiano. Il questionario comprendeva 18 domande volte a valutare quattro aree principali: l’uso della lettura per lo sviluppo professionale, la lettura per piacere, la pratica della lettura ad alta voce ai bambini e le abitudini di lettura generali. I risultati rivelano che, mentre la maggioranza dei dipende nti legge princi- palmente per piacere, solo una piccola parte utilizza la lettura come strumento per lo sviluppo professionale. T uttavia, la lettura per piacere sembra offrire benefici significativi sul posto di lavoro, contribuendo a migliorare il benessere personale, le prestazioni lavorative e le relazioni interpersonali tra colleghi. Inoltre, lo studio mostra che le abitudini di lettura sono correlate al livello di istruzione: i l aureati tendono a leggere con maggiore frequenza e a riportare benefici più evidenti derivanti dalle loro abitudini di lettura. L ’analisi evidenzia l’assenza di cor- relazioni significative tra la lettura per lo sviluppo professionale e la lettura per piacere, suggerendo che, sebbene la lettura per piacere sia am- piamente apprezzata per il suo impatto positivo sul benessere e sulle dinamiche lavorative, la lettura per lo sviluppo professi onale potrebbe non essere altrettanto integrata nelle pratiche quotidiane dei dipendenti. Nel complesso, lo studio propone che promuovere la l ettura – so- prattutto per piacere –nel contesto lavorativo potrebbe favorire un maggiore benessere dei dipendenti, migliorare le dinamiche di squadra e avere potenziali implicazioni per i programmi di formazione aziendale. Parole chiave: Abitudini di lettura, benessere sul posto di lavoro, lettura per piacere, educazione alla lettura, formazione aziendale Citation: Di Nicola, P ., & Laudadio, A. (2024). Lettura e organizzazioni: primi risultati di un questionario. Effetti di Lettura / Effects of Reading, 3(2), 20-29. https://doi.org/10.7347/EdL-02-2024-02. Corresponding Author: Paolo Di Nicola | paolo.dinicola@dottorandi.unipg.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2024-02 Authorship/Attribuzioni: A Paolo Di Nicola sono da attribuire i paragrafi 2-3-4, ad Andrea Laudadio i paragrafi 1 e 5. Paolo Di Nicola PhD student | Università degli studi di Perugia | paolo.dinicola@dottorandi.unipg.it Andrea Laudadio Head of TIM Academy & Development | TIM S.p.A., Roma | andrea@laudadio.it Double blind peer review Lettura e organizzazioni: primi risultati di un questionario Reading and corporations: first results of a questionnaire Volume 3 | n. 2 | dicembre 2024 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "3. Risultati Per quanto riguarda la lettura per aggiornamento professionale i soggetti alla domanda “Per aggiornarmi sulle tematiche di lavoro leggo libri” ottengono un punteggio medio di 2,49 (SD = 1,211) mostrando di- saccordo (Tabella 1). Osservando la distribuzione delle frequenze (Fig. 1) si nota che la maggior parte dei soggetti, il 53,4% del totale, esprime un parere negativo. I punteggi medi alle altre domande riguardo questa tematica si comportano in modo analogo. Infatti i partecipanti esprimono un accordo moderato per le domande “Penso che libri sulle tematiche di lavoro possano aiutarmi a risolvere i problemi quotidiani nel mio lavoro” (M = 2,81; SD = 1,187) e “I libri sulle tematiche di lavoro mi aiutano a sentirmi efficace e preparata/o” (M = 2,71; SD = 1,23). Si mostrano più in disaccordo invece per la domanda “I libri sulle tematiche di lavoro mi aiutano ad interagire efficacemente con le colleghe e i colleghi” (M = 2,52; SD = 1,163). Tabella 1. Statistiche descrittive Figura 1. Per aggiornarmi sulle tematiche di lavoro leggo libri (frequenze) Per quanto riguarda la lettura per piacere, essa risulta essere un’attività amata dai dipendenti, infatti la media dei punteggi per la domanda “Leggo libri per piacere” è di 4,22 (SD = 1,016). Inoltre la maggior parte dei soggetti dichiara di essere completamente d’accordo (Fig. 2). Media Deviazione standard Per aggiornarmi sulle tematiche di lavoro leggo libri 2,49 1,211 Penso che libri sulle tematiche di lavoro possano aiutarmi a risolvere i pro- blemi quotidiani nel mio lavoro 2,81 1,187 I libri sulle tematiche di lavoro mi aiutano a sentirmi efficace e preparata/o 2,71 1,23 I libri sulle tematiche di lavoro mi aiutano ad interagire efficacemente con le colleghe e i colleghi 2,52 1,163 ! 22 Volume 3 | n. 2 | dicembre 2024 | pp. 20-29Effetti di Lettura Effects of Reading",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Lettura e organizzazioni: primi risultati di un questionario",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Lettura e organizzazioni: primi risultati di un questionario",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-11-25",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-11-25",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Paolo Di Nicola, Andrea Laudadio",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Paolo Di Nicola, Andrea Laudadio",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7607\\2785-7050_7607.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Lettura e organizzazioni: primi risultati di un questionario",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading and corporations: first results of a questionnaire",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading and corporations: first results of a questionnaire",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The article examines the reading habits of TIM employees and explores the perceived effects of these habits within the workplace. A questionnaire was administer",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L'articolo esamina le abitudini di lettura dei dipendenti TIM ed esplora gli effetti percepiti di queste abitudini sul posto di lavoro. È stato somministrato un",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

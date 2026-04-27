@@ -1,0 +1,966 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5718",
+  "scraped_at_utc": "2026-04-27T18:45:11Z",
+  "fetched_at_utc": "2026-04-27T18:45:11Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "e86b7d3c25c75775c1a85dba64e900ee74f10b036dad4e6153b9f2c9f4c73941",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Daniela Robasto",
+        "nameType": "Personal",
+        "givenName": "Daniela",
+        "familyName": "Robasto",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Professor (Associate) Experimental Pedagogy | University Of Turin"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Aurora Castellani",
+        "nameType": "Personal",
+        "givenName": "Aurora",
+        "familyName": "Castellani",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research fellow | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Giulia Barbisoni",
+        "nameType": "Personal",
+        "givenName": "Giulia",
+        "familyName": "Barbisoni",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research fellow | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5718",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-30",
+      "Issued": "2022-06-30"
+    },
+    "language": {
+      "value": "en",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "In an extremely complex framework such as the Italian education system, which moves between innovative impulses and a tendency towards conservation, emerges the need to promote teaching practices that make it possible to increase literacy levels from early childhood. This study fits into this panorama, within the broader context of ‘Leggere: Forte! Ad alta voce fa crescere l’intelligenza’, an educational policy promoted by the Tuscany Region in collaboration with the University of Perugia. The purpose of this study is to investigate what emerged from the subjective perceptions of educators and teachers who joined the action-research project, systematically and intensively reading aloud to chil-dren aged 0-6 in various educational services, through the analysis of a monitoring tool: an ongoing semi-structured diary. This study also aims to understand whether the subjective perceptions of educators provide support to the evidence in the literature on the positive effects of reading aloud in the development of pre-school children. The diaries compiled by educators provided important insights with respect to the improvement of different dimensions perceived as related to the practice of reading aloud: cognitive, emotive-relational, linguistic and interest. Finally, limitations, implications and and future prospects of the present study will be discussed.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "In un contesto estremamente complesso come quello del sistema educativo italiano, che si muove tra impulsi innovativi e una tendenza al conservatorismo, emerge la necessità di promuovere pratiche didattiche che consentano di aumentare i livelli di alfabetizzazione fin dalla prima infanzia. Il presente studio si inserisce in questo panorama, all’interno del contesto più ampio di “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”, una politica educativa promossa dalla Regione Toscana in collaborazione con l’Università di Perugia. Lo scopo dello studio è investigare ciò che è emerso dalle percezioni soggettive degli educatori e degli insegnanti che hanno partecipato al progetto di ricerca-azione, leggendo in modo sistematico e intensivo ad alta voce a bambini dai 0 ai 6 anni in vari servizi educativi, attraverso l’analisi di uno strumento di monitoraggio: un diario semistrutturato continuativo. Lo studio mira anche a comprendere se le percezioni soggettive degli educatori supportino le evidenze presenti nella letteratura riguardo agli effetti positivi della lettura ad alta voce nello sviluppo dei bambini in età prescolare. I diari compilati dagli educatori hanno fornito importanti spunti riguardo al miglioramento di diverse dimensioni percepite come correlate alla pratica della lettura ad alta voce: cognitive, emotivo-relazionali, linguistiche e di interesse. Infine, verranno discussi i limiti, le implicazioni e le prospettive future del presente studio.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2022-05",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "1",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "diario semi-strutturato",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "politica educativa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "effetti della lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "semi-structured diary",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "educational policy",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "effects of reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5718/4913",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "1",
+      "citationIssue": "1",
+      "citationStartPage": "055",
+      "citationEndPage": "075",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Robasto, D., Castellani , A., & Barbisoni , G. (2022). Benefici percepiti della lettura ad alta voce in età prescolare: analisi di uno strumento di monitoraggio per la fascia d’età 0-6. Effetti Di Lettura / Effects of Reading , 1 (1), 055–075. https://doi.org/10.7347/EdL-01-2022-05",
+      "articleTitleEcho": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_5718",
+    "article_ID": "5718",
+    "slug": "5718",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "5718",
+      "url_slug": "5718"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Benefici percepiti della lettura ad alta voce in età prescolare: analisi di uno strumento di monitoraggio per la fascia d’età 0-6",
+        "lang": "it",
+        "role": "main",
+        "source": "locale:it_IT:meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en",
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-07-11",
+      "accepted": null,
+      "created": "2022-06-30",
+      "modified": "2024-06-24",
+      "issued": "2022-06-30",
+      "available": "2022-06-30",
+      "submitted_page": "2022-07-11",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+        "pdf_value": null,
+        "chosen_value": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5718/4913",
+      "local_relative_path": "2785-7050_5718.pdf",
+      "saved": true,
+      "sha256": "d86aa7b46d88c0f8c988d1553fa689c0aad72b706895800d2b0fbfd54355a9ea",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 46791973,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Daniela Robasto",
+        "Aurora Castellani",
+        "Giulia Barbisoni"
+      ],
+      "citation_author_institution": [
+        "Professor (Associate) Experimental Pedagogy | University Of Turin",
+        "Research fellow | University of Perugia",
+        "Research fellow | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2022/06/30"
+      ],
+      "citation_volume": [
+        "1"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2022-05"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5718"
+      ],
+      "citation_keywords": [
+        "Lettura ad alta voce",
+        "diario semi-strutturato",
+        "politica educativa",
+        "effetti della lettura ad alta voce"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/5718/4913"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2022-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-07-11"
+      ],
+      "DC.Date.issued": [
+        "2022-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-24"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "5718"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2022-05"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5718"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "1"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "Benefici percepiti della lettura ad alta voce in età prescolare: analisi di uno strumento di monitoraggio per la fascia d’età 0-6"
+      ],
+      "DC.Title.Alternative": [
+        "Benefici percepiti della lettura ad alta voce in età prescolare: analisi di uno strumento di monitoraggio per la fascia d’età 0-6"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Daniela Robasto",
+        "Aurora Castellani",
+        "Giulia Barbisoni"
+      ],
+      "citation_author_institution": [
+        "Professor (Associate) Experimental Pedagogy | University Of Turin",
+        "Research fellow | University of Perugia",
+        "Research fellow | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Daniela Robasto",
+        "Aurora Castellani",
+        "Giulia Barbisoni"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "In an extremely complex framework such as the Italian education system, which moves between innovative impulses and a tendency towards conservation, emerges the need to promote teaching practices that make it possible to increase literacy levels from early childhood. This study fits into this panorama, within the broader context of ‘Leggere: Forte! Ad alta voce fa crescere l’intelligenza’, an educational policy promoted by the Tuscany Region in collaboration with the University of Perugia. The purpose of this study is to investigate what emerged from the subjective perceptions of educators and teachers who joined the action-research project, systematically and intensively reading aloud to chil-dren aged 0-6 in various educational services, through the analysis of a monitoring tool: an ongoing semi-structured diary. This study also aims to understand whether the subjective perceptions of educators provide support to the evidence in the literature on the positive effects of reading aloud in the development of pre-school children. The diaries compiled by educators provided important insights with respect to the improvement of different dimensions perceived as related to the practice of reading aloud: cognitive, emotive-relational, linguistic and interest. Finally, limitations, implications and and future prospects of the present study will be discussed.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "In an extremely complex framework such as the Italian education system, which moves between innovative impulses and a tendency towards conservation, emerges the need to promote teaching practices that make it possible to increase literacy levels from early childhood. This study fits into this panorama, within the broader context of ‘Leggere: Forte! Ad alta voce fa crescere l’intelligenza’, an educational policy promoted by the Tuscany Region in collaboration with the University of Perugia. The purpose of this study is to investigate what emerged from the subjective perceptions of educators and teachers who joined the action-research project, systematically and intensively reading aloud to chil-dren aged 0-6 in various educational services, through the analysis of a monitoring tool: an ongoing semi-structured diary. This study also aims to understand whether the subjective perceptions of educators provide support to the evidence in the literature on the positive effects of reading aloud in the development of pre-school children. The diaries compiled by educators provided important insights with respect to the improvement of different dimensions perceived as related to the practice of reading aloud: cognitive, emotive-relational, linguistic and interest. Finally, limitations, implications and and future prospects of the present study will be discussed."
+          }
+        },
+        {
+          "content": "In un contesto estremamente complesso come quello del sistema educativo italiano, che si muove tra impulsi innovativi e una tendenza al conservatorismo, emerge la necessità di promuovere pratiche didattiche che consentano di aumentare i livelli di alfabetizzazione fin dalla prima infanzia. Il presente studio si inserisce in questo panorama, all’interno del contesto più ampio di “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”, una politica educativa promossa dalla Regione Toscana in collaborazione con l’Università di Perugia. Lo scopo dello studio è investigare ciò che è emerso dalle percezioni soggettive degli educatori e degli insegnanti che hanno partecipato al progetto di ricerca-azione, leggendo in modo sistematico e intensivo ad alta voce a bambini dai 0 ai 6 anni in vari servizi educativi, attraverso l’analisi di uno strumento di monitoraggio: un diario semistrutturato continuativo. Lo studio mira anche a comprendere se le percezioni soggettive degli educatori supportino le evidenze presenti nella letteratura riguardo agli effetti positivi della lettura ad alta voce nello sviluppo dei bambini in età prescolare. I diari compilati dagli educatori hanno fornito importanti spunti riguardo al miglioramento di diverse dimensioni percepite come correlate alla pratica della lettura ad alta voce: cognitive, emotivo-relazionali, linguistiche e di interesse. Infine, verranno discussi i limiti, le implicazioni e le prospettive future del presente studio.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "In un contesto estremamente complesso come quello del sistema educativo italiano, che si muove tra impulsi innovativi e una tendenza al conservatorismo, emerge la necessità di promuovere pratiche didattiche che consentano di aumentare i livelli di alfabetizzazione fin dalla prima infanzia. Il presente studio si inserisce in questo panorama, all’interno del contesto più ampio di “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”, una politica educativa promossa dalla Regione Toscana in collaborazione con l’Università di Perugia. Lo scopo dello studio è investigare ciò che è emerso dalle percezioni soggettive degli educatori e degli insegnanti che hanno partecipato al progetto di ricerca-azione, leggendo in modo sistematico e intensivo ad alta voce a bambini dai 0 ai 6 anni in vari servizi educativi, attraverso l’analisi di uno strumento di monitoraggio: un diario semistrutturato continuativo. Lo studio mira anche a comprendere se le percezioni soggettive degli educatori supportino le evidenze presenti nella letteratura riguardo agli effetti positivi della lettura ad alta voce nello sviluppo dei bambini in età prescolare. I diari compilati dagli educatori hanno fornito importanti spunti riguardo al miglioramento di diverse dimensioni percepite come correlate alla pratica della lettura ad alta voce: cognitive, emotivo-relazionali, linguistiche e di interesse. Infine, verranno discussi i limiti, le implicazioni e le prospettive future del presente studio."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Lettura ad alta voce"
+          }
+        },
+        {
+          "content": "diario semi-strutturato",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "diario semi-strutturato"
+          }
+        },
+        {
+          "content": "politica educativa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "politica educativa"
+          }
+        },
+        {
+          "content": "effetti della lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "effetti della lettura ad alta voce"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5718/4913",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5718/4913",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5718/4913",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 16.32",
+        "producer": "QuarkXPress(R) 16.32",
+        "keywords": null,
+        "creation_date": "2022-07-20",
+        "mod_date": "2022-07-20"
+      },
+      "front_text_excerpt": "ABSTRACT In an extremely complex framework such as the Italian education system, which moves between in- novative impulses and a tendency towards conservation, emerges the need to promote teaching prac- tices that make it possible to increase literacy levels from early childhood. This study fits into this panorama, within the broader context of ‘Leggere: Forte! Ad alta voce fa crescere l’intelligenza’, an edu- cational policy promoted by the T uscany Region in collaboration with the University of Perugia. The purpose of this study is to investigate what emerged from the subjective perceptions of educators and teachers who joined the action-research project, systematically and intensively reading aloud to chil- dren aged 0-6 in various educational services, through the analysis of a monitoring tool: an ongoing semi-structured diary. This study also aims to understand whether the subjective perceptions of edu- cators provide support to the evidence in the literature on the positive effects of reading aloud in the development of pre-school children. The diaries compiled by educators provided important insights with respect to the improvement of different dimensions perceived as related to the practice of reading aloud: cognitive, emotive-relational, linguistic and interest. Finally, limitations, implications and and future prospects of the present study will be discussed. Keywords: reading aloud, semi-structured diary, educational policy, effects of reading aloud Citation: Robasto, D., Castellani, A., & Barbisoni, G. (2022). Perceived benefits of reading aloud in preschool: analysis of a monitoring tool for the 0-6 age group. Effetti di Lettura / Effects of Reading, 1(1), 55–75. https://doi.org/10.7347/EdL-01-2022-05 Corresponding Author: Daniela Robasto | daniela.robasto@unito.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-05 Daniela Robasto Professor (Associate) Experimental Pedagogy | University Of T urin | daniela.robasto@unito.it Aurora Castellani Research fellow | University of Perugia | aurora.castellani7@gmail.com Giulia Barbisoni Research fellow | University of Perugia | barbisoni.g@gmail.com * This article is the result of the joint work of the authors. §§ 1, 2.1, 2.2 are to be attributed to A. Castellani; § 2.3 is to be attributed to D. Robasto; §§ 3,4 are to be attributed to G. Barbisoni; the § 5 is to be attributed to the joint collaboration of A. Castellani and G. Barbisoni. The entire drafting of the article, the methodological process and the data analysis were carried out under the supervision of D. Robasto. Double blind peer review Perceived benefits of reading aloud in preschool: analysis of a monitoring tool for the 0-6 age group* Benefici percepiti della lettura ad alta voce in età prescolare: analisi di uno strumento di monitoraggio per la fascia d’età 0-6 Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\5718\\2785-7050_5718.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+        "pdf_value": null,
+        "chosen_value": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Benefici percepiti della lettura ad alta voce in età prescolare: analisi di uno strumento di monitoraggio per la fascia d’età 0-6 | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5718",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5718",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:45:11Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:45:13Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5718",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5718",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 4,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5718",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5718",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5718\\2785-7050_5718.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:45:24Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5718\\2785-7050_5718.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+        "submitted_date": "2022-07-11",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "en",
+        "creator_names": [
+          "Daniela Robasto",
+          "Aurora Castellani",
+          "Giulia Barbisoni"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5718\\2785-7050_5718.pdf",
+        "generated_at_utc": "2026-04-27T18:45:24Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 16.32",
+          "producer": "QuarkXPress(R) 16.32",
+          "keywords": null,
+          "creation_date": "2022-07-20",
+          "mod_date": "2022-07-20"
+        },
+        "front_text_excerpt": "ABSTRACT In an extremely complex framework such as the Italian education system, which moves between in- novative impulses and a tendency towards conservation, emerges the need to promote teaching prac- tices that make it possible to increase literacy levels from early childhood. This study fits into this panorama, within the broader context of ‘Leggere: Forte! Ad alta voce fa crescere l’intelligenza’, an edu- cational policy promoted by the T uscany Region in collaboration with the University of Perugia. The purpose of this study is to investigate what emerged from the subjective perceptions of educators and teachers who joined the action-research project, systematically and intensively reading aloud to chil- dren aged 0-6 in various educational services, through the analysis of a monitoring tool: an ongoing semi-structured diary. This study also aims to understand whether the subjective perceptions of edu- cators provide support to the evidence in the literature on the positive effects of reading aloud in the development of pre-school children. The diaries compiled by educators provided important insights with respect to the improvement of different dimensions perceived as related to the practice of reading aloud: cognitive, emotive-relational, linguistic and interest. Finally, limitations, implications and and future prospects of the present study will be discussed. Keywords: reading aloud, semi-structured diary, educational policy, effects of reading aloud Citation: Robasto, D., Castellani, A., & Barbisoni, G. (2022). Perceived benefits of reading aloud in preschool: analysis of a monitoring tool for the 0-6 age group. Effetti di Lettura / Effects of Reading, 1(1), 55–75. https://doi.org/10.7347/EdL-01-2022-05 Corresponding Author: Daniela Robasto | daniela.robasto@unito.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-05 Daniela Robasto Professor (Associate) Experimental Pedagogy | University Of T urin | daniela.robasto@unito.it Aurora Castellani Research fellow | University of Perugia | aurora.castellani7@gmail.com Giulia Barbisoni Research fellow | University of Perugia | barbisoni.g@gmail.com * This article is the result of the joint work of the authors. §§ 1, 2.1, 2.2 are to be attributed to A. Castellani; § 2.3 is to be attributed to D. Robasto; §§ 3,4 are to be attributed to G. Barbisoni; the § 5 is to be attributed to the joint collaboration of A. Castellani and G. Barbisoni. The entire drafting of the article, the methodological process and the data analysis were carried out under the supervision of D. Robasto. Double blind peer review Perceived benefits of reading aloud in preschool: analysis of a monitoring tool for the 0-6 age group* Benefici percepiti della lettura ad alta voce in età prescolare: analisi di uno strumento di monitoraggio per la fascia d’età 0-6 Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "produced by exposure to reading aloud on different dimensions: emotive-relational dimensions such as emotional literacy and understanding and recognition of emotions (Batini, 2018; Batini et al., 2013: Buc- colo, 2017), cognitive dimensions (Batini et al., 2018; Lawson, 2012) and linguistic dimensions (Duursma et al., 2008), both with respect to the expressive level (Baker et al., 2013) and to the receptive level (Al- Mansour, 2011). Based on these evidences, the exposure to reading aloud conducted in a systematic way could also favor the development of many of the skills necessary in the first years of school and beyond (Bartolucci & Batini, 2020), therefore the project proposes the reading of stories made by the teachers. The role of all teachers becomes central: they read aloud to their students, during school hours, from nursery to secondary schools. The proposed method is a flexible practice but based on clear principles (Batini, 2022b): – systematicness: reading is carried out consistently, it is not an occasional activity. It is a practice that cannot be improvised but needs to be carefully planned in the choices, in the methods of conducting, in the spaces and times selected (Batini, 2021b, 2022b; Batini & Giusti, 2021, 2022); frequency: Reading is conducted daily (with a minimum of three sessions per week). This guarantees – its function of growth, development, strengthening (Batini, 2021b, 2022b; Batini & Giusti, 2021); intensity: the duration of the initial sessions is established according to the level of the class group. – Then gradually reading times increase, hopefully arriving at an hour (Batini, 2021b, 2022b; Batini & Giusti, 2021, 2022); progressivity: the progress of the selection of texts starts with simpler and more accessible stories ac-– cording to age, in terms of linguistic complexity, quantity of images, comprehension skills required, and then gradually increases the complexity (Batini, 2021b, 2022b; Batini & Giusti, 2021, 2022); bibliovariety: having a wide range of choices is essential. Allowing students and children to encounter – different types of themes, authors, stories and characters, involve them in choices, probe their tastes and select themes according to the class group is fundamental (Batini, 2021b, 2022b; Batini & Giusti, 2021, 2022). Within the broader context of the educational policy of Leggere: Forte! this research aims to conduct a descriptive analysis, based on the subjective perceptions of educators and teachers who have joined the project by systematically and intensively reading to children of 0-6 years old by means of a shared moni- toring tool that will be presented later: the diary. A further purpose of this study is to understand whether the subjective perceptions of teachers provide support to the evidence in the literature about the effects of reading aloud and to the inclusion of reading aloud, conducted according to the principles listed above, as a teaching practice in educational services for the 0-6 age group. 2. Data collection tools 2.1 Purpose The diary represents a dual function tool: the diary has a reflection and a research function but, first of all, is intended to contribute to personal growth and therefore to the skills development of students, intern and professionals. The diary allows you to focus on specific dimensions and reflect on them during and after the ‘path’ that is taking place. It also allows you to observe yourself and to improve the process of consolidation of learning and of structuring memories. The decision to create and use this tool was there- fore carried out with different goals. First of all, to offer the educational services participating in the project 57 Volume 1 | n. 1 | giugno 202 | pp. 55-75 Effetti di Lettura Effects of Reading",
+        "body_language_guess": "en",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-07-11",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-07-11",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5718\\2785-7050_5718.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Perceived Benefits of Reading Aloud in Preschool: Analysis of a Monitoring Tool for the 0-6 Age Group",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Benefici percepiti della lettura ad alta voce in età prescolare: analisi di uno strumento di monitoraggio per la fascia d’età 0-6",
+            "dropped_source": "meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Benefici percepiti della lettura ad alta voce in età prescolare: analisi di uno strumento di monitoraggio per la fascia d’età 0-6",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "In an extremely complex framework such as the Italian education system, which moves between innovative impulses and a tendency towards conservation, emerges the",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "In un contesto estremamente complesso come quello del sistema educativo italiano, che si muove tra impulsi innovativi e una tendenza al conservatorismo, emerge ",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

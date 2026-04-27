@@ -1,0 +1,929 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7004",
+  "scraped_at_utc": "2026-04-27T18:47:09Z",
+  "fetched_at_utc": "2026-04-27T18:47:08Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "0d5ee03cb743209c0b4e7d622690e588afb84acdbc3a8ffa8a8759614a8604ff",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Simone Giusti",
+        "nameType": "Personal",
+        "givenName": "Simone",
+        "familyName": "Giusti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Senior researcher | Università degli Studi di Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Maria Alessandra Molè",
+        "nameType": "Personal",
+        "givenName": "Maria Alessandra",
+        "familyName": "Molè",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Post-doctoral fellow | Università degli Studi di Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7004",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-12-30",
+      "Issued": "2023-12-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The aim of the article is to focus on the teaching of shared reading aloud as a conversational practice. Through the use of the Conversation Analysis approach, a classroom reading aloud session was observed in detail, focusing on the different strategies and techniques functional to achieving the levels of attention, comprehension and participation necessary for a profitable and effective use of reading aloud.The analysis of some excerpts of the video-recorded reading aloud activity shows how this type of practice can be considered a collaborative activity built step by step by the teacher who reads and dialogues and the students who listen and spontaneously intervene in the dialogue. Conversational analysis also makes it possible to identify and analyse a number of competent behaviours such as the ability to engage by showing pleasure, to engage in dialogue with the audience, to welcome the listener's requests and give feedback, to manage the voice, to create connections between the textual device and the participants' experiential substratum, to solicit imagination and visualisation, and to keep the thread between the different reading sessions.The article confirms the importance of the interactive and performative dimension of this teaching practice, which involves a dialogue on an equal footing between teacher and student and requires a plurality of highly refined skills that are difficult for the teacher to identify. This approach could better help define the profile of the teacher who reads aloud, especially if it is also accompanied by interviews administered to the teacher himself.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Lo scopo dell’articolo è concentrarsi sull’insegnamento della lettura ad alta voce condivisa come pratica conversazionale. Attraverso l’approccio dell’Analisi della Conversazione, è stata osservata in dettaglio una sessione di lettura ad alta voce in classe, concentrandosi sulle diverse strategie e tecniche funzionali per raggiungere i livelli di attenzione, comprensione e partecipazione necessari per un uso proficuo ed efficace della lettura ad alta voce. L’analisi di alcuni estratti dell’attività di lettura ad alta voce registrata mostra come questo tipo di pratica possa essere considerata un’attività collaborativa costruita passo dopo passo dal docente che legge e dialoga e dagli studenti che ascoltano e intervengono spontaneamente nel dialogo. L’analisi conversazionale permette anche di identificare e analizzare una serie di comportamenti competenti come la capacità di coinvolgere mostrando piacere, di dialogare con il pubblico, di accogliere le richieste dell’ascoltatore e fornire feedback, di gestire la voce, di creare collegamenti tra il dispositivo testuale e il substrato esperienziale dei partecipanti, di sollecitare l’immaginazione e la visualizzazione, e di mantenere il filo tra le diverse sessioni di lettura. L’articolo conferma l’importanza della dimensione interattiva e performativa di questa pratica didattica, che implica un dialogo su un piano di parità tra insegnante e studente e richiede una pluralità di competenze altamente raffinate che non sono facili da identificare per il docente. Questo approccio potrebbe contribuire a definire meglio il profilo del docente che legge ad alta voce, specialmente se accompagnato da interviste somministrate allo stesso insegnante.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2023-05",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Lettura ad alta voce condivisa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Analisi della conversazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Shared reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Conversation analysis",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7004/6060",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "2",
+      "citationStartPage": "059",
+      "citationEndPage": "068",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Giusti, S., & Molè , M. A. (2023). La lettura ad alta voce condivisa come conversazione: analisi di una sessione. Effetti Di Lettura / Effects of Reading , 2 (2), 059–068. https://doi.org/10.7347/EdL-02-2023-05",
+      "articleTitleEcho": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7004",
+    "article_ID": "7004",
+    "slug": "7004",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7004",
+      "url_slug": "7004"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Shared reading aloud as conversation: analysis of a session",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-01-31",
+      "accepted": null,
+      "created": "2023-12-30",
+      "modified": "2024-06-25",
+      "issued": "2023-12-30",
+      "available": "2023-12-30",
+      "submitted_page": "2024-01-31",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+        "pdf_value": null,
+        "chosen_value": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-01-31",
+        "pdf_value": null,
+        "chosen_value": "2024-01-31",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7004/6060",
+      "local_relative_path": "2785-7050_7004.pdf",
+      "saved": true,
+      "sha256": "102f2719dcd41c59bb68a08a73d3420da6b48db643b2496c857ffc0a96ae1b04",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1918443,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Simone Giusti",
+        "Maria Alessandra Molè"
+      ],
+      "citation_author_institution": [
+        "Senior researcher | Università degli Studi di Siena",
+        "Post-doctoral fellow | Università degli Studi di Siena"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La lettura ad alta voce condivisa come conversazione: analisi di una sessione"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/12/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2023-05"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7004"
+      ],
+      "citation_keywords": [
+        "Lettura ad alta voce",
+        "Lettura ad alta voce condivisa",
+        "Analisi della conversazione"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7004/6060"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2023-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-01-31"
+      ],
+      "DC.Date.issued": [
+        "2023-12-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7004"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2023-05"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7004"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 3,
+      "DC.Title": [
+        "La lettura ad alta voce condivisa come conversazione: analisi di una sessione"
+      ],
+      "DC.Title.Alternative": [
+        "Shared reading aloud as conversation: analysis of a session"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Simone Giusti",
+        "Maria Alessandra Molè"
+      ],
+      "citation_author_institution": [
+        "Senior researcher | Università degli Studi di Siena",
+        "Post-doctoral fellow | Università degli Studi di Siena"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Simone Giusti",
+        "Maria Alessandra Molè"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The aim of the article is to focus on the teaching of shared reading aloud as a conversational practice. Through the use of the Conversation Analysis approach, a classroom reading aloud session was observed in detail, focusing on the different strategies and techniques functional to achieving the levels of attention, comprehension and participation necessary for a profitable and effective use of reading aloud.The analysis of some excerpts of the video-recorded reading aloud activity shows how this type of practice can be considered a collaborative activity built step by step by the teacher who reads and dialogues and the students who listen and spontaneously intervene in the dialogue. Conversational analysis also makes it possible to identify and analyse a number of competent behaviours such as the ability to engage by showing pleasure, to engage in dialogue with the audience, to welcome the listener's requests and give feedback, to manage the voice, to create connections between the textual device and the participants' experiential substratum, to solicit imagination and visualisation, and to keep the thread between the different reading sessions.The article confirms the importance of the interactive and performative dimension of this teaching practice, which involves a dialogue on an equal footing between teacher and student and requires a plurality of highly refined skills that are difficult for the teacher to identify. This approach could better help define the profile of the teacher who reads aloud, especially if it is also accompanied by interviews administered to the teacher himself.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The aim of the article is to focus on the teaching of shared reading aloud as a conversational practice. Through the use of the Conversation Analysis approach, a classroom reading aloud session was observed in detail, focusing on the different strategies and techniques functional to achieving the levels of attention, comprehension and participation necessary for a profitable and effective use of reading aloud.The analysis of some excerpts of the video-recorded reading aloud activity shows how this type of practice can be considered a collaborative activity built step by step by the teacher who reads and dialogues and the students who listen and spontaneously intervene in the dialogue. Conversational analysis also makes it possible to identify and analyse a number of competent behaviours such as the ability to engage by showing pleasure, to engage in dialogue with the audience, to welcome the listener's requests and give feedback, to manage the voice, to create connections between the textual device and the participants' experiential substratum, to solicit imagination and visualisation, and to keep the thread between the different reading sessions.The article confirms the importance of the interactive and performative dimension of this teaching practice, which involves a dialogue on an equal footing between teacher and student and requires a plurality of highly refined skills that are difficult for the teacher to identify. This approach could better help define the profile of the teacher who reads aloud, especially if it is also accompanied by interviews administered to the teacher himself."
+          }
+        },
+        {
+          "content": "Lo scopo dell’articolo è concentrarsi sull’insegnamento della lettura ad alta voce condivisa come pratica conversazionale. Attraverso l’approccio dell’Analisi della Conversazione, è stata osservata in dettaglio una sessione di lettura ad alta voce in classe, concentrandosi sulle diverse strategie e tecniche funzionali per raggiungere i livelli di attenzione, comprensione e partecipazione necessari per un uso proficuo ed efficace della lettura ad alta voce. L’analisi di alcuni estratti dell’attività di lettura ad alta voce registrata mostra come questo tipo di pratica possa essere considerata un’attività collaborativa costruita passo dopo passo dal docente che legge e dialoga e dagli studenti che ascoltano e intervengono spontaneamente nel dialogo. L’analisi conversazionale permette anche di identificare e analizzare una serie di comportamenti competenti come la capacità di coinvolgere mostrando piacere, di dialogare con il pubblico, di accogliere le richieste dell’ascoltatore e fornire feedback, di gestire la voce, di creare collegamenti tra il dispositivo testuale e il substrato esperienziale dei partecipanti, di sollecitare l’immaginazione e la visualizzazione, e di mantenere il filo tra le diverse sessioni di lettura. L’articolo conferma l’importanza della dimensione interattiva e performativa di questa pratica didattica, che implica un dialogo su un piano di parità tra insegnante e studente e richiede una pluralità di competenze altamente raffinate che non sono facili da identificare per il docente. Questo approccio potrebbe contribuire a definire meglio il profilo del docente che legge ad alta voce, specialmente se accompagnato da interviste somministrate allo stesso insegnante.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Lo scopo dell’articolo è concentrarsi sull’insegnamento della lettura ad alta voce condivisa come pratica conversazionale. Attraverso l’approccio dell’Analisi della Conversazione, è stata osservata in dettaglio una sessione di lettura ad alta voce in classe, concentrandosi sulle diverse strategie e tecniche funzionali per raggiungere i livelli di attenzione, comprensione e partecipazione necessari per un uso proficuo ed efficace della lettura ad alta voce. L’analisi di alcuni estratti dell’attività di lettura ad alta voce registrata mostra come questo tipo di pratica possa essere considerata un’attività collaborativa costruita passo dopo passo dal docente che legge e dialoga e dagli studenti che ascoltano e intervengono spontaneamente nel dialogo. L’analisi conversazionale permette anche di identificare e analizzare una serie di comportamenti competenti come la capacità di coinvolgere mostrando piacere, di dialogare con il pubblico, di accogliere le richieste dell’ascoltatore e fornire feedback, di gestire la voce, di creare collegamenti tra il dispositivo testuale e il substrato esperienziale dei partecipanti, di sollecitare l’immaginazione e la visualizzazione, e di mantenere il filo tra le diverse sessioni di lettura. L’articolo conferma l’importanza della dimensione interattiva e performativa di questa pratica didattica, che implica un dialogo su un piano di parità tra insegnante e studente e richiede una pluralità di competenze altamente raffinate che non sono facili da identificare per il docente. Questo approccio potrebbe contribuire a definire meglio il profilo del docente che legge ad alta voce, specialmente se accompagnato da interviste somministrate allo stesso insegnante."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Lettura ad alta voce"
+          }
+        },
+        {
+          "content": "Lettura ad alta voce condivisa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Lettura ad alta voce condivisa"
+          }
+        },
+        {
+          "content": "Analisi della conversazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Analisi della conversazione"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7004/6060",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7004/6060",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7004/6060",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2024-02-01",
+        "mod_date": "2024-02-01"
+      },
+      "front_text_excerpt": "ABSTRACT The aim of the article is to focus on the teaching of shared reading aloud as a conversational practice. Through the use of the Conversation Analysis approach, a classroom reading aloud session was ob - served in detail, focusing on the different strategies and techniques functional to achieving the levels of attention, comprehension and participation necessary for a profitable and effective use of reading aloud. The analysis of some excerpts of the video-recorded reading aloud activity shows how this type of practice can be considered a collaborative activity built step by step by the teacher who reads and dialogues and the students who listen and spontaneously intervene in the dialogue. Conversational analysis also makes it possible to identify and analyse a number of competent behaviours such as the ability to engage by showing pleasure, to engage in dialogue with the audience, to welcome the lis - tener's requests and give feedback, to manage the voice, to create connections between the textual device and the participants' experiential substratum, to solicit imagination and visualisation, and to keep the thread between the different reading sessions. The article confirms the importance of the interactive and performative dimension of this teaching practice, which involves a dialogue on an equal footing between teacher and student and requires a plurality of highly refined skills that are difficult for the teacher to identify. This approach could better help define the profile of the teacher who reads aloud, especially if it is also accompanied by interviews administered to the teacher himself. Keywords: Reading aloud, Shared reading aloud, Conversation analysis Citation: Giusti, S., & Molè, M.A. (2023). Shared reading aloud as conversation: analysis of a session. Effetti di Lettura / Effects of Reading, 2(2), 59-68. https://doi.org/10.7347/EdL-02-2023-05. Corresponding Author: Simone Giusti | simone.giusti@unisi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-05 Authorship: Il presente contributo è frutto di un lavoro comune. Ai soli fini dell’identificazione delle parti, laddove richiesto, si precisa che sono da attribuire a Simone Giusti i paragrafi 1 e 4, e a Alessandra Molè i paragrafi 2 e 3. Simone Giusti Senior researcher | Università degli Studi di Siena | simone.giusti@unisi.it Maria Alessandra Molè Post-doctoral fellow | Università degli Studi di Siena | mariaalessand.mole@unisi.it Double blind peer review Shared reading aloud as conversation: analysis of a session La lettura ad alta voce condivisa come conversazione: analisi di una sessione Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7004\\2785-7050_7004.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+        "pdf_value": null,
+        "chosen_value": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-01-31",
+        "pdf_value": null,
+        "chosen_value": "2024-01-31",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7004",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7004",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:47:08Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:47:11Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7004",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7004",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 3,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7004",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7004",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7004\\2785-7050_7004.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:47:13Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7004\\2785-7050_7004.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+        "submitted_date": "2024-01-31",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Simone Giusti",
+          "Maria Alessandra Molè"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7004\\2785-7050_7004.pdf",
+        "generated_at_utc": "2026-04-27T18:47:13Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2024-02-01",
+          "mod_date": "2024-02-01"
+        },
+        "front_text_excerpt": "ABSTRACT The aim of the article is to focus on the teaching of shared reading aloud as a conversational practice. Through the use of the Conversation Analysis approach, a classroom reading aloud session was ob - served in detail, focusing on the different strategies and techniques functional to achieving the levels of attention, comprehension and participation necessary for a profitable and effective use of reading aloud. The analysis of some excerpts of the video-recorded reading aloud activity shows how this type of practice can be considered a collaborative activity built step by step by the teacher who reads and dialogues and the students who listen and spontaneously intervene in the dialogue. Conversational analysis also makes it possible to identify and analyse a number of competent behaviours such as the ability to engage by showing pleasure, to engage in dialogue with the audience, to welcome the lis - tener's requests and give feedback, to manage the voice, to create connections between the textual device and the participants' experiential substratum, to solicit imagination and visualisation, and to keep the thread between the different reading sessions. The article confirms the importance of the interactive and performative dimension of this teaching practice, which involves a dialogue on an equal footing between teacher and student and requires a plurality of highly refined skills that are difficult for the teacher to identify. This approach could better help define the profile of the teacher who reads aloud, especially if it is also accompanied by interviews administered to the teacher himself. Keywords: Reading aloud, Shared reading aloud, Conversation analysis Citation: Giusti, S., & Molè, M.A. (2023). Shared reading aloud as conversation: analysis of a session. Effetti di Lettura / Effects of Reading, 2(2), 59-68. https://doi.org/10.7347/EdL-02-2023-05. Corresponding Author: Simone Giusti | simone.giusti@unisi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-05 Authorship: Il presente contributo è frutto di un lavoro comune. Ai soli fini dell’identificazione delle parti, laddove richiesto, si precisa che sono da attribuire a Simone Giusti i paragrafi 1 e 4, e a Alessandra Molè i paragrafi 2 e 3. Simone Giusti Senior researcher | Università degli Studi di Siena | simone.giusti@unisi.it Maria Alessandra Molè Post-doctoral fellow | Università degli Studi di Siena | mariaalessand.mole@unisi.it Double blind peer review Shared reading aloud as conversation: analysis of a session La lettura ad alta voce condivisa come conversazione: analisi di una sessione Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "dividuata una docente esperta in questo tipo di attività, selezionata per la sua capacità di curare in modo minuzioso l’esecuzione della narrazione, talvolta registrando la lettura e riascoltandola, per poter fare sempre meglio, in modo tale da rendere questa pratica una potente esperienza interattiva di apprendimento e di condivisione in classe1. Avere una docente che dialoga in modo intenzionale e competente con la classe è di fondamentale importanza per guidare chi ascolta nell’esperienza della lettura (Batini & Giusti, 2022, pp. 82-88). Le riprese si sono concentrate sui processi generali della classe, piuttosto che sui singoli alunni. Pertanto, il filmato mostra solo le attività dell’intero gruppo e non identificano i singoli studenti nelle riprese. Questo modo di operare può essere considerata una micro-etnografia, un’analisi approfondita di una situazione non influenzata dal ricercatore per osservare e studiare “grandi questioni sociali attraverso l’esame di ‘piccoli’ comportamenti comunicativi” (LeBaron, 2005). La videocamera fissa è stata posizionata sul cavalletto in modo tale da riprendere l’intera classe. La pre- senza di un dispositivo di registrazione nel contesto oggetto dello studio e l’inclusione della ricercatrice durante le attività possono potenzialmente influenzare i comportamenti degli studenti. Potrebbe accadere, infatti, che i partecipanti controllino i loro comportamenti alla presenza del videoregistratore e possano assumere una condotta non naturale. T uttavia, quando i partecipanti sono coinvolti nelle attività cui pren- dono parte, quando sono impegnati a vivere quel determinato momento, solitamente, tendono a dimen- ticare la presenza della videocamera. Ed è quello che si è verificato in aula. La videocamera, nonostante tagli la realtà a seconda degli scopi del ricercatore, è in grado di catturare le differenti risorse multimodali dei partecipanti, ma tiene conto anche della dimensione spaziale dell’interazione e il suo inserimento nella materialità del contesto. Per la fase di analisi sono stati selezionati alcuni momenti della videoregistrazione in base alla loro capacità di fornire informazioni preziose in relazione al tema dell’articolo. Per la trascrizione degli estratti è stata utilizzata l’Analisi della Conversazione (AC), un programma di ricerca che si affermato tra il 1960 e il 1970 negli Stati Uniti grazie agli studi del sociologo Harvey Sacks e dei suoi collaboratori Emanuel Schegloff e Gail Jefferson. L ’oggetto di studio dell’AC è proprio la conversazione naturale (Sacks, 1992) e come questa venga co-costruita in maniera collaborativa dai partecipanti a un’interazione per vi- sualizzare le temporalità del flusso interazionale e cercare di posizionare il contributo di ciascun partecipante nell’attività che si sta svolgendo in quel momento dato (Spreafico & Molè, 2020). In questo caso viene posta l’attenzione non solo sulle risorse del parlato dei partecipanti – in particolare gli aspetti prosodici, le sovrapposizioni, il tono della voce e il suo prolungamento in determinati momenti – ma anche sugli aspetti non verbali i quali, se mobilitati insieme, possono essere strumenti essenziali per il coordinamento delle azioni sociali tra gli attori. La grande quantità di risorse non verbali messe in atto dagli studenti durante le sessioni di lettura ad alta voce possono dispiegarsi insieme e essere osservate nella loro sequenzialita: gesti, sguardi e movimenti corporei, che costituiscono tanti tipi diversi di azioni, non si verificano nello stesso momento ma sono distribuiti nel tempo, in certi momenti del racconto. Il movimento di certi mu- scoli, le posizioni del corpo, le posture, lo sguardo sono tutti micro aspetti legati non solo a una sociologia del corpo ma anche variabili che influiscono sul modo in cui l’attività della lettura viene accolta e presa in carico dallo studente (Garritano, 2023). Così, la visione di una seduta di lettura videoregistrata permette di descrivere il comportamen",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-01-31",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-01-31",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7004\\2785-7050_7004.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura ad alta voce condivisa come conversazione: analisi di una sessione",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Shared reading aloud as conversation: analysis of a session",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Shared reading aloud as conversation: analysis of a session",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The aim of the article is to focus on the teaching of shared reading aloud as a conversational practice. Through the use of the Conversation Analysis approach, ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Lo scopo dell’articolo è concentrarsi sull’insegnamento della lettura ad alta voce condivisa come pratica conversazionale. Attraverso l’approccio dell’Analisi d",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

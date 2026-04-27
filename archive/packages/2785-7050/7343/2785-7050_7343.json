@@ -1,0 +1,937 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7343",
+  "scraped_at_utc": "2026-04-27T18:47:39Z",
+  "fetched_at_utc": "2026-04-27T18:47:39Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "1df78426d1469b307989d60a70b6aa20622a42b2bb85faf523b481feeca3c91b",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Veronica Lipari",
+        "nameType": "Personal",
+        "givenName": "Veronica",
+        "familyName": "Lipari",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "indipendent researcher"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Rosario Salvato",
+        "nameType": "Personal",
+        "givenName": "Rosario",
+        "familyName": "Salvato",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7343",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2024-05-29",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2024-05-29",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2024-05-29",
+      "Issued": "2024-05-29"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "This study aims to relate shared read-aloud activities to the socio-emotional and prosocial skills of men and women with disabilities. The research involved a two-month read-aloud training session held at the “Orti Felici” Communal Greenhouse in Umbertide (PG), a branch of the Arcobaleno socio-rehabilitative educational center. A group of seven adults with disabilities was selected, who daily, alongside educators, engage in the cultivation of plants and vegetables. This group exhibited particularly complex social dynamics, characterized by confrontations due to the very different personalities of the participants. Given the recognized benefits of shared read-aloud practices, it was therefore very interesting to conduct shared read-aloud training to test its effects on the group's prosocial behavior. Given the group's specific needs, the effects were measured using a checklist with ad hoc defined indicators, and the bibliography for the texts was chosen by selecting simple books with many images and, in some cases, written with symbols of Augmentative and Alternative Communication. The shared read-aloud training took place during times when the participants were not engaged in educational activities, thus either just before or just after lunch. Given the participants' relatively low attention span, in the initial days, the reading activity lasted only a few minutes, later extending up to 20 minutes. The outcome of the research confirms that shared read-aloud is undoubtedly beneficial in multiple contexts, as it has shown a marked improvement in attention span and the social dynamics of the group involved.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Questo studio si pone l’obiettivo di mettere in relazione la lettura ad alta voce condivisa con le competenze socio-emotive e prosociali di uomini e donne con disabilità. La ricerca ha previsto un training di lettura ad alta voce della durata di due mesi presso la Serra Comunale “Orti Felici” di Umbertide (PG), distaccamento del centro socio-riabilitativo educativo Arcobaleno. E’ stato selezionato un gruppo di sette adulti e adulte con disabilità, che quotidianamente, affiancati dagli educatori, si dedica alla coltivazione di piante e ortaggi. In questo gruppo le dinamiche sociali al suo interno erano particolarmente complesse, caratterizzate da situazioni di scontro dovute ai caratteri molto diversi dei ragazzi. A partire dai benefici riconosciuti della pratica della lettura ad alta voce condivisa, è stato, pertanto, molto interessante svolgere un training di lettura ad alta voce condivisa per testare gli effetti sulla prosocialità del gruppo. Data la specificità del gruppo, gli effetti sono stati misurati tramite una check list con indicatori definiti ad hoc e la bibliografia relativa ai testi da proporre è stata individuata selezionando libri semplici con molte immagini e, in alcuni casi, scritti con i simboli della Comunicazione Aumentativa Alternativa. Il training di lettura ad alta voce condivisa si è svolto nei momenti dove i ragazzi non erano impegnati nelle attività educative, quindi subito prima o subito dopo il pranzo. Essendo la soglia dell'attenzione dei ragazzi piuttosto bassa, nei primi giorni l’attività di lettura è durata pochi minuti, per poi prolungare i tempi della lettura fino a 20 minuti. Il risultato della ricerca conferma che la lettura ad alta voce condivisa è indubbiamente benefica in più contesti, poiché i ragazzi hanno dimostrato un netto miglioramento della soglia dell’attenzione e delle dinamiche sociali del gruppo coinvolto.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2024-04",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "3",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "disabilità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "prosocialità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "prosocialness",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "disability",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Veronica Lipari, Rosario Salvato",
+      "holder_source": "page",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7343/6284",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "3",
+      "citationIssue": "1",
+      "citationStartPage": "040",
+      "citationEndPage": "052",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Lipari, V., & Salvato, R. (2024). Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale. Effetti Di Lettura / Effects of Reading , 3 (1), 040–052. https://doi.org/10.7347/EdL-01-2024-04",
+      "articleTitleEcho": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7343",
+    "article_ID": "7343",
+    "slug": "7343",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7343",
+      "url_slug": "7343"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Reading aloud and Disability in the adult’s world: a prosocial approach",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-07-02",
+      "accepted": null,
+      "created": "2024-05-29",
+      "modified": "2024-07-02",
+      "issued": "2024-05-29",
+      "available": "2024-05-29",
+      "submitted_page": "2024-07-02",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+        "pdf_value": null,
+        "chosen_value": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-07-02",
+        "pdf_value": null,
+        "chosen_value": "2024-07-02",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Veronica Lipari, Rosario Salvato",
+        "pdf_value": null,
+        "chosen_value": "Veronica Lipari, Rosario Salvato",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7343/6284",
+      "local_relative_path": "2785-7050_7343.pdf",
+      "saved": true,
+      "sha256": "374b6af7f07efbd5e0a00a73f3da63d162258fcfcc007f6619627f2aa1a8b5fe",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 3472107,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Veronica Lipari",
+        "Rosario Salvato"
+      ],
+      "citation_author_institution": [
+        "indipendent researcher",
+        "Associate Professor | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/05/29"
+      ],
+      "citation_volume": [
+        "3"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2024-04"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7343"
+      ],
+      "citation_keywords": [
+        "lettura ad alta voce",
+        "disabilità",
+        "prosocialità"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7343/6284"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2024-05-29"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-07-02"
+      ],
+      "DC.Date.issued": [
+        "2024-05-29"
+      ],
+      "DC.Date.modified": [
+        "2024-07-02"
+      ],
+      "DC.Description_count": 3,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7343"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2024-04"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7343"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Veronica Lipari, Rosario Salvato",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "3"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 3,
+      "DC.Title": [
+        "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale"
+      ],
+      "DC.Title.Alternative": [
+        "Reading aloud and Disability in the adult’s world: a prosocial approach"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Veronica Lipari",
+        "Rosario Salvato"
+      ],
+      "citation_author_institution": [
+        "indipendent researcher",
+        "Associate Professor | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Veronica Lipari",
+        "Rosario Salvato"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This study aims to relate shared read-aloud activities to the socio-emotional and prosocial skills of men and women with disabilities. The research involved a two-month read-aloud training session held at the “Orti Felici” Communal Greenhouse in Umbertide (PG), a branch of the Arcobaleno socio-rehabilitative educational center. A group of seven adults with disabilities was selected, who daily, alongside educators, engage in the cultivation of plants and vegetables. This group exhibited particularly complex social dynamics, characterized by confrontations due to the very different personalities of the participants. Given the recognized benefits of shared read-aloud practices, it was therefore very interesting to conduct shared read-aloud training to test its effects on the group's prosocial behavior. Given the group's specific needs, the effects were measured using a checklist with ad hoc defined indicators, and the bibliography for the texts was chosen by selecting simple books with many images and, in some cases, written with symbols of Augmentative and Alternative Communication. The shared read-aloud training took place during times when the participants were not engaged in educational activities, thus either just before or just after lunch. Given the participants' relatively low attention span, in the initial days, the reading activity lasted only a few minutes, later extending up to 20 minutes. The outcome of the research confirms that shared read-aloud is undoubtedly beneficial in multiple contexts, as it has shown a marked improvement in attention span and the social dynamics of the group involved.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This study aims to relate shared read-aloud activities to the socio-emotional and prosocial skills of men and women with disabilities. The research involved a two-month read-aloud training session held at the “Orti Felici” Communal Greenhouse in Umbertide (PG), a branch of the Arcobaleno socio-rehabilitative educational center. A group of seven adults with disabilities was selected, who daily, alongside educators, engage in the cultivation of plants and vegetables. This group exhibited particularly complex social dynamics, characterized by confrontations due to the very different personalities of the participants. Given the recognized benefits of shared read-aloud practices, it was therefore very interesting to conduct shared read-aloud training to test its effects on the group's prosocial behavior. Given the group's specific needs, the effects were measured using a checklist with ad hoc defined indicators, and the bibliography for the texts was chosen by selecting simple books with many images and, in some cases, written with symbols of Augmentative and Alternative Communication. The shared read-aloud training took place during times when the participants were not engaged in educational activities, thus either just before or just after lunch. Given the participants' relatively low attention span, in the initial days, the reading activity lasted only a few minutes, later extending up to 20 minutes. The outcome of the research confirms that shared read-aloud is undoubtedly beneficial in multiple contexts, as it has shown a marked improvement in attention span and the social dynamics of the group involved."
+          }
+        },
+        {
+          "content": "",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "fr",
+            "content": ""
+          }
+        },
+        {
+          "content": "Questo studio si pone l’obiettivo di mettere in relazione la lettura ad alta voce condivisa con le competenze socio-emotive e prosociali di uomini e donne con disabilità. La ricerca ha previsto un training di lettura ad alta voce della durata di due mesi presso la Serra Comunale “Orti Felici” di Umbertide (PG), distaccamento del centro socio-riabilitativo educativo Arcobaleno. E’ stato selezionato un gruppo di sette adulti e adulte con disabilità, che quotidianamente, affiancati dagli educatori, si dedica alla coltivazione di piante e ortaggi. In questo gruppo le dinamiche sociali al suo interno erano particolarmente complesse, caratterizzate da situazioni di scontro dovute ai caratteri molto diversi dei ragazzi. A partire dai benefici riconosciuti della pratica della lettura ad alta voce condivisa, è stato, pertanto, molto interessante svolgere un training di lettura ad alta voce condivisa per testare gli effetti sulla prosocialità del gruppo. Data la specificità del gruppo, gli effetti sono stati misurati tramite una check list con indicatori definiti ad hoc e la bibliografia relativa ai testi da proporre è stata individuata selezionando libri semplici con molte immagini e, in alcuni casi, scritti con i simboli della Comunicazione Aumentativa Alternativa. Il training di lettura ad alta voce condivisa si è svolto nei momenti dove i ragazzi non erano impegnati nelle attività educative, quindi subito prima o subito dopo il pranzo. Essendo la soglia dell'attenzione dei ragazzi piuttosto bassa, nei primi giorni l’attività di lettura è durata pochi minuti, per poi prolungare i tempi della lettura fino a 20 minuti. Il risultato della ricerca conferma che la lettura ad alta voce condivisa è indubbiamente benefica in più contesti, poiché i ragazzi hanno dimostrato un netto miglioramento della soglia dell’attenzione e delle dinamiche sociali del gruppo coinvolto.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Questo studio si pone l’obiettivo di mettere in relazione la lettura ad alta voce condivisa con le competenze socio-emotive e prosociali di uomini e donne con disabilità. La ricerca ha previsto un training di lettura ad alta voce della durata di due mesi presso la Serra Comunale “Orti Felici” di Umbertide (PG), distaccamento del centro socio-riabilitativo educativo Arcobaleno. E’ stato selezionato un gruppo di sette adulti e adulte con disabilità, che quotidianamente, affiancati dagli educatori, si dedica alla coltivazione di piante e ortaggi. In questo gruppo le dinamiche sociali al suo interno erano particolarmente complesse, caratterizzate da situazioni di scontro dovute ai caratteri molto diversi dei ragazzi. A partire dai benefici riconosciuti della pratica della lettura ad alta voce condivisa, è stato, pertanto, molto interessante svolgere un training di lettura ad alta voce condivisa per testare gli effetti sulla prosocialità del gruppo. Data la specificità del gruppo, gli effetti sono stati misurati tramite una check list con indicatori definiti ad hoc e la bibliografia relativa ai testi da proporre è stata individuata selezionando libri semplici con molte immagini e, in alcuni casi, scritti con i simboli della Comunicazione Aumentativa Alternativa. Il training di lettura ad alta voce condivisa si è svolto nei momenti dove i ragazzi non erano impegnati nelle attività educative, quindi subito prima o subito dopo il pranzo. Essendo la soglia dell'attenzione dei ragazzi piuttosto bassa, nei primi giorni l’attività di lettura è durata pochi minuti, per poi prolungare i tempi della lettura fino a 20 minuti. Il risultato della ricerca conferma che la lettura ad alta voce condivisa è indubbiamente benefica in più contesti, poiché i ragazzi hanno dimostrato un netto miglioramento della soglia dell’attenzione e delle dinamiche sociali del gruppo coinvolto."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce"
+          }
+        },
+        {
+          "content": "disabilità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "disabilità"
+          }
+        },
+        {
+          "content": "prosocialità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "prosocialità"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7343/6284",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7343/6284",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7343/6284",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2024-07-02",
+        "mod_date": "2024-07-02"
+      },
+      "front_text_excerpt": "ABSTRACT This study aims to relate shared read-aloud activities to the socio-emotional and prosocial skills of men and women with disabilities. The re- search involved a two-month read-aloud training session held at the “Orti Felici” Communal Greenhouse in Umbertide (PG), a bran ch of the Arcobaleno socio-rehabilitative educational center. A group of seven adults with disabilities was selected, who daily, alongside educators, engage in the cultivation of plants and vegetables. This group exhibited particularly complex social dynamics, characterized by confrontations due to the very different personalities of the participants. Given the recognized benefits of shared read-aloud practices, it was therefore very interesting to conduct shared read-aloud training to test its effects on the group's prosocial behavior. Given the group's spec ific needs, the effects were measured using a checklist with ad hoc defined indicators, and the bibliography for the texts was chosen by select ing simple books with many images and, in some cases, written with symbols of Augmentative and Alternative Communication. The shared read-aloud training took place during times when the participants were not engaged in educational activities, thus either just before or just after lunch. Given the participants' relatively low attention span, in the initial days, the reading activity lasted only a few minutes, later extending up to 20 minutes. The outcome of the research confirms that shared read-aloud is undoubtedly beneficial in multiple contexts, as it h as shown a marked improvement in attention span and the social dynamics of the group involved. Keywords: reading aloud, prosocialness, disability Questo studio si pone l’obiettivo di mettere in relazione la lettura ad alta voce condivisa con le competenze socio-emotive e p rosociali di uomini e donne con disabilità. La ricerca ha previsto un training di lettura ad alta voce della durata di due mesi presso la Se rra Comunale “Orti Felici” di Umbertide (PG), distaccamento del centro socio-riabilitativo educativo Arcobaleno. E’ stato selezionato un gru ppo di sette adulti e adulte con disabilità, che quotidianamente, affiancati dagli educatori, si dedica alla coltivazione di piante e ortaggi. In questo gruppo le dinamiche sociali al suo interno erano particolarmente complesse, caratterizzate da situazioni di scontro dovute ai caratter i molto diversi dei ragazzi. A partire dai benefici riconosciuti della pratica della lettura ad alta voce condivisa, è stato, pertanto, molto i nteressante svolgere un training di lettura ad alta voce condivisa per testare gli effetti sulla prosocialità del gruppo. Data la specificità del gruppo, gli effetti sono stati misurati tramite una check list con indicatori definiti ad hoc e la bibliografia relativa ai testi da proporre è stata individuata selezionando libri semplici con molte immagini e, in alcuni casi, scritti con i simboli della Comunicazione Aumentativa Alternativa. Il training di lettura ad alta voce condivisa si è svolto nei momenti dove i ragazzi non erano impegnati nelle attività educative, quindi subito prima o subito dopo il pranzo. Essendo la soglia dell'attenzione dei ragazzi piuttosto bassa, nei primi giorni l’attività di lettura è durata pochi minuti, per poi pro- lungare i tempi della lettura fino a 20 minuti. Il risultato della ricerca conferma che la lettura ad alta voce condivisa è indubbiamente benefica in più contesti, poiché i ragazzi hanno dimostrato un netto miglioramento della soglia dell’attenzione e delle dinamiche social i del gruppo coinvolto. Parole chiave: lettura ad alta voce, disabilità, prosocialità Citation: Lipari, V ., & Salvato, R. (2024). Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale. Effetti di Lettura / Effects of Reading, 3(1), 40-52. https://doi.org/10.7347/EdL-01-2024-04. Corresponding Author: Rosario Salvato | rosario.salvato@unipg.it Author note: il presente contributo è un estratto rielaborato e integrato del lavoro di tesi di laurea di Veronica Lipari. Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2024-04 Veronica Lipari indipendent researcher / veronicalipari95@gmail.com Rosario Salvato Associate Professor | University of Perugia | rosario.salvato@unipg.it Double blind peer review Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale Reading aloud and Disability in the adult’s world: a prosocial approach Volume 3 | n. 1 | giugno 2024 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7343\\2785-7050_7343.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Veronica Lipari, Rosario Salvato",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Veronica Lipari, Rosario Salvato",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+        "pdf_value": null,
+        "chosen_value": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-07-02",
+        "pdf_value": null,
+        "chosen_value": "2024-07-02",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Veronica Lipari, Rosario Salvato",
+        "pdf_value": null,
+        "chosen_value": "Veronica Lipari, Rosario Salvato",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Veronica Lipari, Rosario Salvato",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7343",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7343",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:47:39Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:47:41Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7343",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7343",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 3,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7343",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7343",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7343\\2785-7050_7343.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:47:43Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7343\\2785-7050_7343.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+        "submitted_date": "2024-07-02",
+        "accepted_date": null,
+        "copyright_holder": "Veronica Lipari, Rosario Salvato",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Veronica Lipari",
+          "Rosario Salvato"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7343\\2785-7050_7343.pdf",
+        "generated_at_utc": "2026-04-27T18:47:43Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2024-07-02",
+          "mod_date": "2024-07-02"
+        },
+        "front_text_excerpt": "ABSTRACT This study aims to relate shared read-aloud activities to the socio-emotional and prosocial skills of men and women with disabilities. The re- search involved a two-month read-aloud training session held at the “Orti Felici” Communal Greenhouse in Umbertide (PG), a bran ch of the Arcobaleno socio-rehabilitative educational center. A group of seven adults with disabilities was selected, who daily, alongside educators, engage in the cultivation of plants and vegetables. This group exhibited particularly complex social dynamics, characterized by confrontations due to the very different personalities of the participants. Given the recognized benefits of shared read-aloud practices, it was therefore very interesting to conduct shared read-aloud training to test its effects on the group's prosocial behavior. Given the group's spec ific needs, the effects were measured using a checklist with ad hoc defined indicators, and the bibliography for the texts was chosen by select ing simple books with many images and, in some cases, written with symbols of Augmentative and Alternative Communication. The shared read-aloud training took place during times when the participants were not engaged in educational activities, thus either just before or just after lunch. Given the participants' relatively low attention span, in the initial days, the reading activity lasted only a few minutes, later extending up to 20 minutes. The outcome of the research confirms that shared read-aloud is undoubtedly beneficial in multiple contexts, as it h as shown a marked improvement in attention span and the social dynamics of the group involved. Keywords: reading aloud, prosocialness, disability Questo studio si pone l’obiettivo di mettere in relazione la lettura ad alta voce condivisa con le competenze socio-emotive e p rosociali di uomini e donne con disabilità. La ricerca ha previsto un training di lettura ad alta voce della durata di due mesi presso la Se rra Comunale “Orti Felici” di Umbertide (PG), distaccamento del centro socio-riabilitativo educativo Arcobaleno. E’ stato selezionato un gru ppo di sette adulti e adulte con disabilità, che quotidianamente, affiancati dagli educatori, si dedica alla coltivazione di piante e ortaggi. In questo gruppo le dinamiche sociali al suo interno erano particolarmente complesse, caratterizzate da situazioni di scontro dovute ai caratter i molto diversi dei ragazzi. A partire dai benefici riconosciuti della pratica della lettura ad alta voce condivisa, è stato, pertanto, molto i nteressante svolgere un training di lettura ad alta voce condivisa per testare gli effetti sulla prosocialità del gruppo. Data la specificità del gruppo, gli effetti sono stati misurati tramite una check list con indicatori definiti ad hoc e la bibliografia relativa ai testi da proporre è stata individuata selezionando libri semplici con molte immagini e, in alcuni casi, scritti con i simboli della Comunicazione Aumentativa Alternativa. Il training di lettura ad alta voce condivisa si è svolto nei momenti dove i ragazzi non erano impegnati nelle attività educative, quindi subito prima o subito dopo il pranzo. Essendo la soglia dell'attenzione dei ragazzi piuttosto bassa, nei primi giorni l’attività di lettura è durata pochi minuti, per poi pro- lungare i tempi della lettura fino a 20 minuti. Il risultato della ricerca conferma che la lettura ad alta voce condivisa è indubbiamente benefica in più contesti, poiché i ragazzi hanno dimostrato un netto miglioramento della soglia dell’attenzione e delle dinamiche social i del gruppo coinvolto. Parole chiave: lettura ad alta voce, disabilità, prosocialità Citation: Lipari, V ., & Salvato, R. (2024). Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale. Effetti di Lettura / Effects of Reading, 3(1), 40-52. https://doi.org/10.7347/EdL-01-2024-04. Corresponding Author: Rosario Salvato | rosario.salvato@unipg.it Author note: il presente contributo è un estratto rielaborato e integrato del lavoro di tesi di laurea di Veronica Lipari. Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2024-04 Veronica Lipari indipendent researcher / veronicalipari95@gmail.com Rosario Salvato Associate Professor | University of Perugia | rosario.salvato@unipg.it Double blind peer review Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale Reading aloud and Disability in the adult’s world: a prosocial approach Volume 3 | n. 1 | giugno 2024 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "[...]una capacità personale che consente di adeguare il proprio comportamento alle richieste dell’am- biente di apprendimento e dell’ambiente lavorativo[...] (Seeber & Wittmann, 2017, pp. 1029-1050). Agire in maniera socialmente competente richiede comportamenti conformi alle esigenze formative e lavorative e che riguardino un punto di vista organizzativo e professionale (Bailly & Léné, 2014). Seeber e Wittman (2017) definiscono le competenze sociali come costrutto generico, soffermandosi sul ruolo che giocano nell’apprendimento e nell’ambiente lavorativo. Di fatti, è largamente condiviso il fatto che il costrutto della competenza sociale riflette l’efficacia delle relazioni interpersonali (Dirks et al., 2012) Nel tempo, diversi studiosi hanno stilato delle liste sulle variabili individuali attribuibili alle competenze sociali. Tab. 1. Le variabili individuali attribuibili alle competenze sociali proposte da Kanning (2009) Le competenze sociali ed emotive preannunciano il successo nell’apprendimento scolastico e professio- nale e nei luoghi di lavoro (Blumberg et al., 2008) Secondo Wenger (2003), infatti conoscere è un atto di partecipazione a complessi “sistemi di appren- dimento sociale”. In questa prospettiva, imparare viene visto come processo sociale, un’interazione tra competenze sociali ed esperienza personale. E’ poi importante sottolineare come il comportamento sociale sia influenzato anche dal contesto storico. Secondo una meta-analisi di Calderella e Merell (1997), ci sono cinque dimensioni che riguardano l’ac- quisizione e lo sviluppo delle competenze sociali: 1. La capacità di stabilire relazioni positive all’interno del rispettivo gruppo di apprendimento, abilità de- nominata “orientamento sociale” nel modello di Kanning (2009). 2. La capacità di cooperare, come l’accettazione delle regole sociali e la gestione costruttiva delle critiche. 3. Capacità di autogestione, definita “autocontrollo” da Kanning (2009). 4. Competenze accademiche, le quali comprendono la relazione docente-studente focalizzata sull’appren- dimento, la quale implica la capacità di seguire istruzioni o di chiedere agli insegnanti e ad altri stu - denti. 5. “Assertività”, ossia la capacità di avviare e mantenere un dialogo o mantenere o interrompere relazioni sociali strette come le amicizie. Kolb e Hanley-Maxwell (2003), invece, sottolineano l’importanza del significato di“comunicazione” e “problem-solving/decision-making”. Infatti, il perfezionamento di una lingua è un prerequisito importante per lo sviluppo della competenza sociale, poichè la lingua è il principale mezzo per avviare e mantenere re- lazioni sociali. O’Malley (1977) identifica tre approcci per definire le competenze sociali dei bambini. Il primo inserisce la competenza in un quadro etologico identificando le interazioni adattive con adulti e coetanei. Il secondo definisce la competenza nell’ambito di un’analisi strutturale del comportamento personale-sociale come Second - level - Scales Social Orientation Offensiveness Self-Control Self - awareness First -level-Scales e.g. - Prosocial Behaviour -Perspective adoption - Value pluralism -Willingness to compromise e.g. - Assertiveness - Conflict Readiness - Extraversion - Decision making e.g., -Emotional stability -Self-control - Flexibility - Internality e.g., -Self-expression - direct and indirect Self-attentiveness - Person perception 42 Volume 3 | n. 1 | giugno 2024 | pp. 40-52Effetti di Lettura Effects of Reading",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-07-02",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-07-02",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Veronica Lipari, Rosario Salvato",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Veronica Lipari, Rosario Salvato",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7343\\2785-7050_7343.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading aloud and Disability in the adult’s world: a prosocial approach",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading aloud and Disability in the adult’s world: a prosocial approach",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This study aims to relate shared read-aloud activities to the socio-emotional and prosocial skills of men and women with disabilities. The research involved a t",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Questo studio si pone l’obiettivo di mettere in relazione la lettura ad alta voce condivisa con le competenze socio-emotive e prosociali di uomini e donne con d",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

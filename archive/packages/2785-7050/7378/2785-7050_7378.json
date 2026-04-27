@@ -1,0 +1,952 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7378",
+  "scraped_at_utc": "2026-04-27T18:47:48Z",
+  "fetched_at_utc": "2026-04-27T18:47:48Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "2bce628e6bb5572e1dda5f7a7c16651ab19e3d1f789ba3b16e5ed649ed3ef8d2",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Francesco Vettori",
+        "nameType": "Personal",
+        "givenName": "Francesco",
+        "familyName": "Vettori",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa | Rome (Italy)"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7378",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2024-12-31",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2024-12-31",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2024-12-31",
+      "Issued": "2024-12-31"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "First purpose of the article is to exemplify how sounds and images interact to constitute the primal condition for the alphabetical reading. This act involves both the aural and visual sphere, accomplished over signs of twofold nature. Looking at them with the eyes, the reader is required to lend them his voice because they are still, mute and fixed on an external surface. Hence, the derived purpose of illustrating that alphabetical writing needs a detached support, whose action is never neutral: in the case of the page of the printed book, it owns a factitive function, prompting the user do something, in other words it provides and promotes a specific way of reading, different from the original one. In the last part of the paper a comparison has been proposed with those cultures, predominantly oral, where the written form is not usually alphabetical but composed with acoustic images and the writing surface is not the blank sheet but the memory of the locutor. In this context, likewise in the archaic Greece, where the alphabet was invented, writing is used to perform a rite. It is interesting that today the ritual character of reading reappears, especially in the cases of shared reading aloud.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La finalità principale dell’articolo è esemplificare come suoni e immagini interagiscono per costituire la condizione prima della lettura alfabetica. Quest’atto implica sia la sfera orale che visiva, poiché è compiuto sopra segni di natura duplice. Guardando ad essi con gli occhi, al lettore è richiesto di prestar loro la sua voce, dal momento che sono fermi, muti e fissati sopra una superficie esterna. Ne consegue una seconda finalità, quella di illustrare come la scrittura alfabetica necessiti di un supporto separato, la cui azione non è mai neutrale: nel caso della pagina del libro stampato, questo possiede una funzione fattitiva, spingendo chi lo usa a fare qualcosa, in altri termini presuppone e promuove uno specifico modo di leggere, diverso dall’originario. Nell’ultima parte della ricerca, si propone un confronto con quelle culture, a prevalenza orale, dove la forma scritta non è in genere alfabetica ma costituita da immagini sonore e la superficie di scrittura non è il foglio bianco ma la memoria del locutore. In questo contesto, come nella Grecia arcaica, dove fu inventato l’alfabeto, la scrittura serve per lo svolgimento di un rito. È interessante che oggi riemerga il carattere rituale del leggere, soprattutto nei casi di lettura ad alta voce condivisa.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2024-04",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "3",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Lettura alfabetica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Enunciazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Comunicazione rituale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Alphabetical Reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Enunciation",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Ritual Communication",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Francesco Vettori",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7378/6788",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "3",
+      "citationIssue": "2",
+      "citationStartPage": "036",
+      "citationEndPage": "048",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Vettori, F. (2024). Immagine, Suono, Parola. Una preistoria della lettura alfabetica . Effetti Di Lettura / Effects of Reading , 3 (2), 036–048. https://doi.org/10.7347/EdL-02-2024-04",
+      "articleTitleEcho": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Barthes, R. (1976). Saggi critici. Einaudi.",
+        "Bateson, G. (1988). Naven: un rituale di travestimento in Nuova Guinea. Einaudi.",
+        "Batini, F. (a cura di) (2023). Lettura ad alta voce condivisa. Il Mulino.",
+        "Benveniste, É. (2009)). (a cura di Paolo Fabbri). Essere di parola, Semantica, Soggettività, Cultura. Bruno Mondadori.",
+        "Benveniste, É. (2019). Last Lectures: College de France 1968 and 1969. Edinburgh University Press.",
+        "Casati, R. (2013). Contro il colonialismo digitale. Laterza.",
+        "Cavallo, G. e Chartier, R. (a cura di) (1995). Storia della lettura nel mondo occidentale. Laterza.",
+        "Deahene, S. (2009). I neuroni della lettura, Raffaello Cortina Editore.",
+        "De Certeau, M. (2009). L’invenzione del quotidiano. Edizioni Lavoro.",
+        "Deni, M. (a cura di). (2002). Versus, Quaderni di Studi Semiotici. (91-92).",
+        "Deni, M. (2002). Oggetti in azione, Franco Angeli.",
+        "Dupont, F. (1988). L’invention de la littérature. Éditions La Découverte.",
+        "Dupont, F. (1993). Omero e Dallas, Donzelli.",
+        "Eisenstein, E. (1978). The Printing Press as an Agent of Change. Cambridge University Press.",
+        "Febvre, L. e Martin, H. J. (1976). La nascita del libro. Laterza.",
+        "Festi, A. e Valle, G. (2005). Rivista italiana di studi semiotici (versione online).",
+        "Genette, G. (1989). Soglie. I dintorni del testo. Einaudi.",
+        "Gentili, B. (1958). Anacreonte: Opere. Edizioni dell’Ateneo.",
+        "Greimas, J. A. e Courtes, J. (2007). Semiotica. Dizionario ragionato della teoria del linguaggio. Bruno Mondadori.",
+        "Erler, M. (1991). Il senso delle aporie nei dialoghi di Platone. Vita e Pensiero.",
+        "Illich, I. (1996). Nella vigna del testo. Raffaello Cortina Editore.",
+        "Jakobson, R. (1971). Il farsi e disfarsi del linguaggio. Einaudi.",
+        "Longo, G. O. (1998). Il nuovo Golem. Laterza.",
+        "Manetti, G. (2008). L’enunciazione. Mondadori Università.",
+        "Musti, D. (2010). Il simposio. Laterza.",
+        "Ong, W. (1988). La presenza della parola. Il Mulino.",
+        "Petrucci, A. in Febrvre, L. e Martin, J. H. (1976). La nascita del libro. Laterza.",
+        "Platone. (1966). Opere. Laterza.",
+        "Platone. (2018). (a cura di Franco Trabattoni). Teeteto, Einaudi.",
+        "Semprini, A. (2003). Il senso delle cose. I significati sociali e culturali degli oggetti quotidiani. Franco Angeli.",
+        "Severi, C. (1993). La memoria rituale: follia e immagine del bianco nella tradizione sciamanica amerindiana. La Nuova Italia.",
+        "Severi, C. (2018). L’oggetto persona. Einaudi.",
+        "Severi, C. (2024). Il percorso e la voce. Einaudi.",
+        "Sini, C. (2002). La scrittura e il debito. Jaca Book.",
+        "Steiner, G. (1991). Real Presences, University of Chicago Press.",
+        "Svenbro, J. (1991). Storia della lettura nella Grecia antica. Laterza.",
+        "Svenbro, J. (2021). Le Tombeau de la cigale. Figures de l’écriture et de la lecture en Grèce ancienne. Les Belles Lettres.",
+        "Tasinato, M. (1997), L’occhio del silenzio. Esedra.",
+        "Zinna, A. (2004). Le interfacce degli oggetti di scrittura. Meltemi."
+      ],
+      "count": 39,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7378",
+    "article_ID": "7378",
+    "slug": "7378",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7378",
+      "url_slug": "7378"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Image, Sound, Word. A Prehistory of Alphabetical Reading",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-07-22",
+      "accepted": null,
+      "created": "2024-12-31",
+      "modified": "2025-01-20",
+      "issued": "2024-12-31",
+      "available": "2024-12-31",
+      "submitted_page": "2024-07-22",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+        "pdf_value": null,
+        "chosen_value": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-07-22",
+        "pdf_value": null,
+        "chosen_value": "2024-07-22",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Francesco Vettori",
+        "pdf_value": null,
+        "chosen_value": "Francesco Vettori",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7378/6788",
+      "local_relative_path": "2785-7050_7378.pdf",
+      "saved": true,
+      "sha256": "db901d7a7963dd58890af6da1aaa210ddd7c1517c195a2b46135a5fff1df317e",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1997221,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Francesco Vettori"
+      ],
+      "citation_author_institution": [
+        "Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa | Rome (Italy)"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Immagine, Suono, Parola. Una preistoria della lettura alfabetica"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/12/31"
+      ],
+      "citation_volume": [
+        "3"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2024-04"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7378"
+      ],
+      "citation_keywords": [
+        "Lettura alfabetica",
+        "Enunciazione",
+        "Comunicazione rituale"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7378/6788"
+      ],
+      "citation_reference_count": 39,
+      "DC.Date.created": [
+        "2024-12-31"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-07-22"
+      ],
+      "DC.Date.issued": [
+        "2024-12-31"
+      ],
+      "DC.Date.modified": [
+        "2025-01-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7378"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2024-04"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7378"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Francesco Vettori",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "3"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 3,
+      "DC.Title": [
+        "Immagine, Suono, Parola. Una preistoria della lettura alfabetica"
+      ],
+      "DC.Title.Alternative": [
+        "Image, Sound, Word. A Prehistory of Alphabetical Reading"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Francesco Vettori"
+      ],
+      "citation_author_institution": [
+        "Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa | Rome (Italy)"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Francesco Vettori"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "First purpose of the article is to exemplify how sounds and images interact to constitute the primal condition for the alphabetical reading. This act involves both the aural and visual sphere, accomplished over signs of twofold nature. Looking at them with the eyes, the reader is required to lend them his voice because they are still, mute and fixed on an external surface. Hence, the derived purpose of illustrating that alphabetical writing needs a detached support, whose action is never neutral: in the case of the page of the printed book, it owns a factitive function, prompting the user do something, in other words it provides and promotes a specific way of reading, different from the original one. In the last part of the paper a comparison has been proposed with those cultures, predominantly oral, where the written form is not usually alphabetical but composed with acoustic images and the writing surface is not the blank sheet but the memory of the locutor. In this context, likewise in the archaic Greece, where the alphabet was invented, writing is used to perform a rite. It is interesting that today the ritual character of reading reappears, especially in the cases of shared reading aloud.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "First purpose of the article is to exemplify how sounds and images interact to constitute the primal condition for the alphabetical reading. This act involves both the aural and visual sphere, accomplished over signs of twofold nature. Looking at them with the eyes, the reader is required to lend them his voice because they are still, mute and fixed on an external surface. Hence, the derived purpose of illustrating that alphabetical writing needs a detached support, whose action is never neutral: in the case of the page of the printed book, it owns a factitive function, prompting the user do something, in other words it provides and promotes a specific way of reading, different from the original one. In the last part of the paper a comparison has been proposed with those cultures, predominantly oral, where the written form is not usually alphabetical but composed with acoustic images and the writing surface is not the blank sheet but the memory of the locutor. In this context, likewise in the archaic Greece, where the alphabet was invented, writing is used to perform a rite. It is interesting that today the ritual character of reading reappears, especially in the cases of shared reading aloud."
+          }
+        },
+        {
+          "content": "La finalità principale dell’articolo è esemplificare come suoni e immagini interagiscono per costituire la condizione prima della lettura alfabetica. Quest’atto implica sia la sfera orale che visiva, poiché è compiuto sopra segni di natura duplice. Guardando ad essi con gli occhi, al lettore è richiesto di prestar loro la sua voce, dal momento che sono fermi, muti e fissati sopra una superficie esterna. Ne consegue una seconda finalità, quella di illustrare come la scrittura alfabetica necessiti di un supporto separato, la cui azione non è mai neutrale: nel caso della pagina del libro stampato, questo possiede una funzione fattitiva, spingendo chi lo usa a fare qualcosa, in altri termini presuppone e promuove uno specifico modo di leggere, diverso dall’originario. Nell’ultima parte della ricerca, si propone un confronto con quelle culture, a prevalenza orale, dove la forma scritta non è in genere alfabetica ma costituita da immagini sonore e la superficie di scrittura non è il foglio bianco ma la memoria del locutore. In questo contesto, come nella Grecia arcaica, dove fu inventato l’alfabeto, la scrittura serve per lo svolgimento di un rito. È interessante che oggi riemerga il carattere rituale del leggere, soprattutto nei casi di lettura ad alta voce condivisa.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La finalità principale dell’articolo è esemplificare come suoni e immagini interagiscono per costituire la condizione prima della lettura alfabetica. Quest’atto implica sia la sfera orale che visiva, poiché è compiuto sopra segni di natura duplice. Guardando ad essi con gli occhi, al lettore è richiesto di prestar loro la sua voce, dal momento che sono fermi, muti e fissati sopra una superficie esterna. Ne consegue una seconda finalità, quella di illustrare come la scrittura alfabetica necessiti di un supporto separato, la cui azione non è mai neutrale: nel caso della pagina del libro stampato, questo possiede una funzione fattitiva, spingendo chi lo usa a fare qualcosa, in altri termini presuppone e promuove uno specifico modo di leggere, diverso dall’originario. Nell’ultima parte della ricerca, si propone un confronto con quelle culture, a prevalenza orale, dove la forma scritta non è in genere alfabetica ma costituita da immagini sonore e la superficie di scrittura non è il foglio bianco ma la memoria del locutore. In questo contesto, come nella Grecia arcaica, dove fu inventato l’alfabeto, la scrittura serve per lo svolgimento di un rito. È interessante che oggi riemerga il carattere rituale del leggere, soprattutto nei casi di lettura ad alta voce condivisa."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Lettura alfabetica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Lettura alfabetica"
+          }
+        },
+        {
+          "content": "Enunciazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Enunciazione"
+          }
+        },
+        {
+          "content": "Comunicazione rituale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Comunicazione rituale"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7378/6788",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7378/6788",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7378/6788",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-01-20",
+        "mod_date": "2025-01-20"
+      },
+      "front_text_excerpt": "ABSTRACT First purpose of the article is to exemplify how sounds and images interact to constitute the primal condition for the alphabet ical reading. This act involves both the aural and visual sphere, accomplished over signs of twofold nature. Looking at them with the eyes, t he reader is required to lend them his voice because they are still, mute and fixed on an external surface. Hence, the derived purpose of illustrating that alphabetical writing needs a detached support, whose action is never neutral: in the case of the page of the printed book, it o wns a factitive function, prompting the user do something, in other words it provides and promotes a specific way of reading, different from th e original one. In the last part of the paper a comparison has been proposed with those cultures, predominantly oral, where the written fo rm is not usually alphabetical but composed with acoustic images and the writing surface is not the blank sheet but the memory of the locutor. In this context, likewise in the archaic Greece, where the alphabet was invented, writing is used to perform a rite. It is interesting that today the ritual character of reading reappears, especially in the cases of shared reading aloud. Keywords: Alphabetical Reading, Enunciation, Ritual Communication, Practice of Reading, Shared Reading Aloud La finalità principale dell’articolo è esemplificare come suoni e immagini interagiscono per costituire la condizione prima del la lettura alfa- betica. Quest’atto implica sia la sfera orale che visiva, poiché è compiuto sopra segni di natura duplice. Guardando ad essi co n gli occhi, al lettore è richiesto di prestar loro la sua voce, dal momento che sono fermi, muti e fissati sopra una superficie esterna. Ne co nsegue una seconda finalità, quella di illustrare come la scrittura alfabetica necessiti di un supporto separato, la cui azione non è mai neutrale: nel caso della pagina del libro stampato, questo possiede una funzione fattitiva, spingendo chi lo usa a fare qualcosa, in altri termini presuppone e promuove uno specifico modo di leggere, diverso dall’originario. Nell’ultima parte della ricerca, si propone un confronto con quelle culture, a prevalenza orale, dove la forma scritta non è in genere alfabetica ma costituita da immagini sonore e la superficie di scrittura non è il foglio bianco ma la memoria del locutore. In questo contesto, come nella Grecia arcaica, dove fu inventato l’alfabeto, la scrittura serve per lo svol- gimento di un rito. È interessante che oggi riemerga il carattere rituale del leggere, soprattutto nei casi di lettura ad alta voce condivisa. Parole chiave: Lettura alfabetica, Enunciazione, Comunicazione rituale, Pratiche di lettura, Lettura condivisa ad alta voce Citation: Vettori, F . (2024). Immagine, Suono, Parola. Una preistoria della lettura alfabetica.. Effetti di Lettura / Effects of Reading, 3(2), 36-48. https://doi.org/10.7347/EdL-02-2024-04. Corresponding Author: Francesco Vettori | f.vettori@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2024-04 Francesco Vettori Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa | Rome (Italy) | f.vettori@indire.it Double blind peer review Immagine, Suono, Parola Una preistoria della lettura alfabetica Image, Sound, Word A Prehistory of Alphabetical Reading Volume 3 | n. 2 | dicembre 2024 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7378\\2785-7050_7378.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Francesco Vettori",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Francesco Vettori",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+        "pdf_value": null,
+        "chosen_value": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-07-22",
+        "pdf_value": null,
+        "chosen_value": "2024-07-22",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Francesco Vettori",
+        "pdf_value": null,
+        "chosen_value": "Francesco Vettori",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Francesco Vettori",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7378",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7378",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:47:48Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:47:50Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7378",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7378",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 3,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7378",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7378",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7378\\2785-7050_7378.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:47:52Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7378\\2785-7050_7378.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+        "submitted_date": "2024-07-22",
+        "accepted_date": null,
+        "copyright_holder": "Francesco Vettori",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Francesco Vettori"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7378\\2785-7050_7378.pdf",
+        "generated_at_utc": "2026-04-27T18:47:52Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-01-20",
+          "mod_date": "2025-01-20"
+        },
+        "front_text_excerpt": "ABSTRACT First purpose of the article is to exemplify how sounds and images interact to constitute the primal condition for the alphabet ical reading. This act involves both the aural and visual sphere, accomplished over signs of twofold nature. Looking at them with the eyes, t he reader is required to lend them his voice because they are still, mute and fixed on an external surface. Hence, the derived purpose of illustrating that alphabetical writing needs a detached support, whose action is never neutral: in the case of the page of the printed book, it o wns a factitive function, prompting the user do something, in other words it provides and promotes a specific way of reading, different from th e original one. In the last part of the paper a comparison has been proposed with those cultures, predominantly oral, where the written fo rm is not usually alphabetical but composed with acoustic images and the writing surface is not the blank sheet but the memory of the locutor. In this context, likewise in the archaic Greece, where the alphabet was invented, writing is used to perform a rite. It is interesting that today the ritual character of reading reappears, especially in the cases of shared reading aloud. Keywords: Alphabetical Reading, Enunciation, Ritual Communication, Practice of Reading, Shared Reading Aloud La finalità principale dell’articolo è esemplificare come suoni e immagini interagiscono per costituire la condizione prima del la lettura alfa- betica. Quest’atto implica sia la sfera orale che visiva, poiché è compiuto sopra segni di natura duplice. Guardando ad essi co n gli occhi, al lettore è richiesto di prestar loro la sua voce, dal momento che sono fermi, muti e fissati sopra una superficie esterna. Ne co nsegue una seconda finalità, quella di illustrare come la scrittura alfabetica necessiti di un supporto separato, la cui azione non è mai neutrale: nel caso della pagina del libro stampato, questo possiede una funzione fattitiva, spingendo chi lo usa a fare qualcosa, in altri termini presuppone e promuove uno specifico modo di leggere, diverso dall’originario. Nell’ultima parte della ricerca, si propone un confronto con quelle culture, a prevalenza orale, dove la forma scritta non è in genere alfabetica ma costituita da immagini sonore e la superficie di scrittura non è il foglio bianco ma la memoria del locutore. In questo contesto, come nella Grecia arcaica, dove fu inventato l’alfabeto, la scrittura serve per lo svol- gimento di un rito. È interessante che oggi riemerga il carattere rituale del leggere, soprattutto nei casi di lettura ad alta voce condivisa. Parole chiave: Lettura alfabetica, Enunciazione, Comunicazione rituale, Pratiche di lettura, Lettura condivisa ad alta voce Citation: Vettori, F . (2024). Immagine, Suono, Parola. Una preistoria della lettura alfabetica.. Effetti di Lettura / Effects of Reading, 3(2), 36-48. https://doi.org/10.7347/EdL-02-2024-04. Corresponding Author: Francesco Vettori | f.vettori@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2024-04 Francesco Vettori Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa | Rome (Italy) | f.vettori@indire.it Double blind peer review Immagine, Suono, Parola Una preistoria della lettura alfabetica Image, Sound, Word A Prehistory of Alphabetical Reading Volume 3 | n. 2 | dicembre 2024 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "lo faceva di solito per degli ascoltatori analfabeti, mettendosi a loro disposizione e ciò costituendo la prima forma di pubblicazione del testo scritto. Chi oggi invece legge lo fa di solito per sé, in modo solitario e silenzioso, per cui al leggere si danno altre finalità, non solo strumentali. Anzi alla lettura dei testi soprattutto letterari noi attribuiamo un potere di liberazione del lettore e di approfondimento della sua esperienza, in primis interiore3. Si aggiunga che la nostra è una cultura in cui gli oggetti di scrittura, derivati dal libro stampato, alimentano una predilezione per quanto viene conservato nel tempo mentre nella Grecia arcaica assumevano valore quelle pratiche, riassunte nel simposio, connotate dalla transitorietà. Nel simposio, luogo eletto per l’educazione della classe aristocratica, vigono infatti le regole, ereditate dalla tradizione omerica del banchetto, che stabiliscono una comunicazione di tipo contestuale, irriproducibile altrove, come ampiamente argomentato da Florence Dupont (Dupont, 1993, p. 20): Per tutte queste ragioni, il canto dell’aedo non potrebbe mai essere scritto e non si conserva, alla stessa stregua del profumo della carne arrosto o dell’ebrezza del vino. Il buon funzionamento del banchetto dei re in Omeria prevede che l’aedo ricomponga un nuovo canto ad ogni banchetto. Un poema fissato in qualunque modo nella memoria rientrerebbe fra i doni profani e non potrebbe contribuire alle forme di socialità generale che si praticano nel banchetto. È allora intuibile che il singolo atto di lettura acquisisse importanza a scapito dell’oggetto su cui si eser- citava come del resto lo stesso Svenbro documenta nel caso delle iscrizioni funerarie. Si pensava infatti che chi le leggesse, riportasse in vita, pur per un brevissimo momento, con la propria voce il defunto cui erano state dedicate (Svenbro, 1991, p. 10): I primi documenti alfabetici in terra greca non riguardano - come ci si potrebbe attendere - le attività economiche stricto sensu (inventari, contabilità, ecc.): niente di tutto questo. In Grecia, la prima scrit- tura alfabetica che conosciamo è una scrittura di graffiti, di dediche e di iscrizioni funerarie. Molto presto la scrittura alfabetica è stata utilizzata per la commemorazione dei morti, così presto che è lecito domandarsi se non fosse questo l’uso che i Greci avevano in mente quando derivarono, modificandolo, l’alfabeto dai Semiti. A conferma del carattere prevalentemente orale delle forme di lettura alfabetica, almeno fino alla prima metà del V se. A.C., testimonia anche il molto ciato passo platonico del Fedro (275a) (Platone, 1966), in cui il dio Ammone deve giudicare dell’utilità dell’invenzione dell’alfabeto. Qui Platone usa il termine “πολυήκοοι”4, la cui radice rimanda certamente al verbo “ ἀκούω”, quindi all’ascoltare, poiché si tratta della forma di lettura di chi ascolta leggere, secondo il modello di chi è ancora poco abituato alle lettere scritte5. 3 Su questi temi, ci si limita a rimandare a Mario Vargas Llosa (2011) e, soprattutto, a Wolfgang Iser (1988, 1993). 4 Platone (1966), Fedro, 275a e seg. [trad. nostra]: T u hai quindi trovato un rimedio non per la memoria ma per far venire in mente. L ’apparenza del sapere e non la verità procurerai a chi l’apprende; ascoltate [πολυήκοοι] grazie a te tante cose, sono stati messi a conoscenza di molto, senza insegnamento. 5 Si noti che la stessa opera di Platone segna una cesura rispetto al passato. 38 Volume 3 | n. 2 | dicembre 2024 | pp. 36-48Effetti di Lettura Effects of Reading",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-07-22",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-07-22",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Francesco Vettori",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Francesco Vettori",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7378\\2785-7050_7378.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Immagine, Suono, Parola. Una preistoria della lettura alfabetica",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Image, Sound, Word. A Prehistory of Alphabetical Reading",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Image, Sound, Word. A Prehistory of Alphabetical Reading",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "First purpose of the article is to exemplify how sounds and images interact to constitute the primal condition for the alphabetical reading. This act involves b",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La finalità principale dell’articolo è esemplificare come suoni e immagini interagiscono per costituire la condizione prima della lettura alfabetica. Quest’atto",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

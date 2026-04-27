@@ -1,0 +1,1059 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8025",
+  "scraped_at_utc": "2026-04-27T18:49:17Z",
+  "fetched_at_utc": "2026-04-27T18:49:17Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "d411bf664811f6182ae93ebed6f4ef5b67ed257815786bf67e5fe3dcf9ef2a96",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Tiziana Chiappelli",
+        "nameType": "Personal",
+        "givenName": "Tiziana",
+        "familyName": "Chiappelli",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Researcher | University of Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Sabina Leoncini",
+        "nameType": "Personal",
+        "givenName": "Sabina",
+        "familyName": "Leoncini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research Fellow | University of Siena"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8025",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-06-27",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-06-27",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-06-27",
+      "Issued": "2025-06-27"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The practice of reading within Dialogic Literary Gatherings (DLG) is emerging as one of the most effective educational models to foster language skills, critical thinking, self-esteem, and social inclusion. This paper analyzes the theoretical framework based on Vygotsky, Bruner, Freire, Habermas, and Flecha, describes the functioning of DLGs, and synthesizes the main empirical evidence gathered from projects such as INCLUD-ED. Strategies for inclusion and social cohesion in Europe from education, REFUGE-ED. Effective practices in education, mental health and psychosocial support for the integration of refugee children and REVERS-ED. Trends on educational inequalities over time and successful interventions that contribute to reverse them. Special attention is given to the implementation experience in Sicily (Palermo, Acate, and Vittoria) as part of the REFUGE-ED project, coordinated for Italy by the University of Florence in collaboration with CISS Palermo. Teacher training and co-creation of educational activities proved to be crucial for the initiative’s success. Results show significant improvements in language skills, a reduction of cultural prejudices, and the strengthening of non-violent educational environments. The article highlights the importance of disseminating DLG as an educational practice to counteract inequalities and promote active citizenship.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La pratica della lettura all’interno dei Dialogic Literary Gatherings (DLG) si sta affermando come uno dei modelli educativi più efficaci per promuovere le competenze linguistiche, il pensiero critico, l’autostima e l’inclusione sociale. Questo articolo delinea un quadro teorico basato sui contributi di Vygotskij, Bruner, Freire, Habermas e Flecha, descrive il funzionamento dei DLG e sintetizza le principali evidenze empiriche raccolte da progetti come INCLUD-ED. Strategie per l’inclusione e la coesione sociale in Europa a partire dall’educazione, REFUGE-ED. Pratiche efficaci in materia di istruzione, salute mentale e supporto psicosociale per l’integrazione dei bambini rifugiati e REVERS-ED. Tendenze delle disuguaglianze educative nel tempo e interventi di successo che contribuiscono a invertirle. Particolare attenzione viene data all’esperienza di implementazione in Sicilia (Palermo, Acate e Vittoria) nell’ambito del progetto REFUGE-ED, coordinato per l’Italia dall’Università di Firenze in collaborazione con il CISS di Palermo. La formazione degli insegnanti e la co-creazione di attività educative si sono rivelate cruciali per il successo dell’iniziativa. I risultati mostrano miglioramenti significativi nelle competenze linguistiche, una riduzione dei pregiudizi culturali e il rafforzamento di ambienti educativi non violenti. L’articolo sottolinea l’importanza di diffondere i DLG come pratica educativa per contrastare le disuguaglianze e promuovere la cittadinanza attiva.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2025-03",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "inclusione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "SEAs",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "apprendimento dialogico",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Riunioni Letterarie Dialogiche",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "incontri letterari dialogici",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "inclusione educativa",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "azioni educative di successo (SEAs)",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "dialogic learning",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Dialogic Literary Gatherings",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "educational inclusion",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Successful Education Actions (SEAs)",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Dialogic Literary Gatherings (DLG)",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Tiziana Chiappelli, Sabina Leoncini",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8025/7018",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "1",
+      "citationStartPage": "035",
+      "citationEndPage": "047",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Chiappelli, T., & Leoncini, S. (2025). I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED. Effetti Di Lettura / Effects of Reading , 4 (1), 035–047. https://doi.org/10.7347/EdL-01-2025-03",
+      "articleTitleEcho": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Aiello-Cabrera, E., Chiappelli, T., & Troya Porras, M. B. (2023). Participatory methodologies for the co-construction of the research on migration and refugee studies. An introduction to the monographic issue. Pedagogia delle differenze – Bollettino della Fondazione “Vito Fazio-Allmayer”, 52(2), I–XXI.",
+        "Álvarez, P., Garcia-Carrion, R., Puigvert, L., Pulido, C., & Schubert, T. (2018). Beyond the walls: The social reintegration of prisoners through the dialogic reading of classic universal literature in prison. International Journal of Offender Therapy and Comparative Criminology, 62(4), 1043–1061. https://doi.org/10.1177/0306624x16672864",
+        "Álvarez-Guerrero, G., Lopez de Aguileta, A., Racionero-Plaza, S., & Flores-Moncada, L. G. (2021). Beyond the school walls: Keeping interactive learning environments alive in confinement for students in special education. Frontiers in Psychology, 12, 662646.",
+        "Austin, J. L. (1975). How to Do Things with Words (2nd ed., J. O. Urmson & M. Sbisà, Eds.). Cambridge, MA: Harvard University Press.",
+        "Batini, F. (2019). Leggere ad alta voce. Metodi e strategie per costruire competenze per la vita. Giunti.",
+        "Batini, F. (2023). La lettura ad alta voce condivisa. Il Mulino.",
+        "Berens, A. E., & Nelson, C. A. (2015). The science of early adversity: Is there a role for large institutions in the care of vulnerable children? The Lancet, 386(9991), 388–398. https://doi.org/10.1016/S0140-6736(14)61131-4",
+        "Díez-Palomar, J., Garcia-Carrion, R., Hargreaves, L., & Vieites, M. (2020). Transforming students’ attitudes towards learning through the use of successful educational actions. PLoS ONE, 15(10), e0240292. https://doi.org/10.1371/journal.pone.0240292",
+        "Fernandez-Villardon, A., Valls-Carol, R., Melgar Alcantud, P., & Tellado, I. (2021). Enhancing literacy and communicative skills of students with disabilities in special schools through dialogic literary gatherings. Frontiers in Psychology, 12, 662639.",
+        "Flecha, R. (2000). Sharing words: Theory and practice of dialogic learning. Rowman & Littlefield.",
+        "Flecha, R., & INCLUD-ED Consortium. (2015). Successful educational actions for inclusion and social cohesion in Europe. Springer.",
+        "Freire, P. (1970). Pedagogy of the oppressed. Herder and Herder.",
+        "Gadamer, H.-G. (1983). Verità e metodo (1st ed.). Bompiani.",
+        "Garcia-Carrion, R., Villardon-Gallego, L., Martinez-de-la-Hidalga, Z., & Marauri, J. (2020). Exploring the impact of dialogic literary gatherings on students’ relationships with a communicative approach. Qualitative Inquiry, 26(8–9), 996–1002.",
+        "Garcia Yeste, C., Gairal, R., & Rios, O. (2017). Empowerment and social inclusion of migrant women through dialogic literary gatherings. Revista Internacional de Educación para la Justicia Social, 6(2), 97–111. https://doi.org/10.15366/riejs2017.6.2.006",
+        "Gómez, A., Puigvert, L., & Flecha, R. (2011). Critical communicative methodology: Informing real social transformation through research. Qualitative Inquiry, 17(3), 235–245. https://doi.org/10.1177/1077800410397802",
+        "Habermas, J. (1981). Teoria dell'agire comunicativo (Vol. 1–2, G.). Il Mulino. Ed. Originale (1981) Theorie des kommunikativen Handelns (Bd. 1–2). Suhrkamp.",
+        "INCLUDE-ED website https://cordis.europa.eu/project/id/28603",
+        "Lopez de Aguileta, G., Torras-Gomez, E., Garcia-Carrion, R., & Flecha, R. (2020). The emergence of the language of desire toward nonviolent relationships during the dialogic literary gatherings. Language and Education, 34(6), 583–598.",
+        "Mead, G. H. (1934). Mind, Self, and Society: From the Standpoint of a Social Behaviorist. University of Chicago Press.",
+        "Noble, C., Sala, G., Peter, M., Lingwood, J., Rowland, C., Gobet, F., & Pine, J. (2019). The impact of shared book reading on children’s language skills: A meta-analysis. Educational Research Review, 28, 100290.",
+        "Pulido, C. (2015). Amina, dreaming beyond the walls. Qualitative Inquiry, 21(10), 886–892. https://doi.org/10.1177/1077800415611691",
+        "REFUGE-ED Official website https://www.refuge-ed.eu/",
+        "REVERS-ED official website https://revers-ed.eu/",
+        "REFUGE-ED (2024) D.6.3 Lessons learned and best practices report. Analysis and identification of best practices, https://www.refuge-ed.eu/d6-3/",
+        "Roca, E., Melgar, P., Gairal-Casado, R., & Pulido-Rodríguez, M. A. (2020). Schools that ‘open doors’ to prevent child abuse in confinement by COVID-19. Sustainability, 12(11), 4685. https://doi.org/10.3390/su12114685",
+        "Ruiz-Eugenio, L., Soler-Gallart, M., Racionero-Plaza, S., & Padrós, M. (2023). Dialogic literary gatherings: A systematic review of evidence to overcome social and educational inequalities. Educational Research Review, 39, 100534. https://doi.org/10.1016/j.edurev.2023.100534",
+        "Sordé-Martí, T., Abdul Ghani, A., Almobarak, B., Chiappelli, T., Flecha, A., Hristova, M., Krasteva, A., Kjellberg, F., McQuillan, K., Nixon, E., & Qasemi, M. (2023). The REFUGE-ED dialogic co-creation process: Working with and for REFUGE-ED children and minors. Palgrave Communications, 10(1), 1–10. https://doi.org/10.1057/s41599-023-01967-6",
+        "Torras-Gómez, E., Ramis, M., & Guo, M. (2019). Sociological theory from dialogic democracy. International Multidisciplinary Journal of Social Sciences, 8(3), 216–234. https://doi.org/10.17583/RIMCIS.2019.4919",
+        "Vygotsky, L. S., & Cole, M. (1978). Mind in society: Development of higher psychological processes. Harvard University Press."
+      ],
+      "count": 30,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8025",
+    "article_ID": "8025",
+    "slug": "8025",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8025",
+      "url_slug": "8025"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "The educational benefits of reading aloud in Dialogic Literary Gatherings: experiences and perspectives from the REFUGE-ED project",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-04-30",
+      "accepted": null,
+      "created": "2025-06-27",
+      "modified": "2025-06-27",
+      "issued": "2025-06-27",
+      "available": "2025-06-27",
+      "submitted_page": "2025-04-30",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+        "pdf_value": null,
+        "chosen_value": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-30",
+        "pdf_value": null,
+        "chosen_value": "2025-04-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Tiziana Chiappelli, Sabina Leoncini",
+        "pdf_value": null,
+        "chosen_value": "Tiziana Chiappelli, Sabina Leoncini",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8025/7018",
+      "local_relative_path": "2785-7050_8025.pdf",
+      "saved": true,
+      "sha256": "d7121e422e26dabe4b7ef1a4d1e8c3f2466ce303322f0129ef7823d824e0e616",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1961874,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Tiziana Chiappelli",
+        "Sabina Leoncini"
+      ],
+      "citation_author_institution": [
+        "Researcher | University of Siena",
+        "Research Fellow | University of Siena"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/06/27"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2025-03"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8025"
+      ],
+      "citation_keywords": [
+        "inclusione",
+        "SEAs",
+        "lettura alta voce",
+        "apprendimento dialogico",
+        "Riunioni Letterarie Dialogiche",
+        "lettura ad alta voce",
+        "incontri letterari dialogici",
+        "inclusione educativa",
+        "azioni educative di successo (SEAs)"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8025/7018"
+      ],
+      "citation_reference_count": 30,
+      "DC.Date.created": [
+        "2025-06-27"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-04-30"
+      ],
+      "DC.Date.issued": [
+        "2025-06-27"
+      ],
+      "DC.Date.modified": [
+        "2025-06-27"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8025"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2025-03"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8025"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Tiziana Chiappelli, Sabina Leoncini",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 9,
+      "DC.Title": [
+        "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED"
+      ],
+      "DC.Title.Alternative": [
+        "The educational benefits of reading aloud in Dialogic Literary Gatherings: experiences and perspectives from the REFUGE-ED project"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Tiziana Chiappelli",
+        "Sabina Leoncini"
+      ],
+      "citation_author_institution": [
+        "Researcher | University of Siena",
+        "Research Fellow | University of Siena"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Tiziana Chiappelli",
+        "Sabina Leoncini"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The practice of reading within Dialogic Literary Gatherings (DLG) is emerging as one of the most effective educational models to foster language skills, critical thinking, self-esteem, and social inclusion. This paper analyzes the theoretical framework based on Vygotsky, Bruner, Freire, Habermas, and Flecha, describes the functioning of DLGs, and synthesizes the main empirical evidence gathered from projects such as INCLUD-ED. Strategies for inclusion and social cohesion in Europe from education, REFUGE-ED. Effective practices in education, mental health and psychosocial support for the integration of refugee children and REVERS-ED. Trends on educational inequalities over time and successful interventions that contribute to reverse them. Special attention is given to the implementation experience in Sicily (Palermo, Acate, and Vittoria) as part of the REFUGE-ED project, coordinated for Italy by the University of Florence in collaboration with CISS Palermo. Teacher training and co-creation of educational activities proved to be crucial for the initiative’s success. Results show significant improvements in language skills, a reduction of cultural prejudices, and the strengthening of non-violent educational environments. The article highlights the importance of disseminating DLG as an educational practice to counteract inequalities and promote active citizenship.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The practice of reading within Dialogic Literary Gatherings (DLG) is emerging as one of the most effective educational models to foster language skills, critical thinking, self-esteem, and social inclusion. This paper analyzes the theoretical framework based on Vygotsky, Bruner, Freire, Habermas, and Flecha, describes the functioning of DLGs, and synthesizes the main empirical evidence gathered from projects such as INCLUD-ED. Strategies for inclusion and social cohesion in Europe from education, REFUGE-ED. Effective practices in education, mental health and psychosocial support for the integration of refugee children and REVERS-ED. Trends on educational inequalities over time and successful interventions that contribute to reverse them. Special attention is given to the implementation experience in Sicily (Palermo, Acate, and Vittoria) as part of the REFUGE-ED project, coordinated for Italy by the University of Florence in collaboration with CISS Palermo. Teacher training and co-creation of educational activities proved to be crucial for the initiative’s success. Results show significant improvements in language skills, a reduction of cultural prejudices, and the strengthening of non-violent educational environments. The article highlights the importance of disseminating DLG as an educational practice to counteract inequalities and promote active citizenship."
+          }
+        },
+        {
+          "content": "La pratica della lettura all’interno dei Dialogic Literary Gatherings (DLG) si sta affermando come uno dei modelli educativi più efficaci per promuovere le competenze linguistiche, il pensiero critico, l’autostima e l’inclusione sociale. Questo articolo delinea un quadro teorico basato sui contributi di Vygotskij, Bruner, Freire, Habermas e Flecha, descrive il funzionamento dei DLG e sintetizza le principali evidenze empiriche raccolte da progetti come INCLUD-ED. Strategie per l’inclusione e la coesione sociale in Europa a partire dall’educazione, REFUGE-ED. Pratiche efficaci in materia di istruzione, salute mentale e supporto psicosociale per l’integrazione dei bambini rifugiati e REVERS-ED. Tendenze delle disuguaglianze educative nel tempo e interventi di successo che contribuiscono a invertirle. Particolare attenzione viene data all’esperienza di implementazione in Sicilia (Palermo, Acate e Vittoria) nell’ambito del progetto REFUGE-ED, coordinato per l’Italia dall’Università di Firenze in collaborazione con il CISS di Palermo. La formazione degli insegnanti e la co-creazione di attività educative si sono rivelate cruciali per il successo dell’iniziativa. I risultati mostrano miglioramenti significativi nelle competenze linguistiche, una riduzione dei pregiudizi culturali e il rafforzamento di ambienti educativi non violenti. L’articolo sottolinea l’importanza di diffondere i DLG come pratica educativa per contrastare le disuguaglianze e promuovere la cittadinanza attiva.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La pratica della lettura all’interno dei Dialogic Literary Gatherings (DLG) si sta affermando come uno dei modelli educativi più efficaci per promuovere le competenze linguistiche, il pensiero critico, l’autostima e l’inclusione sociale. Questo articolo delinea un quadro teorico basato sui contributi di Vygotskij, Bruner, Freire, Habermas e Flecha, descrive il funzionamento dei DLG e sintetizza le principali evidenze empiriche raccolte da progetti come INCLUD-ED. Strategie per l’inclusione e la coesione sociale in Europa a partire dall’educazione, REFUGE-ED. Pratiche efficaci in materia di istruzione, salute mentale e supporto psicosociale per l’integrazione dei bambini rifugiati e REVERS-ED. Tendenze delle disuguaglianze educative nel tempo e interventi di successo che contribuiscono a invertirle. Particolare attenzione viene data all’esperienza di implementazione in Sicilia (Palermo, Acate e Vittoria) nell’ambito del progetto REFUGE-ED, coordinato per l’Italia dall’Università di Firenze in collaborazione con il CISS di Palermo. La formazione degli insegnanti e la co-creazione di attività educative si sono rivelate cruciali per il successo dell’iniziativa. I risultati mostrano miglioramenti significativi nelle competenze linguistiche, una riduzione dei pregiudizi culturali e il rafforzamento di ambienti educativi non violenti. L’articolo sottolinea l’importanza di diffondere i DLG come pratica educativa per contrastare le disuguaglianze e promuovere la cittadinanza attiva."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "inclusione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "inclusione"
+          }
+        },
+        {
+          "content": "SEAs",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "SEAs"
+          }
+        },
+        {
+          "content": "lettura alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura alta voce"
+          }
+        },
+        {
+          "content": "apprendimento dialogico",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "apprendimento dialogico"
+          }
+        },
+        {
+          "content": "Riunioni Letterarie Dialogiche",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Riunioni Letterarie Dialogiche"
+          }
+        },
+        {
+          "content": "lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce"
+          }
+        },
+        {
+          "content": "incontri letterari dialogici",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "incontri letterari dialogici"
+          }
+        },
+        {
+          "content": "inclusione educativa",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "inclusione educativa"
+          }
+        },
+        {
+          "content": "azioni educative di successo (SEAs)",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "azioni educative di successo (SEAs)"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8025/7018",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8025/7018",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8025/7018",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-06-26",
+        "mod_date": "2025-06-26"
+      },
+      "front_text_excerpt": "ABSTRACT The practice of reading within Dialogic Literary Gatherings (DLG) is emerging as one of the most effective educational models to foster lan- guage skills, critical thinking, self-esteem, and social inclusion. This paper analyzes the theoretical framework based on Vygo tsky, Bruner, Freire, Habermas, and Flecha, describes the functioning of DLGs, and synthesizes the main empirical evidence gathered from projects such as INCLUD-ED. Strategies for inclusion and social cohesion in Europe from education , REFUGE-ED. Effective practices in education, mental health and psychosocial support for the integration of refugee children and REVERS-ED. T rends on educational inequalities over time and successful interventions that contribute to reverse them. Special attention is given to the implementation experience in Sicily (Palermo, Acate, and Vittoria) as part of the REFUGE-ED project, coordinated for Italy by the University of Florence in collaboration with CISS Palermo. T eacher training and co-creation of educational activities proved to be crucial for the initiative’s success. Results show significant improvements in language skills, a reduction of cultural prejudices, and the strengthening of non-violent educational environments. The article highlights the importance of disseminating DLG as an educational practice to counteract inequalities and promote active citizenship. Keywords: reading aloud, Dialogic Literary Gatherings (DLG), dialogic learning, educational inclusion, Successful Education Act ions (SEAs) La pratica della lettura all’interno dei Dialogic Literary Gatherings (DLG) si sta affermando come uno dei modelli educativi più efficaci per promuovere le competenze linguistiche, il pensiero critico, l’autostima e l’inclusione sociale. Questo articolo delinea un quadro teorico basato sui contributi di Vygotskij, Bruner, Freire, Habermas e Flecha, descrive il funzionamento dei DLG e sintetizza le principali evidenze empiriche raccolte da progetti come INCLUD-ED. Strategie per l’inclusione e la coesione sociale in Europa a partire dall’educazione, REFUGE-ED. Pratiche efficaci in materia di istruzione, salute mentale e supporto psicosociale per l’integrazione dei bambini rifugiati e REVERS-ED. T endenze delle dis- uguaglianze educative nel tempo e interventi di successo che contribuiscono a invertirle. Particolare attenzione viene data all’esperienza di imple- mentazione in Sicilia (Palermo, Acate e Vittoria) nell’ambito del progetto REFUGE-ED, coordinato per l’Italia dall’Università di Firenze in collaborazione con il CISS di Palermo. La formazione degli insegnanti e la co-creazione di attività educative si sono rivelate cruciali per il successo dell’iniziativa. I risultati mostrano miglioramenti significativi nelle competenze linguistiche, una riduzione dei pre giudizi culturali e il rafforzamento di ambienti educativi non violenti. L ’articolo sottolinea l’importanza di diffondere i DLG come pratica educativa per con- trastare le disuguaglianze e promuovere la cittadinanza attiva. Parole chiave: lettura ad alta voce, incontri letterari dialogici, apprendimento dialogico, inclusione educativa, azioni educative di successo (SEAs) Citation: Chiappelli, T ., & Leoncini, S. (2025). I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED. Effetti di Lettura / Effects of Reading, 4(1), 35-47. https://doi.org/10.7347/EdL-01- 2025-03. Corresponding Author: Sabina Leoncini | sabina.leoncini@unisi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-03 Authorship/Attribuzioni: Il presente lavoro è frutto di una riflessione condivisa delle autrici. L ’introduzione e le conclusioni sono state elaborate con- giuntamente dalle autrici, i paragrafi 2, 3 e 5 sono stati elaborati da Tiziana Chiappelli, mentre i paragrafi 4, 6 e 7 da Sabina Leoncini Tiziana Chiappelli Researcher | University of Siena | tiziana.chiappelli@unisi.it Sabina Leoncini Research Fellow | University of Siena | sabina.leoncini@unisi.it Double blind peer review I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED The educational benefits of reading aloud in Dialogic Literary Gatherings: experiences and perspectives from the REFUGE-ED project Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8025\\2785-7050_8025.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Tiziana Chiappelli, Sabina Leoncini",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Tiziana Chiappelli, Sabina Leoncini",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+        "pdf_value": null,
+        "chosen_value": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-30",
+        "pdf_value": null,
+        "chosen_value": "2025-04-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Tiziana Chiappelli, Sabina Leoncini",
+        "pdf_value": null,
+        "chosen_value": "Tiziana Chiappelli, Sabina Leoncini",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Tiziana Chiappelli, Sabina Leoncini",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8025",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8025",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:49:17Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:49:19Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8025",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8025",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 6,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 6
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8025",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8025",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 9
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8025\\2785-7050_8025.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:49:21Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8025\\2785-7050_8025.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+        "submitted_date": "2025-04-30",
+        "accepted_date": null,
+        "copyright_holder": "Tiziana Chiappelli, Sabina Leoncini",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Tiziana Chiappelli",
+          "Sabina Leoncini"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8025\\2785-7050_8025.pdf",
+        "generated_at_utc": "2026-04-27T18:49:21Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-06-26",
+          "mod_date": "2025-06-26"
+        },
+        "front_text_excerpt": "ABSTRACT The practice of reading within Dialogic Literary Gatherings (DLG) is emerging as one of the most effective educational models to foster lan- guage skills, critical thinking, self-esteem, and social inclusion. This paper analyzes the theoretical framework based on Vygo tsky, Bruner, Freire, Habermas, and Flecha, describes the functioning of DLGs, and synthesizes the main empirical evidence gathered from projects such as INCLUD-ED. Strategies for inclusion and social cohesion in Europe from education , REFUGE-ED. Effective practices in education, mental health and psychosocial support for the integration of refugee children and REVERS-ED. T rends on educational inequalities over time and successful interventions that contribute to reverse them. Special attention is given to the implementation experience in Sicily (Palermo, Acate, and Vittoria) as part of the REFUGE-ED project, coordinated for Italy by the University of Florence in collaboration with CISS Palermo. T eacher training and co-creation of educational activities proved to be crucial for the initiative’s success. Results show significant improvements in language skills, a reduction of cultural prejudices, and the strengthening of non-violent educational environments. The article highlights the importance of disseminating DLG as an educational practice to counteract inequalities and promote active citizenship. Keywords: reading aloud, Dialogic Literary Gatherings (DLG), dialogic learning, educational inclusion, Successful Education Act ions (SEAs) La pratica della lettura all’interno dei Dialogic Literary Gatherings (DLG) si sta affermando come uno dei modelli educativi più efficaci per promuovere le competenze linguistiche, il pensiero critico, l’autostima e l’inclusione sociale. Questo articolo delinea un quadro teorico basato sui contributi di Vygotskij, Bruner, Freire, Habermas e Flecha, descrive il funzionamento dei DLG e sintetizza le principali evidenze empiriche raccolte da progetti come INCLUD-ED. Strategie per l’inclusione e la coesione sociale in Europa a partire dall’educazione, REFUGE-ED. Pratiche efficaci in materia di istruzione, salute mentale e supporto psicosociale per l’integrazione dei bambini rifugiati e REVERS-ED. T endenze delle dis- uguaglianze educative nel tempo e interventi di successo che contribuiscono a invertirle. Particolare attenzione viene data all’esperienza di imple- mentazione in Sicilia (Palermo, Acate e Vittoria) nell’ambito del progetto REFUGE-ED, coordinato per l’Italia dall’Università di Firenze in collaborazione con il CISS di Palermo. La formazione degli insegnanti e la co-creazione di attività educative si sono rivelate cruciali per il successo dell’iniziativa. I risultati mostrano miglioramenti significativi nelle competenze linguistiche, una riduzione dei pre giudizi culturali e il rafforzamento di ambienti educativi non violenti. L ’articolo sottolinea l’importanza di diffondere i DLG come pratica educativa per con- trastare le disuguaglianze e promuovere la cittadinanza attiva. Parole chiave: lettura ad alta voce, incontri letterari dialogici, apprendimento dialogico, inclusione educativa, azioni educative di successo (SEAs) Citation: Chiappelli, T ., & Leoncini, S. (2025). I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED. Effetti di Lettura / Effects of Reading, 4(1), 35-47. https://doi.org/10.7347/EdL-01- 2025-03. Corresponding Author: Sabina Leoncini | sabina.leoncini@unisi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-03 Authorship/Attribuzioni: Il presente lavoro è frutto di una riflessione condivisa delle autrici. L ’introduzione e le conclusioni sono state elaborate con- giuntamente dalle autrici, i paragrafi 2, 3 e 5 sono stati elaborati da Tiziana Chiappelli, mentre i paragrafi 4, 6 e 7 da Sabina Leoncini Tiziana Chiappelli Researcher | University of Siena | tiziana.chiappelli@unisi.it Sabina Leoncini Research Fellow | University of Siena | sabina.leoncini@unisi.it Double blind peer review I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED The educational benefits of reading aloud in Dialogic Literary Gatherings: experiences and perspectives from the REFUGE-ED project Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "2. Quadro teorico dei Dialogic Literary Gatherings La metodologia dei Dialogic Literary Gatherings si fonda su una cornice teorica che integra contributi provenienti da diverse discipline. Alla base vi è il concetto di apprendimento dialogico teorizzato da Ramon Flecha (2000), che si ispira a sua volta a pensatori come Lev Vygotskij (Vygotskij & Cole, 1978), Paulo Freire (1970), Jerome Bruner (1996) e Jürgen Habermas (1981). Secondo Vygotskij, lo sviluppo cognitivo è mediato socialmente e si realizza attraverso l’interazione linguistica: la zona di sviluppo prossimale si attiva grazie al dialogo tra pari e al supporto di figure più esperte. In modo simile, Bruner ha sottolineato il ruolo della cultura e della narrazione nella costruzione della mente: il pensiero si sviluppa attraverso i racconti e il linguaggio condiviso. Freire (1970), nella sua Pedagogia degli oppressi, propone una visione emancipatrice dell’educazione fondata sulla dialogicità, sulla partecipazione dal basso, sulla coscientizza - zione e sulla capacità critica degli individui e delle comunità. Habermas (1981) arricchisce il quadro con- cettuale introducendo il concetto di agire comunicativo: la comunicazione autentica, basata sulla ricerca del consenso attraverso argomentazioni valide, diventa strumento di trasformazione sociale. Il linguaggio, pertanto, non è solo veicolo di significato, ma strumento d’azione, e parlare, discutere, confrontarsi sono atti performativi che modificano la realtà (Austin, 1975). A questi riferimenti si aggiungono gli apporti di Mead (1934), secondo cui il Sé si costruisce attraverso l’interazione con gli altri, e di Gadamer (1975), che ha evidenziato l’importanza dell’ermeneutica dialogica nella comprensione dei testi e del mondo. I Dialogic Literary Gatherings operano in base a sette principi dell’apprendimento dialogico elaborati da Ramon Flecha (2000): dialogo egualitario, intelligenza culturale, trasformazione, dimensione strumen- tale, creazione di significato, solidarietà ed uguaglianza nella diversità. Ciascuno di questi principi si traduce operativamente nella pratica quotidiana del DLG, rendendolo uno spazio educativo altamente trasforma- tivo. Nello specifico: Dialogo egualitario: nei DLG, ogni partecipante ha diritto a esprimere la propria opinione indipen -– dentemente dal proprio livello di istruzione, età o background sociale. Il valore di un intervento non si misura in base all’autorità della persona, ma alla validità degli argomenti proposti. Questa modalità dialogica, ispirata anche alle teorie di Freire (1970) e Habermas (1981), permette un’autentica demo- cratizzazione della parola e crea un ambiente in cui ogni voce è riconosciuta e rispettata. Intelligenza culturale: nei DLG si valorizzano tutti i tipi di intelligenza, non solo quella accademica. – Ogni partecipante porta la propria intelligenza culturale (Flecha, 2000), fatta di esperienze di vita, co- noscenze pratiche, capacità comunicative. Questo principio consente anche a chi non ha un background scolastico elevato di contribuire pienamente al dialogo, e rafforza la fiducia nelle proprie capacità co - gnitive. T rasformazione personale e comunitaria/sociale: i DLG non si limitano alla riproduzione di conoscenze – esistenti, ma promuovono la trasformazione personale e sociale. Attraverso il confronto critico con i testi e il dialogo con gli altri, i partecipanti sviluppano nuovi modi di vedere sé stessi e il mondo. Questa ID: 28603) e coordinato dal CREA dell’Università di Barcellona. INCLUD-ED ha identificato le Successful Educational Actions (SEAs), ovvero azioni educative capaci di migliorare gli apprendimenti e promuovere la coesione sociale nei contesti più svantaggiati. T ra queste, i Dialogic Literary Gatherings (DLG) rappresentano una delle pratiche più validate. Maggiori informazioni sono disponibili al link: https://cordis.europa.eu/project/id/28603. L ’attuale progetto REVERS-ED – T rends on educational inequalities over time and successful ",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-04-30",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-04-30",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Tiziana Chiappelli, Sabina Leoncini",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Tiziana Chiappelli, Sabina Leoncini",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8025\\2785-7050_8025.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "I benefici educativi della lettura ad alta voce nei Dialogic Literary Gatherings: esperienze e prospettive a partire dal progetto REFUGE-ED",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The educational benefits of reading aloud in Dialogic Literary Gatherings: experiences and perspectives from the REFUGE-ED project",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "The educational benefits of reading aloud in Dialogic Literary Gatherings: experiences and perspectives from the REFUGE-ED project",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The practice of reading within Dialogic Literary Gatherings (DLG) is emerging as one of the most effective educational models to foster language skills, critica",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La pratica della lettura all’interno dei Dialogic Literary Gatherings (DLG) si sta affermando come uno dei modelli educativi più efficaci per promuovere le comp",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

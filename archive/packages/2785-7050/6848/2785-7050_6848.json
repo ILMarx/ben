@@ -1,0 +1,946 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6848",
+  "scraped_at_utc": "2026-04-27T18:46:55Z",
+  "fetched_at_utc": "2026-04-27T18:46:55Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "7c778247840ddb47677eb40381baee1f4035996be368614e384e85fbfcf673fc",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Alessandra Mangano",
+        "nameType": "Personal",
+        "givenName": "Alessandra",
+        "familyName": "Mangano",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Docente Scuola Secondaria di primo grado | MIUR"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6848",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-12-30",
+      "Issued": "2023-12-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "When we talk about youth reading in informal contexts, the most widespread sensation is that today’s adolescents and children don’t read anymore. This statement rather rooted in a school context is misleading. I point out, first of all, about the use of the adverb anymore, which implies that actually today’s young people are those who don’t read, when instead they were used to, in the old times. People’s thought inevitably runs to the use/abuse of new technologies undoubtedly the diffusion of the digital technologies have been capturing the new generations’ attention, in a pervasive and totalizing way. But is it really the case to attribute to the digital all the responsibilities? In this way we would never finish to remove these responsibilities from the whole world tied to the education of children and boys (families, schools, libraries, etc.)? This contribute has got as object the role of schools and the strategies which teachers and school managers should use to start a serious course of education to the reading which are different from the sporadic activities of promotion itself, which are always useful, but noway functional to transform our pupils to readers for the life long, and to offer them some skills capable to take them a deep understanding of a text. We will tell how we were able to make pupils of a comprehensive institute of Altofonte, a small country land, in province of Palermo, fond of reading. Classrooms are full of potential readers and the school must to employ all the capable strategies to transform their reading into a personal art.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Quando si parla di lettura giovanile in contesti informali, la sensazione più diffusa è che i ragazzi (e i bambini) di oggi non leggano più. Questa affermazione, peraltro piuttosto radicata in ambito scolastico, è fuorviante. Mi soffermo, innanzitutto, sull’uso dell’avverbio più il quale sottende che sono proprio i giovani di oggi a non leggere quando invece, prima, si faceva. Il pensiero di molti corre, inevitabilmente, all’uso/abuso delle nuove tecnologie. Indubbiamente, la diffusione delle tecnologie digitali ha catturato l’attenzione delle nuove generazioni in modo pervasivo e totalizzante. Ma è davvero il caso di attribuire al digitale tutte le responsabilità? Stando così le cose, non si finirebbe per deresponsabilizzare l’intero mondo legato alla formazione dei bambini e dei ragazzi (famiglie, scuole, biblioteche, librerie…)? Questo contributo ha come oggetto il ruolo della scuola e le strategie che docenti e dirigenti scolastici possono mettere in atto per avviare un serio percorso di educazione alla lettura che tanto si differenzia da sporadiche attività di promozionedella stessa, sempre utili, ma che non sono funzionali, tuttavia, a trasformare i nostri alunni in lettori per la vita e a offrire loro delle competenze che possano portarli a una comprensione profonda del significato di un testo. Si racconterà dunque di come siamo riusciti a far innamorare della lettura gli alunni di un Istituto comprensivo di Altofonte, piccolo paesino in provincia di Palermo. Le classi pullulano di potenziali lettori e la scuola ha il dovere di mettere in campo tutte le strategie capaci di “trasformare il loro leggere in un’arte personale”. &nbsp;",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2023-03",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "istruzione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettori per tutta la vita",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "biblioteche scolastiche",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "WRW",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lifelong readers",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "school libraries",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6848/6053",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "2",
+      "citationStartPage": "032",
+      "citationEndPage": "043",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Mangano, A. (2023). Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita. Effetti Di Lettura / Effects of Reading , 2 (2), 032–043. https://doi.org/10.7347/EdL-02-2023-03",
+      "articleTitleEcho": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Atwell, N., & Atwell Merkel, A. (2022). La zona di lettura. Come aiutare i ragazzi e le ragazze a diventare lettori abili, appassionati, abituali, critici. QdR Didattica e letteratura, 15. Loescher.",
+        "Atwell, N. (2015). In the Middle. A lifetime of Learning About Writing, Reading and Adolescents. Heinemann.",
+        "Batini, F. (2018). Leggimi ancora. Lettura ad alta voce e Life Skills. GiuntiScuola.",
+        "Becchi, E., & Julia, D. (a cura di), (1996). Storia dell’infanzia. Dal Settecento a oggi (vol. 2). Editori Laterza.",
+        "Blezza Picherle, S. (2009). Nuovi orizzonti per la promozione della lettura. Il Pepeverde (Letture e letterature per ragazzi), 39, 24-28.",
+        "https://www.bibliotecaquarantottigambini.it/wp-content/uploads/2016/04/Promozione-lettura.pdf",
+        "Blezza Picherle, S. (2014). Tratto da: S. Blezza Picherle, Formare lettori, promuovere la lettura. Riflessioni e itinerari narrativi tra territorio e scuola. FrancoAngeli, Milano 2013 (nuova ed. 2014). http://natiperleggere.comune.trieste.it/wpcontent/uploads/2013/04/Blezza-Picherle-Letteratura-e-bisogni-umani.pdf",
+        "Blezza Picherle, S. (2015). Formare lettori, promuovere la lettura. Riflessioni e itinerari narrativi tra territorio e scuola. FrancoAngeli.",
+        "Boero, P., & De Luca, C. (2009). La letteratura per l’infanzia. Editori Laterza.",
+        "Cavadini, L., De Martin, M., & Pianigiani, A. (2021). Leggere, comprendere, condividere. Guida all’analisi del testo narrativo. Pearson Academy.",
+        "Chambers, A. (2015). Il lettore infinito. Educare alla lettura tra ragioni ed emozioni. Equilibri.",
+        "Cristiano, F. (2018). Diventare lettori. Libri e riviste d’Italia. Periodico di cultura editoriale e promozione della lettura, XIV, n.s., gennaio-dicembre, 5-7.",
+        "https://cepell.it/wp-content/uploads/2021/07/LER-2018-1234.pdf",
+        "Luperini, R. (2013). Che cosa resta da fare a noi insegnanti di letteratura? https://corsi.unica.it/pas/files/2014/03/Luperini-R.-Insegnare-la-letteratura-oggi.pdf",
+        "Pennac, D. (2013). Come un romanzo. Feltrinelli.",
+        "Poletti Riz, J., & Pognante, S. (2022). Educare alla lettura con il WRW – Writing and Reading Workshop. Metodo e strumenti per la scuola secondaria di primo grado. Erickson.",
+        "Poletti Riz, J. (2017). Scrittori si diventa. Metodi e percorsi operativi per un laboratorio di scrittura in classe. Erickson.",
+        "Report Istat produzione e lettura libri in Italia. Anno 2021. https://www.istat.it/it/files//2022/12/REPORT_PRODUZIONE_E_LETTURA_LIBRI_2021.pdf",
+        "Roncaglia, G. in Vitello, G. (Eds.), (2023). Leggere a scuola nell’era digitale. Intervista a Gino Roncaglia, Hamelin, 52, 35-55."
+      ],
+      "count": 19,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6848",
+    "article_ID": "6848",
+    "slug": "6848",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6848",
+      "url_slug": "6848"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Reading and libraries at school: how to transform our pupils into readers for all the life long",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-10-31",
+      "accepted": null,
+      "created": "2023-12-30",
+      "modified": "2024-06-25",
+      "issued": "2023-12-30",
+      "available": "2023-12-30",
+      "submitted_page": "2023-10-31",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+        "pdf_value": null,
+        "chosen_value": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-10-31",
+        "pdf_value": null,
+        "chosen_value": "2023-10-31",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6848/6053",
+      "local_relative_path": "2785-7050_6848.pdf",
+      "saved": true,
+      "sha256": "52fac5e4c019c47ac14ac88c28fe7e1a4c6e692bf50e33f52e0a9d8316b61263",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 227806,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Alessandra Mangano"
+      ],
+      "citation_author_institution": [
+        "Docente Scuola Secondaria di primo grado | MIUR"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/12/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2023-03"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6848"
+      ],
+      "citation_keywords": [
+        "istruzione",
+        "lettori per tutta la vita",
+        "biblioteche scolastiche",
+        "WRW"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6848/6053"
+      ],
+      "citation_reference_count": 19,
+      "DC.Date.created": [
+        "2023-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-10-31"
+      ],
+      "DC.Date.issued": [
+        "2023-12-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6848"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2023-03"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6848"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita"
+      ],
+      "DC.Title.Alternative": [
+        "Reading and libraries at school: how to transform our pupils into readers for all the life long"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Alessandra Mangano"
+      ],
+      "citation_author_institution": [
+        "Docente Scuola Secondaria di primo grado | MIUR"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Alessandra Mangano"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "When we talk about youth reading in informal contexts, the most widespread sensation is that today’s adolescents and children don’t read anymore. This statement rather rooted in a school context is misleading. I point out, first of all, about the use of the adverb anymore, which implies that actually today’s young people are those who don’t read, when instead they were used to, in the old times. People’s thought inevitably runs to the use/abuse of new technologies undoubtedly the diffusion of the digital technologies have been capturing the new generations’ attention, in a pervasive and totalizing way. But is it really the case to attribute to the digital all the responsibilities? In this way we would never finish to remove these responsibilities from the whole world tied to the education of children and boys (families, schools, libraries, etc.)? This contribute has got as object the role of schools and the strategies which teachers and school managers should use to start a serious course of education to the reading which are different from the sporadic activities of promotion itself, which are always useful, but noway functional to transform our pupils to readers for the life long, and to offer them some skills capable to take them a deep understanding of a text. We will tell how we were able to make pupils of a comprehensive institute of Altofonte, a small country land, in province of Palermo, fond of reading. Classrooms are full of potential readers and the school must to employ all the capable strategies to transform their reading into a personal art.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "When we talk about youth reading in informal contexts, the most widespread sensation is that today’s adolescents and children don’t read anymore.\r\nThis statement rather rooted in a school context is misleading. I point out, first of all, about the use of the adverb anymore, which implies that actually today’s young people are those who don’t read, when instead they were used to, in the old times.\r\nPeople’s thought inevitably runs to the use/abuse of new technologies undoubtedly the diffusion of the digital technologies have been capturing the new generations’ attention, in a pervasive and totalizing way.\r\nBut is it really the case to attribute to the digital all the responsibilities? In this way we would never finish to remove these responsibilities from the whole world tied to the education of children and boys (families, schools, libraries, etc.)?\r\nThis contribute has got as object the role of schools and the strategies which teachers and school managers should use to start a serious course of education to the reading which are different from the sporadic activities of promotion itself, which are always useful, but noway functional to transform our pupils to readers for the life long, and to offer them some skills capable to take them a deep understanding of a text.\r\nWe will tell how we were able to make pupils of a comprehensive institute of Altofonte, a small country land, in province of Palermo, fond of reading.\r\nClassrooms are full of potential readers and the school must to employ all the capable strategies to transform their reading into a personal art."
+          }
+        },
+        {
+          "content": "Quando si parla di lettura giovanile in contesti informali, la sensazione più diffusa è che i ragazzi (e i bambini) di oggi non leggano più. Questa affermazione, peraltro piuttosto radicata in ambito scolastico, è fuorviante. Mi soffermo, innanzitutto, sull’uso dell’avverbio più il quale sottende che sono proprio i giovani di oggi a non leggere quando invece, prima, si faceva. Il pensiero di molti corre, inevitabilmente, all’uso/abuso delle nuove tecnologie. Indubbiamente, la diffusione delle tecnologie digitali ha catturato l’attenzione delle nuove generazioni in modo pervasivo e totalizzante. Ma è davvero il caso di attribuire al digitale tutte le responsabilità? Stando così le cose, non si finirebbe per deresponsabilizzare l’intero mondo legato alla formazione dei bambini e dei ragazzi (famiglie, scuole, biblioteche, librerie…)? Questo contributo ha come oggetto il ruolo della scuola e le strategie che docenti e dirigenti scolastici possono mettere in atto per avviare un serio percorso di educazione alla lettura che tanto si differenzia da sporadiche attività di promozionedella stessa, sempre utili, ma che non sono funzionali, tuttavia, a trasformare i nostri alunni in lettori per la vita e a offrire loro delle competenze che possano portarli a una comprensione profonda del significato di un testo. Si racconterà dunque di come siamo riusciti a far innamorare della lettura gli alunni di un Istituto comprensivo di Altofonte, piccolo paesino in provincia di Palermo. Le classi pullulano di potenziali lettori e la scuola ha il dovere di mettere in campo tutte le strategie capaci di “trasformare il loro leggere in un’arte personale”. &nbsp;",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Quando si parla di lettura giovanile in contesti informali, la sensazione più diffusa è che i ragazzi (e i bambini) di oggi non leggano più. Questa affermazione, peraltro piuttosto radicata in ambito scolastico, è fuorviante. Mi soffermo, innanzitutto, sull’uso dell’avverbio più il quale sottende che sono proprio i giovani di oggi a non leggere quando invece, prima, si faceva. Il pensiero di molti corre, inevitabilmente, all’uso/abuso delle nuove tecnologie. Indubbiamente, la diffusione delle tecnologie digitali ha catturato l’attenzione delle nuove generazioni in modo pervasivo e totalizzante. Ma è davvero il caso di attribuire al digitale tutte le responsabilità? Stando così le cose, non si finirebbe per deresponsabilizzare l’intero mondo legato alla formazione dei bambini e dei ragazzi (famiglie, scuole, biblioteche, librerie…)?\r\nQuesto contributo ha come oggetto il ruolo della scuola e le strategie che docenti e dirigenti scolastici possono mettere in atto per avviare un serio percorso di educazione alla lettura che tanto si differenzia da sporadiche attività di promozionedella stessa, sempre utili, ma che non sono funzionali, tuttavia, a trasformare i nostri alunni in lettori per la vita e a offrire loro delle competenze che possano portarli a una comprensione profonda del significato di un testo. Si racconterà dunque di come siamo riusciti a far innamorare della lettura gli alunni di un Istituto comprensivo di Altofonte, piccolo paesino in provincia di Palermo. Le classi pullulano di potenziali lettori e la scuola ha il dovere di mettere in campo tutte le strategie capaci di “trasformare il loro leggere in un’arte personale”.\r\n&nbsp;"
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "istruzione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "istruzione"
+          }
+        },
+        {
+          "content": "lettori per tutta la vita",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettori per tutta la vita"
+          }
+        },
+        {
+          "content": "biblioteche scolastiche",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "biblioteche scolastiche"
+          }
+        },
+        {
+          "content": "WRW",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "WRW"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6848/6053",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6848/6053",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6848/6053",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2024-01-29",
+        "mod_date": "2024-01-31"
+      },
+      "front_text_excerpt": "ABSTRACT When we talk about youth reading in informal contexts, the most widespread sensation is that today’s adolescents and children don’t read anymore. This statement rather rooted in a school context is misleading. I point out, first of all, about the use of the adverb anymore, which implies that actually today’s young people are those who don’t read, when instead they were used to, in the old times. People’s thought inevitably runs to the use/abuse of new technologies, undoubtedly the diffusion of the digital technologies have been capturing the new generations’ attention, in a pervasive and total- izing way. But is it really the case to attribute all the responsibilities to the digital? In this way we would never finish removing these responsibilities from the whole world tied to the education of children and boys (families, schools, libraries, etc.)? This contribute has got as object the role of schools and the strategies which teachers and school managers should use to start a serious course of education to the reading which are different from the sporadic activities of promotion itself, which are always useful, but noway functional to transform our pupils to readers for the life long, and to offer them some skills capable to take them a deep un- derstanding of a text. We will tell how we were able to make pupils of a comprehensive institute of Altofonte, a small coun- try land, in the province of Palermo, fond of reading. Classrooms are full of potential readers and the school must employ all the capable strategies to trans- form their reading into a personal art. Keywords: lifelong readers, school libraries, education, WRW Citation: Mangano, A. (2023). Reading and libraries at school: how to transform our pupils into readers for all the life long. Effetti di Lettura / Effects of Reading, 2(2), 32-43. https://doi.org/10.7347/EdL-02-2023-03. Corresponding Author: Alessandra Mangano | alessandra_mangano@yahoo.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-03 Alessandra Mangano Docente Scuola Secondaria di primo grado | MIUR | alessandra_mangano@yahoo.it Double blind peer review Reading and libraries at school: how to transform our pupils into readers for all the life long Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6848\\2785-7050_6848.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+        "pdf_value": null,
+        "chosen_value": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-10-31",
+        "pdf_value": null,
+        "chosen_value": "2023-10-31",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6848",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6848",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:55Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:46:56Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6848",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6848",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 3,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6848",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6848",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6848\\2785-7050_6848.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:57Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6848\\2785-7050_6848.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+        "submitted_date": "2023-10-31",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Alessandra Mangano"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6848\\2785-7050_6848.pdf",
+        "generated_at_utc": "2026-04-27T18:46:57Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2024-01-29",
+          "mod_date": "2024-01-31"
+        },
+        "front_text_excerpt": "ABSTRACT When we talk about youth reading in informal contexts, the most widespread sensation is that today’s adolescents and children don’t read anymore. This statement rather rooted in a school context is misleading. I point out, first of all, about the use of the adverb anymore, which implies that actually today’s young people are those who don’t read, when instead they were used to, in the old times. People’s thought inevitably runs to the use/abuse of new technologies, undoubtedly the diffusion of the digital technologies have been capturing the new generations’ attention, in a pervasive and total- izing way. But is it really the case to attribute all the responsibilities to the digital? In this way we would never finish removing these responsibilities from the whole world tied to the education of children and boys (families, schools, libraries, etc.)? This contribute has got as object the role of schools and the strategies which teachers and school managers should use to start a serious course of education to the reading which are different from the sporadic activities of promotion itself, which are always useful, but noway functional to transform our pupils to readers for the life long, and to offer them some skills capable to take them a deep un- derstanding of a text. We will tell how we were able to make pupils of a comprehensive institute of Altofonte, a small coun- try land, in the province of Palermo, fond of reading. Classrooms are full of potential readers and the school must employ all the capable strategies to trans- form their reading into a personal art. Keywords: lifelong readers, school libraries, education, WRW Citation: Mangano, A. (2023). Reading and libraries at school: how to transform our pupils into readers for all the life long. Effetti di Lettura / Effects of Reading, 2(2), 32-43. https://doi.org/10.7347/EdL-02-2023-03. Corresponding Author: Alessandra Mangano | alessandra_mangano@yahoo.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-03 Alessandra Mangano Docente Scuola Secondaria di primo grado | MIUR | alessandra_mangano@yahoo.it Double blind peer review Reading and libraries at school: how to transform our pupils into readers for all the life long Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "aver incontrato la lettura e dopo averla incontrata. È qualcosa che personalmente ho sperimentato e speri- mento da anni ormai, nelle mie classi della secondaria di primo grado. Figura 1. La lettura per un’alunna di classe 2^ Le necessità più scontate di questa trasformazione sono, ovviamente, legate alle ricadute che una lettura costante e consapevole ha sull’apprendimento della lingua. Secondo quanto afferma A. Chambers (2015), lettura e scrittura sono strettamente connesse perché si influenzano reciprocamente. Inoltre, leggere (e dunque scrivere) ha un impatto importantissimo sulla crescita e sull’istruzione dei nostri alunni. T ra le ra- gioni, l’ultima dovrebbe essere di gran lunga la più dirimente e urgente, specialmente nella scuola secon- daria di primo grado. E qui corre l’obbligo di aprire una parentesi che non vuole essere affatto esaustiva, quanto piuttosto esortare alla riflessione, all’apertura di un confronto sereno sul modo di intendere l’in- segnamento dell’italiano oggi in un ordine di scuola come il nostro. Ha davvero senso ostinarsi allo svol- gimento del programma di letteratura a vent’anni dalle prime Indicazioni Nazionali? Possiamo limitarci a presentare i generi e le tipologie testuali nella tradizionale forma antologica (brano estrapolato dal testo originale e corredato da una serie di esercizi di comprensione)? Qual è la ricaduta di questo approccio? Riusciamo a far innamorare della lettura i nostri alunni e le nostre alunne e, dunque, a creare lettori per la vita? È davvero proficuo un rapporto eterodiretto con la cultura e il sapere? E perché la letteratura non può mai essere un fine ma sempre e solo uno strumento? Nella realtà della gran parte delle classi, a fare la proporzione tra il peso di questo tipo di testi [quelli a tema] e tutti gli altri, la lettura pare davvero legittimata solo dal suo essere funzionale ad altro, mai da se stessa. Al centro, in fondo, non c’è l’esperienza in sé del leggere, o l’ingresso e l’immersione nella forma narrativa, o la potenza dell’essere nella finzione, ma il tema, la presunta ricaduta sociale ed edu- cativa (Galli Laforest, 2023, p. 20). Quindi, possiamo affermare che non è vero che i bambini e i ragazzi non vogliano leggere. Il punto è in che modo gli educatori, i genitori e i docenti fanno vivere loro la lettura. Se non si e lettori, si può essere compiutamente cittadini, consapevoli del contesto in cui si vive, delle proprie facoltà e responsabilità nei confronti degli altri cittadini e della cosa pubblica nel suo complesso? (Cristiano, 2018, p. 5). La domanda evidentemente retorica di Flavia Cristiano spinge a ulteriori riflessioni. Se davvero la lettura è così importante, non solo in termini di ricadute didattiche, ma anche sul futuro cittadino in termini di ragionamento, empatia, responsabilità e, dunque, in modo più ampio sulla società tutta e sulla sua tenuta ! 34 Volume 2 | n. 2 | dicembre 2023 | pp. 32-43Effetti di Lettura Effects of Reading",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-10-31",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-10-31",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6848\\2785-7050_6848.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Lettura e biblioteche scolastiche: come trasformare i nostri studenti in lettori per la vita",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading and libraries at school: how to transform our pupils into readers for all the life long",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading and libraries at school: how to transform our pupils into readers for all the life long",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "When we talk about youth reading in informal contexts, the most widespread sensation is that today’s adolescents and children don’t read anymore. This statement",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Quando si parla di lettura giovanile in contesti informali, la sensazione più diffusa è che i ragazzi (e i bambini) di oggi non leggano più. Questa affermazione",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

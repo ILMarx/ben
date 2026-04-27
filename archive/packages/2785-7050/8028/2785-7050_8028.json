@@ -1,0 +1,1013 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8028",
+  "scraped_at_utc": "2026-04-27T18:49:23Z",
+  "fetched_at_utc": "2026-04-27T18:49:22Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "7c600d3fb1003595be191678bbbb5109b324920adb772824884538e0451c04b5",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Chiara Bertolini",
+        "nameType": "Personal",
+        "givenName": "Chiara",
+        "familyName": "Bertolini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Full Professor | University of Modena and Reggio Emilia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Lucia Scipione",
+        "nameType": "Personal",
+        "givenName": "Lucia",
+        "familyName": "Scipione",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Researcher | University of Modena and Reggio Emilia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Agnese Vezzani",
+        "nameType": "Personal",
+        "givenName": "Agnese",
+        "familyName": "Vezzani",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research Fellow | University of Modena and Reggio Emilia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8028",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-06-27",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-06-27",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-06-27",
+      "Issued": "2025-06-27"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The transformation of teaching practices is the outcome of a prolonged and complex process that necessitates continuous professional development. Its primary aim is to enhance educators’ awareness of the often implicit decisions embedded in instructional planning, while fostering critical reflection on the multifaceted nature of their professional roles. Text comprehension, a naturally transversal and multi-component skill, and the teaching methods that support it, particularly expose teachers to the risk of not clearly identifying objectives and suitable methods and consequently failing to concretely guide practices. This study explores the outcomes of a questionnaire administered at the initial stage of a teacher professional development-research aimed at improving text comprehension, to better understand the teaching habits and self-efficacy perceptions of a group of 25 fourth-grade primary school teachers, and, consequently, to identify their training needs. The survey instrument included items from an Italian adaptation of the Tsachennen-Moran scale, also known as the Ohio scale, and open-ended questions through which teachers described the text comprehension activities commonly carried out in the classroom. Teachers' responses revealed heterogeneity in practices, some difficulty in describing the objectives and strategies implemented in text comprehension activities, and modest self-efficacy, particularly regarding the ability to propose challenging activities for the most capable students.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La trasformazione delle pratiche didattiche è il risultato di un processo lungo e complesso che richiede uno sviluppo professionale continuo. L'obiettivo principale della formazione è quello di aumentare la consapevolezza degli insegnanti sulle decisioni spesso implicite nella progettazione didattica, promuovendo al contempo una riflessione critica sulla natura multiforme della loro professionalità. La comprensione del testo, un'abilità naturalmente trasversale e multicomponenziale, e le metodologie didattiche che la supportano, espongono in particolare gli insegnanti al rischio di non individuare con chiarezza obiettivi e metodi adeguati e di conseguenza di non orientare concretamente le pratiche. Questo studio esplora i risultati di un questionario somministrato nella fase iniziale di una Ricerca-Formazione finalizzata al miglioramento della comprensione del testo, per comprendere meglio le abitudini didattiche e le percezioni di autoefficacia di un gruppo di 25 insegnanti di quarta elementare e, di conseguenza, per identificare i loro bisogni formativi. Lo strumento di indagine ha incluso item tratti da un adattamento italiano della scala Tsachennen-Moran, nota anche come scala Ohio, e domande aperte attraverso le quali gli insegnanti hanno descritto le attività di comprensione del testo comunemente svolte in classe. Le risposte degli insegnanti hanno rivelato eterogeneità nelle pratiche, una certa difficoltà nel descrivere gli obiettivi e le strategie messe in atto nelle attività di comprensione del testo, oltre a una modesta autoefficacia, in particolare per quanto riguarda la capacità di proporre attività stimolanti per gli studenti più capaci.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2025-02",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "formazione in servizio",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "autoefficacia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "comprensione della lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Ricerca-Formazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "imparare a imparare",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "In-service training",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Self-efficacy",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Reading comprehension",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Teacher professional development-research",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Learning to learn",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8028/7017",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "1",
+      "citationStartPage": "019",
+      "citationEndPage": "034",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Bertolini, C., Scipione, L., & Vezzani, A. (2025). Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo. Effetti Di Lettura / Effects of Reading , 4 (1), 019–034. https://doi.org/10.7347/EdL-01-2025-02",
+      "articleTitleEcho": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Agrusti, G., & Dodman, M. (2021). Evaluating the impact of “Ricerca-Formazione” on teachers’ professional development. Methodological issues and operational models. RicercAzione, 13(2), 75-84.",
+        "Altricher, H., Feldman, A., Posch, P., & Somekh, B. (1993). Teachers investigate their work: An introduction to the method of action research. Routledge.",
+        "Asquini, G. (Ed.). (2018). La Ricerca-Formazione: Temi, esperienze e prospettive. FrancoAngeli.",
+        "Baron, N. S. (2022). Come leggere: carta, schermo o audio? Raffaello Cortina Editore.",
+        "Batini, F. (2018). Leggimi ancora. Lettura ad alta voce e Life skills. Florence, Giunti.",
+        "Batini, F., Brizioli, I., Mancini, A., Susta, M., & Scierri, I. D. M. (2021). Lettura e comprensione: una revisione sistematica della letteratura. Ricerche di Pedagogia e Didattica. Journal of Theories and Research in Education, 16(1), 79-86.",
+        "Cardarello, R., & Anonymous, C. (2020).",
+        "Cardarello, R., Anonymous, C., Antonietti, M., Pintus, A. and Anonymous, L. (2017)",
+        "Cardarello, R., & Pintus, A. (2018). Insegnare la comprensione a scuola. Un percorso didattico sperimentale centrato sui testi e sul confronto “tra pari”. Giornale Italiano della Ricerca Educativa, 11(21), 189-204.",
+        "Cardarello, R., & Pintus, A. (2019). La comprensione del testo nella scuola italiana: un bilancio storico e critico. In Strategie efficaci per la comprensione del testo. Il Reciprocal Teaching, 47-75.",
+        "Cardarello, R., & Anonymous, L. (2023).",
+        "De Coster, I., Baidak, N., Motiejunaite, A., & Noorani, S. (2011). Teaching reading in Europe: contexts, policies and practices. Education, Audiovisual and Culture Executive Agency, European Commission. Available from EU Bookshop.",
+        "Consiglio dell’Unione Europea, Raccomandazione 2018/C 189/01, 22 maggio 2018 relativa alle competenze chiave per l’apprendimento permanente. https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=CELEX:32018H0604(01)",
+        "Dodman, M., Cardarello, R., Damiani, V., & Ciani, A. (2025). La Ricerca-Formazione: Impatti, strumenti, fattori. Milano: Franco Angeli open access.",
+        "Gove, M. K. (1983). Clarifying teachers' beliefs about reading. The Reading Teacher, 37(3), 261-268.",
+        "Palmerio, L., & Emiletti, M. (2024). Indagine internazionale IEA PIRLS 2021: i risultati in lettura degli studenti italiani di quarta primaria, Milano: Franco Angeli open access (risultati reperibili anche al https://www.invalsi.it/invalsi/ri/pirls2021/documenti/RappNaz/PIRLS2021_SintesiRis.pdf",
+        "Lastrucci, E. (2019). Insegnare a comprendere. Anicia.",
+        "Lumbelli, L. (2009). La comprensione come problema. Il punto di vista cognitivo. Laterza.",
+        "Marcuccio, M. (2015). La formazione degli insegnanti a una didattica dell’imparare a imparare. Tra scelte per l’innovazione ed elementi di problematicità. Italian Journal of Educational Research, (14), 13-34.",
+        "Ministero dell'Istruzione, dell'Università e della Ricerca. (2012). Indicazioni nazionali per il curricolo della scuola dell'infanzia e del primo ciclo d'istruzione. Decreto Ministeriale 16 novembre 2012, n. 254.",
+        "Pintus, A. (2021). Problemi aperti e modalità di pensiero degli insegnanti in formazione e in servizio. In Ricerca e Didattica per promuovere intelligenza, comprensione e partecipazione. I tomo (pp. 133-140). Pensa Multimedia.",
+        "Pintus, A., Anonymous, C., Anonymous, L., & Antonietti, M. (2021)",
+        "Stringher, C. (2021). Apprendere ad apprendere in prospettiva socio-culturale. Rappresentazioni dei docenti in sei paesi, Milano: Franco Angeli open access (Tr. Learning how to learn in a socio-cultural perspective. Teachers’ representations in six countries).",
+        "Schon, D. A. (2024). Il professionista riflessivo: per una nuova epistemologia della pratica professionale. Edizioni Dedalo.",
+        "Song, J. H., Martens, J., McCharen, B., & Ausburn, L. (2011). Multi-structural relationships among organizational culture, job autonomy, and CTE teacher turnover intention. Career and Technical Education Research, 36(1), 3-26.",
+        "Skaalvik, E. M., & Skaalvik, S. (2007). Dimensions of teacher self-efficacy and relations with strain factors, perceived collective teacher efficacy, and teacher burnout. Journal of educational psychology, 99 (3), 611.",
+        "Tschannen-Moran, M., & Hoy, A. W. (2001). Teacher efficacy: Capturing an elusive construct. Teaching and teacher education, 17 (7), 783-805.",
+        "Anonymous, A., Anonymous, L., & Anonymous, C. (2025)"
+      ],
+      "count": 28,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8028",
+    "article_ID": "8028",
+    "slug": "8028",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8028",
+      "url_slug": "8028"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Describing teaching practices in text comprehension: an exploratory study",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-04-30",
+      "accepted": null,
+      "created": "2025-06-27",
+      "modified": "2025-06-27",
+      "issued": "2025-06-27",
+      "available": "2025-06-27",
+      "submitted_page": "2025-04-30",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+        "pdf_value": null,
+        "chosen_value": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-30",
+        "pdf_value": null,
+        "chosen_value": "2025-04-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+        "pdf_value": null,
+        "chosen_value": "Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8028/7017",
+      "local_relative_path": "2785-7050_8028.pdf",
+      "saved": true,
+      "sha256": "ab9427c1b09fbb93ba60d318d01d192dde86418590edd8abdc73da0db315b361",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 11356270,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Chiara Bertolini",
+        "Lucia Scipione",
+        "Agnese Vezzani"
+      ],
+      "citation_author_institution": [
+        "Full Professor | University of Modena and Reggio Emilia",
+        "Researcher | University of Modena and Reggio Emilia",
+        "Research Fellow | University of Modena and Reggio Emilia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/06/27"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2025-02"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8028"
+      ],
+      "citation_keywords": [
+        "formazione in servizio",
+        "autoefficacia",
+        "comprensione della lettura",
+        "Ricerca-Formazione",
+        "imparare a imparare"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8028/7017"
+      ],
+      "citation_reference_count": 28,
+      "DC.Date.created": [
+        "2025-06-27"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-04-30"
+      ],
+      "DC.Date.issued": [
+        "2025-06-27"
+      ],
+      "DC.Date.modified": [
+        "2025-06-27"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8028"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2025-02"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8028"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo"
+      ],
+      "DC.Title.Alternative": [
+        "Describing teaching practices in text comprehension: an exploratory study"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Chiara Bertolini",
+        "Lucia Scipione",
+        "Agnese Vezzani"
+      ],
+      "citation_author_institution": [
+        "Full Professor | University of Modena and Reggio Emilia",
+        "Researcher | University of Modena and Reggio Emilia",
+        "Research Fellow | University of Modena and Reggio Emilia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Chiara Bertolini",
+        "Lucia Scipione",
+        "Agnese Vezzani"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The transformation of teaching practices is the outcome of a prolonged and complex process that necessitates continuous professional development. Its primary aim is to enhance educators’ awareness of the often implicit decisions embedded in instructional planning, while fostering critical reflection on the multifaceted nature of their professional roles. Text comprehension, a naturally transversal and multi-component skill, and the teaching methods that support it, particularly expose teachers to the risk of not clearly identifying objectives and suitable methods and consequently failing to concretely guide practices. This study explores the outcomes of a questionnaire administered at the initial stage of a teacher professional development-research aimed at improving text comprehension, to better understand the teaching habits and self-efficacy perceptions of a group of 25 fourth-grade primary school teachers, and, consequently, to identify their training needs. The survey instrument included items from an Italian adaptation of the Tsachennen-Moran scale, also known as the Ohio scale, and open-ended questions through which teachers described the text comprehension activities commonly carried out in the classroom. Teachers' responses revealed heterogeneity in practices, some difficulty in describing the objectives and strategies implemented in text comprehension activities, and modest self-efficacy, particularly regarding the ability to propose challenging activities for the most capable students.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The transformation of teaching practices is the outcome of a prolonged and complex process that necessitates continuous professional development. Its primary aim is to enhance educators’ awareness of the often implicit decisions embedded in instructional planning, while fostering critical reflection on the multifaceted nature of their professional roles. Text comprehension, a naturally transversal and multi-component skill, and the teaching methods that support it, particularly expose teachers to the risk of not clearly identifying objectives and suitable methods and consequently failing to concretely guide practices. This study explores the outcomes of a questionnaire administered at the initial stage of a teacher professional development-research aimed at improving text comprehension, to better understand the teaching habits and self-efficacy perceptions of a group of 25 fourth-grade primary school teachers, and, consequently, to identify their training needs. The survey instrument included items from an Italian adaptation of the Tsachennen-Moran scale, also known as the Ohio scale, and open-ended questions through which teachers described the text comprehension activities commonly carried out in the classroom. Teachers' responses revealed heterogeneity in practices, some difficulty in describing the objectives and strategies implemented in text comprehension activities, and modest self-efficacy, particularly regarding the ability to propose challenging activities for the most capable students."
+          }
+        },
+        {
+          "content": "La trasformazione delle pratiche didattiche è il risultato di un processo lungo e complesso che richiede uno sviluppo professionale continuo. L'obiettivo principale della formazione è quello di aumentare la consapevolezza degli insegnanti sulle decisioni spesso implicite nella progettazione didattica, promuovendo al contempo una riflessione critica sulla natura multiforme della loro professionalità. La comprensione del testo, un'abilità naturalmente trasversale e multicomponenziale, e le metodologie didattiche che la supportano, espongono in particolare gli insegnanti al rischio di non individuare con chiarezza obiettivi e metodi adeguati e di conseguenza di non orientare concretamente le pratiche. Questo studio esplora i risultati di un questionario somministrato nella fase iniziale di una Ricerca-Formazione finalizzata al miglioramento della comprensione del testo, per comprendere meglio le abitudini didattiche e le percezioni di autoefficacia di un gruppo di 25 insegnanti di quarta elementare e, di conseguenza, per identificare i loro bisogni formativi. Lo strumento di indagine ha incluso item tratti da un adattamento italiano della scala Tsachennen-Moran, nota anche come scala Ohio, e domande aperte attraverso le quali gli insegnanti hanno descritto le attività di comprensione del testo comunemente svolte in classe. Le risposte degli insegnanti hanno rivelato eterogeneità nelle pratiche, una certa difficoltà nel descrivere gli obiettivi e le strategie messe in atto nelle attività di comprensione del testo, oltre a una modesta autoefficacia, in particolare per quanto riguarda la capacità di proporre attività stimolanti per gli studenti più capaci.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La trasformazione delle pratiche didattiche è il risultato di un processo lungo e complesso che richiede uno sviluppo professionale continuo. L'obiettivo principale della formazione è quello di aumentare la consapevolezza degli insegnanti sulle decisioni spesso implicite nella progettazione didattica, promuovendo al contempo una riflessione critica sulla natura multiforme della loro professionalità. La comprensione del testo, un'abilità naturalmente trasversale e multicomponenziale, e le metodologie didattiche che la supportano, espongono in particolare gli insegnanti al rischio di non individuare con chiarezza obiettivi e metodi adeguati e di conseguenza di non orientare concretamente le pratiche. Questo studio esplora i risultati di un questionario somministrato nella fase iniziale di una Ricerca-Formazione finalizzata al miglioramento della comprensione del testo, per comprendere meglio le abitudini didattiche e le percezioni di autoefficacia di un gruppo di 25 insegnanti di quarta elementare e, di conseguenza, per identificare i loro bisogni formativi. Lo strumento di indagine ha incluso item tratti da un adattamento italiano della scala Tsachennen-Moran, nota anche come scala Ohio, e domande aperte attraverso le quali gli insegnanti hanno descritto le attività di comprensione del testo comunemente svolte in classe. Le risposte degli insegnanti hanno rivelato eterogeneità nelle pratiche, una certa difficoltà nel descrivere gli obiettivi e le strategie messe in atto nelle attività di comprensione del testo, oltre a una modesta autoefficacia, in particolare per quanto riguarda la capacità di proporre attività stimolanti per gli studenti più capaci."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "formazione in servizio",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "formazione in servizio"
+          }
+        },
+        {
+          "content": "autoefficacia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "autoefficacia"
+          }
+        },
+        {
+          "content": "comprensione della lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "comprensione della lettura"
+          }
+        },
+        {
+          "content": "Ricerca-Formazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Ricerca-Formazione"
+          }
+        },
+        {
+          "content": "imparare a imparare",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "imparare a imparare"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8028/7017",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8028/7017",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8028/7017",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-06-26",
+        "mod_date": "2025-06-26"
+      },
+      "front_text_excerpt": "ABSTRACT The transformation of teaching practices is the outcome of a prolonged and complex process that necessitates continuous profess ional de- velopment. Its primary aim is to enhance educators’ awareness of the often implicit decisions embedded in instructional planning, while fos- tering critical reflection on the multifaceted nature of their professional roles. T ext comprehension, a naturally transversal and multi-component skill, and the teaching methods that support it, particularly expose teachers to the risk of not clearly identifying objectives and suitable methods and consequently failing to concretely guide practices. This study explores the outcomes of a questionnaire administere d at the initial stage of a teacher professional development-research aimed at improving text comprehension, to better understand the teaching habits and self-efficacy perceptions of a group of 25 fourth-grade primary school teachers, and, consequently, to identify their training needs. The survey instrument included items from an Italian adaptation of the Tsachennen-Moran scale, also known as the Ohio scale, and open-ended questions through which teachers described the text comprehension activities commonly carried out in the classroom. T eachers' responses revealed heterogeneity in practices, some difficulty in describing the objectives and strategies implemented in text comprehension activities, and modest self-efficacy, particularly regarding the ability to propose challenging activities for the most capable students. Keywords: in-service training, self-efficacy, reading comprehension, teacher professional development, kearning to learn La trasformazione delle pratiche didattiche è il risultato di un processo lungo e complesso che richiede uno sviluppo professionale continuo. L'obiettivo principale della formazione è quello di aumentare la consapevolezza degli insegnanti sulle decisioni spesso implicite nella proget- tazione didattica, promuovendo al contempo una riflessione critica sulla natura multiforme della loro professionalità. La compr ensione del testo, un'abilità naturalmente trasversale e multicomponenziale, e le metodologie didattiche che la supportano, espongono in particolare gli insegnanti al rischio di non individuare con chiarezza obiettivi e metodi adeguati e di conseguenza di non orientare concretamente le pratiche. Questo studio esplora i risultati di un questionario somministrato nella fase iniziale di una Ricerca-Formazione finalizzata al miglioramento della comprensione del testo, per comprendere meglio le abitudini didattiche e le percezioni di autoefficacia di un gruppo di 2 5 insegnanti di quarta elementare e, di conseguenza, per identificare i loro bisogni formativi. Lo strumento di indagine ha incluso item tratti da un adat- tamento italiano della scala Tsachennen-Moran, nota anche come scala Ohio, e domande aperte attraverso le quali gli insegnanti hanno de- scritto le attività di comprensione del testo comunemente svolte in classe. Le risposte degli insegnanti hanno rivelato eteroge neità nelle pratiche, una certa difficoltà nel descrivere gli obiettivi e le strategie messe in atto nelle attività di comprensione del testo, oltre a una modesta autoefficacia, in particolare per quanto riguarda la capacità di proporre attività stimolanti per gli studenti più capaci. Parole chiave: formazione in servizio, autoefficacia, comprensione della lettura, Ricerca-Formazione, imparare a imparare Citation: Bertolini, C., Scipione, L., & Vezzani, A. (2025). Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo. Effetti di Lettura / Effects of Reading, 4(1), 19-34. https://doi.org/10.7347/EdL-01-2025-02. Corresponding Author: Agnese Vezzani | agnese.vezzani@unimore.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-02 Authorship/Attribuzioni: Il contributo è frutto della condivisione dei contenuti tra tutte le Autrici; in particolare la responsabilità dell’elaborazione è suddivisa come segue: Lucia Scipione ha curato il paragrafo introduttivo (1) e il contesto teorico (2); Agnese Vezzani ha ela borato il paragrafo relativo alla metodologia (3), i risultati (4), e la discussione (5); Chiara Bertolini le conclusioni (6). Funding/Finanziamento: La ricerca qui presentata è parte del progetto “Fostering text comprehension as a way to make learning and thinking visible”, finanziato dall’Unione Europea: Piano Nazionale di Ripresa e Resilienza (PNRR) – Missione 4 Componente 2 Investimento 1.1 – Fondo per il Pro- gramma Nazionale Ricerca (PNR) e Progetti di Ricerca di Significativo Interesse Nazionale (PRIN) Next GenerationUE, project code 2022WC8JJ4 (CUP E53D23012010006), PNRR 2022. Chiara Bertolini Full Professor | University of Modena and Reggio Emilia | chiara.bertolini@unimore.it Lucia Scipione Researcher | University of Modena and Reggio Emilia | lucia.scipione@unimore.it Agnese Vezzani Research Fellow | University of Modena and Reggio Emilia | agnese.vezzani@unimore.it Double blind peer review Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo Describing teaching practices in text comprehension: an exploratory study Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8028\\2785-7050_8028.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+        "pdf_value": null,
+        "chosen_value": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-30",
+        "pdf_value": null,
+        "chosen_value": "2025-04-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+        "pdf_value": null,
+        "chosen_value": "Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8028",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8028",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:49:22Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:49:25Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8028",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8028",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8028",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8028",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8028\\2785-7050_8028.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:49:31Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8028\\2785-7050_8028.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+        "submitted_date": "2025-04-30",
+        "accepted_date": null,
+        "copyright_holder": "Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Chiara Bertolini",
+          "Lucia Scipione",
+          "Agnese Vezzani"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8028\\2785-7050_8028.pdf",
+        "generated_at_utc": "2026-04-27T18:49:31Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-06-26",
+          "mod_date": "2025-06-26"
+        },
+        "front_text_excerpt": "ABSTRACT The transformation of teaching practices is the outcome of a prolonged and complex process that necessitates continuous profess ional de- velopment. Its primary aim is to enhance educators’ awareness of the often implicit decisions embedded in instructional planning, while fos- tering critical reflection on the multifaceted nature of their professional roles. T ext comprehension, a naturally transversal and multi-component skill, and the teaching methods that support it, particularly expose teachers to the risk of not clearly identifying objectives and suitable methods and consequently failing to concretely guide practices. This study explores the outcomes of a questionnaire administere d at the initial stage of a teacher professional development-research aimed at improving text comprehension, to better understand the teaching habits and self-efficacy perceptions of a group of 25 fourth-grade primary school teachers, and, consequently, to identify their training needs. The survey instrument included items from an Italian adaptation of the Tsachennen-Moran scale, also known as the Ohio scale, and open-ended questions through which teachers described the text comprehension activities commonly carried out in the classroom. T eachers' responses revealed heterogeneity in practices, some difficulty in describing the objectives and strategies implemented in text comprehension activities, and modest self-efficacy, particularly regarding the ability to propose challenging activities for the most capable students. Keywords: in-service training, self-efficacy, reading comprehension, teacher professional development, kearning to learn La trasformazione delle pratiche didattiche è il risultato di un processo lungo e complesso che richiede uno sviluppo professionale continuo. L'obiettivo principale della formazione è quello di aumentare la consapevolezza degli insegnanti sulle decisioni spesso implicite nella proget- tazione didattica, promuovendo al contempo una riflessione critica sulla natura multiforme della loro professionalità. La compr ensione del testo, un'abilità naturalmente trasversale e multicomponenziale, e le metodologie didattiche che la supportano, espongono in particolare gli insegnanti al rischio di non individuare con chiarezza obiettivi e metodi adeguati e di conseguenza di non orientare concretamente le pratiche. Questo studio esplora i risultati di un questionario somministrato nella fase iniziale di una Ricerca-Formazione finalizzata al miglioramento della comprensione del testo, per comprendere meglio le abitudini didattiche e le percezioni di autoefficacia di un gruppo di 2 5 insegnanti di quarta elementare e, di conseguenza, per identificare i loro bisogni formativi. Lo strumento di indagine ha incluso item tratti da un adat- tamento italiano della scala Tsachennen-Moran, nota anche come scala Ohio, e domande aperte attraverso le quali gli insegnanti hanno de- scritto le attività di comprensione del testo comunemente svolte in classe. Le risposte degli insegnanti hanno rivelato eteroge neità nelle pratiche, una certa difficoltà nel descrivere gli obiettivi e le strategie messe in atto nelle attività di comprensione del testo, oltre a una modesta autoefficacia, in particolare per quanto riguarda la capacità di proporre attività stimolanti per gli studenti più capaci. Parole chiave: formazione in servizio, autoefficacia, comprensione della lettura, Ricerca-Formazione, imparare a imparare Citation: Bertolini, C., Scipione, L., & Vezzani, A. (2025). Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo. Effetti di Lettura / Effects of Reading, 4(1), 19-34. https://doi.org/10.7347/EdL-01-2025-02. Corresponding Author: Agnese Vezzani | agnese.vezzani@unimore.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-02 Authorship/Attribuzioni: Il contributo è frutto della condivisione dei contenuti tra tutte le Autrici; in particolare la responsabilità dell’elaborazione è suddivisa come segue: Lucia Scipione ha curato il paragrafo introduttivo (1) e il contesto teorico (2); Agnese Vezzani ha ela borato il paragrafo relativo alla metodologia (3), i risultati (4), e la discussione (5); Chiara Bertolini le conclusioni (6). Funding/Finanziamento: La ricerca qui presentata è parte del progetto “Fostering text comprehension as a way to make learning and thinking visible”, finanziato dall’Unione Europea: Piano Nazionale di Ripresa e Resilienza (PNRR) – Missione 4 Componente 2 Investimento 1.1 – Fondo per il Pro- gramma Nazionale Ricerca (PNR) e Progetti di Ricerca di Significativo Interesse Nazionale (PRIN) Next GenerationUE, project code 2022WC8JJ4 (CUP E53D23012010006), PNRR 2022. Chiara Bertolini Full Professor | University of Modena and Reggio Emilia | chiara.bertolini@unimore.it Lucia Scipione Researcher | University of Modena and Reggio Emilia | lucia.scipione@unimore.it Agnese Vezzani Research Fellow | University of Modena and Reggio Emilia | agnese.vezzani@unimore.it Double blind peer review Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo Describing teaching practices in text comprehension: an exploratory study Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "propriate, di incrementare la motivazione intrinseca e di esercitare forme di autoregolazione nei processi di lettura, migliorando al contempo la gestione del tempo e delle risorse cognitive. Un ulteriore tema che è sembrato importante esplorare è la percezione di self-efficacy degli insegnanti. Questo costrutto rappresenta un elemento cruciale nella ricerca educativa, al punto che la survey TALIS 2018 lo identifica come indicatore essenziale per definire la qualità dell’insegnamento. La self-efficacy, se- condo Bandura (1997), è “la convinzione nelle proprie capacità di organizzare ed eseguire le azioni neces- sarie per gestire situazioni future”. Non solo: per i docenti può essere predittore dell’efficacia didattica (Cardarello et al., 2017) e dunque avere un positivo impatto sugli esiti scolastici degli studenti (Vezzani et al., 2025). Rimane quindi concreto e attuale il bisogno di accompagnare gli insegnanti ad acquisire mag- giore consapevolezza su quali siano gli aspetti chiave del processo di insegnamento che positivamente in- fluenzano l'apprendimento degli studenti. Per le ragioni sopra esposte e con l’obiettivo di favorire il processo di comprensione del testo, inteso anche come strumento per rendere visibile il ragionamento del lettore, è stato avviato un Progetto di Ricerca di Interesse Nazionale1. Nell’ambito di questo progetto, ricercatori universitari e insegnanti di un gruppo di classi quarte della scuola primaria, appartenenti a diversi Istituti Comprensivi, hanno collaborato per diversi mesi secondo il paradigma della Ricerca-Formazione (Asquini, 2018), integrando ricerca scien- tifica e pratica didattica. 2. Contesto teorico Per innescare un processo di miglioramento efficace nella quotidianità della didattica, la ricerca-formazione, infatti, sembra essere una forma di accompagnamento dei docenti particolarmente promettente (Agrusti & Dodman, 2021; Altricher et al., 1993; Asquini, 2018), poiché mira a promuovere la professionalità degli insegnanti attraverso un processo di riflessione e trasformazione dell’agire educativo e didattico, che assume il punto di vista degli insegnanti, non solo quelli dei ricercatori accademici, come parte costitutiva durante tutta la durata dell’intervento formativo. In letteratura sono state definite cinque caratteristiche costitutive, necessarie affinché un percorso possa definirsi ricerca-formazione: la chiarezza degli obiettivi di formazione per la professionalità degli insegnanti, un gruppo di Ricerca-Formazione composto da ri - cercatori e insegnanti che collaborano insieme, la centratura sulle specificità dei contesti, il confronto si - stematico tra i partecipanti che discutono continuamente i risultati e l’impatto concreto degli esiti nella scuola, per promuovere innovazione educativa e didattica (Dodman et al., 2025). Con questo approccio, si intende assumere la professionalità e il punto di vista degli insegnanti come componente centrale di ogni azione di miglioramento reale. T enendo lo stesso punto di vista, la ricerca TALIS 2018 (OECD, 2020) si è concentrata sulla profes- sionalità degli e considera la percezione di self-efficacy un indicatore, legato alla qualità dell’insegnamento e al successo educativo degli studenti. Va chiarito che l’autoefficacia va distinta dall’autostima: mentre quest’ultima riguarda il valore personale percepito (Baumeister et al., 2003), l’autoefficacia concerne il giudizio di competenza (Bandura, 2006). Gli insegnanti con un alto livello di self-efficacy adottano strategie didattiche innovative, riescono meglio a motivare gli studenti, gestiscono efficacemente le classi, sono più resilienti e meno soggetti al burnout (Pintus et al., 2021; Skaalvik & Skaalvik, 2007; Zee & Koomen, 2016), inoltre tendono a creare un ambiente di apprendimento in cui gli studenti si adattano meglio ai 1 La ricerca è stata finanziata dall’Unione Europea, Piano Nazionale di Ripresa E Resilienza (PNRR) – Missione 4 Componente 2 Investimento 1.1 – Fondo Per il Pr",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-04-30",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-04-30",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Chiara Bertolini, Lucia Scipione, Agnese Vezzani",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8028\\2785-7050_8028.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Descrivere le pratiche didattiche nella comprensione del testo: uno studio esplorativo",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Describing teaching practices in text comprehension: an exploratory study",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Describing teaching practices in text comprehension: an exploratory study",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The transformation of teaching practices is the outcome of a prolonged and complex process that necessitates continuous professional development. Its primary ai",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La trasformazione delle pratiche didattiche è il risultato di un processo lungo e complesso che richiede uno sviluppo professionale continuo. L'obiettivo princi",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

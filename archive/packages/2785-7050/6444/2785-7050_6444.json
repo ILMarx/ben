@@ -1,0 +1,984 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6444",
+  "scraped_at_utc": "2026-04-27T18:46:37Z",
+  "fetched_at_utc": "2026-04-27T18:46:37Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "dfb1cec5d7e16b0819378ee1864a0fa9a58e28813e6c9f3866addce8686c5750",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Clara Silva",
+        "nameType": "Personal",
+        "givenName": "Clara",
+        "familyName": "Silva",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Full Professor | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Giada Prisco",
+        "nameType": "Personal",
+        "givenName": "Giada",
+        "familyName": "Prisco",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Researcher | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Elisa Lencioni",
+        "nameType": "Personal",
+        "givenName": "Elisa",
+        "familyName": "Lencioni",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research fellow | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6444",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-30",
+      "Issued": "2023-06-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The paper aims to show how, within the ECEC services 0-6, the practice of reading aloud is a valid tool to educate to interculture and to value the differences, intended as the specificities that charac-terize each child, from the first years of life. Starting from the awareness of the many benefits that reading aloud offers, the article reflects on the importance of a competent educational staff, who can create the appropriate opportunities for children to experience reading and interact with the book, through a quality reading education and the pleasure of reading, from an intercultural perspective. In early childhood education and care contexts, in fact, intercultural education is declined in its most practical and operational aspects, taking shape as a perspective that highlights the common traits of children and those that make each one different from another, according to an approach that is trans-versal to all educational practices. Within this framework, in order to contribute in ECEC services to the dissemination of good practice of reading aloud, which adequately transmit intercultural ped-agogical messages, care must be taken in choosing the books to be proposed. Quality picturebooks represent an educational tool to stimulate empathy, curiosity and dialogue and they can encourage the development of intercultural thinking in children, offering them a model of relationship and co-existence in diversity. It is in this perspective that the article presents five picturebooks that we believe can encourage in children the identification and sharing of emotions and experiences, showing how reading quality texts aloud is a precious opportunity to bring them closer to the theme of individual diversity, to know and recognize themselves.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "L’articolo si propone di mostrare come, all’interno dei servizi educativi per l’infanzia 0-6 anni, la pratica della lettura ad alta voce sia uno strumento valido per educare all’intercultura e valorizzare le differenze, intese come le specificità che caratterizzano ogni bambino, sin dai primi anni di vita. Partendo dalla consapevolezza dei numerosi benefici che la lettura ad alta voce offre, l’articolo riflette sull’importanza di un personale educativo competente, capace di creare le opportunità adeguate affinché i bambini possano sperimentare la lettura e interagire con il libro, attraverso un’educazione alla lettura di qualità e il piacere di leggere, da una prospettiva interculturale. Nei contesti educativi per la prima infanzia, infatti, l’educazione interculturale si declina nei suoi aspetti più pratici e operativi, prendendo forma come una prospettiva che mette in luce i tratti comuni dei bambini e quelli che rendono ciascuno diverso dagli altri, secondo un approccio trasversale a tutte le pratiche educative. In questo contesto, per contribuire alla diffusione della buona pratica della lettura ad alta voce nei servizi per l’infanzia, che trasmetta adeguatamente messaggi pedagogici interculturali, occorre prestare attenzione alla scelta dei libri da proporre. Gli albi illustrati di qualità rappresentano uno strumento educativo per stimolare empatia, curiosità e dialogo e possono incoraggiare lo sviluppo del pensiero interculturale nei bambini, offrendo loro un modello di relazione e convivenza nella diversità. È in questa prospettiva che l’articolo presenta cinque albi illustrati che riteniamo possano incoraggiare nei bambini l’identificazione e la condivisione di emozioni ed esperienze, mostrando come leggere ad alta voce testi di qualità sia una preziosa opportunità per avvicinarli al tema della diversità individuale, per conoscersi e riconoscersi.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2023-04",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Servizi educativi per l’infanzia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Educazione interculturale",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Libro illustrato",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Diversità",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Early childhood education services",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Intercultural education",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Picturebook",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Diversity",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6444/5541",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "1",
+      "citationStartPage": "044",
+      "citationEndPage": "054",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Silva, C., Prisco, G., & Lencioni, E. (2023). La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale. Effetti Di Lettura / Effects of Reading , 2 (1), 044–054. https://doi.org/10.7347/EdL-01-2023-04",
+      "articleTitleEcho": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6444",
+    "article_ID": "6444",
+    "slug": "6444",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6444",
+      "url_slug": "6444"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Reading aloud in early childhood education services from an intercultural perspective",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-04-13",
+      "accepted": null,
+      "created": "2023-06-30",
+      "modified": "2024-06-25",
+      "issued": "2023-06-30",
+      "available": "2023-06-30",
+      "submitted_page": "2023-04-13",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+        "pdf_value": null,
+        "chosen_value": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-04-13",
+        "pdf_value": null,
+        "chosen_value": "2023-04-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6444/5541",
+      "local_relative_path": "2785-7050_6444.pdf",
+      "saved": true,
+      "sha256": "c2bf0cf07a4bf9b2777ea632b050bda0d3689ca3c85fe26cd70bd26c48d4a289",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1929190,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Clara Silva",
+        "Giada Prisco",
+        "Elisa Lencioni"
+      ],
+      "citation_author_institution": [
+        "Full Professor | University of Florence",
+        "Researcher | University of Florence",
+        "Research fellow | University of Florence"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/06/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2023-04"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6444"
+      ],
+      "citation_keywords": [
+        "Lettura ad alta voce",
+        "Servizi educativi per l’infanzia",
+        "Educazione interculturale",
+        "Libro illustrato",
+        "Diversità"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6444/5541"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2023-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-04-13"
+      ],
+      "DC.Date.issued": [
+        "2023-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6444"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2023-04"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6444"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale"
+      ],
+      "DC.Title.Alternative": [
+        "Reading aloud in early childhood education services from an intercultural perspective"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Clara Silva",
+        "Giada Prisco",
+        "Elisa Lencioni"
+      ],
+      "citation_author_institution": [
+        "Full Professor | University of Florence",
+        "Researcher | University of Florence",
+        "Research fellow | University of Florence"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Clara Silva",
+        "Giada Prisco",
+        "Elisa Lencioni"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The paper aims to show how, within the ECEC services 0-6, the practice of reading aloud is a valid tool to educate to interculture and to value the differences, intended as the specificities that charac-terize each child, from the first years of life. Starting from the awareness of the many benefits that reading aloud offers, the article reflects on the importance of a competent educational staff, who can create the appropriate opportunities for children to experience reading and interact with the book, through a quality reading education and the pleasure of reading, from an intercultural perspective. In early childhood education and care contexts, in fact, intercultural education is declined in its most practical and operational aspects, taking shape as a perspective that highlights the common traits of children and those that make each one different from another, according to an approach that is trans-versal to all educational practices. Within this framework, in order to contribute in ECEC services to the dissemination of good practice of reading aloud, which adequately transmit intercultural ped-agogical messages, care must be taken in choosing the books to be proposed. Quality picturebooks represent an educational tool to stimulate empathy, curiosity and dialogue and they can encourage the development of intercultural thinking in children, offering them a model of relationship and co-existence in diversity. It is in this perspective that the article presents five picturebooks that we believe can encourage in children the identification and sharing of emotions and experiences, showing how reading quality texts aloud is a precious opportunity to bring them closer to the theme of individual diversity, to know and recognize themselves.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The paper aims to show how, within the ECEC services 0-6, the practice of reading aloud is a valid tool to educate to interculture and to value the differences, intended as the specificities that charac-terize each child, from the first years of life. Starting from the awareness of the many benefits that reading aloud offers, the article reflects on the importance of a competent educational staff, who can create the appropriate opportunities for children to experience reading and interact with the book, through a quality reading education and the pleasure of reading, from an intercultural perspective. In early childhood education and care contexts, in fact, intercultural education is declined in its most practical and operational aspects, taking shape as a perspective that highlights the common traits of children and those that make each one different from another, according to an approach that is trans-versal to all educational practices. Within this framework, in order to contribute in ECEC services to the dissemination of good practice of reading aloud, which adequately transmit intercultural ped-agogical messages, care must be taken in choosing the books to be proposed. Quality picturebooks represent an educational tool to stimulate empathy, curiosity and dialogue and they can encourage the development of intercultural thinking in children, offering them a model of relationship and co-existence in diversity. It is in this perspective that the article presents five picturebooks that we believe can encourage in children the identification and sharing of emotions and experiences, showing how reading quality texts aloud is a precious opportunity to bring them closer to the theme of individual diversity, to know and recognize themselves."
+          }
+        },
+        {
+          "content": "L’articolo si propone di mostrare come, all’interno dei servizi educativi per l’infanzia 0-6 anni, la pratica della lettura ad alta voce sia uno strumento valido per educare all’intercultura e valorizzare le differenze, intese come le specificità che caratterizzano ogni bambino, sin dai primi anni di vita. Partendo dalla consapevolezza dei numerosi benefici che la lettura ad alta voce offre, l’articolo riflette sull’importanza di un personale educativo competente, capace di creare le opportunità adeguate affinché i bambini possano sperimentare la lettura e interagire con il libro, attraverso un’educazione alla lettura di qualità e il piacere di leggere, da una prospettiva interculturale. Nei contesti educativi per la prima infanzia, infatti, l’educazione interculturale si declina nei suoi aspetti più pratici e operativi, prendendo forma come una prospettiva che mette in luce i tratti comuni dei bambini e quelli che rendono ciascuno diverso dagli altri, secondo un approccio trasversale a tutte le pratiche educative. In questo contesto, per contribuire alla diffusione della buona pratica della lettura ad alta voce nei servizi per l’infanzia, che trasmetta adeguatamente messaggi pedagogici interculturali, occorre prestare attenzione alla scelta dei libri da proporre. Gli albi illustrati di qualità rappresentano uno strumento educativo per stimolare empatia, curiosità e dialogo e possono incoraggiare lo sviluppo del pensiero interculturale nei bambini, offrendo loro un modello di relazione e convivenza nella diversità. È in questa prospettiva che l’articolo presenta cinque albi illustrati che riteniamo possano incoraggiare nei bambini l’identificazione e la condivisione di emozioni ed esperienze, mostrando come leggere ad alta voce testi di qualità sia una preziosa opportunità per avvicinarli al tema della diversità individuale, per conoscersi e riconoscersi.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "L’articolo si propone di mostrare come, all’interno dei servizi educativi per l’infanzia 0-6 anni, la pratica della lettura ad alta voce sia uno strumento valido per educare all’intercultura e valorizzare le differenze, intese come le specificità che caratterizzano ogni bambino, sin dai primi anni di vita. Partendo dalla consapevolezza dei numerosi benefici che la lettura ad alta voce offre, l’articolo riflette sull’importanza di un personale educativo competente, capace di creare le opportunità adeguate affinché i bambini possano sperimentare la lettura e interagire con il libro, attraverso un’educazione alla lettura di qualità e il piacere di leggere, da una prospettiva interculturale. Nei contesti educativi per la prima infanzia, infatti, l’educazione interculturale si declina nei suoi aspetti più pratici e operativi, prendendo forma come una prospettiva che mette in luce i tratti comuni dei bambini e quelli che rendono ciascuno diverso dagli altri, secondo un approccio trasversale a tutte le pratiche educative. In questo contesto, per contribuire alla diffusione della buona pratica della lettura ad alta voce nei servizi per l’infanzia, che trasmetta adeguatamente messaggi pedagogici interculturali, occorre prestare attenzione alla scelta dei libri da proporre. Gli albi illustrati di qualità rappresentano uno strumento educativo per stimolare empatia, curiosità e dialogo e possono incoraggiare lo sviluppo del pensiero interculturale nei bambini, offrendo loro un modello di relazione e convivenza nella diversità. È in questa prospettiva che l’articolo presenta cinque albi illustrati che riteniamo possano incoraggiare nei bambini l’identificazione e la condivisione di emozioni ed esperienze, mostrando come leggere ad alta voce testi di qualità sia una preziosa opportunità per avvicinarli al tema della diversità individuale, per conoscersi e riconoscersi."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Lettura ad alta voce"
+          }
+        },
+        {
+          "content": "Servizi educativi per l’infanzia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Servizi educativi per l’infanzia"
+          }
+        },
+        {
+          "content": "Educazione interculturale",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Educazione interculturale"
+          }
+        },
+        {
+          "content": "Libro illustrato",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Libro illustrato"
+          }
+        },
+        {
+          "content": "Diversità",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Diversità"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6444/5541",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6444/5541",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6444/5541",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2023-07-04",
+        "mod_date": "2023-07-04"
+      },
+      "front_text_excerpt": "ABSTRACT The paper aims to show how, within the ECEC services 0-6, the practice of reading aloud is a valid tool to educate to interculture and to value the differences, intended as the specificities that charac- terize each child, from the first years of life. Starting from the awareness of the many benefits that reading aloud offers, the article reflects on the importance of a competent educational staff, who can create the appropriate opportunities for children to experience reading and interact with the book, through a quality reading education and the pleasure of reading, from an intercultural perspective. In early childhood education and care contexts, in fact, intercultural education is declined in its most practical and operational aspects, taking shape as a perspective that highlights the common traits of children and those that make each one different from another, according to an approach that is trans- versal to all educational practices. Within this framework, in order to contribute in ECEC services to the dissemination of good practice of reading aloud, which adequately transmit intercultural ped- agogical messages, care must be taken in choosing the books to be proposed. Quality picturebooks represent an educational tool to stimulate empathy, curiosity and dialogue and they can encourage the development of intercultural thinking in children, offering them a model of relationship and co- existence in diversity. It is in this perspective that the article presents five picturebooks that we believe can encourage in children the identification and sharing of emotions and experiences, showing how reading quality texts aloud is a precious opportunity to bring them closer to the theme of individual diversity, to know and recognize themselves. Keywords: Reading aloud, Early childhood education services, Intercultural education, Picture - book; Diversity Citation: Silva, C., Prisco, G., & Lencioni, E. (2023). Reading aloud in early childhood education services from an intercultural per- spective. Effetti di Lettura / Effects of Reading, 2(1), 44-54. https://doi.org/10.7347/EdL-01-2023-04. Corresponding Author: Clara Silva | clara.silva@unifi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-04 Clara Silva Full Professor | University of Florence | clara.silva@unifi.it Giada Prisco Researcher | University of Florence | giada.prisco@unifi.it Elisa Lencioni Research fellow | University of Florence | elisa.lencioni@unifi.it * Il contributo è frutto di un lavoro coordinato e congiunto delle tre Autrici. T uttavia, sono da attribuire: a Elisa Lencioni il par. 1, a Clara Silva il par. 2, a Giada Prisco il par. 3. Double blind peer review Reading aloud in early childhood education services from an intercultural perspective* La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6444\\2785-7050_6444.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+        "pdf_value": null,
+        "chosen_value": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-04-13",
+        "pdf_value": null,
+        "chosen_value": "2023-04-13",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6444",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6444",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:37Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:46:39Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6444",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6444",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6444",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6444",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6444\\2785-7050_6444.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:40Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6444\\2785-7050_6444.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+        "submitted_date": "2023-04-13",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Clara Silva",
+          "Giada Prisco",
+          "Elisa Lencioni"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6444\\2785-7050_6444.pdf",
+        "generated_at_utc": "2026-04-27T18:46:40Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2023-07-04",
+          "mod_date": "2023-07-04"
+        },
+        "front_text_excerpt": "ABSTRACT The paper aims to show how, within the ECEC services 0-6, the practice of reading aloud is a valid tool to educate to interculture and to value the differences, intended as the specificities that charac- terize each child, from the first years of life. Starting from the awareness of the many benefits that reading aloud offers, the article reflects on the importance of a competent educational staff, who can create the appropriate opportunities for children to experience reading and interact with the book, through a quality reading education and the pleasure of reading, from an intercultural perspective. In early childhood education and care contexts, in fact, intercultural education is declined in its most practical and operational aspects, taking shape as a perspective that highlights the common traits of children and those that make each one different from another, according to an approach that is trans- versal to all educational practices. Within this framework, in order to contribute in ECEC services to the dissemination of good practice of reading aloud, which adequately transmit intercultural ped- agogical messages, care must be taken in choosing the books to be proposed. Quality picturebooks represent an educational tool to stimulate empathy, curiosity and dialogue and they can encourage the development of intercultural thinking in children, offering them a model of relationship and co- existence in diversity. It is in this perspective that the article presents five picturebooks that we believe can encourage in children the identification and sharing of emotions and experiences, showing how reading quality texts aloud is a precious opportunity to bring them closer to the theme of individual diversity, to know and recognize themselves. Keywords: Reading aloud, Early childhood education services, Intercultural education, Picture - book; Diversity Citation: Silva, C., Prisco, G., & Lencioni, E. (2023). Reading aloud in early childhood education services from an intercultural per- spective. Effetti di Lettura / Effects of Reading, 2(1), 44-54. https://doi.org/10.7347/EdL-01-2023-04. Corresponding Author: Clara Silva | clara.silva@unifi.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-04 Clara Silva Full Professor | University of Florence | clara.silva@unifi.it Giada Prisco Researcher | University of Florence | giada.prisco@unifi.it Elisa Lencioni Research fellow | University of Florence | elisa.lencioni@unifi.it * Il contributo è frutto di un lavoro coordinato e congiunto delle tre Autrici. T uttavia, sono da attribuire: a Elisa Lencioni il par. 1, a Clara Silva il par. 2, a Giada Prisco il par. 3. Double blind peer review Reading aloud in early childhood education services from an intercultural perspective* La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "– quest’ultimi – oggetto della nostra ricerca. È, infatti, ormai da tempo che nei servizi per l’infanzia, nel contesto italiano, vengono promosse esperienze, buone pratiche e progetti di lettura ad alta voce, con la consapevolezza dei molteplici effetti positivi che ne derivano. A confermare tali riflessioni sono gli stessi documenti istituzionali: si pensi, ad esempio, ai recenti Orien- tamenti nazionali per i servizi educativi per l’infanzia, adottati nel 2022, nei quali si riconosce l’importanza e il ruolo che ha la lettura ad alta voce nella crescita dei bambini e delle bambine, identificandola come una delle attività che caratterizzano i contesti educativi, sottolineando l’importanza di dedicare un’atten- zione specifica “a costruire situazioni quotidiane per la narrazione con appositi espositori per libri di vario genere e materiali, accuratamente selezionati” (Ministero dell’Istruzione, 2022, p. 43). O ancora, si pensi alla Regione T oscana, che, all’interno del suo Patto regionale per la lettura (2019), riconosce i molteplici benefici del leggere e mette al centro l’importanza di sostenere e promuovere la pratica della lettura fin dalla prima infanzia, riconoscendolo come un diritto della persona. Non è un caso che la stessa Regione promuova, infatti, l’importante politica educativa di Leggere: Forte! Ad alta voce fa crescere l’intelligenza (Batini, 2021), avviata nel 2019 per diffondere la pratica quotidiana della lettura ad alta voce in tutte le scuole toscane di ogni ordine e grado, dal nido d’infanzia alla scuola secondaria di secondo grado. Alla luce di quanto emerso, si evince che all’interno dei servizi per l’infanzia, nel lavoro educativo, è importante promuovere un’educazione alla lettura di qualità. Risulta decisivo nutrire il gusto della lettura (De Mauro, 1981; Detti, 2013), suscitare nei bambini e nelle bambine il piacere di leggere, l’interesse e la curiosità nei confronti del libro, senza forzature e imposizioni, proponendola come un’attività piacevole, adottando un “approccio pedagogicamente orientato” (Freschi, 2013, p. 25). Leggere dovrebbe significare “vivere una situazione gradevole e spensierata, che permette di ripensare la vicenda narrata, aiutando il bambino a capire e a conoscere meglio se stesso, gli altri e il mondo in cui vive” ( Ibidem). Per educare al piacere di leggere, educatrici e educatori devono creare le occasioni affinché bambini e bambine possano “scoprire” il vasto mondo dei libri (Blezza Picherle, 2013), attraverso un accompagnamento “aperto” e “flessibile”, senza forzature, rispettando i loro tempi, le loro capacità e i loro interessi. Ciò a partire dal presupposto che non si nasce con l’amore per la lettura, ma questo deve essere coltivato nel tempo, come esito di una pratica lenta, ma significativa e duratura (Freschi, 2013), poiché “il verbo leggere non sopporta l’imperativo” (Pennac, 1993, p. 11). In questo quadro, un importante aspetto da considerare è che, come afferma Luca Ferrieri (2011), è proprio grazie alla gioia del leggere che si va oltre la pratica della lettura come mera decifrazione, arrivando a favorire e incrementare la comprensione che ne deriva. Tale riflessione risulta essenziale se si pensa che, in Italia, ci troviamo di fronte a un’emergenza della lettura (Blezza Picherle, 2013; Centro per il libro e la lettura, 2014), con un numero di lettori e lettrici che non raggiunge nemmeno la metà della popolazione (Istat, 2022) e dove circa il 23% dei giovani e delle giovani di 15 anni non consegue il livello minimo di competenze in lettura (reading literacy) (Invalsi, 2019). Da questo, si evince ancor di più quanto sia im - portante formare lettori e lettrici fin dalla tenera età, educando alla lettura e al piacere di leggere, rendendola una pratica consolidata. Entro tale scenario, risultano interessanti anche le ricerche condotte a livello internazionale, rispetto alla correlazione riscontrata tra il piacere provato nell’attività della lettura e gli effetti posi",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-04-13",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-04-13",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6444\\2785-7050_6444.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura ad alta voce nei servizi educativi per la prima infanzia in una prospettiva interculturale",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading aloud in early childhood education services from an intercultural perspective",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Reading aloud in early childhood education services from an intercultural perspective",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The paper aims to show how, within the ECEC services 0-6, the practice of reading aloud is a valid tool to educate to interculture and to value the differences,",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "L’articolo si propone di mostrare come, all’interno dei servizi educativi per l’infanzia 0-6 anni, la pratica della lettura ad alta voce sia uno strumento valid",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

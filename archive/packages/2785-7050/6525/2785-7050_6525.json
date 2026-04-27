@@ -1,0 +1,1043 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6525",
+  "scraped_at_utc": "2026-04-27T18:46:42Z",
+  "fetched_at_utc": "2026-04-27T18:46:42Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "05f78d35564a04c3dc0f2bccf1fef6989e7f4cbb412f4e8536635d3e54a6d5fe",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Storicità del leggere",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Francesco Vettori",
+        "nameType": "Personal",
+        "givenName": "Francesco",
+        "familyName": "Vettori",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6525",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-12-30",
+      "Issued": "2023-12-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The following pages resume the topic of reading as a practice through an observation of what the reader does in the present day. The resulting description will enable to compare some of the assessments concerning the contemporary reader, whose habits originated with the use of the printed book, and those of the protolector, attributed in a predominantly oral culture, such as the archaic Greek (600 - 480 B.C.), when alphabetical writing began to spread more extensively.&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is argued that the different judgments are primarily due to pragmatic reasons, the most important of which are the variability of the writing surface, originally non-normalised as the printed page later becomes. Then the type of script which was employed, generally a scriptio continua, requiring the reader to oralise the message for its comprehension. Finally, the heteronomous function of writing as with the “silent objects” that speak thank to the voice of the reader. Hence some important consequences on the way of reading, also because the protolector often used to read for an audience of illiterate listeners.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Regards to the activity of reading, its changes, the skills it involves and finally its attributions of value, the literary text is chosen as an exemplary term of comparison because of its distinctive features, recognised by looking at what happens to the reader.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Le pagine che seguono riprendono il tema della lettura come pratica, osservando che cosa fa oggi chi legge. La descrizione che ne deriva intende confrontare alcuni dei giudizi di valore del lettore odierno, le cui abitudini nascono dall'uso del libro a stampa, e quelli attribuiti al protolettore in una cultura prevalentemente orale, come la greca arcaica (600 - 480 A.C.), quando la scrittura alfabetica si diffuse più estesamente. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Si argomenta che la diversità di giudizio sia dovuta a ragioni prima di tutto pragmatiche le più importanti delle quali sono la variabilità della superficie scrittoria, in origine non normalizzata come poi diventerà la pagina a stampa. Quindi la forma di scrittura impiegata, in genere una scriptio continua che richiede al lettore di oralizzare il messaggio per la sua comprensione. Infine, gli usi riservati alla scrittura, per cui essa ha ancora funzione eteronoma, come è il caso degli “oggetti muti” che parlano attraverso la voce del lettore. Tutto ciò ebbe conseguenze importanti sul modo di leggere, tenuto poi conto che chi leggeva lo faceva per un pubblico di ascoltatori in genere analfabeta. Circa l’attività di lettura, i suoi cambiamenti, le competenze che richiede e infine le sue attribuzioni di valore, si è scelto il testo&nbsp; letterario come termine esemplare di confronto, per alcune sue caratteristiche distintive, che sono riconosciute guardando a ciò che succede al lettore.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2023-02",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Pratica di lettura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Testo letterario",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Enunciazione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Oggetti fattitivi",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Sociosemiotica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Practice of Reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Literary Text",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Enunciation",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Factitive Objects",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Sociosemiotics",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "use of the book",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "ritual enunciation",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "sonorous images",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6525/6051",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "2",
+      "citationStartPage": "019",
+      "citationEndPage": "031",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Vettori, F. (2023). Storicità del leggere. Effetti Di Lettura / Effects of Reading , 2 (2), 019–031. https://doi.org/10.7347/EdL-02-2023-02",
+      "articleTitleEcho": "Storicità del leggere"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Batini, F. (2022). Lettura ad alta voce. Ricerche e strumenti per educatori, insegnanti e genitori. Carocci.",
+        "Bénichou, P. (1993). La consacrazione dello scrittore. L'avvento dello spirito laico nella Francia moderna (1750-1830). Il Mulino.",
+        "Bénichou, P. (1993). Il tempo dei profeti. Dottrine dell'età romantica. Il Mulino.",
+        "Bologna, C. (1996). Costruire. In M. Lavagetto (a cura di), Il testo letterario. Laterza.",
+        "Bolter, D. J. (1993). Lo spazio dello scrivere. Vita e Pensiero.",
+        "Cavallo, G. e Chartier, R. (a cura di) (1995). Storia della lettura nel mondo occidentale. Laterza.",
+        "Cerquiglini, B. (1989). Éloge de la variante: histoire critique de la philologie. Séuil.",
+        "Chartier, R. (2001). In scena e in pagina. Sylvestre Bonnard Editore.",
+        "Chevalier, J. C. (1988). Storia sociale della linguistica. In L. Formigari e F. Lo Piparo (a cura di), Prospettive di storia della linguistica. Editori Riuniti.",
+        "Deahene, S. (2009). I neuroni della lettura, Raffaello Cortina Editore.",
+        "De Certeau, M. (2009). L’invenzione del quotidiano. Edizioni Lavoro.",
+        "Deni, M. (a cura di). (2002) Versus, Quaderni di Studi Semiotici. (91-92).",
+        "Deni, M. (2002). Oggetti in azione, Franco Angeli.",
+        "Derrida, J. (1998). Della Grammatologia. Jaca Book.",
+        "Detienne, M. (a cura di) (1989). Sapere e scrittura in Grecia. Laterza.",
+        "Diringer, D. (1962). Writing. Praeger.",
+        "Dupont, F. (1988). L’invention de la littérature. Éditions La Découverte.",
+        "Dupont, F. (1993). Omero e Dallas, Donzelli.",
+        "Eco, U. (1990). Sugli specchi. Bompiani.",
+        "Eisenstein, E. (1978). The Printing Press as an Agent of Change. Cambridge University Press.",
+        "Febvre, L. e Martin, H. J. (1976). La nascita del libro. Laterza.",
+        "Ferrieri, L. (2013). Fra l’ultimo libro letto e il primo nuovo da aprire. Olschki.",
+        "Festi, A. e Valle, G. (2005). Rivista italiana di studi semiotici (versione online).",
+        "Fiormonte, D. (2018). Per una critica del testo digitale. Bulzoni.",
+        "Garbini, G. (1998). La questione dell’alfabeto. In S. Moscati, I Fenici. Bompiani.",
+        "Garmon, I. (2019). L’adieu au sens: prises et déprises de l’utilisateur modèle, Lector in Fabula. Quarant’anni dopo in Versus (129/2. pp. 287-304).",
+        "Gelb, I. (1952). A Study of Writing: The Foundations of Grammatology. University of Chicago Press.",
+        "Genette, G. (1989). Soglie. I dintorni del testo. Einaudi.",
+        "Gentili, B. (1996). Introduzione. In E. A. Havelock, Alle origini della filosofia greca. Il Melangolo.",
+        "Greimas, J. A. (1984). Del senso II. Bompiani.",
+        "Greimas, J. A. e Courtes, J. (2007). Semiotica. Dizionario ragionato della teoria del linguaggio. Bruno Mondadori.",
+        "Hamesse, J. (1995). Il modello della lettura nell’età della scolastica. In G. Cavallo e R. Chartier (a cura di). Storia della lettura nel mondo occidentale. Laterza.",
+        "Erler, M. (1991). Il senso delle aporie nei dialoghi di Platone. Vita e Pensiero.",
+        "Ferrieri, L. (2013). Fra l’ultimo libro letto e il primo nuovo da aprire. Olschki.",
+        "Fish, S. (1980). Is There a Text in the Classroom?. Harvard University Press.",
+        "Knox, B. (1968). Silent Reading in Antiquity. Greek, Roman and Byzantine Studies. 9 (4).",
+        "Hamon, P. (1977). Semiologia lessico leggibilità del testo narrativo. Pratiche.",
+        "Havelock, E. A. (1993). Dalla a alla z: le origini della civiltà della scrittura in Occidente. Il Melagolo.",
+        "Illich, I. (1996). Nella vigna del testo. Raffaello Cortina Editore.",
+        "Iser, W. (1987). L’atto della lettura. Una teoria della risposta estetica. Il Mulino.",
+        "Iser, W. (1993). The Fictive and the Imaginary. The John Hopkins University Press.",
+        "Lyons, M. (2019). Storia della lettura e della scrittura nel mondo occidentale. Editrice Bibliografica.",
+        "Longo, G. O. (1998). Il nuovo Golem. Laterza.",
+        "Loretelli, R. (2010). L’invenzione del romanzo, dall’oralità alla lettura silenziosa. Laterza.",
+        "Manetti, G. (2008). L’enunciazione. Mondadori Università.",
+        "Maragliano, R. (2002). I saperi della scuola. Anicia.",
+        "Marrone, R. e Landowski. E. (2002). La società degli oggetti. Meltemi.",
+        "Marrone, R. (2010). L’invenzione del testo. Laterza.",
+        "McKenzie, D. F. (2002). Il passato è il prologo. Sylvestre Bonnard Editore.",
+        "McKenzie, D. F. (2004). Di Shakespeare e Congreve. Sylvestre Bonnard Editore.",
+        "McKenzie, D. F. (2004). Stampatori della mente. Sylvestre Bonnard Editore.",
+        "McKenzie, D. F. (2005). Bibliografia e sociologia dei testi. Sylvestre Bonnard Editore.",
+        "McLaughlin, T. (2005). Reading and The Body: The Physical Practice of Reading. Palgrave-McMillan.",
+        "Migliorini, Bruno. (1994). Storia della lingua italiana. Bompiani.",
+        "Montecchi, C. (2015). Storia del libro e della lettura: dalle origini ad Aldo Manuzio. Mimesis.",
+        "Musti, D. (2010). Il simposio. Laterza.",
+        "Petrucci, A. in Febrvre, L. e Martin, J. H. (1976). La nascita del libro. Laterza.",
+        "Prosdomici, A. (2016). Forme di lingua e contenuti istituzionali nella Roma delle origini. Jovene.",
+        "Prosdocimi. A. (1989). Le lingue dominanti e i linguaggi locali. In G. Cavallo, P. Fedeli, A. Giardina (a cura di). Lo spazio letterario di Roma antica. Vol. II. Salerno Editore.",
+        "Roncaglia, G. (2010). La quarta rivoluzione, sei lezioni sul futuro del libro. Laterza.",
+        "Saenger, P. (1997). Spaces between Words: The Origins of Silent Reading. Stanford University Press.",
+        "Sanguineti, E. (1970). Ideologia e linguaggio. Feltrinelli.",
+        "Semprini, A. (1996). L'oggetto come processo e come azione. Per una sociosemiotica della vita quotidiana. Esculapio.",
+        "Semprini, A. (2003). Il senso delle cose. I significati sociali e culturali degli oggetti quotidiani. Franco Angeli.",
+        "Severi, C. (2018). L’oggetto persona. Einaudi.",
+        "Sini, C. (2002). La scrittura e il debito. Jaca Book.",
+        "Svenbro, J. (1991). Storia della lettura nella Grecia antica. Laterza.",
+        "Svenbro, J. (2021). Le Tombeau de la cigale. Figures de l’écriture et de la lecture en Grèce ancienne. Les Belles Lettres.",
+        "Tasinato, M. (1997), L’occhio del silenzio. Esedra.",
+        "Thomas, R. (1992). Literacy and Orality in Ancient Greece. Cambridge University Press.",
+        "Thomas, R. (2019). Polis Histories, Collective Memories and the Greek World. Cambridge University Press.",
+        "Tschischold, J. (2005). Le forme del libro. Sylvestre Bonnard Editore.",
+        "Vernant, J. P. (1984). Mito e pensiero presso i Greci. Einaudi.",
+        "Vidal-Naquet, P. e Vernant, J. P. (1976). Mito e tragedia nell’antica Grecia. Einaudi.",
+        "Vidal-Naquet, P. e Vernant, J. P. (1991). Mito e tragedia due. Einaudi.",
+        "Vivarelli, M. e Cognini, C. e Faggiolani, C. (2018). La lettura. Storie, teorie, luoghi. Editirice Bibliografica.",
+        "Zinna, A. (2004). Le interfacce degli oggetti di scrittura. Meltemi."
+      ],
+      "count": 77,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6525",
+    "article_ID": "6525",
+    "slug": "6525",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6525",
+      "url_slug": "6525"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Storicità del leggere",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Historicity of reading",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-05-16",
+      "accepted": null,
+      "created": "2023-12-30",
+      "modified": "2024-06-25",
+      "issued": "2023-12-30",
+      "available": "2023-12-30",
+      "submitted_page": "2023-05-16",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Storicità del leggere",
+        "pdf_value": null,
+        "chosen_value": "Storicità del leggere",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-05-16",
+        "pdf_value": null,
+        "chosen_value": "2023-05-16",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6525/6051",
+      "local_relative_path": "2785-7050_6525.pdf",
+      "saved": true,
+      "sha256": "2a4fda0d2aeb20864ba7bdfdcf8bb43c85d504c16682c5bdd57ec3114d346870",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 2007880,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Francesco Vettori"
+      ],
+      "citation_author_institution": [
+        "Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Storicità del leggere"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/12/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2023-02"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6525"
+      ],
+      "citation_keywords": [
+        "Pratica di lettura",
+        "Testo letterario",
+        "Enunciazione",
+        "Oggetti fattitivi",
+        "Sociosemiotica"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6525/6051"
+      ],
+      "citation_reference_count": 77,
+      "DC.Date.created": [
+        "2023-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-05-16"
+      ],
+      "DC.Date.issued": [
+        "2023-12-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6525"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2023-02"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6525"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Storicità del leggere"
+      ],
+      "DC.Title.Alternative": [
+        "Historicity of reading"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Francesco Vettori"
+      ],
+      "citation_author_institution": [
+        "Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Francesco Vettori"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The following pages resume the topic of reading as a practice through an observation of what the reader does in the present day. The resulting description will enable to compare some of the assessments concerning the contemporary reader, whose habits originated with the use of the printed book, and those of the protolector, attributed in a predominantly oral culture, such as the archaic Greek (600 - 480 B.C.), when alphabetical writing began to spread more extensively.&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is argued that the different judgments are primarily due to pragmatic reasons, the most important of which are the variability of the writing surface, originally non-normalised as the printed page later becomes. Then the type of script which was employed, generally a scriptio continua, requiring the reader to oralise the message for its comprehension. Finally, the heteronomous function of writing as with the “silent objects” that speak thank to the voice of the reader. Hence some important consequences on the way of reading, also because the protolector often used to read for an audience of illiterate listeners.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Regards to the activity of reading, its changes, the skills it involves and finally its attributions of value, the literary text is chosen as an exemplary term of comparison because of its distinctive features, recognised by looking at what happens to the reader.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The following pages resume the topic of reading as a practice through an observation of what the reader does in the present day. The resulting description will enable to compare some of the assessments concerning the contemporary reader, whose habits originated with the use of the printed book, and those of the protolector, attributed in a predominantly oral culture, such as the archaic Greek (600 - 480 B.C.), when alphabetical writing began to spread more extensively.&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; It is argued that the different judgments are primarily due to pragmatic reasons, the most important of which are the variability of the writing surface, originally non-normalised as the printed page later becomes. Then the type of script which was employed, generally a scriptio continua, requiring the reader to oralise the message for its comprehension. Finally, the heteronomous function of writing as with the “silent objects” that speak thank to the voice of the reader. Hence some important consequences on the way of reading, also because the protolector often used to read for an audience of illiterate listeners.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Regards to the activity of reading, its changes, the skills it involves and finally its attributions of value, the literary text is chosen as an exemplary term of comparison because of its distinctive features, recognised by looking at what happens to the reader."
+          }
+        },
+        {
+          "content": "Le pagine che seguono riprendono il tema della lettura come pratica, osservando che cosa fa oggi chi legge. La descrizione che ne deriva intende confrontare alcuni dei giudizi di valore del lettore odierno, le cui abitudini nascono dall'uso del libro a stampa, e quelli attribuiti al protolettore in una cultura prevalentemente orale, come la greca arcaica (600 - 480 A.C.), quando la scrittura alfabetica si diffuse più estesamente. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Si argomenta che la diversità di giudizio sia dovuta a ragioni prima di tutto pragmatiche le più importanti delle quali sono la variabilità della superficie scrittoria, in origine non normalizzata come poi diventerà la pagina a stampa. Quindi la forma di scrittura impiegata, in genere una scriptio continua che richiede al lettore di oralizzare il messaggio per la sua comprensione. Infine, gli usi riservati alla scrittura, per cui essa ha ancora funzione eteronoma, come è il caso degli “oggetti muti” che parlano attraverso la voce del lettore. Tutto ciò ebbe conseguenze importanti sul modo di leggere, tenuto poi conto che chi leggeva lo faceva per un pubblico di ascoltatori in genere analfabeta. Circa l’attività di lettura, i suoi cambiamenti, le competenze che richiede e infine le sue attribuzioni di valore, si è scelto il testo&nbsp; letterario come termine esemplare di confronto, per alcune sue caratteristiche distintive, che sono riconosciute guardando a ciò che succede al lettore.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Le pagine che seguono riprendono il tema della lettura come pratica, osservando che cosa fa oggi chi legge. La descrizione che ne deriva intende confrontare alcuni dei giudizi di valore del lettore odierno, le cui abitudini nascono dall'uso del libro a stampa, e quelli attribuiti al protolettore in una cultura prevalentemente orale, come la greca arcaica (600 - 480 A.C.), quando la scrittura alfabetica si diffuse più estesamente. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Si argomenta che la diversità di giudizio sia dovuta a ragioni prima di tutto pragmatiche le più importanti delle quali sono la variabilità della superficie scrittoria, in origine non normalizzata come poi diventerà la pagina a stampa. Quindi la forma di scrittura impiegata, in genere una scriptio continua che richiede al lettore di oralizzare il messaggio per la sua comprensione. Infine, gli usi riservati alla scrittura, per cui essa ha ancora funzione eteronoma, come è il caso degli “oggetti muti” che parlano attraverso la voce del lettore. Tutto ciò ebbe conseguenze importanti sul modo di leggere, tenuto poi conto che chi leggeva lo faceva per un pubblico di ascoltatori in genere analfabeta. Circa l’attività di lettura, i suoi cambiamenti, le competenze che richiede e infine le sue attribuzioni di valore, si è scelto il testo&nbsp; letterario come termine esemplare di confronto, per alcune sue caratteristiche distintive, che sono riconosciute guardando a ciò che succede al lettore. "
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Pratica di lettura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Pratica di lettura"
+          }
+        },
+        {
+          "content": "Testo letterario",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Testo letterario"
+          }
+        },
+        {
+          "content": "Enunciazione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Enunciazione"
+          }
+        },
+        {
+          "content": "Oggetti fattitivi",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Oggetti fattitivi"
+          }
+        },
+        {
+          "content": "Sociosemiotica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Sociosemiotica"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6525/6051",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6525/6051",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6525/6051",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2024-01-29",
+        "mod_date": "2024-01-29"
+      },
+      "front_text_excerpt": "ABSTRACT The following pages resume the topic of reading as a practice through an observation of what the reader does in the present day. The resulting description will enable to compare some of the assess - ments concerning the contemporary reader, whose habits originated with the use of the printed book, and those of the protolector, attributed in a predominantly oral culture, such as the archaic Greek (600–480 B.C.), when alphabetical writing began to spread more extensively. It is argued that the different judgments are primarily due to pragmatic reasons, the most important of which are the variability of the writing surface, originally non-normalised as the printed page later becomes. Then the type of script which was employed, generally a scriptio continua, requiring the reader to oralise the message for its comprehension. Finally, the heteronomous function of writing as with the “silent objects” that speak thank to the voice of the reader. Hence some important con - sequences on the way of reading, also because the protolector often used to read for an audience of illiterate listeners. Regards to the activity of reading, its changes, the skills it involves and finally its attributions of value, the literary text is chosen as an exemplary term of comparison because of its distinctive features, rec- ognised by looking at what happens to the reader. Keywords: practice of reading, literary text, use of the book, ritual enunciation, sonorous images Citation: Vettori, F . (2023). Historicity of reading. Effetti di Lettura / Effects of Reading, 2(2), 19-31. https://doi.org/10.7347/EdL-02- 2023-02. Corresponding Author: Francesco Vettori | f.vettori@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-02 Francesco Vettori Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa | f.vettori@indire.it Double blind peer review Historicity of reading Storicità del leggere Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6525\\2785-7050_6525.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Storicità del leggere",
+        "pdf_value": null,
+        "chosen_value": "Storicità del leggere",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-05-16",
+        "pdf_value": null,
+        "chosen_value": "2023-05-16",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Storicità del leggere | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6525",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6525",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:42Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:46:44Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6525",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6525",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 8,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 8
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6525",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6525",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6525\\2785-7050_6525.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:46Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6525\\2785-7050_6525.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Storicità del leggere",
+        "submitted_date": "2023-05-16",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Francesco Vettori"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6525\\2785-7050_6525.pdf",
+        "generated_at_utc": "2026-04-27T18:46:45Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2024-01-29",
+          "mod_date": "2024-01-29"
+        },
+        "front_text_excerpt": "ABSTRACT The following pages resume the topic of reading as a practice through an observation of what the reader does in the present day. The resulting description will enable to compare some of the assess - ments concerning the contemporary reader, whose habits originated with the use of the printed book, and those of the protolector, attributed in a predominantly oral culture, such as the archaic Greek (600–480 B.C.), when alphabetical writing began to spread more extensively. It is argued that the different judgments are primarily due to pragmatic reasons, the most important of which are the variability of the writing surface, originally non-normalised as the printed page later becomes. Then the type of script which was employed, generally a scriptio continua, requiring the reader to oralise the message for its comprehension. Finally, the heteronomous function of writing as with the “silent objects” that speak thank to the voice of the reader. Hence some important con - sequences on the way of reading, also because the protolector often used to read for an audience of illiterate listeners. Regards to the activity of reading, its changes, the skills it involves and finally its attributions of value, the literary text is chosen as an exemplary term of comparison because of its distinctive features, rec- ognised by looking at what happens to the reader. Keywords: practice of reading, literary text, use of the book, ritual enunciation, sonorous images Citation: Vettori, F . (2023). Historicity of reading. Effetti di Lettura / Effects of Reading, 2(2), 19-31. https://doi.org/10.7347/EdL-02- 2023-02. Corresponding Author: Francesco Vettori | f.vettori@indire.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-02 Francesco Vettori Researcher | Istituto Nazionale di Documentazione per l’Innovazione e la Ricerca Educativa | f.vettori@indire.it Double blind peer review Historicity of reading Storicità del leggere Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "un segno scritto, fisso e muto, fu equiparato ad un atto di sottomissione e quindi di perdita della libertà individuale, per cui il leggere venne giudicata attività da riservare agli schiavi (Svenbro, 1988/1991, p. 3): Lo scrittore conta necessariamente sulla voce del lettore. Al momento della lettura, il lettore cede la sua voce allo scritto, allo scrittore assente. Ciò vuol dire che durante la lettura la sua voce non gli ap- partiene: al momento in cui rianima le lettere morte, egli appartiene allo scritto. Il lettore è lo strumento vocale di cui si serve lo scritto (lo scrittore) affinché il testo possa prendere corpo – corpo sonoro. In tal modo, quando il lettore di una stele funeraria pronuncia l’iscrizione: «Io sono la tomba di Glaukos», l’«io» non appartiene al lettore ma alla stele inscritta. Nessuna contraddizione – certamente, però, una forma di violenza. Il richiamo è significativo poiché consente di impostare il discorso in termini pragmatici, anzi etici, ap- parendo in tutta chiarezza che il lettore, prima di dedicarsi al testo e alla sua interpretazione, quando legge compie una azione che si svolge secondo dei modi e risponde a dei fini ben precisi. 2. La prevalenza del testo sulla lettura Rispetto a questo modo di procedere, l’attenzione per il testo piuttosto che l’azione del lettore va in dire- zione opposta. Un’attenzione col tempo divenuta sempre più esclusiva e che ha comportato un processo di testualizzazione non ancora esaurito, per le spinte convergenti prima della linguistica e poi dello strut- turalismo, che sono infine confluite nella semiotica testuale. La filologia, specie medioevale, da sempre alle prese con le questioni che pone la pubblicazione di un testo, ha comunque saputo elaborare le riflessioni più interessanti su testualità e lettura, senza dimenticare, per esempio, che con la stessa parola lectio si intesero due cose ben diverse, il termine volendo dire non solo “versione genuina “ma anche “ lettura ad alta voce ” (Hamesse in Cavallo & Chartier, 1995, p. 91). Mentre il primo significato lascia intendere che la storia di un testo risulta più ricca di varianti d’autore di quanto in genere si ammetta, è quasi eclissato il secondo, poiché la forma di lettura oggi dominante è quella oculare, privata e silenziosa. Per un greco del periodo arcaico leggere consiste in una attività dell’intero corpo4 mentre poco lo pre- occupano i problemi di ricostruzione del testo scritto, cui invece si devono una serie di principi teorici, che oggi la disponibilità di strumenti digitali e gli interrogativi affrontati da una disciplina come l’infor - matica umanistica contribuiscono ad approfondire. La più raffinata riflessione critica sul testo lo intende infatti come un “oggetto mentale” (Bologna in La- vagetto, 1996, pp. 15 e 18-19): Altra cosa, ovviamente, è riconoscere in ogni testimone della trasmissione d’un testo un soggetto attivo della vita e della natura di questo, uno dei suoi epifenomeni storici di fatto indistinguibili dal Nou - meno-T esto d’autore che non potrà raggiungersi né scientificamente pensarsi se non in quanto artificio, ossia oggetto mentale accostabile in maniera approssimativa e provvisoria; altra cosa, invece, è ipotizzare come irreali le categorie stesse di autorialità e di testualità quali basi di consistenza di un contenuto «autentico» perché «originario», autorevole in quanto dovuto all’autore. 4 Ancora a un monaco del XII secolo, dopo una malattia, si prescrive di leggere, perché implica movimento, gestualità e uso della voce, così favorendo un’attività fisica ricostituente. Si veda Ivan Illich (1996, p. 54): “Per il monaco come per il retore o il sofista dell’età classica, la lettura impegna tutto il corpo. Per il monaco però la lettura non è una semplice attività ma un modo di vivere”. Può anche vedersi il più recente Thomas McLaughlin, Reading and The Body: The Physical Practice of Reading (2005). 21 Volume 2 | n. 2 | dicembre 2023 | pp. 19-31Effetti di Lettura Effects of Rea",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Storicità del leggere",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Storicità del leggere",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-05-16",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-05-16",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6525\\2785-7050_6525.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "en"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Storicità del leggere",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Historicity of reading",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Historicity of reading",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The following pages resume the topic of reading as a practice through an observation of what the reader does in the present day. The resulting description will ",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Le pagine che seguono riprendono il tema della lettura come pratica, osservando che cosa fa oggi chi legge. La descrizione che ne deriva intende confrontare alc",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

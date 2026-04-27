@@ -1,0 +1,972 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6845",
+  "scraped_at_utc": "2026-04-27T18:46:51Z",
+  "fetched_at_utc": "2026-04-27T18:46:51Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "57909856c0d555b1bf6dfedfd546da975c960bdd5fff25370ef9118bc12d4186",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Dialogic reading for the development of reflective thinking",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Maria Chiara Michelini",
+        "nameType": "Personal",
+        "givenName": "Maria Chiara",
+        "familyName": "Michelini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Università Urbino"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6845",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-12-30",
+      "Issued": "2022-12-30"
+    },
+    "language": {
+      "value": "en",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "The contribution explores the use of dialogic reading in professional contexts. It investigates its potential and possible uses in relation to the development of reflective thinking of adults engaged in the professions. In this sense, it briefly illustrates the theoretical framework of reference, with particular regard to the construct of community of thought, a fundamental condition for the development of reflective thought with its characteristics of reciprocity, democracy and, indeed, dialogicality. It is precisely from the idea of the dialogicality of the community as logos, thought put in common – a condition for the transformation of reality and self-awareness, both in an individual and collective sense – that the hypothesis of the use of dialogical reading in professional contexts, whether ordinary, heuristic or educational, arises. For example, the community, as a group of speakers, through reflection on practices, described and noted down by professionals with special protocols, not only lays the foundations for the exchange of these practices and their improvement, but above all fosters awareness of one’s own motivations, conceptions, and the values underlying one’s actions, subjecting them to the critical scrutiny of thought and opening them up to third-level reflection, capable of transforming whatever is inadequate, outdated or limiting. In the light of the same conception, the community use of the dialogical reading of theoretical texts, appropriately chosen, allows to trigger, in various forms and at various levels, a virtuous circularity between theory and praxis, capable of inspiring reflection about the conceptual generalization nec-essary for the true change of ideas. In this sense, the contribution will return the results of the qualitative research The Reflective Teacher (Michelini M.C., 2016. Fare Comunità di pensiero. L’insegnamento come pratica riflessiva...",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Il contributo esplora l’uso della lettura dialogica in contesti professionali e ne indaga il potenziale e i possibili utilizzi in relazione allo sviluppo del pensiero riflessivo degli adulti impegnati nelle professioni. In questa prospettiva, illustra brevemente il quadro teorico di riferimento, con particolare riguardo al costrutto della comunità di pensiero, una condizione fondamentale per lo sviluppo del pensiero riflessivo con le sue caratteristiche di reciprocità, democrazia e, appunto, dialogicità. È proprio dall’idea della dialogicità della comunità come logos, pensiero messo in comune – una condizione per la trasformazione della realtà e la consapevolezza di sé, sia in senso individuale che collettivo – che nasce l’ipotesi dell’uso della lettura dialogica in contesti professionali, siano essi ordinari, euristici o educativi. Per esempio, la comunità, come gruppo di parlanti, attraverso la riflessione sulle pratiche, descritte e annotate dai professionisti con protocolli speciali, non solo getta le basi per lo scambio di queste pratiche e il loro miglioramento, ma soprattutto favorisce la consapevolezza delle proprie motivazioni, concezioni e dei valori che sottendono le proprie azioni, sottoponendoli al vaglio critico del pensiero e aprendo alla riflessione di terzo livello, capace di trasformare ciò che è inadeguato, obsoleto o limitante. Alla luce della stessa concezione, l’uso comunitario della lettura dialogica di testi teorici, opportunamente scelti, permette di innescare, in varie forme e a vari livelli, una circolarità virtuosa tra teoria e prassi, capace di ispirare la riflessione sulla generalizzazione concettuale necessaria per il vero cambiamento delle idee. In questo senso, il contributo presenta i risultati della ricerca qualitativa “Il Maestro Riflessivo” (Michelini, 2016) condotta con un gruppo di insegnanti di scuola dell’infanzia e primaria delle regioni Marche ed Emilia Romagna, con il coinvolgimento di studenti tirocinanti e alcuni tutor del CdL in Scienze della Formazione Primaria dell’Università di Urbino.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2023-01",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "lettura dialogica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pensiero riflessivo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "comunità del pensiero",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "dialogic reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "community of thought",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "reflective thinking",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2024,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6845/6050",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "2",
+      "citationStartPage": "006",
+      "citationEndPage": "018",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Michelini, M. C. (2022). La lettura dialogata per lo sviluppo del pensiero riflessivo . Effetti Di Lettura / Effects of Reading , 2 (2), 006–018. https://doi.org/10.7347/EdL-02-2023-01",
+      "articleTitleEcho": "Dialogic reading for the development of reflective thinking"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Baldacci M. (2012). Trattato di pedagogia generale. Carocci.",
+        "Baldacci M. (a cura di) (2013). La formazione dei docenti in Europa. Bruno Mondadori.",
+        "Baldacci M. (2014). Per un’idea di scuola. Istruzione lavoro e Democrazia. FrancoAngeli.",
+        "Baldacci M., Nigris E., Riva M.G. (2020). Idee per la formazione degli insegnanti. FrancoAngeli.",
+        "Bateson G. (1986). Verso un’ecologia della mente. Adelphi, 1972.",
+        "Batini, F. (2022). Il futuro della lettura ad alta voce. Alcuni risultati della ricerca educativa internazionale. Carocci.",
+        "Bruner J. (2003). La ricerca del significato. Bollati Boringhieri (1992).",
+        "Dewey J. (1933), Come pensiamo. La Nuova Italia 2006.",
+        "Dewey J. (2000). Democrazia e educazione. La Nuova Italia, (1916).",
+        "Dewey J. (1951). Le fonti di una scienza dell’educazione. La Nuova Italia Editrice, 1929.",
+        "Dewey J. (1949). Scuola e società. Firenze: La Nuova Italia, 1899.",
+        "Foucault M. (2012). Sull’origine dell’ermeneutica del sé. Cronopio.",
+        "Freire (1971). La pedagogia degli oppressi. Arnoldo Mondadori Editore.",
+        "Michelini M.C. (2013). Educare il pensiero. Per la formazione dell’insegnante riflessivo. FrancoAngeli.",
+        "Michelini M.C. (2016). Fare Comunità di pensiero. Insegnamento come pratica riflessiva. FrancoAngeli.",
+        "Michelini M.C. (2020). Il concetto di formazione nei documenti dell'Unione Europea. In M. Baldacci e E. Colicchi (eds.). I concetti fondamentali della Pedagogia. Educazione Istruzione Formazione (pp. 248-261). Avio Edizioni Scientifiche.",
+        "Michelini M.C. (2016). Il pensiero Riflessivo. In M. Baldacci e E. Colicchi (eds.).Teoria e prassi in pedagogia. Questioni epistemologiche (pp. 241-258). Carocci.",
+        "Michelini M.C. (2018). Per una pedagogia critica delle buone prassi. FrancoAngeli.",
+        "Margiotta U. (2015). Teoria della formazione. Carocci.",
+        "Mezirow J. (2003). Apprendimento e trasformazione: Il significato dell’esperienza e il valore della riflessione nell’apprendimento degli adulti. Raffaello Cortina (1991).",
+        "Mezirow J. (2007), Adult Education and Empowerment for Individual and Community Developmet in Radical learning for liberation 2, MACE (Maynooth Adult and Community Education).",
+        "Nussbaum M. C. (2012). Creare capacità. Liberarsi dalla dittatura del PIL. il Mulino.",
+        "Pellerey M. (1999), Educare. Manuale di pedagogia come scienza pratico-progettuale, LAS.",
+        "Pourtois J.P. (1986), La ricerca-azione in pedagogia, in Becchi E., Vertecchi B. Manuale critico della sperimentazione e della ricerca educativa, Franco Angeli, pp. 134-155.",
+        "Quaglino G.P. (2011). La scuola della vita. Manifesto della terza formazione. Raffaello Cortina.",
+        "Schön D.A. (1993). Il professionista riflessivo – per una nuova epistemologia della pratica professionale. Dedalo (1983).",
+        "Schön D.A. (2006). Formare il professionista riflessivo – per una nuova prospettiva della formazione e dell’apprendimento nelle professioni. FrancoAngeli.",
+        "Vygotsky L. S. (1956). Pensiero e linguaggio. Giunti.",
+        "Watzlawick P., Weakland J. H., Fisch R. (1974). Change – sulla formazione e la soluzione dei problemi. Astrolabio.",
+        "Wenger E. (1998). Comunità di pratica. Apprendimento, significato e identità. Raffaello Cortina. 2006."
+      ],
+      "count": 30,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6845",
+    "article_ID": "6845",
+    "slug": "6845",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6845",
+      "url_slug": "6845"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Dialogic reading for the development of reflective thinking",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "La lettura dialogata per lo sviluppo del pensiero riflessivo",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-10-30",
+      "accepted": null,
+      "created": "2022-12-30",
+      "modified": "2024-06-25",
+      "issued": "2022-12-30",
+      "available": "2022-12-30",
+      "submitted_page": "2023-10-30",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Dialogic reading for the development of reflective thinking",
+        "pdf_value": null,
+        "chosen_value": "Dialogic reading for the development of reflective thinking",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-10-30",
+        "pdf_value": null,
+        "chosen_value": "2023-10-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6845/6050",
+      "local_relative_path": "2785-7050_6845.pdf",
+      "saved": true,
+      "sha256": "16b8f741bd5d06612ff349b80f98aff865cb69ed2c05f6deccad031ceba7f6a4",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 294150,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    },
+    "manual_editorial_corrections": [
+      {
+        "code": "issue-normalisation-2023-v2-n2",
+        "applied_at_utc": "2026-04-27T19:26:01Z",
+        "scope": "archival master metadata",
+        "issue_id": "2023-v2-n2",
+        "issue_label": "Vol. 2, No. 2 (2023)",
+        "issue_year": "2023",
+        "volume": "2",
+        "issue": "2",
+        "note": "The article publication date is preserved as harvested. This correction records the editorial issue year/label used by the preservation site."
+      }
+    ]
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Maria Chiara Michelini"
+      ],
+      "citation_author_institution": [
+        "Università Urbino"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Dialogic reading for the development of reflective thinking"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2023"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2023-01"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6845"
+      ],
+      "citation_keywords": [
+        "lettura dialogica",
+        "pensiero riflessivo",
+        "comunità del pensiero"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6845/6050"
+      ],
+      "citation_reference_count": 30,
+      "DC.Date.created": [
+        "2022-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-10-30"
+      ],
+      "DC.Date.issued": [
+        "2023-12-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6845"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2023-01"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6845"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 3,
+      "DC.Title": [
+        "La lettura dialogata per lo sviluppo del pensiero riflessivo"
+      ],
+      "DC.Title.Alternative": [
+        "La lettura dialogata per lo sviluppo del pensiero riflessivo"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Maria Chiara Michelini"
+      ],
+      "citation_author_institution": [
+        "Università Urbino"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Maria Chiara Michelini"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "The contribution explores the use of dialogic reading in professional contexts. It investigates its potential and possible uses in relation to the development of reflective thinking of adults engaged in the professions. In this sense, it briefly illustrates the theoretical framework of reference, with particular regard to the construct of community of thought, a fundamental condition for the development of reflective thought with its characteristics of reciprocity, democracy and, indeed, dialogicality. It is precisely from the idea of the dialogicality of the community as logos, thought put in common – a condition for the transformation of reality and self-awareness, both in an individual and collective sense – that the hypothesis of the use of dialogical reading in professional contexts, whether ordinary, heuristic or educational, arises. For example, the community, as a group of speakers, through reflection on practices, described and noted down by professionals with special protocols, not only lays the foundations for the exchange of these practices and their improvement, but above all fosters awareness of one’s own motivations, conceptions, and the values underlying one’s actions, subjecting them to the critical scrutiny of thought and opening them up to third-level reflection, capable of transforming whatever is inadequate, outdated or limiting. In the light of the same conception, the community use of the dialogical reading of theoretical texts, appropriately chosen, allows to trigger, in various forms and at various levels, a virtuous circularity between theory and praxis, capable of inspiring reflection about the conceptual generalization nec-essary for the true change of ideas. In this sense, the contribution will return the results of the qualitative research The Reflective Teacher (Michelini M.C., 2016. Fare Comunità di pensiero. L’insegnamento come pratica riflessiva...",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "The contribution explores the use of dialogic reading in professional contexts. It investigates its potential and possible uses in relation to the development of reflective thinking of adults engaged in the professions. In this sense, it briefly illustrates the theoretical framework of reference, with particular regard to the construct of community of thought, a fundamental condition for the development of reflective thought with its characteristics of reciprocity, democracy and, indeed, dialogicality. It is precisely from the idea of the dialogicality of the community as logos, thought put in common – a condition for the transformation of reality and self-awareness, both in an individual and collective sense – that the hypothesis of the use of dialogical reading in professional contexts, whether ordinary, heuristic or educational, arises. For example, the community, as a group of speakers, through reflection on practices, described and noted down by professionals with special protocols, not only lays the foundations for the exchange of these practices and their improvement, but above all fosters awareness of one’s own motivations, conceptions, and the values underlying one’s actions, subjecting them to the critical scrutiny of thought and opening them up to third-level reflection, capable of transforming whatever is inadequate, outdated or limiting. In the light of the same conception, the community use of the dialogical reading of theoretical texts, appropriately chosen, allows to trigger, in various forms and at various levels, a virtuous circularity between theory and praxis, capable of inspiring reflection about the conceptual generalization nec-essary for the true change of ideas. In this sense, the contribution will return the results of the qualitative research The Reflective Teacher (Michelini M.C., 2016. Fare Comunità di pensiero. L’insegnamento come pratica riflessiva..."
+          }
+        },
+        {
+          "content": "Il contributo esplora l’uso della lettura dialogica in contesti professionali e ne indaga il potenziale e i possibili utilizzi in relazione allo sviluppo del pensiero riflessivo degli adulti impegnati nelle professioni. In questa prospettiva, illustra brevemente il quadro teorico di riferimento, con particolare riguardo al costrutto della comunità di pensiero, una condizione fondamentale per lo sviluppo del pensiero riflessivo con le sue caratteristiche di reciprocità, democrazia e, appunto, dialogicità. È proprio dall’idea della dialogicità della comunità come logos, pensiero messo in comune – una condizione per la trasformazione della realtà e la consapevolezza di sé, sia in senso individuale che collettivo – che nasce l’ipotesi dell’uso della lettura dialogica in contesti professionali, siano essi ordinari, euristici o educativi. Per esempio, la comunità, come gruppo di parlanti, attraverso la riflessione sulle pratiche, descritte e annotate dai professionisti con protocolli speciali, non solo getta le basi per lo scambio di queste pratiche e il loro miglioramento, ma soprattutto favorisce la consapevolezza delle proprie motivazioni, concezioni e dei valori che sottendono le proprie azioni, sottoponendoli al vaglio critico del pensiero e aprendo alla riflessione di terzo livello, capace di trasformare ciò che è inadeguato, obsoleto o limitante. Alla luce della stessa concezione, l’uso comunitario della lettura dialogica di testi teorici, opportunamente scelti, permette di innescare, in varie forme e a vari livelli, una circolarità virtuosa tra teoria e prassi, capace di ispirare la riflessione sulla generalizzazione concettuale necessaria per il vero cambiamento delle idee. In questo senso, il contributo presenta i risultati della ricerca qualitativa “Il Maestro Riflessivo” (Michelini, 2016) condotta con un gruppo di insegnanti di scuola dell’infanzia e primaria delle regioni Marche ed Emilia Romagna, con il coinvolgimento di studenti tirocinanti e alcuni tutor del CdL in Scienze della Formazione Primaria dell’Università di Urbino.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Il contributo esplora l’uso della lettura dialogica in contesti professionali e ne indaga il potenziale e i possibili utilizzi in relazione allo sviluppo del pensiero riflessivo degli adulti impegnati nelle professioni. In questa prospettiva, illustra brevemente il quadro teorico di riferimento, con particolare riguardo al costrutto della comunità di pensiero, una condizione fondamentale per lo sviluppo del pensiero riflessivo con le sue caratteristiche di reciprocità, democrazia e, appunto, dialogicità. È proprio dall’idea della dialogicità della comunità come logos, pensiero messo in comune – una condizione per la trasformazione della realtà e la consapevolezza di sé, sia in senso individuale che collettivo – che nasce l’ipotesi dell’uso della lettura dialogica in contesti professionali, siano essi ordinari, euristici o educativi. Per esempio, la comunità, come gruppo di parlanti, attraverso la riflessione sulle pratiche, descritte e annotate dai professionisti con protocolli speciali, non solo getta le basi per lo scambio di queste pratiche e il loro miglioramento, ma soprattutto favorisce la consapevolezza delle proprie motivazioni, concezioni e dei valori che sottendono le proprie azioni, sottoponendoli al vaglio critico del pensiero e aprendo alla riflessione di terzo livello, capace di trasformare ciò che è inadeguato, obsoleto o limitante. Alla luce della stessa concezione, l’uso comunitario della lettura dialogica di testi teorici, opportunamente scelti, permette di innescare, in varie forme e a vari livelli, una circolarità virtuosa tra teoria e prassi, capace di ispirare la riflessione sulla generalizzazione concettuale necessaria per il vero cambiamento delle idee. In questo senso, il contributo presenta i risultati della ricerca qualitativa “Il Maestro Riflessivo” (Michelini, 2016) condotta con un gruppo di insegnanti di scuola dell’infanzia e primaria delle regioni Marche ed Emilia Romagna, con il coinvolgimento di studenti tirocinanti e alcuni tutor del CdL in Scienze della Formazione Primaria dell’Università di Urbino."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "lettura dialogica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura dialogica"
+          }
+        },
+        {
+          "content": "pensiero riflessivo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pensiero riflessivo"
+          }
+        },
+        {
+          "content": "comunità del pensiero",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "comunità del pensiero"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6845/6050",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6845/6050",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6845/6050",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2024-01-29",
+        "mod_date": "2024-01-31"
+      },
+      "front_text_excerpt": "ABSTRACT The contribution explores the use of dialogic reading in professional contexts. It investigates its po- tential and possible uses in relation to the development of reflective thinking of adults engaged in the professions. In this sense, it briefly illustrates the theoretical framework of reference, with particular regard to the construct of community of thought, a fundamental condition for the development of reflective thought with its characteristics of reciprocity, democracy and, indeed, dialogicality. It is precisely from the idea of the dialogicality of the community as logos, thought put in common – a condition for the transformation of reality and self-awareness, both in an individual and collective sense – that the hypothesis of the use of dialogical reading in professional contexts, whether ordinary, heuristic or educational, arises. For example, the community, as a group of speakers, through reflection on practices, described and noted down by professionals with special protocols, not only lays the foundations for the exchange of these practices and their improvement, but above all fosters awareness of one’s own motivations, conceptions, and the values underlying one’s actions, subjecting them to the critical scrutiny of thought and opening them up to third-level reflection, capable of transforming whatever is inadequate, outdated or limiting. In the light of the same conception, the community use of the dialogical reading of theoretical texts, appropriately chosen, allows to trigger, in various forms and at various levels, a virtuous circularity between theory and praxis, capable of inspiring reflection about the conceptual generalization nec- essary for the true change of ideas. In this sense, the contribution will return the results of the qualitative research The Reflective T eacher (Michelini M.C., 2016. Fare Comunità di pensiero. L ’insegnamento come pratica riflessiva. FrancoAngeli) carried out with a group of preschool and primary school teachers from the Marche and Emilia Ro- magna regions, with the involvement of student trainees and some tutors from the CdL in Scienze della Formazione Primaria of the University of Urbino. Keywords: dialogic reading, reflective thinking, community of thought Citation: Michelini, M.C. (2023). Dialogic reading for the development of reflective thinking. Effetti di Lettura / Effects of Reading, 2(2), 06-18. https://doi.org/10.7347/EdL-02-2023-01. Corresponding Author: Maria-Chiara Michelini | mariachiara.michelini@uniurb.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-01 Maria-Chiara Michelini Associate Professor in General and Social Pedagogy (M-Ped/01) | Department of Humanities | mariachiara.michelini@uniurb.it | University Urbino Carlo Bo Double blind peer review Dialogic reading for the development of reflective thinking La lettura dialogata per lo sviluppo del pensiero riflessivo Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6845\\2785-7050_6845.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2024,
+      "raw_dc_rights": [
+        "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Dialogic reading for the development of reflective thinking",
+        "pdf_value": null,
+        "chosen_value": "Dialogic reading for the development of reflective thinking",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-10-30",
+        "pdf_value": null,
+        "chosen_value": "2023-10-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2024",
+        "pdf_value": null,
+        "chosen_value": "2024",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2024 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La lettura dialogata per lo sviluppo del pensiero riflessivo | Effetti di lettura / Effects of reading",
+    "warnings": [
+      "Published-date conflict: stronger page signal '2022-12-30' overrides DC.Date.issued '2023-12-30'."
+    ],
+    "warning_objects": [
+      {
+        "code": "PUBLISHED_DATE_CONFLICT",
+        "message": "Published-date conflict: stronger page signal '2022-12-30' overrides DC.Date.issued '2023-12-30'.",
+        "context": {
+          "citation_date": null,
+          "dom_published": null,
+          "dc_created": "2022-12-30",
+          "dc_issued": "2023-12-30",
+          "dc_modified": "2024-06-25"
+        },
+        "function_name": "_extract_openaire_and_internal_dates",
+        "code_snippet": "    def _extract_openaire_and_internal_dates(self, file_bundle: Dict[str, Any], interactive_resolution: bool = False, ai_config: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:\n        citation_date = iso_date(self.meta.first(\"citation_date\"))\n        dc_created = iso_date(self.meta.first(\"DC.Date.created\"))\n        dc_submitted = iso_date(self.meta.first(\"DC.Date.dateSubmitted\"))\n        dc_issued = iso_date(self.meta.first(\"DC.Date.issued\"))\n        dc_modified = iso_date(self.meta.first(\"DC.Date.modified\"))\n        dc_accepted = iso_date(self.meta.first(\"DC.Date.accepted\"))\n        dc_available = iso_date(self.meta.first(\"DC.Date.available\"))\n        dom_submitted = iso_date(self._dd_value_after_dt(\"Inviata\"))\n        dom_published = iso_date(self._dd_value_after_dt(\"Pubblicato\"))\n        pdf_dates = self._extract_pdf_editorial_dates(file_bundle)\n        page_rights = self._extract_page_rights_holder_and_year()\n\n        def choose_published_date(citation_date, dom_published, dc_created, dc_issued, dc_modified):\n            return citation_date or dom_published or dc_created or dc_issued or dc_modified\n\n        page_candidates = {\n            \"title\": self.meta.first(\"citation_title\") or self.meta.first(\"DC.Title\") or self._text(\"h1.article-page__title span\"),\n            \"submitted_date\": dc_submitted or dom_submitted,\n            \"accepted_date\": dc_accepted,\n            \"copyright_holder\": page_rights.get(\"copyright_holder_page\"),\n            \"copyright_year\": str(page_rights.get(\"copyright_year_page\")) if page_rights.get(\"copyright_year_page\") is not None else None,\n            \"license_url\": self._extract_access_rights_and_license().get(\"licenseCondition\", {}).get(\"uri\"),\n        }\n        pdf_ai_diag = self._request_ai_pdf_front_analysis(pdf_dates, page_candidates, ai_config)\n        pdf_ai_result = pdf_ai_diag.get(\"result\") if isinstance(pdf_ai_diag, dict) and pdf_ai_diag.get(\"status\") == \"ok\" else {}\n        pdf_fields = pdf_ai_result.get(\"pdf_fields\", {}) if isinstance(pdf_ai_result, dict) else {}\n        ai_resolution = pdf_ai_result.get(\"resolution\", {}) if isinstance(pdf_ai_result, dict) else {}\n\n        pdf_submitted_value = normalize_space((pdf_fields.get(\"submitted_date\") or {}).get(\"value\")) or pdf_dates.get(\"submitted_pdf\")\n        pdf_accepted_value = normalize_space((pdf_fields.get(\"accepted_date\") or {}).get(\"value\")) or pdf_dates.get(\"accepted_pdf\")\n        pdf_copyright_holder = normalize_space((pdf_fields.get(\"copyright_holder\") or {}).get(\"value\")) or pdf_dates.get(\"copyright_holder_pdf\")\n        pdf_copyright_year = normalize_space((pdf_fields.get(\"copyright_year\") or {}).get(\"value\")) or (str(pdf_dates.get(\"copyright_year_pdf\")) if pdf_dates.get(\"copyright_year_pdf\") is not None else None)\n        pdf_title_value = normalize_space((pdf_fields.get(\"title\") or {}).get(\"value\"))\n        pdf_title_allowed = bool((pdf_fields.get(\"title\") or {}).get(\"use_allowed\")) if isinstance(pdf_fields.get(\"title\"), dict) else False\n\n        strong_page_published = citation_date or dom_published or dc_created\n        if strong_page_published and dc_issued and strong_page_published != dc_issued:\n            self._warn(\n                code=\"PUBLISHED_DATE_CONFLICT\",\n                message=f\"Published-date conflict: stronger page signal '{strong_page_published}' overrides DC.Date.issued '{dc_issued}'.\",\n                function_name=\"_extract_openaire_and_internal_dates\",\n                context={\n                    \"citation_date\": citation_date,\n                    \"dom_published\": dom_published,\n                    \"dc_created\": dc_created,\n                    \"dc_issued\": dc_issued,\n                    \"dc_modified\": dc_modified,\n                },\n            )\n\n        issued = choose_published_date(\n            citation_date,\n            dom_published,\n            dc_created,\n            dc_issued,\n            dc_modified,\n        )\n        available = dc_available or issued\n        submitted_resolution = self._resolve_discrepancy(\"submitted_date\", dc_submitted or dom_submitted, pdf_submitted_value, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"submitted_date\") if isinstance(ai_resolution, dict) else None)\n        accepted_resolution = self._resolve_discrepancy(\"accepted_date\", dc_accepted, pdf_accepted_value, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"accepted_date\") if isinstance(ai_resolution, dict) else None)\n        copyright_holder_resolution = self._resolve_discrepancy(\"copyright_holder\", page_rights.get(\"copyright_holder_page\"), pdf_copyright_holder, interactive_resolution, prefer=\"pdf\", ai_resolution=ai_resolution.get(\"copyright_holder\") if isinstance(ai_resolution, dict) else None)\n        copyright_year_resolution = self._resolve_discrepancy(\n            \"copyright_year\",\n            str(page_rights.get(\"copyright_year_page\")) if page_rights.get(\"copyright_year_page\") is not None else None,\n            pdf_copyright_year,\n            interactive_resolution,\n            prefer=\"pdf\",\n            ai_resolution=ai_resolution.get(\"copyright_year\") if isinstance(ai_resolution, dict) else None,\n        )\n        title_resolution = self._resolve_discrepancy(\n            \"title\",\n            page_candidates.get(\"title\"),\n            pdf_title_value if pdf_title_allowed or not page_candidates.get(\"title\") else None,\n            interactive_resolution,\n            prefer=\"page\",\n            ai_resolution=ai_resolution.get(\"title\") if isinstance(ai_resolution, dict) else None,\n        )\n\n        accepted = accepted_resolution.get(\"chosen_value\")\n        submitted = submitted_resolution.get(\"chosen_value\")\n\n        export_dates: List[Dict[str, Any]] = []\n        if accepted:\n            export_dates.append({\"value\": accepted, \"dateType\": \"Accepted\", \"source\": accepted_resolution.get(\"chosen_source\")})\n        if available:\n            export_dates.append({\"value\": available, \"dateType\": \"Available\", \"source\": \"meta:DC.Date.available\" if dc_available else \"fallback:Issued\"})\n        if issued:\n            export_dates.append({\"value\": issued, \"dateType\": \"Issued\", \"source\": \"meta:DC.Date.issued\" if dc_issued else \"meta:citation_date\" if citation_date else \"dom:Pubblicato\" if dom_published else \"meta:DC.Date.created\"})\n\n        export_dates = dedupe_list(export_dates)\n        dates_by_type: Dict[str, Optional[str]] = {d[\"dateType\"]: d[\"value\"] for d in export_dates}\n        if not dates_by_type.get(\"Available\") and issued:\n            dates_by_type[\"Available\"] = issued\n        internal_dates = {\n            \"submitted\": submitted,\n            \"accepted\": accepted,\n            \"created\": dc_created,\n            \"modified\": dc_modified,\n            \"issued\": issued,\n            \"available\": dates_by_type.get(\"Available\"),\n            \"submitted_page\": dc_submitted or dom_submitted,\n            \"submitted_pdf\": pdf_dates.get(\"submitted_pdf\"),\n            \"accepted_page\": dc_accepted,\n            \"accepted_pdf\": pdf_dates.get(\"accepted_pdf\"),\n        }\n        resolutions = {\n            \"title\": title_resolution,\n            \"submitted\": submitted_resolution,\n            \"accepted\": accepted_resolution,\n            \"copyright_holder\": copyright_holder_resolution,\n            \"copyright_year\": copyright_year_resolution,\n        }\n        return {\n            \"export_dates\": export_dates,\n            \"dates_by_type\": dates_by_type,\n            \"internal_dates\": internal_dates,\n            \"pdf_editorial_dates\": pdf_dates,\n            \"page_rights\": page_rights,\n            \"resolutions\": resolutions,\n            \"pdf_ai_resolution\": pdf_ai_diag,\n        }\n"
+      }
+    ],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6845",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6845",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:51Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:46:52Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6845",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6845",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 3,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6845",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6845",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 3
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6845\\2785-7050_6845.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:54Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6845\\2785-7050_6845.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Dialogic reading for the development of reflective thinking",
+        "submitted_date": "2023-10-30",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2024",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "en",
+        "creator_names": [
+          "Maria Chiara Michelini"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6845\\2785-7050_6845.pdf",
+        "generated_at_utc": "2026-04-27T18:46:53Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2024-01-29",
+          "mod_date": "2024-01-31"
+        },
+        "front_text_excerpt": "ABSTRACT The contribution explores the use of dialogic reading in professional contexts. It investigates its po- tential and possible uses in relation to the development of reflective thinking of adults engaged in the professions. In this sense, it briefly illustrates the theoretical framework of reference, with particular regard to the construct of community of thought, a fundamental condition for the development of reflective thought with its characteristics of reciprocity, democracy and, indeed, dialogicality. It is precisely from the idea of the dialogicality of the community as logos, thought put in common – a condition for the transformation of reality and self-awareness, both in an individual and collective sense – that the hypothesis of the use of dialogical reading in professional contexts, whether ordinary, heuristic or educational, arises. For example, the community, as a group of speakers, through reflection on practices, described and noted down by professionals with special protocols, not only lays the foundations for the exchange of these practices and their improvement, but above all fosters awareness of one’s own motivations, conceptions, and the values underlying one’s actions, subjecting them to the critical scrutiny of thought and opening them up to third-level reflection, capable of transforming whatever is inadequate, outdated or limiting. In the light of the same conception, the community use of the dialogical reading of theoretical texts, appropriately chosen, allows to trigger, in various forms and at various levels, a virtuous circularity between theory and praxis, capable of inspiring reflection about the conceptual generalization nec- essary for the true change of ideas. In this sense, the contribution will return the results of the qualitative research The Reflective T eacher (Michelini M.C., 2016. Fare Comunità di pensiero. L ’insegnamento come pratica riflessiva. FrancoAngeli) carried out with a group of preschool and primary school teachers from the Marche and Emilia Ro- magna regions, with the involvement of student trainees and some tutors from the CdL in Scienze della Formazione Primaria of the University of Urbino. Keywords: dialogic reading, reflective thinking, community of thought Citation: Michelini, M.C. (2023). Dialogic reading for the development of reflective thinking. Effetti di Lettura / Effects of Reading, 2(2), 06-18. https://doi.org/10.7347/EdL-02-2023-01. Corresponding Author: Maria-Chiara Michelini | mariachiara.michelini@uniurb.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2023-01 Maria-Chiara Michelini Associate Professor in General and Social Pedagogy (M-Ped/01) | Department of Humanities | mariachiara.michelini@uniurb.it | University Urbino Carlo Bo Double blind peer review Dialogic reading for the development of reflective thinking La lettura dialogata per lo sviluppo del pensiero riflessivo Volume 2 | n. 2 | dicembre 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "this sense, they oppose resistance to change, putting in place mechanisms of self-deception that hinder and disturb the transformation, to the point of preventing it. At the same time, there are conditions that favor it, precisely because of the specific dynamics of reflective thinking. These are: reflective conversation with the materials of the situation, emancipative mirroring, community of thought (Michelini, 2013; 2016). Here we will briefly focus mainly on the first two conditions and we will dwell a little more on the third, which we consider the condition of conditions. We derive the term reflexive conversation with the materials of the situation from Schön, who makes ex- tensive use of it in his work on the observation of professionals engaged in problem solving. It consists in: “bringing out, critiquing, restructuring and verifying in the field, intuitive understandings of phenomena of which one has experience” (1983/1993, p. 253). The expression immediately calls into question the dialogical character of reflective thought as a conversation that allows it to flow dynamically from the con- creteness of practical situations (the objects, the materials, in fact), towards thought and back again. Schön faithfully reports such conversations by restoring their character of an everyday, usual and widespread form in professional contexts. The second condition, emancipative mirroring, balances the intrapersonal character of the first, with the robust input of thirdness, metaphorically represented by the intentional use of mirrors that reflect and animate reflection, showing the various aspects of the issues according to multiple points of view. It refers to the need to project the contents of the investigation onto a reflective surface, in order to subject them to the subtle art of restructuring (Watzlawick et al., 1974, p. 101) and redefine mental images, with a view to change. Mirroring is emancipative in that it is aimed at liberation, at the evolutionary development of things by overcoming the representation to which we have become accustomed. The community of thought represents the condition of the conditions of reflective thought, the context in which reflective conversation and mirroring are realized in a systematic and accomplished form. In this sense it represents the synthesis of the first two, but at the same time constitutes a landing place for reflec- tion itself, if and when it reaches qualitative levels and precise characteristics. Communities of thought are intentionally set up in order to think, they respond to a conscious choice of the constituent subjects who decide to place at the center of their reflection not action, but thought about action. They are endowed with specific requirements that make sense of this construct, both from a speculative and operational point of view. The word community recalls a significant pedagogical tradition, well summarized by the Deweyan conception of a place where values are pooled (Dewey, 1916/2000) and declares a democratic and partici- patory position, whereby people can take full ownership of their thinking, both in a personal and profes- sional sense, in the context of highly shared and democratic contexts that we call community. From a pedagogical point of view, admitting such a hypothesis means taking on the commitment to give life to community contexts for thinking. 1.1.1 Reciprocity As a characterizing feature of the construct of communities of practice, which he has developed and implemented in many professional contexts, Wenger (1998/2006, pp. 87-102) points to mutual commit- ment, even before common commitment and shared repertoire. This indicates that the mutual commit- ment between the participants of a community, as a choice of support, of comparison, of sharing, constitutes its qualifying feature for Wenger. Within the context of Brazil’s military dictatorship of the 1960s he suggests an extreme meaning of reciprocity: “this is the great humanist and histori",
+        "body_language_guess": "en",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Dialogic reading for the development of reflective thinking",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Dialogic reading for the development of reflective thinking",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-10-30",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-10-30",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2024",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6845\\2785-7050_6845.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Dialogic reading for the development of reflective thinking",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "La lettura dialogata per lo sviluppo del pensiero riflessivo",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "La lettura dialogata per lo sviluppo del pensiero riflessivo",
+            "dropped_source": "locale:it_IT:meta:DC.Title",
+            "kept_source": "meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The contribution explores the use of dialogic reading in professional contexts. It investigates its potential and possible uses in relation to the development o",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Il contributo esplora l’uso della lettura dialogica in contesti professionali e ne indaga il potenziale e i possibili utilizzi in relazione allo sviluppo del pe",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

@@ -1,0 +1,964 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7881",
+  "scraped_at_utc": "2026-04-27T18:48:21Z",
+  "fetched_at_utc": "2026-04-27T18:48:21Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "2971eea6789c99474dcf7cd5948c6f902324b78e98ecac0fb90469cf0c51125d",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Enrico Orsenigo",
+        "nameType": "Personal",
+        "givenName": "Enrico",
+        "familyName": "Orsenigo",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Ph.D. Student | University of Modena and Reggio Emilia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7881",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-06-27",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-06-27",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-06-27",
+      "Issued": "2025-06-27"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "This contribution aims to explore how a pedagogy of hope, informed by literature, can offer perspectives, interpretations, and frameworks for reflection and action in navigating the present moment. This era, marked by increasing cognitive, if not existential, saturation, complicates the search for “lights”, or meaningful trajectories. Faced with the acceleration and fragmentation of contemporary life, individuals often struggle to find coherence and resonance in their experiences. In this context, literature, when placed in the service of pedagogy, emerges as a powerful tool of hope and liberation. Through narrative and symbolic reflection, literary texts provide individuals with the opportunity to engage with alternative realities, fostering new ways of seeing and understanding the world.Far from being a mere pastime or an intellectual exercise, literature assumes a crucial role in rediscovering new rhythms and deep interpersonal resonances. It opens a privileged channel of connection with the world, allowing for an expansion of perception. Through digressions, variations in rhythm, and non-linear structures – such as the narrative loop – it enables disengagement from the accelerated and fragmented time of the present, offering a renewed axis of resonance. This shift in perspective permits a reconsideration of reality, not solely as an intellectual construct but as a lived, embodied experience.Literature’s ability to revisit reality and intertwine it with new perspectives fosters an understanding that transcends pure rationality. It enables a deeper, more immersive engagement with life, counteracting the superficiality imposed by the frenetic pace of contemporary existence. In doing so, literature cultivates a pedagogy of hope – one that encourages reflection, nurtures critical consciousness, and opens pathways for renewed ways of being in the world.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "Questo contributo si propone di esplorare come una pedagogia della speranza, informata dalla letteratura, possa offrire prospettive, interpretazioni e strumenti di riflessione e azione per orientarsi nel momento presente. Quest’epoca, segnata da una crescente saturazione cognitiva, se non addirittura esistenziale, complica la ricerca di “luci”, di traiettorie significative. Di fronte all’accelerazione e alla frammentazione della vita contemporanea, gli individui spesso faticano a trovare coerenza e risonanza nelle proprie esperienze. In questo contesto, la letteratura, messa al servizio della pedagogia, emerge come uno strumento potente di speranza e liberazione. Attraverso la riflessione narrativa e simbolica, i testi letterari offrono agli individui l’opportunità di confrontarsi con realtà alternative, favorendo nuovi modi di vedere e comprendere il mondo.Lungi dall’essere un semplice passatempo o un esercizio intellettuale, la letteratura assume un ruolo cruciale nel riscoprire nuovi ritmi e profonde risonanze interpersonali. Essa apre un canale privilegiato di connessione con il mondo, permettendo un’espansione della percezione. Attraverso digressioni, variazioni di ritmo e strutture non lineari – come il ciclo narrativo – consente di sottrarsi al tempo accelerato e frammentato del presente, offrendo un rinnovato asse di risonanza. Questo spostamento di prospettiva permette di ripensare la realtà, non solo come costruzione intellettuale, ma come esperienza vissuta e incarnata. La capacità della letteratura di rivisitare la realtà e intrecciarla con nuove prospettive favorisce una comprensione che va oltre la pura razionalità. Essa consente un coinvolgimento più profondo e immersivo con la vita, contrastando la superficialità imposta dal ritmo frenetico dell’esistenza contemporanea. In questo modo, la letteratura coltiva una pedagogia della speranza – una pedagogia che incoraggia la riflessione, alimenta la coscienza critica e apre percorsi per rinnovati modi di essere nel mondo.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2025-05",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "disorientamento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "pedagogia della speranza",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "letteratura",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "personaggi di finzione",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "risonanza",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "esseri di fantasia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "disorientation",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "pedagogy of hope",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "literature",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "fictional characters",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "resonance",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Enrico Orsenigo",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7881/7020",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "1",
+      "citationStartPage": "064",
+      "citationEndPage": "072",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Orsenigo, E. (2025). Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura. Effetti Di Lettura / Effects of Reading , 4 (1), 064–072. https://doi.org/10.7347/EdL-01-2025-05",
+      "articleTitleEcho": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7881",
+    "article_ID": "7881",
+    "slug": "7881",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7881",
+      "url_slug": "7881"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Holding on to the unstable present time. A pedagogy hope through literature",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-03-29",
+      "accepted": null,
+      "created": "2025-06-27",
+      "modified": "2025-07-03",
+      "issued": "2025-06-27",
+      "available": "2025-06-27",
+      "submitted_page": "2025-03-29",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+        "pdf_value": null,
+        "chosen_value": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-03-29",
+        "pdf_value": null,
+        "chosen_value": "2025-03-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Enrico Orsenigo",
+        "pdf_value": null,
+        "chosen_value": "Enrico Orsenigo",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7881/7020",
+      "local_relative_path": "2785-7050_7881.pdf",
+      "saved": true,
+      "sha256": "f619c6b359b005a3bdf3e0232e5fa3518e18ec41d0dd1837f05c1aa457874964",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1888157,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Enrico Orsenigo"
+      ],
+      "citation_author_institution": [
+        "Ph.D. Student | University of Modena and Reggio Emilia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/06/27"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2025-05"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7881"
+      ],
+      "citation_keywords": [
+        "disorientamento",
+        "pedagogia della speranza",
+        "letteratura",
+        "personaggi di finzione",
+        "risonanza",
+        "esseri di fantasia"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7881/7020"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2025-06-27"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-03-29"
+      ],
+      "DC.Date.issued": [
+        "2025-06-27"
+      ],
+      "DC.Date.modified": [
+        "2025-07-03"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7881"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2025-05"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7881"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Enrico Orsenigo",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 6,
+      "DC.Title": [
+        "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura"
+      ],
+      "DC.Title.Alternative": [
+        "Holding on to the unstable present time. A pedagogy hope through literature"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Enrico Orsenigo"
+      ],
+      "citation_author_institution": [
+        "Ph.D. Student | University of Modena and Reggio Emilia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Enrico Orsenigo"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "This contribution aims to explore how a pedagogy of hope, informed by literature, can offer perspectives, interpretations, and frameworks for reflection and action in navigating the present moment. This era, marked by increasing cognitive, if not existential, saturation, complicates the search for “lights”, or meaningful trajectories. Faced with the acceleration and fragmentation of contemporary life, individuals often struggle to find coherence and resonance in their experiences. In this context, literature, when placed in the service of pedagogy, emerges as a powerful tool of hope and liberation. Through narrative and symbolic reflection, literary texts provide individuals with the opportunity to engage with alternative realities, fostering new ways of seeing and understanding the world.Far from being a mere pastime or an intellectual exercise, literature assumes a crucial role in rediscovering new rhythms and deep interpersonal resonances. It opens a privileged channel of connection with the world, allowing for an expansion of perception. Through digressions, variations in rhythm, and non-linear structures – such as the narrative loop – it enables disengagement from the accelerated and fragmented time of the present, offering a renewed axis of resonance. This shift in perspective permits a reconsideration of reality, not solely as an intellectual construct but as a lived, embodied experience.Literature’s ability to revisit reality and intertwine it with new perspectives fosters an understanding that transcends pure rationality. It enables a deeper, more immersive engagement with life, counteracting the superficiality imposed by the frenetic pace of contemporary existence. In doing so, literature cultivates a pedagogy of hope – one that encourages reflection, nurtures critical consciousness, and opens pathways for renewed ways of being in the world.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "This contribution aims to explore how a pedagogy of hope, informed by literature, can offer perspectives, interpretations, and frameworks for reflection and action in navigating the present moment. This era, marked by increasing cognitive, if not existential, saturation, complicates the search for “lights”, or meaningful trajectories. Faced with the acceleration and fragmentation of contemporary life, individuals often struggle to find coherence and resonance in their experiences. In this context, literature, when placed in the service of pedagogy, emerges as a powerful tool of hope and liberation. Through narrative and symbolic reflection, literary texts provide individuals with the opportunity to engage with alternative realities, fostering new ways of seeing and understanding the world.Far from being a mere pastime or an intellectual exercise, literature assumes a crucial role in rediscovering new rhythms and deep interpersonal resonances. It opens a privileged channel of connection with the world, allowing for an expansion of perception. Through digressions, variations in rhythm, and non-linear structures – such as the narrative loop – it enables disengagement from the accelerated and fragmented time of the present, offering a renewed axis of resonance. This shift in perspective permits a reconsideration of reality, not solely as an intellectual construct but as a lived, embodied experience.Literature’s ability to revisit reality and intertwine it with new perspectives fosters an understanding that transcends pure rationality. It enables a deeper, more immersive engagement with life, counteracting the superficiality imposed by the frenetic pace of contemporary existence. In doing so, literature cultivates a pedagogy of hope – one that encourages reflection, nurtures critical consciousness, and opens pathways for renewed ways of being in the world."
+          }
+        },
+        {
+          "content": "Questo contributo si propone di esplorare come una pedagogia della speranza, informata dalla letteratura, possa offrire prospettive, interpretazioni e strumenti di riflessione e azione per orientarsi nel momento presente. Quest’epoca, segnata da una crescente saturazione cognitiva, se non addirittura esistenziale, complica la ricerca di “luci”, di traiettorie significative. Di fronte all’accelerazione e alla frammentazione della vita contemporanea, gli individui spesso faticano a trovare coerenza e risonanza nelle proprie esperienze. In questo contesto, la letteratura, messa al servizio della pedagogia, emerge come uno strumento potente di speranza e liberazione. Attraverso la riflessione narrativa e simbolica, i testi letterari offrono agli individui l’opportunità di confrontarsi con realtà alternative, favorendo nuovi modi di vedere e comprendere il mondo.Lungi dall’essere un semplice passatempo o un esercizio intellettuale, la letteratura assume un ruolo cruciale nel riscoprire nuovi ritmi e profonde risonanze interpersonali. Essa apre un canale privilegiato di connessione con il mondo, permettendo un’espansione della percezione. Attraverso digressioni, variazioni di ritmo e strutture non lineari – come il ciclo narrativo – consente di sottrarsi al tempo accelerato e frammentato del presente, offrendo un rinnovato asse di risonanza. Questo spostamento di prospettiva permette di ripensare la realtà, non solo come costruzione intellettuale, ma come esperienza vissuta e incarnata. La capacità della letteratura di rivisitare la realtà e intrecciarla con nuove prospettive favorisce una comprensione che va oltre la pura razionalità. Essa consente un coinvolgimento più profondo e immersivo con la vita, contrastando la superficialità imposta dal ritmo frenetico dell’esistenza contemporanea. In questo modo, la letteratura coltiva una pedagogia della speranza – una pedagogia che incoraggia la riflessione, alimenta la coscienza critica e apre percorsi per rinnovati modi di essere nel mondo.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "Questo contributo si propone di esplorare come una pedagogia della speranza, informata dalla letteratura, possa offrire prospettive, interpretazioni e strumenti di riflessione e azione per orientarsi nel momento presente. Quest’epoca, segnata da una crescente saturazione cognitiva, se non addirittura esistenziale, complica la ricerca di “luci”, di traiettorie significative. Di fronte all’accelerazione e alla frammentazione della vita contemporanea, gli individui spesso faticano a trovare coerenza e risonanza nelle proprie esperienze. In questo contesto, la letteratura, messa al servizio della pedagogia, emerge come uno strumento potente di speranza e liberazione. Attraverso la riflessione narrativa e simbolica, i testi letterari offrono agli individui l’opportunità di confrontarsi con realtà alternative, favorendo nuovi modi di vedere e comprendere il mondo.Lungi dall’essere un semplice passatempo o un esercizio intellettuale, la letteratura assume un ruolo cruciale nel riscoprire nuovi ritmi e profonde risonanze interpersonali. Essa apre un canale privilegiato di connessione con il mondo, permettendo un’espansione della percezione. Attraverso digressioni, variazioni di ritmo e strutture non lineari – come il ciclo narrativo – consente di sottrarsi al tempo accelerato e frammentato del presente, offrendo un rinnovato asse di risonanza. Questo spostamento di prospettiva permette di ripensare la realtà, non solo come costruzione intellettuale, ma come esperienza vissuta e incarnata. La capacità della letteratura di rivisitare la realtà e intrecciarla con nuove prospettive favorisce una comprensione che va oltre la pura razionalità. Essa consente un coinvolgimento più profondo e immersivo con la vita, contrastando la superficialità imposta dal ritmo frenetico dell’esistenza contemporanea. In questo modo, la letteratura coltiva una pedagogia della speranza – una pedagogia che incoraggia la riflessione, alimenta la coscienza critica e apre percorsi per rinnovati modi di essere nel mondo."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "disorientamento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "disorientamento"
+          }
+        },
+        {
+          "content": "pedagogia della speranza",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "pedagogia della speranza"
+          }
+        },
+        {
+          "content": "letteratura",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "letteratura"
+          }
+        },
+        {
+          "content": "personaggi di finzione",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "personaggi di finzione"
+          }
+        },
+        {
+          "content": "risonanza",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "risonanza"
+          }
+        },
+        {
+          "content": "esseri di fantasia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "esseri di fantasia"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7881/7020",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7881/7020",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7881/7020",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-06-26",
+        "mod_date": "2025-06-26"
+      },
+      "front_text_excerpt": "ABSTRACT This contribution aims to explore how a pedagogy of hope, informed by literature, can offer perspectives, interpretations, and frameworks for reflection and action in navigating the present moment. This era, marked by increasing cognitive, if not existential, saturation, complicates the search for “lights”, or meaningful trajectories. Faced with the acceleration and fragmentation of contemporary life, indivi duals often struggle to find coherence and resonance in their experiences. In this context, literature, when placed in the service of pedagogy, emerges as a powerful tool of hope and liberation. Through narrative and symbolic reflection, literary texts provide individuals with the opportunity to engage with alternative realities, fostering new ways of seeing and understanding the world. Far from being a mere pastime or an intellectual exercise, literature assumes a crucial role in rediscovering new rhythms and deep interpersonal resonances. It opens a privileged channel of connection with the world, allowing for an expansion of perception. Through digressions, vari- ations in rhythm, and non-linear structures – such as the narrative loop – it enables disengagement from the accelerated and fr agmented time of the present, offering a renewed axis of resonance. This shift in perspective permits a reconsideration of reality, not solely as an intel- lectual construct but as a lived, embodied experience. Literature’s ability to revisit reality and intertwine it with new perspectives fosters an understanding that transcends pure rationality. It enables a deeper, more immersive engagement with life, counteracting the superficiality imposed by the frenetic pace of contemporary existence. In doing so, literature cultivates a pedagogy of hope – one that encourages reflection, nurtures critical consciousness, and opens pathways for renewed ways of being in the world. Keywords: disorientation, pedagogy of hope, literature, fictional characters, resonance Questo contributo si propone di esplorare come una pedagogia della speranza, informata dalla letteratura, possa offrire prospettive, interpre- tazioni e strumenti di riflessione e azione per orientarsi nel momento presente. Quest’epoca, segnata da una crescente saturazione cognitiva, se non addirittura esistenziale, complica la ricerca di “luci”, di traiettorie significative. Di fronte all’accelerazione e alla frammentazione della vita contemporanea, gli individui spesso faticano a trovare coerenza e risonanza nelle proprie esperienze. In questo contesto, la letteratura, messa al servizio della pedagogia, emerge come uno strumento potente di speranza e liberazione. Attraverso la riflessione narrativa e simbolica, i testi letterari offrono agli individui l’opportunità di confrontarsi con realtà alternative, favorendo nuovi modi di vedere e comprendere il mondo. Lungi dall’essere un semplice passatempo o un esercizio intellettuale, la letteratura assume un ruolo cruciale nel riscoprire nuovi ritmi e pro- fonde risonanze interpersonali. Essa apre un canale privilegiato di connessione con il mondo, permettendo un’espansione della p ercezione. Attraverso digressioni, variazioni di ritmo e strutture non lineari – come il ciclo narrativo – consente di sottrarsi al tempo accelerato e fram- mentato del presente, offrendo un rinnovato asse di risonanza. Questo spostamento di prospettiva permette di ripensare la realt à, non solo come costruzione intellettuale, ma come esperienza vissuta e incarnata. La capacità della letteratura di rivisitare la realtà e intrecciarla con nuove prospettive favorisce una comprensione che va oltre la pura razionalità. Essa consente un coinvolgimento più profondo e immersivo con la vita, contrastando la superficialità imposta dal ritmo frenetico dell’esistenza contemporanea. In questo modo, la letteratura coltiva una pedagogia della speranza – una pedagogia che incoraggia la riflession e, alimenta la coscienza critica e apre percorsi per rinnovati modi di essere nel mondo. Parole chiave: disorientamento, pedagogia della speranza, esseri di fantasia, risonanza Citation: Orsenigo, E. (2025). T enersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura. Effetti di Lettura / Effects of Reading, 4(1), 64-72. https://doi.org/10.7347/EdL-01-2025-05. Corresponding Author: Enrico Orsenigo | enrico.orsenigo@unimore.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-05 Enrico Orsenigo Ph.D. Student | University of Modena and Reggio Emilia | enrico.orsenigo@unimore.it Double blind peer review T enersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura Holding on to the unstable present time. A pedagogy hope through literature Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7881\\2785-7050_7881.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Enrico Orsenigo",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Enrico Orsenigo",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+        "pdf_value": null,
+        "chosen_value": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-03-29",
+        "pdf_value": null,
+        "chosen_value": "2025-03-29",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Enrico Orsenigo",
+        "pdf_value": null,
+        "chosen_value": "Enrico Orsenigo",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Enrico Orsenigo",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7881",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7881",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:48:21Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:48:23Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7881",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7881",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7881",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7881",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 6
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7881\\2785-7050_7881.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:48:25Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7881\\2785-7050_7881.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+        "submitted_date": "2025-03-29",
+        "accepted_date": null,
+        "copyright_holder": "Enrico Orsenigo",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Enrico Orsenigo"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7881\\2785-7050_7881.pdf",
+        "generated_at_utc": "2026-04-27T18:48:25Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-06-26",
+          "mod_date": "2025-06-26"
+        },
+        "front_text_excerpt": "ABSTRACT This contribution aims to explore how a pedagogy of hope, informed by literature, can offer perspectives, interpretations, and frameworks for reflection and action in navigating the present moment. This era, marked by increasing cognitive, if not existential, saturation, complicates the search for “lights”, or meaningful trajectories. Faced with the acceleration and fragmentation of contemporary life, indivi duals often struggle to find coherence and resonance in their experiences. In this context, literature, when placed in the service of pedagogy, emerges as a powerful tool of hope and liberation. Through narrative and symbolic reflection, literary texts provide individuals with the opportunity to engage with alternative realities, fostering new ways of seeing and understanding the world. Far from being a mere pastime or an intellectual exercise, literature assumes a crucial role in rediscovering new rhythms and deep interpersonal resonances. It opens a privileged channel of connection with the world, allowing for an expansion of perception. Through digressions, vari- ations in rhythm, and non-linear structures – such as the narrative loop – it enables disengagement from the accelerated and fr agmented time of the present, offering a renewed axis of resonance. This shift in perspective permits a reconsideration of reality, not solely as an intel- lectual construct but as a lived, embodied experience. Literature’s ability to revisit reality and intertwine it with new perspectives fosters an understanding that transcends pure rationality. It enables a deeper, more immersive engagement with life, counteracting the superficiality imposed by the frenetic pace of contemporary existence. In doing so, literature cultivates a pedagogy of hope – one that encourages reflection, nurtures critical consciousness, and opens pathways for renewed ways of being in the world. Keywords: disorientation, pedagogy of hope, literature, fictional characters, resonance Questo contributo si propone di esplorare come una pedagogia della speranza, informata dalla letteratura, possa offrire prospettive, interpre- tazioni e strumenti di riflessione e azione per orientarsi nel momento presente. Quest’epoca, segnata da una crescente saturazione cognitiva, se non addirittura esistenziale, complica la ricerca di “luci”, di traiettorie significative. Di fronte all’accelerazione e alla frammentazione della vita contemporanea, gli individui spesso faticano a trovare coerenza e risonanza nelle proprie esperienze. In questo contesto, la letteratura, messa al servizio della pedagogia, emerge come uno strumento potente di speranza e liberazione. Attraverso la riflessione narrativa e simbolica, i testi letterari offrono agli individui l’opportunità di confrontarsi con realtà alternative, favorendo nuovi modi di vedere e comprendere il mondo. Lungi dall’essere un semplice passatempo o un esercizio intellettuale, la letteratura assume un ruolo cruciale nel riscoprire nuovi ritmi e pro- fonde risonanze interpersonali. Essa apre un canale privilegiato di connessione con il mondo, permettendo un’espansione della p ercezione. Attraverso digressioni, variazioni di ritmo e strutture non lineari – come il ciclo narrativo – consente di sottrarsi al tempo accelerato e fram- mentato del presente, offrendo un rinnovato asse di risonanza. Questo spostamento di prospettiva permette di ripensare la realt à, non solo come costruzione intellettuale, ma come esperienza vissuta e incarnata. La capacità della letteratura di rivisitare la realtà e intrecciarla con nuove prospettive favorisce una comprensione che va oltre la pura razionalità. Essa consente un coinvolgimento più profondo e immersivo con la vita, contrastando la superficialità imposta dal ritmo frenetico dell’esistenza contemporanea. In questo modo, la letteratura coltiva una pedagogia della speranza – una pedagogia che incoraggia la riflession e, alimenta la coscienza critica e apre percorsi per rinnovati modi di essere nel mondo. Parole chiave: disorientamento, pedagogia della speranza, esseri di fantasia, risonanza Citation: Orsenigo, E. (2025). T enersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura. Effetti di Lettura / Effects of Reading, 4(1), 64-72. https://doi.org/10.7347/EdL-01-2025-05. Corresponding Author: Enrico Orsenigo | enrico.orsenigo@unimore.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-05 Enrico Orsenigo Ph.D. Student | University of Modena and Reggio Emilia | enrico.orsenigo@unimore.it Double blind peer review T enersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura Holding on to the unstable present time. A pedagogy hope through literature Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "sonanze interpersonali. In un mondo caratterizzato da un’accelerazione costante e da un crescente senso di alienazione, come descrive Hartmut Rosa (2015), la letteratura può aprire un canale privilegiato di con- nessione tra il soggetto e il mondo, tra l’individuo e gli altri, restituendo uno spazio di respiro e una nuova sintonia con ciò che ci circonda. Rosa definisce la “risonanza” (2023) come quella particolare modalità di relazione con il mondo che ci permette di percepirlo non come qualcosa di distante e controllabile, ma come un’entità viva, con cui pos- siamo entrare in dialogo e a cui possiamo rispondere emotivamente e intellettualmente. In questo senso, la letteratura offre un’opportunità unica per generare questa risonanza, attraverso la quale i lettori non solo si immergono in mondi narrativi, ma anche ritrovano un modo di sentire e comprendere che rispecchia e amplifica le esperienze reali (Barbero, 2023). La narrazione, con le sue digressioni, le sue variazioni di ritmo e le sue strutture non lineari – come nel caso dell’anello narrativo, che si riprenderà più sotto – permette di disallineare il tempo accelerato e fram- mentato del presente, offrendo un nuovo asse di risonanza. La capacità della letteratura di ritornare sulla realtà, di intrecciarla con nuove prospettive, dà vita a una forma di comprensione che va oltre il semplice ragionamento intellettuale: offre un’esperienza vissuta di quel mondo che spesso si ha il tempo di percepire solo in modo superficiale. Il concetto di risonanza trova qui un’alleanza naturale con l’opera narrativa: leggere un romanzo o una poesia non è solo un’esperienza estetica, ma un processo di riconnessione, un modo per tornare in contatto con quei ricordi, emozioni e relazioni che determinano la condizione umana. Non solo, perché attraverso un congegno che prende il nome di personaggio letterario, il soggetto-lettore ha l’opportunità di speri - mentare esperienze altrimenti inaccessibili nella realtà fattuale o, ancora, esperienze eccessivamente coin- volgenti in termini di trasgressione; in queste ultime, è centrale il concetto di empatia negativa (Ercolino & Fusillo, 2022) che evidenzia come la ricchezza che si ricava dai metamessaggi educativi di un’opera di- pende non tanto da emozioni, cognizioni e sentimenti positivi, ma da tutta l’intera gamma di crome morali e sentimentali in gioco, comprese quelle che superficialmente il senso comune identifica come negative. In questo modo, la lettura diventa uno strumento per sfuggire alla logica utilitaristica e accelerata del tempo contemporaneo e riscoprire il valore della lentezza, dell’ascolto e persino delle “perturbazioni”, ossia di storie che non fanno tornare i conti, e proprio per questo schiudono “angoli visuali” alternativi, inattuali, purtuttavia praticabili. La letteratura, quindi, non può essere intesa esclusivamente come fuga dal mondo, ma un mezzo per riappropriarsene, per ristabilire un dialogo intimo e risonante con ciò che costituisce il “dintorno”, in tutti i suoi elementi viventi e non viventi. Un narratore non può e non deve limitarsi a esporre i fatti come farebbe uno storico, come già ammo- niva Aristotele nel ventitreesimo capitolo della Poetica (1998). Il suo consiglio era quello di intrecciare gli eventi tra loro, evitando che la narrazione venisse schiacciata su una semplice linea temporale. Utilizzare flashback, flashforward e non preoccuparsi della cronologia erano tecniche suggerite per rendere la narra - zione più complessa e sfaccettata, fino a giungere a un’invenzione, se necessario. Nella composizione ad anello, il narratore inizia a raccontare una storia, ma interrompe il flusso per tornare a un momento precedente, utile a spiegare un aspetto cruciale della narrazione. In alcuni casi, può risalire ulteriormente nel passato, a un episodio o oggetto ancora più remoto, che chiarirà un passaggio appena affrontato, per poi, gradualmente, ritornare al presente, al punto da cui si era allontanato per forni",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-03-29",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-03-29",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Enrico Orsenigo",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Enrico Orsenigo",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7881\\2785-7050_7881.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Tenersi nell’instabile del tempo presente. Una pedagogia della speranza attraverso la letteratura",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Holding on to the unstable present time. A pedagogy hope through literature",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Holding on to the unstable present time. A pedagogy hope through literature",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "This contribution aims to explore how a pedagogy of hope, informed by literature, can offer perspectives, interpretations, and frameworks for reflection and act",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Questo contributo si propone di esplorare come una pedagogia della speranza, informata dalla letteratura, possa offrire prospettive, interpretazioni e strumenti",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

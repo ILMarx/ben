@@ -1,0 +1,990 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6384",
+  "scraped_at_utc": "2026-04-27T18:46:28Z",
+  "fetched_at_utc": "2026-04-27T18:46:28Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "743f236d55b532b2f5ffaaf79a9bdf43107b366868f3954fae94a3bed8085690",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Lucia Paciaroni",
+        "nameType": "Personal",
+        "givenName": "Lucia",
+        "familyName": "Paciaroni",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Assistant Professor | Department of Education, Cultural Heritage and Tourism | University of Macerata"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6384",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2023-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2023-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2023-06-30",
+      "Issued": "2023-06-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "On the occasion of the course of Children’s Literature of the curriculum “Educator of educational services for children” of Macerata’s University (Course of Science in Education and Training Sciences of the Department of Education, Cultural Heritage and Tourism), students attended in a &nbsp;series of seminars with representatives of the school world, pedagogists, booksellers, project leaders for promoting reading from early childhood and they have had the opportunity to experiment with some reading techniques aloud in the age group 0-3 years. The article aims to present results of this experience – proposed from the academic year 2020/2021 – dedicated to the knowledge of local experiences and national projects focused on children’s literature and reading aloud. The meetings were useful to highlight the benefits of reading aloud from early childhood in terms of cognitive, linguistic, emotional and relational development, characteristics widely demonstrated by scientific research in recent years. The students then had the opportunity to share their impressions and reflections and put into practice what they learned during their internship experience and their final thesis work. It is intended, therefore, to demonstrate the importance of these formative meetings in contexts such as the university, in which future educators and teachers are being trained, which, in this way, not only deepen the theme of children’s literature, but they can become aware of the powerful practice, that of reading aloud, which they can use in the classroom through a valuable tool like the book.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "In occasione del corso di Letteratura per l’infanzia del curriculum “Educatore dei servizi educativi per l’infanzia” dell’Università di Macerata (Corso di Laurea in Scienze dell’Educazione e della Formazione del Dipartimento di Scienze della Formazione, dei Beni Culturali e del Turismo), gli studenti hanno partecipato a una serie di seminari con rappresentanti del mondo scolastico, pedagogisti, librai, responsabili di progetti per la promozione della lettura fin dalla prima infanzia e hanno avuto l’opportunità di sperimentare alcune tecniche di lettura ad alta voce nella fascia d’età 0-3 anni. L’articolo si propone di presentare i risultati di questa esperienza – proposta dall’anno accademico 2020/2021 – dedicata alla conoscenza delle esperienze locali e dei progetti nazionali focalizzati sulla letteratura per l’infanzia e sulla lettura ad alta voce. Gli incontri sono stati utili per evidenziare i benefici della lettura ad alta voce fin dalla prima infanzia in termini di sviluppo cognitivo, linguistico, emotivo e relazionale, caratteristiche ampiamente dimostrate dalla ricerca scientifica negli ultimi anni. Gli studenti hanno poi avuto l’opportunità di condividere le loro impressioni e riflessioni e mettere in pratica ciò che hanno appreso durante l’esperienza di tirocinio e il lavoro di tesi finale. Si intende, quindi, dimostrare l’importanza di questi incontri formativi in contesti come l’università, in cui vengono formati i futuri educatori e insegnanti, che in questo modo non solo approfondiscono il tema della letteratura per l’infanzia, ma possono diventare consapevoli della potente pratica della lettura ad alta voce, che possono utilizzare in classe attraverso un prezioso strumento come il libro.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2023-06",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "2",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "scienze dell'educazione;",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "letteratura per l'infanzia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "XXI secolo",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "albi illustrati",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Libri illustrati",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "children's literature",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "XXI Century",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "picturebooks;",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "Education Science",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2023,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6384/5543",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "2",
+      "citationIssue": "1",
+      "citationStartPage": "064",
+      "citationEndPage": "075",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Paciaroni, L. (2023). La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti. Effetti Di Lettura / Effects of Reading , 2 (1), 064–075. https://doi.org/10.7347/EdL-01-2023-06",
+      "articleTitleEcho": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Aram, D., Schapira, R. (2012). Parent-Child Shared Book Reading and Socio-Emotional Development, Italian Journal of Family Education, 2, 55-66.",
+        "Ascenzi, A. & Sani, R. (2017). Storia e antologia della letteratura per l’infanzia nell’Italia dell’Ottocento, Vol. I. FrancoAngeli.",
+        "Ascenzi, A. & Sani, R. (2018). Storia e antologia della letteratura per l’infanzia nell’Italia dell’Ottocento, Vol. II. FrancoAngeli.",
+        "Barsotti, S. (2015). L’albo illustrato un crocevia di linguaggi, Form@re - Open Journal Per La Formazione in Rete, 15(2), 207-217.",
+        "Batini, F. (2018). Leggimi ancora. Letture ad alta voce e Life Skills. Giunti scuola.",
+        "Batini, F. (2019). Leggere ad alta voce. Metodi e strategie per costruire competenze per la vita. Giunti scuola.",
+        "Batini, F. (Ed.) (2021). Ad alta voce. La lettura che fa bene a tutti. Giunti.",
+        "Batini, F. (2022). Lettura ad alta voce. Ricerche e strumenti per educatori, insegnanti e genitori. Carocci.",
+        "Batini, F., & Giusti, S. (Eds.) (2021). Tecniche per la lettura ad alta voce. 27 suggerimenti per la fascia 0-6 anni. FrancoAngeli.",
+        "Bruno, T. (Ed.) (2023). Fare scuola con le storie. Esperienze di educazione alla lettura in classe, Erickson.",
+        "Campagnaro, M. & Dallari, M. (2013). Incanto e racconto nel labirinto delle figure. Albi illustrati e relazione educativa, Erickson.",
+        "Capetti, A. (2018). A scuola con gli albi. Insegnare la bellezza delle parole e delle immagini, Topipittori.",
+        "Dunst, C. J., Simkus, A. & Hamby D. W. (2012), Effects of Reading to Infants and Toddlers on Their Early Language Development, CELLreviews, 5(4), 1-10.",
+        "Farina, L. (Ed.) (2013). La casa delle meraviglie. La Emme Edizioni di Rosellina Archinto. Topipittori.",
+        "Hamelin (Ed.) (2012). Ad occhi aperti. Leggere l’albo illustrato. Donzelli.",
+        "Hutton, J. S. et al. (2015). Home Reading Environment and Brain Activation in Preschool Children Listening to Stories, Pediatrics, 136(3), 466-478.",
+        "Law, J., Charlton, J., McKean, C., Beyer, F., Fernandez-Garcia, C., Mashayekhi, A., Rush, R. (2018). Parent-child reading to improve language development and school readiness: A systematic review and meta-analysis (Final report). Newcastle University & Queen Margaret University.",
+        "Meda, J. (2021). C’era una volta al grammofono... Le fiabe sonore della Durium tra tradizione e fantasia (1933-1950). In S. Polenghi, F. Cereda, P. Zini (Eds.), La responsabilità della pedagogia nelle trasformazioni dei rapporti sociali. Storia, linee di ricerca e prospettive (pp. 962-969). Pensa Multimedia.",
+        "Meda, J., Marazzi, E., Targhetta, F. & Ostenc, M. (2017). Nuove piste di ricerca per la storia della letteratura per l’infanzia: a proposito di un recente volume. History of Education & Children’s Literature, XII(2), 541-560.",
+        "Sola, S. & Vassalli, P. (2014). I nostri anni 70. Libri per ragazzi in Italia. Corraini.",
+        "Terrusi, M. (2017). Meraviglie mute. Silent book e letteratura per l’infanzia. Carocci.",
+        "Terrusi, M. (2012). Albi illustrati. Leggere, guardare, nominare il mondo nei libri per l’infanzia. Carocci.",
+        "Zago, G., Callegari, C. & Campagnaro, M. (2019). La casa nella Letteratura per l’infanzia contemporanea, Figure, modelli e visioni nella Letteratura per l’infanzia dal Novecento ad oggi, PensaMultimedia.",
+        "Zizioli, E. (2017). I tesori della lettura sull’isola. Una pratica di cittadinanza possibile. Sinnos."
+      ],
+      "count": 24,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_6384",
+    "article_ID": "6384",
+    "slug": "6384",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "6384",
+      "url_slug": "6384"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "The The promotion of reading aloud: tools for innovation in university didactics and for the training of educators and teachers",
+        "lang": "en",
+        "role": "main",
+        "source": "locale:en_US:meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2023-03-30",
+      "accepted": null,
+      "created": "2023-06-30",
+      "modified": "2024-06-25",
+      "issued": "2023-06-30",
+      "available": "2023-06-30",
+      "submitted_page": "2023-03-30",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+        "pdf_value": null,
+        "chosen_value": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-03-30",
+        "pdf_value": null,
+        "chosen_value": "2023-03-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6384/5543",
+      "local_relative_path": "2785-7050_6384.pdf",
+      "saved": true,
+      "sha256": "25656f14514d958fbf06ce4f2e843b4881960b9a9f894f98532410cc2e406f71",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1929976,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Lucia Paciaroni"
+      ],
+      "citation_author_institution": [
+        "Assistant Professor | Department of Education, Cultural Heritage and Tourism | University of Macerata"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2023/06/30"
+      ],
+      "citation_volume": [
+        "2"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2023-06"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6384"
+      ],
+      "citation_keywords": [
+        "scienze dell'educazione;",
+        "letteratura per l'infanzia",
+        "XXI secolo",
+        "albi illustrati",
+        "lettura ad alta voce",
+        "Libri illustrati"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/6384/5543"
+      ],
+      "citation_reference_count": 24,
+      "DC.Date.created": [
+        "2023-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2023-03-30"
+      ],
+      "DC.Date.issued": [
+        "2023-06-30"
+      ],
+      "DC.Date.modified": [
+        "2024-06-25"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "6384"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2023-06"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/6384"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "2"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 6,
+      "DC.Title": [
+        "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti"
+      ],
+      "DC.Title.Alternative": [
+        "The The promotion of reading aloud: tools for innovation in university didactics and for the training of educators and teachers"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Lucia Paciaroni"
+      ],
+      "citation_author_institution": [
+        "Assistant Professor | Department of Education, Cultural Heritage and Tourism | University of Macerata"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Lucia Paciaroni"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "On the occasion of the course of Children’s Literature of the curriculum “Educator of educational services for children” of Macerata’s University (Course of Science in Education and Training Sciences of the Department of Education, Cultural Heritage and Tourism), students attended in a &nbsp;series of seminars with representatives of the school world, pedagogists, booksellers, project leaders for promoting reading from early childhood and they have had the opportunity to experiment with some reading techniques aloud in the age group 0-3 years. The article aims to present results of this experience – proposed from the academic year 2020/2021 – dedicated to the knowledge of local experiences and national projects focused on children’s literature and reading aloud. The meetings were useful to highlight the benefits of reading aloud from early childhood in terms of cognitive, linguistic, emotional and relational development, characteristics widely demonstrated by scientific research in recent years. The students then had the opportunity to share their impressions and reflections and put into practice what they learned during their internship experience and their final thesis work. It is intended, therefore, to demonstrate the importance of these formative meetings in contexts such as the university, in which future educators and teachers are being trained, which, in this way, not only deepen the theme of children’s literature, but they can become aware of the powerful practice, that of reading aloud, which they can use in the classroom through a valuable tool like the book.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "On the occasion of the course of Children’s Literature of the curriculum “Educator of educational services for children” of Macerata’s University (Course of Science in Education and Training Sciences of the Department of Education, Cultural Heritage and Tourism), students attended in a &nbsp;series of seminars with representatives of the school world, pedagogists, booksellers, project leaders for promoting reading from early childhood and they have had the opportunity to experiment with some reading techniques aloud in the age group 0-3 years. The article aims to present results of this experience – proposed from the academic year 2020/2021 – dedicated to the knowledge of local experiences and national projects focused on children’s literature and reading aloud. The meetings were useful to highlight the benefits of reading aloud from early childhood in terms of cognitive, linguistic, emotional and relational development, characteristics widely demonstrated by scientific research in recent years. The students then had the opportunity to share their impressions and reflections and put into practice what they learned during their internship experience and their final thesis work. It is intended, therefore, to demonstrate the importance of these formative meetings in contexts such as the university, in which future educators and teachers are being trained, which, in this way, not only deepen the theme of children’s literature, but they can become aware of the powerful practice, that of reading aloud, which they can use in the classroom through a valuable tool like the book."
+          }
+        },
+        {
+          "content": "In occasione del corso di Letteratura per l’infanzia del curriculum “Educatore dei servizi educativi per l’infanzia” dell’Università di Macerata (Corso di Laurea in Scienze dell’Educazione e della Formazione del Dipartimento di Scienze della Formazione, dei Beni Culturali e del Turismo), gli studenti hanno partecipato a una serie di seminari con rappresentanti del mondo scolastico, pedagogisti, librai, responsabili di progetti per la promozione della lettura fin dalla prima infanzia e hanno avuto l’opportunità di sperimentare alcune tecniche di lettura ad alta voce nella fascia d’età 0-3 anni. L’articolo si propone di presentare i risultati di questa esperienza – proposta dall’anno accademico 2020/2021 – dedicata alla conoscenza delle esperienze locali e dei progetti nazionali focalizzati sulla letteratura per l’infanzia e sulla lettura ad alta voce. Gli incontri sono stati utili per evidenziare i benefici della lettura ad alta voce fin dalla prima infanzia in termini di sviluppo cognitivo, linguistico, emotivo e relazionale, caratteristiche ampiamente dimostrate dalla ricerca scientifica negli ultimi anni. Gli studenti hanno poi avuto l’opportunità di condividere le loro impressioni e riflessioni e mettere in pratica ciò che hanno appreso durante l’esperienza di tirocinio e il lavoro di tesi finale. Si intende, quindi, dimostrare l’importanza di questi incontri formativi in contesti come l’università, in cui vengono formati i futuri educatori e insegnanti, che in questo modo non solo approfondiscono il tema della letteratura per l’infanzia, ma possono diventare consapevoli della potente pratica della lettura ad alta voce, che possono utilizzare in classe attraverso un prezioso strumento come il libro.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "In occasione del corso di Letteratura per l’infanzia del curriculum “Educatore dei servizi educativi per l’infanzia” dell’Università di Macerata (Corso di Laurea in Scienze dell’Educazione e della Formazione del Dipartimento di Scienze della Formazione, dei Beni Culturali e del Turismo), gli studenti hanno partecipato a una serie di seminari con rappresentanti del mondo scolastico, pedagogisti, librai, responsabili di progetti per la promozione della lettura fin dalla prima infanzia e hanno avuto l’opportunità di sperimentare alcune tecniche di lettura ad alta voce nella fascia d’età 0-3 anni. L’articolo si propone di presentare i risultati di questa esperienza – proposta dall’anno accademico 2020/2021 – dedicata alla conoscenza delle esperienze locali e dei progetti nazionali focalizzati sulla letteratura per l’infanzia e sulla lettura ad alta voce. Gli incontri sono stati utili per evidenziare i benefici della lettura ad alta voce fin dalla prima infanzia in termini di sviluppo cognitivo, linguistico, emotivo e relazionale, caratteristiche ampiamente dimostrate dalla ricerca scientifica negli ultimi anni. Gli studenti hanno poi avuto l’opportunità di condividere le loro impressioni e riflessioni e mettere in pratica ciò che hanno appreso durante l’esperienza di tirocinio e il lavoro di tesi finale. Si intende, quindi, dimostrare l’importanza di questi incontri formativi in contesti come l’università, in cui vengono formati i futuri educatori e insegnanti, che in questo modo non solo approfondiscono il tema della letteratura per l’infanzia, ma possono diventare consapevoli della potente pratica della lettura ad alta voce, che possono utilizzare in classe attraverso un prezioso strumento come il libro."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "scienze dell'educazione;",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "scienze dell'educazione;"
+          }
+        },
+        {
+          "content": "letteratura per l'infanzia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "letteratura per l'infanzia"
+          }
+        },
+        {
+          "content": "XXI secolo",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "XXI secolo"
+          }
+        },
+        {
+          "content": "albi illustrati",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "albi illustrati"
+          }
+        },
+        {
+          "content": "lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce"
+          }
+        },
+        {
+          "content": "Libri illustrati",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Libri illustrati"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6384/5543",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6384/5543",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/6384/5543",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2023-07-04",
+        "mod_date": "2023-07-04"
+      },
+      "front_text_excerpt": "ABSTRACT On the occasion of the course of Children’s Literature of the curriculum “Educator of educational services for children” of Macerata’s University (Course of Science in Education and T raining Sciences of the Department of Education, Cultural Heritage and T ourism), students attended in a series of seminars with representatives of the school world, pedagogists, booksellers, project leaders for pro - moting reading from early childhood and they have had the opportunity to experiment with some reading techniques aloud in the age group 0-3 years. The article aims to present results of this experi- ence – proposed from the academic year 2020/2021 – dedicated to the knowledge of local experiences and national projects focused on children’s literature and reading aloud. The meetings were useful to highlight the benefits of reading aloud from early childhood in terms of cognitive, linguistic, emo - tional and relational development, characteristics widely demonstrated by scientific research in recent years. The students then had the opportunity to share their impressions and reflections and put into practice what they learned during their internship experience and their final thesis work. It is intended, therefore, to demonstrate the importance of these formative meetings in contexts such as the univer- sity, in which future educators and teachers are being trained, which, in this way, not only deepen the theme of children’s literature, but they can become aware of the powerful practice, that of reading aloud, which they can use in the classroom through a valuable tool like the book. Keywords: Children’s Literature, Reading Aloud, Education Sciences, Picturebooks; XXI century Citation: Paciaroni, L. (2023). The promotion of reading aloud: tools for innovation in university didactics and for the training of edu- cators and teachers. Effetti di Lettura / Effects of Reading, 2(1), 64-75. https://doi.org/10.7347/EdL-01-2023-06. Corresponding Author: Lucia Paciaroni | l.paciaroni2@unimc.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-06 Lucia Paciaroni Assistant Professor | Department of Education, Cultural Heritage and T ourism | University of Macerata | l.paciaroni2@unimc.it Double blind peer review The promotion of reading aloud: tools for innovation in university didactics and for the training of educators and teachers La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\6384\\2785-7050_6384.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2023,
+      "raw_dc_rights": [
+        "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+        "pdf_value": null,
+        "chosen_value": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2023-03-30",
+        "pdf_value": null,
+        "chosen_value": "2023-03-30",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2023",
+        "pdf_value": null,
+        "chosen_value": "2023",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2023 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6384",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6384",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:46:28Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:46:29Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6384",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6384",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F6384",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/6384",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 6
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6384\\2785-7050_6384.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:46:31Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6384\\2785-7050_6384.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+        "submitted_date": "2023-03-30",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2023",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Lucia Paciaroni"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\6384\\2785-7050_6384.pdf",
+        "generated_at_utc": "2026-04-27T18:46:31Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2023-07-04",
+          "mod_date": "2023-07-04"
+        },
+        "front_text_excerpt": "ABSTRACT On the occasion of the course of Children’s Literature of the curriculum “Educator of educational services for children” of Macerata’s University (Course of Science in Education and T raining Sciences of the Department of Education, Cultural Heritage and T ourism), students attended in a series of seminars with representatives of the school world, pedagogists, booksellers, project leaders for pro - moting reading from early childhood and they have had the opportunity to experiment with some reading techniques aloud in the age group 0-3 years. The article aims to present results of this experi- ence – proposed from the academic year 2020/2021 – dedicated to the knowledge of local experiences and national projects focused on children’s literature and reading aloud. The meetings were useful to highlight the benefits of reading aloud from early childhood in terms of cognitive, linguistic, emo - tional and relational development, characteristics widely demonstrated by scientific research in recent years. The students then had the opportunity to share their impressions and reflections and put into practice what they learned during their internship experience and their final thesis work. It is intended, therefore, to demonstrate the importance of these formative meetings in contexts such as the univer- sity, in which future educators and teachers are being trained, which, in this way, not only deepen the theme of children’s literature, but they can become aware of the powerful practice, that of reading aloud, which they can use in the classroom through a valuable tool like the book. Keywords: Children’s Literature, Reading Aloud, Education Sciences, Picturebooks; XXI century Citation: Paciaroni, L. (2023). The promotion of reading aloud: tools for innovation in university didactics and for the training of edu- cators and teachers. Effetti di Lettura / Effects of Reading, 2(1), 64-75. https://doi.org/10.7347/EdL-01-2023-06. Corresponding Author: Lucia Paciaroni | l.paciaroni2@unimc.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2023-06 Lucia Paciaroni Assistant Professor | Department of Education, Cultural Heritage and T ourism | University of Macerata | l.paciaroni2@unimc.it Double blind peer review The promotion of reading aloud: tools for innovation in university didactics and for the training of educators and teachers La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti Volume 2 | n. 1 | giugno 2023 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "Sani, 2017, p. 7). Una parte del corso – curata da Juri Meda nell’anno accademico 2020/2021 – è riservata al tema della fiaba tra oralità e scrittura, quindi alle fiabe tradizionali narrate ad alta voce spesso durante le veglie invernali in stalla e alla loro successiva trascrizione e trasposizione letteraria, alla dimensione storica della pratica della recitazione mnemonica e della narrazione orale nelle culture subalterne, alla lettura ad alta voce delle fiabe e alla pratica delle cosiddette “storie della buonanotte”, per presentare, infine, le fiabe sonore e le audio storie, partendo dalle prime raccolte fonografiche della Durium degli anni T renta per ar- rivare alle fiabe sonore della Fratelli Fabbri (Meda, 2021). Il corso permette poi agli studenti e alle studentesse di confrontarsi con i diversi generi letterari e le varie tipologie di libri per l’infanzia, con particolare attenzione a quelli rivolti alla fascia d’età 0-6. Nella scelta dei libri da proporre ai più piccoli, in base all’età, ci sono criteri e requisiti di cui tener conto, ma si dovrà anche considerare l’apprezzamento e la comprensione del testo da parte del bambino o della bambina. Infatti, “ognuno matura tali capacità in base allo sviluppo fisico e intellettivo e, soprattutto, grazie a quanti e quali libri gli sono stati letti” (Dal Gobbo, 2019, p. 5). Negli ultimi anni si registra un grande interesse nei confronti degli albi illustrati. Non solo sono oggetto di ricerche da parte degli studiosi, ma ad essi è dedicato uno spazio sempre maggiore all’interno delle librerie e delle biblioteche nelle sezioni dedicate ai giovani, così come negli asili nido, nella scuola dell’in- fanzia ma anche nella scuola primaria, in cui viene spesso utilizzato dagli insegnanti come strumento per trattare tematiche specifiche (per esempio, dal tema dell’amicizia a quello della Shoah). Riprendendo la definizione di Marcella T errusi, “l’albo illustrato è un dispositivo dotato di sue specifiche caratteristiche morfologiche e funzionali, dove confluiscono i linguaggi della scrittura e dell’illustrazione, competenze progettuali, metafore e visioni del mondo, energie che insieme concorrono alla produzione di un oggetto fisico” (T errusi, 2020, p. 94). Si tratta, infatti, di un libro caratterizzato dal rapporto dialettico fra parole e immagini, dove l’una non prevale sull’altra, ma entrambi questi elementi permettono al lettore e a chi ascolta (e osserva) di condividere una lettura piacevole e coinvolgente, di perdersi nel meraviglioso gioco dell’interpretazione delle illustrazioni e nella ricerca dei dettagli. Il panorama italiano dei libri con figure per bambini ha vissuto un momento di vero e proprio rinno- vamento tra gli anni Sessanta e Settanta (Hamelin, 2012; Sola & Vassalli, 2014; T errusi, 2017, 2020). In questo periodo, infatti, si affacciano sul mercato nuove proposte che segnano un importante cambiamento editoriale. Irrompono sulla scena immagini e contenuti inediti come quelli proposti dalla Emme Edizioni di Rosellina Archinto, che nel 1966 decide di fondare una casa editrice che lei definisce dai «segni nuovi» e con «storie stravaganti», ma sono anche gli anni della nascita della casa editrice Dalla parte delle bambine, de La Coccinella di Loredana Farina e di altre coraggiose imprese, impegnate nel difendere un’idea di edi- toria di ricerca e di qualità (Farina, 2013). T ra le prime uscite della Emme Edizioni, si ricordano Piccolo blu e piccolo giallo di Leo Lionni (1999) e Nel paese dei mostri selvaggi di Maurice Sendak (1969), albi che hanno inizialmente suscitato critiche e perplessità ma che hanno poi conquistato i lettori. Negli ultimi anni la proposta editoriale italiana – ma non solo – di albi illustrati è cresciuta. Sono numerose le case edi- trici che si sono specializzate nella pubblicazione di tali libri: si tratta, infatti, “di una delle porzioni più ri- levanti […] per numero di novità e movimento di mercato” (T errusi, 2020, p. 42). 2. Gli studenti e ",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2023-03-30",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023-03-30",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2023",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2023",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\6384\\2785-7050_6384.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La promozione della lettura ad alta voce: strumenti per l’innovazione della didattica universitaria e per la formazione degli educatori e degli insegnanti",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "The The promotion of reading aloud: tools for innovation in university didactics and for the training of educators and teachers",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "The The promotion of reading aloud: tools for innovation in university didactics and for the training of educators and teachers",
+            "dropped_source": "locale:it_IT:meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "On the occasion of the course of Children’s Literature of the curriculum “Educator of educational services for children” of Macerata’s University (Course of Sci",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "In occasione del corso di Letteratura per l’infanzia del curriculum “Educatore dei servizi educativi per l’infanzia” dell’Università di Macerata (Corso di Laure",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

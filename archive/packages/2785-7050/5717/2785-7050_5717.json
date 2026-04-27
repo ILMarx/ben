@@ -1,0 +1,972 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5717",
+  "scraped_at_utc": "2026-04-27T18:45:00Z",
+  "fetched_at_utc": "2026-04-27T18:45:00Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "58edfc3cdf09df7fe54c1a28057fece1f20556bb52bc3fd7977850a02c8f5e5a",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Chiara Bertolini",
+        "nameType": "Personal",
+        "givenName": "Chiara",
+        "familyName": "Bertolini",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Professor (Associate) Didactics and Special Education |University of Modena and Reggio Emilia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Giulia Toti",
+        "nameType": "Personal",
+        "givenName": "Giulia",
+        "familyName": "Toti",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research fellow | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Benedetta D'Autilia",
+        "nameType": "Personal",
+        "givenName": "Benedetta",
+        "familyName": "D'Autilia",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Research fellow | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5717",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2022-06-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2022-06-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2022-06-30",
+      "Issued": "2022-06-30"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "There are numerous studies in the literature documenting the effectiveness of reading aloud in the cognitive, linguistic and emotional development of children from a very early age. Reading in fact emerges as a fundamental tool for the development of literacy, comprehension skills, reading and wri-ting, competences that are of extreme relevance within the individual school career. The mediation of reading aloud also enables young children to approach stories at an early age, thus training their comprehension skills, accessing texts at a higher linguistic level than those they could access through independent reading, and being able to listen to texts that are more interesting and engaging for them. For these and many other aspects, the practice of reading aloud is at the centre of current studies, as it represents a fundamental intervention in the promotion of an individual's overall educational success, and for this reason, school contexts are configured as fundamental learning environments for all. Ho-wever, as much as reading aloud plays a relevant role in the development of the aforementioned compe-tences, less evident is the 'how' to achieve these results, in which way this practice can best be applied. This work stems from these considerations and pursues the objective of identifying the attentions held and actions carried out by teachers during reading aloud. Starting from the data acquired in the logbooks and the categorised evidence from 22 semi-structured interviews, in which the experiences related to the practice of reading aloud by primary and secondary school teachers were collected, the aim is to understand the aspects that make the practice of reading aloud of better quality.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "In letteratura ci sono numerosi studi che documentano l’efficacia della lettura ad alta voce sullo sviluppo cognitivo, linguistico ed emotivo dei bambini fin dalla più tenera età. La lettura emerge infatti come uno strumento fondamentale per lo sviluppo della capacità di lettura, delle competenze di comprensione, di lettura e scrittura, competenze di estrema rilevanza nel percorso scolastico individuale. La mediazione della lettura ad alta voce consente, inoltre, ai bambini di avvicinarsi alle storie sin da giovani, allenando così le loro capacità di comprensione, accedendo a testi di un livello linguistico superiore rispetto a quelli che potrebbero affrontare tramite la lettura indipendente e potendo ascoltare testi più interessanti e coinvolgenti per loro. Per questi e molti altri aspetti, la pratica della lettura ad alta voce è al centro degli studi attuali, rappresentando un intervento fondamentale nella promozione del successo educativo complessivo di un individuo. Per questo motivo, i contesti scolastici sono configurati come ambienti di apprendimento fondamentali per tutti. Tuttavia, sebbene la lettura ad alta voce giochi un ruolo rilevante nello sviluppo delle competenze sopra menzionate, meno evidente è il “come” ottenere questi risultati, cioè in che modo questa pratica può essere applicata nel modo migliore. Questo lavoro nasce da queste considerazioni e ha l’obiettivo di identificare le attenzioni e le azioni svolte dagli insegnanti durante la lettura ad alta voce. Partendo dai dati acquisiti nei diari di bordo e dalle evidenze categorizzate di 22 interviste semistrutturate, in cui sono state raccolte le esperienze legate alla pratica della lettura ad alta voce da parte degli insegnanti delle scuole primarie e secondarie, si mira a comprendere gli aspetti che rendono la pratica della lettura ad alta voce di qualità.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2022-04",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "1",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Reading aloud",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Literacy teaching",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Literacy practices",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Reading intervention",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "School",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by-nc/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Effetti di lettura / Effects of reading",
+      "holder_source": "page",
+      "year": 2022,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5717/4912",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "1",
+      "citationIssue": "1",
+      "citationStartPage": "035",
+      "citationEndPage": "054",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Bertolini, C., Toti, G., & D'Autilia , B. (2022). Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti . Effetti Di Lettura / Effects of Reading , 1 (1), 035–054. https://doi.org/10.7347/EdL-01-2022-04",
+      "articleTitleEcho": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti"
+    },
+    "audience": null,
+    "references": {
+      "items": [],
+      "count": 0,
+      "source": null
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_5717",
+    "article_ID": "5717",
+    "slug": "5717",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "5717",
+      "url_slug": "5717"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "What makes reading aloud a quality practice? The testimony of excellent teachers",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2022-07-11",
+      "accepted": null,
+      "created": "2022-06-30",
+      "modified": "2025-01-27",
+      "issued": "2022-06-30",
+      "available": "2022-06-30",
+      "submitted_page": "2022-07-11",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+        "pdf_value": null,
+        "chosen_value": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5717/4912",
+      "local_relative_path": "2785-7050_5717.pdf",
+      "saved": true,
+      "sha256": "abb8bf476806e350258cafdfd979030d8e3dbd0775ab619de81a26d8f55f62cd",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 32962531,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Chiara Bertolini",
+        "Giulia Toti",
+        "Benedetta D'Autilia"
+      ],
+      "citation_author_institution": [
+        "Professor (Associate) Didactics and Special Education |University of Modena and Reggio Emilia",
+        "Research fellow | University of Perugia",
+        "Research fellow | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2022/06/30"
+      ],
+      "citation_volume": [
+        "1"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2022-04"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5717"
+      ],
+      "citation_keywords": [
+        "Reading aloud",
+        "Literacy teaching",
+        "Literacy practices",
+        "Reading intervention",
+        "School"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/5717/4912"
+      ],
+      "citation_reference_count": 0,
+      "DC.Date.created": [
+        "2022-06-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2022-07-11"
+      ],
+      "DC.Date.issued": [
+        "2022-06-30"
+      ],
+      "DC.Date.modified": [
+        "2025-01-27"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "5717"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2022-04"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/5717"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "1"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti"
+      ],
+      "DC.Title.Alternative": [
+        "What makes reading aloud a quality practice? The testimony of excellent teachers"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Chiara Bertolini",
+        "Giulia Toti",
+        "Benedetta D'Autilia"
+      ],
+      "citation_author_institution": [
+        "Professor (Associate) Didactics and Special Education |University of Modena and Reggio Emilia",
+        "Research fellow | University of Perugia",
+        "Research fellow | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Chiara Bertolini",
+        "Giulia Toti",
+        "Benedetta D'Autilia"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "There are numerous studies in the literature documenting the effectiveness of reading aloud in the cognitive, linguistic and emotional development of children from a very early age. Reading in fact emerges as a fundamental tool for the development of literacy, comprehension skills, reading and wri-ting, competences that are of extreme relevance within the individual school career. The mediation of reading aloud also enables young children to approach stories at an early age, thus training their comprehension skills, accessing texts at a higher linguistic level than those they could access through independent reading, and being able to listen to texts that are more interesting and engaging for them. For these and many other aspects, the practice of reading aloud is at the centre of current studies, as it represents a fundamental intervention in the promotion of an individual's overall educational success, and for this reason, school contexts are configured as fundamental learning environments for all. Ho-wever, as much as reading aloud plays a relevant role in the development of the aforementioned compe-tences, less evident is the 'how' to achieve these results, in which way this practice can best be applied. This work stems from these considerations and pursues the objective of identifying the attentions held and actions carried out by teachers during reading aloud. Starting from the data acquired in the logbooks and the categorised evidence from 22 semi-structured interviews, in which the experiences related to the practice of reading aloud by primary and secondary school teachers were collected, the aim is to understand the aspects that make the practice of reading aloud of better quality.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "There are numerous studies in the literature documenting the effectiveness of reading aloud in the cognitive, linguistic and emotional development of children from a very early age. Reading in fact emerges as a fundamental tool for the development of literacy, comprehension skills, reading and wri-ting, competences that are of extreme relevance within the individual school career. The mediation of reading aloud also enables young children to approach stories at an early age, thus training their comprehension skills, accessing texts at a higher linguistic level than those they could access through independent reading, and being able to listen to texts that are more interesting and engaging for them. For these and many other aspects, the practice of reading aloud is at the centre of current studies, as it represents a fundamental intervention in the promotion of an individual's overall educational success, and for this reason, school contexts are configured as fundamental learning environments for all. Ho-wever, as much as reading aloud plays a relevant role in the development of the aforementioned compe-tences, less evident is the 'how' to achieve these results, in which way this practice can best be applied. This work stems from these considerations and pursues the objective of identifying the attentions held and actions carried out by teachers during reading aloud. Starting from the data acquired in the logbooks and the categorised evidence from 22 semi-structured interviews, in which the experiences related to the practice of reading aloud by primary and secondary school teachers were collected, the aim is to understand the aspects that make the practice of reading aloud of better quality."
+          }
+        },
+        {
+          "content": "In letteratura ci sono numerosi studi che documentano l’efficacia della lettura ad alta voce sullo sviluppo cognitivo, linguistico ed emotivo dei bambini fin dalla più tenera età. La lettura emerge infatti come uno strumento fondamentale per lo sviluppo della capacità di lettura, delle competenze di comprensione, di lettura e scrittura, competenze di estrema rilevanza nel percorso scolastico individuale. La mediazione della lettura ad alta voce consente, inoltre, ai bambini di avvicinarsi alle storie sin da giovani, allenando così le loro capacità di comprensione, accedendo a testi di un livello linguistico superiore rispetto a quelli che potrebbero affrontare tramite la lettura indipendente e potendo ascoltare testi più interessanti e coinvolgenti per loro. Per questi e molti altri aspetti, la pratica della lettura ad alta voce è al centro degli studi attuali, rappresentando un intervento fondamentale nella promozione del successo educativo complessivo di un individuo. Per questo motivo, i contesti scolastici sono configurati come ambienti di apprendimento fondamentali per tutti. Tuttavia, sebbene la lettura ad alta voce giochi un ruolo rilevante nello sviluppo delle competenze sopra menzionate, meno evidente è il “come” ottenere questi risultati, cioè in che modo questa pratica può essere applicata nel modo migliore. Questo lavoro nasce da queste considerazioni e ha l’obiettivo di identificare le attenzioni e le azioni svolte dagli insegnanti durante la lettura ad alta voce. Partendo dai dati acquisiti nei diari di bordo e dalle evidenze categorizzate di 22 interviste semistrutturate, in cui sono state raccolte le esperienze legate alla pratica della lettura ad alta voce da parte degli insegnanti delle scuole primarie e secondarie, si mira a comprendere gli aspetti che rendono la pratica della lettura ad alta voce di qualità.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "In letteratura ci sono numerosi studi che documentano l’efficacia della lettura ad alta voce sullo sviluppo cognitivo, linguistico ed emotivo dei bambini fin dalla più tenera età. La lettura emerge infatti come uno strumento fondamentale per lo sviluppo della capacità di lettura, delle competenze di comprensione, di lettura e scrittura, competenze di estrema rilevanza nel percorso scolastico individuale. La mediazione della lettura ad alta voce consente, inoltre, ai bambini di avvicinarsi alle storie sin da giovani, allenando così le loro capacità di comprensione, accedendo a testi di un livello linguistico superiore rispetto a quelli che potrebbero affrontare tramite la lettura indipendente e potendo ascoltare testi più interessanti e coinvolgenti per loro. Per questi e molti altri aspetti, la pratica della lettura ad alta voce è al centro degli studi attuali, rappresentando un intervento fondamentale nella promozione del successo educativo complessivo di un individuo. Per questo motivo, i contesti scolastici sono configurati come ambienti di apprendimento fondamentali per tutti. Tuttavia, sebbene la lettura ad alta voce giochi un ruolo rilevante nello sviluppo delle competenze sopra menzionate, meno evidente è il “come” ottenere questi risultati, cioè in che modo questa pratica può essere applicata nel modo migliore. Questo lavoro nasce da queste considerazioni e ha l’obiettivo di identificare le attenzioni e le azioni svolte dagli insegnanti durante la lettura ad alta voce. Partendo dai dati acquisiti nei diari di bordo e dalle evidenze categorizzate di 22 interviste semistrutturate, in cui sono state raccolte le esperienze legate alla pratica della lettura ad alta voce da parte degli insegnanti delle scuole primarie e secondarie, si mira a comprendere gli aspetti che rendono la pratica della lettura ad alta voce di qualità."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Reading aloud",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Reading aloud"
+          }
+        },
+        {
+          "content": "Literacy teaching",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Literacy teaching"
+          }
+        },
+        {
+          "content": "Literacy practices",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Literacy practices"
+          }
+        },
+        {
+          "content": "Reading intervention",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Reading intervention"
+          }
+        },
+        {
+          "content": "School",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "School"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5717/4912",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5717/4912",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/5717/4912",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 16.32",
+        "producer": "QuarkXPress(R) 16.32",
+        "keywords": null,
+        "creation_date": "2022-07-20",
+        "mod_date": "2022-07-20"
+      },
+      "front_text_excerpt": "ABSTRACT There are numerous studies in the literature documenting the effectiveness of reading aloud in the cognitive, linguistic and emotional development of children from a very early age. Reading in fact emerges as a fundamental tool for the development of literacy, comprehension skills, reading and wri- ting, competences that are of extreme relevance within the individual school career. The mediation of reading aloud also enables young children to approach stories at an early age, thus training their comprehension skills, accessing texts at a higher linguistic level than those they could access through independent reading, and being able to listen to texts that are more interesting and engaging for them. For these and many other aspects, the practice of reading aloud is at the centre of current studies, as it represents a fundamental intervention in the promotion of an individual's overall educational success, and for this reason, school contexts are configured as fundamental learning environments for all. Ho- wever, as much as reading aloud plays a relevant role in the development of the aforementioned compe- tences, less evident is the 'how' to achieve these results, in which way this practice can best be applied. This work stems from these considerations and pursues the objective of identifying the attentions held and actions carried out by teachers during reading aloud. Starting from the data acquired in the logbooks and the categorised evidence from 22 semi-structured interviews, in which the experiences related to the practice of reading aloud by primary and secondary school teachers were collected, the aim is to understand the aspects that make the practice of reading aloud of better quality. Keywords: Reading aloud, Literacy teaching, Literacy practices, Reading intervention, School Citation: Bertolini, C., T oti, G., & D’Autilia, B. (2022). What makes reading aloud a quality practice? The testimony of excellent teachers. Effetti di Lettura / Effects of Reading, 1(1), 35–54. https://doi.org/10.7347/EdL-01-2022-04. Corresponding Author: Chiara Bertolini | chiara.bertolini@unimore.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-04 Chiara Bertolini Professor (Associate) Didactics and Special Education |University of Modena and Reggio Emilia |chiara.bertolini@unimore.it Giulia Toti Research fellow | University of Perugia | giuliatotiunipg@gmail.com Benedetta D’Autilia Research fellow | University of Perugia | bene.dauti@gmail.com * Questo articolo è il risultato del lavoro congiunto degli autori. I §§ 1, 1.2 sono attribuibili a C. Bertolini; §§ 2;3;4;4.1;4.2 sono attribuibili a B. D’Autilia; §§ 4; 4.3; 5; 5.1; 5.2 sono attribuibili a G. T oti; il § 6 è attribuibile congiuntamente a B. D’Autilia e G. T oti. L'intera stesura dell'articolo, il processo me- todologico e l'analisi dei dati sono stati svolti sotto la supervisione di C. Bertolini. Double blind peer review Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti What makes reading aloud a quality practice? The testimony of excellent teachers Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\5717\\2785-7050_5717.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Effetti di lettura / Effects of reading",
+      "copyright_year_page": 2022,
+      "raw_dc_rights": [
+        "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+        "https://creativecommons.org/licenses/by-nc/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+        "pdf_value": null,
+        "chosen_value": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2022-07-11",
+        "pdf_value": null,
+        "chosen_value": "2022-07-11",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Effetti di lettura / Effects of reading",
+        "pdf_value": null,
+        "chosen_value": "Effetti di lettura / Effects of reading",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2022",
+        "pdf_value": null,
+        "chosen_value": "2022",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2022 Effetti di lettura / Effects of reading",
+      "https://creativecommons.org/licenses/by-nc/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5717",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5717",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:45:00Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:45:02Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5717",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5717",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F5717",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/5717",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5717\\2785-7050_5717.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:45:10Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5717\\2785-7050_5717.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+        "submitted_date": "2022-07-11",
+        "accepted_date": null,
+        "copyright_holder": "Effetti di lettura / Effects of reading",
+        "copyright_year": "2022",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Chiara Bertolini",
+          "Giulia Toti",
+          "Benedetta D'Autilia"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\5717\\2785-7050_5717.pdf",
+        "generated_at_utc": "2026-04-27T18:45:10Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 16.32",
+          "producer": "QuarkXPress(R) 16.32",
+          "keywords": null,
+          "creation_date": "2022-07-20",
+          "mod_date": "2022-07-20"
+        },
+        "front_text_excerpt": "ABSTRACT There are numerous studies in the literature documenting the effectiveness of reading aloud in the cognitive, linguistic and emotional development of children from a very early age. Reading in fact emerges as a fundamental tool for the development of literacy, comprehension skills, reading and wri- ting, competences that are of extreme relevance within the individual school career. The mediation of reading aloud also enables young children to approach stories at an early age, thus training their comprehension skills, accessing texts at a higher linguistic level than those they could access through independent reading, and being able to listen to texts that are more interesting and engaging for them. For these and many other aspects, the practice of reading aloud is at the centre of current studies, as it represents a fundamental intervention in the promotion of an individual's overall educational success, and for this reason, school contexts are configured as fundamental learning environments for all. Ho- wever, as much as reading aloud plays a relevant role in the development of the aforementioned compe- tences, less evident is the 'how' to achieve these results, in which way this practice can best be applied. This work stems from these considerations and pursues the objective of identifying the attentions held and actions carried out by teachers during reading aloud. Starting from the data acquired in the logbooks and the categorised evidence from 22 semi-structured interviews, in which the experiences related to the practice of reading aloud by primary and secondary school teachers were collected, the aim is to understand the aspects that make the practice of reading aloud of better quality. Keywords: Reading aloud, Literacy teaching, Literacy practices, Reading intervention, School Citation: Bertolini, C., T oti, G., & D’Autilia, B. (2022). What makes reading aloud a quality practice? The testimony of excellent teachers. Effetti di Lettura / Effects of Reading, 1(1), 35–54. https://doi.org/10.7347/EdL-01-2022-04. Corresponding Author: Chiara Bertolini | chiara.bertolini@unimore.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2022-04 Chiara Bertolini Professor (Associate) Didactics and Special Education |University of Modena and Reggio Emilia |chiara.bertolini@unimore.it Giulia Toti Research fellow | University of Perugia | giuliatotiunipg@gmail.com Benedetta D’Autilia Research fellow | University of Perugia | bene.dauti@gmail.com * Questo articolo è il risultato del lavoro congiunto degli autori. I §§ 1, 1.2 sono attribuibili a C. Bertolini; §§ 2;3;4;4.1;4.2 sono attribuibili a B. D’Autilia; §§ 4; 4.3; 5; 5.1; 5.2 sono attribuibili a G. T oti; il § 6 è attribuibile congiuntamente a B. D’Autilia e G. T oti. L'intera stesura dell'articolo, il processo me- todologico e l'analisi dei dati sono stati svolti sotto la supervisione di C. Bertolini. Double blind peer review Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti What makes reading aloud a quality practice? The testimony of excellent teachers Volume 1 | n. 1 | giugno 2022 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "mettono in relazione la lettura ad alta voce con lo sviluppo delle conoscenze e abilità necessarie al successo scolastico. Le pratiche di lettura condivisa, infatti, sono ampiamente raccomandate per promuovere il lin- guaggio e altre abilità denominate di emergent literacy (Farrant & Zubrick, 2013; Lonigan & Shanahan, 2009), ovvero lo sviluppo di quelle competenze che saranno necessarie per imparare a leggere all’inizio della scuola primaria. Da ulteriori studi emerge che i bambini abituati ad ascoltare letture di solito scrivono bene e ottengono risultati migliori anche in altre aree (Al-Mansour & Al-Shorman, 2011). La lettura infatti promuove e supporta lo sviluppo di processi inferenziali, logico-causali e critici e favorisce la costruzione di immagini mentali (Freschi, 2018). Inoltre le abilità legate alla comprensione narrativa sviluppate in età precoce facilitano l’attivazione di quei circuiti neurali che controllano le funzioni esecutive come la piani- ficazione, il controllo dell’attenzione, il monitoraggio dell’esecuzione, la flessibilità nella scelta delle stra- tegie, la memoria di lavoro e la velocità di processamento che, a loro volta, influenzano con forza l’apprendimento della letto-scrittura e, di conseguenza, il futuro successo scolastico (McInnees et al., 2003). L ’esposizione alla lettura risulta decisiva quindi sui primi successi scolastici, mostrandosi in grado di in - fluenzare il percorso scolastico del bambino oltre che la percezione stessa che il bambino avra di sé come studente (Sénéchal, 2015). In quest’ottica i servizi educativi per la prima infanzia e la scuola in generale si configurano come contesti di apprendimento fondamentali per tutti, all’interno dei quali colmare le disparità, attraverso stru- menti e pratiche utili tra le quali risulta rilevante la lettura ad alta voce. T uttavia, per quanto la lettura ad alta voce rivesta un ruolo rilevante nello sviluppo delle competenze citate, meno chiaro appare essere il processo ed il modo attraverso cui la pratica della lettura debba esser portata avanti per permettere tali conquiste e produrre tali benefici (Fisher et al., 2004; Maneka & Frankel, 2018). Da queste considerazioni e dalla rilevanza che il contesto scuola, e di conseguenza l’intero corpo docente, riveste nello sviluppo delle potenzialità cognitive, emotive e relazionali dei ragazzi, nasce lo studio qui pre- sentato. 2. Contesto della ricerca La ricerca si colloca all’interno di Leggere: Forte!, politica educativa della Regione T oscana, realizzata con il coordinamento scientifico e operativo dell’Universita degli Studi di Perugia, Dipartimento FISSUF e con il partenariato, dell’Ufficio Scolastico Regionale della T oscana, del Cepell (Centro di promozione del libro e della lettura), di Indire (Istituto centrale di innovazione, documentazione e ricerca educativa) e con la collaborazione di LaAV (movimento nazionale di volontari per la Lettura ad Alta Voce all’interno del- l’associazione Nausika) (Batini, 2021). L ’obiettivo concreto di questa politica educativa della Regione T oscana è inserire la lettura ad alta voce delle educatrici e degli insegnanti in maniera intensiva, progressiva, quotidiana nel sistema di educazione e istruzione toscano per tutti i nuovi cittadini e le nuove cittadine da 0 a 19 anni. L ’obiettivo operativo ri- sponde a una finalità piu ampia che e quella di offrire a tutti i bambini e ragazzi del territorio regionale la possibilita di raggiungere il successo formativo e contrastare il fenomeno della dispersione scolastica. In questo contesto si collocano le interviste semi-strutturate, oggetto del presente lavoro, svolte a con- clusione dell’anno scolastico 2020/2021, rivolte a docenti ‘eccellenti’ di scuola primaria e secondaria im- pegnati nell’iniziativa Leggere: Forte! della Regione T oscana, con l’obiettivo di individuare le strategie e le tecniche fondamentali per una corretta gestione della pratica della lettura ad alta voce in ambito scolastico (Batini & ",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2022-07-11",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022-07-11",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Effetti di lettura / Effects of reading",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Effetti di lettura / Effects of reading",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2022",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2022",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by-nc/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\5717\\2785-7050_5717.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Cosa rende la lettura ad alta voce una pratica di qualità? La testimonianza di insegnanti eccellenti",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "What makes reading aloud a quality practice? The testimony of excellent teachers",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "What makes reading aloud a quality practice? The testimony of excellent teachers",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "There are numerous studies in the literature documenting the effectiveness of reading aloud in the cognitive, linguistic and emotional development of children f",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "In letteratura ci sono numerosi studi che documentano l’efficacia della lettura ad alta voce sullo sviluppo cognitivo, linguistico ed emotivo dei bambini fin da",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": [
+          {
+            "field": "subjects",
+            "reason": "identical_keyword_set_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "values": [
+              "Reading aloud",
+              "Literacy teaching",
+              "Literacy practices",
+              "Reading intervention",
+              "School"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

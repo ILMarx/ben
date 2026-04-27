@@ -1,0 +1,893 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7596",
+  "scraped_at_utc": "2026-04-27T18:47:54Z",
+  "fetched_at_utc": "2026-04-27T18:47:53Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "6672e8008873004523bbd3d7a168d0dd7b48d87b44655577218ff65465e66c10",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Rosario Salvato",
+        "nameType": "Personal",
+        "givenName": "Rosario",
+        "familyName": "Salvato",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | University of Perugia"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7596",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2024-12-31",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2024-12-31",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2024-12-31",
+      "Issued": "2024-12-31"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "Shared read-aloud is a pedagogical method that fosters interaction with stories, demonstrating its relevance in addressing educational challenges such as school drop-out rates and socio-economic inequalities. Developed to empower individuals, this approach has proven effective in various contexts, from education to social services. Initial experiments focused on elderly populations suffering from dementia, but recent research has expanded its application to secondary education, promoting equity and academic success. This article explores the role of shared read-aloud as a transformative practice for social cohesion and identity-building. The results of the PRIN project \"Aloud!\" highlight the impact of reading in secondary schools, suggesting improvements in cognitive and linguistic skills, particularly among disadvantaged students. Integrating shared read-aloud into social policy supports its role in fostering inclusion and community resilience. Future research should investigate the application of this method in socio-assistance contexts, offering new methodologies for professionals in the field. The growing need for innovative educational strategies in Italy necessitates a shift towards practices that not only enhance educational outcomes but also promote social justice and equity.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La lettura ad alta voce condivisa è un metodo pedagogico che promuove l'interazione con le storie, dimostrando rilevanza nell'affrontare sfide educative come l'abbandono scolastico e le disuguaglianze socioeconomiche. Sviluppato per favorire l'empowerment delle persone, questo approccio ha mostrato efficacia in vari contesti, dall'istruzione ai servizi sociali. Le prime sperimentazioni si sono concentrate su popolazioni di anziani affetti da demenza, ma recenti ricerche ne hanno ampliato l'applicazione all'istruzione secondaria, promuovendo equità e successo scolastico. Questo articolo esplora il ruolo della lettura ad alta voce condivisa come pratica trasformativa per la coesione sociale e la costruzione dell'identità. I risultati del progetto PRIN \"Aloud!\" evidenziano l'impatto della lettura nelle scuole secondarie, suggerendo miglioramenti nelle abilità cognitive e linguistiche, in particolare tra studenti svantaggiati. L'integrazione della lettura ad alta voce nelle politiche sociali sostiene il suo ruolo nella promozione dell'inclusione e della resilienza comunitaria. La ricerca futura dovrebbe indagare l'applicazione di questo metodo in contesti socio-assistenziali, offrendo nuove metodologie per i professionisti del settore. La crescente necessità di strategie educative innovative in Italia richiede un cambiamento verso pratiche che non solo migliorano i risultati educativi, ma promuovono anche giustizia sociale e equità.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2024-03",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "3",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "Read-aloud, Social cohesion, Inclusion, Socioeconomic inequalities, Empowerment",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "Lettura ad alta voce, Coesione sociale, Inclusione, Disuguaglianze socioeconomiche, Empowerment",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Rosario Salvato",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7596/6787",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "3",
+      "citationIssue": "2",
+      "citationStartPage": "030",
+      "citationEndPage": "035",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Salvato, R. (2024). La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive. Effetti Di Lettura / Effects of Reading , 3 (2), 030–035. https://doi.org/10.7347/EdL-02-2024-03",
+      "articleTitleEcho": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "• Alvarez, P., García-Carrión, R., Puigvert, L., Pulido, C., & Schubert, T. (2018). Beyond the Walls: The Social Reintegration of Prisoners Through the Dialogic Reading of Classic Universal Literature in Prison. International Journal of Offender Therapy and Comparative Criminology, 62(4), 1043-1061. https://doi.org/10.1177/0306624X16672864",
+        "• Bartolucci, M., & Batini, F. (2019a). The effect of a narrative intervention program for people living with dementia. Psychology & Neuroscience, 12(2), 307–316. https://doi.org/10.1037/pne0000141",
+        "• Bartolucci, M., & Batini, F. (2019b). Long term narrative training can enhance cognitive performances in patients living with cognitive decline. Educational Gerontology, 45(7), 469–475",
+        "• Batini, F. (2011), Storie, futuro e controllo. Napoli: Liguori.",
+        "• Batini, F. (2018), Leggimi ancora. Lettura ad alta voce e Life Skills. Firenze: Giunti Scuola.",
+        "• Batini F. (2022), Lettura ad alta voce. Ricerche e strumenti per educatori, insegnanti e genitori. Roma: Carocci.",
+        "• Batini, F. (Ed) (2023). La lettura ad alta voce condivisa. Un metodo in direzione dell’equità. Bologna: il Mulino.",
+        "• Batini, F., & Corsini, C. (2024). Prevenire la dispersione scolastica con la lettura ad alta voce condivisa nelle scuole secondarie di primo grado. In Cadmo, 1/2024, p",
+        "• Batini, F., Barbisoni, G., & Marchetta, G. (2023). Shared reading aloud as a tool to improve integration: an experiment in Porta Palazzo (Turin, Italy). J-READING Journal of Research and Didactics in Geography, 1.",
+        "• Batini F., D’Autilia B., Barbisoni G., Toti G (2024), Reading Aloud and the Use of CAS-2 Battery to Assess Cognitive Skills Improvement, in: Education Research International, Volume 2024, Article ID 8868497, 10 pages, https://doi.org/10.1155/2024/886849",
+        "• Batini F. & Marchetta G. (2023, Eds.), La lettura ad alta voce condivisa. Atti del primo convegno scientifico internazionale. Lecce: Pensa Multimedia",
+        "• Batini F., Surian A., De Carlo M.E. (2023), Dispersione scolastica: definire il perimetro, ascoltare gli studenti e ispirarsi alle evidenze, in: Scialdone A., Aru S. (2023), Educare alla cittadinanza nei contesti interculturali, Roma, Carocci.",
+        "• Batini, F., & Toti, G. (2024). Shared reading aloud to enhance language and literacy. Education 3-13, 52(7), 946–962.",
+        "• Batini, F.; Toti, G.; Bartolucci, M. (2016), Neuropsychological benefits of a narrative cognitive training program for people living with dementia: A pilot study. DOI:2016;10:127-133. pp.127-133. In DEMENTIA & NEUROPSYCHOLOGIA - ISSN:1980-5764 vol. 10 (2)",
+        "• Billington, J. (2016). Is Literature Healthy? Oxford University Press.",
+        "• Billington, J. (Ed.). (2019). Reading and mental health. Springer Nature.",
+        "• Duncan, Samantha; Cullinan, Claire; Kelly, Esther; (2024) Reading the way: a social practice approach to reading development in prisons. Research and Practice in Adult Literacies (RaPAL) Journal, 109 (Summer) pp. 23-33.",
+        "• Elkialani, N. O. (2024). Read-Aloud in Arab American Families’ Homes: Knowledge Chain and Identity Maintenance (Doctoral dissertation, Washington State University).",
+        "• Lipari, V., & Salvato, R. (2024). Lettura ad Alta Voce e disabilità nel mondo degli adulti: un approccio prosociale. Effetti Di Lettura / Effects of Reading, 3(1), 040–052. https://doi.org/10.7347/EdL-01-2024-04",
+        "• Scierri, I.D.M, Bartolucci, M., & Salvato, R. (2018). Lettura e dispersione. Milano: FrancoAngeli."
+      ],
+      "count": 20,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_7596",
+    "article_ID": "7596",
+    "slug": "7596",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "7596",
+      "url_slug": "7596"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Shared Reading Aloud: A Transformative Device for the Construction of Personal and Collective Identities.",
+        "lang": "it",
+        "role": "alternative",
+        "source": "locale:it_IT:meta:DC.Title.Alternative"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2024-10-31",
+      "accepted": null,
+      "created": "2024-12-31",
+      "modified": "2025-01-20",
+      "issued": "2024-12-31",
+      "available": "2024-12-31",
+      "submitted_page": "2024-10-31",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+        "pdf_value": null,
+        "chosen_value": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-10-31",
+        "pdf_value": null,
+        "chosen_value": "2024-10-31",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Rosario Salvato",
+        "pdf_value": null,
+        "chosen_value": "Rosario Salvato",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7596/6787",
+      "local_relative_path": "2785-7050_7596.pdf",
+      "saved": true,
+      "sha256": "c88a79e3e10f9be1545aa56d712755efa4b51f65598070cc1337e7cb5ae2bc8a",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 1815813,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Rosario Salvato"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2024/12/31"
+      ],
+      "citation_volume": [
+        "3"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2024-03"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7596"
+      ],
+      "citation_keywords": [
+        "Read-aloud, Social cohesion, Inclusion, Socioeconomic inequalities, Empowerment"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/7596/6787"
+      ],
+      "citation_reference_count": 20,
+      "DC.Date.created": [
+        "2024-12-31"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2024-10-31"
+      ],
+      "DC.Date.issued": [
+        "2024-12-31"
+      ],
+      "DC.Date.modified": [
+        "2025-01-20"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "7596"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2024-03"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/7596"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Rosario Salvato",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "3"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 1,
+      "DC.Title": [
+        "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive"
+      ],
+      "DC.Title.Alternative": [
+        "Shared Reading Aloud: A Transformative Device for the Construction of Personal and Collective Identities."
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Rosario Salvato"
+      ],
+      "citation_author_institution": [
+        "Associate Professor | University of Perugia"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": []
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Shared read-aloud is a pedagogical method that fosters interaction with stories, demonstrating its relevance in addressing educational challenges such as school drop-out rates and socio-economic inequalities. Developed to empower individuals, this approach has proven effective in various contexts, from education to social services. Initial experiments focused on elderly populations suffering from dementia, but recent research has expanded its application to secondary education, promoting equity and academic success. This article explores the role of shared read-aloud as a transformative practice for social cohesion and identity-building. The results of the PRIN project \"Aloud!\" highlight the impact of reading in secondary schools, suggesting improvements in cognitive and linguistic skills, particularly among disadvantaged students. Integrating shared read-aloud into social policy supports its role in fostering inclusion and community resilience. Future research should investigate the application of this method in socio-assistance contexts, offering new methodologies for professionals in the field. The growing need for innovative educational strategies in Italy necessitates a shift towards practices that not only enhance educational outcomes but also promote social justice and equity.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Shared read-aloud is a pedagogical method that fosters interaction with stories, demonstrating its relevance in addressing educational challenges such as school drop-out rates and socio-economic inequalities. Developed to empower individuals, this approach has proven effective in various contexts, from education to social services. Initial experiments focused on elderly populations suffering from dementia, but recent research has expanded its application to secondary education, promoting equity and academic success. This article explores the role of shared read-aloud as a transformative practice for social cohesion and identity-building. The results of the PRIN project \"Aloud!\" highlight the impact of reading in secondary schools, suggesting improvements in cognitive and linguistic skills, particularly among disadvantaged students. Integrating shared read-aloud into social policy supports its role in fostering inclusion and community resilience. Future research should investigate the application of this method in socio-assistance contexts, offering new methodologies for professionals in the field. The growing need for innovative educational strategies in Italy necessitates a shift towards practices that not only enhance educational outcomes but also promote social justice and equity."
+          }
+        },
+        {
+          "content": "La lettura ad alta voce condivisa è un metodo pedagogico che promuove l'interazione con le storie, dimostrando rilevanza nell'affrontare sfide educative come l'abbandono scolastico e le disuguaglianze socioeconomiche. Sviluppato per favorire l'empowerment delle persone, questo approccio ha mostrato efficacia in vari contesti, dall'istruzione ai servizi sociali. Le prime sperimentazioni si sono concentrate su popolazioni di anziani affetti da demenza, ma recenti ricerche ne hanno ampliato l'applicazione all'istruzione secondaria, promuovendo equità e successo scolastico. Questo articolo esplora il ruolo della lettura ad alta voce condivisa come pratica trasformativa per la coesione sociale e la costruzione dell'identità. I risultati del progetto PRIN \"Aloud!\" evidenziano l'impatto della lettura nelle scuole secondarie, suggerendo miglioramenti nelle abilità cognitive e linguistiche, in particolare tra studenti svantaggiati. L'integrazione della lettura ad alta voce nelle politiche sociali sostiene il suo ruolo nella promozione dell'inclusione e della resilienza comunitaria. La ricerca futura dovrebbe indagare l'applicazione di questo metodo in contesti socio-assistenziali, offrendo nuove metodologie per i professionisti del settore. La crescente necessità di strategie educative innovative in Italia richiede un cambiamento verso pratiche che non solo migliorano i risultati educativi, ma promuovono anche giustizia sociale e equità.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La lettura ad alta voce condivisa è un metodo pedagogico che promuove l'interazione con le storie, dimostrando rilevanza nell'affrontare sfide educative come l'abbandono scolastico e le disuguaglianze socioeconomiche. Sviluppato per favorire l'empowerment delle persone, questo approccio ha mostrato efficacia in vari contesti, dall'istruzione ai servizi sociali. Le prime sperimentazioni si sono concentrate su popolazioni di anziani affetti da demenza, ma recenti ricerche ne hanno ampliato l'applicazione all'istruzione secondaria, promuovendo equità e successo scolastico. Questo articolo esplora il ruolo della lettura ad alta voce condivisa come pratica trasformativa per la coesione sociale e la costruzione dell'identità. I risultati del progetto PRIN \"Aloud!\" evidenziano l'impatto della lettura nelle scuole secondarie, suggerendo miglioramenti nelle abilità cognitive e linguistiche, in particolare tra studenti svantaggiati. L'integrazione della lettura ad alta voce nelle politiche sociali sostiene il suo ruolo nella promozione dell'inclusione e della resilienza comunitaria. La ricerca futura dovrebbe indagare l'applicazione di questo metodo in contesti socio-assistenziali, offrendo nuove metodologie per i professionisti del settore. La crescente necessità di strategie educative innovative in Italia richiede un cambiamento verso pratiche che non solo migliorano i risultati educativi, ma promuovono anche giustizia sociale e equità."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "Read-aloud, Social cohesion, Inclusion, Socioeconomic inequalities, Empowerment",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "Read-aloud, Social cohesion, Inclusion, Socioeconomic inequalities, Empowerment"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7596/6787",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7596/6787",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/7596/6787",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-01-20",
+        "mod_date": "2025-01-20"
+      },
+      "front_text_excerpt": "ABSTRACT Shared read-aloud is a pedagogical method that fosters interaction with stories, demonstrating its relevance in addressing educational challenges such as school drop-out rates and socio-economic inequalities. Developed to empower individuals, this approach has proven effec tive in various contexts, from education to social services. Initial experiments focused on elderly populations suffering from dementia , but recent research has expanded its application to secondary education, promoting equity and academic success. This article explores the role of shared read-aloud as a transformative practice for social cohesion and identity-building. The results of the PRIN project “Aloud!” hig hlight the impact of reading in secondary schools, suggesting improvements in cognitive and linguistic skills, particularly among disadvantaged students. Integrating shared read-aloud into social policy supports its role in fostering inclusion and community resilience. Future research should in- vestigate the application of this method in socio-assistance contexts, offering new methodologies for professionals in the field. The growing need for innovative educational strategies in Italy necessitates a shift towards practices that not only enhance educational outcomes but also promote social justice and equity. Keywords: Read-aloud, Social cohesion, Inclusion, Socioeconomic inequalities, Empowerment La lettura ad alta voce condivisa è un metodo pedagogico che promuove l’interazione con le storie, dimostrando rilevanza nell’a ffrontare sfide educative come l’abbandono scolastico e le disuguaglianze socioeconomiche. Sviluppato per favorire l’empowerment delle pe rsone, questo approccio ha mostrato efficacia in vari contesti, dall’istruzione ai servizi sociali. Le prime sperimentazioni si sono concentrate su po- polazioni di anziani affetti da demenza, ma recenti ricerche ne hanno ampliato l’applicazione all’istruzione secondaria, promuovendo equità e successo scolastico. Questo articolo esplora il ruolo della lettura ad alta voce condivisa come pratica trasformativa per la coesione sociale e la costruzione dell’identità. I risultati del progetto PRIN “Aloud!” evidenziano l’impatto della lettura nelle scuole secondarie, suggerendo mi- glioramenti nelle abilità cognitive e linguistiche, in particolare tra studenti svantaggiati. L ’integrazione della lettura ad alta voce nelle politiche sociali sostiene il suo ruolo nella promozione dell’inclusione e della resilienza comunitaria. La ricerca futura dovrebbe indagare l’applicazione di questo metodo in contesti socio-assistenziali, offrendo nuove metodologie per i professionisti del settore. La crescente necessità di strategie educative innovative in Italia richiede un cambiamento verso pratiche che non solo migliorano i risultati educativi, ma promuovono anche giustizia sociale e equità. Parole chiave: Lettura ad alta voce, Coesione sociale, Inclusione, Disuguaglianze socioeconomiche, Empowerment Citation: Salvato, R. (2024). La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive. Effetti di Lettura / Effects of Reading, 3(2), 30-35. https://doi.org/10.7347/EdL-02-2024-03. Corresponding Author: Rosario Salvato | rosario.salvato@unipg.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2024-03 Rosario Salvato Associate Professor | University of Perugia | rosario.salvato@unipg.it Double blind peer review La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive Shared Reading Aloud: A T ransformative Device for the Construction of Personal and Collective Identities Volume 3 | n. 2 | dicembre 2024 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\7596\\2785-7050_7596.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Rosario Salvato",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Rosario Salvato",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+        "pdf_value": null,
+        "chosen_value": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2024-10-31",
+        "pdf_value": null,
+        "chosen_value": "2024-10-31",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Rosario Salvato",
+        "pdf_value": null,
+        "chosen_value": "Rosario Salvato",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Rosario Salvato",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7596",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7596",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:47:53Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:47:55Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7596",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7596",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 1,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 1
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F7596",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/7596",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 1
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7596\\2785-7050_7596.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:47:57Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7596\\2785-7050_7596.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+        "submitted_date": "2024-10-31",
+        "accepted_date": null,
+        "copyright_holder": "Rosario Salvato",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Rosario Salvato"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\7596\\2785-7050_7596.pdf",
+        "generated_at_utc": "2026-04-27T18:47:57Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-01-20",
+          "mod_date": "2025-01-20"
+        },
+        "front_text_excerpt": "ABSTRACT Shared read-aloud is a pedagogical method that fosters interaction with stories, demonstrating its relevance in addressing educational challenges such as school drop-out rates and socio-economic inequalities. Developed to empower individuals, this approach has proven effec tive in various contexts, from education to social services. Initial experiments focused on elderly populations suffering from dementia , but recent research has expanded its application to secondary education, promoting equity and academic success. This article explores the role of shared read-aloud as a transformative practice for social cohesion and identity-building. The results of the PRIN project “Aloud!” hig hlight the impact of reading in secondary schools, suggesting improvements in cognitive and linguistic skills, particularly among disadvantaged students. Integrating shared read-aloud into social policy supports its role in fostering inclusion and community resilience. Future research should in- vestigate the application of this method in socio-assistance contexts, offering new methodologies for professionals in the field. The growing need for innovative educational strategies in Italy necessitates a shift towards practices that not only enhance educational outcomes but also promote social justice and equity. Keywords: Read-aloud, Social cohesion, Inclusion, Socioeconomic inequalities, Empowerment La lettura ad alta voce condivisa è un metodo pedagogico che promuove l’interazione con le storie, dimostrando rilevanza nell’a ffrontare sfide educative come l’abbandono scolastico e le disuguaglianze socioeconomiche. Sviluppato per favorire l’empowerment delle pe rsone, questo approccio ha mostrato efficacia in vari contesti, dall’istruzione ai servizi sociali. Le prime sperimentazioni si sono concentrate su po- polazioni di anziani affetti da demenza, ma recenti ricerche ne hanno ampliato l’applicazione all’istruzione secondaria, promuovendo equità e successo scolastico. Questo articolo esplora il ruolo della lettura ad alta voce condivisa come pratica trasformativa per la coesione sociale e la costruzione dell’identità. I risultati del progetto PRIN “Aloud!” evidenziano l’impatto della lettura nelle scuole secondarie, suggerendo mi- glioramenti nelle abilità cognitive e linguistiche, in particolare tra studenti svantaggiati. L ’integrazione della lettura ad alta voce nelle politiche sociali sostiene il suo ruolo nella promozione dell’inclusione e della resilienza comunitaria. La ricerca futura dovrebbe indagare l’applicazione di questo metodo in contesti socio-assistenziali, offrendo nuove metodologie per i professionisti del settore. La crescente necessità di strategie educative innovative in Italia richiede un cambiamento verso pratiche che non solo migliorano i risultati educativi, ma promuovono anche giustizia sociale e equità. Parole chiave: Lettura ad alta voce, Coesione sociale, Inclusione, Disuguaglianze socioeconomiche, Empowerment Citation: Salvato, R. (2024). La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive. Effetti di Lettura / Effects of Reading, 3(2), 30-35. https://doi.org/10.7347/EdL-02-2024-03. Corresponding Author: Rosario Salvato | rosario.salvato@unipg.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2024-03 Rosario Salvato Associate Professor | University of Perugia | rosario.salvato@unipg.it Double blind peer review La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive Shared Reading Aloud: A T ransformative Device for the Construction of Personal and Collective Identities Volume 3 | n. 2 | dicembre 2024 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "vi sono oltre 1 milione di persone affette da demenza e circa 900mila affette da una condizione a rischio definita come Mild Cognitive Impairment, abbreviato in MCI, deficit cognitivo isolato) è opportuno ri - cordare anche il lavoro di Josie Billington sulla salute mentale (Billington, 2016, 2019), mentre emergono studi promettenti sull’utilizzo con i detenuti (Alvarez et al., 2018; Duncan, 2024), nello sviluppo di adulti con differenti abilità (Lipari & Salvato, 2024) nella trasmissione delle conoscenze e nel mantenimento dell’identità culturale (Elkialani, 2024) e nella costruzione dell’identità sociale e collettiva (Fuller & Sedo, 2013). Interessa qui sviluppare in particolare quest’ultimo aspetto. Lettura ad alta voce e coesione sociale La lettura ad alta voce, questa l’ipotesi che proponiamo, può essere vista come una pratica che favorisce la coesione sociale. Quando le persone partecipano a sessioni di lettura condivisa, come nei gruppi di lettura in classe, nei centri educativi, nelle RSA, nei centri per giovani, in prigione e persino nelle organizzazioni, si genera un senso di comunità. Questo accade perché la lettura ad alta voce permette di condividere espe- rienze emotive e intellettuali, tali da unire i partecipanti attorno a un testo comune. Le storie proposte co- stituiscono un’avventura vissuta insieme, attraverso il complesso meccanismo dell’immedesimazione. Ci sono due livelli che dialogano e si incrociano: da una parte la sensazione di aver vissuto, insieme, quanto è accaduto nella storia e dall’altra la possibilità di condividere significati ed emozioni in modo esplicito alla fine della lettura (attività espressamente prevista dal metodo attraverso la pratica denominata “socia - lizzazione”). La lettura, spesso rappresentata come atto isolato per eccellenza, diventa piuttosto un processo interat- tivo che si struttura e coinvolge la rete di relazioni presenti nel gruppo ma anche, in senso più ampio, tutte le relazioni personali e di significati di tutti i partecipanti al gruppo. Questa rete include quindi il lettore/ascoltatore, il testo, gli altri ascoltatori, il contesto sociale in cui avviene la lettura e tutta la complessa rete di significati. La lettura condivisa enfatizza l’interdipendenza tra questi elementi, suggerendo che ogni lettura sia influenzata dalle connessioni che il lettore stabilisce con altre esperienze di lettura, con la co - munità di lettori e con le strutture sociali più ampie. L ’attività di socializzazione, attraverso domande sti- molo aperte proposte da chi guida il gruppo, facilita questi processi. Proprio qui si situa una sorta di paradosso tra l’autonomia del lettore e la costruzione dell’identità collettiva. Da un lato, ogni lettore/ascol- tatore è autonomo nel creare significati personali a partire dai testi che vengono letti nel gruppo (e che si collegano con le sue esperienze personali, con le sue conoscenze, con il suo patrimonio di storie), dall’altro, questi significati sono sempre influenzati e in parte determinati dalle interazioni sociali che avvengono nel gruppo e dalle aspettative culturali. La lettura condivisa diventa allora un processo di negoziazione tra l’au- tonomia individuale e la partecipazione a un’identità collettiva. Questi processi di negoziazione sono pro- cessi pacifici e progressivi e in tal senso si può pensare alla pratica della lettura ad alta voce condivisa come strumento di coesione sociale e di costruzione di comunità senza negare le differenze, anzi, valorizzandole. La lettura ad alta voce condivisa consente ai partecipanti di esplorare e affermare la propria identità. L ’atto di leggere un testo insieme, di ascoltare un testo letto da altri, può far emergere riflessioni su come il contenuto si relazioni con l’esperienza personale di ciascuno e riteniamo che questo processo aiuti sia nel processo di costruzione del senso di identità individuale che nel negoziare un’identità collettiva. Non a caso la lettura ad alta voce recupera l’aspetto perf",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2024-10-31",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2024-10-31",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Rosario Salvato",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Rosario Salvato",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\7596\\2785-7050_7596.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La Lettura ad Alta Voce Condivisa: un dispositivo trasformativo per la costruzione di identità personali e collettive",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Shared Reading Aloud: A Transformative Device for the Construction of Personal and Collective Identities.",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "Shared Reading Aloud: A Transformative Device for the Construction of Personal and Collective Identities.",
+            "dropped_source": "locale:en_US:meta:DC.Title",
+            "kept_source": "locale:it_IT:meta:DC.Title.Alternative"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Shared read-aloud is a pedagogical method that fosters interaction with stories, demonstrating its relevance in addressing educational challenges such as school",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura ad alta voce condivisa è un metodo pedagogico che promuove l'interazione con le storie, dimostrando rilevanza nell'affrontare sfide educative come l'",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

@@ -1,0 +1,1003 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8018",
+  "scraped_at_utc": "2026-04-27T18:49:00Z",
+  "fetched_at_utc": "2026-04-27T18:49:00Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "29292af204b42fdd91953ae2c1766bf5dfd2f37b858a01eda4619fb6489730e8",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Clara Maria Silva",
+        "nameType": "Personal",
+        "givenName": "Clara Maria",
+        "familyName": "Silva",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Full Professor | University of Florence"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      },
+      {
+        "creatorName": "Giada Prisco",
+        "nameType": "Personal",
+        "givenName": "Giada",
+        "familyName": "Prisco",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Associate Professor | Pegaso Digital University"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8018",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-06-27",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-06-27",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-06-27",
+      "Issued": "2025-06-27"
+    },
+    "language": {
+      "value": "it",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "Reading aloud in the family from an early age plays a key role in the cognitive, emotional and relational development of children. Numerous international studies confirm the benefits of early exposure to books, especially when mediated by an adult figure within the home context. This paper presents the first results of a research-action-training project conducted by the University of Florence as part of the regional initiative “Leggere: Forte! Reading aloud increases intelligence”, aimed at promoting reading practices in family settings in collaboration with ECEC staff working in three educational zones in Tuscany: Pistoia, Prato and Florence. The objective of the investigation was to foster awareness in parents of the importance of reading aloud, strengthening the educational alliance between families and services. Using a qualitative-quantitative approach, the research analyzed parents’ perceptions and habits in order to gain a closer understanding of reading experiences within families. The results showed parents’ awareness of the benefits of this activity for their children by positively influencing their development and growth.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "La lettura ad alta voce in famiglia fin dalla più tenera età svolge un ruolo fondamentale nello sviluppo cognitivo, emotivo e relazionale dei bambini e delle bambine. Numerosi studi internazionali confermano i benefici dell'esposizione precoce ai libri, soprattutto se mediata da un adulto di riferimento all'interno del contesto familiare. Questo articolo presenta i primi risultati di un progetto di ricerca-azione-formazione condotto dall'Università degli Studi di Firenze nell'ambito dell'iniziativa regionale “Leggere: Forte! Ad alta voce fa crescere l’intelligenza\", finalizzato alla promozione delle pratiche di lettura in ambito familiare in collaborazione con il personale operante in tre zone educative della Toscana: Pistoia, Prato e Firenze. L'obiettivo dell'indagine è stato quello di promuovere nei genitori la consapevolezza dell'importanza della lettura ad alta voce, rafforzando l'alleanza educativa tra famiglie e servizi. Utilizzando un approccio quali-quantitativo, la ricerca ha analizzato le loro percezioni e abitudini per comprendere meglio le esperienze di lettura portate avanti all'interno delle famiglie. I risultati hanno mostrato la consapevolezza dei genitori circa i benefici di questa attività per i loro figli e le loro figlie, influenzandone positivamente lo sviluppo e la crescita.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-01-2025-09",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "1",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "infanzia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura ad alta voce",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "lettura in famiglia",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "abitudini e percezioni familiari",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "partecipazione familiare",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "reading aloud",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "family reading",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "childhood",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "family habits and perceptions",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "parent engagement",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": "Clara Maria Silva, Giada Prisco",
+      "holder_source": "page",
+      "year": 2025,
+      "year_source": "page"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8018/7024",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "1",
+      "citationStartPage": "117",
+      "citationEndPage": "128",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Silva, C. M., & Prisco, G. (2025). La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”. Effetti Di Lettura / Effects of Reading , 4 (1), 117–128. https://doi.org/10.7347/EdL-01-2025-09",
+      "articleTitleEcho": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Acone, L. (2017). La lettura come formazione della persona. Pagina scritta, orizzonti virtuali e connessioni testo-immagine. Lifelong, lifewide learning, 13(29), 1–12. https://doi.org/10.19241/lll.v13i29.61.",
+        "Aram, D., & Shapira, R. (2013). Parent-Child Shared Book Reading and Children’s Language, Literacy, and Empathy Development. Rivista Italiana Di Educazione Familiare, 7(2), 55–65. https://doi.org/10.13128/RIEF-13299.",
+        "Ascenzi, A. (ed.) (2002). La letteratura per l’infanzia oggi. Vita e Pensiero.",
+        "Batini, F. (ed.) (2022a). Lettura ad alta voce. Ricerche e strumenti per educatori, insegnanti e genitori. Carocci.",
+        "Batini, F. (ed.) (2022b). Il futuro della lettura ad alta voce. Alcuni risultati della ricerca educativa internazionale. FrancoAngeli.",
+        "Batini, F. (ed.) (2021a). Ad alta voce. La lettura che fa bene a tutti. Giunti.",
+        "Batini, F. (ed.) (2021b). Un anno di Leggere: Forte! in Toscana. L’esperienza di una ricerca-azione. FrancoAngeli.",
+        "Batini, F., Brizioli, I., Mancini, A., Susta, M., & Scierri, I. D. M. (2021). Lettura e comprensione: una revisione sistematica della letteratura. Ricerche di Pedagogia e Didattica, Journal of Theories and Research in Education, 16(1), 76–89. https://rpd.unibo.it/article/view/11509/12647.",
+        "Batini, F., Tobia, S., Puccetti, E. C., & Marsano, M. (2020). La lettura ad alta voce nell’infanzia: il ruolo dei genitori. Lifelong, Lifewide Learning, 18(37), 26-41. https://doi.org/10.19241/lll.v16i37.534.",
+        "Bigli, A. (2023). Leggere piano, forte, fortissimo. Come allenare alla lettura ragazze e ragazzi. Mondadori.",
+        "Cambi, F., & Cives, G. (eds.) (1996). Il bambino e la lettura. Testi scolastici e libri per l’infanzia. ETS.",
+        "Cardarello, R. (2004). Storie facili e storie difficili. Valutare libri per bambini. Junior.",
+        "Caso, R. (2023). Promuovere la lettura nell’infanzia e nell’adolescenza. Percorsi e strumenti per educatori e per insegnanti. Anicia.",
+        "Caselli, C. (2005). Indagare col questionario. Introduzione alla ricerca sociale di tipo standard. Vita & Pensiero.",
+        "Catarsi, E. (ed.) (2011). Educazione alla lettura e continuità educativa. Edizioni Junior.",
+        "Catarsi, E. (ed.) (2001). Lettura e narrazione nell’asilo nido. Edizioni Junior.",
+        "Cremin, T., Mottram, M., Collins, F. M., Powell, S., & Safford, K. (2014). Building Communities of Engaged Readers: Reading for pleasure. Routledge.",
+        "Deghenghi Olujic, E. (2016). Il ruolo del libro e della lettura nella Bildung della persona: i classici della letteratura per l'infanzia, prima esperienza letteraria e prima finestra sul mondo. Studia Polensia, 5, 58-87.",
+        "Detti, E. (2013). Il piacere di leggere: come apprendere il “gusto” della lettura. Il Pepeverde.",
+        "Falco, M. (2022). Lettura e formazione. Quello che le neuroscienze hanno da dire a genitori e insegnanti. Mimesis.",
+        "Freschi, E. (2013). Il piacere delle storie. Per una “didattica” della lettura nel nido e nella scuola dell’infanzia. Edizioni Junior-Spaggiari.",
+        "Freschi, E. (2008). Le letture dei piccoli. Una proposta di “categorizzazione” dei libri per bambini da 0 a 6 anni. Del Cerro.",
+        "Marchetta, G. (2015). Lettori si cresce. Einaudi.",
+        "Mele, S., & Magrini, J. (2022). Leggere: Forte! Ad alta voce fa crescere l’intelligenza. La politica della Regione Toscana per promuovere il successo scolastico. in F. Batini, G. Marchetta (eds.), La lettura ad alta voce condivisa/Shared reading aloud, Atti del Primo Convegno Scientifico Internazionale, Perugia, 1-2 dicembre 2022. Pensa Multimedia, 11-24.",
+        "Regione Toscana (2020). La lettura in Toscana. Indagine campionaria 2020. Rapporto di analisi dei risultati – Anno 2020. Regione Toscana.",
+        "Regione Toscana (2019). Patto regionale per la lettura in Toscana. Regione Toscana.",
+        "Tamburlini, G. (2023). I bambini in testa. Prendersi cura dell’infanzia a partire dalle famiglie. Il pensiero scientifico.",
+        "Terrusi, M. (2012). Albi illustrati. Leggere, guardare, nominare il mondo nei libri per l’infanzia. Carocci.",
+        "Valentino Merletti, R., & Tognolini, B. (2006). Leggimi forte. Accompagnare i bambini nel grande universo della lettura. Salani.",
+        "Valentino Merletti, R. (1996). Leggere ad alta voce. Mondadori.",
+        "UNESCO (2004). The Plurality of Literacy and Its Implications for Policies and Programs: Position Paper. United Nationals Educational, Scientific and Cultural Organization, Education Sector.",
+        "Wolf, M. (2018). Reader, Come Home: The Reading Brain in a Digital World. Harper.",
+        "Wolf, M. (2009). Proust e il calamaro. Storia e scienza del cervello che legge. Vita & Pensiero.",
+        "Zeece, P. D. (2004). Promoting empathy and developing caring readers. Early Childhood Education Journal, 31, 193-199. https://doi.org/10.1023/B:ECEJ.0000012314.00539.12."
+      ],
+      "count": 34,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8018",
+    "article_ID": "8018",
+    "slug": "8018",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8018",
+      "url_slug": "8018"
+    },
+    "resource_language": "it",
+    "title_variants": [
+      {
+        "value": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”",
+        "lang": "it",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Reading in the family from early childhood: the Tuscany Region’s commitment through the project “Leggere: Forte! Reading aloud increases intelligence”",
+        "lang": "en",
+        "role": "main",
+        "source": "locale:en_US:meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "it",
+      "title_literal_languages": [
+        "it",
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "it",
+        "en"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-04-28",
+      "accepted": null,
+      "created": "2025-06-27",
+      "modified": "2025-06-27",
+      "issued": "2025-06-27",
+      "available": "2025-06-27",
+      "submitted_page": "2025-04-28",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”",
+        "pdf_value": null,
+        "chosen_value": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-28",
+        "pdf_value": null,
+        "chosen_value": "2025-04-28",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Clara Maria Silva, Giada Prisco",
+        "pdf_value": null,
+        "chosen_value": "Clara Maria Silva, Giada Prisco",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8018/7024",
+      "local_relative_path": "2785-7050_8018.pdf",
+      "saved": true,
+      "sha256": "1bbba4d66909f769a4e2bb2bf087c0463fb1373f702715ec968d7585ff3bde78",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 40304907,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Clara Maria Silva",
+        "Giada Prisco"
+      ],
+      "citation_author_institution": [
+        "Full Professor | University of Florence",
+        "Associate Professor | Pegaso Digital University"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”"
+      ],
+      "citation_language": [
+        "it"
+      ],
+      "citation_date": [
+        "2025/06/27"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "1"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-01-2025-09"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8018"
+      ],
+      "citation_keywords": [
+        "infanzia",
+        "lettura ad alta voce",
+        "lettura in famiglia",
+        "abitudini e percezioni familiari",
+        "partecipazione familiare"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8018/7024"
+      ],
+      "citation_reference_count": 34,
+      "DC.Date.created": [
+        "2025-06-27"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-04-28"
+      ],
+      "DC.Date.issued": [
+        "2025-06-27"
+      ],
+      "DC.Date.modified": [
+        "2025-06-27"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8018"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-01-2025-09"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8018"
+      ],
+      "DC.Language": [
+        "it"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025 Clara Maria Silva, Giada Prisco",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "1"
+      ],
+      "DC.Subject_count": 5,
+      "DC.Title": [
+        "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”"
+      ],
+      "DC.Title.Alternative": [
+        "Reading in the family from early childhood: the Tuscany Region’s commitment through the project “Leggere: Forte! Reading aloud increases intelligence”"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Clara Maria Silva",
+        "Giada Prisco"
+      ],
+      "citation_author_institution": [
+        "Full Professor | University of Florence",
+        "Associate Professor | Pegaso Digital University"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Clara Maria Silva",
+        "Giada Prisco"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Reading aloud in the family from an early age plays a key role in the cognitive, emotional and relational development of children. Numerous international studies confirm the benefits of early exposure to books, especially when mediated by an adult figure within the home context. This paper presents the first results of a research-action-training project conducted by the University of Florence as part of the regional initiative “Leggere: Forte! Reading aloud increases intelligence”, aimed at promoting reading practices in family settings in collaboration with ECEC staff working in three educational zones in Tuscany: Pistoia, Prato and Florence. The objective of the investigation was to foster awareness in parents of the importance of reading aloud, strengthening the educational alliance between families and services. Using a qualitative-quantitative approach, the research analyzed parents’ perceptions and habits in order to gain a closer understanding of reading experiences within families. The results showed parents’ awareness of the benefits of this activity for their children by positively influencing their development and growth.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Reading aloud in the family from an early age plays a key role in the cognitive, emotional and relational development of children. Numerous international studies confirm the benefits of early exposure to books, especially when mediated by an adult figure within the home context. This paper presents the first results of a research-action-training project conducted by the University of Florence as part of the regional initiative “Leggere: Forte! Reading aloud increases intelligence”, aimed at promoting reading practices in family settings in collaboration with ECEC staff working in three educational zones in Tuscany: Pistoia, Prato and Florence. The objective of the investigation was to foster awareness in parents of the importance of reading aloud, strengthening the educational alliance between families and services. Using a qualitative-quantitative approach, the research analyzed parents’ perceptions and habits in order to gain a closer understanding of reading experiences within families. The results showed parents’ awareness of the benefits of this activity for their children by positively influencing their development and growth."
+          }
+        },
+        {
+          "content": "La lettura ad alta voce in famiglia fin dalla più tenera età svolge un ruolo fondamentale nello sviluppo cognitivo, emotivo e relazionale dei bambini e delle bambine. Numerosi studi internazionali confermano i benefici dell'esposizione precoce ai libri, soprattutto se mediata da un adulto di riferimento all'interno del contesto familiare. Questo articolo presenta i primi risultati di un progetto di ricerca-azione-formazione condotto dall'Università degli Studi di Firenze nell'ambito dell'iniziativa regionale “Leggere: Forte! Ad alta voce fa crescere l’intelligenza\", finalizzato alla promozione delle pratiche di lettura in ambito familiare in collaborazione con il personale operante in tre zone educative della Toscana: Pistoia, Prato e Firenze. L'obiettivo dell'indagine è stato quello di promuovere nei genitori la consapevolezza dell'importanza della lettura ad alta voce, rafforzando l'alleanza educativa tra famiglie e servizi. Utilizzando un approccio quali-quantitativo, la ricerca ha analizzato le loro percezioni e abitudini per comprendere meglio le esperienze di lettura portate avanti all'interno delle famiglie. I risultati hanno mostrato la consapevolezza dei genitori circa i benefici di questa attività per i loro figli e le loro figlie, influenzandone positivamente lo sviluppo e la crescita.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "La lettura ad alta voce in famiglia fin dalla più tenera età svolge un ruolo fondamentale nello sviluppo cognitivo, emotivo e relazionale dei bambini e delle bambine. Numerosi studi internazionali confermano i benefici dell'esposizione precoce ai libri, soprattutto se mediata da un adulto di riferimento all'interno del contesto familiare. Questo articolo presenta i primi risultati di un progetto di ricerca-azione-formazione condotto dall'Università degli Studi di Firenze nell'ambito dell'iniziativa regionale “Leggere: Forte! Ad alta voce fa crescere l’intelligenza\", finalizzato alla promozione delle pratiche di lettura in ambito familiare in collaborazione con il personale operante in tre zone educative della Toscana: Pistoia, Prato e Firenze. L'obiettivo dell'indagine è stato quello di promuovere nei genitori la consapevolezza dell'importanza della lettura ad alta voce, rafforzando l'alleanza educativa tra famiglie e servizi. Utilizzando un approccio quali-quantitativo, la ricerca ha analizzato le loro percezioni e abitudini per comprendere meglio le esperienze di lettura portate avanti all'interno delle famiglie. I risultati hanno mostrato la consapevolezza dei genitori circa i benefici di questa attività per i loro figli e le loro figlie, influenzandone positivamente lo sviluppo e la crescita."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "infanzia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "infanzia"
+          }
+        },
+        {
+          "content": "lettura ad alta voce",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura ad alta voce"
+          }
+        },
+        {
+          "content": "lettura in famiglia",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "lettura in famiglia"
+          }
+        },
+        {
+          "content": "abitudini e percezioni familiari",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "abitudini e percezioni familiari"
+          }
+        },
+        {
+          "content": "partecipazione familiare",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "partecipazione familiare"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8018/7024",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8018/7024",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8018/7024",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-06-26",
+        "mod_date": "2025-06-26"
+      },
+      "front_text_excerpt": "ABSTRACT Reading aloud in the family from an early age plays a key role in the cognitive, emotional and relational development of children. Numerous international studies confirm the benefits of early exposure to books, especially when mediated by an adult figure within the home context. This paper presents the first results of a research-action-training project conducted by the University of Florence as part of the regional initiative “Leggere: Forte! Reading aloud increases intelligence”, aimed at promoting reading practices in family settings in c ollaboration with ECEC staff working in three educational zones in T uscany: Pistoia, Prato and Florence. The objective of the investigation was to foster awareness in parents of the importance of reading aloud, strengthening the educational alliance between families and services. Using a qual- itative-quantitative approach, the research analyzed parents’ perceptions and habits in order to gain a closer understanding of reading experi- ences within families. The results showed parents’ awareness of the benefits of this activity for their children by positively influencing their development and growth. Keywords: childhood, reading aloud, family reading, family habits and perceptions, parent engagement La lettura ad alta voce in famiglia fin dalla più tenera età svolge un ruolo fondamentale nello sviluppo cognitivo, emotivo e r elazionale dei bambini e delle bambine. Numerosi studi internazionali confermano i benefici dell'esposizione precoce ai libri, soprattutto se mediata da un adulto di riferimento all'interno del contesto familiare. Questo articolo presenta i primi risultati di un progetto di ricerca-azione-formazione condotto dall'Università degli Studi di Firenze nell'ambito dell'iniziativa regionale “Leggere: Forte! Ad alta voce fa crescere l’intelligenza\", fi- nalizzato alla promozione delle pratiche di lettura in ambito familiare in collaborazione con il personale operante in tre zone educative della T oscana: Pistoia, Prato e Firenze. L'obiettivo dell'indagine è stato quello di promuovere nei genitori la consapevolezza dell'importanza della lettura ad alta voce, rafforzando l'alleanza educativa tra famiglie e servizi. Utilizzando un approccio quali-quantitativo, la ricerca ha analizzato le loro percezioni e abitudini per comprendere meglio le esperienze di lettura portate avanti all'interno delle famiglie. I risultati hanno mostrato la consapevolezza dei genitori circa i benefici di questa attività per i loro figli e le loro figlie, influenzandone positivame nte lo sviluppo e la crescita. Parole chiave: infanzia, lettura ad alta voce, lettura in famiglia, abitudini e percezioni familiari, partecipazione familiare Citation: Silva, C. M., & Prisco, G. (2025). La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione T oscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”. Effetti di Lettura / Effects of Reading, 4 (1), 117-128. https://doi.org/10.7347/EdL-01-2025-09. Corresponding Author: Giada Prisco | giada.prisco@unipegaso.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-09 Authorship/Attribuzioni: Il contributo è frutto di un lavoro coordinato e congiunto delle due autrici. T uttavia, sono da attribuire a Clara Maria Silva i paragrafi 1 e 2 e a Giada Prisco i paragrafi 3 e 4. This paper is a joint effort between the two authors; however, Clara Maria Silva edited the first and the second paragraph; Gia da Prisco edited the third and the fourth paragraph. Clara Maria Silva Full Professor | University of Florence | clara.silva@unifi.it Giada Prisco Associate Professor | Pegaso Digital University | giada.prisco@unipegaso.it Double blind peer review La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione T oscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza” Reading in the family from early childhood: the T uscany Region’s commitment through the project “Leggere: Forte! Reading aloud increases intelligence” Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8018\\2785-7050_8018.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": "Clara Maria Silva, Giada Prisco",
+      "copyright_year_page": 2025,
+      "raw_dc_rights": [
+        "Copyright (c) 2025 Clara Maria Silva, Giada Prisco",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”",
+        "pdf_value": null,
+        "chosen_value": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-04-28",
+        "pdf_value": null,
+        "chosen_value": "2025-04-28",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": "Clara Maria Silva, Giada Prisco",
+        "pdf_value": null,
+        "chosen_value": "Clara Maria Silva, Giada Prisco",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": "2025",
+        "pdf_value": null,
+        "chosen_value": "2025",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025 Clara Maria Silva, Giada Prisco",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza” | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8018",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8018",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:49:00Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:49:02Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8018",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8018",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 5,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8018",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8018",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 5
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8018\\2785-7050_8018.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:49:11Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8018\\2785-7050_8018.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”",
+        "submitted_date": "2025-04-28",
+        "accepted_date": null,
+        "copyright_holder": "Clara Maria Silva, Giada Prisco",
+        "copyright_year": "2025",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "it",
+        "creator_names": [
+          "Clara Maria Silva",
+          "Giada Prisco"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8018\\2785-7050_8018.pdf",
+        "generated_at_utc": "2026-04-27T18:49:10Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-06-26",
+          "mod_date": "2025-06-26"
+        },
+        "front_text_excerpt": "ABSTRACT Reading aloud in the family from an early age plays a key role in the cognitive, emotional and relational development of children. Numerous international studies confirm the benefits of early exposure to books, especially when mediated by an adult figure within the home context. This paper presents the first results of a research-action-training project conducted by the University of Florence as part of the regional initiative “Leggere: Forte! Reading aloud increases intelligence”, aimed at promoting reading practices in family settings in c ollaboration with ECEC staff working in three educational zones in T uscany: Pistoia, Prato and Florence. The objective of the investigation was to foster awareness in parents of the importance of reading aloud, strengthening the educational alliance between families and services. Using a qual- itative-quantitative approach, the research analyzed parents’ perceptions and habits in order to gain a closer understanding of reading experi- ences within families. The results showed parents’ awareness of the benefits of this activity for their children by positively influencing their development and growth. Keywords: childhood, reading aloud, family reading, family habits and perceptions, parent engagement La lettura ad alta voce in famiglia fin dalla più tenera età svolge un ruolo fondamentale nello sviluppo cognitivo, emotivo e r elazionale dei bambini e delle bambine. Numerosi studi internazionali confermano i benefici dell'esposizione precoce ai libri, soprattutto se mediata da un adulto di riferimento all'interno del contesto familiare. Questo articolo presenta i primi risultati di un progetto di ricerca-azione-formazione condotto dall'Università degli Studi di Firenze nell'ambito dell'iniziativa regionale “Leggere: Forte! Ad alta voce fa crescere l’intelligenza\", fi- nalizzato alla promozione delle pratiche di lettura in ambito familiare in collaborazione con il personale operante in tre zone educative della T oscana: Pistoia, Prato e Firenze. L'obiettivo dell'indagine è stato quello di promuovere nei genitori la consapevolezza dell'importanza della lettura ad alta voce, rafforzando l'alleanza educativa tra famiglie e servizi. Utilizzando un approccio quali-quantitativo, la ricerca ha analizzato le loro percezioni e abitudini per comprendere meglio le esperienze di lettura portate avanti all'interno delle famiglie. I risultati hanno mostrato la consapevolezza dei genitori circa i benefici di questa attività per i loro figli e le loro figlie, influenzandone positivame nte lo sviluppo e la crescita. Parole chiave: infanzia, lettura ad alta voce, lettura in famiglia, abitudini e percezioni familiari, partecipazione familiare Citation: Silva, C. M., & Prisco, G. (2025). La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione T oscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”. Effetti di Lettura / Effects of Reading, 4 (1), 117-128. https://doi.org/10.7347/EdL-01-2025-09. Corresponding Author: Giada Prisco | giada.prisco@unipegaso.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-01-2025-09 Authorship/Attribuzioni: Il contributo è frutto di un lavoro coordinato e congiunto delle due autrici. T uttavia, sono da attribuire a Clara Maria Silva i paragrafi 1 e 2 e a Giada Prisco i paragrafi 3 e 4. This paper is a joint effort between the two authors; however, Clara Maria Silva edited the first and the second paragraph; Gia da Prisco edited the third and the fourth paragraph. Clara Maria Silva Full Professor | University of Florence | clara.silva@unifi.it Giada Prisco Associate Professor | Pegaso Digital University | giada.prisco@unipegaso.it Double blind peer review La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione T oscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza” Reading in the family from early childhood: the T uscany Region’s commitment through the project “Leggere: Forte! Reading aloud increases intelligence” Volume 4 | n. 1 | giugno 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "tempo è generatrice del loro sviluppo. Inoltre, favorisce l’arricchimento delle conoscenze e della capacità di comprensione (Falco, 2022; Wolf, 2018). La lettura, come altre forme di conoscenza, inoltre, è un processo cumulativo, nel senso che praticandola avviene la connessione di ciò che già conosciamo con ciò che deduciamo da ciò che si sta leggendo. In altre parole, tutto ciò che si impara di nuovo si appoggia su ciò che sapevamo già prima e quello che leg- giamo crea le fondamenta per l’acquisizione di nuove conoscenze. Il cervello che legge collega ciò che viene letto con ciò che già sappiamo. Attraverso la lettura profonda si diventa lettori e lettrici competenti ovvero capaci di comprendere ciò che si legge e in grado di sviluppare nei confronti del libro un atteggiamento attivo e costruttivo, nel senso della costruzione del significato di ciò che viene letto, così da interagire con il testo. In questo modo la lettura profonda contribuisce allo sviluppo di competenze non solo cognitive ma anche sociali e relazionali, fondate sulla mentalizzazione. Il trasporto emozionale generato dalla lettura profonda produce in chi legge benessere ed empatia (Detti, 2013). Il piacere sperimentato durante la Flow Experience richiama quello provato da piccoli nell’ascolto di una storia letta dal caregiver. Sono dunque in primis gli adulti che si prendono cura dei bambini e delle bambine (genitori, nonni, nonne, educatori, educatrici…) che nel leggere ad alta voce fanno nascere in loro la passione per il libro e per la lettura. Presentando in maniera giocosa il libro lo fanno diventare ai loro occhi un oggetto affascinante, misterioso, generatore di divertimento (Catarsi, 2001). Grazie a queste evidenze scientifiche le strategie istituzionali portate avanti a livello globale hanno fatto della promozione della lettura in famiglia uno degli strumenti chiave per contrastare le disuguaglianze educative e favorire l’equità e i valori dell’uguaglianza, della tolleranza e della multiculturalità sin dalla prima infanzia (Forum del Libro, 2014; UNESCO, 2004). Iniziative come “Reach Out and Read” negli Stati Uniti o i programmi di book gifting del Regno Unito dimostrano l’efficacia di tali interventi (Caso, 2024). Anche in Italia si è progressivamente affermata una maggiore sensibilità verso la tematica dell’importanza della lettura nell’infanzia, sostenuta dall’azione di enti come il Centro per il Libro e la Lettura (Cepell). La pedagogia italiana, infatti, a partire soprattutto dagli studi di Mario Lodi, Gianni Rodari, Loris Malaguzzi, Enzo Catarsi, ha sempre riconosciuto alla dimensione narrativa un ruolo centrale nella costruzione del - l’identità e della relazione educativa. In quanto spazio di dialogo e di riconoscimento reciproco, la lettura ad alta voce consente a bambini e bambine non solo di arricchire il proprio vocabolario, ma anche di favorirne la regolazione emotiva, e di ampliare i loro valori e le loro visioni del mondo (Batini et al., 2021). Praticata in famiglia in modo con- tinuativo essa si configura come un’azione educativa che rafforza il senso di appartenenza familiare e la fi- ducia tra generazioni. Nello scenario contemporaneo, segnato da situazioni crescenti di povertà educativa, la promozione della lettura in ambito domestico è da considerare un intervento di riduzione del divario di accesso alla cultura scritta, mirando a garantire a tutti i bambini e a tutte le bambine – indipendente - mente dal contesto socioeconomico di provenienza – le stesse opportunità di crescita culturale. Il presente articolo illustra l’analisi dei primi risultati di una ricerca-azione-formazione condotta dal - l’Università degli Studi di Firenze nell’ambito del progetto toscano “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”, un esempio virtuoso di intervento sistemico per la diffusione della lettura ad alta voce nei vari contesti di educazione, istruzione e formazione. 119 Volume 4 | n. 1 | giugno 2025 | pp. 117-128Effetti di Lettu",
+        "body_language_guess": "it",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza”",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-04-28",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-04-28",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": "Clara Maria Silva, Giada Prisco",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Clara Maria Silva, Giada Prisco",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "copyright_year": {
+          "page_value": "2025",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8018\\2785-7050_8018.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "it",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "it",
+          "article_language": "it",
+          "internal_resource_language": "it",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "it",
+        "original_internal_language": "it",
+        "chosen_language": "it",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura in famiglia fin dalla prima infanzia: l’impegno della Regione Toscana attraverso il progetto “Leggere: Forte! Ad alta voce fa crescere l’intelligenza",
+            "dropped_source": "locale:en_US:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "Reading in the family from early childhood: the Tuscany Region’s commitment through the project “Leggere: Forte! Reading aloud increases intelligence”",
+            "dropped_source": "meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Reading in the family from early childhood: the Tuscany Region’s commitment through the project “Leggere: Forte! Reading aloud increases intelligence”",
+            "dropped_source": "locale:it_IT:meta:DC.Title.Alternative",
+            "kept_source": "locale:en_US:meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Reading aloud in the family from an early age plays a key role in the cognitive, emotional and relational development of children. Numerous international studie",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "La lettura ad alta voce in famiglia fin dalla più tenera età svolge un ruolo fondamentale nello sviluppo cognitivo, emotivo e relazionale dei bambini e delle ba",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}

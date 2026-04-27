@@ -1,0 +1,965 @@
+{
+  "source_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8462",
+  "scraped_at_utc": "2026-04-27T18:49:57Z",
+  "fetched_at_utc": "2026-04-27T18:49:57Z",
+  "source_mode": "live_url",
+  "source_html_sha256": "7e45180133dc5af05f33aaf38940485ab9396e246565f9cb02b723f6219ba76d",
+  "extractor_version": "0.7.9",
+  "strategy": {
+    "mode": "metadata-first, deterministic, OpenAIRE-aligned export plus richer internal JSON",
+    "priority": [
+      "citation_* meta",
+      "DC.* meta",
+      "visible DOM fallback",
+      "explicit null/[]"
+    ],
+    "title_policy": "Single export title only. Multilingual or alternative titles are preserved in internal.title_variants.",
+    "language_policy": "dc:language is treated as the resource language. Multilingual metadata literal languages are tracked separately in internal.metadata_languages.",
+    "dates_policy": "Export dates are limited to Accepted, Available, Issued. Available falls back to Issued when absent. Submitted, Created and Modified stay in internal.internal_dates.",
+    "alternate_identifier_policy": "Internal article IDs are not exported as OpenAIRE alternateIdentifiers; they are preserved only in internal.article_ID/object_ID.",
+    "description_policy": "Preserve multilingual DC.Description entries when present.",
+    "files_policy": "citation_pdf_url is preferred for oaire:file/fulltext extraction; viewer URLs are deterministically converted to download URLs for internal PDF assets and local PDF saving.",
+    "references_policy": "All citation_reference values are preserved as supplemental data; no promotion to OpenAIRE relatedIdentifier.",
+    "warning_diagnostics_policy": "If enabled, warnings can trigger an advisory OpenAI call with automatic second attempt and user-controlled further retry loop; AI output is supplemental and never mutates extracted metadata automatically."
+  },
+  "article": {
+    "title": {
+      "datacite:title": "Podagogy: turning podcast hype into real learning gains",
+      "titleType": null,
+      "source": "meta:citation_title"
+    },
+    "creators": [
+      {
+        "creatorName": "Andrea Laudadio",
+        "nameType": "Personal",
+        "givenName": "Andrea",
+        "familyName": "Laudadio",
+        "nameIdentifiers": [],
+        "affiliations": [
+          "Head of TIM Academy | TIM SpA"
+        ],
+        "source": "meta:citation_author(+citation_author_institution/+citation_author_orcid)"
+      }
+    ],
+    "contributors": [],
+    "fundingReferences": [],
+    "alternateIdentifiers": [
+      {
+        "value": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8462",
+        "alternateIdentifierType": "URL",
+        "source": "meta:citation_abstract_html_url"
+      }
+    ],
+    "relatedIdentifiers": [],
+    "dates": [
+      {
+        "value": "2025-12-30",
+        "dateType": "Available",
+        "source": "fallback:Issued"
+      },
+      {
+        "value": "2025-12-30",
+        "dateType": "Issued",
+        "source": "existing"
+      }
+    ],
+    "datesByType": {
+      "Available": "2025-12-30",
+      "Issued": "2025-12-30"
+    },
+    "language": {
+      "value": "en",
+      "source": "pdf:body_language_guess"
+    },
+    "publisher": {
+      "value": null,
+      "source": null
+    },
+    "resourceType": {
+      "value": "journal article",
+      "resourceTypeGeneral": "literature",
+      "uri": "http://purl.org/coar/resource_type/c_6501",
+      "source": "meta:DC.Type",
+      "local_article_type": "Articoli"
+    },
+    "descriptions": [
+      {
+        "value": "Podcasts have become a popular medium for asynchronous learning, yet the efficacy of this approach remains a subject of debate. This integrative review synthesises 42 primary studies and 12 systematic reviews with the objective of evaluating learning outcomes and knowledge retention. The analysis yielded immediate knowledge gains in specific contexts (e.g., 6–20% in assessments), with Content Acquisition Podcasts (CAPs) and structured language learning demonstrating robust efficacy. However, a multitude of substantial reviews have documented effects that are modest, non-significant, or trivial (d = 0.19). Furthermore, several controlled trials have found no significant differences when compared with traditional instruction. The evidence for short-term retention (i.e. ≤ 30 days) is moderate and generally non-inferior; however, confidence in long-term retention (&gt; 30 days) and performance transfer remains low. Theory-driven design makes podcasts an effective supplement, yet they do not consistently surpass traditional methods. There is a clear need for more robust longitudinal studies.",
+        "lang": "en",
+        "source": "meta:DC.Description"
+      },
+      {
+        "value": "I podcast si sono affermati come un diffuso strumento per l’apprendimento asincrono, tuttavia la loro efficacia rimane un tema dibattuto. Questa revisione sistematica della letteratura analizza 42 studi primari e 12 revisioni sistematiche al fine di valutare gli esiti di apprendimento e la ritenzione delle conoscenze. L’analisi ha rivelato guadagni di conoscenza immediati in contesti specifici (es. 6–20% nelle valutazioni), con i Content Acquisition Podcasts (CAPs) e l’apprendimento linguistico strutturato che dimostrano una solida efficacia. Ciononostante, numerose revisioni sistematiche hanno documentato effetti modesti, non significativi o trascurabili (d = 0.19). Diversi studi controllati, inoltre, non hanno rilevato differenze significative rispetto ai metodi di istruzione tradizionali. Le evidenze sulla ritenzione a breve termine (≤ 30 giorni) sono moderate e generalmente non inferiori; tuttavia, la fiducia nella ritenzione a lungo termine (&gt; 30 giorni) e nel trasferimento delle competenze è bassa. L’uso di una progettazione basata su teorie dell’apprendimento rende i podcast un efficace strumento supplementare, ma non garantisce un superamento sistematico delle metodologie tradizionali. Emerge con chiarezza la necessità di studi longitudinali più robusti.",
+        "lang": "it",
+        "source": "meta:DC.Description"
+      }
+    ],
+    "format": {
+      "value": "application/pdf",
+      "source": "meta:DC.Format"
+    },
+    "resourceIdentifier": {
+      "value": "10.7347/EdL-02-2025-06",
+      "identifierType": "DOI",
+      "source": "meta:citation_doi"
+    },
+    "accessRights": {
+      "value": "open access",
+      "rightsURI": "http://purl.org/coar/access_right/c_abf2",
+      "source": "html:creativecommons-link"
+    },
+    "source": {
+      "journal_title": "Effetti di lettura.",
+      "journal_title_raw": "Effetti di lettura / Effects of reading",
+      "journal_title_source": "issn_portal:title_proper",
+      "journal_abbrev": "edl",
+      "issn": "2785-7050",
+      "uri": "https://ojs.pensamultimedia.it/index.php/edl",
+      "volume": "4",
+      "issue": "2",
+      "source_string": "Effetti di lettura.",
+      "source_string_source": "issn_portal:title_proper"
+    },
+    "subjects": [
+      {
+        "value": "podcast",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "tecnologia didattica",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "risultati dell’apprendimento",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "mantenimento delle conoscenze",
+        "lang": "it",
+        "source": "meta:citation_keywords"
+      },
+      {
+        "value": "podcasts",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "educational technology",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "learning outcomes",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      },
+      {
+        "value": "knowledge retention",
+        "lang": "en",
+        "source": "locale:en_US:meta:citation_keywords"
+      }
+    ],
+    "licenseCondition": {
+      "value": "4.0",
+      "uri": "https://creativecommons.org/licenses/by/4.0",
+      "source": "html:creativecommons-link"
+    },
+    "copyright": {
+      "holder": null,
+      "holder_source": "none",
+      "year": null,
+      "year_source": "none"
+    },
+    "coverage": null,
+    "size": null,
+    "geoLocation": [],
+    "resourceVersion": null,
+    "files": [
+      {
+        "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8462/7449",
+        "mimeType": "application/pdf",
+        "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+        "objectType": "fulltext",
+        "source": "meta:citation_pdf_url"
+      }
+    ],
+    "citation": {
+      "citationTitle": "Effetti di lettura.",
+      "citationVolume": "4",
+      "citationIssue": "2",
+      "citationStartPage": "090",
+      "citationEndPage": "104",
+      "citationEdition": null,
+      "citationConferencePlace": null,
+      "citationConferenceDate": null,
+      "citationString": "Laudadio, A. (2025). Podagogia: trasformare l’entusiasmo per i podcast in reali vantaggi per l’apprendimento. Effetti Di Lettura / Effects of Reading , 4 (2), 090–104. https://doi.org/10.7347/EdL-02-2025-06",
+      "articleTitleEcho": "Podagogy: turning podcast hype into real learning gains"
+    },
+    "audience": null,
+    "references": {
+      "items": [
+        "Abdous, M., Camarena, M. M., & Facer, B. R. (2009). MALL technology: Use of academic podcasting in the foreign language classroom. ReCALL, 21(1), 76–95. https://doi.org/10.1017/S0958344009000020",
+        "Abt, G., & Barry, T. (2007). The quantitative effect of students using podcasts in a first year undergraduate exercise physiology module. Bioscience Education, 10(1). https://doi.org/10.3108/beej.10.1",
+        "Baker, J. W., Green, S., & Friedman-Wheeler, D. (2007). Podcasting for continuing education: A case study. Educational Technology Research and Development, 55(5), 453–470. https://doi.org/10.1007/s11423-007-9047-y",
+        "Cho, D., Cosimini, M., & Espinoza, J. (2017). Podcasting in medical education: A review of the literature. Korean Journal of Medical Education, 29(4), 229–239. https://doi.org/10.3946/kjme.2017.69",
+        "Davis, F. D. (1989). Perceived usefulness, perceived ease of use, and user acceptance of information technology. MIS Quarterly, 13(3), 319–340. https://doi.org/10.2307/249008",
+        "Désiron, J. C., & Schneider, S. (2024). Listen closely: Prosodic signals in podcast support learning. Computers & Education, 218, 105051. https://doi.org/10.1016/j.compedu.2024.105051",
+        "Do, T. D., Shafqat, U. B., Ling, E., & Sarda, N. (2024). PAIGE: Examining learning outcomes and experiences with personalized AI-generated educational podcasts. arXiv preprint. https://doi.org/10.48550/arxiv.2409.04645",
+        "Evans, C. (2008). The effectiveness of m-learning in the form of podcast revision lectures in higher education. Computers & Education, 50(2), 491–498. https://doi.org/10.1016/j.compedu.2007.09.016",
+        "Gottlieb, M., Cooney, R., Haas, M. R. C., King, A., Fung, C.-C., & Riddell, J. (2023). A randomized trial assessing the effect of exercise on residents’ podcast knowledge acquisition and retention. Academic Medicine, 99(3), 312–318. https://doi.org/10.1097/acm.0000000000005592",
+        "Gottlieb, M., Fung, C.-C., Haas, M. R. C., Cooney, R., King, A., & Riddell, J. (2024). Educational podcasts: Effect of content delivery timing on knowledge acquisition and retention. Academic Medicine, 99(7), 789–795. https://doi.org/10.1097/acm.0000000000005722",
+        "Hasan, M. M., & Hoon, T. B. (2013). Podcast applications in language learning: A review of recent studies. English Language Teaching, 6(2), 128–135. https://doi.org/10.5539/elt.v6n2p128",
+        "Heilesen, S. (2010). What is the academic efficacy of podcasting? Computers & Education, 55(3), 1063–1068. https://doi.org/10.1016/j.compedu.2010.05.002",
+        "Hew, K. F. (2009). Use of audio podcast in K-12 and higher education: A review of research topics and methodologies. Educational Technology Research and Development, 57(3), 333–357. https://doi.org/10.1007/s11423-008-9108-3",
+        "Hosseini, S. E., & Ghaemi, H. (2025). The impact of podcast-integrated speaking instruction on EFL learners’ informal digital learning of English, academic engagement, and speaking skills. Acta Psychologica, 251, 104718. https://doi.org/10.1016/j.actpsy.2024.104718",
+        "Indahsari, D. (2020). Using podcast for EFL students in language learning. JELE (Journal of English Language and Education), 6(2), 97–106. https://doi.org/10.26486/jele.v6i2.1403",
+        "Kakhki, S. T., Ebadi, A., & Vanaki, Z. (2025). The effect of podcast-based education on health outcomes: A systematic review. Journal of Education and Health Promotion, 14(1), 13. https://doi.org/10.4103/jehp.jehp_1089_23",
+        "Kay, R. H. (2012). Exploring the use of video podcasts in education: A comprehensive review of the literature. Computers in Human Behavior, 28(3), 820–831. https://doi.org/10.1016/j.chb.2012.01.011",
+        "Kay, R. H. (2014). Developing a framework for creating effective instructional video podcasts. International Journal of Emerging Technologies in Learning, 9(1), 22–30. https://doi.org/10.3991/ijet.v9i1.3335",
+        "Kennedy, M. J. (2020). Content acquisition podcasts to support secondary students with and without learning disabilities in acquiring academic vocabulary [Doctoral dissertation, University of Kansas]. KU ScholarWorks. https://kuscholarworks.ku.edu/handle/1808/30934",
+        "Kennedy, M. J., & Thomas, C. N. (2012). Effects of content acquisition podcasts to develop preservice teachers’ knowledge of positive behavioral interventions and supports. Exceptionality, 20(1), 1–19. https://doi.org/10.1080/09362835.2012.640901",
+        "Lakhal, S., Khechine, H., & Pascot, D. (2007). Student behavioural intentions to use desktop video conferencing in a distance course: Integration of autonomy to the UTAUT model. Journal of Computing in Higher Education, 19(1), 93–121. https://doi.org/10.1007/BF03033421",
+        "Lien, K., Chin, A., Helman, A., & Chan, T. M. (2018). A randomized comparative trial of the knowledge retention and usage conditions in undergraduate medical students using podcasts and blog posts. Cureus, 10(1), e2065. https://doi.org/10.7759/CUREUS.2065",
+        "Mayer, R. E. (2014). The Cambridge handbook of multimedia learning (2nd ed.). Cambridge University Press.",
+        "McNamara, J. M., Sidor, A., & Biber, D. (2023). Content acquisition podcasts vs. open access podcasts: Improving preservice physical educators’ ability to teach students with visual impairments. Physical Education and Sport Pedagogy, 28(4), 423–437. https://doi.org/10.1080/17408989.2021.1990249",
+        "Merhi, M. I. (2015). Factors influencing higher education students to adopt podcast: An empirical study. Computers & Education, 83, 32–43. https://doi.org/10.1016/j.compedu.2014.12.014",
+        "Miller, B., & Uphold, N. (2021). Using content acquisition podcasts to improve preservice teacher use of behavior-specific praise. Teacher Education and Special Education, 44(4), 300–318. https://doi.org/10.1177/08884064211007134",
+        "O’Bannon, B. W., Lubke, J. K., Beard, J. L., & Britt, V. G. (2011). Using podcasts to replace lecture: Effects on student achievement. Computers & Education, 57(3), 1885–1892. https://doi.org/10.1016/j.compedu.2011.04.001",
+        "O’Neill, S., Deegan, J., Ramjit, S., Reynolds, J. V., & Donohoe, C. L. (2023). ‘SurgTalk’: The educational outcomes associated with development of a surgical podcast for undergraduate medical students. Journal of Surgical Education, 81(2), 298–305. https://doi.org/10.1016/j.jsurg.2023.10.008",
+        "Pierce, N. E. (2022). Learning through listening: A scoping review of podcast use in medical education. Academic Medicine, 97(9), 1289–1297. https://doi.org/10.1097/acm.0000000000004565",
+        "Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. Cognitive Science, 12(2), 257–285.",
+        "Wang, S., Meckling, G., Hanafi, S., Kasbia, G. S., Singhal, N., Zhou, C., & Raben, A. (2023). The effects of podcasts on medical education: A systematic review. Preprint. https://doi.org/10.21203/rs.3.rs-3297034/v1",
+        "Whittemore, R., & Knafl, K. (2005). The integrative review: Updated methodology. Journal of Advanced Nursing, 52(5), 546–553. https://doi.org/10.1111/j.1365-2648.2005.03621.x",
+        "Wolpaw, J., Ozsoy, S., Berenholtz, S., Wright, S., Bowen, K., Gogula, S., Lee, S., & Toy S. (2022). A multimodal evaluation of podcast learning, retention, and electroencephalographically measured attention in medical trainees. Cureus, 14(11), e31289. https://doi.org/10.7759/cureus.31289"
+      ],
+      "count": 33,
+      "source": "meta:citation_reference"
+    }
+  },
+  "internal": {
+    "object_ID": "2785-7050_8462",
+    "article_ID": "8462",
+    "slug": "8462",
+    "journal_key": "2785-7050",
+    "raw_identifiers": {
+      "DC.Identifier": "8462",
+      "url_slug": "8462"
+    },
+    "resource_language": "en",
+    "title_variants": [
+      {
+        "value": "Podagogy: turning podcast hype into real learning gains",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:citation_title"
+      },
+      {
+        "value": "Podagogia: trasformare l’entusiasmo per i podcast in reali vantaggi per l’apprendimento",
+        "lang": "en",
+        "role": "main",
+        "source": "meta:DC.Title"
+      }
+    ],
+    "metadata_languages": {
+      "resource_language": "en",
+      "title_literal_languages": [
+        "en"
+      ],
+      "description_literal_languages": [
+        "en",
+        "it"
+      ],
+      "subject_literal_languages_raw": [
+        "it",
+        "en"
+      ],
+      "all_literal_languages": [
+        "en",
+        "it"
+      ]
+    },
+    "internal_dates": {
+      "submitted": "2025-10-24",
+      "accepted": null,
+      "created": "2025-12-30",
+      "modified": "2025-12-30",
+      "issued": "2025-12-30",
+      "available": "2025-12-30",
+      "submitted_page": "2025-10-24",
+      "submitted_pdf": null,
+      "accepted_page": null,
+      "accepted_pdf": null
+    },
+    "resolved_metadata": {
+      "title": {
+        "field": "title",
+        "page_value": "Podagogy: turning podcast hype into real learning gains",
+        "pdf_value": null,
+        "chosen_value": "Podagogy: turning podcast hype into real learning gains",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-10-24",
+        "pdf_value": null,
+        "chosen_value": "2025-10-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_assets": {
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8462/7449",
+      "local_relative_path": "2785-7050_8462.pdf",
+      "saved": true,
+      "sha256": "4640d24292436e7b8404552bcbcc8124c4e0566210ab93291bcd421e144005e0",
+      "mimeType": "application/pdf",
+      "http_status": 200,
+      "size_bytes": 876436,
+      "source": "meta:citation_pdf_url",
+      "error": null
+    }
+  },
+  "validation": {
+    "openaire_profile": {
+      "schema_loaded": true,
+      "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+      "missing_mandatory": [],
+      "compatibility_notes": [],
+      "notes": [
+        "Validation is limited to high-confidence mandatory field presence checks and export-profile compatibility checks.",
+        "The JSON may retain richer internal data outside the direct OpenAIRE export slice."
+      ]
+    },
+    "internal_output_schema": {
+      "schema_loaded": true,
+      "validator_available": true,
+      "valid": true,
+      "errors": [],
+      "schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+      "notes": []
+    }
+  },
+  "unmapped": {
+    "raw_meta_snapshot": {
+      "citation_journal_title": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "citation_journal_abbrev": [
+        "edl"
+      ],
+      "citation_issn": [
+        "2785-7050"
+      ],
+      "citation_author": [
+        "Andrea Laudadio"
+      ],
+      "citation_author_institution": [
+        "Head of TIM Academy | TIM SpA"
+      ],
+      "citation_author_orcid": [],
+      "citation_title": [
+        "Podagogy: turning podcast hype into real learning gains"
+      ],
+      "citation_language": [
+        "en"
+      ],
+      "citation_date": [
+        "2025/12/30"
+      ],
+      "citation_volume": [
+        "4"
+      ],
+      "citation_issue": [
+        "2"
+      ],
+      "citation_doi": [
+        "10.7347/EdL-02-2025-06"
+      ],
+      "citation_abstract_html_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8462"
+      ],
+      "citation_keywords": [
+        "podcast",
+        "tecnologia didattica",
+        "risultati dell’apprendimento",
+        "mantenimento delle conoscenze"
+      ],
+      "citation_pdf_url": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/download/8462/7449"
+      ],
+      "citation_reference_count": 33,
+      "DC.Date.created": [
+        "2025-12-30"
+      ],
+      "DC.Date.dateSubmitted": [
+        "2025-10-24"
+      ],
+      "DC.Date.issued": [
+        "2025-12-30"
+      ],
+      "DC.Date.modified": [
+        "2025-12-30"
+      ],
+      "DC.Description_count": 2,
+      "DC.Format": [
+        "application/pdf"
+      ],
+      "DC.Identifier": [
+        "8462"
+      ],
+      "DC.Identifier.DOI": [
+        "10.7347/EdL-02-2025-06"
+      ],
+      "DC.Identifier.URI": [
+        "https://ojs.pensamultimedia.it/index.php/edl/article/view/8462"
+      ],
+      "DC.Language": [
+        "en"
+      ],
+      "DC.Rights": [
+        "Copyright (c) 2025",
+        "https://creativecommons.org/licenses/by/4.0"
+      ],
+      "DC.Source": [
+        "Effetti di lettura / Effects of reading"
+      ],
+      "DC.Source.ISSN": [
+        "2785-7050"
+      ],
+      "DC.Source.Volume": [
+        "4"
+      ],
+      "DC.Source.Issue": [
+        "2"
+      ],
+      "DC.Subject_count": 4,
+      "DC.Title": [
+        "Podagogia: trasformare l’entusiasmo per i podcast in reali vantaggi per l’apprendimento"
+      ],
+      "DC.Title.Alternative": [
+        "Podagogia: trasformare l’entusiasmo per i podcast in reali vantaggi per l’apprendimento"
+      ],
+      "DC.Type": [
+        "Text.Serial.Journal"
+      ],
+      "DC.Type.articleType": [
+        "Articoli"
+      ]
+    },
+    "creator_raw": {
+      "citation_author": [
+        "Andrea Laudadio"
+      ],
+      "citation_author_institution": [
+        "Head of TIM Academy | TIM SpA"
+      ],
+      "citation_author_orcid": [],
+      "DC.Creator.PersonalName": [
+        "Andrea Laudadio"
+      ]
+    },
+    "description_raw": {
+      "DC.Description": [
+        {
+          "content": "Podcasts have become a popular medium for asynchronous learning, yet the efficacy of this approach remains a subject of debate. This integrative review synthesises 42 primary studies and 12 systematic reviews with the objective of evaluating learning outcomes and knowledge retention. The analysis yielded immediate knowledge gains in specific contexts (e.g., 6–20% in assessments), with Content Acquisition Podcasts (CAPs) and structured language learning demonstrating robust efficacy. However, a multitude of substantial reviews have documented effects that are modest, non-significant, or trivial (d = 0.19). Furthermore, several controlled trials have found no significant differences when compared with traditional instruction. The evidence for short-term retention (i.e. ≤ 30 days) is moderate and generally non-inferior; however, confidence in long-term retention (&gt; 30 days) and performance transfer remains low. Theory-driven design makes podcasts an effective supplement, yet they do not consistently surpass traditional methods. There is a clear need for more robust longitudinal studies.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "en",
+            "content": "Podcasts have become a popular medium for asynchronous learning, yet the efficacy of this approach remains a subject of debate. This integrative review synthesises 42 primary studies and 12 systematic reviews with the objective of evaluating learning outcomes and knowledge retention. The analysis yielded immediate knowledge gains in specific contexts (e.g., 6–20% in assessments), with Content Acquisition Podcasts (CAPs) and structured language learning demonstrating robust efficacy. However, a multitude of substantial reviews have documented effects that are modest, non-significant, or trivial (d = 0.19). Furthermore, several controlled trials have found no significant differences when compared with traditional instruction. The evidence for short-term retention (i.e. ≤ 30 days) is moderate and generally non-inferior; however, confidence in long-term retention (&gt; 30 days) and performance transfer remains low. Theory-driven design makes podcasts an effective supplement, yet they do not consistently surpass traditional methods. There is a clear need for more robust longitudinal studies."
+          }
+        },
+        {
+          "content": "I podcast si sono affermati come un diffuso strumento per l’apprendimento asincrono, tuttavia la loro efficacia rimane un tema dibattuto. Questa revisione sistematica della letteratura analizza 42 studi primari e 12 revisioni sistematiche al fine di valutare gli esiti di apprendimento e la ritenzione delle conoscenze. L’analisi ha rivelato guadagni di conoscenza immediati in contesti specifici (es. 6–20% nelle valutazioni), con i Content Acquisition Podcasts (CAPs) e l’apprendimento linguistico strutturato che dimostrano una solida efficacia. Ciononostante, numerose revisioni sistematiche hanno documentato effetti modesti, non significativi o trascurabili (d = 0.19). Diversi studi controllati, inoltre, non hanno rilevato differenze significative rispetto ai metodi di istruzione tradizionali. Le evidenze sulla ritenzione a breve termine (≤ 30 giorni) sono moderate e generalmente non inferiori; tuttavia, la fiducia nella ritenzione a lungo termine (&gt; 30 giorni) e nel trasferimento delle competenze è bassa. L’uso di una progettazione basata su teorie dell’apprendimento rende i podcast un efficace strumento supplementare, ma non garantisce un superamento sistematico delle metodologie tradizionali. Emerge con chiarezza la necessità di studi longitudinali più robusti.",
+          "attrs": {
+            "name": "DC.Description",
+            "xml:lang": "it",
+            "content": "I podcast si sono affermati come un diffuso strumento per l’apprendimento asincrono, tuttavia la loro efficacia rimane un tema dibattuto. Questa revisione sistematica della letteratura analizza 42 studi primari e 12 revisioni sistematiche al fine di valutare gli esiti di apprendimento e la ritenzione delle conoscenze. L’analisi ha rivelato guadagni di conoscenza immediati in contesti specifici (es. 6–20% nelle valutazioni), con i Content Acquisition Podcasts (CAPs) e l’apprendimento linguistico strutturato che dimostrano una solida efficacia. Ciononostante, numerose revisioni sistematiche hanno documentato effetti modesti, non significativi o trascurabili (d = 0.19). Diversi studi controllati, inoltre, non hanno rilevato differenze significative rispetto ai metodi di istruzione tradizionali. Le evidenze sulla ritenzione a breve termine (≤ 30 giorni) sono moderate e generalmente non inferiori; tuttavia, la fiducia nella ritenzione a lungo termine (&gt; 30 giorni) e nel trasferimento delle competenze è bassa. L’uso di una progettazione basata su teorie dell’apprendimento rende i podcast un efficace strumento supplementare, ma non garantisce un superamento sistematico delle metodologie tradizionali. Emerge con chiarezza la necessità di studi longitudinali più robusti."
+          }
+        }
+      ],
+      "citation_abstract": null
+    },
+    "subject_raw": {
+      "citation_keywords": [
+        {
+          "content": "podcast",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "podcast"
+          }
+        },
+        {
+          "content": "tecnologia didattica",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "tecnologia didattica"
+          }
+        },
+        {
+          "content": "risultati dell’apprendimento",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "risultati dell’apprendimento"
+          }
+        },
+        {
+          "content": "mantenimento delle conoscenze",
+          "attrs": {
+            "name": "citation_keywords",
+            "xml:lang": "it",
+            "content": "mantenimento delle conoscenze"
+          }
+        }
+      ],
+      "DC.Subject": []
+    },
+    "file_raw": {
+      "items": [
+        {
+          "url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8462/7449",
+          "mimeType": "application/pdf",
+          "accessRightsURI": "http://purl.org/coar/access_right/c_abf2",
+          "objectType": "fulltext",
+          "source": "meta:citation_pdf_url"
+        }
+      ],
+      "raw_pdf_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8462/7449",
+      "raw_dom_pdf_url": null,
+      "viewer_url": null,
+      "effective_download_url": "https://ojs.pensamultimedia.it/index.php/edl/article/download/8462/7449",
+      "raw_dc_format": "application/pdf",
+      "effective_source": "meta:citation_pdf_url"
+    },
+    "pdf_editorial_dates": {
+      "submitted_pdf": null,
+      "accepted_pdf": null,
+      "copyright_holder_pdf": null,
+      "copyright_year_pdf": null,
+      "license_url_pdf": null,
+      "embedded_metadata": {
+        "title": "Layout 1",
+        "author": "iMac21",
+        "subject": null,
+        "creator": "QuarkXPress(R) 18.01",
+        "producer": "QuarkXPress(R) 18.01",
+        "keywords": null,
+        "creation_date": "2025-12-23",
+        "mod_date": "2025-12-23"
+      },
+      "front_text_excerpt": "ABSTRACT Podcasts have become a popular medium for asynchronous learning, yet the efficacy of this approach remains a subject of debate. This in- tegrative review synthesises 42 primary studies and 12 systematic reviews with the objective of evaluating learning outcomes and knowledge retention. The analysis yielded immediate knowledge gains in specific contexts (e.g., 6–20% in assessments), with Content Acquisition Pod- casts (CAPs) and structured language learning demonstrating robust efficacy. However, a multitude of substantial reviews have documented effects that are modest, non-significant, or trivial (d = 0.19). Furthermore, several controlled trials have found no significant differences when compared with traditional instruction. The evidence for short-term retention (i.e.  30 days) is moderate and generally non-inferior; however, confidence in long-term retention (> 30 days) and performance transfer remains low. Theory-driven design makes podcasts an effective sup- plement, yet they do not consistently surpass traditional methods. There is a clear need for more robust longitudinal studies. Keywords: podcasts, educational technology, learning outcomes, knowledge retention I podcast si sono affermati come un diffuso strumento per l’apprendimento asincrono, tuttavia la loro efficacia rimane un tema dibattuto. Questa revisione sistematica della letteratura analizza 42 studi primari e 12 revisioni sistematiche al fine di valutare gli esiti di apprendimento e la ritenzione delle conoscenze. L ’analisi ha rivelato guadagni di conoscenza immediati in contesti specifici (es. 6–20% nelle valutazioni), con i Content Acquisition Podcasts (CAPs) e l’apprendimento linguistico strutturato che dimostrano una solida efficacia. Cionon ostante, numerose revisioni sistematiche hanno documentato effetti modesti, non significativi o trascurabili (d = 0.19). Diversi studi c ontrollati, inoltre, non hanno rilevato differenze significative rispetto ai metodi di istruzione tradizionali. Le evidenze sulla ritenzion e a breve termine ( 30 giorni) sono moderate e generalmente non inferiori; tuttavia, la fiducia nella ritenzione a lungo termine (> 30 giorni) e nel trasferimento delle competenze è bassa. L ’uso di una progettazione basata su teorie dell’apprendimento rende i podcast un efficace strumento supplementare, ma non garantisce un superamento sistematico delle metodologie tradizionali. Emerge con chiarezza la necessità di studi longitu dinali più robusti. Parole chiave: podcast, tecnologia didattica, risultati dell’apprendimento, mantenimento delle conoscenze Citation: Laudadio, A. (2025). Podagogy: turning podcast hype into real learning gains. Effetti di Lettura / Effects of Reading, 4 (2), 90-104. https://doi.org/10.7347/EdL-02-2025-06. Corresponding Author: Andrea Laudadio | andrea@laudadio.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-06 Authorship/Attribuzioni: Andrea Laudadio Head of TIM Academy | TIM SpA | andrea@laudadio.it Double blind peer review Podagogy: turning podcast hype into real learning gains Podagogia: trasformare l’entusiasmo per i podcast in reali vantaggi per l’apprendimento Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+      "source": "C:\\dev\\SCRAPER\\output\\2785-7050\\8462\\2785-7050_8462.pdf",
+      "error": null
+    },
+    "page_rights": {
+      "copyright_holder_page": null,
+      "copyright_year_page": null,
+      "raw_dc_rights": [
+        "Copyright (c) 2025",
+        "https://creativecommons.org/licenses/by/4.0"
+      ]
+    },
+    "resolution_log": {
+      "title": {
+        "field": "title",
+        "page_value": "Podagogy: turning podcast hype into real learning gains",
+        "pdf_value": null,
+        "chosen_value": "Podagogy: turning podcast hype into real learning gains",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "submitted": {
+        "field": "submitted_date",
+        "page_value": "2025-10-24",
+        "pdf_value": null,
+        "chosen_value": "2025-10-24",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      },
+      "accepted": {
+        "field": "accepted_date",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_holder": {
+        "field": "copyright_holder",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "copyright_year": {
+        "field": "copyright_year",
+        "page_value": null,
+        "pdf_value": null,
+        "chosen_value": null,
+        "chosen_source": "none",
+        "discrepancy": false,
+        "ai_reason": "Valore assente in entrambe le fonti.",
+        "confidence": 1.0,
+        "controversial": false
+      },
+      "license_url": {
+        "field": "license_url",
+        "page_value": "https://creativecommons.org/licenses/by/4.0",
+        "pdf_value": null,
+        "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+        "chosen_source": "page",
+        "discrepancy": true,
+        "ai_reason": "PDF non offre un valore utilizzabile.",
+        "confidence": 0.95,
+        "controversial": false
+      }
+    },
+    "pdf_ai_resolution": null,
+    "raw_dc_rights": [
+      "Copyright (c) 2025",
+      "https://creativecommons.org/licenses/by/4.0"
+    ],
+    "tdm_notice": null,
+    "dc_context": {
+      "dc_type": "Text.Serial.Journal",
+      "dc_article_type": "Articoli",
+      "meta_generator": "Open Journal Systems 3.3.0.14"
+    },
+    "html_title": "Podagogia: trasformare l’entusiasmo per i podcast in reali vantaggi per l’apprendimento | Effetti di lettura / Effects of reading",
+    "warnings": [],
+    "warning_objects": [],
+    "ai_diagnostics": null,
+    "transport": {
+      "requested_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8462",
+      "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8462",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "last_modified_header": null,
+      "etag_header": null,
+      "retrieved_at_utc": "2026-04-27T18:49:57Z"
+    },
+    "schema_profile_name": "OpenAIRE Guidelines for Literature Repository Managers v4.0.0",
+    "internal_schema_title": "SEA OJS/OpenAIRE extractor output profile v2.0",
+    "locale_sweep": {
+      "enabled": true,
+      "generated_at_utc": "2026-04-27T18:49:58Z",
+      "variants": [
+        {
+          "locale": "en_US",
+          "lang": "en",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/en_US?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8462",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8462",
+          "added_titles": 1,
+          "added_descriptions": 1,
+          "added_subjects": 4,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        },
+        {
+          "locale": "it_IT",
+          "lang": "it",
+          "status": "ok",
+          "set_locale_url": "https://ojs.pensamultimedia.it/index.php/edl/user/setLocale/it_IT?source=%2Findex.php%2Fedl%2Farticle%2Fview%2F8462",
+          "final_url": "https://ojs.pensamultimedia.it/index.php/edl/article/view/8462",
+          "added_titles": 2,
+          "added_descriptions": 1,
+          "added_subjects": 0,
+          "raw_counts": {
+            "title_variants": 2,
+            "descriptions": 2,
+            "subjects": 4
+          }
+        }
+      ],
+      "policy": "Localized OJS pages are harvested through /user/setLocale links. Literal fields from localized pages are added as candidates for titles, descriptions, and subjects; hard bibliographic fields are not overwritten by locale sweep."
+    },
+    "pdf_compare_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8462\\2785-7050_8462.pdf_compare.json",
+    "pdf_first_page_merge": {
+      "generated_at_utc": "2026-04-27T18:50:00Z",
+      "source_pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8462\\2785-7050_8462.pdf",
+      "mode": "rule_based_pdf_merge",
+      "page_candidates": {
+        "title": "Podagogy: turning podcast hype into real learning gains",
+        "submitted_date": "2025-10-24",
+        "accepted_date": null,
+        "copyright_holder": null,
+        "copyright_year": null,
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "publisher": null,
+        "journal_title": "Effetti di lettura.",
+        "resource_language": "en",
+        "creator_names": [
+          "Andrea Laudadio"
+        ]
+      },
+      "pdf_first_page": {
+        "pdf_path": "C:\\dev\\SCRAPER\\output\\2785-7050\\8462\\2785-7050_8462.pdf",
+        "generated_at_utc": "2026-04-27T18:49:59Z",
+        "reader_available": true,
+        "embedded_metadata": {
+          "title": "Layout 1",
+          "author": "iMac21",
+          "subject": null,
+          "creator": "QuarkXPress(R) 18.01",
+          "producer": "QuarkXPress(R) 18.01",
+          "keywords": null,
+          "creation_date": "2025-12-23",
+          "mod_date": "2025-12-23"
+        },
+        "front_text_excerpt": "ABSTRACT Podcasts have become a popular medium for asynchronous learning, yet the efficacy of this approach remains a subject of debate. This in- tegrative review synthesises 42 primary studies and 12 systematic reviews with the objective of evaluating learning outcomes and knowledge retention. The analysis yielded immediate knowledge gains in specific contexts (e.g., 6–20% in assessments), with Content Acquisition Pod- casts (CAPs) and structured language learning demonstrating robust efficacy. However, a multitude of substantial reviews have documented effects that are modest, non-significant, or trivial (d = 0.19). Furthermore, several controlled trials have found no significant differences when compared with traditional instruction. The evidence for short-term retention (i.e.  30 days) is moderate and generally non-inferior; however, confidence in long-term retention (> 30 days) and performance transfer remains low. Theory-driven design makes podcasts an effective sup- plement, yet they do not consistently surpass traditional methods. There is a clear need for more robust longitudinal studies. Keywords: podcasts, educational technology, learning outcomes, knowledge retention I podcast si sono affermati come un diffuso strumento per l’apprendimento asincrono, tuttavia la loro efficacia rimane un tema dibattuto. Questa revisione sistematica della letteratura analizza 42 studi primari e 12 revisioni sistematiche al fine di valutare gli esiti di apprendimento e la ritenzione delle conoscenze. L ’analisi ha rivelato guadagni di conoscenza immediati in contesti specifici (es. 6–20% nelle valutazioni), con i Content Acquisition Podcasts (CAPs) e l’apprendimento linguistico strutturato che dimostrano una solida efficacia. Cionon ostante, numerose revisioni sistematiche hanno documentato effetti modesti, non significativi o trascurabili (d = 0.19). Diversi studi c ontrollati, inoltre, non hanno rilevato differenze significative rispetto ai metodi di istruzione tradizionali. Le evidenze sulla ritenzion e a breve termine ( 30 giorni) sono moderate e generalmente non inferiori; tuttavia, la fiducia nella ritenzione a lungo termine (> 30 giorni) e nel trasferimento delle competenze è bassa. L ’uso di una progettazione basata su teorie dell’apprendimento rende i podcast un efficace strumento supplementare, ma non garantisce un superamento sistematico delle metodologie tradizionali. Emerge con chiarezza la necessità di studi longitu dinali più robusti. Parole chiave: podcast, tecnologia didattica, risultati dell’apprendimento, mantenimento delle conoscenze Citation: Laudadio, A. (2025). Podagogy: turning podcast hype into real learning gains. Effetti di Lettura / Effects of Reading, 4 (2), 90-104. https://doi.org/10.7347/EdL-02-2025-06. Corresponding Author: Andrea Laudadio | andrea@laudadio.it Journal Homepage: https://ojs.pensamultimedia.it/index.php/edl Pensa MultiMedia ISSN 2785-7050 | DOI: 10.7347/EdL-02-2025-06 Authorship/Attribuzioni: Andrea Laudadio Head of TIM Academy | TIM SpA | andrea@laudadio.it Double blind peer review Podagogy: turning podcast hype into real learning gains Podagogia: trasformare l’entusiasmo per i podcast in reali vantaggi per l’apprendimento Volume 4 | n. 2 | dicembre 2025 Effetti di Lettura Effects of Reading",
+        "body_language_sample_page": 3,
+        "body_text_excerpt": "teaching methods in controlled studies? (RQ4) What implementation factors and contextual moderators influence podcast effectiveness? 2. Methods 2.1 Study Design and Protocol The present review follows the five-stage integrative review framework developed by Whittemore and Knafl (2005): problem identification, literature search, data evaluation, data analysis, and presentation. This methodology is particularly appropriate for this topic as it permits the synthesis of diverse study de- signs – including experimental trials, quasi-experimental studies, and qualitative analyses – whilst main - taining a structured approach to quality evaluation and data synthesis (Whittemore & Knafl, 2005). We completed the literature search in September 2025. 2.2. Search Strategy and Eligibility Criteria We employed a purposive search strategy, encompassing a comprehensive array of databases to attain bre- adth. A comprehensive search strategy was employed, incorporating major bibliographic databases such as PubMed/MEDLINE, Scopus, Web of Science, and ERIC (Education Resources Information Center), along with Google Scholar. The search timeframe was set from January 2010 to September 2025 to capture the most relevant modern literature, although highly cited foundational papers from before 2010 (e.g., Abt & Barry, 2007; Evans, 2008; Hew, 2009) were included from the reference lists of synthesized re - views. Keywords and search terms included variations of: Primary terms: podcast*, podcasting, educational podcast*, audio learning, content acquisition pod -– cast* Outcome terms: learning outcome*, knowledge retention, knowledge acquisition, academic perfor -– mance, effectiveness Context terms: education*, medical education, higher education, training, language learning – The screening process involved two stages (title/abstract review and full-text assessment) to identify re- levant empirical studies. The initial database search yielded 853 records. After removing 111 duplicates, 742 titles and abstracts were screened for relevance. Of these, 97 full-text articles were assessed for eligibility against the inclusion and exclusion criteria. Following full-text review, 43 articles were excluded due to: (a) absence of objective learning outcome measures (n = 21), (b) non-educational contexts (n = 10), (c) conference abstracts without full papers (n = 6), and (d) other reasons including language restrictions (n = 4). This process resulted in the final inclusion of 54 studies: 42 primary empirical studies and 12 syste- matic or scoping reviews. Inclusion criteria: Empirical studies (quantitative, qualitative, or mixed-methods) reporting objective learning outcomes; educational or training contexts; interventions involving audio or video podcasts; and published in English. We also included systematic and scoping reviews to synthesise a “review of reviews”. Exclusion criteria: Studies reporting only learner satisfaction (Kirkpatrick Level 1) without learning outcomes; non-educational contexts; and conference abstracts without full papers. 92 Volume 4 | n. 2 | dicembre 2025 | pp. 90-104Effetti di Lettura Effects of Reading",
+        "body_language_guess": "en",
+        "regex_candidates": {
+          "title": null,
+          "submitted_date": null,
+          "accepted_date": null,
+          "copyright_holder": null,
+          "copyright_year": null,
+          "license_url": null
+        },
+        "error": null
+      },
+      "pdf_fields": {
+        "title": {
+          "value": "Layout 1",
+          "confidence": 0.6,
+          "evidence": null,
+          "well_formed": true,
+          "use_allowed": false
+        },
+        "submitted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "accepted_date": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_holder": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "copyright_year": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        },
+        "license_url": {
+          "value": null,
+          "confidence": 0.0,
+          "evidence": null
+        }
+      },
+      "comparisons": {
+        "title": {
+          "page_value": "Podagogy: turning podcast hype into real learning gains",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "Podagogy: turning podcast hype into real learning gains",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "submitted_date": {
+          "page_value": "2025-10-24",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "2025-10-24",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        },
+        "accepted_date": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_holder": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "copyright_year": {
+          "page_value": null,
+          "pdf_value": null,
+          "preferred_source": "none",
+          "chosen_value": null,
+          "confidence": 1.0,
+          "controversial": false,
+          "reason": "Valore assente in entrambe le fonti."
+        },
+        "license_url": {
+          "page_value": "https://creativecommons.org/licenses/by/4.0",
+          "pdf_value": null,
+          "preferred_source": "page",
+          "chosen_value": "https://creativecommons.org/licenses/by/4.0",
+          "confidence": 0.95,
+          "controversial": false,
+          "reason": "PDF non offre un valore utilizzabile."
+        }
+      },
+      "ai_raw": {
+        "status": "skipped",
+        "reason": "OPENAI_API_KEY not found"
+      }
+    },
+    "conflict_log_temp_path": "C:\\dev\\SCRAPER\\temp\\2785-7050\\8462\\2785-7050_8462.conflicts.json",
+    "locale_quality": {
+      "canonical_language_hint": {
+        "value": "en",
+        "source": "pdf:body_language_guess",
+        "hints": {
+          "pdf_body_language": "en",
+          "article_language": "en",
+          "internal_resource_language": "en",
+          "description_language_guess": "it"
+        }
+      },
+      "resource_language_normalisation": {
+        "original_article_language": "en",
+        "original_internal_language": "en",
+        "chosen_language": "en",
+        "chosen_source": "pdf:body_language_guess",
+        "note": "Resource language normalised after comparing metadata, literal content, and PDF/body-language hints."
+      },
+      "false_multilingual_literals_removed": {
+        "title_variants": [
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Podagogy: turning podcast hype into real learning gains",
+            "dropped_source": "locale:it_IT:meta:citation_title",
+            "kept_source": "meta:citation_title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "en",
+            "value_preview": "Podagogia: trasformare l’entusiasmo per i podcast in reali vantaggi per l’apprendimento",
+            "dropped_source": "locale:en_US:meta:DC.Title.Alternative",
+            "kept_source": "meta:DC.Title"
+          },
+          {
+            "field": "title_variants",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Podagogia: trasformare l’entusiasmo per i podcast in reali vantaggi per l’apprendimento",
+            "dropped_source": "locale:it_IT:meta:DC.Title",
+            "kept_source": "meta:DC.Title"
+          }
+        ],
+        "descriptions": [
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "it",
+            "kept_lang": "en",
+            "value_preview": "Podcasts have become a popular medium for asynchronous learning, yet the efficacy of this approach remains a subject of debate. This integrative review synthesi",
+            "dropped_source": "locale:it_IT:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          },
+          {
+            "field": "descriptions",
+            "reason": "exact_duplicate_cross_language",
+            "dropped_lang": "en",
+            "kept_lang": "it",
+            "value_preview": "I podcast si sono affermati come un diffuso strumento per l’apprendimento asincrono, tuttavia la loro efficacia rimane un tema dibattuto. Questa revisione siste",
+            "dropped_source": "locale:en_US:meta:DC.Description",
+            "kept_source": "meta:DC.Description"
+          }
+        ],
+        "subjects": []
+      }
+    }
+  }
+}
