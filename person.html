@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Person - Borderland Education Network</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <div id="header-placeholder"></div>
@@ -25,7 +25,7 @@
       <section id="person-profile-section">
         <div class="grid-2" id="person-profile-grid">
           <div class="card">
-            <img id="person-picture" src="assets/images/placeholder.png" alt="" class="card-image person-card-image">
+            <img id="person-picture" src="/assets/images/placeholder.png" alt="" class="card-image person-card-image">
           </div>
 
           <div class="card">
@@ -42,9 +42,18 @@
 
   <div id="footer-placeholder"></div>
 
-  <script src="script.js"></script>
-  <script src="assets/data/people.js"></script>
+  <script src="/script.js"></script>
+  <script src="/assets/data/people.js"></script>
   <script>
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
     function fallbackRoleLabel(role) {
       const map = {
         "board": "Board member",
@@ -72,15 +81,6 @@
       return person.emailUser + "@" + person.emailDomain;
     }
 
-    function escapeHtml(value) {
-      return String(value || "")
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
-    }
-    
     function renderPersonPage() {
       const params = new URLSearchParams(window.location.search);
       const personId = params.get("id");
@@ -114,11 +114,11 @@
 
       document.title = person.name + " - Borderland Education Network";
 
-      heroTitle.textContent = person.name;
-      heroLead.textContent = person.bio || "";
+      heroTitle.textContent = "Profile";
+      heroLead.textContent = "Individual profile in the Borderland Education Network people directory.";
 
-      picture.src = person.picture || "assets/images/placeholder.png";
-      picture.alt = person.name;
+      picture.src = person.picture ? "/" + person.picture.replace(/^\/+/, "") : "/assets/images/placeholder.png";
+      picture.alt = person.name || "";
 
       if (person.picturePosition) {
         picture.style.objectPosition = person.picturePosition;
@@ -129,16 +129,16 @@
 
       const labels = getReadableRoleLabels(person);
       roleBlock.innerHTML = labels.length
-        ? "<strong>Roles:</strong> " + labels.join(" · ")
+        ? "<strong>Roles:</strong> " + labels.map(escapeHtml).join(" · ")
         : "";
 
-      bio.textContent = person.bio || "";
+      bio.innerHTML = person.bioHtml || escapeHtml(person.bio || "");
 
       const email = buildEmail(person);
       if (email) {
         emailBlock.innerHTML = '<button class="button secondary" id="reveal-email">Show email</button>';
         document.getElementById("reveal-email").addEventListener("click", function () {
-          emailBlock.innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
+          emailBlock.innerHTML = '<a href="mailto:' + escapeHtml(email) + '">' + escapeHtml(email) + '</a>';
         });
       } else {
         emailBlock.textContent = "";
@@ -147,6 +147,17 @@
 
     document.addEventListener("DOMContentLoaded", function () {
       renderPersonPage();
+
+      const backButton = document.getElementById("back-button");
+      if (backButton) {
+        backButton.addEventListener("click", function () {
+          if (document.referrer && new URL(document.referrer).origin === window.location.origin) {
+            window.history.back();
+          } else {
+            window.location.href = "/";
+          }
+        });
+      }
     });
   </script>
 </body>
