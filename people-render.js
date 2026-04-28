@@ -1,19 +1,28 @@
+function escapeHtml(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
 function buildPersonCard(person, role) {
   const label = person.roleLabels && person.roleLabels[role]
     ? person.roleLabels[role]
     : "";
 
   const objectPosition = person.picturePosition
-    ? ` style="object-position: ${person.picturePosition};"`
+    ? ` style="object-position: ${escapeHtml(person.picturePosition)};"`
     : "";
 
   return `
-    <a class="card card-link" href="person.html?id=${person.id}">
-      <img src="${person.picture}" alt="" class="card-image person-card-image"${objectPosition}>
-      <h3>${person.name}</h3>
-      <p class="meta">${person.academicTitle}</p>
-      ${label ? `<p>${label}</p>` : ""}
-      <p>${person.bio}</p>
+    <a class="card card-link" href="person.html?id=${encodeURIComponent(person.id)}">
+      <img src="${escapeHtml(person.picture)}" alt="" class="card-image person-card-image"${objectPosition}>
+      <h3>${escapeHtml(person.name)}</h3>
+      <p class="meta">${escapeHtml(person.academicTitle)}</p>
+      ${label ? `<p>${escapeHtml(label)}</p>` : ""}
+      <p>${escapeHtml(person.bio)}</p>
     </a>
   `;
 }
@@ -47,6 +56,6 @@ function initPeopleRendering() {
   renderPeopleGrid("scholarly-fellowship-cards", "scholarly-fellow");
 }
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
   initPeopleRendering();
 });
