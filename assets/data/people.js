@@ -9,24 +9,11 @@ const PEOPLE = [
       "digital-chapter": "Digital Chapter Coord."
     },
     bio: "Associate Professor of Education with more than a decade of experience in the Italian Academia and previous scholarly experience in Australia. His research focuses on heritage education in an ecopedagogical perspective, with particular attention to ultraperipheral and remote regions, and on migration studies connected to the phenomenon of Unaccompanied Minors in Europe.",
+    bioHtml: "Associate Professor of Education with more than a decade of experience in the Italian Academia and previous scholarly experience in Australia. His research focuses on heritage education in an ecopedagogical perspective, with particular attention to ultraperipheral and remote regions, and on migration studies connected to the phenomenon of Unaccompanied Minors in Europe.",
     picture: "assets/images/people/andrea-mattia-marcelli.png",
     picturePosition: "50% 20%",
     emailUser: "andrea.marcelli",
     emailDomain: "unimercatorum.it"
-  },
-  {
-    id: "test",
-    name: "Test Test",
-    academicTitle: "Prof., Habil., Ph.D.",
-    roles: ["board"],
-    roleLabels: {
-      board: "Board member"
-    },
-    bio: "Scholar and institutional leader active in education and migration-related work.",
-    picture: "assets/images/people/placeholder.png",
-    picturePosition: "50% 20%",
-    emailUser: "test",
-    emailDomain: "test.it"
   },
   {
     id: "rita-minello",
@@ -43,5 +30,20 @@ const PEOPLE = [
     picturePosition: "50% 20%",
     emailUser: "rita.minello",
     emailDomain: "unicusano.it"
+  },
+  {
+    id: "mario-rossi",
+    name: "Mario Rossi",
+    academicTitle: "Ph.D.",
+    roles: ["board"],
+    roleLabels: {
+      board: "Board member"
+    },
+    bio: "Placeholder profile for a future member of the Borderland Education Network. This entry is used only to preserve the layout and test the people directory.",
+    bioHtml: "Placeholder profile for a future member of the Borderland Education Network. This entry is used only to preserve the layout and test the people directory.",
+    picture: "assets/images/people/placeholder.png",
+    picturePosition: "50% 20%",
+    emailUser: "",
+    emailDomain: ""
   }
 ];
