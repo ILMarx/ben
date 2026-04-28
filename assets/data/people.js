@@ -37,7 +37,8 @@ const PEOPLE = [
       board: "Secretary",
       "gorizia-chapter": "Gorizia Chapter Coord."
     },
-    bio: "Associate Professor of Education, Rita boasts five decades of experience in education and training, of which 27 spent in the Academia. During her tenure, Rita coordinated various university courses in education. She currently directs the scientific journal 'Formazione & insegnamento' and is member of prestigious scientific and editorial committees.",
+    bio: "Associate Professor of Education, Rita boasts five decades of experience in education and training, of which 27 spent in the Academia. During her tenure, Rita coordinated various university courses in education. She currently directs the scientific journal Formazione & insegnamento and is member of prestigious scientific and editorial committees.",
+    bioHtml: "Associate Professor of Education, Rita boasts five decades of experience in education and training, of which 27 spent in the Academia. During her tenure, Rita coordinated various university courses in education. She currently directs the scientific journal <em>Formazione &amp; insegnamento</em> and is member of prestigious scientific and editorial committees.",
     picture: "assets/images/people/rita-minello.png",
     picturePosition: "50% 20%",
     emailUser: "rita.minello",
