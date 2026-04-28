@@ -41,6 +41,6 @@ const PEOPLE = [
     picture: "assets/images/people/rita-minello.png",
     picturePosition: "50% 20%",
     emailUser: "rita.minello",
-    emailDomain: "example.org"
+    emailDomain: "unicusano.it"
   }
 ];
