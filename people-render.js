@@ -52,6 +52,7 @@ function renderPeopleGrid(containerId, role) {
 
 function initPeopleRendering() {
   renderPeopleGrid("governance-cards", "board");
+  renderPeopleGrid("scientific-committee-cards", "scientific-committee");
   renderPeopleGrid("training-fellowship-cards", "training-fellow");
   renderPeopleGrid("scholarly-fellowship-cards", "scholarly-fellow");
 }
