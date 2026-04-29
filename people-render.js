@@ -7,6 +7,11 @@ function escapeHtml(value) {
     .replace(/'/g, "&#039;");
 }
 
+function buildOrcidLink(orcid) {
+  if (!orcid) return "";
+  return `<p class="meta"><a href="${escapeHtml(orcid)}" target="_blank" rel="noopener">ORCID</a></p>`;
+}
+
 function buildPersonCard(person, role) {
   const label = person.roleLabels && person.roleLabels[role]
     ? person.roleLabels[role]
@@ -21,7 +26,9 @@ function buildPersonCard(person, role) {
       <img src="${escapeHtml(person.picture)}" alt="" class="card-image person-card-image"${objectPosition}>
       <h3>${escapeHtml(person.name)}</h3>
       <p class="meta">${escapeHtml(person.academicTitle)}</p>
+      ${person.affiliation ? `<p class="meta">${escapeHtml(person.affiliation)}</p>` : ""}
       ${label ? `<p>${escapeHtml(label)}</p>` : ""}
+      ${buildOrcidLink(person.orcid)}
       <p>${escapeHtml(person.bio)}</p>
     </a>
   `;
