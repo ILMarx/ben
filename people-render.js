@@ -9,7 +9,12 @@ function escapeHtml(value) {
 
 function buildOrcidLink(orcid) {
   if (!orcid) return "";
-  return `<p class="meta"><a href="${escapeHtml(orcid)}" target="_blank" rel="noopener">ORCID</a></p>`;
+
+  return `
+    <p class="meta">
+      <a href="${escapeHtml(orcid)}" target="_blank" rel="noopener">ORCID</a>
+    </p>
+  `;
 }
 
 function buildPersonCard(person, role) {
@@ -17,30 +22,53 @@ function buildPersonCard(person, role) {
     ? person.roleLabels[role]
     : "";
 
+  const picture = person.picture
+    ? person.picture
+    : "assets/images/people/placeholder.png";
+
   const objectPosition = person.picturePosition
     ? ` style="object-position: ${escapeHtml(person.picturePosition)};"`
     : "";
 
+  const academicTitle = person.academicTitle
+    ? `<p class="meta">${escapeHtml(person.academicTitle)}</p>`
+    : "";
+
+  const affiliation = person.affiliation
+    ? `<p class="meta">${escapeHtml(person.affiliation)}</p>`
+    : "";
+
+  const roleLabel = label
+    ? `<p>${escapeHtml(label)}</p>`
+    : "";
+
+  const bio = person.bio
+    ? `<p>${escapeHtml(person.bio)}</p>`
+    : "";
+
   return `
     <a class="card card-link" href="person.html?id=${encodeURIComponent(person.id)}">
-      <img src="${escapeHtml(person.picture)}" alt="" class="card-image person-card-image"${objectPosition}>
+      <img src="${escapeHtml(picture)}" alt="" class="card-image person-card-image"${objectPosition}>
       <h3>${escapeHtml(person.name)}</h3>
-      <p class="meta">${escapeHtml(person.academicTitle)}</p>
-      ${person.affiliation ? `<p class="meta">${escapeHtml(person.affiliation)}</p>` : ""}
-      ${label ? `<p>${escapeHtml(label)}</p>` : ""}
+      ${academicTitle}
+      ${affiliation}
+      ${roleLabel}
       ${buildOrcidLink(person.orcid)}
-      <p>${escapeHtml(person.bio)}</p>
+      ${bio}
     </a>
   `;
 }
 
 function renderPeopleGrid(containerId, role) {
   const container = document.getElementById(containerId);
-  if (!container) return;
+
+  if (!container) {
+    return;
+  }
 
   if (typeof PEOPLE === "undefined" || !Array.isArray(PEOPLE)) {
     container.innerHTML = '<p class="note">People data could not be loaded.</p>';
-    console.error("PEOPLE is undefined or not an array.");
+    console.error("PEOPLE is undefined or not an array. Check that people.js is loaded before people-render.js.");
     return;
   }
 
@@ -54,7 +82,9 @@ function renderPeopleGrid(containerId, role) {
     return;
   }
 
-  container.innerHTML = filtered.map(person => buildPersonCard(person, role)).join("");
+  container.innerHTML = filtered
+    .map(person => buildPersonCard(person, role))
+    .join("");
 }
 
 function initPeopleRendering() {
@@ -64,6 +94,8 @@ function initPeopleRendering() {
   renderPeopleGrid("scholarly-fellowship-cards", "scholarly-fellow");
 }
 
-document.addEventListener("DOMContentLoaded", function () {
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initPeopleRendering);
+} else {
   initPeopleRendering();
-});
+}
