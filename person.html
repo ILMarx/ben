@@ -31,7 +31,9 @@
           <div class="card">
             <h3 id="person-name">Name Surname</h3>
             <p class="meta" id="person-title"></p>
+            <p class="meta" id="person-affiliation"></p>
             <p id="person-role-block"></p>
+            <p id="person-orcid-block"></p>
             <p id="person-bio"></p>
             <p id="person-email-block"></p>
           </div>
@@ -57,6 +59,7 @@
     function fallbackRoleLabel(role) {
       const map = {
         "board": "Board member",
+        "scientific-committee": "Scientific Committee member",
         "scholarly-fellow": "Scholarly Fellow",
         "training-fellow": "Training Fellow",
         "digital-chapter": "Responsible for the Digital Chapter",
@@ -90,7 +93,9 @@
       const picture = document.getElementById("person-picture");
       const name = document.getElementById("person-name");
       const title = document.getElementById("person-title");
+      const affiliation = document.getElementById("person-affiliation");
       const roleBlock = document.getElementById("person-role-block");
+      const orcidBlock = document.getElementById("person-orcid-block");
       const bio = document.getElementById("person-bio");
       const emailBlock = document.getElementById("person-email-block");
 
@@ -126,11 +131,18 @@
 
       name.textContent = person.name || "";
       title.textContent = person.academicTitle || "";
+      affiliation.textContent = person.affiliation || "";
 
       const labels = getReadableRoleLabels(person);
       roleBlock.innerHTML = labels.length
         ? "<strong>Roles:</strong> " + labels.map(escapeHtml).join(" · ")
         : "";
+
+      if (person.orcid) {
+        orcidBlock.innerHTML = '<strong>ORCID:</strong> <a href="' + escapeHtml(person.orcid) + '" target="_blank" rel="noopener">' + escapeHtml(person.orcid) + '</a>';
+      } else {
+        orcidBlock.textContent = "";
+      }
 
       bio.innerHTML = person.bioHtml || escapeHtml(person.bio || "");
 
