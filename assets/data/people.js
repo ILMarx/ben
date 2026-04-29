@@ -55,36 +55,36 @@ const PEOPLE = [
   {
     id: "andreyanna-ivanchenko",
     name: "Andreyanna Ivanchenko",
-    academicTitle: "Prof., Ph.D.",
-    affiliation: "Dragomanov Ukrainian State University; Kharkiv Institute, Interregional Academy of Personnel Management, Ukraine",
+    academicTitle: "Prof., Ph.D., Dr. Psychol. Sci.",
+    affiliation: "M. Dragomanov Ukrainian State University, Kyiv, Ukraine; Interregional Academy of Personnel Management, Kharkiv, Ukraine",
     orcid: "https://orcid.org/0000-0001-8470-4328",
     roles: ["scientific-committee"],
     roleLabels: {
       "scientific-committee": "Scientific Committee member"
     },
-    bio: "Scholar in psychology and education, with research interests connected to psychological resilience, psycho-emotional wellbeing, and educational processes.",
-    bioHtml: "Scholar in psychology and education, with research interests connected to psychological resilience, psycho-emotional wellbeing, and educational processes.",
-    picture: "assets/images/people/placeholder.png",
+    bio: "Full Professor of Psychology at M. Dragomanov Ukrainian State University in Kyiv and at the Kharkiv Institute of the Interregional Academy of Personnel Management. She holds a Ph.D. in General Psychology and a Doctor of Psychological Sciences degree. Her research focuses on creativity, self-development, crisis psychology, psycho-emotional trauma, stress resistance, psychosomatics, psycholinguistics, interpersonal relations, and alexithymia.",
+    bioHtml: "Full Professor of Psychology at M. Dragomanov Ukrainian State University in Kyiv and at the Kharkiv Institute of the Interregional Academy of Personnel Management. She holds a Ph.D. in General Psychology and a Doctor of Psychological Sciences degree. Her research focuses on creativity, self-development, crisis psychology, psycho-emotional trauma, stress resistance, psychosomatics, psycholinguistics, interpersonal relations, and alexithymia.",
+    picture: "assets/images/people/andreyanna-ivanchenko.png",
     picturePosition: "50% 20%",
-    emailUser: "",
-    emailDomain: ""
+    emailUser: "andreyan",
+    emailDomain: "libero.it"
   },
   {
-    id: "scientific-committee-placeholder-1",
-    name: "Scientific Committee Member 1",
-    academicTitle: "Ph.D.",
-    affiliation: "Affiliation to be confirmed",
-    orcid: "",
+    id: "vitalii-lunov",
+    name: "Vitalii Lunov",
+    academicTitle: "Assoc. Prof., Ph.D., D.H.C.",
+    affiliation: "Bogomolets National Medical University, Ukraine; G.S. Kostiuk Institute of Psychology, NAES of Ukraine",
+    orcid: "https://orcid.org/0000-0002-7085-8454",
     roles: ["scientific-committee"],
     roleLabels: {
       "scientific-committee": "Scientific Committee member"
     },
-    bio: "Placeholder profile for a future member of the Scientific Committee.",
-    bioHtml: "Placeholder profile for a future member of the Scientific Committee.",
-    picture: "assets/images/people/placeholder.png",
+    bio: "Associate Professor of General and Medical Psychology at Bogomolets National Medical University and leading research fellow at the G.S. Kostiuk Institute of Psychology of the National Academy of Educational Sciences of Ukraine. His work focuses on clinical and health psychology, psychotherapy, psychoanalytic psychology, neuropsychology, psychodiagnostics, experimental psychology, and research methodology.",
+    bioHtml: "Associate Professor of General and Medical Psychology at Bogomolets National Medical University and leading research fellow at the G.S. Kostiuk Institute of Psychology of the National Academy of Educational Sciences of Ukraine. His work focuses on clinical and health psychology, psychotherapy, psychoanalytic psychology, neuropsychology, psychodiagnostics, experimental psychology, and research methodology.",
+    picture: "assets/images/people/vitalii-lunov.png",
     picturePosition: "50% 20%",
-    emailUser: "",
-    emailDomain: ""
+    emailUser: "vitalii.lunov",
+    emailDomain: "gmail.com"
   },
   {
     id: "scientific-committee-placeholder-2",
