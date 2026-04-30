@@ -7,14 +7,10 @@ function escapeHtml(value) {
     .replace(/'/g, "&#039;");
 }
 
-function buildOrcidLink(orcid) {
-  if (!orcid) return "";
-
-  return `
-    <p class="meta">
-      <a href="${escapeHtml(orcid)}" target="_blank" rel="noopener">ORCID</a>
-    </p>
-  `;
+function normaliseAssetPath(path) {
+  if (!path) return "/assets/images/people/placeholder.png";
+  if (/^https?:\/\//i.test(path)) return path;
+  return "/" + String(path).replace(/^\/+/, "");
 }
 
 function buildPersonCard(person, role) {
@@ -22,9 +18,7 @@ function buildPersonCard(person, role) {
     ? person.roleLabels[role]
     : "";
 
-  const picture = person.picture
-    ? person.picture
-    : "assets/images/people/placeholder.png";
+  const picture = normaliseAssetPath(person.picture);
 
   const objectPosition = person.picturePosition
     ? ` style="object-position: ${escapeHtml(person.picturePosition)};"`
@@ -34,27 +28,16 @@ function buildPersonCard(person, role) {
     ? `<p class="meta">${escapeHtml(person.academicTitle)}</p>`
     : "";
 
-  const affiliation = person.affiliation
-    ? `<p class="meta">${escapeHtml(person.affiliation)}</p>`
-    : "";
-
   const roleLabel = label
     ? `<p>${escapeHtml(label)}</p>`
     : "";
 
-  const bio = person.bio
-    ? `<p>${escapeHtml(person.bio)}</p>`
-    : "";
-
   return `
-    <a class="card card-link" href="person.html?id=${encodeURIComponent(person.id)}">
+    <a class="card card-link" href="/person.html?id=${encodeURIComponent(person.id)}">
       <img src="${escapeHtml(picture)}" alt="" class="card-image person-card-image"${objectPosition}>
       <h3>${escapeHtml(person.name)}</h3>
       ${academicTitle}
-      ${affiliation}
       ${roleLabel}
-      ${buildOrcidLink(person.orcid)}
-      ${bio}
     </a>
   `;
 }
@@ -68,7 +51,7 @@ function renderPeopleGrid(containerId, role) {
 
   if (typeof PEOPLE === "undefined" || !Array.isArray(PEOPLE)) {
     container.innerHTML = '<p class="note">People data could not be loaded.</p>';
-    console.error("PEOPLE is undefined or not an array. Check that people.js is loaded before people-render.js.");
+    console.error("PEOPLE is undefined or not an array. Check that /assets/data/people.js is loaded before /people-render.js.");
     return;
   }
 
