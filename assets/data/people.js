@@ -136,5 +136,39 @@ const PEOPLE = [
     picturePosition: "50% 20%",
     emailUser: "",
     emailDomain: ""
-  }
-];
+  },
+  {
+    id: "tamo-chattopadhay",
+    name: "Tamo Chattopadhay",
+    academicTitle: "Prof., Ed.D.",
+    affiliation: "American University of Central Asia, Kyrgyzstan; Fundação Getulio Vargas, Brazil",
+    orcid: "https://orcid.org/0000-0001-8943-0960",
+    roles: ["scientific-committee"],
+    roleLabels: {
+      "scientific-committee": "Scientific Committee member"
+    },
+    bio: "Professor of Education and Founding Director of the Institute of Education at the American University of Central Asia, also affiliated with Fundação Getulio Vargas in Brazil. He holds an Ed.D. in International Educational Development from Teachers College, Columbia University. His research addresses comparative and international education policy, educational inequalities, social capital in schooling, public-private partnerships, and teacher professional development. His scholarship spans Latin America and Asia, including work on global learning and digital transformation in education. He has also advised international development organisations, including UNICEF, UNESCO, and the World Bank.",
+    bioHtml: "Professor of Education and Founding Director of the Institute of Education at the American University of Central Asia, also affiliated with Fundação Getulio Vargas in Brazil. He holds an Ed.D. in International Educational Development from Teachers College, Columbia University. His research addresses comparative and international education policy, educational inequalities, social capital in schooling, public-private partnerships, and teacher professional development. His scholarship spans Latin America and Asia, including work on global learning and digital transformation in education. He has also advised international development organisations, including UNICEF, UNESCO, and the World Bank.",
+    picture: "assets/images/people/placeholder.png",
+    picturePosition: "50% 20%",
+    emailUser: "tamo.chattopadhay",
+    emailDomain: "fgv.br"
+  },
+  {
+    id: "giancarlo-costabile",
+    name: "Giancarlo Costabile",
+    academicTitle: "Asst. Prof.",
+    affiliation: "Università della Calabria, Italy",
+    orcid: "https://orcid.org/0000-0002-7154-2363",
+    roles: ["scientific-committee"],
+    roleLabels: {
+      "scientific-committee": "Scientific Committee member"
+    },
+    bio: "Assistant Professor of Education at the University of Calabria, specialising in the history of education and anti-mafia pedagogy. His research integrates historical and philosophical inquiry with critical and transformative pedagogy, addressing organised crime, social inequalities, democratic citizenship, and educational emancipation. Drawing particularly on the intellectual legacies of Paulo Freire and Don Lorenzo Milani, his scholarship develops anti-mafia pedagogy through the concepts of educational reterritorialisation, social justice, and proximity rights. He coordinates educational initiatives connecting university teaching with community engagement and field-based experiences in Southern Italy.",
+    bioHtml: "Assistant Professor of Education at the University of Calabria, specialising in the history of education and anti-mafia pedagogy. His research integrates historical and philosophical inquiry with critical and transformative pedagogy, addressing organised crime, social inequalities, democratic citizenship, and educational emancipation. Drawing particularly on the intellectual legacies of Paulo Freire and Don Lorenzo Milani, his scholarship develops anti-mafia pedagogy through the concepts of educational reterritorialisation, social justice, and proximity rights. He coordinates educational initiatives connecting university teaching with community engagement and field-based experiences in Southern Italy.",
+    picture: "assets/images/people/giancarlo costabile.png",
+    picturePosition: "50% 20%",
+    emailUser: "giancarlo.costabile",
+    emailDomain: "unical.it"
+  },
+  ];
