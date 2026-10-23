@@ -104,40 +104,6 @@ const PEOPLE = [
     emailDomain: ""
   },
   {
-    id: "scientific-committee-placeholder-3",
-    name: "Scientific Committee Member 3",
-    academicTitle: "Ph.D.",
-    affiliation: "Affiliation to be confirmed",
-    orcid: "",
-    roles: ["scientific-committee"],
-    roleLabels: {
-      "scientific-committee": "Scientific Committee member"
-    },
-    bio: "Placeholder profile for a future member of the Scientific Committee.",
-    bioHtml: "Placeholder profile for a future member of the Scientific Committee.",
-    picture: "assets/images/people/placeholder.png",
-    picturePosition: "50% 20%",
-    emailUser: "",
-    emailDomain: ""
-  },
-  {
-    id: "scientific-committee-placeholder-4",
-    name: "Scientific Committee Member 4",
-    academicTitle: "Ph.D.",
-    affiliation: "Affiliation to be confirmed",
-    orcid: "",
-    roles: ["scientific-committee"],
-    roleLabels: {
-      "scientific-committee": "Scientific Committee member"
-    },
-    bio: "Placeholder profile for a future member of the Scientific Committee.",
-    bioHtml: "Placeholder profile for a future member of the Scientific Committee.",
-    picture: "assets/images/people/placeholder.png",
-    picturePosition: "50% 20%",
-    emailUser: "",
-    emailDomain: ""
-  },
-  {
     id: "tamo-chattopadhay",
     name: "Tamo Chattopadhay",
     academicTitle: "Prof., Ed.D.",
@@ -157,7 +123,7 @@ const PEOPLE = [
   {
     id: "giancarlo-costabile",
     name: "Giancarlo Costabile",
-    academicTitle: "Asst. Prof.",
+    academicTitle: "Asst. Prof., Ph.D.",
     affiliation: "Università della Calabria, Italy",
     orcid: "https://orcid.org/0000-0002-7154-2363",
     roles: ["scientific-committee"],
