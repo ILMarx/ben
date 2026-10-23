@@ -90,7 +90,7 @@ const PEOPLE = [
   {
     id: "mario-caligiuri",
     name: "Mario Caligiuri",
-    academicTitle: "Prof.",
+    academicTitle: "Prof., Ph.D.",
     affiliation: "Università della Calabria, Italy",
     orcid: "https://orcid.org/0000-0003-4841-1987",
     roles: ["scientific-committee"],
