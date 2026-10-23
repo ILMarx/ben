@@ -1,3 +1,4 @@
+
 function escapeHtml(value) {
   return String(value || "")
     .replace(/&/g, "&amp;")
@@ -11,6 +12,21 @@ function normaliseAssetPath(path) {
   if (!path) return "/assets/images/people/placeholder.png";
   if (/^https?:\/\//i.test(path)) return path;
   return "/" + String(path).replace(/^\/+/, "");
+}
+
+// Extract the surname from the last segment of the ID.
+// Example: "andreyanna-ivanchenko" -> "ivanchenko"
+function surnameFromId(person) {
+  const id = String(person.id || "");
+  return id.split("-").pop().toLowerCase();
+}
+
+// Detect placeholder records without deleting them from people.js.
+function isPlaceholder(person) {
+  const id = String(person.id || "");
+
+  return person.isPlaceholder === true ||
+    id.startsWith("scientific-committee-placeholder-");
 }
 
 function buildPersonCard(person, role) {
@@ -50,17 +66,49 @@ function renderPeopleGrid(containerId, role) {
   }
 
   if (typeof PEOPLE === "undefined" || !Array.isArray(PEOPLE)) {
-    container.innerHTML = '<p class="note">People data could not be loaded.</p>';
-    console.error("PEOPLE is undefined or not an array. Check that /assets/data/people.js is loaded before /people-render.js.");
+    container.innerHTML =
+      '<p class="note">People data could not be loaded.</p>';
+
+    console.error(
+      "PEOPLE is undefined or not an array. " +
+      "Check that /assets/data/people.js is loaded before /people-render.js."
+    );
+
     return;
   }
 
-  const filtered = PEOPLE.filter(person =>
-    Array.isArray(person.roles) && person.roles.includes(role)
+  let filtered = PEOPLE.filter(person =>
+    Array.isArray(person.roles) &&
+    person.roles.includes(role)
   );
 
+  // Scientific Committee only:
+  // - Hide placeholder members.
+  // - Sort actual members alphabetically by surname.
+  if (role === "scientific-committee") {
+    filtered = filtered.filter(person => !isPlaceholder(person));
+
+    filtered.sort((a, b) => {
+      const surnameComparison = surnameFromId(a).localeCompare(
+        surnameFromId(b),
+        "en",
+        { sensitivity: "base" }
+      );
+
+      // Secondary sorting by full ID if surnames are identical.
+      return surnameComparison ||
+        String(a.id).localeCompare(
+          String(b.id),
+          "en",
+          { sensitivity: "base" }
+        );
+    });
+  }
+
   if (filtered.length === 0) {
-    container.innerHTML = '<p class="note">No profiles are currently available.</p>';
+    container.innerHTML =
+      '<p class="note">No profiles are currently available.</p>';
+
     console.warn(`No people found for role: ${role}`);
     return;
   }
