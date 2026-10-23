@@ -86,23 +86,25 @@ const PEOPLE = [
     emailUser: "vitalii.lunov",
     emailDomain: "gmail.com"
   },
+  
   {
-    id: "scientific-committee-placeholder-2",
-    name: "Scientific Committee Member 2",
-    academicTitle: "Ph.D.",
-    affiliation: "Affiliation to be confirmed",
-    orcid: "",
+    id: "mario-caligiuri",
+    name: "Mario Caligiuri",
+    academicTitle: "Prof.",
+    affiliation: "Università della Calabria, Italy",
+    orcid: "https://orcid.org/0000-0003-4841-1987",
     roles: ["scientific-committee"],
     roleLabels: {
       "scientific-committee": "Scientific Committee member"
     },
-    bio: "Placeholder profile for a future member of the Scientific Committee.",
-    bioHtml: "Placeholder profile for a future member of the Scientific Committee.",
-    picture: "assets/images/people/placeholder.png",
+    bio: "Full Professor of General and Social Pedagogy at the University of Calabria, specialising in the pedagogy of communication. He directs the postgraduate Master's programme in Intelligence, which he established in 2007, and serves as President of the Italian Society of Intelligence. His interdisciplinary research examines education and democratic citizenship, media and disinformation, educational inequalities, artificial intelligence, and the relationships between knowledge, public communication, and national security. His scholarship also addresses educational policy, Southern Italy, and the pedagogical dimensions of organised crime. Through his academic and editorial activities, he promotes the integration of intelligence studies, critical thinking, and education as foundations for democratic participation and informed decision-making.",
+    bioHtml: "Full Professor of General and Social Pedagogy at the University of Calabria, specialising in the pedagogy of communication. He directs the postgraduate Master's programme in Intelligence, which he established in 2007, and serves as President of the Italian Society of Intelligence. His interdisciplinary research examines education and democratic citizenship, media and disinformation, educational inequalities, artificial intelligence, and the relationships between knowledge, public communication, and national security. His scholarship also addresses educational policy, Southern Italy, and the pedagogical dimensions of organised crime. Through his academic and editorial activities, he promotes the integration of intelligence studies, critical thinking, and education as foundations for democratic participation and informed decision-making.",
+    picture: "assets/images/people/mario caligiuri.png",
     picturePosition: "50% 20%",
-    emailUser: "",
-    emailDomain: ""
+    emailUser: "mario.caligiuri",
+    emailDomain: "unical.it"
   },
+  
   {
     id: "tamo-chattopadhay",
     name: "Tamo Chattopadhay",
