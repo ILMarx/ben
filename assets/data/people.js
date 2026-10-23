@@ -117,7 +117,7 @@ const PEOPLE = [
     },
     bio: "Professor of Education and Founding Director of the Institute of Education at the American University of Central Asia, also affiliated with Fundação Getulio Vargas in Brazil. He holds an Ed.D. in International Educational Development from Teachers College, Columbia University. His research addresses comparative and international education policy, educational inequalities, social capital in schooling, public-private partnerships, and teacher professional development. His scholarship spans Latin America and Asia, including work on global learning and digital transformation in education. He has also advised international development organisations, including UNICEF, UNESCO, and the World Bank.",
     bioHtml: "Professor of Education and Founding Director of the Institute of Education at the American University of Central Asia, also affiliated with Fundação Getulio Vargas in Brazil. He holds an Ed.D. in International Educational Development from Teachers College, Columbia University. His research addresses comparative and international education policy, educational inequalities, social capital in schooling, public-private partnerships, and teacher professional development. His scholarship spans Latin America and Asia, including work on global learning and digital transformation in education. He has also advised international development organisations, including UNICEF, UNESCO, and the World Bank.",
-    picture: "assets/images/people/tamo chattopadhay.png",
+    picture: "assets/images/people/tamo-chattopadhay.png",
     picturePosition: "50% 20%",
     emailUser: "tamo.chattopadhay",
     emailDomain: "fgv.br"
