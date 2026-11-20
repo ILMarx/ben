@@ -56,7 +56,7 @@ const PEOPLE = [
     id: "andreyanna-ivanchenko",
     name: "Andreyanna Ivanchenko",
     academicTitle: "Prof., Ph.D., Dr. Psychol. Sci.",
-    affiliation: "M. Dragomanov Ukrainian State University, Kyiv, Ukraine; Interregional Academy of Personnel Management, Kharkiv, Ukraine",
+    affiliation: "M. Dragomanov Ukrainian State University, Kyiv, Ukraine; Kharkiv Institute “Interregional Academy of Personnel Management”, Kharkiv, Ukraine",
     orcid: "https://orcid.org/0000-0001-8470-4328",
     roles: ["scientific-committee"],
     roleLabels: {
