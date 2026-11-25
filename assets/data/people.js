@@ -62,8 +62,8 @@ const PEOPLE = [
     roleLabels: {
       "scientific-committee": "Scientific Committee member"
     },
-    bio: "Full Professor of Psychology at M. Dragomanov Ukrainian State University in Kyiv and at the Kharkiv Institute of the Interregional Academy of Personnel Management. She holds a Ph.D. in General Psychology and a Doctor of Psychological Sciences degree. Her research focuses on creativity, self-development, crisis psychology, psycho-emotional trauma, stress resistance, psychosomatics, psycholinguistics, interpersonal relations, and alexithymia.",
-    bioHtml: "Full Professor of Psychology at M. Dragomanov Ukrainian State University in Kyiv and at the Kharkiv Institute of the Interregional Academy of Personnel Management. She holds a Ph.D. in General Psychology and a Doctor of Psychological Sciences degree. Her research focuses on creativity, self-development, crisis psychology, psycho-emotional trauma, stress resistance, psychosomatics, psycholinguistics, interpersonal relations, and alexithymia.",
+    bio: "Full Professor of Psychology at M. Dragomanov Ukrainian State University in Kyiv and at the Kharkiv Institute “Interregional Academy of Personnel Management” (Kharkiv, Ukraine). She holds a Ph.D. in General Psychology and a Doctor of Psychological Sciences degree. Her research focuses on creativity, self-development, crisis psychology, psycho-emotional trauma, stress resistance, psychosomatics, psycholinguistics, interpersonal relations, and alexithymia.",
+    bioHtml: "Full Professor of Psychology at M. Dragomanov Ukrainian State University in Kyiv and at the Kharkiv Institute “Interregional Academy of Personnel Management” (Kharkiv, Ukraine). She holds a Ph.D. in General Psychology and a Doctor of Psychological Sciences degree. Her research focuses on creativity, self-development, crisis psychology, psycho-emotional trauma, stress resistance, psychosomatics, psycholinguistics, interpersonal relations, and alexithymia.",
     picture: "assets/images/people/andreyanna-ivanchenko.png",
     picturePosition: "50% 20%",
     emailUser: "andreyan",
